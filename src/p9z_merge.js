@@ -4,3 +4,7 @@ NEW_A.forEach(n=>{const i=READINGS.findIndex(r=>r.id===n.id);if(i>=0)READINGS[i]
 FC.push(...FC_A,...FC_B,...FC_C,...FC_D);
 MCQ.push(...MCQ_A,...MCQ_B,...MCQ_C,...MCQ_D);
 OPEN.push(...OPEN_A,...OPEN_B,...OPEN_C,...OPEN_D);
+/* Madden & Marcuse is not a syllabus reading: drop its page (the HC4 slide quote stays in the Marx example) */
+{const i=READINGS.findIndex(r=>r.id==="mm");if(i>=0)READINGS.splice(i,1);}
+for(const A of [FC]){for(let i=A.length-1;i>=0;i--)if(A[i][0]==="mm")A.splice(i,1);}
+for(const A of [MCQ,OPEN]){for(let i=A.length-1;i>=0;i--)if(A[i].t==="mm")A.splice(i,1);}
