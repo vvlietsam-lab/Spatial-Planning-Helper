@@ -122,6 +122,8 @@ function vWeeks(){const cw=curWeek(),k=dkey(new Date());
 function vReadings(){if(sub&&R[sub])return vReading(R[sub]);
   return `<div class="fade"><p class="eyebrow">${READINGS.length} readings · weeks 1–4 midterm, 6–7 final</p><h2 class="serif">Readings</h2><p class="lede">Summary, concepts, figure, example, framework position and exam angle for each. The chip shows what the page is built from.</p>
   ${[1,2,3,4,6,7].map(w=>`${w===6?'<div class="divider"></div><p class="eyebrow" style="margin-top:18px">After the midterm · final exam material</p>':''}<div class="wkhead"><b>Week ${w}</b><span class="eyebrow">${esc(WEEKS[w-1].title)}</span></div><div class="list">${READINGS.filter(r=>r.wk===w).map(r=>item(r)).join('')}</div>`).join('')}</div>`;}
+function exList(a){if(!a||!a.length)return "";const lab={text:"In the text",slides:"From the slides",similar:"Similar case · not in the text"},cls={text:"full",slides:"slides",similar:"plain"};
+  return `<div class="exl">${a.map(e=>`<div class="exi"><div class="row between"><b>${esc(e.t)}</b><span class="chip ${cls[e.src]||"plain"}">${lab[e.src]||""}${e.p?" · "+esc(e.p):""}</span></div><p>${esc(e.d)}</p></div>`).join("")}</div>`;}
 function dimRows(d){if(!d||[d.sa,d.rt,d.de,d.us,d.mp].every(x=>x==null))return '<p class="small mut">Framework or overview reading, so no single position.</p>';
   const L=[["sa","Structure","Agency"],["rt","Reproduction","Transformation"],["de","Deliberate","Emergent"],["us","Universal","Situated"],["mp","Monist","Pluralist"]];
   return `<div class="dims">${L.map(([k,a,b])=>d[k]==null?'':`<div class="dim"><div class="lab"><span>${a}</span><span>${b}</span></div><div class="scale"><span style="left:${d[k]}%"></span></div></div>`).join('')}</div><p class="small" style="margin-top:12px"><b>Normative:</b> ${esc(d.norm||'')}</p>`;}
@@ -137,7 +139,7 @@ function vReading(r){const s=topicStats(r.id),nq=QS.filter(q=>q.t===r.id).length
    ${r.fig?`<figure class="fig">${r.fig}<figcaption>${esc(r.cap)}</figcaption></figure>`:''}
    <h3>Key concepts</h3><dl class="concepts">${r.concepts.map(([a,b])=>`<div><dt>${esc(a)}</dt><dd>${esc(b)}</dd></div>`).join('')}</dl>
    ${r.table?`<h3>Table</h3><div class="tbl"><table><thead><tr>${r.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${r.table.rows.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}
-   <h3>Example</h3><p>${esc(r.example)}</p>
+   <h3>Example${r.examples&&r.examples.length?"s":""}</h3><p>${esc(r.example)}</p>${exList(r.examples)}
    ${r.quotes.length?`<h3>Quotes to know</h3>${r.quotes.map(q=>`<blockquote>${esc(q)}</blockquote>`).join('')}`:''}
    <h3>Exam angle</h3><div class="note">${esc(r.exam)}</div>
    <div class="row between" style="margin-top:28px">${prev?`<button class="btn sm" data-go="readings" data-sub="${prev.id}">${ic('left')} ${esc(short(prev).slice(0,28))}</button>`:'<span></span>'}${next?`<button class="btn sm" data-go="readings" data-sub="${next.id}">${esc(short(next).slice(0,28))} →</button>`:''}</div>

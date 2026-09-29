@@ -142,6 +142,7 @@ function vPSCLecture(){const l=PSC.find(x=>x.id===sub)||PSC[0],L=PSC_LECTURES[l.
    <p class="oneliner">${esc(m.one)}</p>
    <h4>Summary</h4>${m.summary.map(p=>`<p>${esc(p)}</p>`).join('')}
    <h4>Key concepts</h4><dl class="concepts">${m.concepts.map(([a,b])=>`<div><dt>${esc(a)}</dt><dd>${esc(b)}</dd></div>`).join('')}</dl>
+   ${m.examples&&m.examples.length?`<h4>Examples</h4>${exList(m.examples)}`:''}
    ${m.quotes&&m.quotes.length?`<h4>Quotes to know</h4>${m.quotes.map(q=>`<blockquote>${esc(q)}</blockquote>`).join('')}`:''}
    ${l.rec.length?`<div class="divider"></div><p class="eyebrow">Recommended literature · ${l.rec.length}</p><p class="small mut" style="max-width:68ch">You don't need to know these in depth, but the slides draw on them, so the exam can too. For each: the abstract, then what the slides take from it.</p>
    ${l.rec.map(r=>`<div class="card" style="margin-top:12px"><div class="row between"><b style="max-width:60ch">${esc(r.cite)}</b>${bchip(r.basis)}</div>${doi(r.doi)}

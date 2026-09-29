@@ -248,3 +248,5 @@ const PSC_ESSAY=[
 
 /* merge PSC study material into the shared banks (scoped per course in the UI) */
 FC.push(...PSC_FC);OPEN.push(...PSC_ESSAY);
+
+PSC.forEach(l=>{if(EX_4[l.id])l.man.examples=EX_4[l.id];});
