@@ -10,3 +10,5 @@ for(const A of [FC]){for(let i=A.length-1;i>=0;i--)if(A[i][0]==="mm")A.splice(i,
 for(const A of [MCQ,OPEN]){for(let i=A.length-1;i>=0;i--)if(A[i].t==="mm")A.splice(i,1);}
 /* extra examples (from the text, the slides, or a clearly flagged similar case) */
 {const EXX=Object.assign({},EX_1,EX_2,EX_3);READINGS.forEach(r=>{if(EXX[r.id])r.examples=EXX[r.id];});}
+/* extended summaries + missing tables/figures */
+{const E=Object.assign({},EXT_1,EXT_2,EXT_3,EXT_4,EXT_5);READINGS.forEach(r=>{const e=E[r.id];if(!e)return;r.ext=e.ext;if(e.table&&!r.table)r.table=e.table;if(e.fig&&!r.fig){r.fig=e.fig;r.cap=e.cap;}});}

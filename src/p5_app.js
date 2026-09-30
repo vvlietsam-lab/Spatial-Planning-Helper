@@ -122,6 +122,19 @@ function vWeeks(){const cw=curWeek(),k=dkey(new Date());
 function vReadings(){if(sub&&R[sub])return vReading(R[sub]);
   return `<div class="fade"><p class="eyebrow">${READINGS.length} readings · weeks 1–4 midterm, 6–7 final</p><h2 class="serif">Readings</h2><p class="lede">Summary, concepts, figure, example, framework position and exam angle for each. The chip shows what the page is built from.</p>
   ${[1,2,3,4,6,7].map(w=>`${w===6?'<div class="divider"></div><p class="eyebrow" style="margin-top:18px">After the midterm · final exam material</p>':''}<div class="wkhead"><b>Week ${w}</b><span class="eyebrow">${esc(WEEKS[w-1].title)}</span></div><div class="list">${READINGS.filter(r=>r.wk===w).map(r=>item(r)).join('')}</div>`).join('')}</div>`;}
+let SM="short";try{SM=localStorage.getItem("sp-sm")||"short"}catch(e){}
+function sumBlock(short,ext,H){const has=ext&&ext.length,mode=has?SM:"short";
+  const words=has?ext.flatMap(x=>x.p).join(" ").split(/\s+/).length:0,mins=Math.max(1,Math.round(words/230));
+  const tog=has?`<div class="seg sumtog" role="tablist"><button data-sm="short" aria-pressed="${mode==="short"}">Summary</button><button data-sm="ext" aria-pressed="${mode==="ext"}">Extended · ${mins} min</button></div>`:"";
+  const head=`<div class="row between sumhead"><${H} style="margin:0">${mode==="ext"?"Extended summary":"Summary"}</${H}>${tog}</div>`;
+  if(mode!=="ext")return head+short.map(p=>`<p>${esc(p)}</p>`).join("");
+  return head+`<div class="extwrap"><p class="small mut">${words.toLocaleString("en-GB")} words · about ${mins} minutes. Follows the text section by section; page numbers in brackets. The last section is a synthesis linking it to the course, not the author's claim.</p>
+   <nav class="toc">${ext.map((x,i)=>`<a href="#" data-toc="${i}">${esc(x.h)}</a>`).join("")}</nav>
+   ${ext.map((x,i)=>`<section class="exts" id="ext${i}"><h4><span class="extn">${String(i+1).padStart(2,"0")}</span>${esc(x.h)}</h4>${x.p.map(p=>`<p>${esc(p)}</p>`).join("")}</section>`).join("")}
+   <div class="row" style="margin-top:14px"><button class="btn sm" data-sm="short">${ic('left')} Back to the short summary</button></div></div>`;}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-sm]");if(b){SM=b.dataset.sm;try{localStorage.setItem("sp-sm",SM)}catch(_){}
+  const h=document.querySelector(".sumhead");const y=h?h.getBoundingClientRect().top+scrollY-80:null;render();if(y!=null&&b.closest(".extwrap"))scrollTo({top:y,behavior:"smooth"});return;}
+  const t=e.target.closest("[data-toc]");if(t){e.preventDefault();const el=document.getElementById("ext"+t.dataset.toc);if(el)scrollTo({top:el.getBoundingClientRect().top+scrollY-70,behavior:"smooth"});}});
 function exList(a){if(!a||!a.length)return "";const lab={text:"In the text",slides:"From the slides",similar:"Similar case · not in the text"},cls={text:"full",slides:"slides",similar:"plain"};
   return `<div class="exl">${a.map(e=>`<div class="exi"><div class="row between"><b>${esc(e.t)}</b><span class="chip ${cls[e.src]||"plain"}">${lab[e.src]||""}${e.p?" · "+esc(e.p):""}</span></div><p>${esc(e.d)}</p></div>`).join("")}</div>`;}
 function dimRows(d){if(!d||[d.sa,d.rt,d.de,d.us,d.mp].every(x=>x==null))return '<p class="small mut">Framework or overview reading, so no single position.</p>';
@@ -135,7 +148,7 @@ function vReading(r){const s=topicStats(r.id),nq=QS.filter(q=>q.t===r.id).length
   <div class="rgrid"><div style="min-width:0">
    <p class="oneliner">${esc(r.one)}</p>
    <div class="flat" style="margin-bottom:6px"><div class="row between"><b>Recall first</b><span class="small mut">write, then read on</span></div><p class="small mut" style="margin:4px 0 8px">Argument in one sentence, three concepts, and where it sits on the framework.</p><textarea data-note="${r.id}" placeholder="What do you remember about ${esc(short(r))}?">${esc(S.notes[r.id]||'')}</textarea><div class="row" style="margin-top:6px"><label class="check"><input type="checkbox" data-recall="${r.id}" ${S.recall[r.id]?'checked':''}><span>Recall done</span></label><label class="check"><input type="checkbox" data-read="${r.id}" ${S.read[r.id]?'checked':''}><span>Read the text itself</span></label></div></div>
-   <h3>Summary</h3>${r.summary.map(p=>`<p>${esc(p)}</p>`).join('')}
+   ${sumBlock(r.summary,r.ext,"h3")}
    ${r.fig?`<figure class="fig">${r.fig}<figcaption>${esc(r.cap)}</figcaption></figure>`:''}
    <h3>Key concepts</h3><dl class="concepts">${r.concepts.map(([a,b])=>`<div><dt>${esc(a)}</dt><dd>${esc(b)}</dd></div>`).join('')}</dl>
    ${r.table?`<h3>Table</h3><div class="tbl"><table><thead><tr>${r.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${r.table.rows.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}

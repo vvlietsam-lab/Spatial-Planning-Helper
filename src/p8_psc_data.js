@@ -250,3 +250,4 @@ const PSC_ESSAY=[
 FC.push(...PSC_FC);OPEN.push(...PSC_ESSAY);
 
 PSC.forEach(l=>{if(EX_4[l.id])l.man.examples=EX_4[l.id];});
+{const E=Object.assign({},EXT_6,EXT_7);PSC.forEach(l=>{const e=E[l.id];if(!e)return;l.man.ext=e.ext;if(e.table&&!l.table)l.table=e.table;if(e.fig&&!l.fig){l.fig=e.fig;l.cap=e.cap;}});}

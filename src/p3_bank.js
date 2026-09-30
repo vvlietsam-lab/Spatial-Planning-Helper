@@ -1,6 +1,6 @@
 const FC = [
 // fw
-["fw","Two definitions of theory used in the course","'A body of assumptions, of which the mutual relations have been made explicit' (Føllesdal et al. 1990) and 'a heuristic aid to understand a situation… essentially unknowable in its completeness' (Rydin 2021, p. 9)."],
+["fw","Two definitions of theory used in the course","'A body of assumptions, of which the mutual relations have been made explicit' (Føllesdal et al. 1990) and 'a heuristic aid to understanding a situation… essentially unknowable in its completeness' (Rydin 2021, p. 9)."],
 ["fw","The four dimensions of the course framework","1 Sources of outcomes (structure↔agency) · 2 Reproduction & change (reproduction↔transformation; deliberate↔emergent) · 3 Knowledge (universal↔situated; monist↔pluralist; + realism↔relativism) · 4 Normative commitments."],
 ["fw","Structure vs agency: definitions","Structure = recurrent, patterned arrangements that limit choices and opportunities. Agency = capacity of individuals to act independently and exercise free will."],
 ["fw","Three kinds of claims theories make","Explanatory (how/why), evaluative (is it fair/good), prescriptive (what should planners do)."],

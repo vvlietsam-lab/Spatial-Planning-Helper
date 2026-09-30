@@ -137,10 +137,11 @@ function vPSCLecture(){const l=PSC.find(x=>x.id===sub)||PSC[0],L=PSC_LECTURES[l.
   <div class="rgrid"><div style="min-width:0">
    <h3>What the lecture said</h3>${l.lecture.map(p=>`<p>${esc(p)}</p>`).join('')}
    ${l.fig?`<figure class="fig">${l.fig}<figcaption>${esc(l.cap||'')}</figcaption></figure>`:''}
+   ${l.table?`<div class="tbl"><table><thead><tr>${l.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${l.table.rows.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}
    <div class="divider"></div>
    <p class="eyebrow">Mandatory reading</p><h3 style="margin-top:4px">${esc(m.cite)}</h3>${doi(L.man.doi)}
    <p class="oneliner">${esc(m.one)}</p>
-   <h4>Summary</h4>${m.summary.map(p=>`<p>${esc(p)}</p>`).join('')}
+   ${sumBlock(m.summary,m.ext,"h4")}
    <h4>Key concepts</h4><dl class="concepts">${m.concepts.map(([a,b])=>`<div><dt>${esc(a)}</dt><dd>${esc(b)}</dd></div>`).join('')}</dl>
    ${m.examples&&m.examples.length?`<h4>Examples</h4>${exList(m.examples)}`:''}
    ${m.quotes&&m.quotes.length?`<h4>Quotes to know</h4>${m.quotes.map(q=>`<blockquote>${esc(q)}</blockquote>`).join('')}`:''}

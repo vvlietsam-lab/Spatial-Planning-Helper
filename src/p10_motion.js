@@ -36,7 +36,7 @@ render=function(){
   _renderBase();
   const app=$("#app");
   if(nav&&!RM.matches){app.classList.remove("enter");void app.offsetWidth;app.classList.add("enter");stagger(app);animateMeters(app);reveal(app);clearTimeout(render._t);render._t=setTimeout(()=>app.classList.remove("enter"),1600);}
-  navPill();
+  navPill();readProgress();
   _greens=greenSet();
   if(before){const fresh=[..._greens].filter(id=>!before.has(id));if(fresh.length){confetti();toast(`${short(R[fresh[0]])} is green ✓`);}}
 };
@@ -47,4 +47,7 @@ rate=function(r){const fc=$("#fcard");if(!fc||RM.matches){_rateBase(r);return;}i
 /* tiles: cursor spotlight + gentle tilt */
 document.addEventListener("pointermove",e=>{const t=e.target.closest&&e.target.closest(".tile");if(!t||RM.matches)return;const b=t.getBoundingClientRect(),x=(e.clientX-b.left)/b.width,y=(e.clientY-b.top)/b.height;
   t.style.setProperty("--mx",x*100+"%");t.style.setProperty("--my",y*100+"%");t.style.setProperty("--rx",((x-.5)*5).toFixed(2)+"deg");t.style.setProperty("--ry",((.5-y)*5).toFixed(2)+"deg");},{passive:true});
-addEventListener("scroll",()=>document.body.classList.toggle("scrolled",scrollY>8),{passive:true});
+function readProgress(){let bar=document.querySelector(".readbar");const w=document.querySelector(".extwrap");
+  if(!w){if(bar)bar.style.opacity=0;return;}if(!bar){bar=document.createElement("div");bar.className="readbar";document.body.appendChild(bar);}
+  const r=w.getBoundingClientRect(),tot=r.height-innerHeight*.6,done=Math.min(1,Math.max(0,(-r.top+innerHeight*.3)/Math.max(1,tot)));bar.style.opacity=1;bar.style.transform=`scaleX(${done})`;}
+addEventListener("scroll",()=>{document.body.classList.toggle("scrolled",scrollY>8);readProgress();},{passive:true});
