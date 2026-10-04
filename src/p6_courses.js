@@ -64,22 +64,24 @@ function vHome(){const ov=overall(),due=dueCards().length,mast=BR().filter(r=>to
   return `<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="home fade">
   <header class="hhead"><div class="row" style="gap:10px"><div class="logo">SP</div><b>Spatial Planner helper</b></div><div class="row"><span class="small mut hide-sm">${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</span><button class="kbtn" style="width:auto;margin:0" data-pal="1">${ic('search')}<kbd>⌘K</kbd></button></div></header>
   <section class="hhero"><p class="eyebrow">MSc Spatial Planning · Period 1 · Utrecht University</p>
-   <h1 class="mega"><span class="ln" style="--i:0"><span>Spatial Planner</span></span><span class="ln" style="--i:1"><span>helper.</span></span></h1>
-   <p class="hsub">Summaries, figures, flashcards, quizzes and exam practice for the MSc Spatial Planning at Utrecht University. Pick a course.</p></section>
+   <h1 class="mega"><span class="ln" style="--i:0"><span>Spatial Planner</span></span><span class="ln" style="--i:1"><span class="hscript">helper<svg class="scrib" viewBox="0 0 300 40" preserveAspectRatio="none" aria-hidden="true"><path d="M4 28 C 60 10, 120 36, 180 18 S 270 8, 296 22"/></svg></span></span></h1>
+   <p class="hsub">Summaries, figures, flashcards, quizzes and exam practice for the MSc Spatial Planning at Utrecht University. Pick a course.</p>
+   <div class="hcount">${[[daysLeft(),"days to the BPT midterm"],[due,"cards due today"],[dleft(PSC_EXAM),"days to the PSC exam"]].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')}</div></section>
+  ${(()=>{const it=["BPT midterm · Thu 8 Oct","Retrieval beats rereading","PSC exam · Mon 26 Oct","Structure ↔ agency","Spaced repetition","Studio plan · Wed 7 Oct","Theory is a heuristic aid","Interleave your practice"];const row=c=>`<div class="mtrack ${c}">${[...it,...it].map(x=>`<span>${x}</span><i>✦</i>`).join('')}</div>`;return `<div class="marquee" aria-hidden="true">${row('')}${row('rev')}</div>`;})()}
   <section class="tiles">
-   <button class="tile t-bpt" data-go="today"><div class="tglow"></div>
+   <button class="tile t-bpt" data-go="today"><div class="tglow"></div><span class="tidx">01</span>
     <div class="row between"><span class="tcode">GEO4-3115</span><span class="tpill">Midterm in ${daysLeft()} days</span></div>
     <div class="tname">Beyond<br>Planning Theory</div>
     <div class="tmeta">Rational planning · rational choice · neo-institutionalism · knowledge</div>
     <div class="tstats"><div>${ring(ov,'lg')}</div><div class="tnums"><div><b>${mast}<small>/${BR().length}</small></b><span>readings mastered</span></div><div><b>${due}</b><span>cards due</span></div><div><b>${streak()}</b><span>day streak</span></div></div></div>
     <span class="tcta">Continue studying →</span></button>
-   <button class="tile t-psc" data-go="psc"><div class="tglow"></div>
+   <button class="tile t-psc" data-go="psc"><div class="tglow"></div><span class="tidx">02</span>
     <div class="row between"><span class="tcode">GEO4-3124</span><span class="tpill">Exam in ${dleft(PSC_EXAM)} days</span></div>
     <div class="tname">Planning for<br>Sustainable Cities</div>
     <div class="tmeta">Planning dilemmas · global planning systems · transitions · post-growth · nature</div>
     <div class="tstats"><div>${ring(pscStats().m,'lg')}</div><div class="tnums"><div><b>${pscStats().mast}<small>/13</small></b><span>lectures mastered</span></div><div><b>${pscStats().due}</b><span>cards due</span></div><div><b>${PSC_ESSAY.length}</b><span>essay drills</span></div></div></div>
     <span class="tcta">Continue studying →</span></button>
-   <button class="tile t-std" data-go="studio"><div class="tglow"></div>
+   <button class="tile t-std" data-go="studio"><div class="tglow"></div><span class="tidx">03</span>
     <div class="row between"><span class="tcode">GEO4-3127</span><span class="tpill">Plan due in ${dleft(new Date("2026-10-07T17:00:00+02:00"))} days</span></div>
     <div class="tname">Graduate<br>Planning Studio</div>
     <div class="tmeta">Just Cities · research plan → report → product → symposium</div>

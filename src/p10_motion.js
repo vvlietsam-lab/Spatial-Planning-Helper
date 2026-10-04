@@ -36,7 +36,7 @@ render=function(){
   _renderBase();
   const app=$("#app");
   if(nav&&!RM.matches){app.classList.remove("enter");void app.offsetWidth;app.classList.add("enter");stagger(app);animateMeters(app);reveal(app);clearTimeout(render._t);render._t=setTimeout(()=>app.classList.remove("enter"),1600);}
-  navPill();readProgress();
+  navPill();readProgress();if(nav){const cr=document.querySelector(".cur-ring");if(cr)cr.classList.remove("big");}
   _greens=greenSet();
   if(before){const fresh=[..._greens].filter(id=>!before.has(id));if(fresh.length){confetti();toast(`${short(R[fresh[0]])} is green ✓`);}}
 };
@@ -51,3 +51,15 @@ function readProgress(){let bar=document.querySelector(".readbar");const w=docum
   if(!w){if(bar)bar.style.opacity=0;return;}if(!bar){bar=document.createElement("div");bar.className="readbar";document.body.appendChild(bar);}
   const r=w.getBoundingClientRect(),tot=r.height-innerHeight*.6,done=Math.min(1,Math.max(0,(-r.top+innerHeight*.3)/Math.max(1,tot)));bar.style.opacity=1;bar.style.transform=`scaleX(${done})`;}
 addEventListener("scroll",()=>{document.body.classList.toggle("scrolled",scrollY>8);readProgress();},{passive:true});
+
+/* home: custom cursor + magnetic CTA (desktop only) */
+(function(){if(!matchMedia("(pointer:fine)").matches||RM.matches)return;
+  const d=document.createElement("div"),r=document.createElement("div");d.className="cur-dot";r.className="cur-ring";document.body.append(d,r);
+  let x=-100,y=-100,rx=-100,ry=-100;
+  addEventListener("pointermove",e=>{x=e.clientX;y=e.clientY;document.body.classList.add("has-cursor");
+    const t=e.target.closest&&e.target.closest(".tile");r.classList.toggle("big",!!t);
+    if(t){const c=t.querySelector(".tcta");if(c){const b=c.getBoundingClientRect(),dx=x-(b.left+b.width/2),dy=y-(b.top+b.height/2),dist=Math.hypot(dx,dy);
+      if(dist<160){c.style.transform=`translate(${dx*.18}px,${dy*.18}px)`;}else c.style.transform="";}}
+    document.querySelectorAll(".tile .tcta").forEach(c=>{if(!t||!t.contains(c))c.style.transform="";});},{passive:true});
+  addEventListener("pointerleave",()=>document.body.classList.remove("has-cursor"));
+  (function loop(){rx+=(x-rx)*.18;ry+=(y-ry)*.18;d.style.transform=`translate(${x}px,${y}px)`;r.style.transform=`translate(${rx}px,${ry}px)`;requestAnimationFrame(loop);})();})();
