@@ -553,6 +553,66 @@ html,body.is-home{overflow-x:clip}
 #app.enter .sky .plan{stroke-dashoffset:2000;animation:drawp 2.2s 1s var(--out) forwards}
 @keyframes drawp{from{stroke-dasharray:2000 2000;stroke-dashoffset:2000}to{stroke-dasharray:2000 2000;stroke-dashoffset:0}}
 @media (prefers-reduced-motion:reduce){.sky *{animation:none!important}}
+
+/* ===== V5 learning environment: course colour, week colours, calm feedback ===== */
+body{--course:var(--ink);--course2:var(--lime)}
+body.c-bpt{--course:#c00a35;--course2:#ffcd00}
+body.c-psc{--course:#0b8f4d;--course2:#ffcd00}
+body.c-studio{--course:#5b47ff;--course2:#ffaa3c}
+body:not(.is-home) #app>.fade::before{content:"";display:block;width:56px;height:4px;border-radius:99px;background:linear-gradient(90deg,var(--course),var(--course2));margin:0 0 16px;transform-origin:0 50%}
+#app.enter>.fade::before{animation:swipe2 .8s var(--out) both}
+@keyframes swipe2{from{transform:scaleX(0)}}
+.navpill::before{background:var(--course)}
+.nav button[aria-current="page"] .ico{color:var(--course)}
+.tabbar button[aria-current="page"]{color:var(--course)}
+.hero em{font-style:italic;color:var(--ink)!important;background:linear-gradient(transparent 62%,color-mix(in srgb,var(--course2) 75%,transparent) 0) no-repeat;background-size:100% 100%;padding:0 .08em}
+#app.enter .hero em{animation:mark .9s .35s var(--out) both}
+@keyframes mark{from{background-size:0 100%}}
+.item{position:relative}
+.item::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--wk,transparent);opacity:.75;transition:opacity .2s,top .25s var(--out),bottom .25s var(--out)}
+.item:hover::before{opacity:1;top:4px;bottom:4px}
+.item:hover{background:color-mix(in srgb,var(--wk,var(--soft)) 7%,var(--panel))}
+.wkhead::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--wk,var(--ink));align-self:center;transform:rotate(45deg)}
+.bar i{background:linear-gradient(90deg,var(--warn),#fbbf24)}
+.bar.done i{background:linear-gradient(90deg,#16a34a,#4ade80)}
+.qcard,.fc .face{border-top:3px solid transparent;background-image:linear-gradient(var(--panel),var(--panel)),linear-gradient(90deg,var(--course),var(--course2));background-origin:border-box;background-clip:padding-box,border-box}
+.boxes div{position:relative;overflow:hidden}
+.boxes div::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px}
+.boxes div:nth-child(1)::after{background:#c00a35}.boxes div:nth-child(2)::after{background:#f97316}.boxes div:nth-child(3)::after{background:#f59e0b}.boxes div:nth-child(4)::after{background:#84cc16}.boxes div:nth-child(5)::after{background:#22c55e}.boxes div:nth-child(6)::after{background:#16a34a}
+/* mini skyline on landing pages */
+.msky{height:46px;margin:-6px 0 6px;opacity:.9;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 70%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 70%,transparent)}
+.msky svg{width:100%;height:100%}
+.msb{fill:var(--ink);opacity:.12}.msd{fill:var(--course2)}.msl{stroke:var(--course);stroke-width:1.5;opacity:.6}
+#app.enter .msky .rise{transform-box:fill-box;transform-origin:50% 100%;animation:rise2 .9s var(--out) both;animation-delay:calc(var(--d) * 12ms)}
+body:not(.is-home) #app>.fade:has(.msky)::before{display:none}
+/* feedback */
+.edgefx{position:fixed;inset:0;pointer-events:none;z-index:80;opacity:0}
+.edgefx.good{box-shadow:inset 0 0 0 3px rgba(34,197,94,.55),inset 0 0 90px rgba(34,197,94,.22)}
+.edgefx.bad{box-shadow:inset 0 0 0 3px rgba(192,10,53,.5),inset 0 0 90px rgba(192,10,53,.2)}
+.edgefx.mid{box-shadow:inset 0 0 0 3px rgba(245,158,11,.5),inset 0 0 90px rgba(245,158,11,.18)}
+.edgefx.on{animation:edgep .75s ease-out}
+@keyframes edgep{0%{opacity:0}25%{opacity:1}100%{opacity:0}}
+.pfx{position:fixed;left:0;top:0;width:7px;height:7px;border-radius:2px;z-index:90;pointer-events:none}
+.ffx{position:fixed;z-index:90;pointer-events:none;font:700 1rem var(--mono)}
+.ffx.good{color:#16a34a}.ffx.bad{color:#c00a35}
+.qcard.fx-good{animation:goodglow 1s ease-out}
+.qcard.fx-bad{animation:badglow .9s ease-out}
+@keyframes goodglow{0%{box-shadow:0 0 0 0 rgba(34,197,94,.45)}100%{box-shadow:0 0 0 14px rgba(34,197,94,0)}}
+@keyframes badglow{0%{box-shadow:0 0 0 0 rgba(192,10,53,.4)}100%{box-shadow:0 0 0 12px rgba(192,10,53,0)}}
+.opt.right{background:linear-gradient(90deg,color-mix(in srgb,#22c55e 22%,var(--panel)),var(--good-soft));border-color:#22c55e}
+.opt.right .k{background:#16a34a;border-color:#16a34a}
+.opt.wrong{background:linear-gradient(90deg,color-mix(in srgb,#c00a35 16%,var(--panel)),var(--accent-soft));border-color:#c00a35}
+.expl{border-left:3px solid var(--course)}
+.fc.rt-good .face{box-shadow:0 0 0 3px rgba(34,197,94,.5),0 20px 50px -20px rgba(34,197,94,.5)}
+.fc.rt-bad .face{box-shadow:0 0 0 3px rgba(192,10,53,.45)}
+.fc.rt-mid .face{box-shadow:0 0 0 3px rgba(245,158,11,.45)}
+.rate .good{background:color-mix(in srgb,#22c55e 14%,var(--panel));border-color:#22c55e}
+.rate .again{background:color-mix(in srgb,#c00a35 10%,var(--panel));border-color:color-mix(in srgb,#c00a35 60%,var(--line))}
+.ring.done{filter:drop-shadow(0 0 6px rgba(34,197,94,.35))}
+.chip.full{background:color-mix(in srgb,#22c55e 14%,var(--panel));color:#15803d;border-color:color-mix(in srgb,#22c55e 40%,var(--line))}
+.combo{background:linear-gradient(90deg,var(--course2),var(--course))}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero em{background-image:linear-gradient(transparent 62%,color-mix(in srgb,var(--course2) 38%,transparent) 0)}}
+@media (prefers-reduced-motion:reduce){.edgefx,.pfx,.ffx{display:none}}
 </style>
 
 <aside class="side" id="side"></aside>
@@ -6365,7 +6425,8 @@ function vToday(){
   ${weak.length?`<h3>Focus next: your weakest readings</h3><div class="list">${weak.map(({r,s})=>item(r,s)).join('')}</div>`:''}
   </div>`;
 }
-function item(r,s){s=s||topicStats(r.id);return `<div class="item ${s.mastered?'mastered':''}" data-go="readings" data-sub="${r.id}" tabindex="0" role="button">${ring(s.m,'sm')}<div style="min-width:0"><div class="t">${esc(short(r))}</div><div class="s">${esc(r.theory)} · knowledge ${Math.round(s.k*100)}% · coverage ${Math.round(s.cov*100)}%</div></div><div class="r"><span class="chip ${r.status}">${STATUS[r.status]}</span></div></div>`;}
+const WKC={1:"#2f6bff",2:"#8b5cf6",3:"#f59e0b",4:"#14b8a6",5:"#64748b",6:"#ec4899",7:"#c00a35"};
+function item(r,s){s=s||topicStats(r.id);return `<div class="item ${s.mastered?'mastered':''}" style="--wk:${WKC[r.wk]||'var(--line2)'}" data-go="readings" data-sub="${r.id}" tabindex="0" role="button">${ring(s.m,'sm')}<div style="min-width:0"><div class="t">${esc(short(r))}</div><div class="s">${esc(r.theory)} · knowledge ${Math.round(s.k*100)}% · coverage ${Math.round(s.cov*100)}%</div></div><div class="r"><span class="chip ${r.status}">${STATUS[r.status]}</span></div></div>`;}
 
 function vWeeks(){const cw=curWeek(),k=dkey(new Date());
   return `<div class="fade"><p class="eyebrow">Timeline</p><h2 class="serif">Nine weeks, two exams</h2><p class="lede">The midterm covers weeks 1–4 (lectures, slides, readings). The final exam, a written commentary, is on 5 Nov.</p>
@@ -6376,7 +6437,7 @@ function vWeeks(){const cw=curWeek(),k=dkey(new Date());
 
 function vReadings(){if(sub&&R[sub])return vReading(R[sub]);
   return `<div class="fade"><p class="eyebrow">${READINGS.length} readings · weeks 1–4 midterm, 6–7 final</p><h2 class="serif">Readings</h2><p class="lede">Summary, concepts, figure, example, framework position and exam angle for each. The chip shows what the page is built from.</p>
-  ${[1,2,3,4,6,7].map(w=>`${w===6?'<div class="divider"></div><p class="eyebrow" style="margin-top:18px">After the midterm · final exam material</p>':''}<div class="wkhead"><b>Week ${w}</b><span class="eyebrow">${esc(WEEKS[w-1].title)}</span></div><div class="list">${READINGS.filter(r=>r.wk===w).map(r=>item(r)).join('')}</div>`).join('')}</div>`;}
+  ${[1,2,3,4,6,7].map(w=>`${w===6?'<div class="divider"></div><p class="eyebrow" style="margin-top:18px">After the midterm · final exam material</p>':''}<div class="wkhead" style="--wk:${WKC[w]}"><b>Week ${w}</b><span class="eyebrow">${esc(WEEKS[w-1].title)}</span></div><div class="list">${READINGS.filter(r=>r.wk===w).map(r=>item(r)).join('')}</div>`).join('')}</div>`;}
 let SM="short";try{SM=localStorage.getItem("sp-sm")||"short"}catch(e){}
 function sumBlock(short,ext,H){const has=ext&&ext.length,mode=has?SM:"short";
   const words=has?ext.flatMap(x=>x.p).join(" ").split(/\s+/).length:0,mins=Math.max(1,Math.round(words/230));
@@ -6651,6 +6712,8 @@ function chromePSC(){const got=PSC_LECTURES.filter(l=>l.have&&l.n!==5).length,to
 
 
 /* abstract Utrecht skyline: zoning in plan, buildings in section, the Dom in UU yellow */
+function miniSky(){let sd=29;const rnd=()=>(sd=(sd*16807)%2147483647)/2147483647;let r="";for(let x=0;x<900;){const w=14+rnd()*26,h=10+rnd()*40;if(x>560&&x<600){x=604;continue;}r+=`<rect class="msb rise" style="--d:${Math.round(x/12)}" x="${x.toFixed(0)}" y="${(64-h).toFixed(0)}" width="${(w-2).toFixed(0)}" height="${h.toFixed(0)}"/>`;x+=w;}
+  const dx=582;return `<div class="msky" aria-hidden="true"><svg viewBox="0 0 900 64" preserveAspectRatio="xMinYMax slice">${r}<g class="rise" style="--d:40"><rect class="msd" x="${dx-9}" y="22" width="18" height="42"/><rect class="msd" x="${dx-7}" y="10" width="14" height="13"/><rect class="msd" x="${dx-4}" y="2" width="8" height="9"/></g><line class="msl" x1="0" y1="63.5" x2="900" y2="63.5"/></svg></div>`;}
 function skyline(){let sd=11;const rnd=()=>(sd=(sd*16807)%2147483647)/2147483647;const W=1440,B=210;let out="",d=0;
   // perspective ground grid (the plan)
   let g="";for(let i=-12;i<=12;i++)g+=`<line x1="${720+i*30}" y1="${B}" x2="${720+i*170}" y2="300"/>`;[222,240,268].forEach(y=>g+=`<line x1="0" y1="${y}" x2="${W}" y2="${y}"/>`);
@@ -6723,7 +6786,7 @@ function vPSC(){const nth=l=>new Date(l.d+"T12:00:00");const next=PSC_LECTURES.f
   <h3>Three themes</h3><div class="grid g3">${PSC_THEMES.map((t,i)=>`<div class="flat"><div class="eyebrow">Theme ${i+1}</div><b>${t}</b><div class="small mut" style="margin-top:4px">Lectures ${PSC_LECTURES.filter(l=>l.theme===i+1).map(l=>l.n).join(', ')}</div></div>`).join('')}</div>
   <h3>Course objectives</h3><ol class="small" style="max-width:68ch"><li>Understand the main theories of sustainable urban development.</li><li>Critically analyse dilemmas and trade-offs in planning for sustainable cities.</li><li>Identify and explain differences in planning systems and sustainability challenges worldwide.</li><li>Evaluate how planning systems, spatial contexts and strategies shape sustainability outcomes.</li><li>Critically assess and apply contemporary approaches (experimentation, collaborative, post-growth).</li></ol></div>`;}
 function vPSCLectures(){return `<div class="fade"><p class="eyebrow">13 lectures · 1 mandatory reading each</p><h2 class="serif">Lectures & readings</h2><p class="lede">Open a lecture for what the slides said, the mandatory reading, and every recommended reading as abstract plus slide coverage. The ring is your mastery (cards in box 3 or higher).</p>
-  ${[1,2,3].map(th=>`<div class="wkhead"><b>Theme ${th}</b><span class="eyebrow">${PSC_THEMES[th-1]}</span></div><div class="list">${PSC_LECTURES.filter(l=>l.theme===th).map(l=>`<div class="item" data-go="psc-lecture" data-sub="p${l.n}"><div class="lnum">L${l.n}</div><div style="min-width:0"><div class="t">${esc(l.title)}</div><div class="s">${new Date(l.d+"T12:00").toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'})} · ${esc(l.who)} · ${esc(l.man.r.split('(')[0].trim())}</div></div><div class="r">${l.slides?'<span class="chip full">Slides</span>':'<span class="chip plain">Reading only</span>'}${ring(topicStats("p"+l.n).m,"sm")}</div></div>`).join('')}</div>`).join('')}</div>`;}
+  ${[1,2,3].map(th=>`<div class="wkhead" style="--wk:${["#0b8f4d","#14b8a6","#2f6bff"][th-1]}"><b>Theme ${th}</b><span class="eyebrow">${PSC_THEMES[th-1]}</span></div><div class="list">${PSC_LECTURES.filter(l=>l.theme===th).map(l=>`<div class="item" style="--wk:${["#0b8f4d","#14b8a6","#2f6bff"][l.theme-1]}" data-go="psc-lecture" data-sub="p${l.n}"><div class="lnum">L${l.n}</div><div style="min-width:0"><div class="t">${esc(l.title)}</div><div class="s">${new Date(l.d+"T12:00").toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'})} · ${esc(l.who)} · ${esc(l.man.r.split('(')[0].trim())}</div></div><div class="r">${l.slides?'<span class="chip full">Slides</span>':'<span class="chip plain">Reading only</span>'}${ring(topicStats("p"+l.n).m,"sm")}</div></div>`).join('')}</div>`).join('')}</div>`;}
 function vPSCCollect(){const doiCell=d=>d==="—"?'<span class="mut">—</span>':`<a href="https://doi.org/${d}" target="_blank" rel="noopener" style="font-family:var(--mono);font-size:.78rem;word-break:break-all">${d}</a>`;
   const allDois=PSC_LECTURES.flatMap(l=>[l.man,...l.rec]).map(x=>x.doi).filter(d=>d!=="—");
   return `<div class="fade"><p class="eyebrow">For you to download</p><h2 class="serif">Readings to download</h2><p class="lede">Mandatory readings first: those are what the exam and presentations are built on. Recommended ones deepen the essays. DOIs link to the publisher; log in through UU for access.</p>
@@ -7043,7 +7106,8 @@ render=function(){
   const key=(course??"home")+"|"+view+"|"+(sub??""),nav=key!==_navKey;_navKey=key;
   const before=_greens;
   _renderBase();
-  const app=$("#app");
+  const app=$("#app");document.body.classList.remove("c-bpt","c-psc","c-studio");if(course)document.body.classList.add("c-"+course);
+  if(["today","readings","games","weeks","psc","psc-lectures","psc-games","studio"].includes(view)&&!(view==="readings"&&sub)){const f=app.querySelector(".fade");if(f&&!f.querySelector(".msky")&&typeof miniSky==="function")f.insertAdjacentHTML("afterbegin",miniSky());}
   if(nav&&!RM.matches){app.classList.remove("enter");void app.offsetWidth;app.classList.add("enter");stagger(app);animateMeters(app);reveal(app);clearTimeout(render._t);render._t=setTimeout(()=>app.classList.remove("enter"),1600);}
   navPill();readProgress();if(nav){const cr=document.querySelector(".cur-ring");if(cr)cr.classList.remove("big");}
   _greens=greenSet();
@@ -7073,6 +7137,26 @@ addEventListener("scroll",()=>{document.body.classList.toggle("scrolled",scrollY
     document.querySelectorAll(".tile .tcta").forEach(c=>{if(!t||!t.contains(c))c.style.transform="";});},{passive:true});
   addEventListener("pointerleave",()=>document.body.classList.remove("has-cursor"));
   (function loop(){rx+=(x-rx)*.18;ry+=(y-ry)*.18;d.style.transform=`translate(${x}px,${y}px)`;r.style.transform=`translate(${rx}px,${ry}px)`;requestAnimationFrame(loop);})();})();
+
+/* ---------- feedback: rewarding but calm ---------- */
+function edge(kind){if(RM.matches)return;let e=document.querySelector(".edgefx");if(!e){e=document.createElement("div");e.className="edgefx";document.body.appendChild(e);}
+  e.className="edgefx "+kind;void e.offsetWidth;e.classList.add("on");}
+function burst(el,kind){if(RM.matches||!el)return;const b=el.getBoundingClientRect(),cx=b.left+Math.min(b.width-20,40),cy=b.top+b.height/2;
+  const cols=kind==="good"?["#22c55e","#ffcd00","#4ade80"]:["#c00a35"];const n=kind==="good"?8:0;
+  for(let i=0;i<n;i++){const p=document.createElement("i");p.className="pfx";p.style.background=cols[i%cols.length];document.body.appendChild(p);
+    const a=Math.random()*Math.PI*2,v=26+Math.random()*34;
+    p.animate([{transform:`translate(${cx}px,${cy}px) scale(1)`,opacity:1},{transform:`translate(${cx+Math.cos(a)*v}px,${cy+Math.sin(a)*v}px) scale(.3)`,opacity:0}],{duration:600+Math.random()*250,easing:"cubic-bezier(.2,.7,.3,1)"}).onfinish=()=>p.remove();}}
+function floatTxt(el,txt,kind){if(RM.matches||!el)return;const b=el.getBoundingClientRect();const t=document.createElement("span");t.className="ffx "+kind;t.textContent=txt;t.style.left=(b.right-70)+"px";t.style.top=(b.top+b.height/2-10)+"px";document.body.appendChild(t);
+  t.animate([{transform:"translateY(0)",opacity:0},{transform:"translateY(-8px)",opacity:1,offset:.25},{transform:"translateY(-30px)",opacity:0}],{duration:900,easing:"ease-out"}).onfinish=()=>t.remove();}
+function judge(ok,optSel){requestAnimationFrame(()=>{const opt=document.querySelector(optSel||(ok?".opt.right":".opt.wrong"));const card=opt&&opt.closest(".qcard");
+  edge(ok?"good":"bad");if(card){card.classList.remove("fx-good","fx-bad");void card.offsetWidth;card.classList.add(ok?"fx-good":"fx-bad");}
+  if(ok){burst(opt,"good");floatTxt(opt,"✓","good");}});}
+const _pickBase=pick;pick=function(j){const q=Q.list[Q.i];_pickBase(j);judge(j===q.a);};
+if(typeof gPick==="function"){const _g=gPick;gPick=function(j){const rd=G&&G.rounds&&G.rounds[G.i];const before=G&&G.picked;_g(j);if(rd&&before==null&&G.picked!=null){judge(j===rd.a);if(G.streak>=3&&j===rd.a){const c=document.querySelector(".combo");if(c)floatTxt(c,"×"+(1+Math.min(G.streak-1,4)*.25).toFixed(2),"good");}}};}
+if(typeof seqCheck==="function"){const _s=seqCheck;seqCheck=function(){_s();const f=G.res[G.res.length-1];requestAnimationFrame(()=>{edge(f>=.99?"good":f>=.5?"mid":"bad");const c=document.querySelector(".gq");if(c){c.classList.add(f>=.99?"fx-good":"fx-bad");if(f>=.99)burst(c,"good");}});};}
+if(typeof pairTap==="function"){const _p=pairTap;pairTap=function(side,i){const was=G.pairs.filter(p=>p.done).length;_p(side,i);if(side==="r"){const now=G.pairs.filter(p=>p.done).length;requestAnimationFrame(()=>{if(now>was){const el=document.querySelectorAll(".pt.done");burst(el[el.length-1],"good");edge("good");}else edge("bad");});}};}
+/* flashcards: tint the card by rating before it flies off */
+const _rate2=rate;rate=function(r){const fc=$("#fcard");if(fc&&!RM.matches){fc.classList.add(["rt-bad","rt-mid","rt-good","rt-good"][r]);if(r>=2)burst(fc,"good");edge(r===0?"bad":r===1?"mid":"good");}_rate2(r);};
 
 /* ===== Graduate Planning Studio ===== */
 const STUDIO_DL=DEADLINES.filter(d=>d[1]==="Studio");

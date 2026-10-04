@@ -132,7 +132,8 @@ function vToday(){
   ${weak.length?`<h3>Focus next: your weakest readings</h3><div class="list">${weak.map(({r,s})=>item(r,s)).join('')}</div>`:''}
   </div>`;
 }
-function item(r,s){s=s||topicStats(r.id);return `<div class="item ${s.mastered?'mastered':''}" data-go="readings" data-sub="${r.id}" tabindex="0" role="button">${ring(s.m,'sm')}<div style="min-width:0"><div class="t">${esc(short(r))}</div><div class="s">${esc(r.theory)} · knowledge ${Math.round(s.k*100)}% · coverage ${Math.round(s.cov*100)}%</div></div><div class="r"><span class="chip ${r.status}">${STATUS[r.status]}</span></div></div>`;}
+const WKC={1:"#2f6bff",2:"#8b5cf6",3:"#f59e0b",4:"#14b8a6",5:"#64748b",6:"#ec4899",7:"#c00a35"};
+function item(r,s){s=s||topicStats(r.id);return `<div class="item ${s.mastered?'mastered':''}" style="--wk:${WKC[r.wk]||'var(--line2)'}" data-go="readings" data-sub="${r.id}" tabindex="0" role="button">${ring(s.m,'sm')}<div style="min-width:0"><div class="t">${esc(short(r))}</div><div class="s">${esc(r.theory)} · knowledge ${Math.round(s.k*100)}% · coverage ${Math.round(s.cov*100)}%</div></div><div class="r"><span class="chip ${r.status}">${STATUS[r.status]}</span></div></div>`;}
 
 function vWeeks(){const cw=curWeek(),k=dkey(new Date());
   return `<div class="fade"><p class="eyebrow">Timeline</p><h2 class="serif">Nine weeks, two exams</h2><p class="lede">The midterm covers weeks 1–4 (lectures, slides, readings). The final exam, a written commentary, is on 5 Nov.</p>
@@ -143,7 +144,7 @@ function vWeeks(){const cw=curWeek(),k=dkey(new Date());
 
 function vReadings(){if(sub&&R[sub])return vReading(R[sub]);
   return `<div class="fade"><p class="eyebrow">${READINGS.length} readings · weeks 1–4 midterm, 6–7 final</p><h2 class="serif">Readings</h2><p class="lede">Summary, concepts, figure, example, framework position and exam angle for each. The chip shows what the page is built from.</p>
-  ${[1,2,3,4,6,7].map(w=>`${w===6?'<div class="divider"></div><p class="eyebrow" style="margin-top:18px">After the midterm · final exam material</p>':''}<div class="wkhead"><b>Week ${w}</b><span class="eyebrow">${esc(WEEKS[w-1].title)}</span></div><div class="list">${READINGS.filter(r=>r.wk===w).map(r=>item(r)).join('')}</div>`).join('')}</div>`;}
+  ${[1,2,3,4,6,7].map(w=>`${w===6?'<div class="divider"></div><p class="eyebrow" style="margin-top:18px">After the midterm · final exam material</p>':''}<div class="wkhead" style="--wk:${WKC[w]}"><b>Week ${w}</b><span class="eyebrow">${esc(WEEKS[w-1].title)}</span></div><div class="list">${READINGS.filter(r=>r.wk===w).map(r=>item(r)).join('')}</div>`).join('')}</div>`;}
 let SM="short";try{SM=localStorage.getItem("sp-sm")||"short"}catch(e){}
 function sumBlock(short,ext,H){const has=ext&&ext.length,mode=has?SM:"short";
   const words=has?ext.flatMap(x=>x.p).join(" ").split(/\s+/).length:0,mins=Math.max(1,Math.round(words/230));

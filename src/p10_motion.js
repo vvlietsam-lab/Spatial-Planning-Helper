@@ -34,7 +34,8 @@ render=function(){
   const key=(course??"home")+"|"+view+"|"+(sub??""),nav=key!==_navKey;_navKey=key;
   const before=_greens;
   _renderBase();
-  const app=$("#app");
+  const app=$("#app");document.body.classList.remove("c-bpt","c-psc","c-studio");if(course)document.body.classList.add("c-"+course);
+  if(["today","readings","games","weeks","psc","psc-lectures","psc-games","studio"].includes(view)&&!(view==="readings"&&sub)){const f=app.querySelector(".fade");if(f&&!f.querySelector(".msky")&&typeof miniSky==="function")f.insertAdjacentHTML("afterbegin",miniSky());}
   if(nav&&!RM.matches){app.classList.remove("enter");void app.offsetWidth;app.classList.add("enter");stagger(app);animateMeters(app);reveal(app);clearTimeout(render._t);render._t=setTimeout(()=>app.classList.remove("enter"),1600);}
   navPill();readProgress();if(nav){const cr=document.querySelector(".cur-ring");if(cr)cr.classList.remove("big");}
   _greens=greenSet();
@@ -64,3 +65,23 @@ addEventListener("scroll",()=>{document.body.classList.toggle("scrolled",scrollY
     document.querySelectorAll(".tile .tcta").forEach(c=>{if(!t||!t.contains(c))c.style.transform="";});},{passive:true});
   addEventListener("pointerleave",()=>document.body.classList.remove("has-cursor"));
   (function loop(){rx+=(x-rx)*.18;ry+=(y-ry)*.18;d.style.transform=`translate(${x}px,${y}px)`;r.style.transform=`translate(${rx}px,${ry}px)`;requestAnimationFrame(loop);})();})();
+
+/* ---------- feedback: rewarding but calm ---------- */
+function edge(kind){if(RM.matches)return;let e=document.querySelector(".edgefx");if(!e){e=document.createElement("div");e.className="edgefx";document.body.appendChild(e);}
+  e.className="edgefx "+kind;void e.offsetWidth;e.classList.add("on");}
+function burst(el,kind){if(RM.matches||!el)return;const b=el.getBoundingClientRect(),cx=b.left+Math.min(b.width-20,40),cy=b.top+b.height/2;
+  const cols=kind==="good"?["#22c55e","#ffcd00","#4ade80"]:["#c00a35"];const n=kind==="good"?8:0;
+  for(let i=0;i<n;i++){const p=document.createElement("i");p.className="pfx";p.style.background=cols[i%cols.length];document.body.appendChild(p);
+    const a=Math.random()*Math.PI*2,v=26+Math.random()*34;
+    p.animate([{transform:`translate(${cx}px,${cy}px) scale(1)`,opacity:1},{transform:`translate(${cx+Math.cos(a)*v}px,${cy+Math.sin(a)*v}px) scale(.3)`,opacity:0}],{duration:600+Math.random()*250,easing:"cubic-bezier(.2,.7,.3,1)"}).onfinish=()=>p.remove();}}
+function floatTxt(el,txt,kind){if(RM.matches||!el)return;const b=el.getBoundingClientRect();const t=document.createElement("span");t.className="ffx "+kind;t.textContent=txt;t.style.left=(b.right-70)+"px";t.style.top=(b.top+b.height/2-10)+"px";document.body.appendChild(t);
+  t.animate([{transform:"translateY(0)",opacity:0},{transform:"translateY(-8px)",opacity:1,offset:.25},{transform:"translateY(-30px)",opacity:0}],{duration:900,easing:"ease-out"}).onfinish=()=>t.remove();}
+function judge(ok,optSel){requestAnimationFrame(()=>{const opt=document.querySelector(optSel||(ok?".opt.right":".opt.wrong"));const card=opt&&opt.closest(".qcard");
+  edge(ok?"good":"bad");if(card){card.classList.remove("fx-good","fx-bad");void card.offsetWidth;card.classList.add(ok?"fx-good":"fx-bad");}
+  if(ok){burst(opt,"good");floatTxt(opt,"✓","good");}});}
+const _pickBase=pick;pick=function(j){const q=Q.list[Q.i];_pickBase(j);judge(j===q.a);};
+if(typeof gPick==="function"){const _g=gPick;gPick=function(j){const rd=G&&G.rounds&&G.rounds[G.i];const before=G&&G.picked;_g(j);if(rd&&before==null&&G.picked!=null){judge(j===rd.a);if(G.streak>=3&&j===rd.a){const c=document.querySelector(".combo");if(c)floatTxt(c,"×"+(1+Math.min(G.streak-1,4)*.25).toFixed(2),"good");}}};}
+if(typeof seqCheck==="function"){const _s=seqCheck;seqCheck=function(){_s();const f=G.res[G.res.length-1];requestAnimationFrame(()=>{edge(f>=.99?"good":f>=.5?"mid":"bad");const c=document.querySelector(".gq");if(c){c.classList.add(f>=.99?"fx-good":"fx-bad");if(f>=.99)burst(c,"good");}});};}
+if(typeof pairTap==="function"){const _p=pairTap;pairTap=function(side,i){const was=G.pairs.filter(p=>p.done).length;_p(side,i);if(side==="r"){const now=G.pairs.filter(p=>p.done).length;requestAnimationFrame(()=>{if(now>was){const el=document.querySelectorAll(".pt.done");burst(el[el.length-1],"good");edge("good");}else edge("bad");});}};}
+/* flashcards: tint the card by rating before it flies off */
+const _rate2=rate;rate=function(r){const fc=$("#fcard");if(fc&&!RM.matches){fc.classList.add(["rt-bad","rt-mid","rt-good","rt-good"][r]);if(r>=2)burst(fc,"good");edge(r===0?"bad":r===1?"mid":"good");}_rate2(r);};
