@@ -157,6 +157,9 @@ function sumBlock(short,ext,H){const has=ext&&ext.length,mode=has?SM:"short";
 document.addEventListener("click",e=>{const b=e.target.closest("[data-sm]");if(b){SM=b.dataset.sm;try{localStorage.setItem("sp-sm",SM)}catch(_){}
   const h=document.querySelector(".sumhead");const y=h?h.getBoundingClientRect().top+scrollY-80:null;render();if(y!=null&&b.closest(".extwrap"))scrollTo({top:y,behavior:"smooth"});return;}
   const t=e.target.closest("[data-toc]");if(t){e.preventDefault();const el=document.getElementById("ext"+t.dataset.toc);if(el)scrollTo({top:el.getBoundingClientRect().top+scrollY-70,behavior:"smooth"});}});
+function newsCard(n){if(!n)return "";return `<div class="news"><div class="row between" style="gap:8px;flex-wrap:wrap"><span class="eyebrow">In the news</span><span class="chip plain">Current example · not in the text</span></div>
+  <h4>${esc(n.t)}</h4><p>${esc(n.d)}</p><div class="nwhy"><span>How it shows the theory</span>${esc(n.why)}</div>
+  <a class="nsrc" href="${esc(n.src.url)}" target="_blank" rel="noopener">${esc(n.src.name)}${n.src.date?" · "+esc(n.src.date):""} ↗</a></div>`;}
 function exList(a){if(!a||!a.length)return "";const lab={text:"In the text",slides:"From the slides",similar:"Similar case · not in the text"},cls={text:"full",slides:"slides",similar:"plain"};
   return `<div class="exl">${a.map(e=>`<div class="exi"><div class="row between"><b>${esc(e.t)}</b><span class="chip ${cls[e.src]||"plain"}">${lab[e.src]||""}${e.p?" · "+esc(e.p):""}</span></div><p>${esc(e.d)}</p></div>`).join("")}</div>`;}
 function dimRows(d){if(!d||[d.sa,d.rt,d.de,d.us,d.mp].every(x=>x==null))return '<p class="small mut">Framework or overview reading, so no single position.</p>';
@@ -174,7 +177,7 @@ function vReading(r){const s=topicStats(r.id),nq=QS.filter(q=>q.t===r.id).length
    ${r.fig?`<figure class="fig">${r.fig}<figcaption>${esc(r.cap)}</figcaption></figure>`:''}
    <h3>Key concepts</h3><dl class="concepts">${r.concepts.map(([a,b])=>`<div><dt>${esc(a)}</dt><dd>${esc(b)}</dd></div>`).join('')}</dl>
    ${r.table?`<h3>Table</h3><div class="tbl"><table><thead><tr>${r.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${r.table.rows.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}
-   <h3>Example${r.examples&&r.examples.length?"s":""}</h3><p>${esc(r.example)}</p>${exList(r.examples)}
+   <h3>Example${r.examples&&r.examples.length?"s":""}</h3><p>${esc(r.example)}</p>${exList(r.examples)}${newsCard(r.news)}
    ${r.quotes.length?`<h3>Quotes to know</h3>${r.quotes.map(q=>`<blockquote>${esc(q)}</blockquote>`).join('')}`:''}
    <h3>Exam angle</h3><div class="note">${esc(r.exam)}</div>
    <div class="row between" style="margin-top:28px">${prev?`<button class="btn sm" data-go="readings" data-sub="${prev.id}">${ic('left')} ${esc(short(prev).slice(0,28))}</button>`:'<span></span>'}${next?`<button class="btn sm" data-go="readings" data-sub="${next.id}">${esc(short(next).slice(0,28))} →</button>`:''}</div>
