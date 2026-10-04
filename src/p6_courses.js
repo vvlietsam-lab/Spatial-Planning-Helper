@@ -47,7 +47,7 @@ var course=null;
 (function initHash(){try{const h=location.hash.slice(1);if(!h||h==="home")return;if(h.startsWith("psc")){course="psc";view=h;return;}if(h.startsWith("studio")){course="studio";view=h;return;}if(NAV.flatMap(g=>g[1]).some(t=>t[0]===h)){course="bpt";view=h;}}catch(e){}})();
 function go(v,s){if(v==="home"){course=null;view="today";}else if(v.startsWith("psc")){course="psc";view=v;}else if(v.startsWith("studio")){course="studio";view=v;}else{course="bpt";view=v;}sub=s??null;render();window.scrollTo(0,0);}
 const dleft=d=>Math.max(0,Math.ceil((d-Date.now())/DAY));
-const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
+const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-games","Games","spark"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
 const pscStats=()=>{const ids=PSC.map(l=>l.id);return {m:ids.reduce((a,id)=>a+topicStats(id).m,0)/ids.length,mast:ids.filter(id=>topicStats(id).mastered).length,due:dueCards(ids).length};};
 
 function chromeHome(){$("#side").innerHTML="";$("#tabbar").innerHTML="";$("#cdm").textContent="";}
@@ -116,7 +116,7 @@ function render(){try{history.replaceState(null,"","#"+(course===null?"home":vie
   {const tb=[["bpt","BPT","Midterm Prep","#0c0c10"],["psc","PSC","Sustainable Cities","var(--good)"],["studio","STU","Planning Studio","#6d5bd0"]].find(x=>x[0]===course);const lg=document.querySelector(".topbar .logo"),nm=document.querySelector(".topbar b");if(tb&&lg&&nm){lg.textContent=tb[1];nm.textContent=tb[2];lg.style.background=tb[3];lg.style.color=tb[3]?"#fff":"";}}
   if(course===null){chromeHome();$("#app").innerHTML=vHome();return;}
   if(course==="studio"){chromeStudio();$("#app").innerHTML=vStudio();return;}
-  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
+  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-games":vGames,"psc-game":vGame,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
   $("#tabbar").style.gridTemplateColumns="";renderBPT();
   const b=document.querySelector(".side .brand");if(b&&!b.querySelector(".allc"))b.insertAdjacentHTML("beforeend",'');
   const side=$("#side");side.insertAdjacentHTML("afterbegin",'<button class="back allc" data-go="home" style="margin:0 8px 8px">'+ic('left')+' All courses</button>');}
@@ -152,7 +152,7 @@ function vPSCLecture(){const l=PSC.find(x=>x.id===sub)||PSC[0],L=PSC_LECTURES[l.
    <h3>Exam angle</h3><div class="note">${esc(l.exam)}</div>
    <div class="row between" style="margin-top:28px">${prev?`<button class="btn sm" data-go="psc-lecture" data-sub="${prev.id}">${ic('left')} L${prev.n}</button>`:'<span></span>'}${next?`<button class="btn sm" data-go="psc-lecture" data-sub="${next.id}">L${next.n} →</button>`:''}</div>
   </div>
-  <aside class="rside"><div class="card"><div class="row" style="gap:14px;flex-wrap:nowrap">${ring(s.m)}<div><div class="eyebrow">Mastery</div><div class="small">cards ${Math.round((s.cm||0)*s.nc)}/${s.nc} in box 3+</div></div></div>
-   <div class="stack" style="margin-top:14px"><button class="btn primary" data-flashtopic="${l.id}">${ic('cards')} Flashcards · ${s.nc}</button>${es.map(([o])=>`<button class="btn" data-go="psc-essay" data-sub="${eL.indexOf(o)}">${ic('pen')} Essay question</button>`).join('')}</div></div>
+  <aside class="rside"><div class="card">${masteryCard(s)}
+   <div class="stack" style="margin-top:14px"><button class="btn primary" data-flashtopic="${l.id}">${ic('cards')} Flashcards · ${s.nc}</button><button class="btn" data-blurt="${l.id}">${ic('spark')} Brain dump (3 min)</button>${es.map(([o])=>`<button class="btn" data-go="psc-essay" data-sub="${eL.indexOf(o)}">${ic('pen')} Essay question</button>`).join('')}</div></div>
    <div class="card"><div class="row" style="gap:10px"><label class="check"><input type="checkbox" data-read="${l.id}" ${S.read[l.id]?'checked':''}><span>Read the text itself</span></label></div><textarea data-note="${l.id}" style="margin-top:8px" placeholder="Recall: the argument in one sentence, three concepts…">${esc(S.notes[l.id]||'')}</textarea></div>
    <div class="note ${m.status==='full'?'ok':''}">${l.slides?'Built from the lecture slides and the full text of the mandatory reading.':'Built from the full text of the mandatory reading. The slides for this lecture are not uploaded yet, so the lecture section is a preview.'}</div></aside></div></div>`;}

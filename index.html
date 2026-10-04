@@ -290,6 +290,82 @@ body.is-home .topbar,body.is-home .tabbar{display:none}
 .extn{font:500 .72rem var(--mono);color:var(--accent)}
 .exts p{line-height:1.72}
 .readbar{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:60;transform-origin:0 50%;transform:scaleX(0);pointer-events:none;transition:opacity .3s}
+
+/* ===== Games ===== */
+.spark{display:flex;gap:3px;align-items:flex-end;height:22px;margin-top:12px}
+.spark i{flex:1;min-width:4px;max-width:16px;height:calc(var(--v)*100% + 3px);border-radius:2px;background:var(--line2)}
+.spark i.g{background:var(--good)}.spark i.m{background:var(--warn)}.spark i.b{background:var(--accent)}
+.ggrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:14px}
+.gcard{position:relative;text-align:left;border:1px solid var(--line);border-radius:20px;background:var(--panel);padding:0;overflow:hidden;cursor:pointer;color:var(--ink);font-family:var(--ui);display:flex;flex-direction:column;transition:transform .35s var(--out,ease),box-shadow .35s var(--out,ease),border-color .2s}
+.gcard:hover{transform:translateY(-4px);box-shadow:0 24px 50px -24px hsla(var(--h),70%,40%,.45);border-color:hsla(var(--h),60%,55%,.5)}
+.gart{position:relative;height:96px;background:radial-gradient(120% 140% at 0% 0%,hsla(var(--h),85%,62%,.95),transparent 55%),radial-gradient(120% 140% at 100% 100%,hsla(calc(var(--h) + 50),80%,55%,.85),transparent 60%),hsl(var(--h),40%,18%);overflow:hidden}
+.gart::after{content:"";position:absolute;inset:-40%;background:conic-gradient(from 0deg,transparent,hsla(var(--h),90%,80%,.25),transparent 40%);animation:spin 9s linear infinite;opacity:.0;transition:opacity .4s}
+.gcard:hover .gart::after{opacity:1}
+@keyframes spin{to{transform:rotate(1turn)}}
+.gnum{position:absolute;left:16px;bottom:10px;font:400 2.6rem/1 var(--serif);color:rgba(255,255,255,.92)}
+.gboss{position:absolute;right:14px;top:12px;font:600 .7rem var(--mono);letter-spacing:.06em;text-transform:uppercase;color:#fff;background:rgba(0,0,0,.28);padding:4px 8px;border-radius:99px;backdrop-filter:blur(6px)}
+.gbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px}
+.gname{font-size:1.06rem;letter-spacing:-.01em}
+.gtag{align-self:flex-start;font:500 .68rem var(--mono);letter-spacing:.06em;text-transform:uppercase;color:hsl(var(--h),55%,45%);background:hsla(var(--h),70%,55%,.12);padding:3px 8px;border-radius:99px}
+.gbody p{margin:0;font-size:.86rem;color:var(--ink2)}
+.gwhy{font-size:.76rem!important;color:var(--muted)!important;border-top:1px dashed var(--line);padding-top:8px;margin-top:4px!important}
+.gwhy span{display:block;font:500 .64rem var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px}
+.gcard.classic{background:var(--soft)}
+.game .qq{font-size:1.08rem}
+.ghud{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:6px 0 12px}
+.gprog{display:flex;gap:4px;flex:1;max-width:520px}
+.gprog i{flex:1;height:6px;border-radius:99px;background:var(--soft);border:1px solid var(--line);transition:background .3s}
+.gprog i.on{background:var(--ink);border-color:var(--ink)}.gprog i.r{background:var(--good);border-color:var(--good)}.gprog i.w{background:var(--accent);border-color:var(--accent)}.gprog i.p{background:var(--warn);border-color:var(--warn)}
+.gscore{font:600 1.1rem var(--mono);font-variant-numeric:tabular-nums}.gscore small{font-size:.7rem;color:var(--muted)}
+.combo{display:inline-flex;align-items:center;gap:4px;font:600 .78rem var(--mono);color:#fff;background:linear-gradient(90deg,#ff9f0a,#ff3b5c);padding:4px 10px;border-radius:99px;animation:pop .45s var(--spring,ease)}
+.combo .ico{width:13px;height:13px;fill:currentColor;stroke:none}
+.hearts{display:inline-flex;gap:2px}.hearts i .ico{width:18px;height:18px;stroke:var(--line2);fill:none}.hearts i.on .ico{fill:var(--accent);stroke:var(--accent)}
+.boss{border:1px solid var(--line);border-radius:14px;padding:10px 14px;margin-bottom:12px;background:linear-gradient(90deg,color-mix(in srgb,var(--accent) 8%,var(--panel)),var(--panel))}
+.hpbar{height:10px;border-radius:99px;background:var(--soft);overflow:hidden;margin-top:6px;border:1px solid var(--line)}
+.hpbar i{display:block;height:100%;background:linear-gradient(90deg,#ff3b5c,#ff9f0a);transition:width .6s var(--out,ease)}
+.case{border-left:3px solid var(--info);background:var(--info-soft);border-radius:10px;padding:10px 14px;margin-bottom:12px}
+.case p{margin:4px 0 0;font-size:.95rem}
+.gquote{font:400 1.25rem/1.45 var(--serif);margin:0 0 10px;border-left:3px solid var(--accent);padding:4px 0 4px 14px}
+.linkbtn{border:0;background:none;color:var(--accent);font:inherit;font-weight:600;cursor:pointer;padding:0}
+.stakes{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:4px 0 10px}
+.stake{border:1px solid var(--line2);background:var(--panel);border-radius:12px;padding:6px 12px;font:600 .82rem var(--ui);color:var(--ink);cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;transition:all .2s var(--spring,ease)}
+.stake small{font-weight:400;color:var(--muted);font-size:.7rem}
+.stake.on{background:var(--ink);color:var(--bg);border-color:var(--ink);transform:translateY(-2px)}.stake.on small{color:inherit;opacity:.7}
+.gend{text-align:center;padding:18px 4px}
+.gbig{font:400 3.4rem/1 var(--serif);margin-top:6px}.gbig small{font:500 1rem var(--ui);color:var(--muted)}
+.calib{display:flex;gap:14px;justify-content:center;margin:6px 0 14px}
+.calib>div{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:80px}
+.calib small{font-size:.68rem;color:var(--muted)}
+.cbar{width:34px;height:90px;border-radius:8px;background:var(--soft);border:1px solid var(--line);display:flex;align-items:flex-end;overflow:hidden}
+.cbar i{display:block;width:100%;background:linear-gradient(0deg,var(--info),var(--good));transition:height .8s var(--out,ease)}
+.pairs{display:grid;grid-template-columns:1fr 1.6fr;gap:10px}
+.pcol{display:flex;flex-direction:column;gap:8px}
+.pt{text-align:left;border:1px solid var(--line2);background:var(--panel);border-radius:12px;padding:10px 12px;font:600 .86rem/1.35 var(--ui);color:var(--ink);cursor:pointer;transition:transform .2s var(--spring,ease),background .2s,border-color .2s,opacity .4s}
+.pt.def{font-weight:400;font-size:.8rem}
+.pt:hover:not(:disabled){transform:translateY(-2px)}
+.pt.sel{border-color:var(--ink);box-shadow:0 0 0 2px var(--ink) inset}
+.pt.bad{animation:shake .42s ease;border-color:var(--accent);background:var(--accent-soft)}
+.pt.done{opacity:.35;background:var(--good-soft);border-color:var(--good);cursor:default}
+.seqlist{display:flex;flex-direction:column;gap:6px;min-height:52px;border:1px dashed var(--line2);border-radius:12px;padding:8px;margin:10px 0}
+.seqempty{padding:8px}
+.seqi{display:flex;gap:10px;align-items:center;text-align:left;border:1px solid var(--line2);background:var(--panel);border-radius:10px;padding:8px 10px;font:500 .88rem var(--ui);color:var(--ink);cursor:pointer;animation:rise .3s var(--out,ease)}
+.seqi .n{font:600 .72rem var(--mono);width:22px;height:22px;display:grid;place-items:center;border-radius:6px;background:var(--soft);flex:none}
+.seqi.ok{border-color:var(--good);background:var(--good-soft)}.seqi.no{border-color:var(--accent);background:var(--accent-soft)}
+.seqpool{display:flex;flex-wrap:wrap;gap:8px}
+.seqc{cursor:pointer;font-size:.82rem;padding:7px 12px;text-transform:none;letter-spacing:0;font-family:var(--ui)}
+.gsel{width:100%;margin-top:6px;padding:10px;border-radius:10px;border:1px solid var(--line2);background:var(--panel);color:var(--ink);font:inherit}
+.btext{min-height:260px;font-size:1rem;line-height:1.6}
+.blurtc{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:8px;margin-top:8px}
+.bc{text-align:left;border:1px solid var(--line2);border-radius:12px;background:var(--panel);padding:10px 12px;cursor:pointer;color:var(--ink);font-family:var(--ui);display:flex;flex-direction:column;gap:4px;transition:all .2s}
+.bc span{font-size:.78rem;color:var(--muted)}.bc b{font-size:.88rem}
+.bc.hit{border-color:var(--good);background:var(--good-soft)}
+.cdim{margin:14px 0}
+.cdim .lab{display:flex;justify-content:space-between;font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.ctrack{position:relative;margin-top:6px}
+.ctrack input{width:100%;accent-color:var(--ink)}
+.ctrack .key{position:absolute;top:-4px;width:4px;height:26px;margin-left:-2px;border-radius:2px;background:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent);animation:rise .5s var(--out,ease)}
+.okc{color:var(--good)}
+@media (max-width:640px){.pairs{grid-template-columns:1fr 1.3fr}.pt{padding:8px 9px}.pt.def{font-size:.74rem}.calib{gap:6px}}
 /* ===== V3 motion layer ===== */
 :root{--spring:cubic-bezier(.2,.9,.25,1.15);--out:cubic-bezier(.16,1,.3,1)}
 @property --p{syntax:"<number>";inherits:false;initial-value:0}
@@ -4102,6 +4178,1067 @@ fig:`<svg viewBox="0 0 620 262" role="img" aria-label="Hansen et al.: most chang
 cap:"Hansen et al. (2022): where the observed changes in eleven cities sit between piecemeal and transformative (pp. 2416–2419)."}
 };
 
+// Authored content for the BPT learning games (Theorist's lens, Odd one out, Put it in order).
+// Generated from the reading data; correct-answer positions spread evenly.
+const LENS = [
+ {
+  "t": "fw",
+  "w": 1,
+  "s": "A consultant studying why office-to-housing conversions are slow in Utrecht says: 'We will just collect the data and let the facts speak for themselves; we don't need theory.' The municipality likes the idea because it sounds neutral.",
+  "q": "How would Rydin (2021) respond to the consultant?",
+  "o": [
+   "Fine, as long as the sample is large: enough data removes bias, so theory would only add unnecessary assumptions to the analysis.",
+   "Replace the data with phronesis: practical wisdom about power and values makes both theory and empirical evidence redundant.",
+   "Pure empiricism fails: choosing and reading data involves value judgements, and theory is needed to focus and generalise.",
+   "Model the facts as law-like regularities, since planning research should follow the natural-science model of explanation."
+  ],
+  "a": 2,
+  "e": "Rydin rejects 'let the facts speak' because data choice is value-laden and findings stay disconnected; theory gives focus, a broader narrative and theory-building. Phronesis is not the answer either: Rydin says it still relies on unacknowledged theory."
+ },
+ {
+  "t": "fw",
+  "w": 1,
+  "s": "Two master's theses study the same renovation programme in Rotterdam-Zuid. Thesis A asks which municipal instrument raises housing output most; thesis B asks how different tenant groups experience the renovation.",
+  "q": "Using the course framework (Rydin 2021 and the four dimensions), what mainly distinguishes the two theses?",
+  "o": [
+   "A assumes a deliberate, planner-centred view with universal knowledge; B assumes situated, pluralist knowledge.",
+   "A is normative theory FOR planning and B is analytic theory OF planning, so only B counts as proper planning research.",
+   "Both are theory-free empirical studies; theory only enters later, when the results are interpreted and turned into advice.",
+   "A is structure-centred and B is agency-centred; the knowledge dimensions play no role in how the two theses differ."
+  ],
+  "a": 0,
+  "e": "The framework shows that every research question already carries a theoretical position: an instrument-effectiveness question fits the deliberate, universal-knowledge governmental view, a lived-experience question fits situated, pluralist knowledge. Both theses are analytic, so the 'of vs for' distractor misreads Faludi's distinction."
+ },
+ {
+  "t": "buit",
+  "w": 1,
+  "s": "An Amsterdam housing vision promises three things at once: strong social mixing through redistribution, rent control, and the freedom of every household to settle wherever it wants without growth controls. The alderman says this shows the city is committed to 'the just city'.",
+  "q": "What would Buitelaar (2026) say about this vision?",
+  "o": [
+   "No problem: all three goals serve the same concept of the just city, so combining several conceptions in one vision only broadens the political consensus behind the plan.",
+   "The only flaw is internal: rent control is a utilitarian Happy City tool that cannot be combined with any other conception.",
+   "The vision fails because tenants are a large, diffuse group whose members will free-ride on each other instead of organising to defend rent control.",
+   "Justice is not à la carte: the rights-based Free City (free settlement, no rent control) clashes with the goal-based Equal City's mixing, an external incongruence."
+  ],
+  "a": 3,
+  "e": "Buitelaar warns against inconsistency when incompatible conceptions are pursued together: 'liberty upsets patterns', so free settlement produces clustering that undoes mixing. Agreeing on the concept of a just city hides disagreement over conceptions; that is the superficial consensus he criticises."
+ },
+ {
+  "t": "buit",
+  "w": 1,
+  "s": "A province adopts the rule that every household must be able to find a home costing no more than 30% of its income. It explicitly says it does not care how unequal housing wealth is above that line.",
+  "q": "Which conception of the just city does this policy express?",
+  "o": [
+   "Equal City: inequality is intrinsically wrong, so housing outcomes should be made as equal as possible across all households.",
+   "Supportive City: everyone should have enough access to primary goods (an absolute threshold); inequality above the threshold is irrelevant.",
+   "Happy City: the rule maximises total utility, judged by cost-benefit analysis of the region's housing market as a whole.",
+   "Free City: the province assigns equal rights and then refrains from intervening in how housing outcomes are distributed."
+  ],
+  "a": 1,
+  "e": "Sufficientarianism sets an absolute 'enough' threshold (affordable housing at or below 30% of income) and treats inequality above it as irrelevant. The Equal City is the tempting distractor, but it is relative ('the more equal, the better'), which the province explicitly rejects."
+ },
+ {
+  "t": "hall",
+  "w": 2,
+  "s": "At a planning school reunion, a graduate from 1955 remembers the drawing board, a graduate from 1965 remembers analysing computer output, and a graduate from 1975 remembers evening meetings with community groups. A student asks what this says about planning theory.",
+  "q": "Which reading explains this shift?",
+  "o": [
+   "Davoudi: research-policy links moved from the enlightenment model to an instrumental, 'what works' model of evidence.",
+   "Scott: high-modernist legibility from above produced visual order, but it failed socially and gradually gave way to street-level, informal planning practices.",
+   "Rydin (2007): planners moved from managing voices to co-producing tested, socially robust knowledge with communities.",
+   "Hall: planning moved from design craft to systems science, and then critiques of 1965-75 stripped the planner of 'priestly clothing'."
+  ],
+  "a": 3,
+  "e": "Hall uses exactly these three graduates to illustrate craft (pre-1955), the systems revolution (1960s) and the turn to advocacy and community work after the critiques. Davoudi's models describe research-policy links, and her history runs from positivist planning to evidence-based rhetoric, not to community work."
+ },
+ {
+  "t": "know",
+  "w": 2,
+  "s": "At an evening on a planned wind farm near Zeewolde, residents say: 'We know from experience that turbines like these are audible across the village and will lower our house prices. Also, they are ugly.' The project leader proposes to log everything as 'local knowledge' with equal weight.",
+  "q": "What would Rydin (2007) advise the project leader?",
+  "o": [
+   "Treat all claims as equally valid knowledge, since an epistemology of multiplicity means no claim may be judged against another.",
+   "Separate knowledge claims (causal claims about noise and prices) from aesthetic claims, give them voice and then test them: open up, then close down.",
+   "Discard the residents' claims, because only expert-led models can produce valid predictive knowledge about noise and prices.",
+   "Organise deliberation until consensus emerges; once every voice is heard, the question of which knowledge is valid resolves itself."
+  ],
+  "a": 1,
+  "e": "Rydin distinguishes knowledge (claims about causal relations) from ethical or aesthetic claims, and says experience is not by itself sufficient to count as knowledge, so planners must test as well as give voice. The deliberation option fails on her point that 'engaging different knowledges is fundamentally different to engaging different voices'."
+ },
+ {
+  "t": "marx",
+  "w": 2,
+  "s": "Construction workers build luxury apartments on the Amsterdam Zuidas that they could never afford. The faster they build, the higher the developer's profits, while their own wages stay flat.",
+  "q": "How would Marx (1844) read this situation?",
+  "o": [
+   "A collective action problem: each worker free-rides on the others' willingness to strike, so the group as a whole fails to defend its common interest in higher wages.",
+   "Rent-seeking: landowner insiders capture the land-value gains and pass the costs on to outsiders who later buy the homes.",
+   "Estranged labour: the product confronts the worker as an alien power, and the worker becomes poorer the more wealth he produces, rooted in private property.",
+   "A market failure: the apartments create externalities that a planning authority should correct in the public interest."
+  ],
+  "a": 2,
+  "e": "Marx's first estrangement is from the product: 'The worker becomes all the poorer the more wealth he produces', and private property is the consequence of alienated labour. The Olson-style distractor explains failed organisation, not why labour produces alien wealth."
+ },
+ {
+  "t": "marx",
+  "w": 2,
+  "s": "A city council raises the wage of its municipal cleaners and calls this a structural answer to urban inequality. A councillor from another party disagrees.",
+  "q": "Which argument fits Marx (1844)?",
+  "o": [
+   "Higher wages are only 'better payment for the slave'; real change requires abolishing private property, the base that produces estrangement.",
+   "Wage rules are general rules known in advance that keep individual freedom intact, so they are an acceptable, non-arbitrary correction of market outcomes.",
+   "The raise is enough if cleaners reach a threshold of sufficiency; inequality above that line does not matter for justice.",
+   "The raise will only work if its meaning is embedded in internalised norms and validated in daily practice."
+  ],
+  "a": 0,
+  "e": "Marx argues an enforced wage increase would be 'nothing but better payment for the slave' and cannot restore human significance to labour; change needs a structural change of the base. The sufficiency option is Buitelaar's Supportive City, which accepts inequality Marx sees as structural."
+ },
+ {
+  "t": "hayek",
+  "w": 2,
+  "s": "The cabinet asks parliament to approve one national plan deciding where, what and for whom all new homes will be built. All parties support 'a plan', but they split on whether it should serve starters, the elderly, nature or growth, so the cabinet proposes an expert agency that decides each case on its merits.",
+  "q": "How would Hayek (1944) read this?",
+  "o": [
+   "Experts should rank the competing goals in a comprehensive synthesis, since the legitimacy of a plan comes from the rationality of the analysis.",
+   "Agreeing on a plan is not agreeing on its ends; delegating discretion lets experts impose their own values: arbitrary power.",
+   "The split shows that MPs free-ride on each other's efforts; selective incentives would make them agree on the plan's priorities.",
+   "The plan is acceptable if it captures land value for the public, because fair distribution of development gains is the key metric."
+  ],
+  "a": 1,
+  "e": "Hayek's chain: people agree on planning without agreeing on ends, parliament stalls, the plan is handed to experts, and delegating discretion in particular cases produces arbitrary power. The comprehensive-synthesis option is the governmental model, which assumes the 'complete ethical code' Hayek says nobody has."
+ },
+ {
+  "t": "hayek",
+  "w": 2,
+  "s": "Under the Dutch Omgevingswet, municipalities may write their own general environmental rules. A new proposal goes further: the alderman would approve or refuse each project by weighing 'all circumstances of the case'.",
+  "q": "Which argument fits Hayek (1944)?",
+  "o": [
+   "Any delegation to local authorities is dangerous, because only a national parliament may legitimately make binding rules for citizens.",
+   "Planning fails because individuals are selfish, so no rule or plan can survive the pursuit of private self-interest.",
+   "Delegating general rule-making is acceptable; delegating discretion to decide cases 'on their merits' creates arbitrary power.",
+   "Local rules are welcome because, as this chapter argues, spontaneous order relies on dispersed local knowledge of circumstances."
+  ],
+  "a": 2,
+  "e": "Hayek accepts delegation of general rule-making, even to local authorities, and objects only to discretion in particular cases. The 'spontaneous order' option is a trap: those terms come from Hayek's other work (1945, 1973), not from this chapter, and his individualism is explicitly not selfishness."
+ },
+ {
+  "t": "cozz",
+  "w": 2,
+  "s": "A 1970s estate in Nieuwegein was built all at once by one developer, with large municipal green spaces, big owners' associations and a zoning plan that fixes heights and uses. Forty years later it is decaying, and the city drafts a top-down regeneration masterplan.",
+  "q": "How would Cozzolino (2020) diagnose the estate and judge the masterplan?",
+  "o": [
+   "Anti-adaptive: one-shot design, communal ownership and freezing rules block incremental change; make room for self-organised adaptation, not a new central plan.",
+   "A lack of evidence: the original plan had too little data and modelling, so a better comprehensive plan with careful monitoring and evaluation will solve the decay.",
+   "A critical juncture: the decay crisis opens a short window in which the municipality's choices will set a new institutional path for the estate.",
+   "Estranged labour: residents are alienated from what they produce, so private ownership should be replaced by collective ownership."
+  ],
+  "a": 0,
+  "e": "Cozzolino blames neglect of action, ownership and time: AANs built all-at-once cannot self-regenerate, which triggers a 'paternalistic circle' of top-down interventions. The critical-juncture option is Sorensen's historical institutionalism, which explains institutional change, not the lock-in of a built form."
+ },
+ {
+  "t": "gov",
+  "w": 3,
+  "s": "Rijkswaterstaat must choose between three options for a new river crossing. It defines the problem, forecasts traffic, designs alternatives, runs an MKBA against a no-policy future and recommends the option with the highest net benefit to the minister.",
+  "q": "Which reading describes the logic of this process?",
+  "o": [
+   "Rational choice: every actor maximises self-interest, so the MKBA mainly reveals how officials pursue their own agency's interests.",
+   "Evolutionary institutionalism: the decision is the unintended outcome of trial and error that no one designed or controlled.",
+   "Enlightenment model: research illuminates the landscape indirectly and informs public debate over the long term.",
+   "Governmental model: politicians set goals, experts pick the best means through rational steps; legitimacy comes from the analysis."
+  ],
+  "a": 3,
+  "e": "This is the Weberian, Lichfield-style rational process with welfare optimisation (MKBA) and the separation of political ends from expert means. Rational choice also uses cost-benefit thinking, but it applies self-interest to ALL actors, including the state, which this scenario does not suggest."
+ },
+ {
+  "t": "gov",
+  "w": 3,
+  "s": "A research proposal asks: 'How effective is the municipal heat-transition plan, and where does the implementation gap arise?' It takes the plan's goals as given and studies the municipality as the key actor.",
+  "q": "Which perspective is this proposal implicitly using, and what does Rydin (2021) say it tends to miss?",
+  "o": [
+   "Historical institutionalism: it traces path dependence after a critical juncture and misses the incentives of individual actors.",
+   "Rational choice: it models the self-interest of actors and misses the cultural dimension that drives their behaviour.",
+   "The governmental model: research becomes 'a critical friend shadowing the steps', takes goals for granted and misses power and conflict.",
+   "Sociological institutionalism: it studies symbols and meanings and misses how policy is actually implemented on the ground."
+  ],
+  "a": 2,
+  "e": "Instrumentalist wording ('effectiveness', 'implementation gap'), given goals and a planning organisation as the case are the markers of the governmental model, which Rydin says misses power and conflict. None of the other perspectives is signalled by that vocabulary."
+ },
+ {
+  "t": "scott",
+  "w": 3,
+  "s": "A new capital district is built from scratch on state land: monumental axes, separate zones for government, housing and shopping, and uniform blocks designed to be read from the air. Twenty years later most workers live in informal settlements on the edge that keep the planned core running.",
+  "q": "How would Scott (1998) read this?",
+  "o": [
+   "High modernism: legibility from above produces macro-order and micro-confusion, and the planned city depends symbiotically on an unplanned one.",
+   "Second-order taxis: the planners redesigned the institutional rules themselves for one goal, ignoring that most institutions evolve unintentionally.",
+   "The informal settlements show efficient Coasean bargaining once property rights over the land were clearly defined.",
+   "The plan failed for lack of evidence: better population forecasts and housing models would have prevented the informal settlements on the edge."
+  ],
+  "a": 0,
+  "e": "Scott's Brasília is the model: a utopian miniaturisation built on state land, functional segregation, and 'two Brasílias' that are symbiotic. Moroni's taxis critique targets the engineering of institutions, whereas Scott analyses the physical plan and its disregard for mētis."
+ },
+ {
+  "t": "scott",
+  "w": 3,
+  "s": "A municipality redevelops a busy market street: vendors are banned, cars, pedestrians and shops are separated into zones, and a large empty plaza is created that looks tidy on the masterplan. Locals say the area now feels dead.",
+  "q": "Which argument fits Scott's use of Jane Jacobs?",
+  "o": [
+   "The plaza fails because the land is under-priced; selling it to the highest bidder would put the space to its most efficient and valued use.",
+   "The redesign will work once the plaza becomes a symbol embedded in residents' mental maps and validated in practice.",
+   "The problem is a lack of comprehensive synthesis; integrating traffic, retail and public space in one rational, evidence-based plan would fix it.",
+   "Visual order is not experienced order: mixed use and street-level complexity serve daily needs better than tidy, segregated geometry."
+  ],
+  "a": 3,
+  "e": "Jacobs (via Scott) argues 'there is no necessary correspondence between the tidy look of geometric order' and systems that meet daily needs; function, not surface regularity, defines order. The comprehensive-synthesis option repeats the top-down logic Scott criticises."
+ },
+ {
+  "t": "davoudi",
+  "w": 3,
+  "s": "The ministry launches a 'what works' programme: researchers must deliver quick, usable evidence on which instruments speed up housing construction, on the ministry's request. Officials say this makes housing policy evidence-based.",
+  "q": "How would Davoudi (2006) classify and judge this programme?",
+  "o": [
+   "The enlightenment model: positive, because research indirectly illuminates the policy landscape and informs long-term public debate.",
+   "The instrumental 'expert on tap' model: naive, since evidence competes with Weiss's four I's; aim for evidence-informed policy.",
+   "The instrumental 'expert on top' model: positive, because science sets the course of policy with an element of inevitability.",
+   "Co-production of socially robust knowledge: positive, because planners open up to many claims and then test them."
+  ],
+  "a": 1,
+  "e": "Policy-led demand for quick, usable answers ('what matters is what works') is 'expert on tap'; Davoudi calls its assumptions naive and prefers the enlightenment model. 'Expert on top' is the other instrumental variant, in which research leads policy rather than serving it."
+ },
+ {
+  "t": "davoudi",
+  "w": 3,
+  "s": "A province keeps a strict green belt around a city as a matter of principle, even though studies link it to rising house prices. Later a minister commissions a report that cites only the studies supporting a decision already taken.",
+  "q": "Which reading explains both observations?",
+  "o": [
+   "Rydin (2007): the price studies make aesthetic rather than knowledge claims, so planners were right to close them down.",
+   "Taylor: landowner insiders rent-seek to protect containment premiums and pass the costs to future homebuyers.",
+   "Hayek: the green belt is part of a central plan whose ends no democratic assembly could ever really agree on.",
+   "Davoudi: ideology, one of Weiss's four I's, sustains the green belt, and the report follows the tactical model of cherry-picking."
+  ],
+  "a": 3,
+  "e": "Davoudi uses urban containment and the Green Belt as her example of ideology outlasting evidence, and the tactical model describes evidence gathered to justify decisions already made. Taylor's rent-seeking explains lobbying by owners, but the scenario stresses values and selective evidence, not organised landowners."
+ },
+ {
+  "t": "alex",
+  "w": 3,
+  "s": "A planner says: 'For routing a new bus line I optimise travel times myself; for a conflict between residents and a developer I organise mediation aimed at consensus.' A colleague asks whether this is inconsistent.",
+  "q": "Which position does the planner's approach express?",
+  "o": [
+   "Hall's history: communicative planning has replaced rationality, which planning theory abandoned after the critiques of the 1970s.",
+   "Alexander's contingency view: instrumental rationality and communicative action are mirror images, each valid in its own domain.",
+   "Davoudi: both are versions of the instrumental model, because each links research directly to a policy decision.",
+   "Moroni: both are forms of taxis, made order based on one designer's knowledge, and should give way to a kosmos approach of general rules."
+  ],
+  "a": 1,
+  "e": "Alexander argues 'one paradigm cannot supplant another': rationality ignores interaction, communicative action ignores deliberation, so a contingency framework assigns each its domain. Hall describes a shift, not a combination of models."
+ },
+ {
+  "t": "rc",
+  "w": 3,
+  "s": "In Utrecht, neighbours suffer from noisy short-stay rentals but rarely organise, while hosts and platforms lobby effectively, and the 60-night cap is hard to enforce. An economist proposes tradable hosting permits and a hosting tax paid into a neighbourhood fund.",
+  "q": "Which reasoning underlies the economist's proposal?",
+  "o": [
+   "The governmental model: politicians set the goal and experts design one comprehensive plan to optimise welfare for the whole city.",
+   "Sociological institutionalism: new rules only work once they are embedded in residents' cognitive scripts and moral templates.",
+   "Coase: transaction costs are never zero, so clarify property rights and lower transaction costs so that bargaining can reach an efficient outcome.",
+   "Marx: platform owners appropriate the surplus, so private property in housing should be abolished rather than regulated."
+  ],
+  "a": 2,
+  "e": "Coasean interventions (tradable permits, a hosting tax into a fund, clearer rights) aim to cut information, bargaining and enforcement costs. The governmental option misses the core rational-choice point that state regulation also fails (enforcement, data, waterbed effects)."
+ },
+ {
+  "t": "rc",
+  "w": 3,
+  "s": "Imagine the Netherlands adopted a rule like Swiss peasant land law: outsiders may not buy farmland, and price gains on farmland are capped. Planners wonder how this would change the politics of urban expansion.",
+  "q": "What does rational choice theory, as used in the course, predict?",
+  "o": [
+   "No speculative lobby for urban expansion forms, and insiders gain from densification instead: incentives shape which coalitions emerge.",
+   "Farmers will form a stronger expansion lobby, because capped farmland prices give them a new reason to seek urban rezoning of their land.",
+   "Nothing changes, because institutions only change at critical junctures and a single rule cannot alter actors' behaviour.",
+   "Prices rise anyway, because land has become a financial asset whose value is set in global investment portfolios, far from local rules."
+  ],
+  "a": 0,
+  "e": "The 'Swiss hypothesis' in the lecture: barring outsiders and capping gains removes the speculative interest in expansion, so self-interested insiders profit from densification. Property rights and rules shape incentives, which is the core rational-choice claim."
+ },
+ {
+  "t": "needham",
+  "w": 3,
+  "s": "Residents of a new estate want front gardens kept green and fences low. The municipality could secure this through the zoning plan and permits, or the developer could attach covenants enforced by a residents' association.",
+  "q": "How does Needham (2012) frame this choice?",
+  "o": [
+   "The zoning plan protects the public interest against the market, while covenants put private interests above the public interest.",
+   "Both protect identifiable private interests: via public law (permits) or private law (rights enforced by holders); the split can be revised.",
+   "Covenants are always more efficient than regulation, so planning should be replaced by markets in property rights wherever possible.",
+   "Owners will free-ride on the association, so only coercion by the state can deliver a collective good like green gardens."
+  ],
+  "a": 1,
+  "e": "Needham rejects the 'public interest vs market' framing: the authority upholds 'the identifiable interests of many identifiable private persons', via public or private law. He does not argue for replacing planning; markets in rights are feasible 'only under certain limited circumstances' (and estate covenants are not binding in the Netherlands)."
+ },
+ {
+  "t": "needham",
+  "w": 3,
+  "s": "Fine particulates from a motorway harm thousands of residents of Amsterdam-West, each a little. A lawyer proposes to give every resident a property right to clean air, enforceable in court.",
+  "q": "What would Needham (2012) say about the proposal?",
+  "o": [
+   "Workable: once the rights are clearly defined, bargaining always reaches the efficient outcome, regardless of how many parties are involved.",
+   "Pointless: property rights are natural rights that exist before the state, so a court cannot recognise a new right to clean air.",
+   "Hardly workable: the effects are diffuse and the victims many and unable to organise a lawsuit, so protection through public law fits better.",
+   "Purely political: whether clean air is protected as a right depends only on ideology, never on the nature of the cause and effect."
+  ],
+  "a": 2,
+  "e": "Needham's technical allocation: a right suits clear causes and few parties (right of support); clean air has diffuse effects and hundreds of victims who cannot organise, so regulation applies (an Olson-type problem). The Coase option ignores transaction costs, and Needham stresses that rights are state-created, not natural."
+ },
+ {
+  "t": "olson",
+  "w": 3,
+  "s": "All 8,000 households in a district would benefit if a planned data centre were stopped, but hardly anyone joins the residents' committee. Each household reasons that others will do the work.",
+  "q": "How does Hindmoor's account of Olson explain this?",
+  "o": [
+   "A collective action problem: the benefit is non-excludable so members free-ride, though coercion or selective incentives can overcome it.",
+   "Collective action is impossible for a group this large, so the campaign is irrational and certain to fail whatever the committee does to mobilise.",
+   "Residents lack an internalised identity for the district; the committee must first inculcate a shared symbol of the place in their mental maps.",
+   "Residents are estranged from their species-being under capitalism and therefore incapable of acting together for any common goal."
+  ],
+  "a": 0,
+  "e": "Non-excludable goods invite free-riding, but Hindmoor stresses that Olson 'recognizes that they may be able to overcome it' (selective incentives, privileged members, process benefits, conditional cooperation). The 'impossible' option is the classic misreading, and size predicts latency only as 'an empirical tendency'."
+ },
+ {
+  "t": "olson",
+  "w": 3,
+  "s": "Two farmers share a dike that only holds if BOTH of them repair their own section before winter. Each knows the other prefers a safe dike to a flooded field.",
+  "q": "Which game best describes this situation, according to Hindmoor?",
+  "o": [
+   "Prisoners' dilemma: defection is the dominant strategy, so both farmers skip their repair and the dike fails in winter.",
+   "Chicken: one day of work by either farmer saves the dike, so each tries to make the other one do the job.",
+   "Tragedy of the commons: the dike is a shared resource that both farmers will overuse until it is depleted.",
+   "Assurance: no dominant strategy, and cooperation should be easy to achieve if rationality is common knowledge."
+  ],
+  "a": 3,
+  "e": "In Hindmoor's dam example, when both are needed the game is assurance: no dominant strategy and cooperation is easy. Chicken applies when either farmer alone can save the dam."
+ },
+ {
+  "t": "olson",
+  "w": 3,
+  "s": "A village swimming pool needs a new roof. One wealthy resident values the pool so much that she pays the whole repair herself, while the other users contribute nothing.",
+  "q": "Which concept from Hindmoor's chapter fits?",
+  "o": [
+   "An intermediate group: members can notice whether others contribute, so conditional cooperation develops.",
+   "A latent group: nobody bears their share, so the collective good is not provided at all.",
+   "A privileged group: at least one member values the good enough to bear the whole cost of providing it.",
+   "A selective incentive: contributors receive an excludable private reward that non-contributors do not get."
+  ],
+  "a": 2,
+  "e": "Olson defines a privileged group by one member's willingness to pay the full cost (the flatmate who cleans). Intermediate groups are defined by members noticing each other's contributions, which is the common confusion, and group size is not the definition of a privileged group."
+ },
+ {
+  "t": "taylor",
+  "w": 3,
+  "s": "A province extends a town's urban boundary and land inside jumps in value. It announces a levy on this betterment to fund infrastructure; landowners call it 'robbery', deny any windfall will occur, and the levy ends up payable by later buyers and at development.",
+  "q": "Which reading explains this outcome best?",
+  "o": [
+   "Taylor: landowner 'insiders' rent-seek, discrediting betterment and shifting the levy to 'outsiders' such as homebuyers.",
+   "Sorensen: a housing crisis opened a critical juncture in which productive conditions shaped a new value-capture framework.",
+   "Needham: the province moved protection of the interest from public law to private law, creating a market in property rights.",
+   "Davoudi: the levy was a procedural, tick-box soundness test rather than a real use of evidence in making policy."
+  ],
+  "a": 0,
+  "e": "This mirrors Melbourne's GAIC: framing it as robbery, disputing betterment and getting 'purchaser pays' modifications ('Landowner-led pressure ... led to a set of modifications'). Sorensen studies value capture too, but through historical institutionalism (junctures, pathways), not the lobbying mechanism of insiders against outsiders."
+ },
+ {
+  "t": "taylor",
+  "w": 3,
+  "s": "After a growth boundary moves, hobby farmers on large lots inside it object to being included, while owners of vacant land just outside lobby hard to get in.",
+  "q": "How does Taylor (2016) explain why landowners take opposite positions?",
+  "o": [
+   "Both groups act irrationally, since a rational owner always wants the maximum development value for any piece of land.",
+   "Both groups follow internalised cognitive scripts of rural identity, a logic of appropriateness rather than self-interest.",
+   "Their positions reflect class position: owners of the means of production versus workers who only own their labour power.",
+   "Multiple interests: premium-seekers want inclusion for development value; lifestyle 'homevoters' defend restrictions."
+  ],
+  "a": 3,
+  "e": "Taylor distinguishes premium-seeking owners (often farmers and vacant land) from 'homevoters' (Fischel) who protect amenity and value; both are self-interested. The cognitive-scripts option is sociological institutionalism, which Taylor does not use."
+ },
+ {
+  "t": "ni",
+  "w": 4,
+  "s": "Planners propose a new regional 'housing deal' to change how municipalities cooperate. A critic says it won't work as intended, because the existing rules of cooperation shape what aldermen and planners themselves see as reasonable and even what they want.",
+  "q": "Which strand of new institutionalism is the critic using?",
+  "o": [
+   "Rational choice: institutions are rules of the game that self-interested actors redesign to improve cooperation and credible commitment.",
+   "Sociological: institutions shape 'the very criteria by which people discover their preferences' via scripts and norms.",
+   "Historical: institutions follow paths set at critical junctures, so change happens only when a crisis opens a window.",
+   "Evolutionary: institutions are unintended outcomes of long trial-and-error processes that escape deliberate control."
+  ],
+  "a": 1,
+  "e": "Institutions shaping actors' own perceptions and preferences is the sociological strand (as in the midterm sample question). The evolutionary option is Moroni's position, a frequent trap."
+ },
+ {
+  "t": "ni",
+  "w": 4,
+  "s": "Mussel fishers in a Wadden Sea harbour jointly agree who may fish, in which season, how catches are reported and how rule-breakers are sanctioned, without help from the state or a market in fishing rights.",
+  "q": "Which reading explains this best?",
+  "o": [
+   "The rules are the unintended result of long evolution that nobody designed, so the fishers did not deliberately create them.",
+   "Hardin's tragedy of the commons: shared resources will be depleted unless the state or privatisation takes over.",
+   "Historical institutionalism: the rules were locked in by an earlier critical juncture and can no longer change.",
+   "Self-interested users craft rules to overcome the tragedy of the commons: Ostrom's rational choice institutionalism."
+  ],
+  "a": 3,
+  "e": "Ostrom shows that self-interested people can self-organise rules (her IAD rule types) to overcome the problem of commitment; the scenario describes deliberate rule-making. Hardin is the starting puzzle that Ostrom answers, not the explanation of successful self-governance."
+ },
+ {
+  "t": "ni",
+  "w": 4,
+  "s": "A student essay states: 'The key institutions of Dutch housing are the Ministry, the housing corporations and their umbrella body Aedes.'",
+  "q": "What is wrong with this from a new-institutionalist view?",
+  "o": [
+   "Nothing is wrong: in new institutionalism the terms 'institution' and 'organisation' are used as synonyms for the same thing.",
+   "These are organisations (players); institutions are the formal and informal rules, such as allocation rules or norms.",
+   "Institutions refer only to formal laws; informal norms belong to culture, so the student should list the Housing Act instead.",
+   "Institutions only constrain actors; they can never be what planning itself produces, so organisations are the wrong level."
+  ],
+  "a": 1,
+  "e": "Institutions are rules and norms; organisations are concrete entities with a purpose (the EBU vs the Eurovision rules). Institutions are also both 'context and object' of planning (Savini 2019), so the last option is wrong too."
+ },
+ {
+  "t": "dembski",
+  "w": 4,
+  "s": "A province brands the zone between Utrecht and Amersfoort as 'Heuvelrug Valley', with a logo, a slogan and an annual event. Residents don't recognise themselves in it, and the label is mocked in local media.",
+  "q": "How would Dembski & Salet (2010) explain the failure?",
+  "o": [
+   "The logo and slogan were poorly designed; a better communicative strategy around the symbol itself would have succeeded.",
+   "Institutions are 'rusty old fixtures' that only explain preservation, so no symbol can ever help to transform a region.",
+   "The symbol lacked institutional embedding: its meaning was never inculcated in the audience's mental maps.",
+   "The region was locked in after an earlier critical juncture, so any new identity was bound to fail from the start."
+  ],
+  "a": 2,
+  "e": "For Dembski & Salet success 'lies in the institutional embedding in the mental maps' of the audience, not in the symbol's design, which is the focus of communicative studies they move beyond. They explicitly reject the 'rusty old fixtures' view of institutions."
+ },
+ {
+  "t": "dembski",
+  "w": 4,
+  "s": "In a former shipyard district, planners link the area's industrial past to a 'creative future' through events in old wharf buildings, and long-time residents and newcomers both adopt the new image.",
+  "q": "Which argument from Dembski & Salet (2010) explains why this worked?",
+  "o": [
+   "The message bent the past to the future in an under-institutionalised niche, so its meaning could be internalised.",
+   "Clear property rights in the wharf buildings allowed users and owners to bargain their way to an efficient outcome.",
+   "It shows spontaneous kosmos order: planners should never use symbols, because order emerges without any deliberate design.",
+   "Free events acted as selective incentives that solved residents' free-rider problem in supporting the new image."
+  ],
+  "a": 0,
+  "e": "Dembski & Salet see institutional transformation as deliberate change that needs a sound sense of existing norms: the art is finding niches or institutional voids, with an encoded message that links past and future. Selective incentives explain contribution to collective goods, not how meaning is internalised."
+ },
+ {
+  "t": "moroni",
+  "w": 4,
+  "s": "A ministry wants to design an entirely new institutional framework for housing from scratch, aimed at one target of 100,000 homes a year, replacing the existing rules in one go.",
+  "q": "How would Moroni (2010) respond?",
+  "o": [
+   "Good: planning is institutional design, so planners should deliberately create new institutions to reach politically defined societal goals.",
+   "Second-order taxis: institutions mostly evolve unintentionally and store dispersed knowledge, so reform should be gradual and modest.",
+   "Possible, but only if the new rules are embedded in actors' habitus and validated again and again in their daily practice.",
+   "Possible, but only during a critical juncture, after which a bounded developmental pathway of contestation will follow."
+  ],
+  "a": 1,
+  "e": "Moroni attacks the 'engineeristic' redesign of institutions for specific goals and proposes kosmos principles such as gradualism, modesty and non-tabula rasa. The 'planning is institutional design' option is precisely the Alexander/Innes view he criticises."
+ },
+ {
+  "t": "moroni",
+  "w": 4,
+  "s": "A busy street feels safe because shopkeepers and residents keep an eye on it while going about their own business. Nobody planned this safety, and nobody intended to produce it.",
+  "q": "Which type of explanation does Moroni (2010) use for this kind of order?",
+  "o": [
+   "An organisational explanation: a designed arrangement of resources for explicit shared goals, like a neighbourhood watch.",
+   "A natural explanation: the safety exists independently of human action, like weather or geology.",
+   "An invisible-hand explanation: order as 'the result of human action, but not the execution of any human design'.",
+   "A legibility explanation: order produced by making the street readable and controllable from above."
+  ],
+  "a": 2,
+  "e": "Moroni cites Jacobs on safe streets as an invisible-hand explanation and places most institutions among phenomena that are 'artificial but not designed'. An organisation is artificial and designed, which is exactly the distinction he draws."
+ },
+ {
+  "t": "sorensen",
+  "w": 4,
+  "s": "After a housing crisis a law introduces statutory development charges. For thirty years afterwards developers and municipalities litigate and lobby over the charges, but always within that legal framework.",
+  "q": "How would Sorensen (2024) describe this?",
+  "o": [
+   "A critical juncture, then a reactive sequence of bounded contestation within a developmental pathway: no lock-in.",
+   "Lock-in: once the law was passed, nothing could change at all until the next crisis completely replaced the whole framework.",
+   "Emergent evolution: rules develop through trial and error with no identifiable moment of collective choice.",
+   "Rent-seeking: insiders captured the gains and passed the costs of development on to outsiders such as future buyers."
+  ],
+  "a": 0,
+  "e": "Sorensen stresses that path dependence 'is not a matter of lock-in': contestation and incremental change continue within a 'relatively constrained range of options' set by the critical juncture. The lock-in option is the misreading he explicitly rejects."
+ },
+ {
+  "t": "sorensen",
+  "w": 4,
+  "s": "Two housing crises in the same province, decades apart: the first produced a law that strengthened land value capture, the second a law that weakened it.",
+  "q": "How does Sorensen (2024) explain the different outcomes of similar crises?",
+  "o": [
+   "Crises always strengthen land value capture, so the second outcome shows that no real critical juncture took place in that period.",
+   "Both outcomes simply reflect the economic base: capitalist relations of production determine every planning law in the province.",
+   "The outcomes depend on whether the new laws were embedded as meaningful symbols in voters' mental maps.",
+   "A crisis is only a permissive condition; productive conditions (actors, legal structures, ideology, timing) shape the choice."
+  ],
+  "a": 3,
+  "e": "Both permissive and productive conditions are needed: housing crises opened the window in Toronto each time, but different productive conditions made 1946 and 1989 enhance LVC and 2019-22 cut it. The 'economic base' option ignores the role of agency and institutions that HI adds."
+ },
+ {
+  "t": "harvey",
+  "w": 6,
+  "s": "A city sets up a public-private partnership to build a waterfront with a cultural centre, marina and convention hall to attract tourists and investors, and the city absorbs the cost overruns. Within a few years three neighbouring cities announce almost identical waterfronts.",
+  "q": "How would Harvey (1989) read this?",
+  "o": [
+   "Governmentality: the waterfront is a technology that turns residents into self-responsible, entrepreneurial subjects governed at a distance.",
+   "Financialisation: special-purpose vehicles detach investment decisions from the local context in which the waterfront is built.",
+   "Urban entrepreneurialism: speculative place-making with local public risk-absorption; competition drives serial reproduction of projects.",
+   "Discourse: the industry's 'red tape' narrative has become a regime of truth that fixes which solutions count as acceptable."
+  ],
+  "a": 2,
+  "e": "Harvey's PPP is speculative, with 'the public sector [assuming] the risk and the private sector [taking] the benefits', and competition forces 'serial reproduction' (waterfronts, cultural centres). The financialisation option fits Savini & Aalbers' Falck case, where investors, not the city, carry the speculative logic."
+ },
+ {
+  "t": "harvey",
+  "w": 6,
+  "s": "A left-wing council in a deindustrialised city says it has no choice but to compete with other cities through flagship projects and business incentives. Activists reply that the council has simply sold out to capital.",
+  "q": "Which argument fits Harvey (1989)?",
+  "o": [
+   "Competition is an external coercive law disciplining cities after the event, yet cities stay power bases for progressive urban corporatism.",
+   "Local government is wholly captive of capital, so the council can achieve nothing and only a national revolution can change the outcome.",
+   "Competition is a beneficial hidden hand that disciplines wasteful local governments and so improves services for all residents.",
+   "The council is part of an urban regime that assembles 'power to' govern through resource interdependence with business."
+  ],
+  "a": 0,
+  "e": "Harvey treats competition as Marx's 'coercive law' but distances himself from captive local-state theory: competition can be non zero-sum, and 'cities are important power bases' for progressive corporatism. The hidden-hand option is the Tiebout/Hayek reading he rejects."
+ },
+ {
+  "t": "hh",
+  "w": 6,
+  "s": "A Dutch municipality that owns much of its land switches from ground lease to selling shoreline plots to the highest bidder. It wants to close a budget gap and attract wealthy taxpayers, and it drops its social-housing requirement for the site.",
+  "q": "Which reading fits best?",
+  "o": [
+   "De-contextualisation: layered investors and SPVs detach land investment decisions from the local planning context.",
+   "Cooptation: the city absorbs a movement's ideas while redefining the problem so it does not threaten stability.",
+   "Government through community: residents are made responsible for their own regeneration through targets and audits.",
+   "Entrepreneurial public real estate policy: the public landowner maximises rent, ceding planning power and social mix."
+  ],
+  "a": 3,
+  "e": "Hyötyläinen & Haila show Helsinki selling Eiranranta for record revenue, ceding planning power without social-housing demands, and competing for 'good taxpayers'. The SPV option is Savini & Aalbers, where private financial layering, not the municipality as landowner, drives the outcome."
+ },
+ {
+  "t": "savini",
+  "w": 6,
+  "s": "A polluted brownfield near Amsterdam is sold three times in ten years to ever larger investors through special-purpose vehicles. Each time the planned floor area grows to cover a higher land price and debts, and the fiscally stretched municipality negotiates from a weak position.",
+  "q": "How would Savini & Aalbers (2016) explain this?",
+  "o": [
+   "Entrepreneurial public real estate policy: the municipality maximises land rent by selling public land to the highest bidder.",
+   "De-contextualisation: as land turns liquid, investment decisions detach from local needs and planning serves to unlock capital.",
+   "A critical juncture: a crisis opened a short window in which the municipality's choices set a lasting pathway for the site.",
+   "Rent-seeking by local homevoters, who lobby to keep restrictions that protect their amenity and property values."
+  ],
+  "a": 1,
+  "e": "The Falck case: each transfer bound the project more tightly to yields, the programme was enlarged, and a yield-dependent municipality lost bargaining power. Entrepreneurial public real estate policy needs a public landowner selling land, which is not what happens here."
+ },
+ {
+  "t": "rydin6",
+  "w": 7,
+  "s": "A municipality cannot deliver its regeneration agenda alone, so over many years an informal but stable coalition of the council, housing corporations, a university and a pension fund pools money, land and expertise to get things done.",
+  "q": "Which concept from Rydin's urban politics chapter fits best?",
+  "o": [
+   "A growth coalition (Molotch): local elites with land stakes dominate government to secure property-led growth for their own gain.",
+   "Agonism (Mouffe): conflict is accepted as inevitable, and enemies are turned into adversaries who agree to disagree.",
+   "An urban social movement (Castells): a mobilisation that expresses a social cleavage over the means of collective consumption.",
+   "An urban regime (Stone): an informal, stable group assembling capacity to govern through resource interdependence ('power to')."
+  ],
+  "a": 3,
+  "e": "Stone's regime is defined by resource interdependence and 'power to'; cooperation has to be achieved. Molotch's growth coalition is the strongest distractor, but Rydin presents it as more elite-driven and too simple, and the scenario stresses pooled capacity rather than domination."
+ },
+ {
+  "t": "rydin6",
+  "w": 7,
+  "s": "In a dispute over a large solar park, the province stops aiming for consensus. It sets up an arena in which opponents and supporters remain opposed but accept each other as legitimate rivals.",
+  "q": "Which perspective does this approach reflect?",
+  "o": [
+   "Governance theory: conflicts can be handled through partnership and deliberation until stakeholders reach an agreed outcome.",
+   "Agonism (Mouffe): conflict is inevitable and productive, so the aim is to turn enemies into adversaries willing to 'agree to disagree'.",
+   "Pluralism (Dahl): groups form whenever there is demand, so the arena simply reflects the balance of interests in society.",
+   "An urban regime: actors pool resources and assemble a stable capacity to govern the energy transition together."
+  ],
+  "a": 1,
+  "e": "Agonism rejects governance's promise of consensus; 'agonism involves a willingness to agree to disagree'. Governance theory is the view urban politics contrasts itself with, because it assumes conflict can be handled towards agreement."
+ },
+ {
+  "t": "bossuyt",
+  "w": 7,
+  "s": "Homeless families occupy a vacant state office in The Hague, renovate it collectively and win legal recognition. Later the units become individual titles with mortgages, and one flat turns up on a subletting website.",
+  "q": "How would Bossuyt & D'Ottaviano (2025) interpret this?",
+  "o": [
+   "Terminal institutionalization: conventional tactics have replaced disruptive ones, so the occupation movement has effectively come to an end.",
+   "Entrepreneurial public real estate policy: the state maximises land rent by selling its vacant public buildings to the highest bidder.",
+   "Regularization protects against eviction but turns collective use claims into individual titles and debt: only partial protection.",
+   "Rent-seeking: insiders captured a windfall and passed the costs on to outsiders who buy the units later."
+  ],
+  "a": 2,
+  "e": "In São Paulo regularization was a pattern of protection, yet only 'partial': individual titles and mortgages made residents 'indebted subjects', and subletting shows commodification as enclosure. Terminal institutionalization is Pruijt's concept for a movement's repertoire, not for how the property regime of a commons changes."
+ },
+ {
+  "t": "pruijt",
+  "w": 7,
+  "s": "Two squatter groups operate in the same city. One squats only to house poor families and accepts a city programme to manage buildings if it stops squatting; the other sees squatting as a way of life and refuses every deal.",
+  "q": "How does Pruijt (2003) explain the difference?",
+  "o": [
+   "For the housing movement squatting is a means, so it can be co-opted; for the squatters' movement it is also the end.",
+   "Both will inevitably institutionalize and lose their identity, because every urban movement ends this way at the end of its cycle.",
+   "Both face a free-rider problem, and the city programme simply offers selective incentives that make contribution rational.",
+   "Both are being governed at a distance through community, so their refusal or acceptance makes no real difference."
+  ],
+  "a": 0,
+  "e": "Officials can claim to share a housing movement's goal and offer support for approved means, but cannot do so when squatting itself is the goal. The 'inevitable institutionalization' option is Castells' (1983) view, which Pruijt sets out to refute."
+ },
+ {
+  "t": "raco",
+  "w": 7,
+  "s": "A national fund gives residents' groups money for local projects, but only if they bid competitively, train volunteers in monitoring and report quarterly against fixed targets. Ministers call it 'handing power to communities'.",
+  "q": "How would Raco & Imrie (2000) read this?",
+  "o": [
+   "Genuine devolution: power moves from the state to communities in a measurable, quantitative way through the new fund.",
+   "Government at a distance through community: 'empowerment' reshapes subjectivity and ties rights to responsibilities.",
+   "Cooptation of a squatters' movement whose disruptive tactics are replaced by formal service provision.",
+   "An ideology-driven discourse in which the development industry fixes which solutions count as acceptable."
+  ],
+  "a": 1,
+  "e": "Like SRB, the fund creates 'communities of obligation' and calculable spaces; empowerment is 'a qualitative transformation of forms of subjectivity', not a quantitative gain in power. Less state intervention does not mean 'any less government'."
+ },
+ {
+  "t": "gurran",
+  "w": 7,
+  "s": "During a national housing reform, the developers' lobby argues that rules and objections block supply and that cutting red tape will make homes affordable. The final bill makes growth the main purpose of planning, mentions the environment only 'having regard to', and drops affordable-housing quotas.",
+  "q": "Which reading explains this best?",
+  "o": [
+   "Taylor: landowner insiders rent-sought to shift a betterment levy onto future homebuyers, who as outsiders could not organise.",
+   "Harvey: cities turned entrepreneurial through public-private partnerships, local risk-absorption and the speculative construction of place.",
+   "Gurran & Ruming: the industry framing became a regime of truth, with affordability as a semantic justification for deregulation.",
+   "Raco & Imrie: active citizens are made responsible for regeneration through audit and competitive bidding."
+  ],
+  "a": 2,
+  "e": "The NSW case: industry discourse ('red tape') was largely adopted, growth became the 'main purpose', and social goals were relegated through 'while' and 'having regard to', while affordable-housing provisions were wound back. Taylor uses the same kind of data (submissions) but explains outcomes by economic interests, not by discourse."
+ }
+];
+
+const ODD = [
+ {
+  "w": 4,
+  "items": [
+   "Institutions shape the criteria by which people discover preferences",
+   "Rules of the game that provide credible commitment",
+   "Logic of appropriateness",
+   "Cognitive scripts and moral templates"
+  ],
+  "odd": 1,
+  "e": "The first three are sociological-institutionalist ideas (institutions shape meaning and preferences); 'rules of the game ... credible commitment' (North) is rational choice institutionalism."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Moroni's kosmos-oriented reform",
+   "Cozzolino's incremental, self-organised adaptation",
+   "Hayek: 'in some fields things must be left to chance'",
+   "Lichfield's eleven-step rational process"
+  ],
+  "odd": 3,
+  "e": "The first three sit on the emergent side of deliberate ↔ emergent; Lichfield's steps are the governmental model's deliberate, planner-led process."
+ },
+ {
+  "w": 2,
+  "items": [
+   "McLoughlin's cybernetic systems planning",
+   "Geddes' survey-analysis-plan",
+   "Abercrombie's green belt plan",
+   "Blueprint end-state land-use design"
+  ],
+  "odd": 0,
+  "e": "The first three belong to Hall's pre-1955 craft era (design, blueprint plans); McLoughlin's systems planning is the 1960s systems revolution."
+ },
+ {
+  "w": 3,
+  "items": [
+   "Selective incentives",
+   "Process benefits",
+   "Dual predictability",
+   "Conditional cooperation (tit-for-tat)"
+  ],
+  "odd": 2,
+  "e": "The first three are Hindmoor's routes for overcoming collective action problems; dual predictability is Taylor's (via Nelson) explanation of how containment fuels speculation."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Ideology",
+   "Interests",
+   "Inculcation",
+   "Prior information"
+  ],
+  "odd": 2,
+  "e": "Ideology, interests and prior information are three of Weiss's four I's that compete with evidence (Davoudi); inculcation is Dembski & Salet's term for an audience absorbing a symbol's meaning."
+ },
+ {
+  "w": 1,
+  "items": [
+   "Nozick's entitlement theory",
+   "Utilitarianism: maximum collective utility",
+   "Egalitarianism: everyone the same",
+   "Social mixing as a policy goal"
+  ],
+  "odd": 0,
+  "e": "The first three belong to goal-based conceptions (Happy and Equal City); Nozick's entitlement theory grounds the rights-based Free City."
+ },
+ {
+  "w": 2,
+  "items": [
+   "Base determines superstructure",
+   "Abolition of private property",
+   "History as class struggle",
+   "The individual as the ultimate judge of his ends"
+  ],
+  "odd": 3,
+  "e": "The first three are Marx's historical materialism; the individual as 'the ultimate judge of his ends' is Hayek's individualism."
+ },
+ {
+  "w": 4,
+  "items": [
+   "Path dependency",
+   "Invisible-hand explanation",
+   "Critical junctures",
+   "Reactive sequences"
+  ],
+  "odd": 1,
+  "e": "The first three are historical-institutionalist concepts (Sorensen); the invisible-hand explanation belongs to Moroni's evolutionary institutionalism."
+ },
+ {
+  "w": 4,
+  "items": [
+   "Bourdieu's habitus",
+   "North's 'humanly devised constraints'",
+   "Berger & Luckmann's habitualisation",
+   "Geertz's symbols 'saying something of something'"
+  ],
+  "odd": 1,
+  "e": "Dembski & Salet build their sociological institutionalism on Bourdieu, Berger & Luckmann and Geertz; North's definition is the rational choice institutionalist view of institutions."
+ },
+ {
+  "w": 0,
+  "items": [
+   "1960s systems planning",
+   "Lichfield's rational process",
+   "MKBA (social cost-benefit analysis)",
+   "Mētis (practical, local knowledge)"
+  ],
+  "odd": 3,
+  "e": "The first three treat knowledge as universal, expert-produced and monist; mētis (Scott) is situated, practical knowledge on the other side of the dimension."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Marx's base and superstructure",
+   "Olson's free-riding group member",
+   "Taylor's rent-seeking landowners",
+   "Hayek's individual pursuing his own ends"
+  ],
+  "odd": 0,
+  "e": "The first three explain outcomes from individual choice (the agency side); Marx's base and superstructure is a structural, deterministic explanation."
+ },
+ {
+  "w": 3,
+  "items": [
+   "Covenants enforced by a residents' association",
+   "One investor-landlord leasing out a whole estate",
+   "Zoning plan conditions monitored by the municipality",
+   "Privately owned public space under permit conditions"
+  ],
+  "odd": 2,
+  "e": "The first three are Needham's property-rights (private-law) routes; zoning conditions are the usual public-law route of land-use planning."
+ },
+ {
+  "w": 3,
+  "items": [
+   "Tabula rasa",
+   "Functional segregation",
+   "Cross-use and mixed use",
+   "Legibility from above"
+  ],
+  "odd": 2,
+  "e": "The first three are high-modernist principles in Scott's chapter; cross-use and mixed use are Jacobs' street-level counter-argument."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Comprehensive synthesis",
+   "Gradualism",
+   "Modesty",
+   "Adaptive efficiency"
+  ],
+  "odd": 0,
+  "e": "Gradualism, modesty and adaptive efficiency are among Moroni's kosmos principles; comprehensive synthesis is a feature of the governmental model that he would see as taxis."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Lindblom's muddling through",
+   "Davidoff's advocacy planning",
+   "Rittel & Webber's wicked problems",
+   "Faludi's theory of the rational planning process"
+  ],
+  "odd": 3,
+  "e": "Lindblom, Davidoff and Rittel & Webber challenge the governmental model's assumptions; Faludi theorises the rational process itself."
+ },
+ {
+  "w": 2,
+  "items": [
+   "Empirical knowledge",
+   "Aesthetic claims",
+   "Process knowledge",
+   "Predictive knowledge"
+  ],
+  "odd": 1,
+  "e": "Empirical, process and predictive are three of Rydin's (2007) four knowledge types (the fourth is normative); aesthetic claims are a different kind of claim that she says must be distinguished from knowledge."
+ },
+ {
+  "w": 6,
+  "items": [
+   "Public-private partnership",
+   "Speculative construction of place",
+   "Local provision of services, facilities and benefits",
+   "Serial reproduction of waterfronts and malls"
+  ],
+  "odd": 2,
+  "e": "The first three describe Harvey's urban entrepreneurialism; the local provision of services, facilities and benefits defines the earlier managerialism."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Political rationalities",
+   "Programmes",
+   "Special-purpose vehicles",
+   "Technologies of government"
+  ],
+  "odd": 2,
+  "e": "Rationalities, programmes and technologies are Raco & Imrie's governmentality toolkit; SPVs are Savini & Aalbers' financial vehicles."
+ },
+ {
+  "w": 7,
+  "items": [
+   "Cooptation",
+   "Regularization",
+   "Restoration",
+   "Federation"
+  ],
+  "odd": 0,
+  "e": "Regularization, restoration and federation are three of Bossuyt & D'Ottaviano's five patterns of protection; cooptation is one of the forms of enclosure (and Pruijt's key concept)."
+ },
+ {
+  "w": 7,
+  "items": [
+   "Growth coalition (Molotch)",
+   "Urban regime (Stone)",
+   "Agonism (Mouffe)",
+   "Market-oriented vs redistributive regime (Pruijt)"
+  ],
+  "odd": 3,
+  "e": "The first three are dynamics in Rydin's urban politics chapter; Pruijt's 'urban regime' means a city's policy orientation rooted in welfare-state regimes, not Stone's coalition concept."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Investment relocation to riskier peripheries",
+   "Rhetorical relegation of social goals",
+   "Clustering and enlargement of projects",
+   "Instrumental land use planning"
+  ],
+  "odd": 1,
+  "e": "The first three are Savini & Aalbers' three trends of financialised development; rhetorical relegation ('while', 'having regard to') comes from Gurran & Ruming's discourse analysis."
+ },
+ {
+  "w": 0,
+  "items": [
+   "Hyötyläinen & Haila (2018)",
+   "Raco & Imrie (2000)",
+   "Savini & Aalbers (2016)",
+   "Harvey (1989)"
+  ],
+  "odd": 1,
+  "e": "The first three are grounded in (Marxist) political economy of urban land and capital; Raco & Imrie use Foucauldian governmentality."
+ }
+];
+
+const SEQ = [
+ {
+  "t": "hall",
+  "w": 2,
+  "title": "Hall: the phases of planning thought",
+  "steps": [
+   "Pre-1955 craft: blueprint design, survey-analysis-plan",
+   "1960s systems revolution: the city as a system to control",
+   "1965-75 critiques strip the planner's 'priestly clothing'",
+   "1970s Marxist ascendancy: planning serves capital",
+   "Communicative planning: the planner as mediator (Forester)",
+   "1990s insurgent and postmodern theory"
+  ],
+  "e": "Hall's history runs from design craft to science, then to critiques from right and left, Marxism, communicative theory and finally postmodern fragmentation."
+ },
+ {
+  "t": "gov",
+  "w": 3,
+  "title": "Lichfield et al.: the rational planning process (selected steps)",
+  "steps": [
+   "Define the problem and decide to act",
+   "Collect data and make forecasts",
+   "Set constraints, objectives and criteria",
+   "Design and test alternatives",
+   "Evaluate and decide",
+   "Implement",
+   "Review"
+  ],
+  "e": "The governmental model is linear with feedback: knowledge and goals come first, alternatives are evaluated against criteria, and review closes the loop."
+ },
+ {
+  "t": "hayek",
+  "w": 2,
+  "title": "Hayek: how democratic planning slides into dictatorship",
+  "steps": [
+   "People agree there should be a plan, not on its ends",
+   "Parliament cannot agree and is seen as a 'talking shop'",
+   "Planning is 'taken out of politics' and delegated to experts",
+   "Experts impose their own scale of values through discretion",
+   "Sectoral plans don't add up; calls for an economic dictator",
+   "Plebiscitarian dictatorship: parliament confirms a near-absolute leader"
+  ],
+  "e": "Each step follows from the missing 'complete ethical code': without agreement on ends, decisions move from the assembly to experts and finally to one person."
+ },
+ {
+  "t": "sorensen",
+  "w": 4,
+  "title": "Sorensen: the critical-juncture sequence",
+  "steps": [
+   "Antecedent conditions",
+   "A crisis creates permissive conditions",
+   "Critical juncture: productive conditions shape the choice",
+   "Reactive sequence of contestation",
+   "Relative stability within a developmental pathway"
+  ],
+  "e": "A crisis opens the window, productive conditions decide what is chosen, and later contestation stays bounded by the pathway that choice set."
+ },
+ {
+  "t": "dembski",
+  "w": 4,
+  "title": "Dembski & Salet: the methodological steps for studying symbolic markers",
+  "steps": [
+   "Identify the symbolic markers and their encoded message",
+   "Subjective context: who symbolises, and are they legitimate?",
+   "Objective context: which social structure, are symbols genuine?",
+   "Audience: who is addressed?",
+   "Articulation: how meanings change over time",
+   "Internalisation: how meaning is inculcated",
+   "Sanctions for misrecognition"
+  ],
+  "e": "The analysis moves from the symbol itself, via who uses it and its social context, to the audience and how its meaning is articulated, internalised and enforced (Box 1, steps 1-2 merged)."
+ },
+ {
+  "t": "taylor",
+  "w": 3,
+  "title": "Taylor: Melbourne's growth boundary and the GAIC",
+  "steps": [
+   "UGB legislated (2002)",
+   "'Melbourne @ 5 Million' proposes expansion and the GAIC (2008)",
+   "'Taxed Out!' landowner campaign against the GAIC (2009-10)",
+   "GAIC bill first blocked by the opposition",
+   "Redrafted bill passed: small-parcel exemptions, purchasers liable (2010)",
+   "Charge fully deferred until development (2011)"
+  ],
+  "e": "Landowner rent-seeking steadily softened the betterment tax, moving its incidence from current owners towards future buyers ('outsiders')."
+ },
+ {
+  "t": "olson",
+  "w": 3,
+  "title": "Olson (Hindmoor): the logic of a collective action problem",
+  "steps": [
+   "Members share an interest in a non-excludable collective good",
+   "Each member's own contribution barely affects provision",
+   "Each rational member prefers to free-ride",
+   "The collective good is under-provided",
+   "Coercion, selective incentives or privileged members are needed"
+  ],
+  "e": "Non-excludability makes free-riding individually rational, which leads to under-provision unless a special device changes the incentives."
+ },
+ {
+  "t": "harvey",
+  "w": 6,
+  "title": "Harvey: from managerialism to entrepreneurialism and its consequences",
+  "steps": [
+   "1960s managerialism: local provision of services and benefits",
+   "1973 recession, deindustrialisation and fiscal austerity",
+   "Cities turn to public-private partnerships and speculative place-making",
+   "Inter-urban competition acts as a coercive law",
+   "Serial reproduction of copied projects",
+   "Competitive advantage becomes ephemeral; instability grows"
+  ],
+  "e": "Structural crisis pushes cities into entrepreneurial competition, whose imitation dynamics then erode the advantages it was meant to create."
+ },
+ {
+  "t": "pruijt",
+  "w": 7,
+  "title": "Pruijt: squatting in New York",
+  "steps": [
+   "1970s: housing groups squat to house the poor",
+   "Organisers move into city programmes; visible squatting dies out",
+   "1983: a squatters' movement proper emerges on the Lower East Side",
+   "The city refuses to negotiate",
+   "2002: 11 squats legalised via UHAB (terminal institutionalization)"
+  ],
+  "e": "The housing movement was co-opted early, while the later squatters' movement resisted until legalisation came only once no squattable buildings were left."
+ },
+ {
+  "t": "bossuyt",
+  "w": 7,
+  "title": "Bossuyt & D'Ottaviano: from occupation to housing commons",
+  "steps": [
+   "Appropriation: occupying a vacant building",
+   "Regularization via autogestão and structural coupling with the state",
+   "Renovation through mutirão and an effort-based points system",
+   "Moving in: gates, doormen, condominium courses",
+   "Individual titles and debt open routes to enclosure"
+  ],
+  "e": "The commons is first claimed, then secured legally and materially, and only then does its regularised form reveal the new risk of enclosure."
+ },
+ {
+  "t": "savini",
+  "w": 6,
+  "title": "Savini & Aalbers: the Falck site in Sesto San Giovanni",
+  "steps": [
+   "1990s: Falck and a public-private agency pursue reindustrialisation",
+   "2000: sold to local investor Gruppo Pasini (SPV)",
+   "2005: Risanamento buys; Renzo Piano masterplan",
+   "2009: credit crunch and bankruptcy procedure",
+   "2010: Sesto Immobiliare buys for €405M",
+   "2011: council approves the enlarged programme"
+  ],
+  "e": "Each transfer raised the land price and bound the project tighter to investor returns, which pushed the programme up until the municipality approved it."
+ },
+ {
+  "t": "rydin6",
+  "w": 7,
+  "title": "Mayer's four phases of urban social movements (in Rydin 2021)",
+  "steps": [
+   "Industrial crisis (1960-80)",
+   "Collective consumption and welfare erosion (1980-90)",
+   "Gentrification and regeneration (1990-2000)",
+   "Globalisation and financialisation (since 2000)"
+  ],
+  "e": "Movement concerns follow the changing urban political economy, from industrial crisis to financialised cities."
+ }
+];
+
 /* ===== merge rebuilt midterm readings (full texts) + post-midterm readings ===== */
 NEW_A.forEach(n=>{const i=READINGS.findIndex(r=>r.id===n.id);if(i>=0)READINGS[i]=n;else READINGS.push(n);});
 [...NEW_B,...NEW_C,...NEW_D].forEach(n=>{if(!READINGS.some(r=>r.id===n.id))READINGS.push(n);});
@@ -4464,11 +5601,33 @@ function streak(){let n=0;const d=today0();if(!S.act[dkey(d)])d.setDate(d.getDat
 function toast(t){const el=$("#toast");el.innerHTML=`<div class="toast fade" role="status">${esc(t)}</div>`;clearTimeout(toast.t);toast.t=setTimeout(()=>el.innerHTML="",1800);}
 
 /* ---------- mastery ---------- */
-function topicStats(t){const cs=CARDS.filter(c=>c.t===t),qs=QS.filter(q=>q.t===t);
-  const cm=cs.length?cs.filter(c=>(S.cards[c.k]?.box||0)>=3).length/cs.length:null;
-  const qm=qs.length?qs.filter(q=>S.quiz[q.k]?.last).length/qs.length:null;
-  const parts=[cm,qm].filter(x=>x!==null);const m=parts.length?parts.reduce((a,b)=>a+b,0)/parts.length:0;
-  return {m,cm,qm,nc:cs.length,nq:qs.length,mastered:m>=.8};}
+/* Mastery v2: a live estimate of how well you know a reading NOW.
+   Knowledge K = recency-weighted accuracy over every graded attempt (cards, quiz, mock, games),
+   fading with time since you last practised (forgetting curve; slower once you have more practice).
+   Coverage C = share of the reading's cards + quiz questions you have attempted at least once.
+   Mastery = K x (0.7 + 0.3 C). Green when Mastery >= 80% and Coverage >= 50%. */
+function stab(st){return 5*(1+Math.log2(1+st.n));}
+function retention(st){if(!st||!st.t)return 1;const d=(Date.now()-st.t)/DAY;return Math.exp(-Math.max(0,d-0.5)/stab(st));}
+function migrateK(){if(S.kv===2&&S.k)return;S.k=S.k||{};
+  for(const t in R){if(S.k[t])continue;const cs=CARDS.filter(c=>c.t===t),qs=QS.filter(q=>q.t===t);
+    const sc=cs.filter(c=>S.cards[c.k]?.seen),sq=qs.filter(q=>S.quiz[q.k]);const n=sc.length+sq.length;if(!n)continue;
+    const ok=sc.filter(c=>(S.cards[c.k].box||0)>=2).length+sq.filter(q=>S.quiz[q.k].last).length;
+    S.k[t]={k:ok/n,n:Math.min(n,12),t:Date.now(),h:[]};}
+  S.kv=2;}
+function ev(t,x,w){if(!R[t])return;migrateK();w=w||1;const st=S.k[t]||{k:0,n:0,t:0,h:[]};
+  const k0=st.t?st.k*retention(st):0;const a=Math.min(.9,Math.max(w/(st.n+w),.15*w));
+  st.k=k0+(x-k0)*a;st.n+=w;st.t=Date.now();st.h=(st.h||[]).concat([Math.round(x*100)/100]).slice(-12);S.k[t]=st;}
+function topicStats(t){migrateK();const cs=CARDS.filter(c=>c.t===t),qs=QS.filter(q=>q.t===t);
+  const seen=cs.filter(c=>S.cards[c.k]?.seen).length+qs.filter(q=>S.quiz[q.k]).length,tot=cs.length+qs.length;
+  const cov=tot?seen/tot:0,st=S.k[t],ret=retention(st),K=st?st.k*ret:0;
+  const m=K*(0.7+0.3*cov);
+  return {m,k:K,cov,ret,n:st?st.n:0,t:st?st.t:0,h:st?st.h||[]:[],nc:cs.length,nq:qs.length,mastered:m>=.8&&cov>=.5};}
+function agoTxt(ts){if(!ts)return "never";const d=(Date.now()-ts)/DAY;return d<1/24?"just now":d<1?Math.round(d*24)+" h ago":Math.round(d)+" d ago";}
+function masteryCard(s){const spark=s.h.length?`<div class="spark" title="Last ${s.h.length} attempts">${s.h.map(x=>`<i style="--v:${x}" class="${x>=.75?'g':x>=.4?'m':'b'}"></i>`).join('')}</div>`:'';
+  return `<div class="row" style="gap:14px;flex-wrap:nowrap">${ring(s.m)}<div style="min-width:0"><div class="eyebrow">Mastery</div>
+  <div class="small">Knowledge <b>${Math.round(s.k*100)}%</b>${s.t&&s.ret<.95?` <span class="mut">(fading, ${Math.round(s.ret*100)}% kept)</span>`:''}</div>
+  <div class="small">Coverage <b>${Math.round(s.cov*100)}%</b> <span class="mut">of ${s.nc+s.nq} items tried</span></div>
+  <div class="small mut">Last practised ${agoTxt(s.t)}</div></div></div>${spark}`;}
 const overall=()=>BR().reduce((a,r)=>a+topicStats(r.id).m,0)/BR().length;
 const dueCards=f=>{f=f||scopeIds();const now=Date.now();return CARDS.filter(c=>(!f||f.includes(c.t))&&((S.cards[c.k]?.due||0)<=now))};
 const ring=(m,cls='')=>`<div class="ring ${cls} ${m>=.8?'done':''}" style="--p:${Math.round(m*100)}"><b>${Math.round(m*100)}${cls.includes('lg')?'<span style="font-size:.9rem">%</span>':''}</b></div>`;
@@ -4477,8 +5636,8 @@ const daysLeft=()=>Math.max(0,Math.ceil((EXAM-Date.now())/DAY));
 function curWeek(){const w=Math.floor((today0()-COURSE_START)/(7*DAY))+1;return Math.max(1,Math.min(9,w));}
 
 /* ---------- routing ---------- */
-const NAV=[["Study",[["today","Today","home"],["weeks","Weeks & plan","cal"],["readings","Readings","book"],["framework","Framework","grid"]]],["Practice",[["flash","Flashcards","cards"],["quiz","Quiz","quiz"],["open","Open questions","pen"],["mock","Mock exam","clock"]]],["About",[["sources","Sources","src"],["method","How this works","info"]]]];
-const TABS=[["today","Today","home"],["readings","Readings","book"],["flash","Cards","cards"],["quiz","Quiz","quiz"],["menu","More","menu"]];
+const NAV=[["Study",[["today","Today","home"],["weeks","Weeks & plan","cal"],["readings","Readings","book"],["framework","Framework","grid"]]],["Practice",[["flash","Flashcards","cards"],["quiz","Quiz","quiz"],["games","Games","spark"],["open","Open questions","pen"],["mock","Mock exam","clock"]]],["About",[["sources","Sources","src"],["method","How this works","info"]]]];
+const TABS=[["today","Today","home"],["readings","Readings","book"],["flash","Cards","cards"],["games","Play","spark"],["menu","More","menu"]];
 let view="today",sub=null;
 
 function go(v,s){view=v;sub=s??null;render();window.scrollTo(0,0);}
@@ -4506,7 +5665,7 @@ function vToday(){
   return `<div class="fade"><p class="eyebrow">Week ${curWeek()} of 9 · ${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</p>
   <h1 class="hero">${greet()}. <em>${daysLeft()} days</em> to the midterm.</h1>
   <p class="lede">Today: ${due} flashcards due, and ${plan[2].length-done} plan task${plan[2].length-done===1?'':'s'} left.</p>
-  <div class="row" style="margin:16px 0 24px"><button class="btn primary" data-startdue="1">Review ${due} due cards <kbd>R</kbd></button><button class="btn" data-quizmix="1">Interleaved quiz <kbd>Q</kbd></button></div>
+  <div class="row" style="margin:16px 0 24px"><button class="btn primary" data-startdue="1">Review ${due} due cards <kbd>R</kbd></button><button class="btn" data-quizmix="1">Interleaved quiz <kbd>Q</kbd></button><button class="btn" data-boss="w${Math.min(4,curWeek())}">${ic("spark")} Week ${Math.min(4,curWeek())} boss</button><button class="btn" data-go="games">All games</button></div>
   <div class="grid g3">
    <div class="card row" style="gap:18px;flex-wrap:nowrap">${ring(ov,'lg')}<div><div class="eyebrow">Overall mastery</div><p class="small mut" style="margin-top:6px">${BR().filter(r=>topicStats(r.id).mastered).length} of ${BR().length} ${Date.now()<EXAM?'midterm ':''}readings green. Green = 80%+ on cards and quiz.</p></div></div>
    <div class="card"><div class="row between"><div class="eyebrow">Study streak</div><span class="small mut">${ic('flame')} ${streak()} days</span></div>${heatmap()}</div>
@@ -4516,12 +5675,12 @@ function vToday(){
   ${weak.length?`<h3>Focus next: your weakest readings</h3><div class="list">${weak.map(({r,s})=>item(r,s)).join('')}</div>`:''}
   </div>`;
 }
-function item(r,s){s=s||topicStats(r.id);return `<div class="item ${s.mastered?'mastered':''}" data-go="readings" data-sub="${r.id}" tabindex="0" role="button">${ring(s.m,'sm')}<div style="min-width:0"><div class="t">${esc(short(r))}</div><div class="s">${esc(r.theory)} · cards ${Math.round((s.cm||0)*s.nc)}/${s.nc} · quiz ${Math.round((s.qm||0)*s.nq)}/${s.nq}</div></div><div class="r"><span class="chip ${r.status}">${STATUS[r.status]}</span></div></div>`;}
+function item(r,s){s=s||topicStats(r.id);return `<div class="item ${s.mastered?'mastered':''}" data-go="readings" data-sub="${r.id}" tabindex="0" role="button">${ring(s.m,'sm')}<div style="min-width:0"><div class="t">${esc(short(r))}</div><div class="s">${esc(r.theory)} · knowledge ${Math.round(s.k*100)}% · coverage ${Math.round(s.cov*100)}%</div></div><div class="r"><span class="chip ${r.status}">${STATUS[r.status]}</span></div></div>`;}
 
 function vWeeks(){const cw=curWeek(),k=dkey(new Date());
   return `<div class="fade"><p class="eyebrow">Timeline</p><h2 class="serif">Nine weeks, two exams</h2><p class="lede">The midterm covers weeks 1–4 (lectures, slides, readings). The final exam, a written commentary, is on 5 Nov.</p>
   <div class="weeks" style="margin-top:16px">${WEEKS.map(w=>{const cls=w.n<cw?'past':w.n===cw?'now':'';const ms=w.topics.map(id=>topicStats(id).m);const avg=ms.length?ms.reduce((a,b)=>a+b,0)/ms.length:null;
-   return `<div class="wk ${cls}"><div class="n">W${w.n}<div class="eyebrow" style="margin-top:6px">wk ${w.cw}</div></div><div><div class="row between"><div><b>${esc(w.title)}</b> <span class="small mut">· ${w.dates}</span></div>${w.n===cw?'<span class="chip missing">Now</span>':w.n<cw?'<span class="chip plain">Done</span>':''}</div><ul>${w.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>${avg!==null?`<div class="row">${w.topics.map(id=>`<button class="chip ${topicStats(id).mastered?'full':topicStats(id).m>0?'slides':''}" data-go="readings" data-sub="${id}" style="cursor:pointer">${esc(short(R[id]).slice(0,26))}</button>`).join('')}</div><div style="margin-top:10px">${bar(avg)}</div>`:''}</div></div>`}).join('')}</div>
+   return `<div class="wk ${cls}"><div class="n">W${w.n}<div class="eyebrow" style="margin-top:6px">wk ${w.cw}</div></div><div><div class="row between"><div><b>${esc(w.title)}</b> <span class="small mut">· ${w.dates}</span></div>${w.n===cw?'<span class="chip missing">Now</span>':w.n<cw?'<span class="chip plain">Done</span>':''}</div><ul>${w.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>${avg!==null?`<div class="row">${w.topics.map(id=>`<button class="chip ${topicStats(id).mastered?'full':topicStats(id).m>0?'slides':''}" data-go="readings" data-sub="${id}" style="cursor:pointer">${esc(short(R[id]).slice(0,26))}</button>`).join('')}</div><div style="margin-top:10px">${bar(avg)}</div><div class="row" style="margin-top:10px"><button class="btn sm" data-boss="w${w.n}">${ic('spark')} Fight the week ${w.n} boss</button></div>`:''}</div></div>`}).join('')}</div>
   <h3>Day-by-day plan</h3><p class="lede small">Every topic comes back at least three times, with two timed mocks.</p>
   <div class="flat plan">${PLAN.map(([d,dn,items])=>`<div class="day ${d===k?'today':''} ${d==='2026-10-08'?'exam':''}"><div class="d">${dn} ${d.slice(8)}/${d.slice(5,7)}${d===k?' · today':''}</div><div>${items.map((it,i)=>{const kk=d+"#"+i;return `<label class="check ${S.plan[kk]?'done':''}"><input type="checkbox" data-plan="${kk}" ${S.plan[kk]?'checked':''}><span>${esc(it)}</span></label>`}).join('')}</div></div>`).join('')}</div></div>`;}
 
@@ -4563,8 +5722,8 @@ function vReading(r){const s=topicStats(r.id),nq=QS.filter(q=>q.t===r.id).length
    <h3>Exam angle</h3><div class="note">${esc(r.exam)}</div>
    <div class="row between" style="margin-top:28px">${prev?`<button class="btn sm" data-go="readings" data-sub="${prev.id}">${ic('left')} ${esc(short(prev).slice(0,28))}</button>`:'<span></span>'}${next?`<button class="btn sm" data-go="readings" data-sub="${next.id}">${esc(short(next).slice(0,28))} →</button>`:''}</div>
   </div>
-  <aside class="rside"><div class="card"><div class="row" style="gap:14px;flex-wrap:nowrap">${ring(s.m)}<div><div class="eyebrow">Mastery</div><div class="small">cards ${Math.round((s.cm||0)*s.nc)}/${s.nc} in box 3+</div><div class="small">quiz ${Math.round((s.qm||0)*s.nq)}/${s.nq} right</div></div></div>
-   <div class="stack" style="margin-top:14px"><button class="btn primary" data-flashtopic="${r.id}">${ic('cards')} Flashcards · ${s.nc}</button>${nq?`<button class="btn" data-quiztopic="${r.id}">${ic('quiz')} Quiz · ${nq}</button>`:''}</div></div>
+  <aside class="rside"><div class="card">${masteryCard(s)}
+   <div class="stack" style="margin-top:14px"><button class="btn primary" data-flashtopic="${r.id}">${ic('cards')} Flashcards · ${s.nc}</button>${nq?`<button class="btn" data-quiztopic="${r.id}">${ic('quiz')} Quiz · ${nq}</button>`:''}<button class="btn" data-blurt="${r.id}">${ic('spark')} Brain dump (3 min)</button></div></div>
    <div class="card"><div class="eyebrow" style="margin-bottom:10px">On the framework</div>${dimRows(r.dims)}</div>
    <div class="note ${r.status==='full'?'ok':r.status==='missing'?'bad':''}">${esc(r.statusNote)}</div></aside></div></div>`;}
 
@@ -4596,7 +5755,7 @@ function vFlash(){const sc=scopeIds();const counts=[0,1,2,3,4,5].map(b=>CARDS.fi
   ${F.flip?`<div class="rate"><button class="again" data-rate="0">Again<small>1 · box 0</small></button><button data-rate="1">Hard<small>2 · stay</small></button><button class="good" data-rate="2">Good<small>3 · +1</small></button><button data-rate="3">Easy<small>4 · +2</small></button></div>`:`<div class="row" style="justify-content:center"><button class="btn primary" id="flipbtn">Show answer <kbd>Space</kbd></button></div>`}</div>`;}
 function rate(r){const c=F.deck[F.i];const cur=S.cards[c.k]||{box:0};let box=cur.box||0;
   if(r===0)box=0;else if(r===2)box=Math.min(5,box+1);else if(r===3)box=Math.min(5,box+2);
-  S.cards[c.k]={box,due:r===0?Date.now():Date.now()+INT[box]*DAY-3600e3,seen:(cur.seen||0)+1};if(r===0)F.deck.push(c);
+  S.cards[c.k]={box,due:r===0?Date.now():Date.now()+INT[box]*DAY-3600e3,seen:(cur.seen||0)+1};ev(c.t,[0,.5,1,1][r],.6);if(r===0)F.deck.push(c);
   logAct();F.i++;F.flip=false;persist();render();}
 
 /* quiz */
@@ -4614,7 +5773,7 @@ function vQuiz(){const head=`<p class="eyebrow">Retrieval practice · exam-style
   const q=Q.list[Q.i];
   return `<div class="fade">${head}<div class="pbar" style="margin-bottom:12px">${Q.list.map((_,i)=>`<i class="${i<Q.res.length?(Q.res[i]?'r':'w'):i===Q.i?'on':''}"></i>`).join('')}</div>${qBlock(q,Q.picked,`${Q.i+1} / ${Q.list.length} · ${esc(short(R[q.t]))}`)}
   ${Q.picked!==null?`<div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="qnext">${Q.i+1<Q.list.length?'Next':'Finish'} <kbd>Enter</kbd></button></div>`:'<p class="small mut" style="margin-top:10px">Press <kbd>A</kbd>–<kbd>D</kbd> or <kbd>1</kbd>–<kbd>4</kbd></p>'}</div>`;}
-function recordQ(q,ok){const cur=S.quiz[q.k]||{n:0,c:0};S.quiz[q.k]={n:cur.n+1,c:cur.c+(ok?1:0),last:ok};logAct();}
+function recordQ(q,ok,w){const cur=S.quiz[q.k]||{n:0,c:0};S.quiz[q.k]={n:cur.n+1,c:cur.c+(ok?1:0),last:ok};ev(q.t,ok?1:0,w||1);logAct();}
 
 /* open */
 function vOpen(){const ps=course==='psc',sc=ps?scopeIds():READINGS.map(r=>r.id),L=OQ.filter(o=>sc.includes(o.t)).sort((x,y)=>(R[x.t].wk>=6)-(R[y.t].wk>=6)),i=sub&&L[+sub]?+sub:0,q=L[i],st=S.open[q.k]||{};
@@ -4652,7 +5811,7 @@ function vSources(){return `<div class="fade"><p class="eyebrow">Honesty check</
 function vMethod(){const M2=[["Practice testing (retrieval)","High utility (Dunlosky et al. 2013); testing effect (Roediger & Karpicke 2006).","Quiz, flashcards, recall boxes, open questions"],["Distributed practice (spacing)","High utility; the same hours spread over days beat cramming (Cepeda et al. 2006).","Leitner boxes (0–8 days); plan revisits every topic 3+ times"],["Interleaving","Moderate utility: trains you to recognise WHICH theory applies.","'All' mode in quiz, cards, mock"],["Elaboration & self-explanation","Moderate utility: asking why/how, linking to what you know.","Framework matrix, examples, exam angles, open questions"],["Exam simulation","Practising in the real format lowers anxiety and shows real readiness.","2-hour mock, same point weights"],["Rereading, highlighting, summarising","Low utility: feel productive, retain little.","Summaries are for understanding; spend most time on retrieval"],["Sleep","Consolidation happens in sleep; skip the all-nighter.","Plan ends light on 7 Oct"]];
   return `<div class="fade"><p class="eyebrow">Evidence-based studying</p><h2 class="serif">How this works</h2>
   <div class="tbl" style="margin-top:14px"><table><thead><tr><th>Technique</th><th>Evidence</th><th>Where</th></tr></thead><tbody>${M2.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
-  <h3>When does a reading turn green?</h3><p>Mastery = average of (share of its flashcards in box 3+) and (share of its quiz questions you most recently answered right). At 80% it turns green; a wrong answer drops it again.</p>
+  <h3>How mastery is measured</h3><p><b>Knowledge</b> is a live estimate of how well you know a reading right now: every graded attempt (flashcards, quiz, mock exam, games) moves it, recent attempts count most, and it slowly fades when you stop practising (a forgetting curve that flattens the more you have practised). Mock-exam answers count 1.5×, scenario games 1.2×, self-rated flashcards 0.6×. <b>Coverage</b> is the share of the reading's cards and quiz questions you have tried at least once. <b>Mastery = Knowledge × (0.7 + 0.3 × Coverage)</b>. A reading turns green at 80% mastery with at least 50% coverage, and drops again when you start getting it wrong.</p>
   <h3>Keyboard</h3><p class="small"><kbd>⌘K</kbd> search · <kbd>R</kbd> review due cards · <kbd>Q</kbd> interleaved quiz · <kbd>Space</kbd> flip · <kbd>1</kbd>–<kbd>4</kbd> rate / answer · <kbd>Enter</kbd> next</p>
   <h3>Sources</h3><ul class="small"><li><a href="https://journals.sagepub.com/doi/abs/10.1177/1529100612453266" target="_blank" rel="noopener">Dunlosky et al. (2013)</a></li><li><a href="https://doi.org/10.1111/j.1467-9280.2006.01693.x" target="_blank" rel="noopener">Roediger & Karpicke (2006)</a></li><li><a href="https://doi.org/10.1037/0033-2909.132.3.354" target="_blank" rel="noopener">Cepeda et al. (2006)</a></li></ul>
   <div class="divider"></div><p class="small mut">${saveState==="synced"?"Your progress is saved privately to your account.":"Your progress is saved in this browser only."}</p><button class="btn sm" id="reset">Reset all progress</button><span id="resetc"></span></div>`;}
@@ -4674,7 +5833,7 @@ function openPal(){P={open:true,q:"",i:0};renderPal();}
 
 /* render + events */
 function renderBPT(){chromeBPT();
-  const V={today:vToday,weeks:vWeeks,readings:vReadings,framework:vFramework,flash:vFlash,quiz:vQuiz,open:vOpen,mock:vMock,sources:vSources,method:vMethod,menu:vMenu};
+  const V={today:vToday,weeks:vWeeks,readings:vReadings,framework:vFramework,flash:vFlash,quiz:vQuiz,games:vGames,game:vGame,open:vOpen,mock:vMock,sources:vSources,method:vMethod,menu:vMenu};
   $("#app").innerHTML=(V[view]||vToday)();}
 document.addEventListener("change",e=>{const t=e.target;
   if(t.dataset.plan){S.plan[t.dataset.plan]=t.checked;persist();render();if(t.checked)toast("Task done");}
@@ -4712,11 +5871,11 @@ document.addEventListener("click",e=>{
   if(t.id==="oreveal"){const q=OQ.find(o=>o.k===t.dataset.k);const st=S.open[q.k]||{};st.revealed=!st.revealed;S.open[q.k]=st;persist();render();}
   if(t.id==="mstart")startMock();
   if(t.dataset.mq!=null){M.ans[+t.dataset.mq]=+t.dataset.mk;const y=scrollY;render();scrollTo(0,y);}
-  if(t.id==="msubmit"){M.done=true;M.qs.forEach((q,i)=>recordQ(q,M.ans[i]===q.a));persist();render();scrollTo(0,0);}
+  if(t.id==="msubmit"){M.done=true;M.qs.forEach((q,i)=>recordQ(q,M.ans[i]===q.a,1.5));persist();render();scrollTo(0,0);}
   if(t.id==="msave"){const mcq=M.qs.reduce((a,q,i)=>a+(M.ans[i]===q.a?3:0),0);const op=M.open.reduce((a,q,i)=>a+M.rub[i].filter(Boolean).length/q.rubric.length*q.pts,0)*35/M.open.reduce((a,q)=>a+q.pts,0);S.mocks.push({date:new Date().toLocaleDateString('en-GB'),mcq,open:Math.round(op)});persist();M=null;render();toast("Mock saved");}
   if(t.id==="mreset"){M=null;render();}
   if(t.id==="reset"){$("#resetc").innerHTML=' <button class="btn sm" id="reset2" style="border-color:var(--accent);color:var(--accent)">Yes, erase everything</button>';}
-  if(t.id==="reset2"){S={read:{},recall:{},cards:{},quiz:{},open:{},plan:{},mocks:[],notes:{},act:{}};persist();render();}
+  if(t.id==="reset2"){S={read:{},recall:{},cards:{},quiz:{},open:{},plan:{},mocks:[],notes:{},act:{},games:{},k:{},kv:2};persist();render();}
 });
 function pick(j){const q=Q.list[Q.i];Q.picked=j;const ok=j===q.a;if(ok)Q.score++;Q.res.push(ok);recordQ(q,ok);persist();render();}
 document.addEventListener("keydown",e=>{
@@ -4785,7 +5944,7 @@ var course=null;
 (function initHash(){try{const h=location.hash.slice(1);if(!h||h==="home")return;if(h.startsWith("psc")){course="psc";view=h;return;}if(h.startsWith("studio")){course="studio";view=h;return;}if(NAV.flatMap(g=>g[1]).some(t=>t[0]===h)){course="bpt";view=h;}}catch(e){}})();
 function go(v,s){if(v==="home"){course=null;view="today";}else if(v.startsWith("psc")){course="psc";view=v;}else if(v.startsWith("studio")){course="studio";view=v;}else{course="bpt";view=v;}sub=s??null;render();window.scrollTo(0,0);}
 const dleft=d=>Math.max(0,Math.ceil((d-Date.now())/DAY));
-const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
+const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-games","Games","spark"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
 const pscStats=()=>{const ids=PSC.map(l=>l.id);return {m:ids.reduce((a,id)=>a+topicStats(id).m,0)/ids.length,mast:ids.filter(id=>topicStats(id).mastered).length,due:dueCards(ids).length};};
 
 function chromeHome(){$("#side").innerHTML="";$("#tabbar").innerHTML="";$("#cdm").textContent="";}
@@ -4854,7 +6013,7 @@ function render(){try{history.replaceState(null,"","#"+(course===null?"home":vie
   {const tb=[["bpt","BPT","Midterm Prep","#0c0c10"],["psc","PSC","Sustainable Cities","var(--good)"],["studio","STU","Planning Studio","#6d5bd0"]].find(x=>x[0]===course);const lg=document.querySelector(".topbar .logo"),nm=document.querySelector(".topbar b");if(tb&&lg&&nm){lg.textContent=tb[1];nm.textContent=tb[2];lg.style.background=tb[3];lg.style.color=tb[3]?"#fff":"";}}
   if(course===null){chromeHome();$("#app").innerHTML=vHome();return;}
   if(course==="studio"){chromeStudio();$("#app").innerHTML=vStudio();return;}
-  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
+  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-games":vGames,"psc-game":vGame,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
   $("#tabbar").style.gridTemplateColumns="";renderBPT();
   const b=document.querySelector(".side .brand");if(b&&!b.querySelector(".allc"))b.insertAdjacentHTML("beforeend",'');
   const side=$("#side");side.insertAdjacentHTML("afterbegin",'<button class="back allc" data-go="home" style="margin:0 8px 8px">'+ic('left')+' All courses</button>');}
@@ -4890,10 +6049,232 @@ function vPSCLecture(){const l=PSC.find(x=>x.id===sub)||PSC[0],L=PSC_LECTURES[l.
    <h3>Exam angle</h3><div class="note">${esc(l.exam)}</div>
    <div class="row between" style="margin-top:28px">${prev?`<button class="btn sm" data-go="psc-lecture" data-sub="${prev.id}">${ic('left')} L${prev.n}</button>`:'<span></span>'}${next?`<button class="btn sm" data-go="psc-lecture" data-sub="${next.id}">L${next.n} →</button>`:''}</div>
   </div>
-  <aside class="rside"><div class="card"><div class="row" style="gap:14px;flex-wrap:nowrap">${ring(s.m)}<div><div class="eyebrow">Mastery</div><div class="small">cards ${Math.round((s.cm||0)*s.nc)}/${s.nc} in box 3+</div></div></div>
-   <div class="stack" style="margin-top:14px"><button class="btn primary" data-flashtopic="${l.id}">${ic('cards')} Flashcards · ${s.nc}</button>${es.map(([o])=>`<button class="btn" data-go="psc-essay" data-sub="${eL.indexOf(o)}">${ic('pen')} Essay question</button>`).join('')}</div></div>
+  <aside class="rside"><div class="card">${masteryCard(s)}
+   <div class="stack" style="margin-top:14px"><button class="btn primary" data-flashtopic="${l.id}">${ic('cards')} Flashcards · ${s.nc}</button><button class="btn" data-blurt="${l.id}">${ic('spark')} Brain dump (3 min)</button>${es.map(([o])=>`<button class="btn" data-go="psc-essay" data-sub="${eL.indexOf(o)}">${ic('pen')} Essay question</button>`).join('')}</div></div>
    <div class="card"><div class="row" style="gap:10px"><label class="check"><input type="checkbox" data-read="${l.id}" ${S.read[l.id]?'checked':''}><span>Read the text itself</span></label></div><textarea data-note="${l.id}" style="margin-top:8px" placeholder="Recall: the argument in one sentence, three concepts…">${esc(S.notes[l.id]||'')}</textarea></div>
    <div class="note ${m.status==='full'?'ok':''}">${l.slides?'Built from the lecture slides and the full text of the mandatory reading.':'Built from the full text of the mandatory reading. The slides for this lecture are not uploaded yet, so the lecture section is a preview.'}</div></aside></div></div>`;}
+
+/* ================= Games: retrieval practice that feels like play ================= */
+I.spark='<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"/>';
+I.heart='<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>';
+I.bolt='<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>';
+S.games=S.games||{};
+let GW="",G=null;
+const isP=()=>course==="psc";
+const NR=id=>{if(!isPSC(id))return R[id];const l=PSC.find(x=>x.id===id);return {id,title:"L"+l.n+" · "+l.title,concepts:l.man.concepts||[],quotes:l.man.quotes||[],one:l.man.one,wk:l.theme,cite:l.man.cite};};
+const lab=id=>{if(isPSC(id)){const l=PSC.find(x=>x.id===id);return "L"+l.n+" · "+(l.man.cite.split(")")[0]+")");}const t=R[id].title.replace(/^Course framework \+ /,"");return t.length>58?t.slice(0,56)+"…":t;};
+const surname=id=>{const t=isPSC(id)?PSC.find(x=>x.id===id).man.cite:R[id].title.replace(/^Course framework \+ /,"");return (t.match(/^[A-ZÀ-Ž][\wÀ-ž'’-]+/)||[""])[0];};
+const mask=(txt,id)=>{const s=surname(id);return s&&s.length>2?txt.replace(new RegExp(s,"g"),"▇▇▇"):txt;};
+function gIds(){if(isP())return PSC.filter(l=>!GW||l.theme===+GW.slice(1)).map(l=>l.id);
+  return (GW?READINGS.filter(r=>r.wk===+GW.slice(1)):BR()).map(r=>r.id);}
+const gTag=()=>isP()?(GW?"Theme "+GW.slice(1):"All lectures"):(GW?"Week "+GW.slice(1):(Date.now()<EXAM?"Midterm (W1–4)":"All weeks"));
+function distract(id,pool,n){const wk=NR(id).wk;const same=shuffle(pool.filter(x=>x!==id&&NR(x).wk===wk)),other=shuffle(pool.filter(x=>x!==id&&NR(x).wk!==wk));
+  let out=same.concat(other).slice(0,n);if(out.length<n){const all=isP()?PSC.map(l=>l.id):READINGS.map(r=>r.id);out=out.concat(shuffle(all.filter(x=>x!==id&&!out.includes(x))).slice(0,n-out.length));}return out;}
+const cleanQ=q=>q.replace(/\s*\((?:[^()]*\d[^()]*)\)\s*$/,"").replace(/^["“'\s]+|["”'\s]+$/g,"");
+const mcRound=(t,prompt,o,a,e,extra)=>Object.assign({k:"mc",t,prompt,o,a,e},extra||{});
+function optsFor(id,ids){const ds=distract(id,ids,3);const o=shuffle([id,...ds]);return {o:o.map(lab),a:o.indexOf(id)};}
+function whoRounds(ids,n){const items=[];
+  ids.forEach(id=>{const r=NR(id);(r.quotes||[]).forEach(q=>{const c=cleanQ(q);if(c.length>25)items.push({id,kind:"quote",txt:"“"+mask(c,id)+"”"});});
+    (r.concepts||[]).forEach(([a,b])=>{if(b&&b.length>30)items.push({id,kind:"idea",txt:mask(a+": "+b,id)});});});
+  const byId={};shuffle(items).forEach(x=>(byId[x.id]=byId[x.id]||[]).push(x));const order=[];let more=true;
+  while(order.length<n&&more){more=false;for(const id of shuffle(Object.keys(byId))){const x=byId[id].shift();if(x){order.push(x);more=true;}if(order.length>=n)break;}}
+  return order.map(x=>{const {o,a}=optsFor(x.id,ids);const r=NR(x.id);
+    return mcRound(x.id,x.kind==="quote"?"Who wrote or said this?":"Whose idea is this?",o,a,`${lab(x.id)}: ${(r.one||"").slice(0,240)}${(r.one||"").length>240?"…":""}`,{quote:x.txt,w:.8,link:x.id});});}
+function mcqRounds(ids,n){return shuffle(QS.filter(q=>ids.includes(q.t))).slice(0,n).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}
+function lensRounds(ids,n){let p=LENS.filter(x=>ids.includes(x.t));if(p.length<Math.min(n,4))p=LENS.filter(x=>BR().some(r=>r.id===x.t));return shuffle(p).slice(0,n).map(x=>mcRound(x.t,x.q,x.o,x.a,x.e,{scen:x.s,w:1.2,link:x.t}));}
+function oddRounds(n){const w=GW?+GW.slice(1):null;let p=ODD.filter(x=>w?x.w===w:(Date.now()<EXAM?x.w<=4:true));if(p.length<2)p=ODD.filter(x=>x.w===0||(w?Math.abs(x.w-w)<=1:true));
+  return shuffle(p).slice(0,n).map(x=>mcRound(null,"Which one doesn't belong?",x.items,x.odd,x.e,{odd:1}));}
+function seqRounds(ids,n){let p=SEQ.filter(x=>ids.includes(x.t));if(!p.length)p=SEQ.filter(x=>BR().some(r=>r.id===x.t));return shuffle(p).slice(0,n).map(x=>({k:"seq",t:x.t,title:x.title,steps:x.steps,e:x.e,pool:shuffle(x.steps.map((s,i)=>i)),order:[],checked:false,link:x.t}));}
+
+const GAMES=[
+ {id:"boss",name:"Week Boss",tag:"Interleaved · cumulative",desc:"A boss fight across one week's readings: quiz, quotes, scenarios, sequences. Three hearts; land enough hits before you run out.",why:"Interleaving different question types and readings trains you to pick the right theory, the exact skill an exam tests (Rohrer & Taylor 2007).",hue:350,bpt:1,psc:0},
+ {id:"lens",name:"Theorist's Lens",tag:"Transfer · application",desc:"A real-world planning case lands on your desk. Which theory reads it how? Built for the open questions.",why:"Applying ideas to new cases builds far transfer; practising with varied examples beats re-reading definitions (Barnett & Ceci 2002).",hue:210,bpt:1,psc:0},
+ {id:"who",name:"Whose Line Is It?",tag:"Discrimination · quotes",desc:"A quote or an idea, author names blanked out. Whose is it? Streaks multiply your score.",why:"Telling similar authors apart (discrimination) is learned best by mixing them, not by studying one at a time (Kornell & Bjork 2008).",hue:270,bpt:1,psc:1},
+ {id:"bets",name:"Confidence Bets",tag:"Metacognition",desc:"Answer, then stake 1–3 chips on how sure you are. Find out where you're overconfident before the exam does.",why:"Confident errors that get corrected stick unusually well (hypercorrection, Butterfield & Metcalfe 2001); calibration tells you what to restudy.",hue:40,bpt:1,psc:0},
+ {id:"blurt",name:"Brain Dump",tag:"Free recall",desc:"Pick a reading, write everything you remember in 3 minutes, then see which key concepts you hit and which you missed.",why:"Free recall is the strongest form of retrieval practice, stronger than recognising answers (Karpicke & Roediger 2008).",hue:160,bpt:1,psc:1},
+ {id:"compass",name:"Theory Compass",tag:"The course framework",desc:"Place a theory on the five framework sliders yourself, then compare with the key. The course's own lens, made physical.",why:"Generating an answer before seeing it (generation effect) and explaining why (elaborative interrogation) deepen understanding (Dunlosky et al. 2013).",hue:190,bpt:1,psc:0},
+ {id:"pairs",name:"Concept Pairs",tag:"Speed · fluency",desc:"Six concepts, six definitions, from mixed readings. Match them against the clock without slipping.",why:"Quick cued recall across readings builds fluent access to the vocabulary you need under time pressure.",hue:120,bpt:1,psc:1},
+ {id:"chain",name:"Chain Reaction",tag:"Causal sequences",desc:"Rebuild an argument or a history step by step: Hayek's slide to dictatorship, Sorensen's critical juncture, Hall's eras.",why:"Ordering causes and stages forces you to rebuild the argument's logic rather than recognise fragments.",hue:20,bpt:1,psc:0},
+ {id:"odd",name:"Odd One Out",tag:"Categories",desc:"Four authors, concepts or claims. One doesn't belong. Spot it, then say why before you look.",why:"Comparing items within and across categories sharpens the boundaries between theories (category learning by contrast).",hue:300,bpt:1,psc:0}
+];
+const BOSS={w1:"The Definition Sphinx",w2:"The Leviathan of Structure",w3:"The Rational Planner",w4:"The Path-Dependent Golem",w6:"The Entrepreneurial City",w7:"The Panopticon",m:"The Midterm"};
+
+function startGame(id,opt,noGo){const ids=gIds();if(!ids.length){toast("Nothing in this selection");return;}
+  G={id,ids,i:0,picked:null,res:[],score:0,streak:0,best:0,started:Date.now(),done:false};
+  if(id==="who")G.rounds=whoRounds(ids,10);
+  if(id==="lens")G.rounds=lensRounds(ids,8);
+  if(id==="bets"){G.rounds=mcqRounds(ids,10);G.stake=0;G.bets=[];}
+  if(id==="odd")G.rounds=oddRounds(8);
+  if(id==="chain")G.rounds=seqRounds(ids,4);
+  if(id==="boss"){const r=[...mcqRounds(ids,5),...whoRounds(ids,3),...lensRounds(ids,2),...oddRounds(1),...seqRounds(ids,1)];G.rounds=shuffle(r);G.hearts=3;G.hp=100;G.dmg=100/Math.ceil(G.rounds.length*.7);G.boss=BOSS[GW||"m"]||"The Final Boss";}
+  if(id==="pairs"){const items=[];shuffle(ids).forEach(t=>{const c=(NR(t).concepts||[]).filter(x=>x[1]);if(c.length)items.push({t,c:c[Math.floor(Math.random()*c.length)]});});
+    let pick=items.slice(0,6);if(pick.length<6){const extra=shuffle(ids.flatMap(t=>(NR(t).concepts||[]).map(c=>({t,c})))).filter(x=>!pick.some(p=>p.c[0]===x.c[0]));pick=pick.concat(extra.slice(0,6-pick.length));}
+    G.pairs=pick.map((x,i)=>({i,t:x.t,term:x.c[0],def:mask(x.c[1].length>150?x.c[1].slice(0,148)+"…":x.c[1],x.t),done:false,miss:0}));G.left=shuffle(G.pairs.map(p=>p.i));G.right=shuffle(G.pairs.map(p=>p.i));G.sel=null;G.flash=null;}
+  if(id==="blurt"){const w=ids.map(t=>({t,m:topicStats(t).m})).sort((a,b)=>a.m-b.m);G.t=opt||w[0].t;G.phase="pick";G.text="";}
+  if(id==="compass"){let p=ids.filter(t=>!isPSC(t)&&R[t].dims&&R[t].dims.sa!=null);if(p.length<3)p=READINGS.filter(r=>r.dims&&r.dims.sa!=null&&r.wk<=4).map(r=>r.id);G.list=shuffle(p).slice(0,5);G.i=0;G.vals={};G.rev=false;G.scores=[];}
+  if(G.rounds&&!G.rounds.length){toast("No questions for this selection yet");G=null;return;}
+  if(!noGo)go(isP()?"psc-game":"game",id);}
+
+/* ---------- shared bits ---------- */
+const hud=()=>{const n=G.rounds?G.rounds.length:0;
+  return `<div class="ghud"><div class="gprog">${G.rounds?G.rounds.map((_,j)=>`<i class="${j<G.res.length?(G.res[j]>=.99?'r':G.res[j]>0?'p':'w'):j===G.i?'on':''}"></i>`).join(''):''}</div>
+  <div class="row" style="gap:14px">${G.id==="boss"?`<span class="hearts">${[0,1,2].map(j=>`<i class="${j<G.hearts?'on':''}">${ic('heart')}</i>`).join('')}</span>`:''}${G.streak>1?`<span class="combo">${ic('bolt')} ${G.streak} streak</span>`:''}<span class="gscore">${Math.round(G.score)}<small> pts</small></span></div></div>`;};
+const gHead=(title,sub)=>`<div class="row between" style="margin-bottom:6px"><button class="back" data-go="${isP()?'psc-games':'games'}" style="margin:0">${ic('left')} Games</button><span class="eyebrow">${esc(gTag())}</span></div><h2 class="serif" style="margin:4px 0 2px">${title}</h2>${sub?`<p class="small mut" style="margin:0 0 12px">${sub}</p>`:''}`;
+function record(rd,x){if(rd.mcq)recordQ(rd.mcq,x>=.99,G.id==="boss"?1.2:1);else if(rd.t)ev(rd.t,x,rd.w||1);logAct();}
+function finishGame(){G.done=true;const acc=G.res.length?G.res.reduce((a,b)=>a+b,0)/G.res.length:0;G.acc=acc;
+  const s=S.games[G.id]||{best:0,plays:0};s.plays++;s.best=Math.max(s.best,Math.round(G.score));s.last=Date.now();S.games[G.id]=s;persist();
+  if(acc>=.8||(G.id==="boss"&&G.hp<=0))setTimeout(()=>typeof confetti==="function"&&confetti(),250);}
+function endScreen(extra){const acc=G.acc||0,by={};(G.rounds||[]).forEach((r,j)=>{if(!r.t||j>=G.res.length)return;(by[r.t]=by[r.t]||[]).push(G.res[j]);});
+  const weak=Object.entries(by).map(([t,a])=>[t,a.reduce((x,y)=>x+y,0)/a.length]).sort((a,b)=>a[1]-b[1]);
+  const best=(S.games[G.id]||{}).best||0;
+  return `<div class="gend"><div class="eyebrow">${G.id==="boss"?(G.hp<=0?"Victory":"Defeated"):"Round complete"}</div>
+   <div class="gbig">${Math.round(G.score)}<small> pts</small></div><p class="mut" style="margin:4px 0 14px">${Math.round(acc*100)}% correct · best ${best} pts</p>${extra||''}
+   ${weak.length?`<h4 style="text-align:left">Per reading</h4><div class="list" style="text-align:left">${weak.map(([t,a])=>`<div class="item" data-go="${isPSC(t)?'psc-lecture':'readings'}" data-sub="${t}">${ring(a,'sm')}<div style="min-width:0"><div class="t">${esc(lab(t))}</div><div class="s">${a<.6?'Review this one':a<1?'Almost':'Solid'}</div></div><span class="mut">→</span></div>`).join('')}</div>`:''}
+   <div class="row" style="justify-content:center;margin-top:16px"><button class="btn primary" data-game="${G.id}">${ic('spark')} Play again</button><button class="btn" data-go="${isP()?'psc-games':'games'}">All games</button></div>
+   <p class="small mut" style="margin-top:12px">Every answer has updated your knowledge scores.</p></div>`;}
+
+/* ---------- multiple-choice round ---------- */
+function mcView(title,sub){const rd=G.rounds[G.i];const p=G.picked;const bets=G.id==="bets";
+  const stakeRow=bets?`<div class="stakes"><span class="small mut">How sure are you?</span>${[[1,"Guessing"],[2,"Fairly sure"],[3,"Certain"]].map(([v,l])=>`<button class="stake ${G.stake===v?'on':''}" data-stake="${v}" ${p!=null?'disabled':''}>${v} chip${v>1?'s':''}<small>${l}</small></button>`).join('')}</div>`:'';
+  const opts=rd.o.map((o,j)=>{let cls='';if(p!=null){if(j===rd.a)cls='right';else if(j===p)cls='wrong';}
+    return `<button class="opt ${cls}" data-gp="${j}" ${p!=null||(bets&&!G.stake)?'disabled':''}><span class="k">${String.fromCharCode(65+j)}</span><span>${esc(o)}</span></button>`;}).join('');
+  const ok=p===rd.a;
+  return `<div class="fade game">${gHead(title,sub)}${hud()}${G.id==="boss"?bossBar():''}
+   <div class="qcard gq">${rd.scen?`<div class="case"><span class="eyebrow">Case file</span><p>${esc(rd.scen)}</p></div>`:''}${rd.quote?`<blockquote class="gquote">${esc(rd.quote)}</blockquote>`:''}
+   <p class="qq">${esc(rd.prompt)}</p>${stakeRow}${opts}
+   ${p!=null?`<div class="expl"><b>${ok?(G.streak>2?'On fire. ':'Correct. '):'Not quite. '}${bets?(ok?`+${G.stake}`:`−${G.stake}`)+' chips. ':''}</b>${esc(rd.e)}${rd.link?` <button class="linkbtn" data-go="${isPSC(rd.link)?'psc-lecture':'readings'}" data-sub="${rd.link}">Open the reading →</button>`:''}</div>
+   <div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="gnext">${G.i+1<G.rounds.length&&!(G.id==="boss"&&(G.hearts<=0||G.hp<=0))?'Next':'Finish'} <kbd>Enter</kbd></button></div>`:`<p class="small mut" style="margin-top:8px">${bets&&!G.stake?'Pick your stake first · ':''}<kbd>1</kbd>–<kbd>4</kbd> to answer</p>`}</div></div>`;}
+function gPick(j){const rd=G.rounds[G.i];if(G.picked!=null)return;if(G.id==="bets"&&!G.stake)return;G.picked=j;const ok=j===rd.a;
+  if(G.id==="bets"){G.score+=ok?G.stake:-G.stake;G.bets.push({st:G.stake,ok,rd});}
+  else{G.streak=ok?G.streak+1:0;G.score+=ok?10*(1+Math.min(G.streak-1,4)*.25):0;}
+  if(G.id==="boss"){if(ok)G.hp=Math.max(0,G.hp-G.dmg);else G.hearts--;}
+  G.res.push(ok?1:0);record(rd,ok?1:0);render();}
+function gNext(){G.i++;G.picked=null;G.stake=0;
+  if(G.i>=G.rounds.length||(G.id==="boss"&&(G.hearts<=0||G.hp<=0)))finishGame();
+  render();scrollTo({top:0,behavior:"smooth"});}
+const bossBar=()=>`<div class="boss"><div class="row between"><b>${esc(G.boss)}</b><span class="small mut">${Math.round(G.hp)} HP</span></div><div class="hpbar"><i style="width:${G.hp}%"></i></div></div>`;
+
+/* ---------- sequence round ---------- */
+function seqView(title,sub){const rd=G.rounds[G.i];
+  const placed=rd.order.map((si,j)=>{let cls='';if(rd.checked)cls=si===j?'ok':'no';return `<button class="seqi ${cls}" data-sq-rm="${j}" ${rd.checked?'disabled':''}><span class="n">${j+1}</span>${esc(rd.steps[si])}</button>`;}).join('');
+  const left=rd.pool.filter(si=>!rd.order.includes(si)).map(si=>`<button class="chip seqc" data-sq="${si}">${esc(rd.steps[si])}</button>`).join('');
+  return `<div class="fade game">${gHead(title,sub)}${hud()}${G.id==="boss"?bossBar():''}<div class="qcard gq"><p class="qq">${esc(rd.title)}</p><p class="small mut">Tap the steps in the right order. Tap a placed step to take it back.</p>
+   <div class="seqlist">${placed||'<div class="small mut seqempty">Your order appears here</div>'}</div><div class="seqpool">${left}</div>
+   ${rd.checked?`<div class="expl"><b>${Math.round(G.res[G.i]*100)}% in the right place.</b> ${esc(rd.e)}<ol class="small" style="margin:8px 0 0">${rd.steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol></div><div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="gnext">${G.i+1<G.rounds.length?'Next':'Finish'}</button></div>`:
+   `<div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="sqcheck" ${rd.order.length<rd.steps.length?'disabled':''}>Check order</button></div>`}</div></div>`;}
+function seqCheck(){const rd=G.rounds[G.i];rd.checked=true;const f=rd.order.filter((si,j)=>si===j).length/rd.steps.length;G.res.push(f);
+  G.score+=Math.round(f*20);G.streak=f>=.99?G.streak+1:0;if(G.id==="boss"){if(f>=.6)G.hp=Math.max(0,G.hp-G.dmg);else G.hearts--;}record(rd,f);render();}
+
+/* ---------- game views ---------- */
+function vGame(){if(!G||G.id!==sub){const g=GAMES.find(x=>x.id===sub);if(g){startGame(sub,null,true);return G?vGame():vGames();}return vGames();}
+  const g=GAMES.find(x=>x.id===G.id);
+  if(G.done){let extra='';if(G.id==="bets")extra=calib();return `<div class="fade game">${gHead(g.name)}${endScreen(extra)}</div>`;}
+  if(G.id==="pairs")return pairsView(g);
+  if(G.id==="blurt")return blurtView(g);
+  if(G.id==="compass")return compassView(g);
+  const rd=G.rounds[G.i];const sub2=G.id==="boss"?`${G.rounds.length} rounds · lose all three hearts and the boss wins`:g.tag;
+  return rd.k==="seq"?seqView(g.name,sub2):mcView(g.name,sub2);}
+function calib(){const lv=[1,2,3].map(v=>{const b=G.bets.filter(x=>x.st===v);return {v,n:b.length,acc:b.length?b.filter(x=>x.ok).length/b.length:null};});
+  const hc=G.bets.filter(x=>x.st===3&&!x.ok);const ideal={1:"~33–50%",2:"~70%",3:"~95%"};
+  return `<div class="calib">${lv.map(l=>`<div><div class="eyebrow">${l.v} chip${l.v>1?'s':''}</div><div class="cbar"><i style="height:${l.acc==null?0:Math.round(l.acc*100)}%"></i></div><b>${l.acc==null?'–':Math.round(l.acc*100)+'%'}</b><small>${l.n} bet${l.n===1?'':'s'} · ideal ${ideal[l.v]}</small></div>`).join('')}</div>
+   <p class="small" style="text-align:left">${lv[2].acc!=null&&lv[2].acc<.85?'You are <b>overconfident</b> when certain: slow down on questions that feel easy.':lv[0].acc!=null&&lv[0].acc>.7?'You know more than you think: your guesses are mostly right.':'Your confidence tracks your accuracy reasonably well.'}</p>
+   ${hc.length?`<h4 style="text-align:left">Confident mistakes: review these now (they stick best)</h4><div class="list" style="text-align:left">${hc.map(x=>`<div class="item" data-go="readings" data-sub="${x.rd.t}"><span class="chip missing">3 chips</span><div style="min-width:0"><div class="t">${esc(x.rd.prompt)}</div><div class="s">Answer: ${esc(x.rd.o[x.rd.a])}</div></div></div>`).join('')}</div>`:''}`;}
+function pairsView(g){const done=G.pairs.filter(p=>p.done).length;const secs=Math.round(((G.end||Date.now())-G.started)/1000);
+  if(done===G.pairs.length&&!G.done){G.end=G.end||Date.now();}
+  const L=G.left.map(i=>{const p=G.pairs[i];return `<button class="pt ${p.done?'done':''} ${G.sel===i?'sel':''} ${G.flash&&G.flash.l===i?'bad':''}" data-pl="${i}" ${p.done?'disabled':''}>${esc(p.term)}</button>`;}).join('');
+  const Rr=G.right.map(i=>{const p=G.pairs[i];return `<button class="pt def ${p.done?'done':''} ${G.flash&&G.flash.r===i?'bad':''}" data-pr="${i}" ${p.done?'disabled':''}>${esc(p.def)}</button>`;}).join('');
+  return `<div class="fade game">${gHead(g.name,"Tap a concept, then its definition. Author names are blanked out.")}
+   <div class="ghud"><div class="gprog">${G.pairs.map(p=>`<i class="${p.done?(p.miss?'p':'r'):''}"></i>`).join('')}</div><div class="row" style="gap:14px"><span class="gscore" id="ptimer">${secs}<small> s</small></span><span class="gscore">${G.pairs.reduce((a,p)=>a+p.miss,0)}<small> slips</small></span></div></div>
+   ${done===G.pairs.length?`<div class="gend"><div class="eyebrow">All matched</div><div class="gbig">${secs}<small> s</small></div><p class="mut">${G.pairs.filter(p=>!p.miss).length} of ${G.pairs.length} on the first try</p>
+   <div class="list" style="text-align:left;margin-top:10px">${G.pairs.map(p=>`<div class="item" data-go="${isPSC(p.t)?'psc-lecture':'readings'}" data-sub="${p.t}"><span class="chip ${p.miss?'missing':'full'}">${p.miss?'slipped':'clean'}</span><div style="min-width:0"><div class="t">${esc(p.term)}</div><div class="s">${esc(lab(p.t))}</div></div></div>`).join('')}</div>
+   <div class="row" style="justify-content:center;margin-top:16px"><button class="btn primary" data-game="pairs">${ic('spark')} New set</button><button class="btn" data-go="${isP()?'psc-games':'games'}">All games</button></div></div>`:
+   `<div class="pairs"><div class="pcol">${L}</div><div class="pcol">${Rr}</div></div>`}</div>`;}
+function pairTap(side,i){if(side==="l"){G.sel=G.sel===i?null:i;G.flash=null;render();return;}
+  if(G.sel==null){toast("Pick a concept first");return;}
+  const p=G.pairs[G.sel];if(G.sel===i){p.done=true;ev(p.t,p.miss?0:1,.5);G.sel=null;G.flash=null;
+    if(G.pairs.every(x=>x.done)){G.end=Date.now();const s=S.games.pairs||{best:0,plays:0};s.plays++;const secs=Math.round((G.end-G.started)/1000);s.best=s.best?Math.min(s.best,secs):secs;S.games.pairs=s;persist();if(G.pairs.every(x=>!x.miss))setTimeout(()=>typeof confetti==="function"&&confetti(),200);}
+  }else{p.miss++;G.flash={l:G.sel,r:i};setTimeout(()=>{if(G&&G.flash){G.flash=null;render();}},450);}
+  logAct();render();}
+/* free recall */
+const STOP=new Set("about after also and approach based being between both cannot could does each from have into more most only other over planning planners planner rather same should some such than that their them then theory there these they this those through under very what when where which while with within would your theory's".split(" "));
+function keyw(term){return term.toLowerCase().replace(/[^a-zà-ž0-9\s-]/g," ").split(/[\s-]+/).filter(w=>w.length>3&&!STOP.has(w)).map(w=>w.slice(0,Math.max(4,Math.min(6,w.length-1))));}
+function blurtView(g){const ids=G.ids;const r=NR(G.t);
+  if(G.phase==="pick")return `<div class="fade game">${gHead(g.name,"Write everything you remember about one reading. No peeking.")}
+   <div class="qcard gq"><label class="eyebrow" for="bsel">Reading (your weakest is preselected)</label><select id="bsel" class="gsel">${ids.map(t=>`<option value="${t}" ${t===G.t?'selected':''}>${esc(lab(t))} · ${Math.round(topicStats(t).m*100)}%</option>`).join('')}</select>
+   <p class="small mut" style="margin-top:12px">You get 3 minutes. Write the argument, concepts, examples, quotes, who it argues against, where it sits on the framework. Fragments are fine: the point is to retrieve, not to write well.</p>
+   <button class="btn primary" id="bgo" style="margin-top:6px">${ic('spark')} Start the clock</button></div></div>`;
+  if(G.phase==="write"){const left=Math.max(0,G.until-Date.now());
+    return `<div class="fade game">${gHead(g.name,esc(lab(G.t)))}<div class="ghud"><div class="gprog"><i class="on" style="flex:1"></i></div><span class="gscore" id="btimer">${Math.floor(left/60e3)}:${String(Math.floor(left/1e3)%60).padStart(2,'0')}</span></div>
+     <div class="qcard gq"><textarea id="btext" class="btext" placeholder="Start typing everything you remember…">${esc(G.text)}</textarea><div class="row between" style="margin-top:10px"><span class="small mut" id="bwc">${(G.text.trim().match(/\S+/g)||[]).length} words</span><button class="btn primary" id="bdone">I'm done</button></div></div></div>`;}
+  const cs=r.concepts||[];const tl=" "+G.text.toLowerCase()+" ";
+  if(!G.hit){G.hit=cs.map(([a])=>{const k=keyw(a);if(!k.length)return false;const n=k.filter(w=>tl.includes(w)).length;return n/k.length>=.5;});}
+  const n=G.hit.filter(Boolean).length,f=cs.length?n/cs.length:0;
+  return `<div class="fade game">${gHead(g.name,esc(lab(G.t)))}<div class="gend" style="padding-top:6px"><div class="eyebrow">Recall score</div><div class="gbig">${n}<small> / ${cs.length} concepts</small></div>
+   <p class="small mut">Auto-detected from your words. Tap a concept to correct it if you described it in other words, or if the match is wrong.</p></div>
+   <div class="blurtc">${cs.map(([a,b],j)=>`<button class="bc ${G.hit[j]?'hit':''}" data-bh="${j}"><b>${G.hit[j]?'✓':'○'} ${esc(a)}</b><span>${esc(b)}</span></button>`).join('')}</div>
+   <h4>What you wrote</h4><div class="flat small" style="white-space:pre-wrap">${esc(G.text)||'<span class="mut">(nothing)</span>'}</div>
+   <h4>The one-line argument</h4><div class="note">${esc(r.one||'')}</div>
+   <div class="row" style="justify-content:center;margin-top:16px">${G.saved?`<span class="chip full">Saved · ${Math.round(f*100)}%</span><button class="btn primary" data-game="blurt">Another reading</button><button class="btn" data-go="${isPSC(G.t)?'psc-lecture':'readings'}" data-sub="${G.t}">Open the reading</button>`:`<button class="btn primary" id="bsave">Save score (${Math.round(f*100)}%)</button>`}</div></div>`;}
+/* compass */
+const DL=[["sa","Structure","Agency"],["rt","Reproduction","Transformation"],["de","Deliberate","Emergent"],["us","Universal","Situated"],["mp","Monist","Pluralist"]];
+function compassView(g){if(G.i>=G.list.length){if(!G.done){G.res=G.scores;G.score=Math.round(G.scores.reduce((a,b)=>a+b,0)*20);finishGame();}return vGame();}
+  const t=G.list[G.i],r=R[t],d=r.dims;const v=G.vals[t]=G.vals[t]||{};const dims=DL.filter(([k])=>d[k]!=null);
+  const sc=G.rev?G.scores[G.i]:null;
+  return `<div class="fade game">${gHead(g.name,"Where does this theory sit? Drag each slider, then reveal.")}
+   <div class="ghud"><div class="gprog">${G.list.map((_,j)=>`<i class="${j<G.scores.length?(G.scores[j]>=.8?'r':G.scores[j]>=.5?'p':'w'):j===G.i?'on':''}"></i>`).join('')}</div><span class="gscore">${Math.round(G.scores.reduce((a,b)=>a+b,0)*20)}<small> pts</small></span></div>
+   <div class="qcard gq"><p class="eyebrow">${esc(r.theory)}</p><p class="qq">${esc(lab(t))}</p>
+   ${dims.map(([k,a,b])=>{const val=v[k]??50;return `<div class="cdim"><div class="lab"><span>${a}</span><span>${b}</span></div><div class="ctrack">${G.rev?`<span class="key" style="left:${d[k]}%" title="Key"></span>`:''}<input type="range" min="0" max="100" step="5" value="${val}" data-cd="${k}" ${G.rev?'disabled':''} aria-label="${a} to ${b}"></div>${G.rev?`<div class="small ${Math.abs(val-d[k])<=15?'okc':'mut'}">${Math.abs(val-d[k])<=15?'✓ within range':'key: '+(d[k]<35?a.toLowerCase():d[k]>65?b.toLowerCase():'in the middle')}</div>`:''}</div>`;}).join('')}
+   ${G.rev?`<div class="expl"><b>${Math.round(sc*100)}% match.</b> Normative commitments: ${esc(d.norm||'')}<br><span class="small mut">${esc((r.exam||'').slice(0,260))}${(r.exam||'').length>260?'…':''}</span></div><div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="cnext">${G.i+1<G.list.length?'Next theory':'Finish'}</button></div>`
+   :`<div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="crev">Reveal the key</button></div>`}
+   <p class="small mut" style="margin-top:10px">Positions are the course framework's approximations; within 15 points counts as right.</p></div></div>`;}
+function compassReveal(){const t=G.list[G.i],d=R[t].dims,v=G.vals[t]||{};const ks=DL.filter(([k])=>d[k]!=null).map(([k])=>k);
+  const sc=ks.reduce((a,k)=>a+Math.max(0,1-Math.max(0,Math.abs((v[k]??50)-d[k])-10)/40),0)/ks.length;G.scores.push(sc);G.rev=true;ev(t,sc,.8);logAct();render();}
+
+/* ---------- hub ---------- */
+function vGames(){const P=isP();const segs=P?[["","All"],["w1","Theme 1"],["w2","Theme 2"],["w3","Theme 3"]]:[["",Date.now()<EXAM?"Midterm":"All"],["w1","W1"],["w2","W2"],["w3","W3"],["w4","W4"],["w6","W6"],["w7","W7"]];
+  const list=GAMES.filter(g=>P?g.psc:g.bpt);
+  return `<div class="fade"><p class="eyebrow">Retrieval practice, disguised</p><h2 class="serif">Games</h2>
+  <p class="lede">Every game is a form of testing that research shows works, and every answer feeds your knowledge score. Pick the readings, then a game.</p>
+  <div class="row between" style="margin:14px 0 18px;gap:10px"><div class="seg">${segs.map(([v,l])=>`<button data-gw="${v}" aria-pressed="${GW===v}">${l}</button>`).join('')}</div><span class="small mut">${gIds().length} readings in play</span></div>
+  <div class="ggrid">${list.map((g,j)=>{const st=S.games[g.id];return `<button class="gcard" data-game="${g.id}" style="--h:${g.hue}"><div class="gart"><span class="gnum">${String(j+1).padStart(2,'0')}</span>${g.id==="boss"&&!P?`<span class="gboss">${esc(BOSS[GW||"m"])}</span>`:''}</div>
+   <div class="gbody"><div class="row between"><b class="gname">${g.name}</b>${st?`<span class="small mut">${g.id==="pairs"?'best '+st.best+' s':'best '+st.best}</span>`:''}</div><span class="gtag">${g.tag}</span><p>${g.desc}</p><p class="gwhy"><span>Why it works</span>${g.why}</p></div></button>`;}).join('')}
+   ${P?'':`<button class="gcard classic" data-go="quiz" style="--h:0"><div class="gbody"><b class="gname">Classic quiz</b><span class="gtag">Exam format</span><p>Plain multiple choice in the Remindo format, 10 at a time, with weak-spot mode.</p></div></button>`}</div></div>`;}
+
+/* ---------- events ---------- */
+document.addEventListener("click",e=>{const t=e.target.closest("button,[data-bh]");if(!t)return;
+  if(t.dataset.gw!=null){GW=t.dataset.gw;render();return;}
+  if(t.dataset.game){startGame(t.dataset.game);return;}
+  if(t.dataset.boss){GW=t.dataset.boss;startGame("boss");return;}
+  if(t.dataset.blurt){const id=t.dataset.blurt;GW="w"+NR(id).wk;startGame("blurt",id);return;}
+  if(!G)return;
+  if(t.dataset.gp!=null){gPick(+t.dataset.gp);return;}
+  if(t.dataset.stake){G.stake=+t.dataset.stake;render();return;}
+  if(t.id==="gnext"){gNext();return;}
+  if(t.dataset.sq!=null){const rd=G.rounds[G.i];rd.order.push(+t.dataset.sq);render();return;}
+  if(t.dataset.sqRm!=null){const rd=G.rounds[G.i];rd.order.splice(+t.dataset.sqRm,1);render();return;}
+  if(t.id==="sqcheck"){seqCheck();return;}
+  if(t.dataset.pl!=null){pairTap("l",+t.dataset.pl);return;}
+  if(t.dataset.pr!=null){pairTap("r",+t.dataset.pr);return;}
+  if(t.id==="bgo"){G.t=$("#bsel").value;G.phase="write";G.until=Date.now()+180e3;G.text="";render();setTimeout(()=>$("#btext")&&$("#btext").focus(),50);return;}
+  if(t.id==="bdone"){G.phase="score";G.hit=null;render();return;}
+  if(t.dataset.bh!=null){G.hit[+t.dataset.bh]=!G.hit[+t.dataset.bh];render();return;}
+  if(t.id==="bsave"){const cs=NR(G.t).concepts||[];const f=cs.length?G.hit.filter(Boolean).length/cs.length:0;ev(G.t,f,1.2);G.saved=true;const s=S.games.blurt||{best:0,plays:0};s.plays++;s.best=Math.max(s.best,Math.round(f*100));S.games.blurt=s;logAct();persist();if(f>=.8&&typeof confetti==="function")confetti();render();return;}
+  if(t.id==="crev"){compassReveal();return;}
+  if(t.id==="cnext"){G.i++;G.rev=false;render();scrollTo({top:0,behavior:"smooth"});return;}
+});
+document.addEventListener("input",e=>{if(!G)return;const t=e.target;
+  if(t.id==="btext"){G.text=t.value;const w=$("#bwc");if(w)w.textContent=(t.value.trim().match(/\S+/g)||[]).length+" words";}
+  if(t.dataset&&t.dataset.cd){const id=G.list[G.i];(G.vals[id]=G.vals[id]||{})[t.dataset.cd]=+t.value;}});
+document.addEventListener("keydown",e=>{if(!(view==="game"||view==="psc-game")||!G||G.done)return;if(e.target.matches("textarea,input,select"))return;
+  const rd=G.rounds&&G.rounds[G.i];
+  if(rd&&rd.k==="mc"){const m={a:0,b:1,c:2,d:3,"1":0,"2":1,"3":2,"4":3}[e.key.toLowerCase()];
+    if(G.picked==null&&m!=null&&m<rd.o.length){e.preventDefault();e.stopImmediatePropagation();gPick(m);return;}
+    if(G.picked!=null&&e.key==="Enter"){e.preventDefault();e.stopImmediatePropagation();gNext();return;}}
+  if(rd&&rd.k==="seq"&&rd.checked&&e.key==="Enter"){e.stopImmediatePropagation();gNext();return;}
+  if("rq".includes(e.key.toLowerCase()))e.stopImmediatePropagation();},true);
+setInterval(()=>{if(!G)return;
+  if(G.id==="blurt"&&G.phase==="write"&&(view==="game"||view==="psc-game")){const l=Math.max(0,G.until-Date.now());const el=$("#btimer");if(el)el.textContent=`${Math.floor(l/60e3)}:${String(Math.floor(l/1e3)%60).padStart(2,'0')}`;if(l===0){G.phase="score";G.hit=null;toast("Time! Let's see what you recalled");render();}}
+  if(G.id==="pairs"&&!G.end){const el=$("#ptimer");if(el)el.innerHTML=Math.round((Date.now()-G.started)/1000)+"<small> s</small>";}},500);
 
 /* ================= V3 motion layer ================= */
 const RM=matchMedia("(prefers-reduced-motion: reduce)");
