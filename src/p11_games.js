@@ -24,6 +24,14 @@ function whoRounds(ids,n){const items=[];
   while(order.length<n&&more){more=false;for(const id of shuffle(Object.keys(byId))){const x=byId[id].shift();if(x){order.push(x);more=true;}if(order.length>=n)break;}}
   return order.map(x=>{const {o,a}=optsFor(x.id,ids);const r=NR(x.id);
     return mcRound(x.id,x.kind==="quote"?"Who wrote or said this?":"Whose idea is this?",o,a,`${lab(x.id)}: ${(r.one||"").slice(0,240)}${(r.one||"").length>240?"…":""}`,{quote:x.txt,w:.8,link:x.id});});}
+const GQ=(typeof GQ_1!=="undefined"?[...GQ_1,...GQ_2,...GQ_3,...GQ_4]:[]).map(q=>({...q,k:"g"+hash(q.q)}));
+const GTYPE={misread:"Spot the misreading",contrast:"Compare the authors",apply:"Mini-case",quote:"Read the quote",position:"Framework position",consequence:"What follows?",not:"Which is NOT"};
+/* game-only bank: never the quiz questions; least-seen questions first so repeats are rare */
+function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=GQ.filter(q=>ids.includes(q.t));
+  const byT={};shuffle(pool).sort((a,b)=>(S.gseen[a.k]||0)-(S.gseen[b.k]||0)).forEach(q=>(byT[q.t]=byT[q.t]||[]).push(q));
+  const out=[];let more=true;while(out.length<n&&more){more=false;for(const t of shuffle(Object.keys(byT))){const q=byT[t].shift();if(q){out.push(q);more=true;}if(out.length>=n)break;}}
+  out.forEach(q=>S.gseen[q.k]=(S.gseen[q.k]||0)+1);
+  return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,qtype:GTYPE[q.type]||"",link:q.t});});}
 function mcqRounds(ids,n){return shuffle(QS.filter(q=>ids.includes(q.t))).slice(0,n).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}
 function lensRounds(ids,n){let p=LENS.filter(x=>ids.includes(x.t));if(p.length<Math.min(n,4))p=LENS.filter(x=>BR().some(r=>r.id===x.t));return shuffle(p).slice(0,n).map(x=>mcRound(x.t,x.q,x.o,x.a,x.e,{scen:x.s,w:1.2,link:x.t}));}
 function oddRounds(n){const w=GW?+GW.slice(1):null;let p=ODD.filter(x=>w?x.w===w:(Date.now()<EXAM?x.w<=4:true));if(p.length<2)p=ODD.filter(x=>x.w===0||(w?Math.abs(x.w-w)<=1:true));
@@ -47,10 +55,10 @@ function startGame(id,opt,noGo){const ids=gIds();if(!ids.length){toast("Nothing 
   G={id,ids,i:0,picked:null,res:[],score:0,streak:0,best:0,started:Date.now(),done:false};
   if(id==="who")G.rounds=whoRounds(ids,10);
   if(id==="lens")G.rounds=lensRounds(ids,8);
-  if(id==="bets"){G.rounds=mcqRounds(ids,10);G.stake=0;G.bets=[];}
+  if(id==="bets"){G.rounds=gqRounds(ids,10);G.stake=0;G.bets=[];}
   if(id==="odd")G.rounds=oddRounds(8);
   if(id==="chain")G.rounds=seqRounds(ids,4);
-  if(id==="boss"){const r=[...mcqRounds(ids,5),...whoRounds(ids,3),...lensRounds(ids,2),...oddRounds(1),...seqRounds(ids,1)];G.rounds=shuffle(r);G.hearts=3;G.hp=100;G.dmg=100/Math.ceil(G.rounds.length*.7);G.boss=BOSS[GW||"m"]||"The Final Boss";}
+  if(id==="boss"){const r=[...gqRounds(ids,5),...whoRounds(ids,3),...lensRounds(ids,2),...oddRounds(1),...seqRounds(ids,1)];G.rounds=shuffle(r);G.hearts=3;G.hp=100;G.dmg=100/Math.ceil(G.rounds.length*.7);G.boss=BOSS[GW||"m"]||"The Final Boss";}
   if(id==="pairs"){const items=[];shuffle(ids).forEach(t=>{const c=(NR(t).concepts||[]).filter(x=>x[1]);if(c.length)items.push({t,c:c[Math.floor(Math.random()*c.length)]});});
     let pick=items.slice(0,6);if(pick.length<6){const extra=shuffle(ids.flatMap(t=>(NR(t).concepts||[]).map(c=>({t,c})))).filter(x=>!pick.some(p=>p.c[0]===x.c[0]));pick=pick.concat(extra.slice(0,6-pick.length));}
     G.pairs=pick.map((x,i)=>({i,t:x.t,term:x.c[0],def:mask(x.c[1].length>150?x.c[1].slice(0,148)+"…":x.c[1],x.t),done:false,miss:0}));G.left=shuffle(G.pairs.map(p=>p.i));G.right=shuffle(G.pairs.map(p=>p.i));G.sel=null;G.flash=null;}
@@ -85,7 +93,7 @@ function mcView(title,sub){const rd=G.rounds[G.i];const p=G.picked;const bets=G.
   const ok=p===rd.a;
   return `<div class="fade game">${gHead(title,sub)}${hud()}${G.id==="boss"?bossBar():''}
    <div class="qcard gq">${rd.scen?`<div class="case"><span class="eyebrow">Case file</span><p>${esc(rd.scen)}</p></div>`:''}${rd.quote?`<blockquote class="gquote">${esc(rd.quote)}</blockquote>`:''}
-   <p class="qq">${esc(rd.prompt)}</p>${stakeRow}${opts}
+   ${rd.qtype?`<span class="gtag" style="--h:210">${esc(rd.qtype)}</span>`:""}<p class="qq">${esc(rd.prompt)}</p>${stakeRow}${opts}
    ${p!=null?`<div class="expl"><b>${ok?(G.streak>2?'On fire. ':'Correct. '):'Not quite. '}${bets?(ok?`+${G.stake}`:`−${G.stake}`)+' chips. ':''}</b>${esc(rd.e)}${rd.link?` <button class="linkbtn" data-go="${isPSC(rd.link)?'psc-lecture':'readings'}" data-sub="${rd.link}">Open the reading →</button>`:''}</div>
    <div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="gnext">${G.i+1<G.rounds.length&&!(G.id==="boss"&&(G.hearts<=0||G.hp<=0))?'Next':'Finish'} <kbd>Enter</kbd></button></div>`:`<p class="small mut" style="margin-top:8px">${bets&&!G.stake?'Pick your stake first · ':''}<kbd>1</kbd>–<kbd>4</kbd> to answer</p>`}</div></div>`;}
 function gPick(j){const rd=G.rounds[G.i];if(G.picked!=null)return;if(G.id==="bets"&&!G.stake)return;G.picked=j;const ok=j===rd.a;
