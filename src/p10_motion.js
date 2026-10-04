@@ -57,6 +57,7 @@ addEventListener("scroll",()=>{document.body.classList.toggle("scrolled",scrollY
   const d=document.createElement("div"),r=document.createElement("div");d.className="cur-dot";r.className="cur-ring";document.body.append(d,r);
   let x=-100,y=-100,rx=-100,ry=-100;
   addEventListener("pointermove",e=>{x=e.clientX;y=e.clientY;document.body.classList.add("has-cursor");
+    if(document.body.classList.contains("is-home")){const fx=(x/innerWidth-.5);document.querySelectorAll(".sky .lyr").forEach(l=>{l.style.transform=`translateX(${(-fx*+l.dataset.depth).toFixed(1)}px)`;});}
     const t=e.target.closest&&e.target.closest(".tile");r.classList.toggle("big",!!t);
     if(t){const c=t.querySelector(".tcta");if(c){const b=c.getBoundingClientRect(),dx=x-(b.left+b.width/2),dy=y-(b.top+b.height/2),dist=Math.hypot(dx,dy);
       if(dist<160){c.style.transform=`translate(${dx*.18}px,${dy*.18}px)`;}else c.style.transform="";}}

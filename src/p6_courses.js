@@ -59,6 +59,33 @@ function chromePSC(){const got=PSC_LECTURES.filter(l=>l.have&&l.n!==5).length,to
   $("#tabbar").innerHTML=[["home","Courses","grid"],["psc","Overview","home"],["psc-lectures","Lectures","book"],["psc-flash","Cards","cards"],["psc-essay","Essays","pen"]].map(([k,l,i])=>`<button data-go="${k}" ${view===k?'aria-current="page"':''}>${ic(i)}${l}</button>`).join('');
   $("#tabbar").style.gridTemplateColumns="repeat(5,1fr)";$("#cdm").textContent=`${dleft(PSC_EXAM)} days to exam`;}
 
+
+/* abstract Utrecht skyline: zoning in plan, buildings in section, the Dom in UU yellow */
+function skyline(){let sd=11;const rnd=()=>(sd=(sd*16807)%2147483647)/2147483647;const W=1440,B=210;let out="",d=0;
+  // perspective ground grid (the plan)
+  let g="";for(let i=-12;i<=12;i++)g+=`<line x1="${720+i*30}" y1="${B}" x2="${720+i*170}" y2="300"/>`;[222,240,268].forEach(y=>g+=`<line x1="0" y1="${y}" x2="${W}" y2="${y}"/>`);
+  // zoning blocks on the ground
+  let z="";const zc=["var(--lime)","var(--good)","var(--uured)","var(--info)"];for(let i=0;i<9;i++){const x=rnd()*W,w=60+rnd()*140;z+=`<polygon class="zone" points="${x},${B+4} ${x+w},${B+4} ${x+w*1.25},${B+40} ${x-w*.25},${B+40}" fill="${zc[i%4]}"/>`;}
+  // back layer
+  let bk="";for(let x=-20;x<W;){const w=34+rnd()*60,h=50+rnd()*120;bk+=`<rect class="bk rise" style="--d:${d++}" x="${x}" y="${B-h}" width="${w-4}" height="${h}"/>`;x+=w;}
+  // front layer with windows, leave room for the Dom at 930
+  let fr="",lit=0;for(let x=-10;x<W;){const w=26+rnd()*44,h=24+rnd()*92;if(x>885&&x<985){x=990;continue;}
+    let wins="";for(let yy=B-h+8;yy<B-10;yy+=14)for(let xx=x+6;xx<x+w-12;xx+=11){const on=rnd()<.06;wins+=`<rect class="${on?'lit':'win'}" ${on?`style="animation-delay:${(rnd()*4).toFixed(2)}s"`:''} x="${xx.toFixed(1)}" y="${yy.toFixed(1)}" width="4" height="6" opacity="${on?1:.55}"/>`;}
+    fr+=`<g class="rise" style="--d:${d++}"><rect class="fr" x="${x.toFixed(1)}" y="${(B-h).toFixed(1)}" width="${(w-3).toFixed(1)}" height="${h.toFixed(1)}"/>${wins}</g>`;x+=w;}
+  // trees (parks)
+  let tr="";[[120,9],[146,12],[170,8],[610,10],[634,13],[1180,11],[1206,8],[1330,12]].forEach(([x,r])=>tr+=`<circle class="tree rise" style="--d:${d++}" cx="${x}" cy="${B-r}" r="${r}"/>`);
+  // the Dom tower (abstract)
+  const dx=935;const dom=`<g class="rise" style="--d:${d++}"><rect class="dom" x="${dx-24}" y="${B-112}" width="48" height="112"/><rect class="dom" x="${dx-18}" y="${B-150}" width="36" height="40"/><rect class="dom" x="${dx-12}" y="${B-178}" width="24" height="30"/><polygon class="dom" points="${dx-12},${B-178} ${dx},${B-196} ${dx+12},${B-178}"/><rect class="domw" x="${dx-6}" y="${B-100}" width="12" height="22" rx="6"/><rect class="domw" x="${dx-5}" y="${B-142}" width="10" height="18" rx="5"/><rect class="domw" x="${dx-12}" y="${B-14}" width="24" height="14" rx="7"/></g>`;
+  // masterplan line connecting nodes + a train along it
+  const pts=[[60,B-130],[330,B-160],[620,B-120],[935,B-222],[1180,B-150],[1400,B-170]];const path="M"+pts.map(p=>p.join(",")).join(" L");
+  const plan=`<path id="planline" class="plan" d="${path}"/>${pts.map(([x,y])=>`<circle class="node" cx="${x}" cy="${y}" r="4"/>`).join("")}<circle class="train" r="4.5"><animateMotion dur="14s" repeatCount="indefinite" rotate="auto"><mpath href="#planline"/></animateMotion></circle>
+   <text class="lbl" x="${pts[1][0]+10}" y="${pts[1][1]-10}">structure ↔ agency</text><text class="lbl" x="${pts[4][0]+10}" y="${pts[4][1]-10}">the just city</text><text class="lbl" x="${pts[3][0]+16}" y="${pts[3][1]+4}">Utrecht</text>`;
+  const canal=`<path class="canal" d="M0,${B+18} C 240,${B+8} 420,${B+30} 720,${B+18} S 1200,${B+6} 1440,${B+20}"/>`;
+  return `<div class="sky" aria-hidden="true"><svg viewBox="0 -50 ${W} 350" preserveAspectRatio="xMidYMax slice">
+   <g class="lyr" data-depth="6"><g class="grid">${g}</g>${z}${canal}</g>
+   <g class="lyr" data-depth="12">${bk}</g>
+   <g class="lyr" data-depth="20">${tr}${fr}${dom}</g>
+   <g class="lyr" data-depth="28">${plan}</g></svg></div>`;}
 function vHome(){const ov=overall(),due=dueCards().length,mast=BR().filter(r=>topicStats(r.id).mastered).length;
   const up=DEADLINES.filter(d=>new Date(d[0])>Date.now()).slice(0,5);
   return `<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="home fade">
@@ -67,6 +94,7 @@ function vHome(){const ov=overall(),due=dueCards().length,mast=BR().filter(r=>to
    <h1 class="mega"><span class="ln" style="--i:0"><span>Spatial Planner</span></span><span class="ln" style="--i:1"><span class="hscript">helper<svg class="scrib" viewBox="0 0 300 40" preserveAspectRatio="none" aria-hidden="true"><path d="M4 28 C 60 10, 120 36, 180 18 S 270 8, 296 22"/></svg></span></span></h1>
    <p class="hsub">Summaries, figures, flashcards, quizzes and exam practice for the MSc Spatial Planning at Utrecht University. Pick a course.</p>
    <div class="hcount">${[[daysLeft(),"days to the BPT midterm"],[due,"cards due today"],[dleft(PSC_EXAM),"days to the PSC exam"]].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')}</div></section>
+  ${skyline()}
   ${(()=>{const it=["BPT midterm · Thu 8 Oct","Retrieval beats rereading","PSC exam · Mon 26 Oct","Structure ↔ agency","Spaced repetition","Studio plan · Wed 7 Oct","Theory is a heuristic aid","Interleave your practice"];const row=c=>`<div class="mtrack ${c}">${[...it,...it].map(x=>`<span>${x}</span><i>✦</i>`).join('')}</div>`;return `<div class="marquee" aria-hidden="true">${row('')}${row('rev')}</div>`;})()}
   <section class="tiles">
    <button class="tile t-bpt" data-go="today"><div class="tglow"></div><span class="tidx">01</span>

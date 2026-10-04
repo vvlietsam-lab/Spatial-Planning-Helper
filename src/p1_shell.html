@@ -467,7 +467,7 @@ body.scrolled .topbar{box-shadow:0 8px 24px -16px rgba(0,0,0,.35)}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}.rv{opacity:1;transform:none}.aurora{display:none}}
 
 /* ===== V4 home: clearer colour, Lando-style kinetic touches ===== */
-:root{--lime:#d2ff3a;--lime-ink:#0b0f00}
+:root{--lime:#ffcd00;--lime-ink:#000;--uured:#c00a35}
 body.is-home{background:var(--bg)}
 .mega{text-transform:none}
 .mega .ln:nth-child(2)>span{background:none!important;-webkit-background-clip:initial;background-clip:initial;color:var(--ink);animation:none}
@@ -495,9 +495,9 @@ body.is-home{background:var(--bg)}
 /* clearer, saturated course colours */
 .tile{color:#fff}
 .t-bpt{background:linear-gradient(150deg,#14141a 0%,#0b0b0f 100%)}
-.t-bpt .tglow{background:radial-gradient(60% 55% at 90% 5%,rgba(255,45,85,.75),transparent 60%),radial-gradient(50% 45% at 0% 100%,rgba(255,45,85,.25),transparent 60%)}
+.t-bpt .tglow{background:radial-gradient(60% 55% at 90% 5%,rgba(192,10,53,.85),transparent 60%),radial-gradient(50% 45% at 0% 100%,rgba(255,205,0,.18),transparent 60%)}
 .t-psc{background:linear-gradient(150deg,#0b8f4d 0%,#06683a 100%);color:#fff}
-.t-psc .tglow{background:radial-gradient(60% 55% at 90% 0%,rgba(210,255,58,.55),transparent 60%),radial-gradient(50% 45% at 0% 100%,rgba(0,200,255,.25),transparent 60%)}
+.t-psc .tglow{background:radial-gradient(60% 55% at 90% 0%,rgba(255,205,0,.55),transparent 60%),radial-gradient(50% 45% at 0% 100%,rgba(0,200,255,.25),transparent 60%)}
 .t-std{background:linear-gradient(150deg,#5b47ff 0%,#3a25d6 100%);color:#fff}
 .t-std .tglow{background:radial-gradient(60% 55% at 90% 0%,rgba(255,170,60,.55),transparent 60%),radial-gradient(50% 45% at 0% 100%,rgba(255,80,200,.3),transparent 60%)}
 .t-psc .tpill,.t-std .tpill,.t-bpt .tpill{background:rgba(255,255,255,.16);color:#fff}
@@ -511,13 +511,13 @@ body.is-home{background:var(--bg)}
 .tidx{position:absolute!important;right:clamp(22px,3.5vw,36px);bottom:clamp(18px,3vw,30px);font:400 4.2rem/1 var(--serif);opacity:.16;pointer-events:none;transition:opacity .4s,transform .6s var(--out)}
 .tile:hover .tidx{opacity:.4;transform:translateY(-6px)}
 .t-psc::after,.t-std::after{background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.28),transparent 45%)}
-.dot.b{background:#ff2d55}.dot.p{background:#0b8f4d}.dot.s{background:#5b47ff}
+.dot.b{background:var(--uured)}.dot.p{background:#0b8f4d}.dot.s{background:#5b47ff}
 .upi:hover{border-color:var(--ink)}
 /* custom cursor (desktop, home only) */
 .cur-dot,.cur-ring{position:fixed;left:0;top:0;pointer-events:none;z-index:95;border-radius:50%;opacity:0;transition:opacity .3s}
 .cur-dot{width:8px;height:8px;margin:-4px 0 0 -4px;background:var(--lime);mix-blend-mode:difference}
 .cur-ring{width:38px;height:38px;margin:-19px 0 0 -19px;border:1.5px solid var(--ink);transition:opacity .3s,width .35s var(--out),height .35s var(--out),margin .35s var(--out),background .3s,border-color .3s}
-.cur-ring.big{width:86px;height:86px;margin:-43px 0 0 -43px;background:rgba(210,255,58,.18);border-color:transparent;backdrop-filter:blur(1px)}
+.cur-ring.big{width:86px;height:86px;margin:-43px 0 0 -43px;background:rgba(255,205,0,.2);border-color:transparent;backdrop-filter:blur(1px)}
 .cur-ring.big::after{content:"Open";position:absolute;inset:0;display:grid;place-items:center;font:600 .7rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
 body.is-home.has-cursor .cur-dot,body.is-home.has-cursor .cur-ring{opacity:1}
 @media (pointer:fine){body.is-home.has-cursor,body.is-home.has-cursor .tile,body.is-home.has-cursor button{cursor:none}}
@@ -525,6 +525,32 @@ html,body.is-home{overflow-x:clip}
 .mega .ln:nth-child(2)>span.hscript{color:var(--lime-ink)!important}
 @media (max-width:560px){.hcount{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.hcount b{font-size:1.9rem}.hcount span{font-size:.58rem;text-align:center;letter-spacing:.04em}.tidx{font-size:3rem}}
 @media (prefers-reduced-motion:reduce){.mtrack{animation:none}.hscript::before{transform:rotate(-2deg) scaleX(1)}.scrib path{stroke-dashoffset:0}.cur-dot,.cur-ring{display:none}}
+
+/* ===== skyline: an abstract Utrecht in plan + section ===== */
+.sky{position:relative;margin:clamp(20px,4vw,40px) calc(50% - 50vw) -8px;height:clamp(170px,24vw,340px);overflow:hidden;pointer-events:none}
+.sky svg{position:absolute;inset:0;width:100%;height:100%}
+.sky .lyr{transition:transform .9s var(--out)}
+.sky .bk{fill:var(--ink);opacity:.09}
+.sky .fr{fill:var(--ink);opacity:.86}
+.sky .win{fill:var(--bg)}
+.sky .lit{fill:var(--lime);animation:twinkle 4s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:1}50%{opacity:.25}}
+.sky .dom{fill:var(--lime)}
+.sky .domw{fill:var(--ink);opacity:.85}
+.sky .tree{fill:var(--good);opacity:.85}
+.sky .grid{stroke:var(--ink);opacity:.12;stroke-width:1;fill:none}
+.sky .canal{stroke:var(--info);opacity:.5;stroke-width:2.5;fill:none;stroke-dasharray:6 7;animation:flow 3s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-26}}
+.sky .plan{stroke:var(--uured);stroke-width:1.5;fill:none;stroke-dasharray:5 6;opacity:.8}
+.sky .node{fill:var(--bg);stroke:var(--uured);stroke-width:2}
+.sky .train{fill:var(--uured)}
+.sky .lbl{font:500 11px var(--mono);fill:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.sky .zone{opacity:.16}
+#app.enter .sky .rise{transform-box:fill-box;transform-origin:50% 100%;animation:rise2 1.1s var(--out) both;animation-delay:calc(var(--d) * 14ms + 150ms)}
+@keyframes rise2{from{transform:scaleY(0)}}
+#app.enter .sky .plan{stroke-dashoffset:2000;animation:drawp 2.2s 1s var(--out) forwards}
+@keyframes drawp{from{stroke-dasharray:2000 2000;stroke-dashoffset:2000}to{stroke-dasharray:2000 2000;stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.sky *{animation:none!important}}
 </style>
 
 <aside class="side" id="side"></aside>
