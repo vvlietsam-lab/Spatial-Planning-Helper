@@ -158,6 +158,12 @@ function sumBlock(short,ext,H){const has=ext&&ext.length,mode=has?SM:"short";
 document.addEventListener("click",e=>{const b=e.target.closest("[data-sm]");if(b){SM=b.dataset.sm;try{localStorage.setItem("sp-sm",SM)}catch(_){}
   const h=document.querySelector(".sumhead");const y=h?h.getBoundingClientRect().top+scrollY-80:null;render();if(y!=null&&b.closest(".extwrap"))scrollTo({top:y,behavior:"smooth"});return;}
   const t=e.target.closest("[data-toc]");if(t){e.preventDefault();const el=document.getElementById("ext"+t.dataset.toc);if(el)scrollTo({top:el.getBoundingClientRect().top+scrollY-70,behavior:"smooth"});}});
+function lectBlock(L){if(!L)return "";const n=L.figs.length+L.tables.length+L.points.length;if(!n)return "";
+  return `<section class="lect"><div class="row between" style="gap:8px;flex-wrap:wrap"><h3 style="margin:0">From the lecture slides</h3><span class="chip slides">${n} item${n>1?"s":""}</span></div>
+  <p class="small mut">Everything on the slides that this page didn't already cover: diagrams and tables redrawn from the slides, and the remaining slide points. Slide numbers in brackets.</p>
+  ${L.figs.map(f=>`<figure class="fig lfig"><div class="lft">${esc(f.title)}</div>${f.svg}<figcaption>${esc(f.cap||"")}${f.slide?` · <span class="sref">${esc(f.slide)}</span>`:""}</figcaption></figure>`).join("")}
+  ${L.tables.map(t=>`<h4>${esc(t.title)}</h4><div class="tbl"><table><thead><tr>${t.head.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${t.rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>${t.slide?`<p class="sref" style="margin:4px 0 0">${esc(t.slide)}</p>`:""}`).join("")}
+  ${L.points.length?`<h4>Also on the slides</h4><ul class="lpts">${L.points.map(p=>`<li><b>${esc(p.t)}</b> ${esc(p.d)}${p.slide?` <span class="sref">(${esc(p.slide)})</span>`:""}</li>`).join("")}</ul>`:""}</section>`;}
 function newsCard(n){if(!n)return "";return `<div class="news"><div class="row between" style="gap:8px;flex-wrap:wrap"><span class="eyebrow">In the news</span><span class="chip plain">Current example · not in the text</span></div>
   <h4>${esc(n.t)}</h4><p>${esc(n.d)}</p><div class="nwhy"><span>How it shows the theory</span>${esc(n.why)}</div>
   <a class="nsrc" href="${esc(n.src.url)}" target="_blank" rel="noopener">${esc(n.src.name)}${n.src.date?" · "+esc(n.src.date):""} ↗</a></div>`;}
@@ -180,7 +186,7 @@ function vReading(r){const s=topicStats(r.id),nq=QS.filter(q=>q.t===r.id).length
    ${r.table?`<h3>Table</h3><div class="tbl"><table><thead><tr>${r.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${r.table.rows.map(row=>`<tr>${row.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}
    <h3>Example${r.examples&&r.examples.length?"s":""}</h3><p>${esc(r.example)}</p>${exList(r.examples)}${newsCard(r.news)}
    ${r.quotes.length?`<h3>Quotes to know</h3>${r.quotes.map(q=>`<blockquote>${esc(q)}</blockquote>`).join('')}`:''}
-   <h3>Exam angle</h3><div class="note">${esc(r.exam)}</div>
+   ${lectBlock(r.lect)}<h3>Exam angle</h3><div class="note">${esc(r.exam)}</div>
    <div class="row between" style="margin-top:28px">${prev?`<button class="btn sm" data-go="readings" data-sub="${prev.id}">${ic('left')} ${esc(short(prev).slice(0,28))}</button>`:'<span></span>'}${next?`<button class="btn sm" data-go="readings" data-sub="${next.id}">${esc(short(next).slice(0,28))} →</button>`:''}</div>
   </div>
   <aside class="rside"><div class="card">${masteryCard(s)}

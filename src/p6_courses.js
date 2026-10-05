@@ -181,7 +181,7 @@ function vPSCLecture(){const l=PSC.find(x=>x.id===sub)||PSC[0],L=PSC_LECTURES[l.
    ${l.rec.map(r=>`<div class="card" style="margin-top:12px"><div class="row between"><b style="max-width:60ch">${esc(r.cite)}</b>${bchip(r.basis)}</div>${doi(r.doi)}
     <h4 style="margin-top:10px">Abstract</h4><p class="small">${esc(r.abs)}</p>
     <h4>What the slides say about it</h4><div class="note">${esc(r.slides)}</div></div>`).join('')}`:''}
-   <h3>Exam angle</h3><div class="note">${esc(l.exam)}</div>
+   ${lectBlock(l.lect)}<h3>Exam angle</h3><div class="note">${esc(l.exam)}</div>
    <div class="row between" style="margin-top:28px">${prev?`<button class="btn sm" data-go="psc-lecture" data-sub="${prev.id}">${ic('left')} L${prev.n}</button>`:'<span></span>'}${next?`<button class="btn sm" data-go="psc-lecture" data-sub="${next.id}">L${next.n} →</button>`:''}</div>
   </div>
   <aside class="rside"><div class="card">${masteryCard(s)}
