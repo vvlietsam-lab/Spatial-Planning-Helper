@@ -18,3 +18,5 @@ for(const A of [MCQ,OPEN]){for(let i=A.length-1;i>=0;i--)if(A[i].t==="mm")A.spli
 const SLIDE_ADD=(()=>{const all={};[SL_1,SL_2,SL_3,SL_4,SL_5,SL_6].forEach(o=>{for(const k in o){const a=all[k]=all[k]||{figs:[],tables:[],points:[]};for(const t of ["figs","tables","points"])a[t].push(...(o[k][t]||[]));}});
   if(all.fw)all.fw.tables=all.fw.tables.filter(t=>!/^The course framework: four dimensions/.test(t.title));return all;})();
 READINGS.forEach(r=>{if(SLIDE_ADD[r.id])r.lect=SLIDE_ADD[r.id];});
+/* quiz bank: rebalanced options (no "longest answer is right" giveaway) */
+{const F=Object.assign({},MF_1,MF_2,MF_3,MF_4);MCQ.forEach(q=>{const f=F[q.q];if(f&&f.o&&f.o.length===4){q.o=f.o;q.a=f.a;if(f.e)q.e=f.e;}});}

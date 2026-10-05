@@ -227,8 +227,9 @@ function rate(r){const c=F.deck[F.i];const cur=S.cards[c.k]||{box:0};let box=cur
 
 /* quiz */
 let Q={list:[],i:0,picked:null,score:0,res:[],sel:""};
+const permQ=q=>{const p=shuffle(q.o.map((_,i)=>i));return {...q,o:p.map(i=>q.o[i]),a:p.indexOf(q.a)};};
 function startQuiz(filter,mode){const fl=filter||scopeIds();let pool=QS.filter(q=>fl.includes(q.t));if(mode==="weak")pool=pool.filter(q=>!S.quiz[q.k]?.last);
-  Q={list:shuffle(pool).slice(0,10),i:0,picked:null,score:0,res:[],sel:Q.sel};go("quiz");}
+  Q={list:shuffle(pool).slice(0,10).map(permQ),i:0,picked:null,score:0,res:[],sel:Q.sel};go("quiz");}
 function qBlock(q,picked,meta,mockIdx){const mock=mockIdx!=null;
   return `<div class="qcard"><div class="row between"><span class="eyebrow">${meta}</span></div><p class="qq">${esc(q.q)}</p>${q.o.map((o,j)=>{let cls='';if(!mock&&picked!==null&&picked!==undefined){if(j===q.a)cls='right';else if(j===picked)cls='wrong';}else if(mock&&picked===j)cls='sel';
    return `<button class="opt ${cls}" ${mock?`data-mq="${mockIdx}" data-mk="${j}"`:`data-pick="${j}"`} ${!mock&&picked!=null?'disabled':''}><span class="k">${String.fromCharCode(65+j)}</span><span>${esc(o)}</span></button>`}).join('')}
@@ -254,7 +255,7 @@ function vOpen(){const ps=course==='psc',sc=ps?scopeIds():READINGS.map(r=>r.id),
 /* mock */
 let M=null;
 function startMock(){const mid=MIDR().map(r=>r.id);const by={},pool=shuffle(QS.filter(q=>mid.includes(q.t))),pick=[];for(const q of pool){by[q.t]=by[q.t]||0;if(by[q.t]<3&&pick.length<25){pick.push(q);by[q.t]++;}}for(const q of pool){if(pick.length>=25)break;if(!pick.includes(q))pick.push(q);}
-  M={qs:pick,ans:{},open:shuffle(OQ.filter(o=>mid.includes(o.t))).slice(0,3),oans:["","",""],end:Date.now()+120*60e3,done:false,rub:[[],[],[]]};go("mock");}
+  M={qs:pick.map(permQ),ans:{},open:shuffle(OQ.filter(o=>mid.includes(o.t))).slice(0,3),oans:["","",""],end:Date.now()+120*60e3,done:false,rub:[[],[],[]]};go("mock");}
 function vMock(){
   if(!M)return `<div class="fade"><p class="eyebrow">Full simulation</p><h2 class="serif">Mock exam</h2><p class="lede">Same format as 8 October: 25 MCQ (3 points each, no negative marking) + 3 open questions (~35 points), 2 hours, closed book.</p>
   <div class="card" style="margin-top:14px"><div class="row between"><div><b>2-hour mock</b><div class="small mut">25 MCQ from all topics + 3 open questions</div></div><button class="btn primary" id="mstart">Start mock</button></div>
