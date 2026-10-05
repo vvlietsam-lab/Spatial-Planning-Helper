@@ -6568,7 +6568,32 @@ function vMethod(){const M2=[["Practice testing (retrieval)","High utility (Dunl
   <h3>How mastery is measured</h3><p><b>Knowledge</b> is a live estimate of how well you know a reading right now: every graded attempt (flashcards, quiz, mock exam, games) moves it, recent attempts count most, and it slowly fades when you stop practising (a forgetting curve that flattens the more you have practised). Mock-exam answers count 1.5×, scenario games 1.2×, self-rated flashcards 0.6×. <b>Coverage</b> is the share of the reading's cards and quiz questions you have tried at least once. <b>Mastery = Knowledge × (0.7 + 0.3 × Coverage)</b>. A reading turns green at 80% mastery with at least 50% coverage, and drops again when you start getting it wrong.</p>
   <h3>Keyboard</h3><p class="small"><kbd>⌘K</kbd> search · <kbd>R</kbd> review due cards · <kbd>Q</kbd> interleaved quiz · <kbd>Space</kbd> flip · <kbd>1</kbd>–<kbd>4</kbd> rate / answer · <kbd>Enter</kbd> next</p>
   <h3>Sources</h3><ul class="small"><li><a href="https://journals.sagepub.com/doi/abs/10.1177/1529100612453266" target="_blank" rel="noopener">Dunlosky et al. (2013)</a></li><li><a href="https://doi.org/10.1111/j.1467-9280.2006.01693.x" target="_blank" rel="noopener">Roediger & Karpicke (2006)</a></li><li><a href="https://doi.org/10.1037/0033-2909.132.3.354" target="_blank" rel="noopener">Cepeda et al. (2006)</a></li></ul>
-  <div class="divider"></div><p class="small mut">${saveState==="synced"?"Your progress is saved privately to your account.":"Your progress is saved in this browser only."}</p><button class="btn sm" id="reset">Reset all progress</button><span id="resetc"></span></div>`;}
+  <div class="divider"></div>${transferCard()}<p class="small mut" style="margin-top:14px">${saveState==="synced"?"Your progress is saved privately to your account.":"Your progress is saved in this browser only."}</p><button class="btn sm" id="reset">Reset all progress</button><span id="resetc"></span></div>`;}
+/* ---------- move progress between devices ---------- */
+function transferCard(){return `<div class="card xfer" id="xfer"><div class="eyebrow">Move your progress to another device</div>
+  <p class="small" style="margin:6px 0 10px">Progress lives in the browser you study in (and in your account on the Claude version). To continue on another device: <b>1.</b> on the old device press <i>Copy progress code</i> (or download the file); <b>2.</b> on the new device paste it below and press <i>Import</i>. Imports are <b>merged</b>: for every card, question and reading the most advanced/most recent state wins, so nothing is lost on either side.</p>
+  <div class="row" style="gap:8px;flex-wrap:wrap"><button class="btn primary sm" id="xcopy">Copy progress code</button><button class="btn sm" id="xdl">Download file</button><label class="btn sm" style="cursor:pointer">Load file<input type="file" id="xfile" accept=".json,.txt" hidden></label></div>
+  <textarea id="xcode" placeholder="Paste a progress code here…" style="margin-top:10px;min-height:80px;font:12px var(--mono)"></textarea>
+  <div class="row" style="margin-top:8px;gap:8px"><button class="btn primary sm" id="ximp">Import &amp; merge</button><span class="small mut" id="xmsg"></span></div></div>`;}
+const encState=()=>"SPH1."+btoa(unescape(encodeURIComponent(JSON.stringify(S))));
+function decState(t){t=(t||"").trim();if(t.startsWith("{"))return JSON.parse(t);if(t.startsWith("SPH1."))t=t.slice(5);return JSON.parse(decodeURIComponent(escape(atob(t.replace(/\s+/g,"")))));}
+function mergeState(a,b){const o=JSON.parse(JSON.stringify(a));const by=(k,f)=>{o[k]=o[k]||{};for(const [id,v] of Object.entries(b[k]||{}))o[k][id]=o[k][id]==null?v:f(o[k][id],v);};
+  by("cards",(x,y)=>((y.seen||0)>(x.seen||0)||((y.seen||0)===(x.seen||0)&&(y.box||0)>(x.box||0)))?y:x);
+  by("quiz",(x,y)=>(y.n||0)>(x.n||0)?y:x);by("k",(x,y)=>(y.t||0)>(x.t||0)?y:x);
+  by("act",(x,y)=>Math.max(x||0,y||0));["read","recall","plan","studio"].forEach(k=>by(k,(x,y)=>x||y));
+  by("notes",(x,y)=>(String(y).length>String(x).length?y:x));by("open",(x,y)=>(y.score??-1)>(x.score??-1)?y:x);
+  by("games",(x,y)=>({...x,...y,best:Math.max(x.best||0,y.best||0),plays:Math.max(x.plays||0,y.plays||0)}));by("gseen",(x,y)=>Math.max(x||0,y||0));
+  const seen=new Set((o.mocks||[]).map(m=>m.date+m.mcq+m.open));o.mocks=(o.mocks||[]).concat((b.mocks||[]).filter(m=>!seen.has(m.date+m.mcq+m.open)));
+  o.kv=2;return o;}
+function doImport(text){const msg=$("#xmsg");try{const inc=decState(text);if(!inc||typeof inc!=="object"||!inc.cards)throw 0;
+  const n=Object.keys(inc.cards||{}).length+Object.keys(inc.quiz||{}).length;S=mergeState(S,inc);persist();render();toast(`Progress merged: ${n} items imported`);}
+  catch(e){if(msg)msg.textContent="That doesn't look like a progress code.";}}
+document.addEventListener("click",e=>{const t=e.target.closest("button");if(!t)return;
+  if(t.id==="xcopy"){const c=encState();const ta=$("#xcode");if(ta){ta.value=c;ta.select();}
+    (navigator.clipboard?navigator.clipboard.writeText(c):Promise.reject()).then(()=>toast("Progress code copied")).catch(()=>{try{document.execCommand("copy");toast("Progress code copied");}catch(_){toast("Select the code in the box and copy it");}});}
+  if(t.id==="xdl"){const blob=new Blob([JSON.stringify(S)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="spatial-planner-progress-"+dkey(new Date())+".json";document.body.appendChild(a);a.click();a.remove();toast("Downloaded");}
+  if(t.id==="ximp")doImport($("#xcode").value);});
+document.addEventListener("change",e=>{if(e.target.id==="xfile"&&e.target.files[0]){e.target.files[0].text().then(doImport);}});
 function vMenu(){return `<div class="fade"><h2 class="serif">More</h2><div class="list" style="margin-top:14px">${NAV.flatMap(g=>g[1]).map(([k,l,i])=>`<div class="item" data-go="${k}">${ic(i)}<div class="t">${l}</div><span class="mut">→</span></div>`).join('')}</div><div class="card" style="margin-top:14px"><div class="eyebrow">Study streak</div>${heatmap()}</div></div>`;}
 
 /* palette */
@@ -6742,7 +6767,7 @@ function skyline(){let sd=11;const rnd=()=>(sd=(sd*16807)%2147483647)/2147483647
 function vHome(){const ov=overall(),due=dueCards().length,mast=BR().filter(r=>topicStats(r.id).mastered).length;
   const up=DEADLINES.filter(d=>new Date(d[0])>Date.now()).slice(0,5);
   return `<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="home fade">
-  <header class="hhead"><div class="row" style="gap:10px"><div class="logo">SP</div><b>Spatial Planner helper</b></div><div class="row"><span class="small mut hide-sm">${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</span><button class="kbtn" style="width:auto;margin:0" data-pal="1">${ic('search')}<kbd>⌘K</kbd></button></div></header>
+  <header class="hhead"><div class="row" style="gap:10px"><div class="logo">SP</div><b>Spatial Planner helper</b></div><div class="row"><span class="small mut hide-sm">${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</span><button class="btn sm" data-go="method" data-sub="xfer" title="Move progress between devices">Sync devices</button><button class="kbtn" style="width:auto;margin:0" data-pal="1">${ic('search')}<kbd>⌘K</kbd></button></div></header>
   <section class="hhero"><p class="eyebrow">MSc Spatial Planning · Period 1 · Utrecht University</p>
    <h1 class="mega"><span class="ln" style="--i:0"><span>Spatial Planner</span></span><span class="ln" style="--i:1"><span class="hscript">helper<svg class="scrib" viewBox="0 0 300 40" preserveAspectRatio="none" aria-hidden="true"><path d="M4 28 C 60 10, 120 36, 180 18 S 270 8, 296 22"/></svg></span></span></h1>
    <p class="hsub">Summaries, figures, flashcards, quizzes and exam practice for the MSc Spatial Planning at Utrecht University. Pick a course.</p>
@@ -7109,6 +7134,7 @@ render=function(){
   const app=$("#app");document.body.classList.remove("c-bpt","c-psc","c-studio");if(course)document.body.classList.add("c-"+course);
   if(["today","readings","games","weeks","psc","psc-lectures","psc-games","studio"].includes(view)&&!(view==="readings"&&sub)){const f=app.querySelector(".fade");if(f&&!f.querySelector(".msky")&&typeof miniSky==="function")f.insertAdjacentHTML("afterbegin",miniSky());}
   if(nav&&!RM.matches){app.classList.remove("enter");void app.offsetWidth;app.classList.add("enter");stagger(app);animateMeters(app);reveal(app);clearTimeout(render._t);render._t=setTimeout(()=>app.classList.remove("enter"),1600);}
+  if(nav&&view==="method"&&sub==="xfer")setTimeout(()=>{const x=$("#xfer");if(x)x.scrollIntoView({behavior:"smooth",block:"center"});},350);
   navPill();readProgress();if(nav){const cr=document.querySelector(".cur-ring");if(cr)cr.classList.remove("big");}
   _greens=greenSet();
   if(before){const fresh=[..._greens].filter(id=>!before.has(id));if(fresh.length){confetti();toast(`${short(R[fresh[0]])} is green ✓`);}}

@@ -37,6 +37,7 @@ render=function(){
   const app=$("#app");document.body.classList.remove("c-bpt","c-psc","c-studio");if(course)document.body.classList.add("c-"+course);
   if(["today","readings","games","weeks","psc","psc-lectures","psc-games","studio"].includes(view)&&!(view==="readings"&&sub)){const f=app.querySelector(".fade");if(f&&!f.querySelector(".msky")&&typeof miniSky==="function")f.insertAdjacentHTML("afterbegin",miniSky());}
   if(nav&&!RM.matches){app.classList.remove("enter");void app.offsetWidth;app.classList.add("enter");stagger(app);animateMeters(app);reveal(app);clearTimeout(render._t);render._t=setTimeout(()=>app.classList.remove("enter"),1600);}
+  if(nav&&view==="method"&&sub==="xfer")setTimeout(()=>{const x=$("#xfer");if(x)x.scrollIntoView({behavior:"smooth",block:"center"});},350);
   navPill();readProgress();if(nav){const cr=document.querySelector(".cur-ring");if(cr)cr.classList.remove("big");}
   _greens=greenSet();
   if(before){const fresh=[..._greens].filter(id=>!before.has(id));if(fresh.length){confetti();toast(`${short(R[fresh[0]])} is green ✓`);}}
