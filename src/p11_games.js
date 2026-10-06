@@ -27,12 +27,11 @@ function whoRounds(ids,n){const items=[];
 const GQ=(typeof GQ_1!=="undefined"?[...GQ_1,...GQ_2,...GQ_3,...GQ_4]:[]).map(q=>({...q,k:"g"+hash(q.q)}));
 const GTYPE={misread:"Spot the misreading",contrast:"Compare the authors",apply:"Mini-case",quote:"Read the quote",position:"Framework position",consequence:"What follows?",not:"Which is NOT"};
 /* game-only bank: never the quiz questions; least-seen questions first so repeats are rare */
-function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=GQ.filter(q=>ids.includes(q.t));
-  const byT={};shuffle(pool).sort((a,b)=>(S.gseen[a.k]||0)-(S.gseen[b.k]||0)).forEach(q=>(byT[q.t]=byT[q.t]||[]).push(q));
-  const out=[];let more=true;while(out.length<n&&more){more=false;for(const t of shuffle(Object.keys(byT))){const q=byT[t].shift();if(q){out.push(q);more=true;}if(out.length>=n)break;}}
-  out.forEach(q=>S.gseen[q.k]=(S.gseen[q.k]||0)+1);
-  return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,qtype:GTYPE[q.type]||"",link:q.t});});}
-function mcqRounds(ids,n){return shuffle(QS.filter(q=>ids.includes(q.t))).slice(0,n).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}
+/* games: own bank + the hard bank, least-seen across quiz and games, answers reshuffled every time */
+function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3)].filter(q=>ids.includes(q.t));
+  const out=fresh(pool,n);out.forEach(q=>S.gseen[q.k]=(S.gseen[q.k]||0)+1);
+  return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,qtype:GTYPE[q.type]||FMTL[q.fmt]||"",link:q.t});});}
+function mcqRounds(ids,n){return fresh(QS.filter(q=>ids.includes(q.t)),n).map(permQ).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}
 function lensRounds(ids,n){let p=LENS.filter(x=>ids.includes(x.t));if(p.length<Math.min(n,4))p=LENS.filter(x=>BR().some(r=>r.id===x.t));return shuffle(p).slice(0,n).map(x=>mcRound(x.t,x.q,x.o,x.a,x.e,{scen:x.s,w:1.2,link:x.t}));}
 function oddRounds(n){const w=GW?+GW.slice(1):null;let p=ODD.filter(x=>w?x.w===w:(Date.now()<EXAM?x.w<=4:true));if(p.length<2)p=ODD.filter(x=>x.w===0||(w?Math.abs(x.w-w)<=1:true));
   return shuffle(p).slice(0,n).map(x=>mcRound(null,"Which one doesn't belong?",x.items,x.odd,x.e,{odd:1}));}
