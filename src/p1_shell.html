@@ -629,6 +629,8 @@ body:not(.is-home) #app>.fade:has(.msky)::before{display:none}
 .lvb .btn{justify-content:space-between;border-left:3px solid var(--lv)}.lvb .btn i{font-style:normal;color:var(--muted);font-size:.75rem}
 select.sel{font:inherit;font-size:.85rem;padding:6px 10px;border-radius:10px;border:1px solid var(--line2);background:var(--panel);color:var(--ink);max-width:100%}
 details.card summary{list-style:none;flex-wrap:wrap;gap:6px}details.card summary::-webkit-details-marker{display:none}
+.fxgrid{display:grid;grid-template-columns:1fr;gap:16px}.fxtext p{line-height:1.65}
+@media(min-width:1100px){.fxgrid{grid-template-columns:1.05fr 1fr}.fxtext{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}}
 </style>
 
 <aside class="side" id="side"></aside>

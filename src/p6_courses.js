@@ -46,7 +46,7 @@ DEADLINES.sort((a,b)=>new Date(a[0])-new Date(b[0]));
 var course=null;
 (function initHash(){try{const h=location.hash.slice(1);if(!h||h==="home")return;if(h.startsWith("psc")){course="psc";view=h;return;}if(h.startsWith("studio")){course="studio";view=h;return;}if(NAV.flatMap(g=>g[1]).some(t=>t[0]===h)){course="bpt";view=h;}}catch(e){}})();
 function go(v,s){if(v==="home"){course=null;view="today";}else if(v.startsWith("psc")){course="psc";view=v;}else if(v.startsWith("studio")){course="studio";view=v;}else{course="bpt";view=v;}sub=s??null;render();window.scrollTo(0,0);}
-const dleft=d=>Math.max(0,Math.ceil((d-Date.now())/DAY));
+const dleft=d=>calDays(d);
 const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-games","Games","spark"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
 const pscStats=()=>{const ids=PSC.map(l=>l.id);return {m:ids.reduce((a,id)=>a+topicStats(id).m,0)/ids.length,mast:ids.filter(id=>topicStats(id).mastered).length,due:dueCards(ids).length};};
 

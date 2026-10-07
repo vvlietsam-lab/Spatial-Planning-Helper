@@ -20,22 +20,26 @@ function optsFor(id,ids){const ds=distract(id,ids,3);const o=shuffle([id,...ds])
 function whoRounds(ids,n){const items=[];
   ids.forEach(id=>{const r=NR(id);(r.quotes||[]).forEach(q=>{const c=cleanQ(q);if(c.length>25)items.push({id,kind:"quote",txt:"“"+mask(c,id)+"”"});});
     (r.concepts||[]).forEach(([a,b])=>{if(b&&b.length>30)items.push({id,kind:"idea",txt:mask(a+": "+b,id)});});});
-  const byId={};shuffle(items).forEach(x=>(byId[x.id]=byId[x.id]||[]).push(x));const order=[];let more=true;
-  while(order.length<n&&more){more=false;for(const id of shuffle(Object.keys(byId))){const x=byId[id].shift();if(x){order.push(x);more=true;}if(order.length>=n)break;}}
-  return order.map(x=>{const {o,a}=optsFor(x.id,ids);const r=NR(x.id);
+  (typeof MG!=="undefined"?MG.WHO:[]).filter(x=>ids.includes(x.t)).forEach(x=>items.push({id:x.t,kind:x.kind,txt:x.kind==="quote"?"“"+mask(cleanQ(x.txt),x.t)+"”":mask(x.txt,x.t)}));
+  items.forEach(x=>{x.t=x.id;x.k=gk("w",x.txt);});
+  return gpick(items,n).map(x=>{const {o,a}=optsFor(x.id,ids);const r=NR(x.id);
     return mcRound(x.id,x.kind==="quote"?"Who wrote or said this?":"Whose idea is this?",o,a,`${lab(x.id)}: ${(r.one||"").slice(0,240)}${(r.one||"").length>240?"…":""}`,{quote:x.txt,w:.8,link:x.id});});}
-const GQ=(typeof GQ_1!=="undefined"?[...GQ_1,...GQ_2,...GQ_3,...GQ_4]:[]).map(q=>({...q,k:"g"+hash(q.q)}));
+const GQ=[...(typeof GQ_1!=="undefined"?[...GQ_1,...GQ_2,...GQ_3,...GQ_4]:[]),...(typeof MG!=="undefined"?MG.GQX:[])].map(q=>({...q,k:"g"+hash(q.q)}));
+/* every game bank: least-seen first (shared memory S.gseen), options reshuffled every time */
+const gk=(p,txt)=>p+hash(txt);
+function gpick(pool,n){S.gseen=S.gseen||{};const out=fresh(pool,n);out.forEach(x=>S.gseen[x.k]=(S.gseen[x.k]||0)+1);return out;}
+function shufMC(o,a){const perm=shuffle(o.map((_,i)=>i));return {o:perm.map(i=>o[i]),a:perm.indexOf(a)};}
 const GTYPE={misread:"Spot the misreading",contrast:"Compare the authors",apply:"Mini-case",quote:"Read the quote",position:"Framework position",consequence:"What follows?",not:"Which is NOT"};
 /* game-only bank: never the quiz questions; least-seen questions first so repeats are rare */
 /* games: own bank + the hard bank, least-seen across quiz and games, answers reshuffled every time */
 function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3)].filter(q=>ids.includes(q.t));
   const out=fresh(pool,n);out.forEach(q=>S.gseen[q.k]=(S.gseen[q.k]||0)+1);
-  return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,qtype:GTYPE[q.type]||FMTL[q.fmt]||"",link:q.t});});}
+  return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,d:q.lv?DLV[q.lv]:.6,qtype:GTYPE[q.type]||FMTL[q.fmt]||"",link:q.t});});}
 function mcqRounds(ids,n){return fresh(QS.filter(q=>ids.includes(q.t)),n).map(permQ).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}
-function lensRounds(ids,n){let p=LENS.filter(x=>ids.includes(x.t));if(p.length<Math.min(n,4))p=LENS.filter(x=>BR().some(r=>r.id===x.t));return shuffle(p).slice(0,n).map(x=>mcRound(x.t,x.q,x.o,x.a,x.e,{scen:x.s,w:1.2,link:x.t}));}
-function oddRounds(n){const w=GW?+GW.slice(1):null;let p=ODD.filter(x=>w?x.w===w:(Date.now()<EXAM?x.w<=4:true));if(p.length<2)p=ODD.filter(x=>x.w===0||(w?Math.abs(x.w-w)<=1:true));
-  return shuffle(p).slice(0,n).map(x=>mcRound(null,"Which one doesn't belong?",x.items,x.odd,x.e,{odd:1}));}
-function seqRounds(ids,n){let p=SEQ.filter(x=>ids.includes(x.t));if(!p.length)p=SEQ.filter(x=>BR().some(r=>r.id===x.t));return shuffle(p).slice(0,n).map(x=>({k:"seq",t:x.t,title:x.title,steps:x.steps,e:x.e,pool:shuffle(x.steps.map((s,i)=>i)),order:[],checked:false,link:x.t}));}
+function lensRounds(ids,n){let p=LENS.filter(x=>ids.includes(x.t));if(p.length<Math.min(n,4))p=LENS.filter(x=>BR().some(r=>r.id===x.t));p.forEach(x=>x.k=x.k||gk("l",x.s+x.q));return gpick(p,n).map(x=>{const m=shufMC(x.o,x.a);return mcRound(x.t,x.q,m.o,m.a,x.e,{scen:x.s,w:1.2,d:.6,link:x.t});});}
+function oddRounds(n){const w=GW?+GW.slice(1):null,P=isP();const B=ODD.filter(x=>!!x.psc===P);let p=B.filter(x=>w?x.w===w:(P||Date.now()>=EXAM?true:x.w<=4));if(p.length<2)p=B.filter(x=>x.w===0||(w?Math.abs(x.w-w)<=1:true));
+  p.forEach(x=>x.k=x.k||gk("o",x.items.join("|")));return gpick(p,n).map(x=>{const m=shufMC(x.items,x.odd);return mcRound(null,"Which one doesn't belong?",m.o,m.a,x.e,{odd:1});});}
+function seqRounds(ids,n){let p=SEQ.filter(x=>ids.includes(x.t));if(!p.length)p=SEQ.filter(x=>BR().some(r=>r.id===x.t));p.forEach(x=>x.k=x.k||gk("s",x.title+x.steps.join("|")));return gpick(p,n).map(x=>({k:"seq",t:x.t,title:x.title,steps:x.steps,e:x.e,pool:shuffle(x.steps.map((s,i)=>i)),order:[],checked:false,link:x.t}));}
 
 const GAMES=[
  {id:"boss",name:"Week Boss",tag:"Interleaved · cumulative",desc:"A boss fight across one week's readings: quiz, quotes, scenarios, sequences. Three hearts; land enough hits before you run out.",why:"Interleaving different question types and readings trains you to pick the right theory, the exact skill an exam tests (Rohrer & Taylor 2007).",hue:350,bpt:1,psc:0},
@@ -58,8 +62,8 @@ function startGame(id,opt,noGo){const ids=gIds();if(!ids.length){toast("Nothing 
   if(id==="odd")G.rounds=oddRounds(8);
   if(id==="chain")G.rounds=seqRounds(ids,4);
   if(id==="boss"){const r=[...gqRounds(ids,5),...whoRounds(ids,3),...lensRounds(ids,2),...oddRounds(1),...seqRounds(ids,1)];G.rounds=shuffle(r);G.hearts=3;G.hp=100;G.dmg=100/Math.ceil(G.rounds.length*.7);G.boss=BOSS[GW||"m"]||"The Final Boss";}
-  if(id==="pairs"){const items=[];shuffle(ids).forEach(t=>{const c=(NR(t).concepts||[]).filter(x=>x[1]);if(c.length)items.push({t,c:c[Math.floor(Math.random()*c.length)]});});
-    let pick=items.slice(0,6);if(pick.length<6){const extra=shuffle(ids.flatMap(t=>(NR(t).concepts||[]).map(c=>({t,c})))).filter(x=>!pick.some(p=>p.c[0]===x.c[0]));pick=pick.concat(extra.slice(0,6-pick.length));}
+  if(id==="pairs"){const all=[...ids.flatMap(t=>(NR(t).concepts||[]).filter(x=>x[1]).map(c=>({t,c}))),...(typeof MG!=="undefined"?MG.PAIRS:[]).filter(p=>ids.includes(p.t)).map(p=>({t:p.t,c:[p.term,p.def]}))];
+    all.forEach(x=>x.k=gk("p",x.c[0]));const seenT=new Set();S.gseen=S.gseen||{};let pick=fresh(all,60).filter(x=>{const key=x.c[0].toLowerCase();if(seenT.has(key))return false;seenT.add(key);return true;}).slice(0,6);pick.forEach(x=>S.gseen[x.k]=(S.gseen[x.k]||0)+1);
     G.pairs=pick.map((x,i)=>({i,t:x.t,term:x.c[0],def:mask(x.c[1].length>150?x.c[1].slice(0,148)+"…":x.c[1],x.t),done:false,miss:0}));G.left=shuffle(G.pairs.map(p=>p.i));G.right=shuffle(G.pairs.map(p=>p.i));G.sel=null;G.flash=null;}
   if(id==="blurt"){const w=ids.map(t=>({t,m:topicStats(t).m})).sort((a,b)=>a.m-b.m);G.t=opt||w[0].t;G.phase="pick";G.text="";}
   if(id==="compass"){let p=ids.filter(t=>!isPSC(t)&&R[t].dims&&R[t].dims.sa!=null);if(p.length<3)p=READINGS.filter(r=>r.dims&&r.dims.sa!=null&&r.wk<=4).map(r=>r.id);G.list=shuffle(p).slice(0,5);G.i=0;G.vals={};G.rev=false;G.scores=[];}
@@ -71,7 +75,7 @@ const hud=()=>{const n=G.rounds?G.rounds.length:0;
   return `<div class="ghud"><div class="gprog">${G.rounds?G.rounds.map((_,j)=>`<i class="${j<G.res.length?(G.res[j]>=.99?'r':G.res[j]>0?'p':'w'):j===G.i?'on':''}"></i>`).join(''):''}</div>
   <div class="row" style="gap:14px">${G.id==="boss"?`<span class="hearts">${[0,1,2].map(j=>`<i class="${j<G.hearts?'on':''}">${ic('heart')}</i>`).join('')}</span>`:''}${G.streak>1?`<span class="combo">${ic('bolt')} ${G.streak} streak</span>`:''}<span class="gscore">${Math.round(G.score)}<small> pts</small></span></div></div>`;};
 const gHead=(title,sub)=>`<div class="row between" style="margin-bottom:6px"><button class="back" data-go="${isP()?'psc-games':'games'}" style="margin:0">${ic('left')} Games</button><span class="eyebrow">${esc(gTag())}</span></div><h2 class="serif" style="margin:4px 0 2px">${title}</h2>${sub?`<p class="small mut" style="margin:0 0 12px">${sub}</p>`:''}`;
-function record(rd,x){if(rd.mcq)recordQ(rd.mcq,x>=.99,G.id==="boss"?1.2:1);else if(rd.t)ev(rd.t,x,rd.w||1);logAct();}
+function record(rd,x){if(rd.mcq)recordQ(rd.mcq,x>=.99,G.id==="boss"?1.2:1);else if(rd.t)ev(rd.t,x,rd.w||1,rd.d??0);logAct();}
 function finishGame(){G.done=true;const acc=G.res.length?G.res.reduce((a,b)=>a+b,0)/G.res.length:0;G.acc=acc;
   const s=S.games[G.id]||{best:0,plays:0};s.plays++;s.best=Math.max(s.best,Math.round(G.score));s.last=Date.now();S.games[G.id]=s;persist();
   if(acc>=.8||(G.id==="boss"&&G.hp<=0))setTimeout(()=>typeof confetti==="function"&&confetti(),250);}
