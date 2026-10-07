@@ -11,7 +11,7 @@ const CARDS=FC.map(([t,f,b])=>({t,f,b,k:"c"+hash(f)}));
 const EASYF=["recall","define","example"],SUPERF=["assertion","mechanism","multi"];
 const QS=MCQ.map(q=>({...q,k:"q"+hash(q.q),lv:q.base?2:(EASYF.includes(q.fmt)?1:2)}));
 const HQS=(typeof HQ!=="undefined"?HQ:[]).map(q=>({...q,k:"h"+hash(q.q),lv:SUPERF.includes(q.fmt)?4:3}));
-const MQS=[...(typeof MG!=="undefined"?MG.QZ:[]),...(typeof EXQ_5!=="undefined"?EXQ_5:[])].map(q=>({...q,k:(q.official?"x":"m")+hash(q.q)}));
+const MQS=[...(typeof MG!=="undefined"?MG.QZ:[]),...(typeof EXQ_5!=="undefined"?EXQ_5:[]),...(typeof AUTOQ!=="undefined"?AUTOQ:[])].map(q=>({...q,k:(q.official?"x":q.auto?"a":"m")+hash(q.q)}));
 const ALLQ=[...QS,...HQS,...MQS];
 const LV={1:{n:"Easy",d:"Warm-up recall: definitions, examples, who said what."},2:{n:"Medium",d:"One step below the exam: recognise a concept in a statement or example, which is NOT, inverse questions."},3:{n:"Hard",d:"Exam level. Matches the official example questions from the 6 Oct Q&A: how would perspective X critique Y, True/False on statements I–IV, mini-cases, precise paraphrases. Includes the two official examples."},4:{n:"Super hard",d:"Above the exam: assertion and reason, causal chains, questions that combine two readings. For mastery."}};
 const FMTL={assertion:"Assertion · reason",combo:"Combination",tf:"True / False I–IV",multi:"Two readings",case:"Mini-case",critique:"Critique",nuance:"Precise wording",excerpt:"Excerpt",mechanism:"Causal chain",except:"Spot the error",who:"Who says this?",inverse:"Inverse",not:"Which is NOT",apply:"Apply",contrast:"Contrast",recall:"Recall",define:"Definition",example:"Example"};
