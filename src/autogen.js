@@ -19,7 +19,7 @@ const out=[];const mk=(t,lv,fmt,q,right,wrong,e)=>{if(wrong.length<3)return;cons
 for(const c of C){
   // 1 term -> definition
   const dd=near(c.t,C).filter(x=>!clash(x.term,c.term)&&x.def!==c.def);
-  const pickD=[];for(const x of dd){if(pickD.length>=3)break;if(!has(x.def,x.term)&&!pickD.some(y=>y.term===x.term))pickD.push(x);}
+  const L0=c.def.length;const dd2=dd.slice(0,14).sort((x,y)=>Math.abs(x.def.length-L0)-Math.abs(y.def.length-L0));const pickD=[];for(const x of dd2){if(pickD.length>=3)break;if(!has(x.def,x.term)&&!pickD.some(y=>y.term===x.term))pickD.push(x);}
   if(!has(c.def,c.term))mk(c.t,1,"define",`In ${lab(c.t)}, what does "${c.term}" mean?`,cut(c.def),pickD.map(x=>cut(x.def)),`"${c.term}" (${lab(c.t)}): ${c.def}`);
   // 2 definition -> term (same reading distractors first: harder)
   const tt=[...shuf(C.filter(x=>x.t===c.t&&!clash(x.term,c.term))),...dd].filter((x,i,a)=>a.findIndex(y=>y.term===x.term)===i&&!clash(x.term,c.term));
@@ -27,7 +27,7 @@ for(const c of C){
 }
 // 3 flashcards -> pick the right answer
 const F=o.FC.filter(f=>R[f[0]]&&f[2]&&f[2].length>15).map(f=>({t:f[0],q:f[1],a:f[2]}));
-for(const f of F){const w=near(f.t,F).filter(x=>x.a!==f.a&&!clash(x.q,f.q));const pick=[];for(const x of w){if(pick.length>=3)break;pick.push(x);}
+for(const f of F){const w=near(f.t,F).filter(x=>x.a!==f.a&&!clash(x.q,f.q)).slice(0,14).sort((x,y)=>Math.abs(x.a.length-f.a.length)-Math.abs(y.a.length-f.a.length));const pick=[];for(const x of w){if(pick.length>=3)break;pick.push(x);}
   mk(f.t,1,"recall",`${lab(f.t)}: ${f.q.replace(/\?*$/,'?')}`,cut(f.a),pick.map(x=>cut(x.a)),`${f.q}: ${f.a}`);}
 // 4 who said it
 const W=o.MG.WHO.filter(w=>R[w.t]);

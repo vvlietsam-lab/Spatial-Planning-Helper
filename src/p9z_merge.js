@@ -32,3 +32,5 @@ const AUD=Object.assign({},AUD_1,AUD_2,AUD_3,AUD_4,AUD_5);
 {const wk=t=>(READINGS.find(r=>r.id===t)||{}).wk;
  LENS.push(...MG.LENS.map(x=>({...x,w:x.w??wk(x.t)})));ODD.push(...MG.ODD);SEQ.push(...MG.SEQ.map(x=>({...x,w:x.w??wk(x.t)})));}
 const FX=[...(typeof FX_A!=="undefined"?FX_A:[]),...(typeof FX_B!=="undefined"?FX_B:[])];
+
+{const r=READINGS.find(x=>x.id==="savini");if(r)r.statusNote=(r.statusNote||"")+" If your team leads the Tutorial 4 seminar on this article: the syllabus requires preparing the seminar without generative AI (Category 1), so do your own reading first.";}

@@ -11,10 +11,10 @@ const CARDS=FC.map(([t,f,b])=>({t,f,b,k:"c"+hash(f)}));
 const EASYF=["recall","define","example"],SUPERF=["assertion","mechanism","multi"];
 const QS=MCQ.map(q=>({...q,k:"q"+hash(q.q),lv:q.base?2:(EASYF.includes(q.fmt)?1:2)}));
 const HQS=(typeof HQ!=="undefined"?HQ:[]).map(q=>({...q,k:"h"+hash(q.q),lv:SUPERF.includes(q.fmt)?4:3}));
-const MQS=[...(typeof MG!=="undefined"?MG.QZ:[]),...(typeof EXQ_5!=="undefined"?EXQ_5:[]),...(typeof AUTOQ!=="undefined"?AUTOQ:[])].map(q=>({...q,k:(q.official?"x":q.auto?"a":"m")+hash(q.q)}));
+const MQS=[...(typeof MG!=="undefined"?MG.QZ:[]),...(typeof EXQ_5!=="undefined"?EXQ_5:[]),...(typeof AUTOQ!=="undefined"?AUTOQ:[]),...(typeof AUTOQ2!=="undefined"?AUTOQ2:[]),...(typeof SH_1!=="undefined"?[...SH_1,...SH_2]:[])].map(q=>({...q,k:(q.official?"x":q.auto?"a":"m")+hash(q.q)}));
 const ALLQ=[...QS,...HQS,...MQS];
 const LV={1:{n:"Easy",d:"Warm-up recall: definitions, examples, who said what."},2:{n:"Medium",d:"One step below the exam: recognise a concept in a statement or example, which is NOT, inverse questions."},3:{n:"Hard",d:"Exam level. Matches the official example questions from the 6 Oct Q&A: how would perspective X critique Y, True/False on statements I–IV, mini-cases, precise paraphrases. Includes the two official examples."},4:{n:"Super hard",d:"Above the exam: assertion and reason, causal chains, questions that combine two readings. For mastery."}};
-const FMTL={assertion:"Assertion · reason",combo:"Combination",tf:"True / False I–IV",multi:"Two readings",case:"Mini-case",critique:"Critique",nuance:"Precise wording",excerpt:"Excerpt",mechanism:"Causal chain",except:"Spot the error",who:"Who says this?",inverse:"Inverse",not:"Which is NOT",apply:"Apply",contrast:"Contrast",recall:"Recall",define:"Definition",example:"Example"};
+const FMTL={assertion:"Assertion · reason",combo:"Combination",tf:"True / False I–IV",multi:"Two readings",match:"Match four readings",transfer:"Case + critique",dimension:"Two dimensions",case:"Mini-case",critique:"Critique",nuance:"Precise wording",excerpt:"Excerpt",mechanism:"Causal chain",except:"Spot the error",who:"Who says this?",inverse:"Inverse",not:"Which is NOT",apply:"Apply",contrast:"Contrast",recall:"Recall",define:"Definition",example:"Example"};
 /* least-seen first, spread over readings, so repeats only come once the bank is used up */
 const seenN=q=>(S.quiz[q.k]?.n||0)+((S.gseen||{})[q.k]||0);
 function fresh(pool,n){const tiers={};for(const q of shuffle(pool))(tiers[seenN(q)]=tiers[seenN(q)]||[]).push(q);const out=[];
@@ -108,7 +108,11 @@ const dueCards=f=>{f=f||scopeIds();const now=Date.now();return CARDS.filter(c=>(
 const ring=(m,cls='')=>`<div class="ring ${cls} ${m>=.8?'done':''}" style="--p:${Math.round(m*100)}"><b>${Math.round(m*100)}${cls.includes('lg')?'<span style="font-size:.9rem">%</span>':''}</b></div>`;
 const bar=m=>`<div class="bar ${m>=.8?'done':''}"><i style="width:${Math.round(m*100)}%"></i></div>`;
 const calDays=d=>{const a=new Date();a.setHours(0,0,0,0);const b=new Date(d);b.setHours(0,0,0,0);return Math.max(0,Math.round((b-a)/DAY));};
-const daysLeft=()=>calDays(EXAM);
+const rawDays=d=>{const a=new Date();a.setHours(0,0,0,0);const b=new Date(d);b.setHours(0,0,0,0);return Math.round((b-a)/DAY);};
+const FINAL=new Date("2026-11-05T12:00:00+01:00");
+const bptNext=()=>rawDays(EXAM)>=0?{d:EXAM,n:"midterm",lbl:"Midterm · Thu 8 Oct"}:{d:FINAL,n:"final exam",lbl:"Final exam · Thu 5 Nov"};
+const cdTxt=d=>{const n=rawDays(d);return n<0?"done":n===0?"today":n===1?"tomorrow":"in "+n+" days";};
+const daysLeft=()=>calDays(bptNext().d);
 function curWeek(){const w=Math.floor((today0()-COURSE_START)/(7*DAY))+1;return Math.max(1,Math.min(9,w));}
 
 /* ---------- routing ---------- */
@@ -122,7 +126,7 @@ function chromeBPT(){
   $("#side").innerHTML=`<div class="brand"><div class="logo">BPT</div><div><b>Midterm Prep</b><small>GEO4-3115 · UU</small></div></div>
   <button class="kbtn" data-pal="1">${ic('search')} Search or jump to… <span><kbd>⌘K</kbd></span></button>
   <nav class="nav" aria-label="Main">${NAV.map(([g,items])=>`<div class="grp">${g}</div>`+items.map(([k,l,i])=>`<button data-go="${k}" ${view===k?'aria-current="page"':''}>${ic(i)}${l}${k==='flash'&&due?`<span class="n">${due}</span>`:''}${k==='readings'?`<span class="n">${BR().filter(r=>topicStats(r.id).mastered).length}/${BR().length}</span>`:''}</button>`).join('')).join('')}</nav>
-  <div class="sidefoot"><div class="lbl">Midterm · Thu 8 Oct</div><div class="row between" style="margin-top:6px"><div><span class="big">${daysLeft()}</span> <span class="mut small">${daysLeft()===1?"day":"days"}</span></div>${ring(overall(),'sm')}</div><div class="small mut" style="margin-top:4px">${ic('flame')} ${streak()}-day streak</div></div>`;
+  <div class="sidefoot"><div class="lbl">${bptNext().lbl}</div><div class="row between" style="margin-top:6px"><div><span class="big">${daysLeft()}</span> <span class="mut small">${daysLeft()===1?"day":"days"}</span></div>${ring(overall(),'sm')}</div><div class="small mut" style="margin-top:4px">${ic('flame')} ${streak()}-day streak</div></div>`;
   $("#tabbar").innerHTML=TABS.map(([k,l,i])=>`<button data-go="${k}" ${view===k||(k==='menu'&&!TABS.some(t=>t[0]===view))?'aria-current="page"':''}>${ic(i)}${l}</button>`).join('');
   $("#cdm").textContent=`${daysLeft()===0?'Today':daysLeft()===1?'Tomorrow':daysLeft()+' days left'}`;
 }
@@ -139,9 +143,9 @@ function vToday(){
   const weak=BR().map(r=>({r,s:topicStats(r.id)})).filter(x=>!x.s.mastered).sort((a,b)=>a.s.m-b.s.m).slice(0,4);
   const done=plan[2].filter((_,i)=>S.plan[plan[0]+"#"+i]).length;
   return `<div class="fade"><p class="eyebrow">Week ${curWeek()} of 9 · ${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</p>
-  <h1 class="hero">${greet()}. <em>${daysLeft()===1?'1 day':daysLeft()+' days'}</em> to the midterm.</h1>
+  <h1 class="hero">${greet()}. ${daysLeft()===0?`<em>${bptNext().n==='midterm'?'Midterm':'Final exam'} today.</em> Good luck!`:`<em>${daysLeft()===1?'1 day':daysLeft()+' days'}</em> to the ${bptNext().n}.`}</h1>
   <p class="lede">Today: ${due} flashcards due, and ${plan[2].length-done} plan task${plan[2].length-done===1?'':'s'} left.</p>
-  <div class="row" style="margin:16px 0 24px"><button class="btn primary" data-startdue="1">Review ${due} due cards <kbd>R</kbd></button><button class="btn" data-quizmix="1">Interleaved quiz <kbd>Q</kbd></button><button class="btn" data-boss="w${Math.min(4,curWeek())}">${ic("spark")} Week ${Math.min(4,curWeek())} boss</button><button class="btn" data-go="games">All games</button></div>
+  <div class="row" style="margin:16px 0 24px"><button class="btn primary" data-startdue="1">Review ${due} due cards <kbd>R</kbd></button><button class="btn" data-quizmix="1">Interleaved quiz <kbd>Q</kbd></button><button class="btn" data-boss="w${(w=>w<=4?w:w===5?4:Math.min(7,Math.max(6,w)))(curWeek())}">${ic("spark")} Week ${Math.min(4,curWeek())} boss</button><button class="btn" data-go="games">All games</button></div>
   <div class="grid g3">
    <div class="card row" style="gap:18px;flex-wrap:nowrap">${ring(ov,'lg')}<div><div class="eyebrow">Overall mastery</div><p class="small mut" style="margin-top:6px">${BR().filter(r=>topicStats(r.id).mastered).length} of ${BR().length} ${Date.now()<EXAM?'midterm ':''}readings green. Green = 80%+ on cards and quiz.</p></div></div>
    <div class="card"><div class="row between"><div class="eyebrow">Study streak</div><span class="small mut">${ic('flame')} ${streak()} days</span></div>${heatmap()}</div>
@@ -271,7 +275,7 @@ let O={sel:"",rid:"",fmt:"",k:null};
 const OFMT={short:"Short · 5",excerpt:"Excerpt · 15",apply:"Apply",compare:"Compare",position:"Position",commentary:"Commentary",essay:"Essay"};
 function vOpen(){const ps=course==='psc';
   if(sub&&String(sub).startsWith("r:")){O.rid=sub.slice(2);O.sel="";O.fmt="";O.k=null;sub=null;}else if(sub&&OQ.some(o=>o.k===sub)){O.k=sub;}
-  const sc=ps?scopeIds():READINGS.map(r=>r.id),inSel=O.sel?(sel(O.sel)||sc):sc;
+  const sc=ps?scopeIds():BR().map(r=>r.id),inSel=O.sel?(sel(O.sel)||sc):sc;
   const L=OQ.filter(o=>sc.includes(o.t)&&inSel.includes(o.t)&&(!O.rid||o.t===O.rid)&&(!O.fmt||(o.fmt||"essay")===O.fmt||(!o.fmt&&O.fmt==="excerpt"&&!ps))).sort((x,y)=>(R[x.t].wk>=6)-(R[y.t].wk>=6));
   const fm=[...new Set(OQ.filter(o=>sc.includes(o.t)).map(o=>o.fmt||(ps?"essay":"excerpt")))];
   const rids=[...new Set(OQ.filter(o=>sc.includes(o.t)&&inSel.includes(o.t)).map(o=>o.t))];
@@ -323,7 +327,7 @@ let M=null;
 function startMock(){const mid=MIDR().map(r=>r.id);const by={},pool=fresh(ALLQ.filter(q=>mid.includes(q.t)&&(q.lv===2||q.lv===3)),999),pick=[];for(const q of pool){by[q.t]=by[q.t]||0;if(by[q.t]<3&&pick.length<25){pick.push(q);by[q.t]++;}}for(const q of pool){if(pick.length>=25)break;if(!pick.includes(q))pick.push(q);}
   M={qs:pick.map(permQ),ans:{},open:shuffle(OQ.filter(o=>mid.includes(o.t)&&o.pts>=10)).sort((a,b)=>!!S.open[a.k]-!!S.open[b.k]).slice(0,3),oans:["","",""],end:Date.now()+120*60e3,done:false,rub:[[],[],[]]};go("mock");}
 function vMock(){
-  if(!M)return `<div class="fade"><p class="eyebrow">Full simulation</p><h2 class="serif">Mock exam</h2><p class="lede">Same format as 8 October: 25 MCQ (3 points each, no negative marking) + 3 open questions (~35 points), 2 hours, closed book.</p>
+  if(!M)return `<div class="fade"><p class="eyebrow">Full simulation</p><h2 class="serif">Mock exam</h2><p class="lede">Same format as 8 October: 25 MCQ (3 points each, no negative marking) + 3 open questions (~35 points), 2 hours, rules on notes: see the Remindo instructions.</p>
   <div class="card" style="margin-top:14px"><div class="row between"><div><b>2-hour mock</b><div class="small mut">25 MCQ from all topics + 3 open questions</div></div><button class="btn primary" id="mstart">Start mock</button></div>
   ${S.mocks.length?`<div class="divider"></div><div class="tbl"><table><thead><tr><th>Date</th><th>MCQ</th><th>Open</th><th>Total</th></tr></thead><tbody>${S.mocks.map(m=>`<tr><td>${m.date}</td><td>${m.mcq}/75</td><td>${m.open}/35</td><td>${m.mcq+m.open}/110 · ${Math.round((m.mcq+m.open)/110*100)}%</td></tr>`).join('')}</tbody></table></div>`:''}</div></div>`;
   const l=Math.max(0,M.end-Date.now());
@@ -374,7 +378,7 @@ document.addEventListener("click",e=>{const t=e.target.closest("button");if(!t)r
   if(t.id==="xdl"){const blob=new Blob([JSON.stringify(S)],{type:"application/json"});const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="spatial-planner-progress-"+dkey(new Date())+".json";document.body.appendChild(a);a.click();a.remove();toast("Downloaded");}
   if(t.id==="ximp")doImport($("#xcode").value);});
 document.addEventListener("change",e=>{if(e.target.id==="xfile"&&e.target.files[0]){e.target.files[0].text().then(doImport);}});
-function vMenu(){return `<div class="fade"><h2 class="serif">More</h2><div class="list" style="margin-top:14px">${NAV.flatMap(g=>g[1]).map(([k,l,i])=>`<div class="item" data-go="${k}">${ic(i)}<div class="t">${l}</div><span class="mut">→</span></div>`).join('')}</div><div class="card" style="margin-top:14px"><div class="eyebrow">Study streak</div>${heatmap()}</div></div>`;}
+function vMenu(){return `<div class="fade"><h2 class="serif">More</h2><div class="list" style="margin-top:14px"><div class="item" data-go="home">${ic('grid')}<div class="t">All courses</div><span class="mut">→</span></div>${NAV.flatMap(g=>g[1]).map(([k,l,i])=>`<div class="item" data-go="${k}">${ic(i)}<div class="t">${l}</div><span class="mut">→</span></div>`).join('')}</div><div class="card" style="margin-top:14px"><div class="eyebrow">Study streak</div>${heatmap()}</div></div>`;}
 
 /* palette */
 let P={open:false,q:"",i:0};

@@ -5,7 +5,7 @@ const WEEKS = [
  {n:2,cw:37,dates:"Sep 14–20",title:"Knowledge · structure & agency",items:["Tue 15 Sep: Knowledge in planning theory · Hall (2020) · Rydin (2007)","Thu 17 Sep: Structure, agency & change · Hayek (1944) · Marx (1844) · Cozzolino (2020)","Thu 17 Sep: Tutorial 1 (Cozzolino)"],topics:["hall","know","marx","hayek","cozz"]},
  {n:3,cw:38,dates:"Sep 21–27",title:"Rational planning & rational choice",items:["Tue 22 Sep: High modernism & rational-comprehensive planning · Rydin (2021) ch. 2 · Scott · Davoudi","Thu 24 Sep: Rational choice · Needham · Hindmoor/Olson · Taylor","Thu 24 Sep: Tutorial 2 (Davoudi)"],topics:["gov","scott","davoudi","alex","rc","needham","olson","taylor"]},
  {n:4,cw:39,dates:"Sep 28–Oct 4",title:"Neo-institutionalism",items:["Tue 29 Sep: Neo-institutionalism · Dembski & Salet · Moroni · Sorensen","Thu 1 Oct: Tutorial 3"],topics:["ni","dembski","moroni","sorensen"]},
- {n:5,cw:40,dates:"Oct 5–11",title:"Recap & MIDTERM",items:["Mon 5 Oct 16:00: DEADLINE post your questions in the Brightspace forum","Tue 6 Oct: Recap lecture","Thu 8 Oct: MIDTERM (Remindo, 2 h, closed book): 25 MCQ (75 pts) + 3 open (~35 pts)"],topics:[]},
+ {n:5,cw:40,dates:"Oct 5–11",title:"Recap & MIDTERM",items:["Mon 5 Oct 16:00: DEADLINE post your questions in the Brightspace forum","Tue 6 Oct: Recap lecture","Thu 8 Oct: MIDTERM (Remindo, 2 h): 25 MCQ (75 pts) + 3 open (~35 pts)"],topics:[]},
  {n:6,cw:41,dates:"Oct 12–18",title:"Political economy",items:["Tue 13 Oct: Political economy (Bossuyt) · Harvey (1989) · Foglesong (2003) · Hyötyläinen & Haila (2018)","Thu 15 Oct: Tutorial 4 · Savini & Aalbers (2016)"],topics:["harvey","fog","hh","savini"]},
  {n:7,cw:42,dates:"Oct 19–25",title:"Urban politics · discourse & power",items:["Tue 20 Oct: Urban politics: conflict and power (Bossuyt) · Rydin (2021) ch. 6 · Bossuyt & D'Ottaviano (2025) · Pruijt (2003)","Thu 22 Oct: Discourses, power, knowledge (Bouwmeester) · Raco & Imrie (2000) · Gurran & Ruming (2016)"],topics:["rydin6","bossuyt","pruijt","raco","gurran"]},
  {n:8,cw:43,dates:"Oct 26–Nov 1",title:"Commentary practice",items:["Tue 27 Oct: Independent study: write a practice commentary (article + instructions on Brightspace)","Thu 29 Oct: Tutorial 5: discuss commentaries, tips for the final"],topics:[]},
@@ -22,7 +22,19 @@ const PLAN = [
  ["2026-10-05","Mon",["Post your questions in the Brightspace forum before 16:00","Weak-spots quiz + due flashcards","Two open questions against the rubric"]],
  ["2026-10-06","Tue",["Recap lecture","Due flashcards; fix anything still amber"]],
  ["2026-10-07","Wed",["MOCK EXAM #2 (timed)","Light review only; sleep 7–9 h (consolidation)"]],
- ["2026-10-08","Thu",["Morning: due flashcards only, no new material","MIDTERM, Remindo. No negative marking: answer every MCQ."]]
+ ["2026-10-08","Thu",["Morning: PSC L10 Digital planning 09:15–11:30 (attendance required); review due flashcards around it, no new material","MIDTERM, Remindo. No negative marking: answer every MCQ."]],
+ ["2026-10-09","Fri",["If your team leads Tutorial 4 (teams 5/6 or 11/12): seminar plan due 12:00 (syllabus §4.3; prepare without generative AI, Category 1)","Rest: no BPT study today"]],
+ ["2026-10-12","Mon",["Read Harvey (1989) before Tuesday's lecture","Skim Foglesong (2003) and Hyötyläinen & Haila (2018)"]],
+ ["2026-10-13","Tue",["Lecture: Political economy (Bossuyt)","After: flashcards + Medium quiz on W6"]],
+ ["2026-10-15","Thu",["Tutorial 4: Savini & Aalbers (2016)","Commentary practice: read one practice article and do Q1 only"]],
+ ["2026-10-19","Mon",["Read Rydin (2021) urban politics, Bossuyt & D'Ottaviano (2025), Pruijt (2003)"]],
+ ["2026-10-20","Tue",["Lecture: Urban politics, conflict and power (Bossuyt)","Quiz W7 (Hard)"]],
+ ["2026-10-22","Thu",["Lecture: Discourses, power, knowledge (Bouwmeester): Raco & Imrie, Gurran & Ruming"]],
+ ["2026-10-26","Mon",["PSC EXAM: focus on PSC until then"]],
+ ["2026-10-27","Tue",["Independent study: write the practice commentary from Brightspace","Then one full practice exam on this site (2-hour timer)"]],
+ ["2026-10-29","Thu",["Tutorial 5: commentary discussion + tips for the final exam: add anything new to your notes"]],
+ ["2026-11-02","Mon",["Second full practice commentary (2 h)","Hard + Super hard quiz rounds on weak readings"]],
+ ["2026-11-05","Thu",["FINAL EXAM (Remindo): choose one of two articles, write the commentary"]]
 ];
 const MISSING = [
  {r:"Foglesong, R.E. (2003). Planning the capitalist city. In Campbell & Fainstein (eds) Readings in Planning Theory, pp. 102–107.",doi:"—",note:"Book excerpt, no DOI; Brightspace. The page is built from general knowledge only."},

@@ -45,7 +45,7 @@ DEADLINES.sort((a,b)=>new Date(a[0])-new Date(b[0]));
 
 var course=null;
 (function initHash(){try{const h=location.hash.slice(1);if(!h||h==="home")return;if(h.startsWith("psc")){course="psc";view=h;return;}if(h.startsWith("studio")){course="studio";view=h;return;}if(NAV.flatMap(g=>g[1]).some(t=>t[0]===h)){course="bpt";view=h;}}catch(e){}})();
-function go(v,s){if(v==="home"){course=null;view="today";}else if(v.startsWith("psc")){course="psc";view=v;}else if(v.startsWith("studio")){course="studio";view=v;}else{course="bpt";view=v;}sub=s??null;render();window.scrollTo(0,0);}
+function go(v,s){const _pc=course;if(v==="home"){course=null;view="today";}else if(v.startsWith("psc")){course="psc";view=v;}else if(v.startsWith("studio")){course="studio";view=v;}else{course="bpt";view=v;}sub=s??null;if(course!==_pc&&typeof GW!=="undefined")GW=null;render();window.scrollTo(0,0);}
 const dleft=d=>calDays(d);
 const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-games","Games","spark"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
 const pscStats=()=>{const ids=PSC.map(l=>l.id);return {m:ids.reduce((a,id)=>a+topicStats(id).m,0)/ids.length,mast:ids.filter(id=>topicStats(id).mastered).length,due:dueCards(ids).length};};
@@ -100,19 +100,19 @@ function vHome(){const ov=overall(),due=dueCards().length,mast=BR().filter(r=>to
   ${(()=>{const it=["BPT midterm · Thu 8 Oct","Retrieval beats rereading","PSC exam · Mon 26 Oct","Structure ↔ agency","Spaced repetition","Studio plan · Wed 7 Oct","Theory is a heuristic aid","Interleave your practice"];const row=c=>`<div class="mtrack ${c}">${[...it,...it].map(x=>`<span>${x}</span><i>✦</i>`).join('')}</div>`;return `<div class="marquee" aria-hidden="true">${row('')}${row('rev')}</div>`;})()}
   <section class="tiles">
    <button class="tile t-bpt" data-go="today"><div class="tglow"></div><span class="tidx">01</span>
-    <div class="row between"><span class="tcode">GEO4-3115</span><span class="tpill">Midterm in ${daysLeft()} days</span></div>
+    <div class="row between"><span class="tcode">GEO4-3115</span><span class="tpill">${bptNext().n==="midterm"?"Midterm":"Final"} ${cdTxt(bptNext().d)}</span></div>
     <div class="tname">Beyond<br>Planning Theory</div>
     <div class="tmeta">Rational planning · rational choice · neo-institutionalism · knowledge</div>
     <div class="tstats"><div>${ring(ov,'lg')}</div><div class="tnums"><div><b>${mast}<small>/${BR().length}</small></b><span>readings mastered</span></div><div><b>${due}</b><span>cards due</span></div><div><b>${streak()}</b><span>day streak</span></div></div></div>
     <span class="tcta">Continue studying →</span></button>
    <button class="tile t-psc" data-go="psc"><div class="tglow"></div><span class="tidx">02</span>
-    <div class="row between"><span class="tcode">GEO4-3124</span><span class="tpill">Exam in ${dleft(PSC_EXAM)} days</span></div>
+    <div class="row between"><span class="tcode">GEO4-3124</span><span class="tpill">Exam ${cdTxt(PSC_EXAM)}</span></div>
     <div class="tname">Planning for<br>Sustainable Cities</div>
     <div class="tmeta">Planning dilemmas · global planning systems · transitions · post-growth · nature</div>
     <div class="tstats"><div>${ring(pscStats().m,'lg')}</div><div class="tnums"><div><b>${pscStats().mast}<small>/13</small></b><span>lectures mastered</span></div><div><b>${pscStats().due}</b><span>cards due</span></div><div><b>${PSC_ESSAY.length}</b><span>essay drills</span></div></div></div>
     <span class="tcta">Continue studying →</span></button>
    <button class="tile t-std" data-go="studio"><div class="tglow"></div><span class="tidx">03</span>
-    <div class="row between"><span class="tcode">GEO4-3127</span><span class="tpill">Plan due in ${dleft(new Date("2026-10-07T17:00:00+02:00"))} days</span></div>
+    <div class="row between"><span class="tcode">GEO4-3127</span><span class="tpill">${rawDays(new Date("2026-10-07T17:00:00+02:00"))<0?"Plan deadline passed":"Plan due "+cdTxt(new Date("2026-10-07T17:00:00+02:00"))}</span></div>
     <div class="tname">Graduate<br>Planning Studio</div>
     <div class="tmeta">Just Cities · research plan → report → product → symposium</div>
     <div class="tstats"><div class="tbig">4</div><div class="tnums"><div><b>15%</b><span>research plan</span></div><div><b>30%</b><span>report</span></div><div><b>55%</b><span>product + talk</span></div></div></div>
@@ -125,7 +125,7 @@ function vHome(){const ov=overall(),due=dueCards().length,mast=BR().filter(r=>to
 function vPSC(){const nth=l=>new Date(l.d+"T12:00:00");const next=PSC_LECTURES.find(l=>nth(l)>=today0());
   return `<div class="fade"><p class="eyebrow">GEO4-3124 · Smith, Frantzeskaki, Lin</p><h1 class="hero">Planning for <em>Sustainable Cities</em></h1>
   <p class="lede">The course moves from theory to comparing contexts to approaches: 13 lectures across three themes, ending in a written exam on 26 Oct (70%). The portfolio and presentation count for 30%.</p>
-  <div class="note ok" style="margin:14px 0">All 12 mandatory readings are on file and summarised. Slides are on file for lectures 1–7; lectures 8–13 are built from the reading only until their slides are uploaded. Every recommended reading has an abstract card plus what the slides say about it, because what the lecturer puts on a slide is what the exam is likely to ask.</div>
+  <div class="note ok" style="margin:14px 0">All 12 mandatory readings are on file and summarised. Slides are on file for lectures 1–7; lectures 8–13 are built from the reading only until their slides are uploaded. Recommended readings have an abstract card; for lectures 1–7 it also shows what the slides say about them.</div>
   <div class="row" style="margin:0 0 14px"><button class="btn primary" data-pscdue="1">${ic('cards')} Review due cards · ${pscStats().due}</button><button class="btn" data-go="psc-essay">${ic('pen')} Essay practice</button><button class="btn" data-go="psc-lectures">${ic('book')} Lectures</button></div>
   <div class="grid g3">
    <div class="card"><div class="eyebrow">Written exam · 70%</div><div class="stat">${dleft(PSC_EXAM)}<span class="mut" style="font-size:1rem"> days</span></div><p class="small mut" style="margin-top:6px">Mon 26 Oct 13:30–16:30, EDUC Gamma. Answer 2 of 6 questions; each has a short comprehension part + an essay part. Laptop, no notes, covers all lectures.</p></div>
