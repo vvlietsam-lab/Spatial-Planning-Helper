@@ -10,4 +10,5 @@ shell = (SRC / "p1_shell.html").read_text(encoding="utf-8")
 Path(__file__).parent.joinpath("index.html").write_text(
     "<!doctype html>\n<html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\"></head><body>\n"
     + shell + "\n<script>\n" + js + "\n</script>\n</body></html>\n", encoding="utf-8")
+Path(__file__).parent.joinpath("tools", "all.js").write_text(js, encoding="utf-8")  # used by tools/autogen*.js (gitignored)
 print("index.html built")

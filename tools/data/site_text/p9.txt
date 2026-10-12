@@ -1,0 +1,181 @@
+{
+ "id": "p9",
+ "n": 9,
+ "theme": 3,
+ "title": "Urban experimentation and co-creation",
+ "who": "Niki Frantzeskaki",
+ "slides": false,
+ "lecture": [
+  "Slides not uploaded yet (5 Oct)."
+ ],
+ "man": {
+  "cite": "Bulkeley, H. et al. (2019). Urban living laboratories: conducting the experimental city? European Urban and Regional Studies 26(4), 317–335.",
+  "status": "full",
+  "one": "Experimentation is not one thing. Comparing 40 European urban living labs, the authors find three ideal types (strategic, civic, organic) placed along four laboratory dispositions (trial, enclave, demonstration, platform).",
+  "summary": [
+   "The 'experimental city' is an arena through which urban sustainability is governed: demonstration projects, transition management, grassroots innovation.",
+   "Strategic ULLs: led by national or regional agencies and large partners, sponsored testing of new technologies or first-mover advantage (e.g. Aspern Urban Lakeside, Vienna). Civic ULLs: municipality-led, aiming at urban improvement and legitimacy. Organic ULLs: grassroots and community-driven, social and environmental wellbeing (e.g. Stapeln, Malmö).",
+   "Dispositions: trial (controlled test in 'real-world' conditions), enclave (a bounded microcosm set apart), demonstration (showing what's possible to others), platform (an open space for continuing interaction and new experiments). ULLs matter for how, where and by whom urban futures are shaped."
+  ],
+  "concepts": [
+   [
+    "Urban living lab (ULL)",
+    "A site-based, co-creative experiment in real-life urban settings."
+   ],
+   [
+    "Strategic / civic / organic ULLs",
+    "National/corporate-led · municipality-led · community-led."
+   ],
+   [
+    "Trial / enclave / demonstration / platform",
+    "Four laboratory dispositions."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "Concept House Village, Heijplaat Rotterdam",
+    "d": "Started in 2011 by Rotterdam and Delft universities as a test bed for sustainable building and retrofitting, it got the site because the economic crisis had stalled redevelopment of Heijplaat; once the market recovered, the municipality moved the area into mainstream development ('you got it for five years'). It is the civic demonstration type and shows how contingent and temporary ULLs are.",
+    "src": "text",
+    "p": "pp. 16-17"
+   },
+   {
+    "t": "MK: Smart, Milton Keynes",
+    "d": "A consortium of the Open University and the council bundled separate smart energy, transport and data projects into one platform with a Data Hub and the OurMK ideas site (55 ideas, 11 citizen projects funded). It is a civic platform, formed partly as a tactic to gain resources and capacity under austerity.",
+    "src": "text",
+    "p": "p. 15"
+   },
+   {
+    "t": "Hållbarheten, Malmö",
+    "d": "In this custom-designed apartment house the energy company E.ON enrols residents to test energy-smart solutions to judge whether the technologies are viable at a larger scale. It is the strategic demonstration type: a corporate-led showcase for specific technologies.",
+    "src": "text",
+    "p": "p. 11"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Bulkeley and seven co-authors (including Frantzeskaki, who teaches this lecture) start from the rise of the 'experimental city': the idea that urban sustainability is increasingly governed through experiments, from new governance arrangements and demonstration projects to transition management and grassroots innovation (pp. 1–2). Experimentation appeals where the capacity to govern is fragmented and where what counts as improving the city is uncertain and contested. But as research grew, it became clear that experimentation is not one phenomenon that a single concept can capture. So the authors zoom in on one mode: the urban living laboratory (ULL). (Page numbers refer to the 1–19 pagination of the online-first version provided.)",
+     "In descriptive terms ULLs share five features: they are embedded in a specific urban place, have an explicit learning function, involve participation and users, use alternative forms of leadership and ownership, and aim at evaluation and ongoing improvement (p. 3). They are promoted by EU 'lighthouse' programmes and national funders, used in partnerships between municipalities and universities, and used by community groups to secure legitimacy and resources. Yet the literature remains broad-brush, relying on a few emblematic examples. Two questions are open: why ULLs emerge and who is involved (and excluded), and how they actually work in practice and with what outcomes.",
+     "The theoretical lens is pragmatist. Following John Dewey, experimentation is a form of 'inquiry': a situation is problematised as undetermined and then given a determination and a solution (p. 3). ULLs are therefore part of a politics of deciding which problems need solving and how. The authors develop a typology along two axes, how ULLs are designed and practised, and what 'disposition' towards the laboratory they take, and apply it to 40 European ULLs."
+    ]
+   },
+   {
+    "h": "What makes something a laboratory",
+    "p": [
+     "Laboratories have long been seen as uncontaminated spaces where science is done, but science studies shows they are historically contingent and take many forms (p. 4). The authors highlight two sets of relations. First, laboratories are spaces of 'improvement': an enhanced environment in which phenomena are manipulated towards desired characteristics, combining intervention with observation. That combination is what distinguishes a laboratory from other forms of novelty. Second, laboratories have a 'disposition' towards control and contingency. Borrowing from Easterling, a disposition is 'a propensity within a context' that lies not in the separate parts but in the relationships between them. A lab must be flexible enough to allow reconfiguration yet controlled enough to hold together (p. 4).",
+     "ULLs can be read as governance in two ways (p. 5). From an institutional angle they are new governance arrangements. From a Foucauldian angle they are a form of 'governmentality': they manipulate socio-material conditions to shape conduct. Either way, their politics lie in how intervention and observation are designed and practised, and how the balance between control and contingency is set. The typology that follows is a heuristic of 'ideal types'; any real ULL will show features of several types and change over time (p. 5)."
+    ]
+   },
+   {
+    "h": "Three designs: strategic, civic and organic",
+    "p": [
+     "The design axis draws on Karvonen and van Heur's notions of situatedness and change orientation (pp. 5–6). Situatedness refers to who leads and how the urban is positioned relative to the lab: a lab must be grounded in a particular place, yet its results are meant to be valid anywhere (a 'placelessness'). On change orientation the authors disagree with Karvonen and van Heur, who see labs as intentionally radical. They \"suggest that such goals for urban improvement are not necessarily radical in nature and indeed can seek to reinforce the status quo\" (p. 6). Instead they study the 'politics of improvement': how priorities are set, which techniques of change dominate, and how it is financed.",
+     "This yields three ideal types (Table 1, pp. 6–7). Strategic ULLs are steered by national or regional government and involve large corporate partners, modelled on national innovation programmes (Innovate UK, FFG, RVO, Vinnova, JPI Urban Europe). The city is a live 'test-bed' for other national and corporate priorities, often won through competitions and funded by a one-off lump sum. Civic ULLs centre on municipal priorities, civic universities and local firms: economic performance, jobs, fixing local infrastructure. They are typically co-funded by the municipality and partners, and to get national money must rework local priorities through national ones.",
+     "Organic ULLs respond to specific needs of communities or neighbourhoods, such as unemployment, pollution or fuel poverty (p. 7). Civil society organisations lead: NGOs, charities, grassroots and community groups. This resonates with the grassroots innovation literature. Budgets are limited, depend on competitive bidding and are matched by volunteer time, so activities tend to be one-off projects or, at best, a programme sustained over time. (The paper uses 'organic' and 'grassroots' interchangeably for this type.)"
+    ]
+   },
+   {
+    "h": "Four dispositions: from control to contingency",
+    "p": [
+     "The second axis orders ULLs along a spectrum from tightly controlled to highly contingent, with four ideal-type dispositions (pp. 7–9). The trial is the most controlled: it tests products or processes under 'real world' conditions by limiting indeterminacy, confining the ULL in space and time. \"It is at heart a form of disciplinary power\" (p. 8), and it usually needs the market protection and political support associated with innovation niches. The enclave is also controlled but allows some contingency: it draws a spatial boundary around an experimental neighbourhood or district, treated as a microcosm of the whole yet set apart from it. The boundary becomes an 'obligatory passage point': any lesson must cross it before it can be replicated elsewhere.",
+     "Where contingency outweighs control, the demonstration appears (p. 9). It is a showcase or exhibition of what the city could look like under the right conditions. Power works not through discipline but through 'government', shaping the 'conduct of conduct' (Foucault). It establishes potential without determining how it is used. The platform is the most contingent disposition. It does not fix relations but creates conditions under which many new relations can form, removing frames between the 'inside' and 'outside' of the experiment. Like digital platforms, it curates connectivity: previously disconnected actors are brought together on a shared stage, and boundaries are only loosely maintained (p. 9)."
+    ]
+   },
+   {
+    "h": "Evidence: 40 European living labs",
+    "p": [
+     "The empirical base comes from the GUST project (JPI Urban Europe). Each partner compiled ten two-page 'snapshot' cases for its country (Austria, the Netherlands, Sweden, the UK) from policy documents, websites and academic sources; some became in-depth studies with fieldwork, interviews, focus groups and workshops (pp. 9–10). Cases had to show the five ULL features, whether or not they used the label. The team assigned each case to the type and disposition it most resembled, deliberating over mixed cases. The authors acknowledge the sample comes from four countries 'quite advanced' in urban experimentation.",
+     "The findings (Table 2, pp. 10–12): national patterns differ. Austria and Sweden show the full range; the UK has variety but no trials; in the Netherlands ULLs are mostly civic. Trials are rare, even though living labs originated in corporate testing of technologies. Design and disposition are linked: strategic ULLs are mostly demonstrations (E.ON's Hållbarheten apartment house in Malmö) or platforms (Future by Lund); organic ULLs are enclaves or platforms (Stapeln in Malmö); civic ULLs use all four. The platform appears across all three types, reflecting dispersed resources and cross-cutting challenges. Most common of all is the civic demonstration, which lets coalitions 'lead by example', move prototypes into real contexts and put their city 'on the map' (p. 12)."
+    ]
+   },
+   {
+    "h": "Four emblematic cases",
+    "p": [
+     "Aspern Urban Lakeside, Vienna, is a strategic demonstration (pp. 12–13): one of Europe's largest development projects, a 'city within a city' on a 240-hectare former airfield, run by the city and the development agency Wien 3420 AG, with roughly €5 billion of public and private money over 2010–2028. The agency acts as 'bridge builder', attracting partners and marketing the site; smart grids, e-bikes and smart housing are showcased. The Aspern Citylab adds some circumscribed contingency through participatory design. Stapeln (STPLN), Malmö, is a community platform (pp. 13–14): a cultural house with maker workshops, started by the municipality and transferred to an NGO. Funding is patched together from the municipality (premises, 2.75 salaries), foundations and fees. The platform lets a resource-poor initiative link one-off activities into a programme.",
+     "MK: Smart, Milton Keynes, is a civic platform (pp. 15–16). It began with a 2013 HEFCE call; lead shifted from the municipality to the Open University, a tactical move under austerity. A Data Hub curates real-time data across energy, transport and ICT projects, and the OurMK platform and a citizens' ideas competition funded 11 projects. Concept House Village, Rotterdam, is a civic demonstration (pp. 16–17): started in 2011 by universities in Heijplaat, a marginal area left open by the economic crisis, to test sustainable building and retrofit. As the economy recovered, the municipality wanted to move the site back into the mainstream: 'You got it for five years'. Lesson: ULLs often achieve different things than planned, and \"new thinking about their 'failure' will be needed\" (p. 17)."
+    ]
+   },
+   {
+    "h": "Conclusions and what the authors want",
+    "p": [
+     "The first conclusion is that ULLs lean towards contingent rather than controlled dispositions: demonstrations and platforms, not formal trials (p. 17). This reflects how governing capacity is configured. Municipalities, knowledge institutions and community groups work with limited autonomy and resources, while strategic political and economic actors lack legitimacy or capacity to enrol everything needed on the ground. It also reflects the open-ended nature of sustainability transformations. ULLs are thus a form of pragmatic 'inquiry' under indeterminacy, where varied and contested urban futures are in play.",
+     "The second conclusion is more critical (p. 18). Most ULLs have an ambiguous relation with the idea of a transition pathway. Demonstrations offer a 'pre-figurative display' of a sustainable future in a building or district, with little attention to scaling up or rolling out. Platforms prioritise the capacity to run programmes of experiments rather than translating learning into wider transitions. \"The transformative potential of these dominant dispositions of ULLs seems to be much more modest than the claims made, and the links with radical visions of transition pathways somewhat limited\" (p. 18). Future research should study ULLs elsewhere, including outside Europe; how different types co-exist in one city; and whether ULLs can think beyond dominant visions and the interests of the most powerful actors."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not the authors' claims. The paper combines science and technology studies (the laboratory), pragmatism (Dewey's inquiry), Foucauldian governmentality and transitions thinking. On structure versus agency it shows agency (actors designing labs) strongly conditioned by resources and austerity. On reproduction versus transformation it is sceptical: labs 'can seek to reinforce the status quo' and their transformative potential is modest. It favours emergent, contingent learning over deliberate control, and it is situated: the same label covers very different practices. Normatively it raises inclusion and power (who leads, who is excluded) without prescribing one right type.",
+     "Links: Hodson et al. (L8) explicitly set aside purposive 'laboratory' experiments to focus on implicit ones; Bulkeley et al. fill that gap and reach a similar worry about how many experiments add up to systemic change. The municipal-university partnerships connect to the digital planning editorial (L10), whose case studies (VR co-design in Eindhoven, inclusive mapping in Zwolle) are small-scale experiments that face the same scaling question. Hansen et al. (L13) show co-governance often stuck at information and consultation, a reminder that 'participation and user involvement' in ULLs can be shallow.",
+     "Earlier lectures: Angelo and Wachsmuth (L2) explain why cities became the place to 'solve' sustainability; ULLs are one practical expression of that belief. Concept House Village shows the Dutch planning system (L4) at work: the municipality lends land temporarily and then reclaims it for regular development. And the question of who leads (strategic, civic or organic) links to Campbell's and de Satgé and Watson's (L3, L6) concern with whose rationality and interests planning serves."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Gas-free neighbourhood test beds struggle to scale",
+   "d": "The 2024 monitor of the national 'proeftuinen aardgasvrije wijken' counted 66 test-bed neighbourhoods in 58 municipalities, with 6,757 homes off natural gas by May 2024, up from 3,120 in 2022. Project leaders named rising costs (one cited about €7 million in unexpected financing costs from higher interest rates), constantly changing rules, staff and installer shortages and grid congestion as the main barriers to scaling up.",
+   "why": "Read through Bulkeley et al., these are strategic living labs: initiated and funded by national and local government, set up as trials meant to generate lessons for a national rollout. The monitor shows the problem the paper raises about experimental governance: test beds learn a lot locally but face structural barriers (finance, regulation, grids) that the experiment itself cannot change. Limit: the source counts homes and barriers, not how lessons travel into policy, which is the core of the ULL debate.",
+   "src": {
+    "name": "Berenschot / Ipsos I&O for NPLW",
+    "title": "Monitor Proeftuinen in Beeld 2024",
+    "url": "https://berenschot.nl/media/t0fnjnuu/nplw-monitor-proeftuin.pdf",
+    "date": "2024"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Types | Strategic | national / corporate | Civic | municipality | Organic | community | \n  | Dispositions | trial | enclave | demonstration | platform | from control (trial, enclave) → openness (platform)]",
+ "cap": "Bulkeley et al. (2019) typology.",
+ "rec": [
+  {
+   "cite": "Frantzeskaki et al. (2025). Premises, practices and politics of co-creation for urban sustainability transitions. Urban Transformations 7.",
+   "basis": "Abstract retrieved",
+   "abs": "Why co-create? It bridges and weaves knowledge for place-based transitions, emancipates urban policy and planning, and advances transdisciplinary research (vs mere participation). How? Advocacy, communication, leadership and organisation, plus often-overlooked creativity, playfulness, emotional intelligence, receptivity and collaborative learning. With whom? The politics of inclusion (avoiding tokenism). Measure impact against its premises with reflexive metrics.",
+   "slides": "No slides yet."
+  },
+  {
+   "cite": "Raven, von Wirth, Bai et al. (2026). The future of urban experimentation through ten critical lessons from decades of practice. Nature Cities 3.",
+   "basis": "Partial abstract retrieved",
+   "abs": "Based on eight databases covering almost 2,000 urban experiments since Kyoto, Paris, the SDGs and the New Urban Agenda: ten lessons across key processes, politics and governance, and impact. A call to embed experimentation as an enduring governance practice, develop whole-of-systems approaches across sectors and silos, and build relational and institutional infrastructures for reflexive monitoring and evaluation. (The ten lessons themselves are behind the paywall.)",
+   "slides": "No slides yet."
+  }
+ ],
+ "exam": "Watch the 5 Oct slides. Expected link: experimentation as the planner's tool for transitions (L8), and its politics (who is included) back to justice (L3, L6).",
+ "table": {
+  "head": [
+   "Type",
+   "Leading actors",
+   "The urban is...",
+   "Priorities and techniques",
+   "Finance",
+   "Dispositions found and example"
+  ],
+  "rows": [
+   [
+    "Strategic",
+    "National or regional state, EU programmes, large corporates",
+    "A backdrop or test-bed for strategic actors' aims",
+    "Mobile exemplar, global best practice or products; competitive",
+    "One-off, usually external lump sum",
+    "Demonstration and platform (aspern Vienna; Future by Lund)"
+   ],
+   [
+    "Civic",
+    "Municipality, civic universities, local firms",
+    "A public or civic domain built through the partnership",
+    "Urban transformation, economic performance, jobs; developmental",
+    "Co-funding by municipality and civic partners",
+    "All four; civic demonstration dominates (Concept House Village); civic platform (MK: Smart)"
+   ],
+   [
+    "Organic (grassroots)",
+    "Civil society: NGOs, charities, community groups",
+    "The context in which experimentation grows",
+    "Locally contingent, diverse community well-being; bespoke",
+    "Improvised and incremental; bids plus volunteer time",
+    "Enclave and platform (Stapeln, Malmö)"
+   ]
+  ]
+ }
+}

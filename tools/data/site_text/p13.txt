@@ -1,0 +1,194 @@
+{
+ "id": "p13",
+ "n": 13,
+ "theme": 3,
+ "title": "Planning with nature",
+ "who": "Niki Frantzeskaki",
+ "slides": false,
+ "lecture": [
+  "Slides not uploaded yet (19 Oct)."
+ ],
+ "man": {
+  "cite": "Hansen, R. et al. (2022). Transformative or piecemeal? Changes in green space planning and governance in eleven European cities. European Planning Studies 31(12), 2401–2424.",
+  "status": "full",
+  "one": "A longitudinal study of 11 European cities: green space planning gets more attention and some cities overcome path dependencies (silos) and co-create with business and civil society. But most change is incremental, limited by maintenance, funding, organisational culture and staff capacity, with social justice and cultural diversity poorly recognised.",
+  "summary": [
+   "Rising high-level support for green space and co-governance, alongside social and ecological pressures.",
+   "Deliberate transformative change happened at high levels of local policy (new policies, co-governance cultures). Incremental changes (citizen interest, systems thinking, integrated planning, fewer silos) may seed future transformations.",
+   "Constraints are structural (resources, staff) and beyond green-space departments. Multi-scale policy frameworks, change management, training on social aspects, exnovation of 'lock-in' practices, and putting social and environmental justice at the heart of planning are needed."
+  ],
+  "concepts": [
+   [
+    "Transformative vs piecemeal/incremental",
+    "Deep system change vs gradual adjustments."
+   ],
+   [
+    "Path dependency / lock-in",
+    "E.g. siloed departments."
+   ],
+   [
+    "Exnovation",
+    "Deliberately phasing out lock-in practices."
+   ],
+   [
+    "Co-governance",
+    "Planning green space with citizens and business."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "Utrecht's guilds and budget cuts",
+    "d": "Utrecht created 'guilds' (gildes) to bring sectors such as urban development and green space planning together in new housing areas, and ran ten neighbourhood green plans under the slogan 'Together we make Utrecht'. Yet these neighbourhoods suffered significant budget cuts, which shows the paper's pattern: silos are overcome step by step, but funding and capacity limit transformation.",
+    "src": "text",
+    "p": "pp. 2414-2416"
+   },
+   {
+    "t": "Berlin splits planning and green",
+    "d": "A reorganisation in Berlin separated the urban planning and green space planning departments, even physically into different buildings; cooperation still worked thanks to long-standing working relationships, but the interviewee feared it would erode when staff retire. It shows how fragile integration is when it rests on people rather than structures, a form of path dependency.",
+    "src": "text",
+    "p": "p. 2414"
+   },
+   {
+    "t": "Aarhus exchange agreements",
+    "d": "Aarhus's Municipal Plan (2017) led to 'exchange agreements' in which developers contribute to the common good, for example by creating new green spaces, in return for their economic gain. It illustrates the ambiguous link between urban growth and green space: growth funds greening, but also ties it to development.",
+    "src": "text",
+    "p": "p. 2413"
+   },
+   {
+    "t": "Helsinki's Green Area Factor",
+    "d": "Climate adaptation led Helsinki to adopt a Green Area Factor that requires sufficient green space for ecosystem services within new urban developments. It is an example of deliberate change at the level of formal policy tools, one of the few regulatory rather than voluntary responses in the study.",
+    "src": "text",
+    "p": "pp. 2412-2413"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Green and blue spaces are increasingly treated as solutions to climate adaptation, biodiversity loss, public health and social cohesion (p. 2402). EU policy frames them as 'green infrastructure', 'ecosystem services' and 'nature-based solutions': the Green Deal, the Biodiversity Strategy 2030 calling for greening in every European city, the Green City Accord, and the New Leipzig Charter, which also asks for citizen participation and co-creation. Citizens press politicians to act, and research has turned to justice issues such as the effects of greening on vulnerable groups. With policy, research and society all pushing, green space planning has 'tailwind'. But is there evidence that it has actually improved in European cities over the past decade?",
+     "Hansen and 26 co-authors answer with a longitudinal study (p. 2403). In 2014 the EU project GREEN SURGE studied green space planning in 20 European cities. This follow-up returns to eleven of them and asks two questions: how have urban green space planning and governance changed, and what influenced these changes? And what is the contribution of current green space planning and governance to urban transformations? The title states the tension: are the changes transformative, or piecemeal?"
+    ]
+   },
+   {
+    "h": "Planning, governance and what counts as transformation",
+    "p": [
+     "The authors first define terms (p. 2403). Green space planning means formal, government-led processes to protect, enhance and create public green and blue space using instruments such as strategic plans, regulations and action programmes. Green space governance stresses the involvement of multiple actors, often decentralised, networked and participatory. Following Arnouts et al., there is a continuum from hierarchical government-led planning, via co-governance, to self-governance. The analysis of change uses three clusters inherited from GREEN SURGE: contextual factors (planning system, politics, resources), planning approaches (themes and instruments), and governance and participation, plus a question on COVID-19 (pp. 2403–2404).",
+     "To judge whether changes are transformative, the paper draws on transformation theory (p. 2404). Transformative change is \"intentional, actively pursued, radical and systemic\" and requires breaking through path dependencies and changing or replacing institutions, structures and practices. Municipal politicians and officials can steer such change, but planning is also constrained by established paradigms, multi-level legal frameworks, siloed institutions, routines and past investments, and municipalities often lack resources and knowledge. The authors note that many transformation frameworks do not fit easily with planning's traditional rationale of stability and rational land-use guidance (pp. 2404–2405). (They use 'transformation' for both the transitions and transformations literatures.)",
+     "Their yardstick is the four targeted outcomes of urban transformation from Wolfram, Borgström and Farrelly (p. 2405). Innovation: creating, nurturing and anchoring novelties. Exnovation: exposing and dismantling path dependencies ('unlocking'). Co-governance (originally 'collective stewardship'): enabling and aligning diverse actors across sectors and scales. Social justice: ensuring diversity and contestation, since technocratic decisions often unintentionally reinforce inequities, which calls for redistributing resources and decision-making power (pp. 2405–2406). A deliberate transformation should aim at least one of these."
+    ]
+   },
+   {
+    "h": "Method: re-interviewing eleven cities",
+    "p": [
+     "The study used structured expert interviews with open and closed questions, mirroring the 2014 approach (p. 2406). There was no funding, so researchers took part voluntarily and case selection was pragmatic: volunteers were found for eleven of the 20 cities. Interviewers knew the local language and context. In seven cities the same person was interviewed as in 2014, typically a municipal official leading green space planning; in four a person in a similar role. Interviews ran from August 2020 to March 2021, lasted 60 to 130 minutes, and were done face-to-face (two), by phone (three) or online (six). Results represent the interviewee's view.",
+     "Analysis had three phases (pp. 2406–2407): an overview of the extent of change using mainly closed answers; an inductive, in-depth coding of open answers compared with the 2014 'case study portraits', condensed into four trends (global trends and disruptive events, urban growth, integrated planning, governance); and a discussion against the four transformation outcomes. The cities, which include Aarhus, Barcelona, Berlin, Bristol, Edinburgh, Helsinki, Linz, Lisbon, Ljubljana, Malmö and Utrecht, cover five European planning clusters and range from about 200,000 inhabitants (Linz) to over 3.6 million (Berlin) (pp. 2407–2408). They are not a random sample: many are EU research partners and sustainability champions, and so good cases to look for orchestrated transformation."
+    ]
+   },
+   {
+    "h": "Results: more attention, more plans",
+    "p": [
+     "Contextual change was mostly seen as positive (pp. 2408–2409). National political change was positive in six of eleven cities (new environmental laws, ecological issues in land-use planning), as was local change in six, sometimes due to new political leadership. Resources were mixed: positive in three cities, ambivalent in three, negative in two, with budget cuts and maintenance budgets not keeping pace with new green space. Five cities reported greater awareness of climate change or of green space's value for health, well-being or justice; three reported tension between greening and densification.",
+     "In planning approaches (pp. 2409–2411), the most important instruments were unchanged in eight of eleven cities, often statutory master plans or green space plans. Almost all themes grew in relevance: climate change in ten cities, biodiversity and human health in eight each. Climate adaptation sparked the most new policies, partly after floods and heat waves, and biodiversity concern led to new plans. For other themes, no new instruments were reported. Awareness of social cohesion rose in seven cities, but only two reported more awareness of cultural diversity. Ecosystem services and green infrastructure were more integrated in seven cities each; action plans such as tree planting programmes improved in six. In governance (p. 2411), municipal participation efforts increased in nine cities, interest from non-governmental actors in eight, and cross-departmental cooperation in nine."
+    ]
+   },
+   {
+    "h": "Trends and tensions",
+    "p": [
+     "Four deeper trends emerged. First, responses to global developments and disruptions (pp. 2411–2413): Barcelona's Green Infrastructure and Biodiversity Plan, Bristol translating the SDGs into its One City Plan, flooding in Aarhus, many non-statutory strategies (climate adaptation, stormwater, green roofs, a bee strategy in Berlin), climate or ecological emergency declarations, and regulation such as Helsinki's Green Area Factor. COVID-19 raised appreciation of green space, but only Barcelona reported concrete acceleration. Awareness of social cohesion grew, but specific green space actions for disadvantaged areas were few. Second, urban growth was ambiguous (p. 2413): densification brought resources for green space but also conflicts with affordable housing, sharpened by tourism in Berlin and Barcelona. Aarhus used 'exchange agreements' in which developers fund green space.",
+     "Third, steps towards integrated planning (pp. 2413–2415). Climate adaptation and, in Berlin, sustainable mobility created opportunities; Utrecht described a shift from parks and peri-urban landscapes to connectivity and neighbourhood access, especially in lower-income areas, and created 'guilds' (gildes) linking urban development and green space planning. Helsinki and Linz merged units; Linz involved experts and stakeholders early. But Berlin separated urban and green space planning, even physically, and Malmö's integration increased workloads. Fourth, participation 'between tokenism and co-governance' (pp. 2415–2416): Ljubljana's NGOs mainly opposed projects; Berlin, Helsinki and Lisbon mostly involved citizens in government-led planning; Bristol struggled to meet demands for participation. Aarhus, Bristol, Edinburgh and Utrecht stood out, with Aarhus creating a sub-department for citizenship and cultural change, Utrecht's slogan 'Together we make Utrecht', and Friends of Parks groups in the UK."
+    ]
+   },
+   {
+    "h": "Discussion: four lenses on transformation",
+    "p": [
+     "The overall verdict is sober (p. 2416). Many changes were incremental, others ambiguous, so \"these championing cases of sustainable urban development in Europe cannot be classified as radical urban transformations\". Integration brought influence and resources but also trade-offs; higher budgets did not solve long-term maintenance; even COVID-19 produced only short-term change in one city. That cities struggled to use windows of opportunity shows the power of structural conditions and path dependencies in formal administrations. Through the four lenses: innovation took the form of new strategies and systems thinking, anchored in policy, though new strategies may also reveal that old instruments are inflexible and stuck on recreation and access (pp. 2416–2417).",
+     "Exnovation was rare (p. 2417). The Aarhus unit for participation and cultural change was the clearest case, a form of change management; more cooperation between green space, planning, water and transport units may be a path towards dismantling silos. Co-governance increased, but participation mostly stayed at the lower rungs of information and consultation, partly due to lacking capacity and flexibility; where co-creation was embedded in high-level policy, perspectives of citizens and officials changed (pp. 2417–2418). Social justice was the weakest lens: awareness grew, but specific approaches were rare, and even in the one city whose new policies centre on social cohesion and equality, these goals had not yet reached green space planning. \"Compared to the wide range of planning responses dealing with ecological issues this lack of consideration of social issues in spatial planning is a considerable disparity\" (p. 2418)."
+    ]
+   },
+   {
+    "h": "Conclusions and what the authors want",
+    "p": [
+     "The conclusion balances progress and limits (pp. 2418–2419). Green space gets more attention, several cities are overcoming path dependencies such as policy silos, and some co-create green infrastructure with businesses and civil society. Deliberate transformative change happened at high levels of local policy-making, through new policies and organisational cultures for co-governance, and incremental changes (citizen interest, systems thinking, integrated planning) may seed future transformations. But long-term maintenance, funding and organisational culture remain challenges, and cultural diversity and other justice aspects are poorly recognised.",
+     "Fundamentally, the authors write, the problem is limited resources and staff capacity caused by system-level conditions beyond the control of green space departments or even municipalities (p. 2419). They call for multi-scale policy frameworks supporting nature-based innovation and new partnerships, change management and training on social aspects, incentives from political or administrative leaders to identify and 'exnovate' lock-in practices, and putting social and environmental justice at the heart of green space planning to avoid technocratic, unjust outcomes. They admit a key limitation: the study relies on officials who may be either preservers of the status quo or agents of change. Future research should include other stakeholders, especially active citizen groups."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not the authors' claims. The paper applies transformation theory (Wolfram's transformative capacity and outcomes) to public administration. On structure versus agency it finds structure winning: officials see what is needed but 'often lack the means to act'. On reproduction versus transformation, the answer is mostly reproduction with incremental change. It focuses on deliberate, orchestrated change, yet notes that disruptive events rarely produce lasting change. Its data are situated (the view of one official per city), and its normative commitment is clear: justice should be central, not an add-on.",
+     "Links: the justice gap connects directly to green gentrification in Campbell's triangle and the L3 lecture: greening that ignores social effects can displace the people it is meant to serve. Hodson et al. (L8) would read the findings as reconfiguration: many experiments and strategies that co-exist without systemic change. Bulkeley et al. (L9) found that labs rarely scale; Hansen et al. find a similar gap between promising projects and structural transformation. The move from tokenistic participation to co-governance echoes Lin et al.'s (L10) call for inclusive digital participation (several cities used digital tools and participatory budgeting).",
+     "Further contrasts: Durrant et al. (L12) would note that densification here partly funds green space (Aarhus's exchange agreements), a growth-dependent mechanism like land value capture. Utrecht's shift to neighbourhood-level access for lower-income areas and its 'guilds' are close to home and link to the Dutch planning system (L4). Næss (L1) and Angelo and Wachsmuth (L2) remind us to ask whether urban greening in 'champion' cities addresses non-local impacts or mainly improves liveability locally."
+    ]
+   }
+  ],
+  "news": {
+   "t": "EU law: no net loss of urban green",
+   "d": "The EU Nature Restoration Law entered into force on 18 August 2024; member states must put restoration measures in place on at least 20% of EU land and sea by 2030. For cities, they must halt the loss of urban green space and urban tree canopy and increase it after 2030, and draft national restoration plans were due within two years, by August 2026.",
+   "why": "Read through Hansen et al., this is the kind of multi-scale policy framework they call for to move green space planning from piecemeal to transformative change: a binding target set above the local level. But their findings suggest the bottleneck will be local: maintenance budgets, staff capacity and siloed departments decide whether 'no net loss' is delivered. Limit: the law sets quantity targets (area, canopy), while the paper also stresses social justice and co-governance, which the target does not guarantee.",
+   "src": {
+    "name": "European Commission",
+    "title": "Nature Restoration Law enters into force",
+    "url": "https://environment.ec.europa.eu/news/nature-restoration-law-enters-force-2024-08-15_en",
+    "date": "2024-08-15"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Piecemeal / incremental | Transformative | Most changes | new strategies, | tree programmes, | consultation | Seeds | systems thinking, | integrated planning, | citizen interest | Deliberate change | high-level policy, | co-governance culture | (e.g. Aarhus unit) | Constraints: maintenance, funding, organisational culture, staff | structural, beyond green-space departments (p. 2419) | Social justice and cultural diversity: least addressed (p. 2418)]",
+ "cap": "Hansen et al. (2022): where the observed changes in eleven cities sit between piecemeal and transformative (pp. 2416–2419).",
+ "rec": [
+  {
+   "cite": "Frantzeskaki, N. (2019). Seven lessons for planning nature-based solutions in cities. Environmental Science & Policy 93.",
+   "basis": "Abstract retrieved",
+   "abs": "From 15 NBS experiments in 11 European cities: NBS must be aesthetically appealing; they create new green urban commons; experimenting needs trust in local government; co-creation needs diversity and learning from social innovation; NBS need collaborative governance; an inclusive mission narrative integrates them into many agendas; design them to learn and replicate. NBS are placed as 'superior' to grey infrastructure.",
+   "slides": "No slides yet."
+  },
+  {
+   "cite": "Frantzeskaki, Wijsman, Kabisch & McPhearson (2025). Inter- and transdisciplinary knowledge is critical for NBS to contribute to just urban transformations. PNAS 122(29).",
+   "basis": "Abstract retrieved",
+   "abs": "NBS aim to break unsustainable path dependencies, but they are not inherently just or unjust. Six questions: for what, which nature, where, how, when, for whom. Two opportunities: interdisciplinary work for multifunctionality, and transdisciplinary work with stakeholders on design and siting. Justice should guide from the start: a shift from epistemological injustice to epistemological inclusivity.",
+   "slides": "No slides yet."
+  },
+  {
+   "cite": "Grabowski, McPhearson & Pickett (2023). Transforming US urban green infrastructure planning to address equity. Landscape and Urban Planning 229.",
+   "basis": "Abstract retrieved",
+   "abs": "122 plans from 20 US cities: only 13% define equity or justice; 30% acknowledge Native land; over 90% lack inclusive processes; 80% use GI for hazards and multiple benefits but under 10% identify the causes of uneven vulnerability; few address houselessness or gentrification. Needed: clear definitions of equity, engagement with causes of inequality and displacement, and a transformation towards inclusion.",
+   "slides": "No slides yet. Directly relevant to the green gentrification slides of L3."
+  }
+ ],
+ "exam": "Bridges L3 (green gentrification) and L8–9 (transitions, co-creation). A likely essay: 'Can nature-based solutions be transformative and just?'",
+ "table": {
+  "head": [
+   "Outcome (Wolfram et al. 2019)",
+   "Meaning",
+   "What the eleven cities showed",
+   "Verdict"
+  ],
+  "rows": [
+   [
+    "Innovation",
+    "Creating, nurturing and anchoring novelties",
+    "New adaptation and biodiversity strategies (e.g. Barcelona's GI and Biodiversity Plan, Helsinki's Green Area Factor); systems thinking via ecosystem services",
+    "Anchored policy innovation, though new strategies may reveal inflexible old instruments (pp. 2416–2417)"
+   ],
+   [
+    "Exnovation",
+    "Exposing and dismantling path dependencies",
+    "Aarhus's unit for participation and cultural change; merged units (Helsinki, Linz); Utrecht's 'guilds'; but Berlin separated departments",
+    "Only a few deliberate cases (p. 2417)"
+   ],
+   [
+    "Co-governance",
+    "Enabling and aligning diverse actors",
+    "Participation efforts up in 9 of 11; participatory budgeting (Helsinki); Friends of Parks (UK); 'Together we make Utrecht'",
+    "Mostly information and consultation, except where embedded in high-level policy (pp. 2417–2418)"
+   ],
+   [
+    "Social justice",
+    "Ensuring diversity and contestation",
+    "More awareness, few specific actions; cultural diversity rarely addressed",
+    "Underrepresented: a 'considerable disparity' with ecological responses (p. 2418)"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "id": "p11",
+ "n": 11,
+ "theme": 3,
+ "title": "AI, planning and sustainability",
+ "who": "Yanliu Lin",
+ "slides": false,
+ "lecture": [
+  "Slides not uploaded yet (12 Oct)."
+ ],
+ "man": {
+  "cite": "Li, X.Y. & Dang, A.R. (2025). Comment: the disruptive effect of AI on urban planning. Nature Cities 2(7), 568–570.",
+  "status": "full",
+  "one": "Unlike earlier tools (CAD, GIS) that kept humans interpreting, 'urban AI' automates critical-thinking tasks. This threatens planners' judgement, equity, democratic engagement and accountability, and so public trust and professional legitimacy. Harnessing AI responsibly needs critical engagement with its ethics.",
+  "summary": [
+   "Examples: Singapore AI traffic signals, Copenhagen AI energy forecasting, Los Angeles ML for housing allocation.",
+   "Four risks: (1) deskilling: algorithmic 'optimal' outputs gain authority and displace practitioner wisdom and value reconciliation; (2) algorithmic bias: data reflect historic inequities (redlining) and ignore unquantifiable values; (3) diminishing democratic engagement: fast automated decisions bypass deliberation; (4) blurred accountability: who is responsible when an algorithmic site choice triggers gentrification?",
+   "Needed: transparency, open data, clear accountability, planners keeping normative judgement, and planning education that updates core values."
+  ],
+  "concepts": [
+   [
+    "Urban AI",
+    "Machine learning that actively shapes governance and physical planning."
+   ],
+   [
+    "Deskilling",
+    "Loss of practitioner judgement through reliance on algorithms."
+   ],
+   [
+    "Algorithmic bias",
+    "Reproducing historic inequities through training data."
+   ],
+   [
+    "Accountability gap",
+    "Unclear responsibility for AI-driven decisions."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "CAD and GIS kept planners",
+    "d": "Computer-aided design in the 1980s and GIS in the 1990s transformed how planners visualise and analyse data but left interpretation and negotiation to humans. The authors use this contrast to argue that urban AI is different, because it automates the critical-thinking tasks themselves, which drives deskilling.",
+    "src": "text",
+    "p": "p. 568"
+   },
+   {
+    "t": "Journalism and manufacturing precedent",
+    "d": "In journalism and manufacturing, technology introduced as a supportive tool evolved quickly towards partial or full replacement of human roles. The authors cite this against the 'AI only augments planners' view, because pressures for speed and cost savings can override longer-term social goals.",
+    "src": "text",
+    "p": "p. 569"
+   },
+   {
+    "t": "Clinical decision-support analogy",
+    "d": "Doctors interpret output from clinical decision-support systems yet keep ultimate responsibility, and the authors want planners to act the same way as 'sense-makers' of AI output. This answers the accountability gap: responsibility stays with a human professional, not the algorithm.",
+    "src": "text",
+    "p": "p. 569"
+   },
+   {
+    "t": "Dutch childcare benefits scandal",
+    "d": "The Dutch tax authority used a risk-classification model for childcare benefit fraud that included nationality as a risk indicator; many parents were wrongly treated as fraudsters, and the cabinet resigned in January 2021. Not a planning case, but the same mechanisms: algorithmic bias in public decisions and blurred accountability for automated outcomes.",
+    "src": "similar"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the comment argues and why",
+    "p": [
+     "This is a short opinion piece (a 'Comment' of about three pages in Nature Cities) by two planners from Tsinghua University. The printed text does not show page numbers, so none are given here. Its claim is simple and strong: AI is not just another planning tool but a disruption that forces planners to reconsider the profession's core values. Planning has relied on empirical judgement, public participation and incremental adaptation; AI's data-driven analytics, automated decisions and predictive models challenge all three. By reducing the planner's role in negotiating complex interests and obscuring who is responsible for outcomes, AI \"threatens to erode public trust and professional legitimacy\". Harnessing it responsibly, the authors argue, requires critical engagement with its ethical, democratic and equity implications."
+    ]
+   },
+   {
+    "h": "From CAD and GIS to 'urban AI'",
+    "p": [
+     "Planning has faced technological disruptions before: computer-aided design in the 1980s and GIS in the 1990s. These changed how planners visualise and analyse data but largely preserved the human role of interpretation and negotiation. Earlier 'smart city' paradigms mostly added incremental ICT solutions. 'Urban AI', by contrast, uses machine learning that can shape governance and physical planning more autonomously. Examples: Singapore optimises traffic signals with AI, Copenhagen forecasts energy use to cut emissions, and Los Angeles is exploring machine learning to allocate housing more fairly.",
+     "The decisive difference: \"Rather than just supporting planners, AI stands apart by automating critical thinking tasks that were once exclusive to human professionals.\" The question is no longer whether AI can help with data, but whether it replaces deliberation, negotiation and contextual knowledge, the core of the planner's craft. Large language models sharpen this, because they can reason about broader context and value frameworks, not just domain-specific datasets."
+    ]
+   },
+   {
+    "h": "Four disruptive factors",
+    "p": [
+     "The authors name four disruptions. First, erosion of planners' judgement and expertise. Planners build judgement by interpreting community values, reconciling conflicts and adapting policies to context. Once validated, algorithms tend to become authorities: if an AI suggests an 'optimal' zoning mix, human intervention may be sidelined in the name of efficiency. \"In effect, the profession risks deskilling as reliance on algorithmic outputs displaces accumulated practitioner wisdom.\" Second, algorithmic bias. AI is sold as impartial, but real datasets carry social, economic and historical biases; deployed uncritically, AI can reinforce redlining, marginalise under-represented voices and ignore cultural or community values that numbers do not capture.",
+     "Third, diminishing democratic engagement. Especially in the US, planning rests on public participation; automated, 'optimal' solutions can short-circuit slower deliberation, leaving stakeholders fewer opportunities or reasons to engage and cutting out voices that cannot be quantified. Fourth, blurred accountability. Planners balance technical feasibility, law and moral responsibility, but AI puts distance between a recommendation and its human overseers. If an automated site selection triggers gentrification, who is responsible? Without transparent design, open data and a clear chain of accountability, errors are hard to trace, producing a crisis of professional legitimacy."
+    ]
+   },
+   {
+    "h": "Why the disruption is unavoidable, and the counter-arguments",
+    "p": [
+     "Even if planners resist, market forces and public enthusiasm push AI forward. Developers use AI analytics to optimise returns, transport companies pilot AI routing, and politicians who want an 'innovative' city sponsor AI pilots from traffic signals to land-use compliance checks. Agencies that do not keep up risk becoming uncompetitive. Generative AI extends the reach beyond numbers to text analysis of policy documents, generative design and real-time sentiment analysis, so AI enters every level of practice.",
+     "The authors engage two counter-arguments. One says AI augments rather than replaces planners, freeing them for strategy, facilitation and value judgements. The other says AI can be regulated through transparent algorithms and oversight committees. Both have merit but understate AI's disruptive force: in journalism and manufacturing, supportive tools evolved towards partial or full replacement, and the promise of speed and savings can override longer-term social goals. Agencies often lack the resources and skills for rigorous algorithmic audits, especially under political pressure to innovate. So balanced 'augmentation' is precarious."
+    ]
+   },
+   {
+    "h": "Lessons for practice and the foundations of planning",
+    "p": [
+     "If disruption is unavoidable, the profession should set the terms. The authors propose five lessons. Reclaim interpretive agency: planners as 'sense-makers' who interpret AI outputs in light of local histories, cultures and values, with ethical frameworks similar to doctors using clinical decision-support. Embed community values: involve diverse stakeholders from the start, with marginalised groups in data collection, model building and validation ('community-in-the-loop'). Strengthen regulatory oversight: standards for algorithmic transparency and bodies that audit and certify AI tools, as in finance and healthcare. Redefine education: digital literacy, AI basics, data science and ethics alongside policy, design and engagement skills. Resist over-reliance: 'slow planning' based on face-to-face deliberation as a counterweight to computational speed.",
+     "Finally, the authors return to planning's foundations: balancing individual and collective interests, shaping space according to democratic values and anticipating the future ethically. \"AI disrupts these foundations by recasting city-making as a purely technical optimization problem.\" They grant that AI might help balance interests, provided humans keep oversight. AI is thus the profession's 'starkest crossroads' in decades: a chance to reinvent planning's relevance, or a crisis that reduces humans to an afterthought. The aim is not rejecting AI but deliberately rethinking its integration, so that it remains a tool serving human aspirations, which requires alliances among communities, academics, policymakers and software developers."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not the authors' claims. The comment defends a communicative, deliberative view of planning (judgement, negotiation, participation) against what it sees as a return of technical, optimising rationality. On structure versus agency it stresses structural pressures (markets, budgets, political branding) that make disruption 'unavoidable', while calling for professional agency to set the terms. Its knowledge stance is situated: local histories and values matter more than 'optimal' outputs. Normatively it commits to equity, democracy and stewardship.",
+     "Compared with Lin et al.'s editorial (L10), Li and Dang are much more sceptical: the editorial trusts co-design, governance and education to keep digital tools inclusive, while Li and Dang doubt that audits and augmentation will hold under budget pressure. The bias argument links to justice debates in L3 (green gentrification) and L6 (de Satgé and Watson's conflicting rationalities, where techno-managerial state planning meets marginalised communities). Durrant et al. (L12) offer a contrast in roles: they want planners to use expertise to voice uncomfortable truths, whereas Li and Dang fear expertise is being displaced altogether."
+    ]
+   }
+  ],
+  "news": {
+   "t": "UK 'Extract' AI reads planning files",
+   "d": "In June 2025 the UK government presented Extract, an AI assistant built on Google DeepMind's Gemini that turns old planning documents, handwritten records and maps into usable data. In trials with Hillingdon, Nuneaton and Bedworth and Exeter it processed a record in about three minutes, against one to two hours by hand; the government says officers spend around 250,000 hours a year validating documents and aims to offer Extract to all English councils by spring 2026.",
+   "why": "Read through Li and Dang, this is urban AI justified by speed and cost savings in the name of housing targets (1.5 million homes), the same pressure they warn can push tools from support towards replacing professional work. Even 'just' extracting and validating data embeds choices about what counts as relevant, which raises accountability questions if errors go unchecked. Limit: Extract automates clerical data work, not the critical judgement and negotiation the authors fear AI will take over, so it is an early step rather than proof of deskilling.",
+   "src": {
+    "name": "GOV.UK",
+    "title": "PM unveils AI breakthrough to slash planning delays and help build 1.5 million homes",
+    "url": "https://www.gov.uk/government/news/pm-unveils-ai-breakthrough-to-slash-planning-delays-and-help-build-15-million-homes-6-june-2025",
+    "date": "2025-06"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Urban AI | automates critical | thinking tasks | Unavoidable push | markets, politicians, | generative AI | Deskilling | judgement erodes | Algorithmic bias | inequity repeated | Less democracy | debate bypassed | Accountability | who is responsible? | Eroding public trust and professional legitimacy | Response: sense-makers, community-in-the-loop, audits, | new curricula, 'slow planning']",
+ "cap": "Li & Dang (2025): why urban AI disrupts planning, and the five lessons they propose.",
+ "rec": [
+  {
+   "cite": "Yigitcanlar et al. (2020). Contributions and risks of AI in building smarter cities. Energies 13(6), 1473.",
+   "basis": "Abstract retrieved",
+   "abs": "A systematic review of 93 articles across economy, society, environment and governance. AI in smart cities is an emerging field focused on technologies and applications (efficiency, analytics, education, energy, environment, health, land use, security, transport, management). Research on the risks of wider AI use and on coming disruptions is limited.",
+   "slides": "No slides yet."
+  }
+ ],
+ "exam": "Strong essay link: AI as a return of rational-comprehensive, expert-led planning (BPT week 3) vs communicative values.",
+ "table": {
+  "head": [
+   "Disruptive factor",
+   "What happens",
+   "Why it matters"
+  ],
+  "rows": [
+   [
+    "Erosion of judgement and expertise",
+    "Validated algorithms become authorities; 'optimal' outputs sideline human intervention for efficiency",
+    "Deskilling: accumulated practitioner wisdom and value reconciliation are displaced"
+   ],
+   [
+    "Algorithmic bias and equity",
+    "Datasets carry historical biases; unquantified cultural and community values are ignored",
+    "Can reinforce redlining and marginalise under-represented voices; planning's integrity at stake"
+   ],
+   [
+    "Diminishing democratic engagement",
+    "Fast automated decisions bypass slower deliberation",
+    "Fewer chances or reasons to engage; voices that cannot be quantified are cut out"
+   ],
+   [
+    "Blurred accountability",
+    "Distance between an AI recommendation and its human overseers",
+    "Unclear who is responsible (e.g. site selection that triggers gentrification); legitimacy crisis"
+   ]
+  ]
+ }
+}

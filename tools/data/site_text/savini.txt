@@ -1,0 +1,207 @@
+{
+ "id": "savini",
+ "wk": 6,
+ "title": "Savini & Aalbers (2016) De-contextualisation of land use planning through financialisation: Milan",
+ "cite": "Savini, F. & Aalbers, M.B. (2016). The de-contextualisation of land use planning through financialisation: Urban redevelopment in Milan. European Urban and Regional Studies 23(4), 878–894. DOI 10.1177/0969776415585887",
+ "theory": "Political economy of financialisation (Harvey's capital switching, land as fictitious capital), with an institutional reading of local government capacity",
+ "status": "full",
+ "statusNote": "Built from the full text of the authors' accepted manuscript ('forthcoming in EURS, OnlineFirst 2015'). Page numbers refer to the manuscript pagination (pp. 1–15), NOT the journal pagination (878–894). Tutorial 4 seminar article.",
+ "one": "Financialisation turns land into a liquid financial asset whose valuation and investment decisions are made by layered investors far from the site; this de-contextualises land capital from local socio-political contexts and makes planning instrumental to unlocking capital. In the Falck site in Sesto San Giovanni, successive owners and SPVs inflated the programme and land price, while a weak, yield-dependent municipality ended up in gridlocked negotiations.",
+ "summary": [
+  "Argument and trends (pp. 1–4): finance increasingly penetrates land planning and development, but fine-grained case studies of the mechanisms are rare. Building on Harvey's 'capital switching' and land as financial asset, the authors identify three features of contemporary urban development: (a) investment relocation towards riskier peripheral, out-of-prime locations (brownfields in urban belts) expected to yield more in the long run; (b) clustering and enlargement of projects into bigger packages that dissolve demand variations and outplay smaller investors, with standardisation and starchitecture to increase liquidity; (c) instrumental land use planning geared to attracting finance, especially where fiscal stress makes municipalities dependent on incoming capital. They are more sceptical than Weber (2010) that municipalities can use financial markets for their own agenda (p. 2).",
+  "De-contextualised land capital (pp. 4–7): as land becomes liquid and part of global portfolios, decisions on its exchange and use are disconnected from the local values, norms and needs where they land; valuations rest on simplified yield projections. Decisions on land-use programmes (local needs) separate from decisions on investment (shareholder profit expectations), with many layers of intermediaries. Land is also used as collateral to create credit for investments elsewhere. Special-purpose vehicles (SPVs) are the key tool: they isolate project risk from the holding, can be bought and sold, and link project gains to shareholders; they are 'both separators and connectors'. Local governments try value capture via regulation, betterment levies, public land development or TIF, but detachment of investment from land-use decisions weakens their understanding and bargaining power.",
+  "The Falck case (pp. 7–13): a 150 ha polluted former steelworks in Sesto San Giovanni (80,000+ inhabitants; about a quarter of its area vacant industrial land), negotiated under the PII regime; 15 years without agreement; land sold four times. Periodisation (Table 1): 1990s: Falck Corporation and a public-private agency (PSTA, later ASNM; municipality 80%, province 5%, Falck 15%) pursuing reindustrialisation. 2000: sold (€180M in the text; €140M land cost in Table 1) to local investor Gruppo Pasini, SPV Immobiliare Cascina Rubina with a Banca Intesa loan; modest plan, 9% expected return; not approved. 2005: ICR sold to Risanamento (Gruppo Zunino), clustered with Santa Giulia etc.; Renzo Piano masterplan, ~double floor area, 50% high-end housing, 15% expected gain on ~€5bn. 2009: credit crunch, bankruptcy procedure. 2010: Sesto Immobiliare (Bizzi & Partners; Korean and other investors) buys for €405M, largely via land transfer to creditor banks, conditional on approval of ≥962,000 m² within two years; programme grows to ~1.2M m²; 12% expected return. 2011: council approves; region commits €323M for a health campus.",
+  "Explanation and conclusion (pp. 13–15): the outcome results from two concurrent trends: growing institutional distance between developer and investors/creditors, and the municipality's increasing dependence on the project's yields, which weakened its negotiating position. Each transfer bound the project more tightly to financial returns and promises of future yields, and the programme was intensified to cover rising costs and debts; planning became 'functional to the urgent need to unlock capital' rather than a response to local needs. Main features of de-contextualisation: separation of ownership and planning responsibility; SPVs insulating risk; complexified, nested property structures. Theoretically, financialisation goes 'one step further than Harvey foresaw in 1982': land is not only a spatial fix but collateral to create credit elsewhere. The outcome is not inevitable: the complexity of financial constructions and the regulatory position of public authorities differentiate outcomes; governing property-led development requires strong regulation combined with proactive intervention capacity."
+ ],
+ "concepts": [
+  [
+   "Financialisation of land",
+   "Land treated as a financial asset valued by expected yields and traded in portfolios; increasingly used as collateral to create credit (pp. 2, 5–6, 14–15)."
+  ],
+  [
+   "De-contextualisation",
+   "The detachment of land investment decisions from the socio-economic and political contexts where their effects are felt (pp. 4–5, 14)."
+  ],
+  [
+   "Three trends",
+   "Investment relocation (riskier peripheries), clustering/enlargement of projects, instrumental land use planning (pp. 3–4)."
+  ],
+  [
+   "Special-purpose vehicle (SPV)",
+   "Project company that isolates risk from its generator/holding, can be traded, and channels gains to shareholders; 'both separators and connectors' between planning and investment (p. 6)."
+  ],
+  [
+   "Capital switching",
+   "Harvey's notion of capital moving into the built environment; finance invents new strategies to reconnect global strategies with local production of space (p. 1)."
+  ],
+  [
+   "Land as fictitious capital",
+   "What is bought and sold is title to future ground rent; land becomes an interest-bearing investment (Harvey 1982, quoted p. 14)."
+  ],
+  [
+   "Value capture",
+   "Public capture of land value increments for public benefits; harder when investment decisions are detached from land-use processes (pp. 6–7)."
+  ],
+  [
+   "Yield dependence of local government",
+   "A fiscally weak municipality depends on project returns for public gains, weakening its bargaining capacity (pp. 13–14)."
+  ],
+  [
+   "PII (Programmi Integrati d'Intervento)",
+   "Italian regulatory framework requiring close negotiation between municipal executives and the developer (p. 7)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Investors, banks, holdings | global portfolios, yield targets | SPV | separator and connector | Municipality / local planning | local needs, value capture | distance grows: decisions de-contextualised | yield dependence weakens bargaining | Falck site, Sesto San Giovanni | 1990s Falck + public agency | 2000 Pasini / SPV ICR | ~734,000 m², 9% return | 2005 Risanamento (Zunino) | 1.1M m², 15%, land €298M | 2010 Sesto Immobiliare | ≥962,000 m², 12%, land €405M | 2011 plan approved; gridlock]",
+ "cap": "Left: the SPV as interface between de-contextualised finance and local planning; right: the Falck site's successive owners (Table 1, p. 9).",
+ "table": {
+  "head": [
+   "Period",
+   "Owner",
+   "Financial model",
+   "Programme / expected gain",
+   "Land cost"
+  ],
+  "rows": [
+   [
+    "1990–2000",
+    "Falck Corporation",
+    "Joint-stock public-private agency (PSTA)",
+    "High-end industry, small manufacturing; gain not defined",
+    "Undefined"
+   ],
+   [
+    "2000–2005",
+    "Gruppo Pasini (local)",
+    "SPV ICR; €250M debt with Banca Intesa",
+    "~734,000 m²; 9%",
+    "€140M (Table 1; text: sold for €180M)"
+   ],
+   [
+    "2005–2010",
+    "Gruppo Zunino / Risanamento",
+    "ICR SPVs; 25% equity",
+    "1.1M m², 50% high-end housing; 15%",
+    "€298M (€88M down payment)"
+   ],
+   [
+    "2010–",
+    "Bizzi & Partners / Sesto Immobiliare",
+    "New SPV; 5% equity; land deeds with creditor banks",
+    "Min. 962,000 m² (later ~1.2M m²); 12%",
+    "€405M"
+   ]
+  ]
+ },
+ "example": "Falck, Sesto San Giovanni (Milan): 150 ha polluted steelworks; land sold four times with steadily rising prices while no brick was laid; the 2010 purchase was conditional on municipal approval of at least 962,000 m² within two years, putting the municipality under pressure to approve a larger programme.",
+ "quotes": [
+  "\"In becoming liquid, land is decontextualised from the local and this has important consequences for the organisation and outcomes of the planning process.\" (pp. 4–5, manuscript)",
+  "\"SPVs are therefore both separators and connectors between the land use planning process and investment strategies.\" (p. 6, manuscript)",
+  "\"credit is not only used to invest in land resulting in spatial fix, land itself is used as leverage to create credit that can then be invested elsewhere\" (p. 15, manuscript)",
+  "\"the Falck case demonstrates how a local government is being shaped and constrained by finance without being able to give shape to financial markets.\" (p. 15, manuscript)"
+ ],
+ "dims": {
+  "sa": 30,
+  "rt": 60,
+  "de": 65,
+  "us": 60,
+  "mp": 40,
+  "norm": "Socio-spatial equity and local democratic control over land use; planning should respond to local needs, not investor yields; calls for strong regulation plus proactive public intervention."
+ },
+ "exam": "Commentary angle (likely model for the 5 Nov exam): grounded in Marxist political economy of financialisation (Harvey 1982/1985: capital switching, land as financial/fictitious capital, spatial fix), extended by the claim that land now also serves as collateral. But it is not purely structural: the authors deny the outcome is inevitable and name institutional variables (complexity of financial constructions; regulatory versus proactive role of public authorities), which invites a neo-institutionalist reading. Best critiques: (1) neo-institutionalism: the gridlock may stem from Italian institutions (PII negotiation regime, corruption: the 2000s events are under bribery investigation, fn 3, weak municipal capacity) rather than financialisation per se; single extreme case limits generalisation; (2) Weber / agency and regime theory: other cities (Chicago) use finance for their own agenda; local coalitions matter; (3) rational choice / game theory: value capture is a bargaining game (the paper cites Samsura & van der Krabben); a rational choice analysis would explain outcomes by pay-offs and credible commitments; (4) Hayek/liberal: long vacancy could be read as over-regulation blocking market adjustment, which the authors themselves partly admit ('Overregulation might disengage investors', p. 7). MCQ traps: the three trends (relocation, clustering, instrumental planning); SPVs are separators AND connectors; the paper says financialisation goes further than Harvey foresaw (land as collateral), not that Harvey was wrong; the municipality took a regulative, not proactive, role in later phases.",
+ "examples": [
+  {
+   "t": "PSTA: the locally embedded phase",
+   "d": "When steelmaking ended in 1994 the Falck site was first handled by a development company owned 80% by the municipality, 5% by the province and 15% by Falck, drawing on EU programmes to reconvert the site and save jobs; the booming housing market then pushed Falck to drop reindustrialisation and sell. Shows the starting point before de-contextualisation: a financial set-up tied to local actors and local economic needs.",
+   "src": "text",
+   "p": "p. 10"
+  },
+  {
+   "t": "Risanamento: clustering, then collapse",
+   "d": "In 2005 Risanamento (Gruppo Zunino) bought the SPV with little capital, bundled Falck with projects like Santa Giulia, and had Renzo Piano draw a plan with almost double the floor space, aiming at 15% gains on about €5 billion. In 2009 the credit crunch and Risanamento's heavy debt (part of its holding's €3 billion debt) triggered bankruptcy proceedings and a forced sale, events 'completely alien' to local planning. Illustrates clustering and how financial decisions made elsewhere drive the planning programme.",
+   "src": "text",
+   "p": "pp. 11–12"
+  },
+  {
+   "t": "Industrial firms turned land developers",
+   "d": "In Milan non-real-estate corporations that owned land in key locations became developers, for example Pirelli in Bicocca, alongside investors such as Hines at Garibaldi. Shows land becoming a financial asset for former industrial groups, part of the relocation and clustering trends the paper describes.",
+   "src": "text",
+   "p": "p. 9"
+  },
+  {
+   "t": "Approval bought with public money",
+   "d": "The council approved the Sesto Immobiliare masterplan in 2011 with more retail and offices and less high-end housing and manufacturing, while the regional government put €323 million into a health and research campus on the site. Illustrates instrumental planning: public tools and investment used to unlock a financially stuck project rather than to answer local needs.",
+   "src": "text",
+   "p": "p. 13"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Savini and Aalbers study how financialisation affects land use planning. Financialisation here means the growing role of financial actors, motives and instruments; for land, it means land is treated as a financial asset that can be bought, sold, bundled and borrowed against. Finance increasingly penetrates real estate and land development, but the authors note that in-depth case studies of the actual mechanisms are rare (p. 2). They want a fine-grained view of how the organisation of credit in the development industry shapes what gets built. Their key concept is 'de-contextualisation': investment decisions about land are increasingly made by investors at other scales and detached from the local planning process and local needs (p. 1).",
+    "They start from Harvey's idea of 'capital switching': financial capital keeps inventing ways to reconnect global strategies to local built environments (p. 1). Cities, meanwhile, try to anchor mobile capital through urban projects, which have become a key space of confrontation between global markets and local socio-economic demands (p. 2). Their position in the debate is explicit: Weber (2010) argued that local governments are not passive recipients and can use financial markets to push their own agenda, but the authors are more sceptical than Weber about whether most municipalities can do so (p. 2). The paper first sets out three trends, then analyses the Falck site near Milan, then draws conclusions."
+   ]
+  },
+  {
+   "h": "Three trends: relocation, clustering, instrumental planning",
+   "p": [
+    "Real estate is a commodity in tension: immobile, yet tradable on global markets as a liquid asset (p. 3). Cheap money, regulation favouring economies of scale, long-term guarantees and flexible land-use rules institutionalised a cycle of production, leverage and exchange. The first trend is investment relocation. In the 1980s and 1990s capital concentrated on downtown renewal and waterfronts; then big players moved to riskier out-of-prime locations such as brownfields in urban belts and peri-urban areas. These have high initial costs (soil remediation, weak land pressure, little infrastructure) but promise higher long-term yields, so they suit large consortia that can repackage risk and deal directly with banks (p. 3).",
+    "The second trend is clustering and enlargement. Investors concentrate on specific catchment areas and combine projects into larger programmes to dissolve fluctuations in demand. Projects become 'creators of growth' rather than responses to local demand, smaller investors are bought out, and projects become standardised (star architects, recognisable symbolism) to increase liquidity (pp. 3–4). The third trend is instrumental land use planning: planning geared to facilitating this process. Financial capital is ultimately bound by local zoning, fees and building rights, so municipalities matter. But fiscal stress and social problems can make them dependent on incoming capital, pushing profit-oriented planning in the hope that public benefits trickle down (p. 4). Local governments are not passive: they try hub planning, value capture incentives and flexible contracts."
+   ]
+  },
+  {
+   "h": "De-contextualised land capital",
+   "p": [
+    "The core argument follows (pp. 4–7). As land becomes a (quasi-)financial asset managed in portfolios together with other assets elsewhere, decisions on its use are disconnected from local cultural values, norms and meanings. 'In becoming liquid, land is decontextualised from the local' (pp. 4–5). Values rest on simplified calculations of expected yields that ignore the complexity and uncertainty of urban projects; in recent years such estimates were excessive. Decision-making splits: land use programming tries to match local needs, while investment decisions follow shareholder profit expectations. Between them sit many layers: a local project team, a development firm, a holding company, investors ranging from individuals to pension funds, plus consultants and fiscal advisors (p. 5). Where the mid-1980s were dominated by locally embedded developers, today's developers can be completely extraneous to the local context (p. 5).",
+    "Land markets changed too. Former industrial groups began valorising their land from the mid-1980s, and land is now also used as collateral: something you borrow against to finance investments elsewhere (p. 6). The authors cite Harvey's 1982 warning that an open land market lets surplus money capital build pyramids of debt claims. The key organisational tool is the special-purpose vehicle (SPV): a separate company set up for one project, linked to a 'generator' company or holding. It isolates the project's risk, can be sold between holdings, works locally with architects and planners, and passes gains to shareholders. 'SPVs are therefore both separators and connectors between the land use planning process and investment strategies' (p. 6). Programmes tend to be supply-driven: calculate, build, then sell.",
+    "This creates problems for governments trying 'value capture' (recovering part of the land value increase for public benefit, p. 6). Tools include strict regulation, betterment levies, public land development and mixed corporations, project bonds and tax increment financing (pp. 6–7). But when investment is detached from land use decisions, cities, especially small and weak ones, poorly understand the economic calculations and cannot judge what programme is viable. Overregulation might scare off investors, cause long-term vacancy or encourage speculation (p. 7)."
+   ]
+  },
+  {
+   "h": "The Falck site: setting and method",
+   "p": [
+    "The Falck site is a 150 hectare former steelworks in Sesto San Giovanni, a municipality of over 80,000 inhabitants in Milan's industrial belt, well connected by rail (p. 7). About a quarter of the city's area is vacant industrial land, so it urgently needs investment in infrastructure, social housing and public facilities. The site is heavily polluted and has valuable industrial heritage. Planning happens under the PII regime (Programmi Integrati di Intervento), which requires close negotiation between municipal executives and the developer. For 15 years these negotiations produced no agreement, while the land was sold four times at steadily rising prices (p. 7).",
+    "The data come from city council decisions, 20 stakeholder interviews, participation in discussion groups, designers' and managers' documents, the economic sections of successive masterplans, and documents from the Milan attorney general and legal appeals (p. 8). Table 1 (p. 9) summarises four periods by owner, financial model, programme, expected return and land cost. The Milan context matters: in the 1990s specialised financial players, landowning non-real-estate corporations (such as Pirelli at Bicocca) and institutions clustered around planned developments, outplaying smaller investors (p. 9)."
+   ]
+  },
+  {
+   "h": "Four periods of ownership",
+   "p": [
+    "First period (1990s): the Falck Steel Corporation, once Italy's largest industrial company, stopped production in 1994 and turned the brownfield into a project as part of corporate restructuring (p. 10). A joint-stock development agency (PSTA, later ASNM) was owned 80% by the municipality, 5% by the province and 15% by Falck, and drew on European programmes. Its aim was transition to 'innovative' production and saving jobs. High costs and a booming housing market led Falck to drop reindustrialisation and sell. Second period (2000–2005): a local real estate investor bought the site (for €180 million according to the text; Table 1 lists a €140 million land cost) and created an SPV, Immobiliare Cascina Rubina, financed by a large Banca Intesa loan (p. 10). Negotiations were direct between owner and Deputy Mayor, about jobs; the 2002 plan was mainly residential with a modest 9% return, but was never approved.",
+    "Third period (2005–2010): rising interest rates led to the SPV's sale to Risanamento, owned by Gruppo Zunino, a holding active in Milan, New York and Paris, which bought with little capital, inherited the debt and issued stock for 25% of the value (p. 11). Falck was clustered with other projects such as Santa Giulia. Renzo Piano's masterplan almost doubled the built surface, with 50% high-end housing at around €4,500 per square metre, and aimed at a 15% gain on about €5 billion. Fourth period (2010 onward): after the credit crunch, Milan's prosecutor started bankruptcy proceedings against Risanamento in 2009 (p. 12). A new SPV, Sesto Immobiliare, with a complex set of investors (including Korean investors), bought the land for €405 million, largely by transferring ownership to creditor banks, on condition that the municipality approve a masterplan of at least 962,000 square metres within two years (p. 12)."
+   ]
+  },
+  {
+   "h": "How finance reshaped the plan",
+   "p": [
+    "In this last phase everyone depended on everyone else. The SPV pressed for quick approval to cover inherited debt; the municipality felt pressure to approve and secure public gains. The programme grew to almost 1.2 million square metres, while lower equity use allowed expected earnings of 12% (pp. 12–13). The project was split into economically independent compartments, each financed from the previous one's earnings, with about 25% of costs expected from buyers' cash advances, uncertain after the housing bubble burst. Any public demand for more facilities could further jeopardise the project (p. 13). In September 2011 the council approved a plan with more retail and offices and less high-end housing and manufacturing, boosted by the regional government's €323 million for a health and research campus (p. 13).",
+    "The authors explain the outcome by two concurrent trends (pp. 13–14). First, growing institutional 'distance' between developer and financiers: each transfer bound the project more tightly to financial returns and to promises of future yields from a project not yet materialised, and the programme had to be intensified to realise larger profits. The land generated credit through company bonds, yet no brick had been laid (p. 14). Second, and decisive, Sesto became dependent on the project's yields. Too small to take on the risk of active partnership, it regulated and waited. Planning became 'functional to the urgent need to unlock capital for realisation, rather than being a tool to respond to particular local needs' (p. 14), and zoning did not stop speculation but allowed higher volumes."
+   ]
+  },
+  {
+   "h": "Conclusions and what the authors want",
+   "p": [
+    "The conclusion names three features of de-contextualisation: separation between ownership and planning responsibility; intermediate levels (SPVs) that insulate risk; and complex, nested property structures of international scope (p. 14). Theoretically they claim that financialisation goes 'one step further than Harvey foresaw in 1982': land is not only a spatial fix for overaccumulation elsewhere, but is itself used as collateral to create credit for investment elsewhere; only now does the full meaning of land as fictitious capital become apparent (pp. 14–15). For local government this creates a trade-off: capture as much value as possible, yet excessive demands may kill the project, so cities tend to rely on strong regulation (p. 15).",
+    "They stress that gridlock is not inevitable. The complexity of financial constructions and the regulatory position of public authorities are what differentiate outcomes: the more complex the ownership and the less proactive the government, the more de-contextualisation (p. 15). Chicago in Weber's work may be the exception; Sesto 'is being shaped and constrained by finance without being able to give shape to financial markets' (p. 15). Their recommendation: combine strong regulation with proactive capacities to intervene in land development. Limitations they admit: Falck is one particular extreme case (p. 14), outcomes need not be the same elsewhere, and at the time of writing the project's realisation remained uncertain (p. 7)."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not the authors' claims. The article combines Harvey's political economy (capital switching, land as fictitious capital) with an institutional view of local government capacity. On structure versus agency it is more balanced than Harvey: financial structures push, but the municipality's choice to regulate rather than intervene proactively shapes the outcome, and the authors reject inevitability. It describes emergent rather than deliberate change: nobody planned the gridlock; it grew from successive ownership deals. Its knowledge claims are situated (one extreme Italian case, explicitly contrasted with Weber's Chicago) but generalised through a mechanism. Normatively it defends local socio-spatial equity and public steering of development.",
+    "Within week 6 it pairs well with Harvey (entrepreneurial speculation with public risk becomes, a generation later, financialised speculation with layered private risk) and with Hyötyläinen and Haila, who worry that selling Helsinki land to an investment company could start creating liquidity out of spatial fixity (their phrase, borrowed from Gotham). For Dutch planning, the call for proactive public land development connects to the tradition of active municipal land policy and its retreat after 2008, which would make a good comparison case (again, a link I am drawing, not the authors)."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Hamburg's Elbtower stalls with Signa",
+  "d": "In November 2023 Reuters reported that construction of the Elbtower in Hamburg's HafenCity, a 64-storey tower valued at about €1.3 billion, had stopped at almost 100 metres because developer Signa, René Benko's Austrian property group, stopped paying builder Lupp. Senator Karen Pein said the contract lets Hamburg dismantle the work, sell it to a third party for completion, or complete it itself.",
+  "why": "Read through Savini and Aalbers, this is de-contextualisation: the fate of a landmark in Hamburg was decided by the debts of a distant, layered investment group hit by rising interest rates, not by local planning needs. As in Sesto San Giovanni, the city ends up negotiating over a stalled asset. Limit: Hamburg's contract gives it fallback options the Milan municipality lacked, and the cause is a sector-wide rate shock as much as financial layering.",
+  "src": {
+   "name": "Reuters (via Cyprus Mail)",
+   "title": "Hamburg skyscraper construction halted in grim sign for German property sector",
+   "url": "https://cyprus-mail.com/2023/11/03/hamburg-skyscraper-construction-halted-in-grim-sign-for-german-property-sector",
+   "date": "2023-11-03"
+  }
+ }
+}

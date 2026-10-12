@@ -1,0 +1,772 @@
+[
+ {
+  "id": "p1",
+  "title": "Perspectives on sustainability",
+  "lecture": [
+   "From 1962–72 (the foundational decade) to Brundtland (1987): sustainable development meets present needs without compromising future generations. Its aim was political (consensus), with not absolute limits but limits of current technology and social organisation. It remained, in essence, a pro-growth agenda. Today: planetary boundaries (Rockström, Steffen, Richardson).",
+   "Weak vs strong sustainability: weak (neo-classical, Solow) assumes natural and other capitals are substitutable; strong assumes they are complementary, not interchangeable (planetary boundaries). The conventional three-pillar/Venn view is from Purvis et al.",
+   "Dilemma: 'sufficiently vague'. Daly: sustainable development was left vague on purpose to build consensus; growth (getting bigger) ≠ development (getting better); three rules (renewables not faster than regrowth; non-renewables not faster than substitutes; waste not faster than absorption). Swyngedouw (2010): sustainability as post-political: 'impossible not to support', can be captured by incumbents, and it closes off the political question of which natures we want.",
+   "Strategies (Huber, via Rudolf & Schmidt 2025): efficiency (tech gains per unit), sufficiency ('seeking enough when more is possible', Princen), consistency (qualitative change in industrial metabolism, mimicking natural cycles). Social sustainability is neglected and messy: Vallance et al. (2011) name development, bridge and maintenance sustainability.",
+   "Næss (2001): the first paper on sustainable development in urban planning. Planning orthodoxy (communicative turn) can neglect substantive content; he is somewhat sympathetic to the compact city; argues for per-capita degrowth of building stock; the city in ecology (non-local consequences). Form vs process (Neuman): 'the primacy of process over form'."
+  ],
+  "man": {
+   "cite": "Næss, P. (2001). Urban Planning and Sustainable Development. European Planning Studies 9(4), 503–524.",
+   "one": "Truly sustainable urban development needs far more ambitious policy than today, and continuous growth of the building stock in rich countries is incompatible with it. So planning must hold substantive long-term goals and build alliances with supporters of equity and environmental values, rather than seek consensus with everyone.",
+   "summary": [
+    "'If sustainability is everything, maybe it's nothing?' Procedural planning theory is detached from substance; for sustainability that is inappropriate, because suitable procedures depend on the goals (bottom-up works if local lifestyles fit the goals, not if they are the problem).",
+    "Substantively: limit energy use, pollution and loss of natural and arable land. Re-use urban areas and densify (compact city) as a strategy, but continuous growth of floor space per capita undermines it, so per-capita building stock must stop growing in wealthy countries (Brundtland's global equity).",
+    "Procedurally: use knowledge of environmental consequences and long-term goals, but not only means-ends rationality. He criticises consensus-based communicative planning (a consensus criterion for truth is problematic for environmental knowledge) and proposes scenarios and alliance-building among groups that support the basic equity and environmental values."
+   ],
+   "concepts": [
+    [
+     "Substantive vs procedural planning theory",
+     "What planning should achieve vs how it should proceed; Næss wants substance back."
+    ],
+    [
+     "Compact city",
+     "Densification/re-use to save land and reduce travel; a means, not a guarantee."
+    ],
+    [
+     "Per-capita degrowth of building stock",
+     "Growth in floor space cancels out efficiency gains."
+    ],
+    [
+     "Alliance-building",
+     "Coalitions with supporters of sustainability values instead of all-stakeholder consensus."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Greater Oslo travel gradient",
+     "d": "Survey data from Greater Oslo show that residents living further from downtown travel more by motorised modes, even after controlling for socio-economic factors (Figure 1). Næss uses this to back the compact city as the most energy-conscious urban form, a substantive planning goal rather than a procedural one.",
+     "src": "text",
+     "p": "pp. 508-509"
+    },
+    {
+     "t": "Nordic floor space doubled",
+     "d": "Each Norwegian and Dane has on average more than 50 m² of residential floor area, twice as much as 30 to 35 years earlier and about 70% more than affluent Japan. This is his core case for per-capita degrowth of the building stock: efficiency gains in new buildings are cancelled out by ever more floor space.",
+     "src": "text",
+     "p": "p. 512"
+    },
+    {
+     "t": "NAMIT trend vs environmental scenario",
+     "d": "The Norwegian research project 'Environmentally Sound Urban Development' (NAMIT) compared a 'trend' and an 'environmental' scenario for three urban areas; its dissemination raised planners' awareness and probably contributed to less sprawling development in Norway in the 1990s. It illustrates his proposal of scenarios as a way to make long-term sustainability goals concrete and debatable.",
+     "src": "text",
+     "p": "p. 519"
+    },
+    {
+     "t": "Aalborg: power beats good plans",
+     "d": "Næss cites Flyvbjerg's study of a prize-winning environmental project in Aalborg whose implementation was distorted, concluding that planners need influential alliance partners and strategic skills. This is why he prefers alliance-building among supporters of sustainability over consensus with all stakeholders, including those who profit from unsustainable development.",
+     "src": "text",
+     "p": "p. 519"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p2",
+  "title": "Are cities sustainable?",
+  "lecture": [
+   "Facts: cities use ~70% of resources and energy, emit ~70% of CO₂ and produce 75–80% of waste; 60%+ lie on coasts; 1.6bn people live in inadequate housing (1bn in slums). Inequality is higher in urban areas (Gini higher in 36 of 42 countries). Domestic Material Consumption grows faster than population; cities' share rises from 50% (2010) to 60% (2050). Shrinkage is a new challenge too.",
+   "Definitions vary (Mega & Pederson; Hamilton et al.; Wu 2014: 'an adaptive process… ecosystem services and human well-being'), and measurement is weak: only ~80 cities have consistent CO₂ data (World Bank). Tanguay et al.: indicators suffer from vague definitions, no standard classification, and data limits.",
+   "Pessimistic view: cities cause unsustainability; planning is geared to growth (corridors, entrepreneurialism, competition); injustices linger (climate gentrification, Miami); an implementation gap; McPhearson's 'dystopian Anthropocene'; radical shifts are needed. Optimistic view: urbanisation as a 'positive force for transformation' (UN-Habitat); economic (agglomeration, innovation), political (C40, mayors), organisational (bypass national blockages) and conceptual (systems) arguments; compact cities, 15-minute city; big low-cost emission cuts in buildings and transport.",
+   "Angelo & Wachsmuth: why does everyone think cities can save the planet? Because of sprawl, informal settlements and climate change. The urban agenda moved from the MDGs (Target 7D, slums) to the universal SDGs with a standalone urban goal (SDG 11). Limits: Krähmer (degrowth critique). Conclusions: cities are disproportionately unsustainable; urban form matters but depends on income and commuting; is absolute sustainability impossible, and do we need a relative conception?"
+  ],
+  "man": {
+   "cite": "Angelo, H. & Wachsmuth, D. (2020). Why does everyone think cities can save the planet? Urban Studies 57(11), 2201–2221.",
+   "one": "Global policy flipped from 'the city as sustainability problem' to 'the city as sustainability solution'. This rests on three developments rooted in the 1970s and intensified in the 1990s: reactions to sprawl (North), to informal settlements (South, UN-Habitat 1978) and to climate change (connecting both).",
+   "summary": [
+    "The 'urban sustainability' consensus now looks commonsensical, even inevitable, and is tied to entrepreneurial, competitive urban governance. Urban planning and sustainability planning are merging.",
+    "Three roots: (1) sprawl: the Global North sustainability agenda reacts to decades of car-based expansion (compact city, smart growth); (2) informal settlements: an international agenda on the environmental deficits of informal urbanisation in the Global South; (3) climate change: the overarching concern linking North and South.",
+    "It is a two-sided story: urbanists turned to the environment, and environmentalists turned to the city (e.g. The Nature Conservancy's urban programme). Research agenda: historical, multi-spatial, political and representational analysis of urban sustainability thinking, rather than accepting it at face value."
+   ],
+   "concepts": [
+    [
+     "City as problem → solution",
+     "The discursive shift in global urban-environmental policy."
+    ],
+    [
+     "Three roots",
+     "Sprawl, informal settlements, climate change."
+    ],
+    [
+     "Methodological cityism",
+     "Treating the city as the self-evident scale of analysis and action (Angelo & Wachsmuth 2015)."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "From Ecotopia to compact city",
+     "d": "Callenbach's novel Ecotopia (1975) imagined abolishing cars and economic growth altogether, while by 1985 Peter Calthorpe argued the city is 'the most environmentally benign form of human settlement' and in 1998 the Sierra Club cast sprawl as an ongoing catastrophe. This shows the sprawl root: the solution shifted from 'less city' (limiting growth) to 'more city' (density).",
+     "src": "text",
+     "p": "pp. 2205-2206"
+    },
+    {
+     "t": "'How slums can save the planet'",
+     "d": "In 2010 Stewart Brand called informal settlements 'unexpectedly green' because of their density, and places like Dharavi in Mumbai came to be celebrated as hotbeds of creativity; in 2016 Alejandro Aravena won the Pritzker Prize for housing based on informal settlements' incremental growth. This is the informal-settlement root: from environmental problem to model for sustainable urbanism.",
+     "src": "text",
+     "p": "p. 2207"
+    },
+    {
+     "t": "Chicago Climate Charter",
+     "d": "After Trump announced the US withdrawal from the Paris Agreement, mayors in Canada, Mexico and the USA signed the Chicago Climate Charter to uphold the Paris targets anyway. It shows the climate root: as multilateral treaties floundered, cities and mayors were cast as the climate protagonists.",
+     "src": "text",
+     "p": "p. 2209"
+    },
+    {
+     "t": "Austin's revanchist green clean-up",
+     "d": "Tretter (2013) showed how the growth machine in Austin, Texas used environmentalism for a 'clean-up' of downtown that shifted the costs of growth onto the city's homeless population. It illustrates the authors' political research agenda: urban sustainability has become pro-growth and system-affirmative, and can exclude poorer residents.",
+     "src": "text",
+     "p": "p. 2214"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p3",
+  "title": "Sustainability: a planning dilemma",
+  "lecture": [
+   "Three perspectives on planning and urban sustainability: normative (McPhearson's five principles; EEA; UN-Habitat), dilemma-based (Campbell's triangle) and critical (Krähmer, Næss, post-growth).",
+   "Planning is 'nearly always dilemmatic' (Khakee 2020): the future is uncertain. Wicked problems (Rittel & Webber) and 'messes' (Ackoff). Type I (tame), Type II (definable, no clear solution) and Type III (neither: continual learning) (DeFries & Nagendra 2017). A dilemmas paradigm: many stakeholders and interpretations, trade-offs at best and conflicts at worst, so conflict resolution is key: a 'viable compromise between sustainable and unsustainable practices' (Campbell 2016). Capitalism 'creates conditions of unceasing growth, upheaval, and disruption'.",
+   "Green gentrification as the core dilemma: greening raises land values and displaces those it was meant to serve (Gould & Lewis 2017: a 'green growth machine'; Anguelovski 2015: green LULUs; Checker 2011). Barcelona: 18 parks, where gentrification depended on location (old town yes, isolated periphery no; Anguelovski et al. 2018). Atlanta BeltLine: home values rose 17.9–26.6% more within half a mile (Immergluck & Balan 2018). Anguelovski et al. 2022: greening is the lead explainer of gentrification in 8 of 17 cities, integrated in 6, subsidiary in 3. Responses: 'just green enough' (Wolch et al. 2014), anti-displacement planning, community land trusts."
+  ],
+  "man": {
+   "cite": "Campbell, S.D. (1996). Green cities, growing cities, just cities? Urban planning and the contradictions of sustainable development. JAPA 62(3), 296–312.",
+   "one": "Planners work within the tension among three aims (economic growth, environmental protection, social equity): the planner's triangle. Sustainable development sits at its unreachable centre and can only be approached indirectly, by confronting and resolving the conflicts.",
+   "summary": [
+    "Nothing in planning steers it towards green, growth or justice. Its conflicts go to 'the historic core of planning' and are not just misunderstandings between disciplines, but real clashes of interest.",
+    "Three conflicts: property conflict (economy ↔ equity: private sector both resists and needs intervention; property's contradictory nature); resource conflict (economy ↔ environment: business resists regulation of nature but needs it to conserve resources, e.g. timber vs spotted owl); development conflict (equity ↔ environment: the most elusive, e.g. protecting nature vs poverty reduction, elite environmentalism; Krumholz's rail vs bus choice in Cleveland).",
+    "Sustainable development as currently formulated romanticises a sustainable past and is 'too vaguely holistic'. Planners need social theory plus environmental thinking, and substantive skills plus conflict-resolution techniques, to confront economic and environmental injustice. Nature is socially constructed, not 'man vs nature'."
+   ],
+   "concepts": [
+    [
+     "Planner's triangle",
+     "Green (environment) · growing (economy) · just (equity), with sustainability at the centre."
+    ],
+    [
+     "Property conflict",
+     "Economic growth ↔ social equity."
+    ],
+    [
+     "Resource conflict",
+     "Economic growth ↔ environmental protection."
+    ],
+    [
+     "Development conflict",
+     "Social equity ↔ environmental protection: the most elusive."
+    ],
+    [
+     "Three planner types",
+     "Economic development planner, environmental planner, equity planner."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Noxious land uses as 'jobs'",
+     "d": "Poor urban communities are often forced to choose between economic survival and environmental quality when the only economic opportunities offered are incinerators, toxic waste sites and landfills that richer neighbourhoods can afford to refuse. Campbell uses this to show the development conflict (equity vs environment) and why environmental racism lies at its heart.",
+     "src": "text"
+    },
+    {
+     "t": "'Trickle-down environmentalism'",
+     "d": "Campbell quotes the Brundtland Report's call to revitalise global economic growth and labels the logic 'trickle-down environmentalism': grow the economy to afford environmental protection. He argues it only works if growth is fairly distributed, so the development conflict can only be solved together with the property conflict.",
+     "src": "text"
+    },
+    {
+     "t": "Coachella lizard and New Jersey plan",
+     "d": "The Coachella Valley Fringe-Toed Lizard Habitat Conservation Plan was praised as a model process, yet may not adequately protect the lizard; New Jersey's State Development Plan was praised for its cross-acceptance procedure but arguably did not alter sprawl. Both show the limit of procedural paths: a good process does not guarantee a sustainable outcome.",
+     "src": "text"
+    },
+    {
+     "t": "New York greenways (Checker)",
+     "d": "The slides cite Checker (2011) on 'environmental gentrification' in New York City's greenway and brownfield-to-park conversions, where new green amenities concentrated benefits among those who could afford to live nearby. It is the development conflict in practice: an environmental gain that undermines equity.",
+     "src": "slides"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p4",
+  "title": "The Dutch planning system",
+  "lecture": [
+   "Why a planning system? To balance tensions: flexibility vs legal certainty, property rights vs public regulation, expertise vs participation, central vs decentral, comprehensive vs sectoral. Functions: spatial quality, arranging the spatial effects of sectors, comprehensive weighing of claims, coordination, democratic justification, legal protection and certainty. Planning is part of the executive (trias politica). Art. 21 of the Constitution: habitability and protection of the living environment.",
+   "History: a Napoleonic tradition (top-down) yet a decentralised unitary state (Thorbecke 1848; 'House of Thorbecke' vertical coordination). National = strategic (>10 yrs), provinces = tactical (5–10), municipalities = operational (<5; binding zoning). Pendulum swings: beyond blueprint and the 'makeable society', beyond entrepreneurial and participatory planning, yet none of these has gone.",
+   "Three municipal strategies: inside (public land instruments), outside (acting as a private stakeholder: active land policy) and alongside (open planning, 'polderen': early stakeholder involvement, draagvlak, extra-legal covenants; informal first, law codifies later). Active land policy: buy, service and sell land (VINEX → NOVEX), a 'double hat' problem, only works in rising markets (municipal losses 2008–10; Rijnenburg again). Omgevingswet: care for the living environment, the Omgevingsvisie and Omgevingsplan, complementary task allocation (stronger provinces, project decisions). Instruments: pre-emption right (voorkeursrecht), expropriation, leasehold (erfpacht).",
+   "Just city? Informal planning can mean co-creation or tokenism; active land policy means control vs financial risk; public instruments mean legitimacy vs rigidity. Wicked problems are beyond state or market alone. Governance raises questions: who owns the land, who is represented, the meta-governance problem, grey accountability, power imbalances."
+  ],
+  "man": {
+   "cite": "Witte, Wiegmans & Louw (2025). More claims than land: multi-facetted land use challenges in the port-city interface. Journal of Transport Geography 124.",
+   "one": "In dense port-cities (Rotterdam, Amsterdam) the net port area is stable, but land-use claims from energy transition, circular economy, climate adaptation, housing, biodiversity and regulation are multiplying: cumulatively there are 'more claims than land', so conflicts will intensify.",
+   "summary": [
+    "The port-city is usually analysed one-dimensionally (economic efficiency) and at one level. The authors argue for a multi-facetted, multi-level view (port region, port-city interface, waterfront).",
+    "Method: quantitative analysis of land supply over time in Rotterdam and Amsterdam plus a qualitative analysis of port visions and annual reports. Available land has declined over decades, with many internal dynamics. Rotterdam's coastal extension gives more 'puzzling space' than confined Amsterdam (e.g. Haven-Stad housing pressure).",
+    "Mitigation framework: distinguish levels (region–port-city–waterfront) and types of claims (urban, environmental, economic) to structure conflict types and solutions across institutional contexts."
+   ],
+   "concepts": [
+    [
+     "Port-city interface",
+     "Zone where port functions and urban functions meet and compete."
+    ],
+    [
+     "More claims than land",
+     "Cumulative claims exceed available land even if net claims don't."
+    ],
+    [
+     "Multi-level port-city",
+     "Port region · port-city interface · waterfront."
+    ],
+    [
+     "Puzzling space",
+     "Room to rearrange land uses (larger in Rotterdam than Amsterdam)."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Houtrakpolder: three claims, one polder",
+     "d": "The province of North Holland reserves the Houtrakpolder as a possible expansion area for the Port of Amsterdam, the municipality of Haarlemmermeer contests this, and the same polder is also considered for excess rainwater storage. The reservation is linked to Amsterdam's Haven-Stad housing plan, which will cost 135 ha of port sites. This is 'more claims than land' at the port-region level: port economy, housing and climate adaptation compete for one site.",
+     "src": "text",
+     "p": "p. 8"
+    },
+    {
+     "t": "Amsterdam's fossil phase-out",
+     "d": "Amsterdam decided in 2008 to allow no new terminals for transport fuels, closed one of three coal terminals in 2023 by not renewing its leasehold, and aims to phase out fossil fuel handling by 2030, freeing about 370 ha for hydrogen, electricity and circular industries. It shows how energy-transition claims reshuffle port land internally, and how leasehold works as a land-policy instrument.",
+     "src": "text",
+     "p": "p. 8"
+    },
+    {
+     "t": "Westpoort runs out of noise",
+     "d": "The Port of Amsterdam had to insulate homes in Zaanstad after an expanded noise zone, and some vacant port plots could not be allocated because there was no noise capacity left; the 2016 annual report warned of insufficient environmental space across Westpoort. It shows that 'environmental space' (noise, safety, emissions) is itself a claim on land: land can be physically empty yet unusable.",
+     "src": "text",
+     "p": "p. 8"
+    },
+    {
+     "t": "Maasvlakte II nature compensation lags",
+     "d": "The Voordelta nature compensation for the Second Maasvlakte was agreed to happen alongside construction rather than before it, but monitoring shows it lags behind the economic targets, and in 2024 the nature organisations that signed the covenant threatened to go to court. It illustrates the growing tension between environmental and economic claims even in Rotterdam, where more 'puzzling space' exists.",
+     "src": "text",
+     "p": "p. 9"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p5",
+  "title": "Fight, flight or freeze? Governing Moerdijk",
+  "lecture": [
+   "Moerdijk: a village next to a major port. 2011 Chemie-Pack chemical fire; 2013 port development strategy ('Port Vision 2030' → compensation planning, the 'Moerdijk regulation'; Committee Nijpels investments of €10m + €8m); 2025 renewed debate on the village's future (PowerPort, energy transition).",
+   "Spatial externalities of port regionalisation: villages vs 'the greater good'. Three governance approaches: Fight (village stays: Pernis, Rozenburg, Heijplaat; Doel?, Ruigoord?), Freeze (village slowly disappears: Nieuwesluis, Blankenburg; Lillo, Oorderen…; Lützerath), Flight (village moves: Kiruna, Weiwerd, Oterdum, Heveskes, Immerath).",
+   "Discussion: why is Moerdijk strategic? NIMBY or more at stake? Who takes the initiative and decides? What is a just outcome: stay, move, compensation? The same mandatory reading as lecture 4 applies (more claims than land)."
+  ],
+  "man": {
+   "cite": "Same mandatory reading as lecture 4: Witte et al. (2025).",
+   "one": "Applies 'more claims than land' to a village-scale conflict between port growth, the energy transition and residents.",
+   "summary": [],
+   "concepts": [
+    [
+     "Fight / flight / freeze",
+     "Village stays / relocates / is left to decline."
+    ],
+    [
+     "Compensation planning",
+     "Mitigating harm to residents instead of preventing it."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Chemie-Pack to 'Moerdijk regulation'",
+     "d": "After the 2011 Chemie-Pack chemical fire, Moerdijk moved from strategic planning (Port Vision 2030) to compensation planning (the 'Moerdijk regulation'), with investments of €10 million plus €8 million following the Committee Nijpels. It shows compensation planning: mitigating harm to residents rather than preventing the conflict between port and village.",
+     "src": "slides"
+    },
+    {
+     "t": "The village that stayed after all",
+     "d": "The slides link a news item on Moerdijk making way for industry and a later one titled 'the village that stayed after all', followed by renewed debate in 2025 on the village's future under PowerPort and the energy transition. It shows that fight, flight or freeze is not a one-off decision: new land claims from the energy transition can reopen it.",
+     "src": "slides"
+    },
+    {
+     "t": "Pernis, Rozenburg, Heijplaat: fight",
+     "d": "Witte lists these Rotterdam villages as 'fight' cases where the village stays while the port grows around it, with Doel (Antwerp) and Ruigoord (Amsterdam) marked with a question mark. They show that a village surviving inside a port region is possible, but its future stays contested.",
+     "src": "slides"
+    },
+    {
+     "t": "Delfzijl villages that gave way",
+     "d": "Weiwerd, Oterdum and Heveskes near Delfzijl appear on the slides among villages that disappeared for port and industrial development, alongside examples from Rotterdam (Nieuwesluis, Blankenburg) and Antwerp. They are the counterpoint to 'fight': the 'greater good' of port regionalisation won over the village.",
+     "src": "slides"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p6",
+  "title": "Planning for sustainability in African cities",
+  "lecture": [
+   "Over half of Africa's urban population lives in informal settlements, often on marginal, risky land. Colonial planning (British: military planning, then master planning via Town Planning Ordinances 1920s–50s) meant evictions, commodification of land, dual land laws, institutionalised racism, 'public health' discourses and green belts as exclusion (Njoh: domination, intimidation, surveillance). Legacies: fragmentation (Maputo: services only for the colonial city), elite capture of European areas, costly services, assumptions of tax bases and data capacity that did not hold.",
+   "Postcolonial thinking: colonial knowledge production served domination; theory shouldn't be produced mainly in the West (Miraftab: planning treats Southern cities that don't fit Western models as failures). Post-independence master planning persisted (Accra; Dodoma under Ujamaa), centralised, by foreign consultants, little participation, often elite-captured. Southern urbanism: 'seeing from the South' (Watson), 'ordinary cities' (Robinson), conflicting rationalities.",
+   "Slums and informality: Roy (2007/2011): informality as a mode of urbanisation and a state practice of (de)legitimising (wealthy malls can be 'informal' yet legitimate). Upgrading shifted from resettlement to in-situ, participatory upgrading (risk: benefits landlords). De Soto: give titles to 'heroic entrepreneurs' to unlock capital. Critics: tenure security doesn't need title; titling is costly; it favours those who can exploit markets.",
+   "Trends: insurgent planning (Miraftab: invited vs invented spaces), inverse governmentality, co-production; TOD and 'Corridors of Freedom' (Johannesburg), only partly realised; gated communities and new cities (Tatu City, Kenya) cause fragmentation, evictions and prices out of touch with context (Keeton & Nijhuis 2019)."
+  ],
+  "man": {
+   "cite": "De Satgé, R. & Watson, V. (2018). Urban Planning in the Global South: Conflicting Rationalities in Contested Urban Space. Palgrave, ch. 1–2.",
+   "one": "Planning theory and 'best practices' are place-blind, built on Global North assumptions (strong civil society, capable institutions, formal economies). In Southern cities, state–society engagement is shaped less by a shared 'public interest' than by deep conflicting rationalities between techno-managerial, marketised state planning and marginalised communities surviving under informality.",
+   "summary": [
+    "Ch. 1: a southern turn challenges Northern knowledge assumed to hold everywhere. The Global South differs (rapid urbanisation, weak civil society, under-resourced institutions, informal economies, poverty) and is shaped by colonial histories; 'southern' is a perspective, not a geography. Imported 'best practices' (Garden City, neighbourhood unit, Radburn) justified apartheid removals. Case: Langa, Cape Town (1923 Garden City township), the N2 Gateway megaproject (Breaking New Ground policy, 2004) that sought to 'eradicate' informality at Joe Slovo settlement.",
+    "Watson (2003) coined conflicting rationalities from a Cape Town inquiry: clashing state and shack-dweller worldviews that Habermasian consensus planning cannot resolve. Planners must work with deep difference. Method: a paradigmatic single case (Flyvbjerg), retroductive, with visual methods (photo-elicitation) and interviews in English and Xhosa.",
+    "Ch. 2: a 'southern theorising project' rather than a new North/South binary: critical perspectives on existing theory, rooted in place ('origin narratives', phronesis), with meso-level generalisation. Rationality = a way of seeing, linked to power (Foucault; Flyvbjerg & Richardson): power defines what counts as rational; 'technical' framing is an exercise of power. Identity (race, class, gender, language) shapes rationality; language filters meaning. Governmentality, the shadow state. The 'interface' (Li 2007) is where rationalities clash. Proposition: conflict of rationalities, not a public interest, is the starting point."
+   ],
+   "concepts": [
+    [
+     "Southern turn / southern theorising project",
+     "Critique of place-blind Northern theory; a perspective, not a geography."
+    ],
+    [
+     "Conflicting rationalities",
+     "Techno-managerial, modernising, marketised state planning vs survival logics of marginalised, often informal residents."
+    ],
+    [
+     "Interface",
+     "Times and places where rationalities meet and contest (Li 2007)."
+    ],
+    [
+     "Rationality as power",
+     "Power defines what counts as rational/reality (Foucault, Flyvbjerg)."
+    ],
+    [
+     "Best-practice 'landing'",
+     "Imported models applied without checking fit."
+    ],
+    [
+     "Informality (Roy)",
+     "A mode of urbanisation; the state decides what is legitimate."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Delhi's evictions 'in the public interest'",
+     "d": "Bhan (2016) shows how courts in Delhi appropriated the planning concept of acting 'in the public interest' to justify evictions of basti residents, some from long-established settlements. It illustrates rationality as power: a familiar planning norm is redefined to legitimise excluding the poor.",
+     "src": "text",
+     "p": "pp. 17-18"
+    },
+    {
+     "t": "Bogotá BRT, Brazilian participatory budgeting",
+     "d": "South-South borrowing (bus rapid transit from Bogotá) and even South-North borrowing (participatory budgeting from Brazil) are growing. The authors warn this often falls into the old 'best practice' trap, transferring models without understanding the contextual preconditions for success.",
+     "src": "text",
+     "p": "p. 17"
+    },
+    {
+     "t": "'Government knows what people want'",
+     "d": "Officials on the N2 Gateway knew community engagement should take place, but found it too daunting, and higher levels of government discouraged it on the grounds that a democratic government 'knows what the people want'. It shows the techno-managerial state rationality that clashes with residents' rationalities, and why consensus-based participation was never really attempted.",
+     "src": "text",
+     "p": "p. 4"
+    },
+    {
+     "t": "Mozambique: 7% state-built housing",
+     "d": "Of 86,300 houses built in Mozambique from 1980 to 1997, only 7% were supplied by the state, while master planning approaches that 'do not fit the realities of urban development' persisted. It shows the mismatch between imported planning models and how cities are actually built, largely informally.",
+     "src": "slides"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p7",
+  "title": "Planning for sustainability in Chinese cities",
+  "lecture": [
+   "Socialist planning (1950s–70s): strong state, no market, work units, 156 Soviet-aided industrial projects, satellite towns (Shanghai 1958) that failed to attract people. Legacies: hukou (1958) rural/urban registration that restricts migrants' access to services, and the dual land system (state-owned urban land with transferable use rights vs rural collective land that must be expropriated before urban use).",
+   "1989 City Planning Act: 'one report, two permits'; planning serves growth and controls urban, not rural, land, which led to sprawl. Shenzhen: from villages to a metropolis; 2,042 urban villages house ~60% of residents. Fragmentation before 2019: city, land-use, regional, ecological, transport and main-function-zoning plans each had their own maps. 1994 fiscal reform (locals keep ~25% of tax) → land finance → a land-driven growth coalition (cheap industrial land, expensive residential land), with environmental and social costs.",
+   "Collaborative turn? Legalised participation (2006, 2008 Act) became 'authoritarian deliberation': Enning Road, Guangzhou went from demolition and protest (2007) to micro-regeneration and a co-creation committee (2018). This reduced conflict but had limited influence, came late, and involved unequal power. It is instrumental rather than normative.",
+   "Experiments: eco-cities (>259; Sino-Singapore Tianjin Eco-City), greenways (Guangdong, 20,000 km, often reduced to transport), smart cities (>900; scale over effectiveness, hardware over software). Do these top-down experiments stay isolated showcases? Territorial Spatial Planning (2018–19): one system, one ministry (MNR), five levels, three types, three control lines (ecological red line, permanent basic farmland, urban development boundary), 'one map', a new law. Guangzhou 2021–35: 15-minute living circles, ecological corridors; weak legal backing until 2025."
+  ],
+  "man": {
+   "cite": "Liu, Y. & Zhou, Y. (2021). Territory spatial planning and national governance system in China. Land Use Policy 102, 105288.",
+   "one": "China's spatial planning was fragmented (many plan types, overlapping and conflicting, complex approvals, frequent revisions, weak implementation, no superior law), which caused imbalanced development, ecological damage and resource pressure. The national territory spatial planning (NTSP) system and legislation integrate these into one system, but major challenges remain.",
+   "summary": [
+    "A review of the evolution of Chinese spatial planning against strategic spatial planning in Europe (ESDP 1999). Problems: types, overlaps, approvals, revisions, implementation.",
+    "Measures: treat territorial space as a system; move from sectoral/special plans to integrated NTSP (the 2018 institutional reform, MNR); push for NTSP legislation as a milestone for governing space by law.",
+    "Challenges: formulation and implementation must fit the times, modernisation laws and local conditions; the authors give countermeasures (legal basis, coordination across levels, the 'one map' data platform, balancing development and protection)."
+   ],
+   "concepts": [
+    [
+     "NTSP",
+     "National territory spatial planning: one integrated system."
+    ],
+    [
+     "Three control lines",
+     "Ecological protection red line · permanent basic farmland · urban development boundary."
+    ],
+    [
+     "'Multiple plans in one'",
+     "Integrating land-use, urban-rural, main-function zoning and other plans."
+    ],
+    [
+     "Land finance",
+     "Local revenue from land sales after the 1994 fiscal reform."
+    ],
+    [
+     "Authoritarian deliberation",
+     "State-bounded participation with limited empowerment."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Four ministries, four time horizons",
+     "d": "Land use, urban-rural construction, main functional zone and environmental protection planning were run by four different ministries, with planning periods of 15, 20, 10 and 5 years respectively. This shows the fragmentation the NTSP reform targets: plans that could not align in timing or content, resolved by moving these functions into the Ministry of Natural Resources in 2018.",
+     "src": "text",
+     "p": "p. 4"
+    },
+    {
+     "t": "Same field, different land classes",
+     "d": "Urban-rural construction planning used a three-level land classification while land use planning used a two-level one, so farmland, forest and grassland were identified differently in different plans. It shows why 'multiple plans in one' and a single 'One Map' data base are needed before control lines can be enforced.",
+     "src": "text",
+     "p": "p. 3"
+    },
+    {
+     "t": "A hundred villages lost daily",
+     "d": "China's natural villages fell from 3.77 million in 1990 to 2.61 million in 2016, on average more than 100 villages a day, while more than 10,000 towns and street offices lost population between 2000 and 2010. The authors use this to argue that the urban development boundary and village planning must plan for shrinkage, not only growth.",
+     "src": "text",
+     "p": "p. 7"
+    },
+    {
+     "t": "Sino-Singapore Tianjin Eco-City",
+     "d": "Planned in 2008 on 30 km² of unusable land as a joint venture between a Tianjin investment group and Singapore state-owned enterprises, it combines water-saving, solar and green-building technologies with housing and industrial development. The lecture asks whether such top-down experiments change the wider planning system or remain isolated showcases, the problem the integrated NTSP is meant to address.",
+     "src": "slides"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p8",
+  "title": "Urban sustainability transitions",
+  "lecture": [
+   "Slides not uploaded yet (lecture on 1 Oct). This page is built from the mandatory reading and the recommended abstracts."
+  ],
+  "man": {
+   "cite": "Hodson, M., Geels, F.W. & McMeekin, A. (2017). Reconfiguring Urban Sustainability Transitions, Analysing Multiplicity. Sustainability 9(2), 299.",
+   "one": "Urban transitions aren't about single technological or social innovations but about how multiple innovations are experimented with, combined and reconfigured in existing urban contexts, and how that is governed. Innovation lies in the form of reconfiguration.",
+   "summary": [
+    "Many plans exist, but sustainable infrastructure on the ground is uneven. Using urban sustainable mobility, the paper bridges socio-technical transitions (national systems, MLP) and urban geography (space, place).",
+    "Three foundational themes: (1) experiments reconfigure relationships between multiple systems (automobility, rail, bus, cycling), linking experimentation with systems and spaces; (2) multi-level urban governance: arrangements may compete, co-exist or be coordinated; (3) competing conceptions of sustainability set different goals (e.g. mobility: reduce the need to travel, modal shift, shorter trips).",
+    "A preliminary framework to embrace multiplicity through 'reconfiguration'. It calls for theoretically informed ethnography and comparative work."
+   ],
+   "concepts": [
+    [
+     "Reconfiguration",
+     "Recombining multiple innovations and systems in a specific city."
+    ],
+    [
+     "Multiplicity",
+     "Many possible innovations, governance arrangements and sustainability conceptions."
+    ],
+    [
+     "Socio-technical transition",
+     "Shift of a whole system (technology, practices, institutions); MLP: niche–regime–landscape."
+    ],
+    [
+     "Experimentation–systems–spaces",
+     "Theme 1 of Hodson et al."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "London's bike hire scheme",
+     "d": "Greater London's scheme (from 2010, about 8,000 bikes and 500 docking stations by 2014) was run by Serco for Transport for London, sponsored by Barclays, and learned from Paris's Vélib; it built on a 2001 cycling strategy, the 2003 congestion charge and bus lanes open to cyclists. The authors use it to show that the innovation is not the bike but the process of embedding and reconfiguring existing systems.",
+     "src": "text",
+     "p": "p. 9"
+    },
+    {
+     "t": "Oxford electric, Brighton cycling",
+     "d": "UK research found 'clear differences' between city trajectories: Oxford promoted electric mobility, Brighton cycling innovations. It shows that reconfiguration is place-specific, since innovations that are radical in one city are the norm in another.",
+     "src": "text",
+     "p": "p. 9"
+    },
+    {
+     "t": "UK bus deregulation",
+     "d": "Although buses are organised mostly at the city scale, the UK state's deregulation and liberalisation of buses in the 1980s shaped local systems from above. It illustrates the multi-level governance theme: urban experiments sit within national arrangements that cities do not control.",
+     "src": "text",
+     "p": "p. 8"
+    },
+    {
+     "t": "Home working reduces travel",
+     "d": "Almost 14% of the UK workforce are 'home workers', which reduces the need to travel, but this results from economic restructuring and ICT, not from purposive mobility experiments. It shows why competing conceptions of sustainable mobility (reduce need to travel, modal shift, shorter trips, efficiency) are hard to govern through experimentation alone.",
+     "src": "text",
+     "p": "p. 11"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p9",
+  "title": "Urban experimentation and co-creation",
+  "lecture": [
+   "Slides not uploaded yet (5 Oct)."
+  ],
+  "man": {
+   "cite": "Bulkeley, H. et al. (2019). Urban living laboratories: conducting the experimental city? European Urban and Regional Studies 26(4), 317–335.",
+   "one": "Experimentation is not one thing. Comparing 40 European urban living labs, the authors find three ideal types (strategic, civic, organic) placed along four laboratory dispositions (trial, enclave, demonstration, platform).",
+   "summary": [
+    "The 'experimental city' is an arena through which urban sustainability is governed: demonstration projects, transition management, grassroots innovation.",
+    "Strategic ULLs: led by national or regional agencies and large partners, sponsored testing of new technologies or first-mover advantage (e.g. Aspern Urban Lakeside, Vienna). Civic ULLs: municipality-led, aiming at urban improvement and legitimacy. Organic ULLs: grassroots and community-driven, social and environmental wellbeing (e.g. Stapeln, Malmö).",
+    "Dispositions: trial (controlled test in 'real-world' conditions), enclave (a bounded microcosm set apart), demonstration (showing what's possible to others), platform (an open space for continuing interaction and new experiments). ULLs matter for how, where and by whom urban futures are shaped."
+   ],
+   "concepts": [
+    [
+     "Urban living lab (ULL)",
+     "A site-based, co-creative experiment in real-life urban settings."
+    ],
+    [
+     "Strategic / civic / organic ULLs",
+     "National/corporate-led · municipality-led · community-led."
+    ],
+    [
+     "Trial / enclave / demonstration / platform",
+     "Four laboratory dispositions."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Concept House Village, Heijplaat Rotterdam",
+     "d": "Started in 2011 by Rotterdam and Delft universities as a test bed for sustainable building and retrofitting, it got the site because the economic crisis had stalled redevelopment of Heijplaat; once the market recovered, the municipality moved the area into mainstream development ('you got it for five years'). It is the civic demonstration type and shows how contingent and temporary ULLs are.",
+     "src": "text",
+     "p": "pp. 16-17"
+    },
+    {
+     "t": "MK: Smart, Milton Keynes",
+     "d": "A consortium of the Open University and the council bundled separate smart energy, transport and data projects into one platform with a Data Hub and the OurMK ideas site (55 ideas, 11 citizen projects funded). It is a civic platform, formed partly as a tactic to gain resources and capacity under austerity.",
+     "src": "text",
+     "p": "p. 15"
+    },
+    {
+     "t": "Hållbarheten, Malmö",
+     "d": "In this custom-designed apartment house the energy company E.ON enrols residents to test energy-smart solutions to judge whether the technologies are viable at a larger scale. It is the strategic demonstration type: a corporate-led showcase for specific technologies.",
+     "src": "text",
+     "p": "p. 11"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p10",
+  "title": "Digital planning for sustainable urban futures",
+  "lecture": [
+   "Slides not uploaded yet (8 Oct)."
+  ],
+  "man": {
+   "cite": "Lin, Y.L., Geertman, S., Witte, P. & Pinto, N. (2025). Editorial: Digital planning for sustainable urban future. CEUS 122, 102334.",
+   "one": "Digital planning (PSS, urban analytics, digital twins, AI, VR/AR, gamification, e-participation) promises more efficient, effective and inclusive planning, but brings implementation, usability, bias, digital-divide and cybersecurity problems. It requires new ways of planning, not just new tools.",
+   "summary": [
+    "Cities face climate change, ageing, polarisation, unaffordability and mobility issues, and planning struggles with complexity and conflicting interests. Many countries are digitising planning (national plan registers; the UK Digital Taskforce; the Dutch Omgevingswet digitalising participation).",
+    "Opportunities: engagement via online platforms, crowdsourcing and social-media analysis; real-time and big data; digital twins for scenarios and consensus-building.",
+    "Risks: mismatch between technology supply and demand, user-unfriendly tools, socio-political bias, exclusion, a skills gap in authorities and universities, uneven and fragmented integration. Digitalisation needs proper methods and communication strategies, with insights from academia."
+   ],
+   "concepts": [
+    [
+     "Digital planning",
+     "Digital technologies and data-driven approaches to improve the efficiency, effectiveness and inclusivity of planning."
+    ],
+    [
+     "PSS / PSScience",
+     "Planning support systems / the science behind them (Geertman)."
+    ],
+    [
+     "Digital twin",
+     "A virtual replica of the city for simulation and scenarios."
+    ],
+    [
+     "Digital divide",
+     "Unequal access and skills, risking exclusion."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Zwolle's inclusive mapping tool",
+     "d": "A collaborative mapping tool was co-designed with and for people with disabilities to plan accessible public spaces in Zwolle. The study found that inclusive digital planning depends not only on software but also on hardware and the setting in which a tool is used, which addresses the digital divide directly.",
+     "src": "text",
+     "p": "p. 4"
+    },
+    {
+     "t": "Guangzhou social media participation",
+     "d": "Third parties and citizens used social media to spread information fast and raise their voices in a Guangzhou planning practice. It supported informal participation and reshaped government-society relations, but new power inequalities appeared within and beyond online networks.",
+     "src": "text",
+     "p": "p. 3"
+    },
+    {
+     "t": "Sydney's political urban analytics",
+     "d": "A study of urban analytics in a major strategic planning process in Sydney found that political factors shaped every part of the system, from which data were available to how analytics were used. It shows that PSS and analytics are not neutral tools, the socio-political bias the editorial warns about.",
+     "src": "text",
+     "p": "p. 3"
+    },
+    {
+     "t": "Eindhoven VR co-design",
+     "d": "Immersive VR was used to involve citizens and local stakeholders in co-designing healthier urban spaces in Eindhoven, and most workshop participants were positive. The study still recommends better visuals and multi-user functions, which shows the usability and supply-demand gaps between tools and practice.",
+     "src": "text",
+     "p": "p. 3"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p11",
+  "title": "AI, planning and sustainability",
+  "lecture": [
+   "Slides not uploaded yet (12 Oct)."
+  ],
+  "man": {
+   "cite": "Li, X.Y. & Dang, A.R. (2025). Comment: the disruptive effect of AI on urban planning. Nature Cities 2(7), 568–570.",
+   "one": "Unlike earlier tools (CAD, GIS) that kept humans interpreting, 'urban AI' automates critical-thinking tasks. This threatens planners' judgement, equity, democratic engagement and accountability, and so public trust and professional legitimacy. Harnessing AI responsibly needs critical engagement with its ethics.",
+   "summary": [
+    "Examples: Singapore AI traffic signals, Copenhagen AI energy forecasting, Los Angeles ML for housing allocation.",
+    "Four risks: (1) deskilling: algorithmic 'optimal' outputs gain authority and displace practitioner wisdom and value reconciliation; (2) algorithmic bias: data reflect historic inequities (redlining) and ignore unquantifiable values; (3) diminishing democratic engagement: fast automated decisions bypass deliberation; (4) blurred accountability: who is responsible when an algorithmic site choice triggers gentrification?",
+    "Needed: transparency, open data, clear accountability, planners keeping normative judgement, and planning education that updates core values."
+   ],
+   "concepts": [
+    [
+     "Urban AI",
+     "Machine learning that actively shapes governance and physical planning."
+    ],
+    [
+     "Deskilling",
+     "Loss of practitioner judgement through reliance on algorithms."
+    ],
+    [
+     "Algorithmic bias",
+     "Reproducing historic inequities through training data."
+    ],
+    [
+     "Accountability gap",
+     "Unclear responsibility for AI-driven decisions."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "CAD and GIS kept planners",
+     "d": "Computer-aided design in the 1980s and GIS in the 1990s transformed how planners visualise and analyse data but left interpretation and negotiation to humans. The authors use this contrast to argue that urban AI is different, because it automates the critical-thinking tasks themselves, which drives deskilling.",
+     "src": "text",
+     "p": "p. 568"
+    },
+    {
+     "t": "Journalism and manufacturing precedent",
+     "d": "In journalism and manufacturing, technology introduced as a supportive tool evolved quickly towards partial or full replacement of human roles. The authors cite this against the 'AI only augments planners' view, because pressures for speed and cost savings can override longer-term social goals.",
+     "src": "text",
+     "p": "p. 569"
+    },
+    {
+     "t": "Clinical decision-support analogy",
+     "d": "Doctors interpret output from clinical decision-support systems yet keep ultimate responsibility, and the authors want planners to act the same way as 'sense-makers' of AI output. This answers the accountability gap: responsibility stays with a human professional, not the algorithm.",
+     "src": "text",
+     "p": "p. 569"
+    },
+    {
+     "t": "Dutch childcare benefits scandal",
+     "d": "The Dutch tax authority used a risk-classification model for childcare benefit fraud that included nationality as a risk indicator; many parents were wrongly treated as fraudsters, and the cabinet resigned in January 2021. Not a planning case, but the same mechanisms: algorithmic bias in public decisions and blurred accountability for automated outcomes.",
+     "src": "similar"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p12",
+  "title": "Planning for post-growth cities",
+  "lecture": [
+   "Slides not uploaded yet (15 Oct)."
+  ],
+  "man": {
+   "cite": "Durrant, D., Lamker, C. & Rydin, Y. (2023). The Potential of Post-Growth Planning: Re-Tooling the Planning Profession for Moving beyond Growth. Planning Theory & Practice 24(2), 287–295.",
+   "one": "Planning has bound itself to a pro-growth agenda, and 'sustainable development' has been subsumed into it. Since absolute decoupling isn't happening, planners should re-tool existing instruments (for housing and infrastructure) to delink public goals from growth, and voice uncomfortable truths.",
+   "summary": [
+    "Planning's instruments were built to cope with and foster growth, and success is measured in money. Sustainability became eco-modernist green growth ('almost always possible to label… more development as sustainable', Krähmer). Degrowth is structural and economic; post-growth is a pragmatic, interdisciplinary search for radical alternatives within existing structures.",
+    "Decoupling: relative (impact grows slower) vs absolute (impact falls). There is little evidence of absolute decoupling: rebound (Jevons paradox), problem-shifting, overestimated recycling and circularity, underestimated service-economy impacts.",
+    "Post-growth tools: exclude land value capture (inherently pro-growth); protect land for public, social and community housing; set targets for self-build; mandatory life-cycle and carbon accounting; cumulative impacts; minimum AND maximum space standards; ceilings (not only targets) on development, redistributed from high-price to high-need areas; plan for shrinkage; reuse the existing stock; restrict second homes and short-term lets. Infrastructure: plan phase-outs alongside new build (cycling at the expense of roads; rail with less air capacity); interrogate 'do nothing' scenarios. Planners move from neutral managers to 'supportive holders of shared leadership', grounded in expertise about consequences."
+   ],
+   "concepts": [
+    [
+     "Degrowth vs post-growth",
+     "Structural, economic and North–South critique vs pragmatic re-tooling within existing structures."
+    ],
+    [
+     "Relative vs absolute decoupling",
+     "Slower impact growth vs actual impact decline."
+    ],
+    [
+     "Jevons paradox (rebound)",
+     "Efficiency gains increase total use."
+    ],
+    [
+     "Development ceilings",
+     "Absolute limits instead of growth targets."
+    ],
+    [
+     "Why exclude land value capture?",
+     "It depends on creating more monetised development value, which is pro-growth."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Sustainable beacon cities",
+     "d": "Cities that promote themselves as beacons of the sustainable transition may look far less exemplary once the consumption emissions of their residents' lifestyles are counted (Krähmer 2021). It illustrates why relative decoupling within city limits is not absolute decoupling, and why labelling more development as 'sustainable' is easy.",
+     "src": "text",
+     "p": "p. 289"
+    },
+    {
+     "t": "Amsterdam's holiday rental cap",
+     "d": "Amsterdam limits renting out a whole home to tourists to 30 nights a year (since 2019, down from 60). It is a real version of the post-growth tool Durrant et al. propose: restricting short-term lets so the existing stock serves housing needs instead of building more.",
+     "src": "similar"
+    }
+   ]
+  }
+ },
+ {
+  "id": "p13",
+  "title": "Planning with nature",
+  "lecture": [
+   "Slides not uploaded yet (19 Oct)."
+  ],
+  "man": {
+   "cite": "Hansen, R. et al. (2022). Transformative or piecemeal? Changes in green space planning and governance in eleven European cities. European Planning Studies 31(12), 2401–2424.",
+   "one": "A longitudinal study of 11 European cities: green space planning gets more attention and some cities overcome path dependencies (silos) and co-create with business and civil society. But most change is incremental, limited by maintenance, funding, organisational culture and staff capacity, with social justice and cultural diversity poorly recognised.",
+   "summary": [
+    "Rising high-level support for green space and co-governance, alongside social and ecological pressures.",
+    "Deliberate transformative change happened at high levels of local policy (new policies, co-governance cultures). Incremental changes (citizen interest, systems thinking, integrated planning, fewer silos) may seed future transformations.",
+    "Constraints are structural (resources, staff) and beyond green-space departments. Multi-scale policy frameworks, change management, training on social aspects, exnovation of 'lock-in' practices, and putting social and environmental justice at the heart of planning are needed."
+   ],
+   "concepts": [
+    [
+     "Transformative vs piecemeal/incremental",
+     "Deep system change vs gradual adjustments."
+    ],
+    [
+     "Path dependency / lock-in",
+     "E.g. siloed departments."
+    ],
+    [
+     "Exnovation",
+     "Deliberately phasing out lock-in practices."
+    ],
+    [
+     "Co-governance",
+     "Planning green space with citizens and business."
+    ]
+   ],
+   "examples": [
+    {
+     "t": "Utrecht's guilds and budget cuts",
+     "d": "Utrecht created 'guilds' (gildes) to bring sectors such as urban development and green space planning together in new housing areas, and ran ten neighbourhood green plans under the slogan 'Together we make Utrecht'. Yet these neighbourhoods suffered significant budget cuts, which shows the paper's pattern: silos are overcome step by step, but funding and capacity limit transformation.",
+     "src": "text",
+     "p": "pp. 2414-2416"
+    },
+    {
+     "t": "Berlin splits planning and green",
+     "d": "A reorganisation in Berlin separated the urban planning and green space planning departments, even physically into different buildings; cooperation still worked thanks to long-standing working relationships, but the interviewee feared it would erode when staff retire. It shows how fragile integration is when it rests on people rather than structures, a form of path dependency.",
+     "src": "text",
+     "p": "p. 2414"
+    },
+    {
+     "t": "Aarhus exchange agreements",
+     "d": "Aarhus's Municipal Plan (2017) led to 'exchange agreements' in which developers contribute to the common good, for example by creating new green spaces, in return for their economic gain. It illustrates the ambiguous link between urban growth and green space: growth funds greening, but also ties it to development.",
+     "src": "text",
+     "p": "p. 2413"
+    },
+    {
+     "t": "Helsinki's Green Area Factor",
+     "d": "Climate adaptation led Helsinki to adopt a Green Area Factor that requires sufficient green space for ecosystem services within new urban developments. It is an example of deliberate change at the level of formal policy tools, one of the few regulatory rather than voluntary responses in the study.",
+     "src": "text",
+     "p": "pp. 2412-2413"
+    }
+   ]
+  }
+ }
+]

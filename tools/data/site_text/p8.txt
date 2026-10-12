@@ -1,0 +1,202 @@
+{
+ "id": "p8",
+ "n": 8,
+ "theme": 2,
+ "title": "Urban sustainability transitions",
+ "who": "Shaun Smith",
+ "slides": false,
+ "lecture": [
+  "Slides not uploaded yet (lecture on 1 Oct). This page is built from the mandatory reading and the recommended abstracts."
+ ],
+ "man": {
+  "cite": "Hodson, M., Geels, F.W. & McMeekin, A. (2017). Reconfiguring Urban Sustainability Transitions, Analysing Multiplicity. Sustainability 9(2), 299.",
+  "status": "full",
+  "one": "Urban transitions aren't about single technological or social innovations but about how multiple innovations are experimented with, combined and reconfigured in existing urban contexts, and how that is governed. Innovation lies in the form of reconfiguration.",
+  "summary": [
+   "Many plans exist, but sustainable infrastructure on the ground is uneven. Using urban sustainable mobility, the paper bridges socio-technical transitions (national systems, MLP) and urban geography (space, place).",
+   "Three foundational themes: (1) experiments reconfigure relationships between multiple systems (automobility, rail, bus, cycling), linking experimentation with systems and spaces; (2) multi-level urban governance: arrangements may compete, co-exist or be coordinated; (3) competing conceptions of sustainability set different goals (e.g. mobility: reduce the need to travel, modal shift, shorter trips).",
+   "A preliminary framework to embrace multiplicity through 'reconfiguration'. It calls for theoretically informed ethnography and comparative work."
+  ],
+  "concepts": [
+   [
+    "Reconfiguration",
+    "Recombining multiple innovations and systems in a specific city."
+   ],
+   [
+    "Multiplicity",
+    "Many possible innovations, governance arrangements and sustainability conceptions."
+   ],
+   [
+    "Socio-technical transition",
+    "Shift of a whole system (technology, practices, institutions); MLP: niche–regime–landscape."
+   ],
+   [
+    "Experimentation–systems–spaces",
+    "Theme 1 of Hodson et al."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "London's bike hire scheme",
+    "d": "Greater London's scheme (from 2010, about 8,000 bikes and 500 docking stations by 2014) was run by Serco for Transport for London, sponsored by Barclays, and learned from Paris's Vélib; it built on a 2001 cycling strategy, the 2003 congestion charge and bus lanes open to cyclists. The authors use it to show that the innovation is not the bike but the process of embedding and reconfiguring existing systems.",
+    "src": "text",
+    "p": "p. 9"
+   },
+   {
+    "t": "Oxford electric, Brighton cycling",
+    "d": "UK research found 'clear differences' between city trajectories: Oxford promoted electric mobility, Brighton cycling innovations. It shows that reconfiguration is place-specific, since innovations that are radical in one city are the norm in another.",
+    "src": "text",
+    "p": "p. 9"
+   },
+   {
+    "t": "UK bus deregulation",
+    "d": "Although buses are organised mostly at the city scale, the UK state's deregulation and liberalisation of buses in the 1980s shaped local systems from above. It illustrates the multi-level governance theme: urban experiments sit within national arrangements that cities do not control.",
+    "src": "text",
+    "p": "p. 8"
+   },
+   {
+    "t": "Home working reduces travel",
+    "d": "Almost 14% of the UK workforce are 'home workers', which reduces the need to travel, but this results from economic restructuring and ICT, not from purposive mobility experiments. It shows why competing conceptions of sustainable mobility (reduce need to travel, modal shift, shorter trips, efficiency) are hard to govern through experimentation alone.",
+    "src": "text",
+    "p": "p. 11"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Cities, and the transport, energy, water and waste infrastructures that keep them running, are widely seen as crucial sites for a more sustainable future. Yet Hodson, Geels and McMeekin start from a puzzle: although there are many plans and a wide range of possible infrastructural innovations, the realisation of sustainable urban infrastructure on the ground is uneven (p. 1). Why do some cities end up with thriving cycling systems and others with electric cars, and why does so much stay the same? The paper does not answer this with a new case study. It is a conceptual paper: it reviews the literature on urban sustainability transitions and builds a preliminary framework, using examples from urban mobility (mostly in the UK) as a reference point.",
+     "The authors sit at the meeting point of two fields. Socio-technical transitions research studies how whole systems of technology, practices and institutions change over decades, usually at the national level. Urban geography studies space, place and scale. The authors want to 'extend and deepen' the dialogue between the two through three themes (pp. 1–2): moving the focus from national systems to the urban context; taking governance seriously without reducing it to the city level alone; and asking which innovations, in the plural, get selected and combined, a choice shaped by contested ideas of 'sustainability'. The risk, they admit, is that urban transitions then look like almost limitless combinations. Their answer is to focus on contextual forms of 'reconfiguration'.",
+     "Their core claim, stated in the abstract, is that urban transitions are not about technological or social innovation as such, but about how multiple innovations are experimented with, combined and reconfigured in existing urban contexts, and how that is governed: \"Innovation is in the particular form of reconfiguration rather than individual technologies\" (p. 1). The rest of the paper builds towards this claim in three steps: a review of how transitions research and geography have been combined, an extension of that work through mobility examples, and a preliminary framework for comparing how cities reconfigure."
+    ]
+   },
+   {
+    "h": "The starting point: the multi-level perspective and its geographical critics",
+    "p": [
+     "The paper first summarises the Multi-Level Perspective (MLP), the dominant model in transitions research (pp. 2–3). The MLP sees a transition as a multi-decade shift from one system to another and uses three levels. The 'socio-technical landscape' is the broad outside context that usually changes slowly (demographics, ideologies, climate change, macro-economics, the material form of cities) but can change quickly (wars, recessions, oil price shocks). The 'regime' is the set of rules, routines, regulations and standards that structure, but do not determine, what actors do in an existing system. 'Niches' are protected spaces where radical innovations are nurtured. In the classic story, landscape pressure cracks the regime and opens a window for a niche innovation that has built up momentum. Later work showed these mechanisms are far more complex, with several possible pathways.",
+     "Geographers criticised the MLP because its case studies were mostly national and treated space as given, underplayed or ignored (p. 3). For them, space and scale are actively and relationally produced: niche, regime and landscape are made by actors operating across space and time. This has consequences. A regime may be territorially uneven, and the 'same' niche can look very different in different places because the institutions and networks embedding it differ. A geographical view therefore asks about spatial difference and the co-existence of multiple transition pathways, not just about speed and timing (pp. 3–4). Cities became a key focus: eco-cities, retrofitting existing cities, building new ones, and the governance coalitions (local, national and international) that try to steer all this."
+    ]
+   },
+   {
+    "h": "Experimentation, and why a looser view is needed",
+    "p": [
+     "A newer strand of work looks at urban transitions through 'experimentation' (pp. 4–6). Under deep uncertainty, and with governing capacity spread over many actors and scales, it is hard to know what to do and how to do it, so attention shifts to processes in which technologies and social interests are assembled, tried out and learned from in a place. The concept has often been used loosely. Some authors therefore call for structured 'laboratory' spaces with instruments, control and measurement, such as Urban Living Laboratories. Drawing on Bulkeley and Castán Broto, the authors distinguish governance experiments (restructuring the local state to tackle urgent problems, claim resources or expand authority), socio-technical experiments (close to the MLP's niche) and strategic experiments in purposive urban labs. The first two are usually implicit, and these are the paper's focus (pp. 4–5).",
+     "Experiments are also shaped by wider forces and crises (p. 5). Economic, environmental and social crises trigger experiments with new governance rationalities, and researchers ask whether these reinforce neoliberal restructuring or produce something new. So a city's experimental development is not only an 'endogenous' search for local autonomy but also part of 'exogenous' global urban restructuring. Different visions of sustainability are mobilised in these struggles: a local, circular, self-sufficient city, or the city as a node in wider infrastructure networks, and both can co-exist as contradictory strategies. Since there is no single way to understand experimentation, the authors opt for a looser view: uncertain attempts to reconfigure infrastructures in place, shaped by governance experimentation (pp. 5–6).",
+     "From this review they draw three issues (p. 6). First, the material relationship between what is being embedded and the pre-existing infrastructure: experiments do not happen in 'hermetically sealed laboratories'. Second, the relationship between existing governance arrangements and the new networks formed around experiments. Third, how multiple conceptions of sustainability (air quality, carbon, congestion, local economy) shape experiments. The method is 'propositional and generative': examples come from existing mobility studies, not new fieldwork, and the claim to general relevance lies in the three propositions, which should also work for energy, waste and water (pp. 6–7)."
+    ]
+   },
+   {
+    "h": "Systems meet cities: why a bike is not the innovation",
+    "p": [
+     "Section 4 starts with how transport systems relate to the city as a scale of organisation (pp. 8–9). This 'correspondence' varies. Automobility has weak correspondence: it is governed by global car manufacturers, their alliances with national governments and oil interests, and roads and fuel stations are organised nationally. Aviation treats cities as nodes in a global system. Rail is partly urban but sits within a national system. Buses, light rail and cycling correspond more strongly, because most trips are local, though national decisions still matter, as the UK's bus deregulation of the 1980s shows. The practical implication: a city can shape some systems far more than others.",
+     "The London bike-sharing scheme illustrates the argument (p. 9). Bike sharing is a 'generic' intervention: bikes, smartcards, electronic payment, docking stations, GPS tracking. London learned from the Paris Vélib scheme; its scheme started in 2010, had around 8,000 bikes and 500 docking stations by 2014, was run by Serco for Transport for London, sponsored by Barclays and expected to cost £140m over six years. It was embedded in a longer policy trajectory: a 2001 cycling strategy, the 2003 congestion charge, bus lanes open to cyclists, and a £62m walking and cycling budget by 2008/9, with cycling trips up 79% between 2001 and 2011. As the authors put it: \"There is nothing particularly novel and innovative about a bike or a credit card-sized piece of plastic\" (p. 9). The innovation lies in the process of embedding.",
+     "This is why innovations that are radical in one city are normal in another; UK work shows Oxford promoting electric mobility and Brighton cycling (p. 9). It also challenges the MLP's typical image of one niche fighting one regime. A city usually hosts many innovations at once, where several regimes (auto-, bus- and velomobility) 'compete, coexist and complement' (they replace the fuzzy 'intermingle' with 'complement'; pp. 9–10). Transitions are then more open-ended than a decisive switch, and choosing the unit of analysis becomes a strategic, partly normative choice for which the researcher is responsible."
+    ]
+   },
+   {
+    "h": "Governance beyond the city",
+    "p": [
+     "Section 4.2 argues that the city may be where a transition becomes visible, but wider global flows set the conditions: economic restructuring, replicable global infrastructures, carbon agreements (p. 10). These possibilities are filtered by the institutions that claim to speak for a city, or for a zone, corridor or region. \"Cities are not bounded containers but embedded, territorial contexts within wider relational networks of flows\" (p. 10). Neoliberalism has shaped the parameters of urban restructuring for decades without determining local outcomes. 'Solutions' such as battery electric vehicles, self-driving cars or bike hire circulate between cities, but they are not simply replicable: they are embedded differently in each place.",
+     "The national state plays an active role too. Citing work on UK energy and carbon, the authors list five modes through which the state enrols cities (pp. 10–11): classic fiscal and regulatory levers; 'calculative instrumentalism' through spatial emissions targets; selectively enabling place-based entrepreneurial activity; 'marketised individualisation' in which state measures bypass city institutions and target individuals and communities directly; and building new energy communities through nationally promoted experiments. The result can be atomised, fragmented experimentation. The lesson is that we need a dialogue between institutional analysis and the study of experiments, not a choice for one of them (p. 11)."
+    ]
+   },
+   {
+    "h": "What counts as sustainable mobility is contested",
+    "p": [
+     "Section 4.3 asks whether all this adds up to a transition to sustainable mobility or merely a change in transport systems (p. 11). The term hides a basic disagreement: should reliance on the car be reduced, or can automobility itself be made sustainable? Following Banister's 'sustainable mobility approach', the authors list four sets of actions: reducing the need to travel (teleworking, online shopping); modal shift away from the car (slowing traffic, reallocating road space, walking, cycling, trams); reducing trip lengths through urban form (compact, smart or even traffic-free cities); and greater efficiency through new engines, fuels and standards. Each pathway involves several systems at once, and each is contested.",
+     "Two examples show this (pp. 11–12). Almost 14% of the UK workforce are 'home workers', but this results from economic restructuring and the information society, not from purposeful mobility experiments. The compact city aims to shorten trips, yet there is no accepted definition and the evidence is mixed; the 'compact city paradox' is that compaction concentrates people and functions while liveability calls for lower densities, and polycentric regions complicate the question of scale. Sustainability gains in one place may be losses elsewhere. The conclusion: \"Sustainable urban mobility provides orientation and a suite of possibilities rather than a prescribed route map\" (p. 12)."
+    ]
+   },
+   {
+    "h": "The framework: three entry points, three kinds of relationship",
+    "p": [
+     "Section 5 turns the argument into a framework (pp. 12–13, Table 1). Reconfiguration combines old and new, so its forms are 'by definition emergent' and uneven between places. The analysis should look at the relationship between existing configurations (old) and experimental assemblages (new) through three entry points: socio-technical arrangements, forms of urban governance, and conceptions of urban sustainability. For each, the authors describe a focus, the analytical challenge and research needs. The recurring device is a threefold distinction: relations can be competing, co-existing or complementary.",
+     "For socio-technical arrangements the question is: what do all these experiments add up to in a city (p. 14)? Researchers should look at how experiments connect to each other (UK evidence suggests many are episodic, with little strategic connection) and to existing systems. Competing means struggles of new against new or new against old; co-existing means parallel, largely independent arrangements; complementary means productive fusions. For governance, fragmented capacity produces multiple modes that may be mutually hostile, loosely coupled, or symbiotic, creating hybrid forms that do not fit existing typologies (pp. 14–15).",
+     "For sustainability, the authors note that 'urban sustainability' has become even slipperier since the 2007–08 financial crisis, jostling with smart, eco-, green and resilient cities, each of which relates economy, environment and society differently (p. 15). What sustainability means in practice (how much growth, carbon versus growth, social cohesion) is negotiated between actors. Accounts may compete, co-exist, or reinforce each other through issue linkage. The central question: which accounts of sustainability become dominant in shaping reconfiguration, and who promotes them?"
+    ]
+   },
+   {
+    "h": "Conclusions and what the authors want",
+    "p": [
+     "The conclusion names the core tension: the possibilities for change through technological and social innovation are many, but the grounded capacity to shape change is fragmented (pp. 15–16). Rather than be overwhelmed by multiplicity, the authors 'embrace' it through the concept of reconfiguration and three common themes that make cities comparable. They are open about the limits: this is a preliminary framework and a first step, there was no space to apply it, and the categories are unstable. The danger is that this instability leads researchers to not know how to study such complexity at all.",
+     "What they call for is empirical work in two forms. First, theoretically informed ethnography in individual cities, looking at all three themes together to see what reconfiguration adds up to there. Second, comparative work across cities to build typologies of forms and processes of reconfiguration, in mobility but also in energy, water, waste and 'nexus' approaches that integrate them. These findings should then feed back into the framework."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not the authors' claims. The paper rests on socio-technical transitions theory (the MLP) combined with relational geography. On structure versus agency it sits in the middle: experiments are acts of agency, but they are shaped, not determined, by multi-scalar structures such as neoliberal restructuring and state enrolment. On reproduction versus transformation it is sceptical of clean breaks: reconfiguration mixes old and new, and outcomes are open-ended. It is both deliberate (purposive experiments) and emergent (forms of reconfiguration are 'by definition emergent'). Knowledge is situated ('epistemology of the particular') yet aimed at comparability. It is pluralist about sustainability, and its normative stance is thin: it asks on whose behalf experiments work but does not choose an answer.",
+     "Links to earlier lectures: the paper explicitly cites Angelo and Wachsmuth's critique of 'methodological cityism' (L2) when arguing that wider global-urban flows frame what happens in cities. Its competing conceptions of sustainability echo Campbell's conflicts (L3), though Hodson et al. treat them as negotiations to be mapped rather than a triangle to be resolved. Næss (L1) would likely object to leaving sustainability this open: he wants substantive goals, while Hodson et al. study whatever sustainabilities actors mobilise. The idea of variable 'correspondence' between systems and cities is useful for the Dutch system (L4): national rail versus municipal cycling policy.",
+     "Forward links: Bulkeley et al. (L9) study exactly the explicit, purposive laboratories that Hodson et al. set aside, and ask the same question of how experiments add up to transitions. Banister's 'efficiency' pathway versus 'reducing the need to travel' prefigures the post-growth argument of Durrant et al. (L12), who would favour phase-outs over adding innovations. Hansen et al. (L13) find mostly incremental change, which fits Hodson et al.'s expectation of messy reconfiguration rather than a sharp switch."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Paris: bikes overtake cars",
+   "d": "A GPS mobility survey by the Institut Paris Région (October 2022 to April 2023, 3,337 participants) found that bicycles accounted for 11.2% of trips within Paris against 4.3% by car, and 14% versus 11.8% between Paris and the inner suburbs. Cycling had been about 3% of trips in 2010; the city reports 53,312 bike parking spaces created since 2020 and 97 new bike shops.",
+   "why": "Read through Hodson, Geels and McMeekin, the shift is not one innovation but a reconfiguration of multiple systems: bike lanes on major axes, parking, bike shops and the rebalancing of road space away from automobility together change how the mobility system works. It also shows the place-specific trajectory they stress, since the same tools produce different outcomes in other cities. Limit: the source is the City of Paris itself, and walking (53.5%) and public transport (30%) still dominate, so cars losing share is not only a cycling story.",
+   "src": {
+    "name": "Ville de Paris",
+    "title": "Bicycles outperform cars in Paris and its inner suburbs by far",
+    "url": "https://paris.fr/en/pages/bicycles-outperform-cars-in-paris-and-its-inner-suburbs-by-far-28354",
+    "date": "2024-04"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Existing (old) | systems, governance, | sustainabilities | Experiments (new) | embedding multiple | innovations in place | 1 Socio-technical | arrangements | 2 Urban governance | multi-level | 3 Sustainability | conceptions | Form of | reconfiguration | competing | co-existing | complementary | Shaped but not determined by global flows and national state enrolment (pp. 10–11)]",
+ "cap": "Hodson, Geels & McMeekin (2017): reconfiguration as the relation between old configurations and new experiments, analysed through three entry points (Table 1, p. 13).",
+ "rec": [
+  {
+   "cite": "Monstadt et al. (2022). Rethinking the governance of urban infrastructural transformations. COSUST 55.",
+   "basis": "Abstract retrieved",
+   "abs": "An 'infrastructural turn': infrastructures are no longer black-boxed in sustainability transformations. The paper synthesises emerging governance approaches: appraising alternative pathways via 'futuring', enacting them via experimentation, supported by cross-domain coordination and new assessment methods, which also surface tensions and contradictions.",
+   "slides": "No slides yet."
+  },
+  {
+   "cite": "Hölscher & Frantzeskaki (2021). Perspectives on urban transformation research: transformations in, of, and by cities. Urban Transformations 3.",
+   "basis": "Abstract retrieved",
+   "abs": "Three perspectives: transformations IN cities (places where local–global factors drive or constrain change), OF cities (systemic change in infrastructure, culture, practice), BY cities (cities' regional and global impacts; cities as agents of change). Each clarifies different questions and has limits; research should bridge them.",
+   "slides": "No slides yet."
+  },
+  {
+   "cite": "Frantzeskaki, Castán Broto, Coenen & Loorbach (2017). Urban sustainability transitions (book intro), pp. 1–19.",
+   "basis": "Abstract not retrieved: based on my general knowledge of the text",
+   "abs": "Introduces urban sustainability transitions: cities as sites where transitions are experimented with and contested; brings transition studies (niches, regimes, transition management) into dialogue with urban studies, emphasising place, agency, politics and multi-actor governance.",
+   "slides": "No slides yet."
+  }
+ ],
+ "exam": "Add the lecture slides after 1 Oct. Likely link: transitions as reconfiguration vs Campbell's conflicts; experiments (L9) as the tool.",
+ "table": {
+  "head": [
+   "Entry point",
+   "Focus",
+   "Competing",
+   "Co-existing",
+   "Complementary"
+  ],
+  "rows": [
+   [
+    "Socio-technical arrangements",
+    "How many innovations compete, coexist and complement in one city: what do all the experiments add up to?",
+    "Struggles of new vs new, or new vs old arrangements",
+    "Parallel, largely independent arrangements",
+    "Productive fusions of new and new/old arrangements"
+   ],
+   [
+    "Forms of urban governance",
+    "How multiple, multi-level governance modes condition and shape experiments",
+    "Fragmented, mutually hostile or contradictory arrangements",
+    "Fragmented, distinct, autonomous or loosely coupled arrangements",
+    "Symbiotic, mutually reinforcing: new hybrid governance"
+   ],
+   [
+    "Conceptions of urban sustainability",
+    "Which accounts of sustainability become dominant, and who promotes them?",
+    "Competing understandings and goals",
+    "Parallel, largely non-conflictual understandings",
+    "Mutually reinforcing through issue linkage"
+   ]
+  ]
+ }
+}

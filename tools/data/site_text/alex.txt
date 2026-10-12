@@ -1,0 +1,204 @@
+{
+ "id": "alex",
+ "wk": 3,
+ "title": "Alexander: after rationality (contingency theory)",
+ "cite": "Alexander, E.R. (2017/orig. 1990s). After Rationality: Towards a Contingency Theory for Planning · + his 2000 definition of rationality in the 22 Sept lecture",
+ "theory": "Rationality debate / contingency theory",
+ "status": "full",
+ "statusNote": "Chapter on file (the PDF's text layer was scrambled; I decoded it, so punctuation and numbers are lost, but the argument is readable). Note: this chapter is not listed in the syllabus week plan.",
+ "one": "Rationality has broken down as planning's single paradigm, but nothing has replaced it. Alexander proposes a contingency framework: classic rationality (individual deliberation) and Habermas's communicative action (interaction) are mirror images, each valid in its own domain.",
+ "summary": [
+  "Rationality plays two roles: a descriptive model (explaining decisions as if actors are rational) and a normative paradigm (analytic standard and prescription), and it remains the basis of planners' claims to expertise.",
+  "Responses to its breakdown: ritual (keep using it with token acknowledgment of anomalies), avoidance (swap in descriptive models such as Simon's satisficing or Lindblom's disjointed incrementalism), abandonment (drop process models for intuition, or for a substantive ideology such as neo-Marxism or public choice) and search (new paradigms, contingency models). The procedural-vs-substantive debate is sterile: it is really about level of abstraction (two dimensions: procedural↔structural focus; concrete↔abstract).",
+  "Critical theory/TCA (Habermas) adds reflexive consciousness and the shift from decision to interaction, but it is normative, procedural, and ignores the pre-interactive deliberation by which actors decide what to pursue. Most real interaction is strategic, not communicative. Rationality ignores interaction; TCA ignores deliberation. 'One paradigm cannot supplant another', so a contingency framework combines them.",
+  "Lecture use: rationality is 'no more than a more sophisticated word for reason' (Alexander 2000, 4): having reasons (linking means to ends) and giving reasons (justification). The midterm example question also quotes Alexander's institutional design: 'the deliberate creation of institutions by planners to achieve politically defined societal goals', which Moroni criticises (week 4)."
+ ],
+ "concepts": [
+  [
+   "Rationality (Alexander 2000)",
+   "Having reasons (means-ends) + giving reasons (justification)."
+  ],
+  [
+   "Four responses",
+   "Ritual · avoidance · abandonment · search."
+  ],
+  [
+   "Contingency theory",
+   "Different models are valid under different conditions; a framework assigns domains."
+  ],
+  [
+   "Communicative vs strategic action",
+   "Oriented to consensus through argument vs to success through power and manipulation."
+  ],
+  [
+   "Institutional design (Alexander 2005)",
+   "Devising rules, procedures and organisational structures to achieve held values/objectives; at macro, meso and micro levels."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Classic rationality | individual deliberation | utilitarian consequences | misses: interaction | Communicative action | interaction, consensus | normative, procedural | misses: deliberation | contingency framework = assign each its domain]",
+ "cap": "Each paradigm focuses on exactly what the other neglects.",
+ "example": "A municipality internally ranks options with an MCA (deliberation, rational), then negotiates with developers and residents (interaction, strategic or communicative).",
+ "quotes": [
+  "\"One paradigm cannot supplant another\""
+ ],
+ "dims": null,
+ "exam": "Know the midterm sample: a sociological institutionalist critiques Alexander's institutional design by saying institutions are embedded in cultural norms and cognitive scripts that shape planners' own perceptions (answer B).",
+ "examples": [
+  {
+   "t": "The 'ritual response' in planning",
+   "d": "Alexander notes that much planning education and practice keeps following the rational model with only token acknowledgement of its anomalies. Illustrates why rationality survives as the normative basis of planners' claims to expertise even after the paradigm broke down.",
+   "src": "text"
+  },
+  {
+   "t": "Mediation: communicative or strategic?",
+   "d": "Mediation, conflict resolution and arbitration belong in the real, collective, consensus-oriented cell only when carried out by a neutral participant or a consensus-oriented group, which Alexander calls rare; once actors pursue their own goals, the same process is strategic action (bargaining, negotiation). Shows how the contingency framework sorts one practice by the actor's purpose.",
+   "src": "text"
+  },
+  {
+   "t": "Linear programming versus satisficing",
+   "d": "Formal optimisation such as linear programming and multi-objective decision-making sits in the ideal, individual cell, while satisficing, disjointed incrementalism and mixed scanning describe how individuals actually decide (real, individual cell). Shows the ideal/real split: rationality works as a norm, not as a description.",
+   "src": "text"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Alexander starts with a blunt diagnosis: 'Planning theoreticians are in a state of turmoil'. Nothing is accepted, everything is questioned. Many have described what a good planning theory should do, but no coherent body of thought meets those requirements, and authors such as Mandelbaum and Rittel and Webber have asked whether a 'general theory of planning' is even possible. Alexander takes these doubts seriously and concludes that a more modest approach is needed. His proposal is a 'contingency framework': not one theory that is always right, but a structure that says which theory applies under which conditions. (The file of this chapter has no page numbers, so none are given here.)",
+    "His central move is to put two theories side by side. One is the 'classic' theory of rational decision-making and planning, grounded in a utilitarian assessment of consequences. The other is the critical theory of 'communicative action' (Habermas). Both offer idealised prescriptions for choice, but rationality is limited to individual deliberation, while critical theory deals only with communicative interaction. In his words, 'Each of these models is almost a mirror image of the other', each focusing on exactly what the other neglects. That complementarity is the core of his claim: a framework that combines them, and defines the domain where each is valid, can give an adequate account of planning."
+   ]
+  },
+  {
+   "h": "The two roles of rationality",
+   "p": [
+    "Alexander first reminds us why rationality has been so hard to replace. Since it was first challenged, critics have attacked it as both prescription and description, yet rational planning filled the role of a 'general theory of planning' for a long time, produced many useful concepts and applications, and remains the prevailing paradigm for theorists and practitioners. 'Paradigm' here is used in Kuhn's sense: a dominant framework that organises a field until its anomalies pile up.",
+    "He then separates two roles of rationality. First, rationality as a descriptive model: we imagine that individuals and collectivities act as if they were rational and ask whether that makes sense of their observed behaviour (hypothesis testing and explanation). Second, rationality as a normative paradigm, which itself works in two ways. It is analytic, an abstract standard for analysing decisions, as in economics and psychology. And it is prescriptive, telling us how we ought to decide, even though critics point to its utilitarian, consequentialist bias. Rationality remains the normative basis for methods in planning, policy analysis and administration, and for planners' claims to professional expertise. Any successor, Alexander argues, must be able to fill this same range of functions, whether as one theory or a set of related theories."
+   ]
+  },
+  {
+   "h": "Four responses to the breakdown of rationality",
+   "p": [
+    "How has the field responded to the breakdown of rationality as the dominant paradigm? Alexander names four responses. The 'ritual' response, widespread in planning education and practice, keeps using the rational model with only token acknowledgement of its problems. The 'avoidance' response, common among social scientists, substitutes descriptive decision models or modifies the rational model without following through the practical implications. The 'abandonment' response says the rational model, or any general process model, should be dropped: either replaced at a lower level of abstraction by practitioners' intuition and experience or a limited role for planners, or replaced by a substantive political or social ideology instead of a 'value neutral' model. Finally, the 'search' response offers radically different alternative models.",
+    "He then reviews candidates. Simon's 'satisficing' (choosing the first option that is good enough rather than the optimum) and Lindblom's 'disjointed incrementalism' are avoidance responses; they rest on limiting assumptions and face many of the same critiques they made of rationality. Substantive paradigms fall under abandonment: neo-Marxist theory (Castells, Cooke), systems and ecology approaches, and, as a counterblast to the neo-Marxists, public choice theory (Poulton). Friedmann's transactive or radical planning and Sillince's blend of bounded rationality and interaction also fall short. None can replace the rational paradigm: they are either limited to specific contexts or, if universalised, require 'an improbable act of faith' in their ideological assumptions."
+   ]
+  },
+  {
+   "h": "Procedure versus substance is a false debate",
+   "p": [
+    "Many of these alternatives grew out of a long 'procedural versus substantive' debate: procedural theory is about how to plan, substantive theory about what is planned (cities, land, economy). Alexander calls the debate essentially sterile. It rests on a misunderstanding of abstraction. Critics say procedural theory is abstract and empty while only substantive theory is based on reality. But any theory that generalises across cases must abstract away from specific contexts, and this is just as true for structural variables as for process.",
+    "He therefore proposes that any discourse on planning can be mapped on two independent dimensions: the focus of conceptualisation, from totally procedural to totally structural, and the level of abstraction, from totally concrete and case-specific to completely abstract and perhaps universal. The process-substance debate was really about the right level of abstraction, a question that cannot be settled through a 'contrived conflict' between complementary concepts. This also helps judge philosophical borrowings. Schön's 'reflective practitioner' rests on a phenomenological (experience-based) approach and cannot serve as a general normative base; pragmatism may help as a guide to sound intuition but is hard to operationalise. Critical theory has many, though not all, of the attributes of a paradigm."
+   ]
+  },
+  {
+   "h": "Why earlier contingency models fall short",
+   "p": [
+    "The 'search' response has already produced contingency models: Hudson's SITAR model, Lim's synthetic framework, Banai's dialectic of paradigms, Yiftachel's taxonomy, and others in organisation theory. Alexander is honest about the intrinsic problem. A contingency theory is a meta-theory: a framework for dividing the universe into relevant situations. The choice of which contingencies matter is critical, yet in any contingency model it is essentially arbitrary, and trying to justify it starts an infinite regress. So contingency models share the weakness of the ideological substantive models he criticised.",
+    "Still, he believes contingency is the most promising way out of the impasse, partly because he sees 'no better alternative'. Existing contingency models fail because they only combine classic rationality with a few 'modified rationality' models such as bounded rationality. They ignore critical theory's valid point that neither classic nor modified rational models address the social and interactive side of decision and action. His own framework should be tested theoretically (does it capture real critical factors and help explain?) and pragmatically (does it answer practical dilemmas better than intuition alone?)."
+   ]
+  },
+  {
+   "h": "Critical theory: its contribution and its gaps",
+   "p": [
+    "Critical theory, Alexander says, adds two things. First, 'reflexive consciousness': for Habermas, what is good in a setting is not what is customary but how participants would choose to act if they communicated openly and without coercion. Second, a shift from decision to interaction: the classic theory of decision becomes a 'Theory of Communicative Action' (TCA). But TCA is also inadequate as a general paradigm. It is normative, not descriptive: Habermas himself says he is not describing behaviour, and communicative action is oriented to consensus, unlike strategic action, which uses power, influence and manipulation to reach each actor's own goals. Alexander notes that it does not take much cynicism to see that most observed interaction is strategic, not communicative.",
+    "TCA is also entirely procedural, as divorced from substance as classic rationality: its rules, such as the 'universalization principle' (a norm is valid only if freely accepted by all affected), apply in any context. And it covers only part of action: the social, interactive dimension. It cannot say how an individual or organisation decides what course to pursue before entering the arena of discussion. That is exactly what classic rationality covers, while rationality ignores the collective side. His conclusion is crisp: 'One paradigm cannot supplant another'. The two are complementary, and any claim to a new paradigm must include both."
+   ]
+  },
+  {
+   "h": "The contingency framework: three dimensions, six cells",
+   "p": [
+    "Alexander's framework (his figure) has three dimensions. Type of theory: ideal (logical-deductive, normative) or real (positive, descriptive). Actor's purpose, borrowed from Habermas: accomplishment-oriented (reaching discrete goals) or consensus/understanding-oriented. Action domain: individual (or units acting as individuals) or collective and interactive. This gives eight cells, but two are empty: consensus is by definition a property of interaction, not of individual deliberation, and ideal theories cannot handle the logical inconsistencies of real social interaction.",
+    "The six remaining cells can be read as 'If... Then' statements. (a) Real, individual, accomplishment-oriented: bounded rationality, satisficing, disjointed incrementalism, mixed scanning. (b) Real, collective, accomplishment-oriented: Habermas's strategic action, bargaining, negotiation, political 'games', strategic planning, coordinative planning and institutional design. (c) Real, collective, consensus-oriented: observable communicative action such as mediation, conflict resolution and arbitration, but only with neutral participants or a consensus-oriented collectivity, 'obviously rare cases'. (d) Ideal, individual, accomplishment-oriented: formal instrumental and substantive rationality, optimisation, linear programming, multi-objective decision-making. (e) Ideal, interactive, accomplishment-oriented: game theory and formal coalition models. (f) Ideal, interactive, consensus-oriented: Habermas's communicative action."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Alexander presents the framework only at the highest level of abstraction, as a point of departure for more detailed contingency dimensions. He points to work that already fits: Grandori on how uncertainty and expected conflict should shape the choice between maximising, satisficing, incremental or cybernetic strategies; Thompson and Tuden on agreement about goals and knowledge of cause and effect. The framework can also bring in structural dimensions, for example following Healey: the internal organisation of the state, spatial relations, land development interests and the demand for land. In a note he argues that Healey's political economy approach is really one subset of a broader contingency approach.",
+    "Could this replace the rational model as a paradigm? He believes so, and that it is the only approach that can span the growing universe of decision and action and bridge theory and practice. But he is modest: in a world that appreciates complexity, replacing one simple paradigm by another is unlikely. 'A contingency framework offers the only hope', 'perhaps no more than a hope', of a paradigm that can grow and adapt. Limitations he admits: the choice of contingencies is arbitrary, the lower levels of the framework are incomplete, and his examples are only partial illustrations."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is a synthesis for the course, not Alexander's own framing. In the 22 Sept lecture, Alexander's 2000 definition set the scene: rationality is 'no more than a more sophisticated word for reason', which means both having reasons (linking means to ends) and giving reasons (justifying action to others). This chapter shows the same stance: rationality is not dead but bounded, and it must be paired with the interactive, justificatory side that communicative theory stresses. On the course dimensions he is pluralist about theories (no single paradigm fits all situations) and situated in a methodological sense (the right model depends on context), while still aiming at a universal meta-framework. He treats planning as both deliberate (individual choice) and interactive, and he takes strategic, self-interested behaviour as the realistic norm.",
+    "Contrasts: Rydin's governmental model sits mostly in his cells (d) and (a); Scott shows what happens when cell (d) thinking is imposed without cells (b) and (c). Davoudi's critique of evidence-based policy parallels his point that rational analysis alone misses politics. His cell (b), strategic action, bargaining and games, links straight to the rational choice lecture, Olson's collective action and Needham on property rights. His critique of TCA anticipates later course debates on communicative planning."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "Cell",
+   "Type of theory",
+   "Actor's purpose",
+   "Action domain",
+   "Models Alexander places here"
+  ],
+  "rows": [
+   [
+    "a",
+    "Real (descriptive)",
+    "Accomplishment",
+    "Individual",
+    "Bounded rationality, satisficing, disjointed incrementalism, mixed scanning"
+   ],
+   [
+    "b",
+    "Real (descriptive)",
+    "Accomplishment",
+    "Collective",
+    "Strategic action: bargaining, negotiation, political games, strategic and coordinative planning, institutional design"
+   ],
+   [
+    "c",
+    "Real (descriptive)",
+    "Consensus",
+    "Collective",
+    "Observable communicative action: mediation, conflict resolution, arbitration (only with neutral or consensus-oriented actors, rare)"
+   ],
+   [
+    "d",
+    "Ideal (normative)",
+    "Accomplishment",
+    "Individual",
+    "Formal instrumental and substantive rationality, optimisation, linear programming, multi-objective decision-making"
+   ],
+   [
+    "e",
+    "Ideal (normative)",
+    "Accomplishment",
+    "Collective",
+    "Game theory, formal models of teams and coalitions, strategic simulations"
+   ],
+   [
+    "f",
+    "Ideal (normative)",
+    "Consensus",
+    "Collective",
+    "Habermas's communicative action"
+   ]
+  ]
+ },
+ "news": {
+  "t": "LTO walks out of the Landbouwakkoord talks",
+  "d": "On 20 June 2023 farmers' organisation LTO left the negotiations on a Dutch agricultural agreement led by minister Adema. LTO chair Van der Tak said it 'remains stuck in intentions and our farmers cannot live off intentions', even though the cabinet had offered more freedom in reaching nature goals and minimum-price guarantees for sustainable products; young farmers' organisation NAJK followed. Minister Jetten warned the cabinet might have to act unilaterally if no agreement came.",
+  "why": "Read through Alexander, a process framed as consensus-seeking (communicative interaction) was in practice strategic interaction: parties bargained for success, and exit was used as leverage. It also shows his contingency point: when interaction breaks down, the state falls back on its own deliberation and decision. Limit: from one news report we cannot see the parties' pre-interactive deliberation, so calling LTO's move 'strategic' is our interpretation.",
+  "src": {
+   "name": "NOS",
+   "title": "LTO stapt uit overleg over landbouwakkoord, overige partijen praten straks verder",
+   "url": "https://nos.nl/l/2479692",
+   "date": "2023-06-20"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Rationality: having reasons and giving reasons",
+    "svg": "[SVG figure; labels: Rationality | 'a more sophisticated word for reason' | Having reasons | linking means to ends logically | Giving reasons | justifying action to others | Governmental model = instrumental rationality: planners choose means, goals are given]",
+    "cap": "Alexander's (2000, p. 4) definition as used in the 22 Sept lecture.",
+    "slide": "Rational planning slide 10"
+   }
+  ],
+  "tables": [],
+  "points": []
+ }
+}

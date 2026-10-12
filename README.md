@@ -26,4 +26,6 @@ python3 build.py   # writes index.html
 - `src/p5_app.js`, `p6_courses.js`, `p7_studio.js`, `p10_motion.js`: the app
 - `src/p1_shell.html`: styles and page shell
 
+Continuing development in a new chat: see `HANDOVER.md`.
+
 Each reading page says what it is built from (full text, slides only, or general knowledge). Check anything marked partial against the original text. Not affiliated with Utrecht University.

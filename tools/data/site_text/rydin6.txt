@@ -1,0 +1,234 @@
+{
+ "id": "rydin6",
+ "wk": 7,
+ "title": "Rydin (2021) Urban politics: conflict, power and justice",
+ "cite": "Rydin, Y. (2021). Urban politics: conflict, power and justice. In Theory in Planning Research (Ch. 6, pp. 105–125). Singapore: Palgrave Macmillan. https://doi.org/10.1007/978-981-33-6568-1_6",
+ "theory": "Urban politics / social movements (framework chapter: growth coalitions, regime theory, urban social movements, agonism, justice)",
+ "status": "full",
+ "statusNote": "Built from the full text of Chapter 6 (extracted from the whole book); page numbers are the book's running headers (pp. 105–125). Note what the chapter does NOT contain: no discussion of Lukes' three dimensions of power, and Lefebvre appears only in a reference title (Butler 2012); 'Right to the City' gets one paragraph. The only power distinction it makes is Stone's 'power to' vs 'power over'.",
+ "one": "Where the governance frame assumes conflict can be handled towards agreement, the urban politics frame sees conflict as unavoidable, power at play within planning and inequality in its outcomes; so planners cannot be neutral and must ask how to plan justly. Rydin organises the field into three dynamics (growth coalitions/urban regimes, urban social movements, agonism) with a running concern for justice, and shows how each is used in planning research.",
+ "summary": [
+  "Framing (pp. 105–107). Urban politics starts from the insight that conflict is part of the fibre of planning. Unlike governance theory (ch. 5), it does not assume conflicts can be handled to reach effective or agreed outcomes; it looks at power in processes and inequality in outcomes. Planners 'cannot be neutral' and should act more like advocates; the research task is how to plan justly. The perspective studies both elite and non-elite actors, and rejects pluralism (Dahl), in which group activism simply follows demand: pluralism came to be seen as 'naïve' because power and resources are unequal, some issues never get on the agenda, and it legitimated a focus on middle-class pressure groups. Urban politics instead attends to the disempowered and treats non-violent occupations and even violence against property as legitimate protest.",
+  "Justice (pp. 106–107). Agyeman distinguishes four aspects: recognition of groups as self-determined (more than giving voice), fair process (e.g. visioning), just exercise of procedures (regulation, implementation) and fair outcomes. This frame is widely used for environmental justice (US origins in toxic sites near communities of colour; Love Canal). A second theme is the Right to the City movement (Butler 2012), e.g. Occupy after 2008. Because conflicts are linked to wider power and inequality (links to structuralism, ch. 7), planning alone can achieve little: justice requires wider political change. The research focus is not the sociology of conflict itself but how planners, planning organisations and systems respond to it (p. 107).",
+  "Coalitions and regimes (pp. 108–109). Molotch's growth coalitions: actors with most to gain from land and property development coalesce, with links to local government, to secure property-led growth; a response to technocratic views, emphasising class and local elites. Critiques: too agent-based (from political economy) and too simple (coalitions are fragmented, unstable, not only local, not always growth-led). Hence Stone's urban regime (Atlanta, 1989): an 'informal yet relatively stable group' that assembles the capacity to act because local government cannot implement its agenda alone; 'power to' rather than 'power over'; based on resource interdependence, cooperation has to be achieved. Four regime types (maintenance/caretaker, development, middle-class progressive, lower-class opportunity expansion); Dowding et al.'s eight criteria. Critiques: bias to corporate interests (Pierre: leaders must cater to business to access its 'systemic power'), US-specific (property taxes, local autonomy), limited transferability (Holman's four reasons).",
+  "Urban social movements and agonism (pp. 109–112). Left theorists disheartened by political economy's crisis-and-revolution message turned to politics with some autonomy from capitalist structures (Gramsci: the oppressed can perceive their own interests without a vanguard). Movements express a social cleavage, not a single issue. Castells linked urban social movements to conflicts over the means of collective consumption (public services needed to reproduce labour), resisting middle-class appropriation and capitalist limitation of services. Later work links USMs to identity, difference and place (Nicholls; Gualini and Bianchi); Mayer's four phases run from industrial crisis via collective consumption and gentrification to globalisation/financialisation. Critiques: gender blindness, North Atlantic bias. The USM's distinctive feature is its physical base in a place. Agonism (Mouffe) rejects governance's promise of consensus: conflict is inevitable and productive; the aim is to turn enemies into adversaries who 'agree to disagree'; critics ask whether it accepts existing power inequalities (Yamamoto).",
+  "Research in practice (pp. 112–123). Regimes revisited: Turin (Ravazzi and Belligni: incubation, naming/blaming/claiming, shift from pro-welfare to market-centred regime) and Guangzhou's Three Old Redevelopment (Li and Liu: regime concept supplemented with 'fragmented authoritarianism' and 'strategic selectivity'). Racism: Sulukule, Istanbul (Uysal: a Roma USM that failed to stop demolition because of unclear property rights, speculation, lack of public support, marginalisation, fragmentation and counter-pressure) and Native American fishing rights after the 1974 Boldt decision (environmental justice as decolonisation). Managing conflict: Trapenberg Frick's Tea Party/progressive tactical coalitions (ephemeral, emergent, established), REDWatch in Sydney as monitory democracy, and Fougère and Bond's Denniston Plateau coal mine (antagonism can create space for agonism; expert knowledge depoliticises). Conclusion: qualitative, normative, often action research, from the emic perspective of the marginalised."
+ ],
+ "concepts": [
+  [
+   "Urban politics perspective",
+   "Frame that sees conflict as unavoidable in planning, power at play within its processes and inequality in outcomes; planners cannot be neutral technocrats (p. 105)."
+  ],
+  [
+   "Pluralism (Dahl) and its critique",
+   "Groups form when there is demand (supply follows demand). Rejected as naïve: unequal resources, non-issues, and a legitimation of middle-class pressure groups (p. 106)."
+  ],
+  [
+   "Justice (Agyeman)",
+   "Four aspects: recognition of self-determined groups, fair process, just exercise of procedures, fair outcomes; widely used in environmental justice (pp. 106–107)."
+  ],
+  [
+   "Right to the City",
+   "Movement and claim against limited access to the city and inequitable use of its assets (Butler 2012; Occupy after 2008). Only briefly treated; Lefebvre himself is not discussed (p. 107)."
+  ],
+  [
+   "Growth coalition (Molotch)",
+   "Coalition of actors with most to gain from land and property development, linked to local government, pursuing property-led growth; criticised as too agent-based and too simple (p. 108)."
+  ],
+  [
+   "Urban regime (Stone)",
+   "'An informal yet relatively stable group with access to institutional resources' that assembles the capacity to govern through resource interdependence; four types; criteria by Dowding et al. (pp. 108–109)."
+  ],
+  [
+   "'Power to' vs 'power over'",
+   "Regime power is the capacity to achieve goals by combining resources ('power to'), not domination of one actor by another ('power over'); often less visible, alongside formal politics (p. 108)."
+  ],
+  [
+   "Systemic power / transferability",
+   "Pierre: to reach business's 'systemic power' leaders must cater to corporate interests; regime theory reflects US local government (property taxes, autonomy), so its transfer abroad needs amendment (Holman's four factors) (p. 109)."
+  ],
+  [
+   "Gramsci",
+   "Politics has relative autonomy from socio-economic structure; the oppressed can recognise their own interests and achieve change short of revolution, without a vanguard (p. 110)."
+  ],
+  [
+   "Urban social movement / collective consumption (Castells)",
+   "Movements expressing a social cleavage, mobilising over collective means (public services) for reproducing labour; Castells' USM combines collective consumption demands, community culture and political self-management (pp. 110, 116)."
+  ],
+  [
+   "Mayer's four phases",
+   "Industrial crisis 1960–80; collective consumption and welfare erosion 1980–90; gentrification and regeneration 1990–2000; globalisation and financialisation since 2000 (p. 111)."
+  ],
+  [
+   "Agonism (Mouffe)",
+   "Conflict is inevitable and productive; turn enemies into adversaries who can 'agree to disagree'; rejects deliberative consensus as a false promise; critics: may accept existing power inequalities (p. 112)."
+  ],
+  [
+   "Post-political",
+   "Planning that annuls dissent and silences overt conflict, e.g. by recourse to expert knowledge (Raco; Fougère and Bond) (pp. 112, 121–122)."
+  ],
+  [
+   "Place attachment vs NIMBY",
+   "Place-based identity used to resist the pejorative NIMBY label (Devine-Wright) (p. 112)."
+  ],
+  [
+   "Emic perspective / action research",
+   "Urban politics research takes the perspective of the marginalised and often supports the groups studied (p. 123)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Governance (ch. 5) | conflict → agreement | Urban politics (ch. 6) | power and inequality | critique | Coalitions + regimes | Molotch: growth | coalition → | Stone: urban regime | 'power to' | Urban social movements | Gramsci → Castells: | collective consumption | → identity, place | physical base | Agonism (Mouffe) | enemies → adversaries | agree to disagree | vs post-political | consensus | Running through all three: justice (Agyeman) | Recognition | Fair process | Just procedures | Fair outcomes]",
+ "cap": "Urban politics as a critique of the governance frame: three analytical dynamics, with justice as the common normative thread.",
+ "table": {
+  "head": [
+   "Dynamic",
+   "Key authors",
+   "View of power / conflict",
+   "Research example in the chapter"
+  ],
+  "rows": [
+   [
+    "Growth coalition",
+    "Molotch",
+    "Local elites with land/property stakes steer planning towards growth",
+    "(Critiqued; replaced by regime concept)"
+   ],
+   [
+    "Urban regime",
+    "Stone; Dowding et al.; Pierre; Holman",
+    "'Power to': capacity assembled from interdependent resources; bias to business",
+    "Turin (Ravazzi and Belligni); Guangzhou TOR (Li and Liu)"
+   ],
+   [
+    "Urban social movement",
+    "Gramsci; Castells; Mayer; Nicholls",
+    "Social cleavage; collective consumption; identity and place",
+    "Sulukule, Istanbul (Uysal); Native American fishing rights (Miller Cantzler and Huynh)"
+   ],
+   [
+    "Agonism",
+    "Mouffe; Raco; Yamamoto",
+    "Conflict inevitable and productive; enemies → adversaries",
+    "Tea Party coalitions (Trapenberg Frick); REDWatch (Rogers); Denniston Plateau (Fougère and Bond)"
+   ]
+  ]
+ },
+ "example": "Sulukule, Istanbul (Uysal 2012, pp. 115–117): the 2006 state-led regeneration of a largely Roma area for tourism and heritage displaced most residents to the outskirts. The Sulukule Platform (NGOs, a Roma association, outside activists and academics with an alternative STOP plan) is framed as a Castellsian USM. It won national and international attention but failed to stop demolition: unclear property rights, land speculation, lack of wider public support (reluctance to align with the Roma), a resource-poor marginalised community, internal fragmentation and counter-pressure from the council and developers.",
+ "quotes": [
+  "\"Planners cannot be neutral in this conceptual context.\" (p. 105)",
+  "\"Regime analysis views power as fragmented and regimes as the collaborative arrangements through which local government and private actors assemble the capacity to govern\" (Mossberger and Stoker 2016: 812, quoted p. 108)",
+  "\"Urban politics is seen as the realm of social movements, which are socially more significant than individual pressure groups.\" (p. 110)",
+  "\"In essence, agonism involves a willingness to agree to disagree.\" (p. 112)"
+ ],
+ "dims": {
+  "sa": 60,
+  "rt": 70,
+  "de": 50,
+  "us": 65,
+  "mp": 70,
+  "norm": "Explicitly normative: equity, equality and justice (recognition, process, procedure, outcomes); planners as advocates rather than neutral technocrats; research from the emic perspective of disempowered groups, often as action research; conflict accepted (agonism) rather than wished away."
+ },
+ "exam": "Rydin is the framework text: use it to NAME the perspective in a commentary. Grounding: urban politics sits between agency-centred coalition/regime analysis and structural political economy (ch. 7); USMs keep capitalist conflict in view but give politics relative autonomy (Gramsci). Best critiques: (1) Marxist political economy: regime and coalition analysis is too agent-based and ignores structural drivers of accumulation; incremental movements cannot change structures. (2) Rational choice/Olson: why would large, poor, diffuse groups mobilise at all? The free-rider problem predicts under-organisation, which is also why pluralism fails (Olson and urban politics agree pluralism is wrong, for different reasons). (3) Neo-institutionalism: regimes are informal institutions; historical institutionalism explains why regime theory does not travel (US property tax, autonomy). (4) Governmentality: agonism and participation can be technologies that channel conflict; the 'post-political' critique. (5) Hayek: planners as advocates politicise planning and undermine the rule of law. Critical points: normative bias of researchers; US/North-Atlantic origins; agonism may accept existing inequalities. MCQ traps: regime power is 'power to' not 'power over'; Stone not Molotch coined urban regime; collective consumption = public services for reproducing labour (not consumer goods); no Lukes in this chapter; urban politics critiques pluralism.",
+ "examples": [
+  {
+   "t": "Turin's post-industrial urban regime",
+   "d": "Ravazzi and Belligni trace a 'great alliance' of Centre-Left politicians, liberal business leaders (the Group of 70, led by a banker) and Politecnico academics that pushed Turin from a pro-welfare to a market-centred agenda of housing, infrastructure, a knowledge district and tourism. Shows Stone's urban regime as 'power to' act, built through naming, blaming and claiming.",
+   "src": "text",
+   "p": "pp. 113–114"
+  },
+  {
+   "t": "The Green Tea Coalition",
+   "d": "In Georgia, Tea Party conservatives and progressive groups including a Sierra Club chapter jointly opposed a transport sales tax and later backed solar power, while never agreeing on climate change. Trapenberg Frick uses such tactical coalitions to show agonism in practice: adversaries cooperate on points of convergence and agree to disagree on the rest.",
+   "src": "text",
+   "p": "pp. 119–120"
+  },
+  {
+   "t": "REDWatch in Sydney",
+   "d": "A community group in a low-income, public-housing area south of Sydney's CBD monitored state redevelopment plans and posted documents that vanished from government websites, acting as an 'inconvenient corporate memory'. Government planners then used its monitoring to argue internally for different outcomes, showing agonistic, informal action can gain influence alongside formal participation.",
+   "src": "text",
+   "p": "pp. 120–121"
+  },
+  {
+   "t": "Denniston Plateau coal mine",
+   "d": "Protests and a community 'Bioblitz' accompanied the consent process for a coal mine in Aotearoa New Zealand. Fougère and Bond find that antagonism dominated, that expert knowledge helped keep the process post-political, and that antagonistic conflict can still open up space for agonism.",
+   "src": "text",
+   "p": "pp. 121–122"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "This chapter from Rydin's textbook Theory in Planning Research introduces the urban politics perspective as a framework for doing planning research. It starts from the insight that conflict is unavoidable in planning, quoting Trapenberg Frick: 'Turbulent debates between politically divergent actors are part of the fiber of planning' (p. 105). The contrast is with the governance framework of the previous chapter, which assumes conflicts can be handled to reach effective and even agreed outcomes. Urban politics instead sees power at work in planning processes and inequality in their outcomes. Its focus is equity, equality and power in how planning handles conflict (p. 105).",
+    "This makes the perspective challenging and potentially normative. 'Planners cannot be neutral in this conceptual context' (p. 105): if planning may disadvantage the dispossessed, planners must act more like advocates than neutral technocrats, and justice becomes central. The perspective studies both elites and non-elites, because the position of those who gain little can only be understood by looking at those who gain most (pp. 105–106). The chapter follows a standard structure: framing the research, key concepts (growth coalitions and regimes, urban social movements, agonism), then worked examples of research papers, and conclusions on method."
+   ]
+  },
+  {
+   "h": "Beyond pluralism: activism, justice and the right to the city",
+   "p": [
+    "Rydin first distinguishes urban politics from pluralism, the view that groups form whenever there is demand to address an issue, so activism follows demand (p. 106). By the late twentieth century pluralism was seen as naïve: groups differed hugely in power and resources, some issues never became the focus of activism, and pluralism in effect legitimated a focus on middle-class pressure groups. Urban politics instead looks at activism outside institutionalised participation (petitions, meetings, lobbying), including non-violent occupations and even violence against property, which it treats as legitimate forms of protest by the disempowered (p. 106).",
+    "A strong concern with justice runs through this work, especially environmental justice, which grew from US cases where toxic sites were placed near communities of colour, such as Love Canal (p. 106). Rydin summarises Agyeman's four aspects of justice (pp. 106–107): recognition of all groups as self-determined groups, not just giving them voice; fair processes, especially open-ended visioning; just exercise of procedures such as regulation and implementation; and fair outcomes. A second justice theme is the Right to the City movement, protesting limited access to the city and the inequitable use of its assets, for example the Occupy movement after 2008 (p. 107). Because these conflicts are linked to wider power and inequality, the perspective is more modest about what planning alone can achieve: justice may require wider political change (p. 107)."
+   ]
+  },
+  {
+   "h": "Key concepts 1: growth coalitions and urban regimes",
+   "p": [
+    "The research question for planning is whether planning processes support capitalist interests (facilitating development) or middle-class interests (protecting areas from it), and whether they fail other groups and social movements (p. 107). The task is not sociological but about how planners and planning systems respond to conflicts. The first concept is the growth coalition, proposed by Molotch in the 1970s: a coalition of those with most to gain from land and development decisions comes together to secure the political conditions for property-led growth, often with close links to local government (p. 108). It was a reaction against technocratic views of planning. Critics from political economy found it too agent-based; others found it too simple, since coalitions are fragmented, unstable, not only local, and not always growth-oriented (p. 108).",
+    "From these critiques came urban regime theory, introduced by Stone in his study of Atlanta (p. 108). A regime emerges because local government cannot implement its agenda alone; actors pool resources because they are interdependent. The power involved is 'power to' achieve goals, not 'power over' others, and it works alongside formal politics, often invisibly. Stone defined a regime as 'an informal yet relatively stable group with access to institutional resources that enable it to have a sustained role in making governing decisions' (p. 108). Dowding et al. list eight empirical criteria, including a distinctive, long-lived agenda, a boundary-crossing coalition, survival of personnel changes, strong leadership and public-private partnerships (p. 109). Stone identified four regime types: maintenance or caretaker, development, middle-class progressive, and lower-class opportunity expansion (p. 109).",
+    "Regime theory still has a corporate bias: to access the systemic power of business, political leaders must cater to corporate interests (Pierre, p. 109). This was typical of US cities, which rely on local property taxes and have much autonomy from central government, so transferability is questioned. Holman identifies four obstacles for comparative use: more diverse actors, national differences in local autonomy, different incentives for business to engage in city politics, and globalisation (p. 109). Much research therefore asks how the concept must be amended to travel."
+   ]
+  },
+  {
+   "h": "Key concepts 2: urban social movements",
+   "p": [
+    "The second concept came from left-leaning theorists disheartened by political economy's message that structural change requires crisis and revolution (p. 109). They sought a more incremental path by treating politics as having some autonomy from capitalist structures. Gramsci was the key inspiration: the working class and the disempowered can perceive their own interests and develop programmes without a vanguard (p. 110). The word 'movement' signals more than a pressure group: it represents a fundamental social cleavage.",
+    "Castells theorised urban social movements (USMs) around 'the means of collective consumption': the public services needed to reproduce the labour force, such as housing and transport, which households cannot provide alone (p. 110). Movements resist both middle-class appropriation of services and their reduction to capitalist needs. Later work, for example Nicholls, linked USMs to cities as spaces of difference and freedom, and hence to identity politics and control over local spaces (pp. 110–111). Mayer describes four phases: industrial crisis (1960–1980), welfare state erosion and collective consumption (1980–1990), gentrification and regeneration (1990–2000), and globalisation and financialisation since 2000 (p. 111). Critiques note neglect of gender and a bias towards North America and Northern Europe. What remains distinctive is a physical base in a specific place (p. 111)."
+   ]
+  },
+  {
+   "h": "Key concepts 3: agonism and the persistence of conflict",
+   "p": [
+    "The third concept starts from a practical planning problem: civil society is diverse, so who represents 'the community' in governance networks (p. 111)? Planners tend to include self-organised groups, labelling others 'hard to reach' or 'silent', as if they were recalcitrant. Rydin asks what counts as a group at all: economic classes, self-identities (ethnicity, sexuality, status, politics), identities imposed and then reclaimed, and place-based interests. The term 'place attachment' is used partly to resist the pejorative label NIMBY (pp. 111–112).",
+    "Drawing on Mouffe, agonism rejects governance claims that deliberation can move towards consensus as misleading (p. 112). Conflict is seen as inevitable and even productive; the us-and-them division remains, but the aim is for groups to co-exist with respect. 'In essence, agonism involves a willingness to agree to disagree' (p. 112): opponents become adversaries who recognise each other's point of view, which Mouffe sees as more democratic than the false promises of deliberation. It has attracted attention as a possible new normative theory after collaborative planning, and links to critiques of post-political planning (Raco). Critics ask whether agonism simply accepts existing power inequalities (Yamamoto), which has spurred research on how conflicts are handled in practice (p. 112)."
+   ]
+  },
+  {
+   "h": "Research in practice: regimes and racism",
+   "p": [
+    "Rydin then reviews example studies. Ravazzi and Belligni (Turin) used regime theory with Kingdon's agenda-setting ideas, 50 interviews over seven years, network analysis and process sequencing (p. 113). A 'great alliance' of centre-left politicians, liberal business (the Group of 70 led by a banker) and Politecnico academics shifted Turin from pro-welfare towards market-centred policy through naming, blaming and claiming; after a narrow election win the regime opened up to a wider 'city dialogue' (pp. 113–114). Li and Liu (Guangzhou's 'Three Old Redevelopment' policy: old towns, villages and factories) preferred regime theory to growth coalitions but added 'fragmented authoritarianism' and 'strategic selectivity' because business is weaker and civil society thin in China (p. 114). Regime building occurred in some villages (Pazhou) but not in old towns, and long-term trust was often missing (p. 115).",
+    "On racism, Uysal studied Sulukule in Istanbul, a largely Romani area targeted in 2006 for state-led, tourism-oriented regeneration and demolition (pp. 115–116). The Sulukule Platform, a coalition of NGOs, Romani residents and outside activists, used meetings, festivals and an alternative plan (STOP), framed as a Castells-style USM. It failed to stop demolition; the text announces three reasons but lists six, including unclear property rights, speculation, lack of public support due to prejudice, lack of resources, fragmentation and counter-pressure from the council (p. 117). Miller Cantzler and Huynh examined Native American fishing rights in the Pacific Northwest since the 1974 Boldt decision, using distributive, procedural and recognition justice, and showed the role of Indigenous agency in challenging racial inequality (pp. 117–118)."
+   ]
+  },
+  {
+   "h": "Research in practice: managing conflicts",
+   "p": [
+    "The fastest-growing strand concerns agonism (p. 118). Trapenberg Frick studied tactical coalitions between Tea Party activists and progressive groups against sustainable infrastructure projects in three US cases, with 39 interviews (pp. 118–119). They cooperated while agreeing to disagree on fundamentals, for example on public transit or climate change. She distinguishes ephemeral, emergent and established coalitions (the Green Tea Coalition in Georgia being established), showing coalitions are pragmatic rather than cohesive (pp. 119–120).",
+    "Rogers studied REDWatch in Sydney, a community group that monitored government redevelopment plans rather than seeking consensus (pp. 120–121). Its website preserved documents that vanished from state websites, acting as an inconvenient corporate memory (p. 121), and government planners used its monitory status to argue internally for different outcomes; this informal agonism worked alongside formal participation. Fougère and Bond studied the consenting of a coal mine on the Denniston Plateau in New Zealand, including protests and a community 'Bioblitz' collecting ecological data (pp. 121–122). The most antagonistic moments occurred inside formal hearings; agonistic moments arose around shared conservation concerns, but expert technocratic knowledge limited their influence. They conclude that antagonism can create the space for agonism (p. 122)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Rydin concludes that the strength of urban politics is bringing inequality, conflict and power to the fore, alongside cases of resistance to unjust planning (p. 123). It has a strong community focus and may lead into action research, offering perhaps a more critical perspective than the earlier frameworks. Methodologically it relies mainly on qualitative methods, although statistics can help show inequalities. Its normative dimension often pushes researchers from a detached analyst stance towards supporting the groups studied. Essential is the 'emic' perspective (the insiders' own view): understanding the situation from the viewpoint of disempowered groups through interviews, focus groups, observation or action research (p. 123).",
+    "As a textbook chapter, Rydin mainly reports rather than argues. The limitations she flags belong to the concepts: growth coalitions are too simple, regimes may not travel beyond the US, USM research neglects gender and the Global South, and agonism may accept existing inequalities (pp. 108–112). Note also what the chapter does not include: no discussion of Lukes' dimensions of power, and Lefebvre appears only in a reference title; the Right to the City gets one paragraph."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not Rydin's claims. The chapter is a map of agency-oriented theories: regimes and social movements explain how actors assemble 'power to' act, in contrast to the structuralist political economy of Harvey (which Rydin herself notes criticised growth coalitions as too agent-based). On reproduction versus transformation, regimes often reproduce corporate bias, while social movements and agonism hold out transformation. Most cases describe deliberate coalition-building within emergent contexts. The perspective is pluralist in method yet critical of pluralism as a theory, situated in its knowledge (emic perspective, transferability debates), and openly normative about justice.",
+    "Useful contrasts: Harvey's growth coalitions and public-private partnerships are the same actors that regime theory studies, but Harvey subordinates them to inter-urban competition; the Helsinki REC in Hyötyläinen and Haila looks like a development-oriented governing coalition without real contestation. Agonism positions itself against collaborative planning (Healey, Innes), which Rydin treats as governance theory in the previous chapter. For exam answers, keep 'power to' (Stone) distinct from 'power over', and do not attribute Lukes or Lefebvre to this chapter."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Groningen gas: 'Groningers boven gas'",
+  "d": "On 24 February 2023 the parliamentary inquiry into gas extraction in Groningen concluded that the interests of Groningers had been 'structurally ignored'. Gas revenues brought €363 billion to the state and €66 billion to Shell and ExxonMobil shareholders, while damage claims were repeatedly underestimated and residents lived for years with uncertainty and displacement during reinforcement work. The commission speaks of a moral debt ('ereschuld') and found that 'supply security' was used as a smokescreen; real change came only after civil-society organisations forced a criminal investigation of NAM.",
+  "why": "Read through Rydin's urban politics frame, this is a durable state-industry coalition (close to a growth coalition or regime with 'power to' act) whose decisions produced unequal outcomes, exactly the power and inequality that the governance frame tends to smooth over. It also maps onto Agyeman's four aspects of justice: misrecognition of Groningers, unfair process, unjust procedures in claims handling, and unfair outcomes; and civil-society pressure, not consensus-building, is what shifted the balance. Limit: this is a regional resource conflict, not a city-based coalition around land values, so 'growth coalition' is used here by analogy.",
+  "src": {
+   "name": "Tweede Kamer",
+   "title": "Persbericht over rapport 'Groningers boven gas'",
+   "url": "https://www.tweedekamer.nl/Groningen/rapport/persbericht",
+   "date": "2023-02-24"
+  }
+ }
+}

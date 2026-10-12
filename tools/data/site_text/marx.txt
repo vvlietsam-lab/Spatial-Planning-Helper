@@ -1,0 +1,270 @@
+{
+ "id": "marx",
+ "wk": 2,
+ "title": "Marx (1844) Estranged Labour",
+ "cite": "Marx, K. (1844). Economic and Philosophic Manuscripts of 1844: Estranged Labour. Marxists Internet Archive · + lecture 17 Sept",
+ "theory": "Marxism / historical materialism",
+ "status": "full",
+ "statusNote": "The assigned reading IS the online Marxists Internet Archive text (marxists.org/archive/marx/works/1844/manuscripts/labour.htm); quotes checked against it. Plus the HC4 lecture (17 Sept).",
+ "one": "Under capitalism workers are estranged from their product, their activity, their species-being and each other. History is driven by class struggle over the means of production, so real change needs a structural change of the base: abolition of private property.",
+ "summary": [
+  "Humans realise themselves through labour, their transformative relation with nature. Under private property and wage labour this relation is inverted: 'The worker becomes all the poorer the more wealth he produces.' Marx names four estrangements: from the product (it confronts him as an alien power), from the act of production (labour is 'not voluntary, but coerced; it is forced labor'), from species-being (conscious creative activity reduced to a means to survive) and from other humans.",
+  "Private property is the 'product, the result, the necessary consequence, of alienated labor', though it then reproduces it. An enforced increase of wages would be 'nothing but better payment for the slave' and would not restore human significance to labour.",
+  "Lecture framing: Marx adapts Hegel's dialectic but replaces 'the Spirit' with material relations (historical materialism). The base (means and relations of production) determines the superstructure (values, norms, ideology). This is a deterministic view: humans are subject to, not actors of, broad change. Politically this becomes revolution: abolish private property, pass through a socialist state towards a stateless society. For planning: markets produce material inequality by design, so the progressive planner plans for the poor and the working class through decommodified models (Madden & Marcuse 2016)."
+ ],
+ "concepts": [
+  [
+   "Estranged/alienated labour",
+   "Four forms: from the product, from the labour process, from species-being, from other people."
+  ],
+  [
+   "Species-being",
+   "The human capacity for conscious, free, purposeful creative activity."
+  ],
+  [
+   "Historical materialism",
+   "The material base (means and relations of production) drives history and shapes the superstructure."
+  ],
+  [
+   "Base / superstructure",
+   "Economy and property relations / ideology, law, culture, norms."
+  ],
+  [
+   "Dialectic",
+   "History as the clash of opposites: owners vs the disowned (class struggle)."
+  ],
+  [
+   "Means of production",
+   "Land, factories, tools; ownership defines class."
+  ],
+  [
+   "Commodification",
+   "Turning things (labour, housing, land) into goods produced for exchange value, not use value."
+  ]
+ ],
+ "fig": "[SVG figure; labels: SUPERSTRUCTURE | law · planning · ideology · norms · culture | BASE | means + relations of production (owners ↔ workers) | determines | Change = transform the base (abolish private property); planning inside capitalism mostly reproduces it.]",
+ "cap": "Structure dominates: planning sits in the superstructure.",
+ "example": "HC4 slide, quoting Madden & Marcuse (2016): overcrowding and unaffordable homes 'are not market failures, they are how the market works'. The answer is decommodified housing (public, cooperative), not a tweak of zoning.",
+ "quotes": [
+  "\"The worker becomes all the poorer the more wealth he produces\"",
+  "\"Private property is thus the product, the result, the necessary consequence, of alienated labor\""
+ ],
+ "dims": {
+  "sa": 15,
+  "rt": 80,
+  "de": 35,
+  "us": 30,
+  "mp": 25,
+  "norm": "Material equality through shared ownership of the means of production."
+ },
+ "exam": "Contrast with Hayek. Marx: structure, determinism, material equality, the state redistributes. Hayek: agency, indeterminism, equality of rights, framework rules. Both are ontological realists (exit ticket).",
+ "examples": [
+  {
+   "t": "Workers in the industrial revolution",
+   "d": "HC4 slides: with the shift from an agricultural to an industrial economy, workers no longer transformed matter for their own use but commodified their bodies for a small wage. Shows estrangement from the product and from the act of production.",
+   "src": "slides"
+  },
+  {
+   "t": "'Better pay for slaves'",
+   "d": "The slide quotes Marx: an enforced rise in wages would be nothing more than better pay for slaves and would not raise human significance or dignity. Shows the structural argument: fixing outcomes within wage labour and private property does not end alienation, only changing the base does.",
+   "src": "slides"
+  },
+  {
+   "t": "Lenin on the transitional state",
+   "d": "The slides quote Lenin that the state must persist until capitalist resistance is crushed and there are no classes, as the step from capitalist state to socialist state to stateless society. Shows the deliberate, structure-changing route to material equality in Marxist thought.",
+   "src": "slides"
+  },
+  {
+   "t": "Red Vienna's municipal housing",
+   "d": "Between the wars the Social Democratic city government of Vienna built tens of thousands of municipal flats at low rents, such as the Karl-Marx-Hof (1927-1930). Shows decommodified housing in the Madden and Marcuse sense, though as reform within capitalism rather than Marx's abolition of private property.",
+   "src": "similar"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the text asks and why",
+   "p": [
+    "Note: this is an online text (Marxists Internet Archive) without page numbers, so no page references are given. 'Estranged Labour' is a section of Marx's First Manuscript of 1844; the manuscript breaks off at the end. Marx starts by accepting the premises, language and laws of political economy (the classical economics of his day): private property, the separation of labour, capital and land, wages, profit and rent, division of labour and competition. Using its own terms, he shows that the worker sinks to the level of a commodity, 'the most wretched of commodities', that the worker's wretchedness grows with the power of his production, that competition concentrates capital in few hands, and that society splits into two classes: property owners and propertyless workers.",
+    "His complaint is that political economy describes these laws without explaining them. “Political economy starts with the fact of private property; it does not explain it to us.” It treats competition as accidental and presents greed and the war among the greedy as the only driving forces, without grasping their inner connection. Marx rejects the economists' habit of explaining things by inventing a fictitious 'primordial condition', which only pushes the question back, like theologians explaining evil by the Fall. Instead: “We proceed from an actual economic fact”, and trace the connections between private property, greed, the division of labour and the money system."
+   ]
+  },
+  {
+   "h": "The central fact: the worker grows poorer as wealth grows",
+   "p": [
+    "Marx's starting fact: “The worker becomes all the poorer the more wealth he produces, the more his production increases in power and size.” The worker becomes an ever cheaper commodity the more commodities he creates, and “The devaluation of the world of men is in direct proportion to the increasing value of the world of things.” Labour produces not only commodities; it produces itself and the worker as a commodity.",
+    "The key concept is objectification. “The product of labor is labor which has been embodied in an object, which has become material: it is the objectification of labor.” In itself this is how humans realise themselves. But under the conditions political economy describes, this realisation appears as loss of realisation for the worker; objectification as loss of the object and bondage to it; appropriation as estrangement, as alienation. The product confronts the worker as something alien, a power independent of him. Marx compares this to religion: the more man puts into God, the less he retains in himself. The more the worker produces, the less he can possess and the more he falls under the dominion of his product, capital.",
+    "Nature enters here. The worker can create nothing without the sensuous external world, which provides both the material for labour and the means of physical subsistence. Under estrangement, the more the worker appropriates nature through labour, the more he loses these means of life in a double sense: nature stops being the object of his own labour, and stops directly supplying his subsistence. He becomes a servant of his object: he receives work, and through work the means to survive, first as a worker and only then as a physical being."
+   ]
+  },
+  {
+   "h": "Estrangement in the act of production",
+   "p": [
+    "Estrangement shows not only in the result of labour but in production itself; the product is only the summary of an activity that is itself 'active alienation'. Marx asks: “What, then, constitutes the alienation of labor?” First, labour is external to the worker: he does not affirm but denies himself in it, feels unhappy rather than content, and does not freely develop his physical and mental energy. “The worker therefore only feels himself outside his work, and in his work feels outside himself. He feels at home when he is not working, and when he is working he does not feel at home.” Hence: “His labor is therefore not voluntary, but coerced; it is forced labor.” It is not the satisfaction of a need but only a means to satisfy needs outside it, and it belongs to another, not to the worker.",
+    "The result is an inversion of human and animal. The worker “only feels himself freely active in his animal functions – eating, drinking, procreating, or at most in his dwelling and in dressing-up, etc.; and in his human functions he no longer feels himself to be anything but an animal.” Marx adds that eating and drinking are genuinely human functions too, but when abstracted from other human activity and turned into sole, final ends, they become animal. The HC4 lecture quotes this passage together with the later sentence on wages. This second aspect, estrangement from one's own activity, Marx calls self-estrangement, as opposed to the estrangement of the thing discussed before."
+   ]
+  },
+  {
+   "h": "Species-being and the estrangement of man from man",
+   "p": [
+    "The third aspect needs Marx's notion of 'species-being'. “Man is a species-being”: humans treat their own species, and nature universally, as objects of consciousness and will, and relate to themselves as a universal and free being. Physically humans live from nature like animals, but their universality shows in making all of nature their 'inorganic body': “Nature is man's inorganic body – nature, that is, insofar as it is not itself human body.” Humans live from nature and must remain in continuous exchange with it.",
+    "The contrast with animals is consciousness. “The animal is immediately one with its life activity. It does not distinguish itself from it.” Humans make their life activity itself an object of will and consciousness: “Conscious life activity distinguishes man immediately from animal life activity.” An animal “produces only under the dominion of immediate physical need, whilst man produces even when he is free from physical need and only truly produces in freedom therefrom”; man 'also forms objects in accordance with the laws of beauty'. Estranged labour reverses this: “in degrading spontaneous, free activity to a means, estranged labor makes man's species-life a means to his physical existence.” What makes us human becomes a mere means of survival.",
+    "The fourth consequence follows: “An immediate consequence of the fact that man is estranged from the product of his labor, from his life activity, from his species-being, is the estrangement of man from man.” When a person confronts himself, he confronts other people; each relates to others according to the estranged position in which he finds himself as a worker. Estrangement is therefore not only a private experience but a social relation."
+   ]
+  },
+  {
+   "h": "Who owns the product? Private property and wages",
+   "p": [
+    "If the product and the activity are alien to the worker, to whom do they belong? Not to the gods, and not to nature. “The alien being, to whom labor and the product of labor belongs, in whose service labor is done and for whose benefit the product of labor is provided, can only be man himself.” If the worker's activity is a torment to him, 'to another it must give satisfaction and pleasure': someone outside production who becomes master over it. Through estranged labour the worker thus produces the relation of a stranger, the owner, to labour.",
+    "This yields Marx's reversal of political economy: “Private property is thus the product, the result, the necessary consequence, of alienated labor, of the external relation of the worker to nature and to himself.” Political economy treats private property as the starting point and cause; analysis shows it is the consequence, although later the relation becomes reciprocal: private property is both the product of alienated labour and the means by which labour alienates itself. For the same reason “wages and private property are identical”: wages are a direct consequence of estranged labour. So “An enforced increase of wages … would therefore be nothing but better payment for the slave, and would not win either for the worker or for labor their human status and dignity.”",
+    "Politically, “the emancipation of society from private property, etc., from servitude, is expressed in the political form of the emancipation of the workers”, because the whole of human servitude is bound up in the worker's relation to production. Marx then sets two tasks: to determine the general nature of private property in relation to truly human property, and to explain how man comes to alienate his labour and how this is rooted in human development. The manuscript announces that the relation of the non-worker (the person alien to labour) to the worker and to labour will be considered next, and then breaks off."
+   ]
+  },
+  {
+   "h": "How the HC4 lecture frames Marx",
+   "p": [
+    "The 17 September lecture places this text in a wider reading of Marx, much of which is not in 'Estranged Labour' itself. It presents Marx as adapting Hegel's dialectic: a deterministic conception in which human beings are 'subject to rather than actors of' broad societal change, with Hegel's motor of history, 'the Spirit', replaced by the means of production and the opposition between 'owners' and 'disowned'. Human significance comes from our transformative relationship with nature through labour, which property rights disturb; the industrial revolution alienated workers from their product, turning them from people transforming matter for their own use into sellers of their bodies for a small wage. The slides add materialism's base (means and relations of production) and superstructure (values, norms, ideology).",
+    "Politically the lecture draws the line to revolution: change history by changing the base, abolish private property, and pass from a capitalist state via a socialist state to a stateless society (quoting Lenin). Marx's value is material equality through shared ownership of the means of production, set against Hayek's liberty and equality of rights. For planning, the 'progressive planner' slide quotes Madden and Marcuse (2016): unaffordable and overcrowded housing are “not market failures—they are how the market works”, so cities need decommodified housing such as public or cooperative homes. The check-in questions ask whether structure or agency dominates in Marx and whether change is emergent or deliberate."
+   ]
+  },
+  {
+   "h": "Conclusions and what Marx wants",
+   "p": [
+    "Within this text Marx's conclusion is analytical and political at once. Estranged labour, not private property, is the root; private property is its product. Wage rises or equal wages within this system cannot restore human dignity to labour; emancipation requires ending private property, expressed politically as the emancipation of the workers. The text is openly unfinished: Marx sets himself questions about the origin of alienation in human development and about the relation of the non-worker to the worker, and the manuscript stops. The broader programme of historical materialism and revolution that the lecture describes belongs to Marx's later work and to the lecturers' framing, so distinguish carefully in the exam between what this text says (four forms of estrangement, private property as consequence) and the lecture's wider Marxism."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis. On structure ↔ agency, Marx sits at the structural end: the worker's misery is not a matter of bad choices but of the structure of property and wage labour, which even shapes how people experience their own bodies and relations. On reproduction ↔ transformation, the text explains reproduction (the more workers produce, the stronger capital becomes) but aims at transformation through abolishing private property; the lecture calls the view deterministic. Change is deliberate in the sense of a political project, but driven by structural contradictions rather than by planners.",
+    "The contrast with Hayek is the backbone of week 2. Marx grounds justice in material conditions and treats formal freedom under private property as servitude; Hayek grounds it in individual freedom, general rules and competition based on private property. In Buitelaar's terms, Marx is closest to the Equal City, while Hayek founds the Free City, and the two are externally incongruent. Hall shows how 1970s Marxist planning theory (Harvey, Castells) applied this structural view to the state and planning, and why it risked being 'quietist'. For housing, Madden and Marcuse's decommodification argument is the direct planning translation: housing as commodity for exchange rather than as use."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "Estranged from",
+   "What Marx means",
+   "Marker in the text"
+  ],
+  "rows": [
+   [
+    "1. The product",
+    "The object the worker makes confronts him as an alien, independent power; the more he produces, the poorer he becomes",
+    "'The worker becomes all the poorer the more wealth he produces'"
+   ],
+   [
+    "2. The activity of labour",
+    "Work is external, coerced, a mere means to survive; the worker feels at home only outside work",
+    "'not voluntary, but coerced; it is forced labor'"
+   ],
+   [
+    "3. Species-being",
+    "Free, conscious, creative activity, what makes us human, is reduced to a means of physical existence",
+    "'makes man's species-life a means to his physical existence'"
+   ],
+   [
+    "4. Other people",
+    "Each relates to others through his estranged position as worker; the product belongs to another man, the owner",
+    "'the estrangement of man from man'"
+   ],
+   [
+    "Consequence: private property",
+    "Private property and wages result from estranged labour (later also reproduce it); higher wages do not restore dignity",
+    "'Private property is thus the product, the result, the necessary consequence, of alienated labor'"
+   ]
+  ]
+ },
+ "news": {
+  "t": "Berlin's vote to socialise landlords",
+  "d": "In September 2021 about 59% of Berlin voters backed a referendum to socialise housing companies owning more than 3,000 flats, such as Deutsche Wohnen. In June 2023 an expert commission of 13 members, chaired by former federal justice minister Herta Däubler-Gmelin, concluded that this socialisation is legally possible and (by majority) that compensation may fall below market value. The CDU-SPD Senate chose to first pass a framework law taking effect two years after publication, rather than the direct law the initiative demanded.",
+  "why": "Read through Marx, the campaign targets the base rather than the superstructure: it changes who owns the means of producing housing instead of tweaking rents, aiming at decommodification (housing for use value, not exchange value). The slow legal handling by the Senate shows how property relations are protected by law and the state. Limit: owners would still be compensated and the rest of the market stays private, so this is socialisation of one sector within capitalism, not Marx's abolition of private property.",
+  "src": {
+   "name": "Legal Tribune Online (LTO)",
+   "title": "Expertenkommission legt Abschlussbericht vor: \"Deutsche Wohnen\" darf vergesellschaftet werden",
+   "url": "https://www.lto.de/recht/nachrichten/n/expertenkommission-vergesellschaftung-berlin-wohnung-wohnungsbau-unternehmen-konzern-deutsche-wohnen-senat-abschlussbericht",
+   "date": "2023-06-28"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "From Hegel's idealism to Marx's materialism",
+    "svg": "[SVG figure; labels: Hegel's idealism | motor of history: 'the Spirit' | Thesis | Antithesis | Synthesis | Antithesis | Synthesis | Antithesis | etc. | Marx's materialism | 'owners' vs 'disowned' of the means of production | savage | emperor | slave | landlord | peasant | worker | bourgeois | etc.]",
+    "cap": "Hegel's dialectic spiral (thesis, antithesis, synthesis) is kept, but its motor becomes the opposition between owners (red) and the disowned (amber) of the means of production: dialectic history as 'the fruit of opposing relations'.",
+    "slide": "HC4 slides 14–15"
+   },
+   {
+    "title": "Base and superstructure maintain and shape each other",
+    "svg": "[SVG figure; labels: Superstructure | Everything not directly to do with production: | Art · Family | Culture · Religion | Philosophy | Ideology | Law · Media | Politics · Science | Education | Base | Means of production: | tools, machines, factories, land, raw materials | Relations of production: | lumpen-proletariat, proletariat, labour aristocracy, | petty-bourgeoisie, bourgeoisie; private property, capital | Maintains | (and shapes) | Shapes | (and maintains) | This moves in a spiral pattern. The base is generally dominant.]",
+    "cap": "Materialism: the base (material reality: means and relations of production) shapes the superstructure (values, norms, ideology), which in turn maintains the base. Two-way, but the base is generally dominant.",
+    "slide": "HC4 slide 18"
+   },
+   {
+    "title": "From Marx's history to his political ideology",
+    "svg": "[SVG figure; labels: worker ↔ | bourgeois | class struggle now | revolution | proletary | appropriation | communism | anarchy | Communist revolution: change the course of history by changing the underlying structure (base). | What should be abolished to achieve this?  | Indeed, private property. | capitalist state | socialist state | stateless society | Goal: a society built upon material equality]",
+    "cap": "The same dialectic spiral, continued as a political programme: revolution, proletary appropriation and communism (the slide leaves the later steps as '…') end in anarchy; the state passes from capitalist to socialist to stateless.",
+    "slide": "HC4 slides 19–20"
+   }
+  ],
+  "tables": [
+   {
+    "title": "The progressive (Marxist) planner vs the liberal planner",
+    "head": [
+     "",
+     "Progressive planner (Madden & Marcuse 2016)",
+     "Liberal planner (Glaeser & Gyourko 2003)"
+    ],
+    "rows": [
+     [
+      "View of markets",
+      "Markets do not deliver what they promise, in fact they lead to (material) inequalities",
+      "Markets aren't bad per se and can function efficiently, but are often distorted by land use regulations"
+     ],
+     [
+      "Role of the planner",
+      "The planner ought to plan for the working class and poor",
+      "Planning should ensure a level field, not limit supply"
+     ],
+     [
+      "Route / limits",
+      "The way to achieve this is through radically different models of planning (decommodified housing)",
+      "Planning interventions may be justified when it concerns conflicting land uses, poor quality of space and locational matters"
+     ],
+     [
+      "Also read",
+      "Harvey, Roy, Massey, Aalbers",
+      "Moroni, Buitelaar, Alfasi"
+     ]
+    ],
+    "slide": "HC4 slides 36–37"
+   }
+  ],
+  "points": [
+   {
+    "t": "Why Marx matters for social theory",
+    "d": "One of the most influential economic thinkers and philosophers (Das Kapital); he theorised the transition from an agricultural to an industrial economy and its effects on both social relations and 'man's relation to nature'.",
+    "slide": "HC4 slide 13"
+   },
+   {
+    "t": "Hegel's dialectic, Marx's question",
+    "d": "Hegel offers a dialectic conception of nature and a deterministic conception (humans 'subject to rather than actors of broad societal changes'), with 'the Spirit' as motor of history. The slide's question 'Marx' motor of history?' is answered on the next slides: the means of production.",
+    "slide": "HC4 slides 14, 16"
+   },
+   {
+    "t": "Full Marx quote on the slide",
+    "d": "\"it is true that eating, drinking, procreating etcetera are also human functions. However, when abstracted from other aspects of human activity, and turned into final and exclusive ends, they are animal. […] An enforced rise in wage […] would therefore be nothing more than better pay for slaves and would not mean an increase in human significance or dignity for either the worker or the labour.\" (Marx, 1844; emphasis on 'human significance or dignity' added by the lecturer)",
+    "slide": "HC4 slide 16"
+   },
+   {
+    "t": "Take-home: Marxism and material equality",
+    "d": "\"Marxism views history as driven by class struggles between the owners and the workers. Ideologically calls for the abolition of private property and the establishment of material equality, with planners playing a role in redistributing resources and ensuring material equality.\"",
+    "slide": "HC4 slide 38"
+   },
+   {
+    "t": "Madden & Marcuse: need vs demand, structure not greed",
+    "d": "Two further quotes on the progressive-planner slide: \"There is a world of difference between economic demand and social need. Many people, especially poor and working-class households, need more housing than they can afford. But this form of need does not register with purely profit-oriented developers.\" And: \"Housing problems are not the result of greed or dishonesty. They result from the structural logic of the current housing system.\"",
+    "slide": "HC4 slide 36"
+   }
+  ]
+ }
+}

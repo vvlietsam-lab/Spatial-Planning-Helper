@@ -1,0 +1,557 @@
+{
+ "id": "p3",
+ "n": 3,
+ "theme": 1,
+ "title": "Sustainability: a planning dilemma",
+ "who": "Shaun Smith",
+ "slides": true,
+ "lecture": [
+  "Three perspectives on planning and urban sustainability: normative (McPhearson's five principles; EEA; UN-Habitat), dilemma-based (Campbell's triangle) and critical (Krähmer, Næss, post-growth).",
+  "Planning is 'nearly always dilemmatic' (Khakee 2020): the future is uncertain. Wicked problems (Rittel & Webber) and 'messes' (Ackoff). Type I (tame), Type II (definable, no clear solution) and Type III (neither: continual learning) (DeFries & Nagendra 2017). A dilemmas paradigm: many stakeholders and interpretations, trade-offs at best and conflicts at worst, so conflict resolution is key: a 'viable compromise between sustainable and unsustainable practices' (Campbell 2016). Capitalism 'creates conditions of unceasing growth, upheaval, and disruption'.",
+  "Green gentrification as the core dilemma: greening raises land values and displaces those it was meant to serve (Gould & Lewis 2017: a 'green growth machine'; Anguelovski 2015: green LULUs; Checker 2011). Barcelona: 18 parks, where gentrification depended on location (old town yes, isolated periphery no; Anguelovski et al. 2018). Atlanta BeltLine: home values rose 17.9–26.6% more within half a mile (Immergluck & Balan 2018). Anguelovski et al. 2022: greening is the lead explainer of gentrification in 8 of 17 cities, integrated in 6, subsidiary in 3. Responses: 'just green enough' (Wolch et al. 2014), anti-displacement planning, community land trusts."
+ ],
+ "man": {
+  "cite": "Campbell, S.D. (1996). Green cities, growing cities, just cities? Urban planning and the contradictions of sustainable development. JAPA 62(3), 296–312.",
+  "status": "full",
+  "one": "Planners work within the tension among three aims (economic growth, environmental protection, social equity): the planner's triangle. Sustainable development sits at its unreachable centre and can only be approached indirectly, by confronting and resolving the conflicts.",
+  "summary": [
+   "Nothing in planning steers it towards green, growth or justice. Its conflicts go to 'the historic core of planning' and are not just misunderstandings between disciplines, but real clashes of interest.",
+   "Three conflicts: property conflict (economy ↔ equity: private sector both resists and needs intervention; property's contradictory nature); resource conflict (economy ↔ environment: business resists regulation of nature but needs it to conserve resources, e.g. timber vs spotted owl); development conflict (equity ↔ environment: the most elusive, e.g. protecting nature vs poverty reduction, elite environmentalism; Krumholz's rail vs bus choice in Cleveland).",
+   "Sustainable development as currently formulated romanticises a sustainable past and is 'too vaguely holistic'. Planners need social theory plus environmental thinking, and substantive skills plus conflict-resolution techniques, to confront economic and environmental injustice. Nature is socially constructed, not 'man vs nature'."
+  ],
+  "concepts": [
+   [
+    "Planner's triangle",
+    "Green (environment) · growing (economy) · just (equity), with sustainability at the centre."
+   ],
+   [
+    "Property conflict",
+    "Economic growth ↔ social equity."
+   ],
+   [
+    "Resource conflict",
+    "Economic growth ↔ environmental protection."
+   ],
+   [
+    "Development conflict",
+    "Social equity ↔ environmental protection: the most elusive."
+   ],
+   [
+    "Three planner types",
+    "Economic development planner, environmental planner, equity planner."
+   ]
+  ],
+  "quotes": [
+   "\"This center cannot be reached directly, but only approximately and indirectly, through a sustained period of confronting and resolving the triangle's conflicts.\""
+  ],
+  "examples": [
+   {
+    "t": "Noxious land uses as 'jobs'",
+    "d": "Poor urban communities are often forced to choose between economic survival and environmental quality when the only economic opportunities offered are incinerators, toxic waste sites and landfills that richer neighbourhoods can afford to refuse. Campbell uses this to show the development conflict (equity vs environment) and why environmental racism lies at its heart.",
+    "src": "text"
+   },
+   {
+    "t": "'Trickle-down environmentalism'",
+    "d": "Campbell quotes the Brundtland Report's call to revitalise global economic growth and labels the logic 'trickle-down environmentalism': grow the economy to afford environmental protection. He argues it only works if growth is fairly distributed, so the development conflict can only be solved together with the property conflict.",
+    "src": "text"
+   },
+   {
+    "t": "Coachella lizard and New Jersey plan",
+    "d": "The Coachella Valley Fringe-Toed Lizard Habitat Conservation Plan was praised as a model process, yet may not adequately protect the lizard; New Jersey's State Development Plan was praised for its cross-acceptance procedure but arguably did not alter sprawl. Both show the limit of procedural paths: a good process does not guarantee a sustainable outcome.",
+    "src": "text"
+   },
+   {
+    "t": "New York greenways (Checker)",
+    "d": "The slides cite Checker (2011) on 'environmental gentrification' in New York City's greenway and brownfield-to-park conversions, where new green amenities concentrated benefits among those who could afford to live nearby. It is the development conflict in practice: an environmental gain that undermines equity.",
+    "src": "slides"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Scott Campbell's 1996 JAPA article is one of the most cited texts in planning, mainly for one image: the 'planner's triangle'. His opening claim is blunt: 'Nothing inherent in the discipline steers planners either toward environmental protection or toward economic development -- or toward a third goal of planning: social equity.' Planners work inside the tension between these three aims. Sustainable development sits at the centre of the triangle, but that centre cannot be reached directly.",
+     "Campbell wrote in a period when sustainable development had become planning's newest fascination. He takes it seriously but refuses to treat it as a way of wishing conflicts away. The conflicts between green, growth and justice, he says, are not superficial matters of personal preference, nor just misunderstandings between the languages of economists, ecologists and activists, nor a temporary problem. They 'go to the historic core of planning'. Sustainability can only become useful if it is redefined and placed inside a realistic understanding of political conflict. Note: the version of the text used here is a web reprint without journal page numbers, so no page references are given."
+    ]
+   },
+   {
+    "h": "Planners have no natural home on the triangle",
+    "p": [
+     "Campbell starts by puncturing the profession's self-image. Planners' recent environmental enthusiasm might suggest a natural green bias, but historically they have built cities by clearing forests and fouling rivers, even if park planners, greenbelt planners and environmental planners also defended nature. On the spectrum from Robert Moses to Earth First!, the planner has no natural home, and the midpoint has no special claim to fairness. Likewise, planners see themselves as defenders of the poor, but downtown redevelopment, freeways and enterprise zones hardly add up to equity planning (drawing on Harvey).",
+     "So the planner must reconcile not two but at least three interests: grow the economy, distribute growth fairly, and not degrade the ecosystem. The popular 'jobs versus environment' framing (spotted owl versus timber jobs) hides the third dimension, because it lumps workers, corporations, communities and the national public together under 'economy'. In practice, professional and fiscal constraints mean most planners serve one goal (tax revenue, open space, housing for the poor) and neglect the other two. The gap between the call for integrated sustainable planning (the centre) and fragmented practice (the edges) is the core problem.",
+     "Each corner implies a view of the city. The economic development planner sees a place of production and innovation competing with other cities; space is highways and market areas. The environmental planner sees a consumer of resources and producer of waste competing with nature; space is river basins and greenways. The equity planner sees conflict over distribution within the city; space is communities, segregation and access. Campbell says the triangle is not the true geometry of planning, just a useful simplification."
+    ]
+   },
+   {
+    "h": "Three conflicts on the three sides",
+    "p": [
+     "Each side of the triangle is a conflict. The property conflict (growth versus equity) arises from competing claims on property: management and labour, landlords and tenants, gentrifiers and long-time residents. Each side resists the other but also needs it. Following Foglesong, the 'property contradiction' is that capitalist democracies treat property as a private commodity but rely on government (zoning, public housing) to secure its social benefits, so the private sector both resists and needs social intervention.",
+     "The resource conflict (growth versus environment) has the same structure: business resists regulation of its exploitation of nature, yet needs regulation to conserve resources for the future. Its boundary is symbolised by the 'city limits' between developed city and wilderness. Campbell draws a neat parallel: industry must pay a subsistence wage so labour can 'reproduce' itself, and must leave enough forest so it can reproduce too ('sustained yield'); in both cases how much is 'enough' is contested. He rejects the idea of one universal 'human versus nature' conflict behind all cases: the triangle is a template, and real conflicts need case studies.",
+     "The development conflict (equity versus environment) is 'the most elusive'. How can the poor gain opportunity if environmental protection slows growth? Globally, rich nations ask poor nations to forgo rapid development. Locally, miners and loggers see environmentalists as elitists, and poor communities face a no-win choice between jobs and noxious land uses such as incinerators and landfills, which puts environmental racism at the heart of the development conflict. Norman Krumholz in Cleveland had to choose between regional rail (luring suburban drivers out of cars) and better local buses (helping the inner-city poor): pollution reduction versus equitable access."
+    ]
+   },
+   {
+    "h": "Conflict, complementarity and a social view of nature",
+    "p": [
+     "The corners also depend on each other. One classic argument is that growth makes redistribution and environmental protection easier: 'trickle-down economics' and what Campbell calls 'trickle-down environmentalism', visible in Brundtland's call to revitalise global growth. He accepts part of it but adds that only fairly distributed growth lets the poor protect their environment: the development conflict can be resolved only if the property conflict is resolved too. The planner's task is to find complementary uses among competing interests.",
+     "The triangle also integrates two intellectual traditions: an essentialist environmental view ('man versus nature', emphasising the resource conflict) and a historical-materialist social view (capital versus labour, emphasising the property conflict). Together they reveal the social dimension of environmental conflict. Nature is socially constructed in the sense that groups have different conceptions and uses of it: the lumberjack is not less 'close to nature' than the weekend hiker. This does not mean nature is arbitrary. Campbell calls the choice between anthropocentric and ecocentric views a false one: 'We are all unavoidably anthropocentric; the question is which anthropomorphic values and priorities we will apply to the natural and the social world around us.'"
+    ]
+   },
+   {
+    "h": "Sustainable development: a useful but vague centre",
+    "p": [
+     "Campbell defines the centre of the triangle as sustainable development, the balance of the three goals. He observes that it has become hard to oppose: who would dare to speak against it? A pessimistic reading is that the concept has lost its teeth: if the World Bank and radical ecologists both endorse it, it asks for no specific commitment, and it seems to violate Popper's falsifiability. An optimistic reading is that it has become hegemonic, the parameter rather than a variable of debate, so the job is to work out details. Is it useful for planners? The answer is mixed: it may be too distant and holistic to operationalise, and simply adding 'sustainable' to existing plans is not sustainable planning. Yet as a long-term, unifying vision of a social-environmental system in balance, it can be refined into something useful.",
+     "His main target is a historical romanticism. Many look for sustainability in pre-industrial or indigenous cultures, but Campbell argues the path to sustainability lies forward, not behind us: urbanisation, trade and population growth are irreversible. Pre-industrial communities had no choice but to be sustainable (overuse meant dying out); modern societies must choose it voluntarily. Romanticising the past carries anti-urban sentiment and projects social equality onto nature, which in itself is neither equal nor unequal. Social norms, not nature, must decide what is fair. Environmentalism stretches equity across generations and species, which creates new contradictions: slowing growth may help future generations but hurt poor countries now."
+    ]
+   },
+   {
+    "h": "Why the centre can only be reached indirectly",
+    "p": [
+     "Campbell compares sustainable development to the 1950s–60s faith in comprehensive planning for one 'public interest'. He predicts the same critiques: incrementalists will say a sustainable society cannot be reached in one leap; advocacy planners will say no common interest exists and bureaucrats will neglect the poor and nature. 'Sustainable Development Master Plans' risk becoming glib wish lists that gather dust. He also worries that steady-state, no-growth economics could keep the developing world and the poor in poverty: a sustainable economy will not automatically be just.",
+     "His redefinition has three steps. First, avoid black-and-white thinking: society is a hybrid of sustainable and unsustainable practices and should move step by step. Second, broaden sustainability to the long-term ability of any system to reproduce itself; societies already sustain their economic and political systems but neglect the ecological one, so the aim is to sustain all three in balance. Third, distinguish specific (local, sectoral) from general (global) sustainability; global sustainability will come only through a long, incremental accumulation of local advances. So the vision of a sustainable city will emerge at the end of contested negotiations over land use, transport and housing, not as their premise: one cannot reach the centre 'in a single, holistic leap to a pre-ordained balance'."
+    ]
+   },
+   {
+    "h": "Procedural and substantive paths",
+    "p": [
+     "The planner's role is a dual strategy: manage and resolve conflict, and promote creative technical, architectural and institutional solutions. Procedurally, negotiation and conflict resolution can uncover compatible underlying interests and win-win outcomes, but they fail with all-or-nothing disputes (a dam is built or not), large power imbalances or powerful parties who refuse to take part. Translation between the languages of economics, ecology and social justice helps, but must run both ways so that the economic language does not dominate like a colonial lingua franca; and when interests truly clash, translation must give way. Political pluralism (referendums, elections) widens participation but handles complexity poorly; market mechanisms such as pollution credits address the resource conflict but often neglect equity.",
+     "Substantively, land-use planning is arguably still the planner's most powerful tool: greenbelts, Howard's Garden City, clustered and denser development, and above all reconciling the territorial logics of human and natural habitats, since both need connected land and each fragments the other. Bioregionalism rescales economy and community to ecological regions, but risks a utopian 'spatial fix' and underdevelopment through self-reliance. Technology reduces resource use per unit but gains are often cancelled by rising demand (car fuel efficiency versus total gasoline use) and do not ensure fairness. The best solutions combine several: a negotiated clustered housing design plus a per-unit fee for open space."
+    ]
+   },
+   {
+    "h": "Conclusions and what the author wants",
+    "p": [
+     "Some parties have no interest in resolution: NIMBY responses, eco-terrorism, 'my side will win' confidence, or indifference. Planners are well placed to lead where the built environment and local resources are concerned, but their central role is not guaranteed. Campbell's key message is that 'the development conflict is where the real action for planners will be': resolving environmental and economic equity together. Community development and environmental planners should collaborate, for example on inner-city environmental health, avoiding the elitism of suburban, white environmental groups and joining the environmental justice movement.",
+     "Finally, planners cannot be at the centre all the time; their allegiances and bureaucracies are too constraining. 'Pretending at all times to be at the center of the planner's triangle will only make sustainability a hollow term.' Each planner must orient themselves in the triangle and decide whether to be a mediator outside the conflict or an advocate within it; both roles are needed. And the abstract's closing idea: sustainability is most effective as a lightning rod that sharpens conflict, not as a vision of a peaceful ecotopia."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis. Lecture 3 presents Campbell as the core of a 'dilemma-based' perspective, next to normative (McPhearson's principles) and critical (Næss, Krähmer) perspectives. The lecture's line that conflict resolution is key and planners should seek a 'viable compromise' between sustainable and unsustainable practices comes straight from this text. Green gentrification (Barcelona's parks, the Atlanta BeltLine) is a textbook case of the property and development conflicts: greening, a green-corner goal, raises property values and displaces the poor. 'Just green enough' is a triangle-style compromise.",
+     "On the course dimensions: Campbell is pluralist (conflict between legitimate interests is permanent), incremental and emergent (sustainability is built through negotiation, not a blueprint), and he gives agency to planners while admitting structural constraints (clients, bureaucracies, capitalist property relations). His view of nature is social-constructivist but not relativist. The sharpest contrast is with Næss (lecture 1), who criticises Campbell for putting economic growth on the same level as equity and environment, and who rejects consensus in favour of alliances; Campbell, by contrast, still sees mediation as a key role, though he also allows advocacy. Angelo and Wachsmuth (lecture 2) would add that urban sustainability has tilted towards the growth corner, which fits Campbell's warning that the economic language tends to dominate."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Tata Steel: green steel versus neighbours",
+   "d": "In July 2025 NOS reported that Tata Steel IJmuiden plans to close one of its two blast furnaces and replace it with a hydrogen-based plant plus an electric furnace for more scrap, converting almost half of production by 2030, while negotiating billions in state support. About 9,000 people work there directly and an estimated 20,000 more jobs in the IJmond depend on it. Residents said they doubt the plans and want relief first from odour, fine dust and toxic deposits on playgrounds.",
+   "why": "Read through Campbell, all three corners of the planner's triangle collide here: the resource conflict (jobs and industry versus the environment) and the development conflict (a climate-led transition versus the local health and equity of residents who bear the pollution). The CO2 agenda (global environment) and residents' demands (local environmental justice) do not automatically align, which is why the centre of the triangle can only be approached through confronting the conflict. Limit: this is an industrial site rather than urban land-use planning, so the property conflict over land and housing is less visible.",
+   "src": {
+    "name": "NOS",
+    "title": "Eerst zien, dan geloven: omwonenden twijfelen aan Tata's groene plannen",
+    "url": "https://nos.nl/l/2574332",
+    "date": "2025-07-09"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: \n  | \n  | Green · environmental protection | Growing · economic growth | Just · social equity | \n  | resource conflict | development conflict | property conflict | \n  | sustainable | development]",
+ "cap": "Campbell (1996): the centre is reached only indirectly, through the conflicts.",
+ "rec": [
+  {
+   "cite": "Campbell, S.D. (2016). The Planner's Triangle Revisited: Sustainability and the Evolution of a Planning Ideal That Can't Stand Still. JAPA 82(4).",
+   "basis": "Abstract not retrieved: based on my general knowledge of the text",
+   "abs": "A 20-year reflection on the triangle: sustainability has become mainstream but remains a moving target ('can't stand still'). New pressures such as climate change, resilience and the gap between rhetoric and implementation reshape the conflicts; planners should treat sustainability as an evolving ideal worked out through conflict, not a fixed end-state.",
+   "slides": "L3: quoted for the dilemmas paradigm: the planner seeks a 'viable compromise between sustainable and unsustainable practices' (Campbell 2016); the role is not to find 'perfect' solutions."
+  }
+ ],
+ "exam": "Almost certain essay material: use the triangle to analyse a case (e.g. green gentrification = development conflict; Barcelona, BeltLine). Show you know all three conflicts and why the centre is unreachable.",
+ "table": {
+  "head": [
+   "Path to the centre",
+   "Type",
+   "What it offers",
+   "Limits Campbell names"
+  ],
+  "rows": [
+   [
+    "Conflict negotiation",
+    "Procedural",
+    "Finds compatible underlying interests; win-win solutions; avoids legal costs",
+    "Fails with all-or-nothing disputes, power imbalances, many parties, refusal to join"
+   ],
+   [
+    "Translation between languages",
+    "Procedural",
+    "Planner as translator between economics, ecology and social justice",
+    "Economic 'lingua franca' may dominate; real value clashes remain"
+   ],
+   [
+    "Political pluralism",
+    "Procedural",
+    "Wide participation via vote or referendum",
+    "Binary votes handle complex land-use conflicts poorly; takes decisions out of planners' hands"
+   ],
+   [
+    "Market mechanisms",
+    "Procedural",
+    "Prices bridge trees and timber (e.g. pollution credits)",
+    "Addresses the resource conflict but often neglects equity"
+   ],
+   [
+    "Land use and design",
+    "Substantive",
+    "Greenbelts, clustering, density; connecting human and natural territories",
+    "Not all conflicts are spatial; designs may be only symbolic"
+   ],
+   [
+    "Bioregionalism",
+    "Substantive",
+    "Economy and community scaled to ecological regions",
+    "Utopian 'spatial fix'; self-reliance may mean underdevelopment"
+   ],
+   [
+    "Technological improvement",
+    "Substantive",
+    "Less resource use per unit; win-win promise",
+    "Gains cancelled by rising demand; no guarantee of fairness"
+   ]
+  ]
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Ten traits of wicked problems",
+    "svg": "[SVG figure; labels: Wicked | problems | Problems are never | completely solved | Every problem is unique | No clear definition | Multi-causal, multi- | scalar, interconnected | Multiple stakeholders, | conflicting agendas | Straddle organisational | and disciplinary bounds | Every wicked problem | is connected to others | Every solution ramifies | throughout the system | Solutions not right/wrong, | but better/worse | Long time to evaluate | solutions]",
+    "cap": "Characteristics of wicked problems, based upon Rittel and Webber (1973), shown next to Ackoff's 'mess' quote.",
+    "slide": "L3 slide 7"
+   },
+   {
+    "title": "Tame, complex and wicked problems",
+    "svg": "[SVG figure; labels: Wicked | Complex | Tame | Conflict over definition | of problem and solutions | Problem defined, but | solution not clear | Both problem and | solution defined | Complexity ↑ | Cooperative or | indifferent | Many parties, each | with some knowledge | Many parties, | conflicting values | Stakeholder / institutional difficulties →]",
+    "cap": "DeFries & Nagendra (2017): problems become wicked when high complexity (conflict over problem and solution) meets many parties with conflicting values and interests.",
+    "slide": "L3 slide 9"
+   },
+   {
+    "title": "Three routes around Campbell's triangle",
+    "svg": "[SVG figure; labels: Equity, | social justice | Economic | development | Environmental | protection | sustainability as the | ongoing (never-ending) | process of resolving | the three conflicts | 1. Social welfare state | 'redistribution through growth; | growth through equity' | 3. Environmental justice | 'achieve equity through | environmentalism' | 2. Environmental regulation / resource management | 'economic development through resource management and conservation' | property | development | resource]",
+    "cap": "Each side of the triangle has a historical resolution strategy: the social welfare state (property conflict), environmental regulation (resource conflict) and environmental justice (development conflict). The planner types sit at the corners: equity planner, economic development planner, environmental planner.",
+    "slide": "L3 slides 13, 17"
+   },
+   {
+    "title": "Health gains of green and blue space",
+    "svg": "[SVG figure; labels: Living, working, learning | near green/blue space | Improved immune function | Improved social cohesion | More physical activity | Relaxation and | restoration | Better mental health | Better cognitive function | Less cardiovascular illness | Less type 2 diabetes | Reduced mortality | Better maternal and | foetal outcomes]",
+    "cap": "EEA (2022): pathways (immune function, social cohesion, physical activity, restoration) through which green and blue space improves health. This is the 'gain' side of the greening dilemma.",
+    "slide": "L3 slide 18"
+   },
+   {
+    "title": "BeltLine: extra home-value growth by segment",
+    "svg": "[SVG figure; labels: 0% | 20% | 40% | 53.7% | 32.2% | NW | 50.1% | 32.2% | NE | 58.8% | 32.2% | SW | 51.5% | 32.2% | SE | within ½ mile of BeltLine | not within ½ mile]",
+    "cap": "Immergluck & Balan (2018), Figure 4: cumulative expected home-price change 2011–2015 near each BeltLine segment vs elsewhere in Atlanta (32.2%).",
+    "slide": "L3 slide 28"
+   },
+   {
+    "title": "How central is greening to gentrification?",
+    "svg": "[SVG figure; labels: Anguelovski et al. 2022: role of greening in 17 cities | Lead | 8 cities: standout explainer | Integrated | 6: explains equally (with growth | corridors, transit-oriented development) | Subsidiary | 3: relevant, secondary role]",
+    "cap": "Greening is the lead driver of gentrification in 8 of 17 North American and European cities, an integrated driver in 6 and subsidiary in 3.",
+    "slide": "L3 slide 30"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Three perspectives on planning and urban sustainability",
+    "head": [
+     "Perspective",
+     "Central question",
+     "Sustainability is understood as…",
+     "Role of the planner",
+     "Typical response"
+    ],
+    "rows": [
+     [
+      "Normative",
+      "What should a sustainable city look like?",
+      "A desirable condition or set of goals",
+      "Goal setter / implementer",
+      "Set targets, indicators and plans to move cities towards sustainability"
+     ],
+     [
+      "Dilemma-based",
+      "How can we reconcile competing objectives?",
+      "A balance among competing environmental, economic and social objectives",
+      "Mediator / negotiator",
+      "Identify trade-offs, negotiate interests, build compromises"
+     ],
+     [
+      "Critical",
+      "Why are cities organised in ways that continually produce unsustainability?",
+      "A contested political and socio-economic condition",
+      "Critic / transformative actor",
+      "Question growth, power, inequality, consumption and the assumptions underlying conventional planning"
+     ]
+    ],
+    "slide": "L3 slides 2–3"
+   },
+   {
+    "title": "Normative approach: five principles (McPhearson et al. 2021)",
+    "head": [
+     "Principle",
+     "What it means on the slide"
+    ],
+    "rows": [
+     [
+      "1. Rethinking growth",
+      "From GDP to ecologically based business models where society/nature is at the core of 'value'; degrowth"
+     ],
+     [
+      "2. Rethinking efficiency",
+      "Non-exceedance of critical environmental thresholds; socially and ecologically beneficial use"
+     ],
+     [
+      "3. Rethinking the state",
+      "Strong, proactive state: 'transformative governance' (obligations towards earth systems, solving conflicts, building capacity, giving societal direction); polycentricity: recognising power across actors and levels"
+     ],
+     [
+      "4. Rethinking the commons",
+      "Encourage commons (nature-based, cultural, knowledge, ownership, digital); 'generation and qualitative improvement of new and existing public urban spaces'"
+     ],
+     [
+      "5. Rethinking justice",
+      "Transform systems (social, climate, political) that cause disproportionate impacts and injustices; reciprocity and care for humans and non-human entities (new rights); consider alternative knowledges"
+     ]
+    ],
+    "slide": "L3 slide 4"
+   },
+   {
+    "title": "Examples of wicked problems in ecosystem management (DeFries & Nagendra 2017)",
+    "head": [
+     "Management problem",
+     "Example question",
+     "Reasons for wickedness"
+    ],
+    "rows": [
+     [
+      "Control of infectious disease",
+      "Where and when will outbreaks occur? Will vaccinations and other control strategies be effective?",
+      "Nonlinear population dynamics of vectors and hosts; feedbacks between disease and human behaviour"
+     ],
+     [
+      "Non-point source pollution",
+      "Which sources (agricultural or urban runoff) and pollutants should managers target to improve water quality?",
+      "Complex causality from multiple sources; long lag times in system response"
+     ],
+     [
+      "Fire management at urban–wildland interfaces",
+      "Should managers suppress fires?",
+      "Unintended consequences of increased fuel loads and fire severity"
+     ],
+     [
+      "Conservation of biodiversity",
+      "How much and where should places be protected from other sectors (agriculture, mining, roads, fishing)? How to protect species beyond protected areas? How to rectify inequities for communities that lose access to resources?",
+      "Differences in values; mismatch of ecological and administrative boundaries; divergent stakeholder objectives"
+     ]
+    ],
+    "slide": "L3 slide 10"
+   },
+   {
+    "title": "Weighing trade-offs of urban greening",
+    "head": [
+     "Environmental and health gains",
+     "Social and economic costs"
+    ],
+    "rows": [
+     [
+      "Reduced urban heat-island effect and improved air quality",
+      "Rising land values, rents and property taxes"
+     ],
+     [
+      "Stormwater management and climate resilience",
+      "Direct displacement (eviction, unaffordability)"
+     ],
+     [
+      "Recreational access and mental/physical health benefits",
+      "Indirect displacement of social networks and culture; increased social isolation of those living in green areas"
+     ],
+     [
+      "Progress toward municipal sustainability and climate targets",
+      "Unequal distribution of amenity benefits by race and class"
+     ],
+     [
+      "Increased biodiversity and ecological connectivity",
+      "Erosion of trust between residents and planners"
+     ]
+    ],
+    "slide": "L3 slide 29"
+   },
+   {
+    "title": "Anti-displacement planning: fostering vs taming green gentrification",
+    "head": [
+     "Side",
+     "Fostering (▲)",
+     "Taming (▼)"
+    ],
+    "rows": [
+     [
+      "Resource side",
+      "District mayors reinforcing demands for greenery by better-off residents; subsidy schemes prioritising greening in areas dominated by private rental housing",
+      "Subsidies prioritise dense/heat-exposed districts; city-wide greening budget allocated by greening responsibilities instead of district wealth; large municipal and limited-profit housing stock buffers displacement; new subsidised social housing on central brownfields reduces green-led rent pressures"
+     ],
+     [
+      "Demand side",
+      "Better-off civil society groups advocate greening in participatory channels; broad demand for greenery near housing across all groups",
+      "District mayors override greening proposals when worried about social upgrading; tenants refrain from demanding greening for fear of rent increases or displacement"
+     ],
+     [
+      "Supply side",
+      "Some district mayors pursue greening to attract better-off residents; some landlords use temporary contracts and location surcharges to capitalise on proximity to new green features",
+      "Some district mayors intentionally refrain from greening to avoid fuelling social upgrading; reference-value rent regulation plus widespread social housing limit immediate green-led displacement"
+     ]
+    ],
+    "slide": "L3 slide 32"
+   },
+   {
+    "title": "Effects of community land trusts on gentrification",
+    "head": [
+     "Negative effect of gentrification",
+     "CLTs' counteracting effect",
+     "Gentrifying neighbourhood",
+     "Average neighbourhood"
+    ],
+    "rows": [
+     [
+      "Displacement",
+      "Increase racial diversity",
+      "+, mixed",
+      "+, consistent"
+     ],
+     [
+      "Displacement",
+      "Maintain middle-class ratio",
+      "+, consistent",
+      "+, mixed"
+     ],
+     [
+      "Displacement",
+      "Stabilise income level",
+      "+, mixed",
+      "+, consistent"
+     ],
+     [
+      "Displacement",
+      "Maintain education level",
+      "+, consistent",
+      "+, mixed"
+     ],
+     [
+      "Displacement",
+      "Increase length of residence",
+      "− (negative)",
+      "none"
+     ],
+     [
+      "Displacement",
+      "Decrease age fluctuation",
+      "none",
+      "none"
+     ],
+     [
+      "Lower affordability",
+      "Increase affordability",
+      "+, consistent",
+      "+, consistent"
+     ],
+     [
+      "Lower affordability",
+      "Decrease owner-occupied housing rate",
+      "+, consistent",
+      "+, mixed"
+     ],
+     [
+      "Skyrocketing property prices",
+      "Stabilise housing price",
+      "+, mixed",
+      "− (negative)"
+     ]
+    ],
+    "slide": "L3 slide 33"
+   }
+  ],
+  "points": [
+   {
+    "t": "Khakee: planning is dilemmatic",
+    "d": "“Planning is nearly always dilemmatic. Defined as the application of knowledge to a set of future actions, planning is dilemmatic because the future is wrought with quantitative and qualitative uncertainties as well as surprise events” (Khakee 2020).",
+    "slide": "L3 slide 5"
+   },
+   {
+    "t": "Rittel & Webber: the easy problems are gone",
+    "d": "From 'Dilemmas in a General Theory of Planning' (1973): the “professional's job was once seen as solving an assortment of problems that appeared to be definable, understandable and consensual… these relatively easy problems have been dealt with, we have been turning our attention to others that are much more stubborn”.",
+    "slide": "L3 slide 6"
+   },
+   {
+    "t": "Ackoff's 'mess' (full quote)",
+    "d": "“Every problem interacts with other problems and is therefore part of a system of interrelated problems, a system of problems . . . I choose to call such a system a mess . . . The solution to a mess can seldom be obtained by independently solving each of the problems of which it is composed . . . Efforts to deal separately with such aspects of urban life as transportation, health, crime, and education seem to aggravate the total situation” (Ackoff 1974, p. 21).",
+    "slide": "L3 slide 7"
+   },
+   {
+    "t": "Dilemmas paradigm: no 'perfect' solutions",
+    "d": "Your role as a planner is not to find 'perfect' solutions. Accept that we live largely in capitalist systems, which create 'conditions of unceasing growth, upheaval, and disruption': the internal logic of capitalism is not to 'sustain' anything.",
+    "slide": "L3 slide 11"
+   },
+   {
+    "t": "Campbell's ideal vs planning reality",
+    "d": "“In an ideal world, planners serve the broader public interest by holistically balancing and harmonizing three goals: to enable economic growth and prosperity, to distribute resources fairly, and in this process not to degrade ecosystems.” But realities in practice are often restrictive and guided by the narrower interests of their clients (authorities and bureaucracies). Campbell is Associate Professor of Urban Planning at the University of Michigan.",
+    "slide": "L3 slides 12–13"
+   },
+   {
+    "t": "Property conflict: the property contradiction",
+    "d": "Economic growth/capitalist accumulation ↔ equity. Competing claims on and uses of property: the private sector simultaneously resists and needs social intervention, given the intrinsically contradictory nature of property; an ambivalent relationship between private interests and the public good.",
+    "slide": "L3 slide 14"
+   },
+   {
+    "t": "Resource conflict: Campbell's examples",
+    "d": "Campbell's list of resource conflicts: “water politics in California, timber versus the spotted owl in the Pacific Northwest, tropical deforestation in Brazil, park planning in the Adirondacks, greenbelt planning in Britain”.",
+    "slide": "L3 slide 15"
+   },
+   {
+    "t": "Development conflict: global scale",
+    "d": "“The most allusive [elusive] conflict”: global efforts to protect the environment might prevent measures to reduce poverty and address inequalities between rich and poor nations; elite environmentalism breeds political mistrust.",
+    "slide": "L3 slide 16"
+   },
+   {
+    "t": "Before and after: greening in Utrecht",
+    "d": "Photo pairs show greening transformations: a car park turned into a park, and Utrecht's Catharijnesingel: a motorway in 1982, a canal again 'now'. These are the kind of projects whose success can raise land values.",
+    "slide": "L3 slide 19"
+   },
+   {
+    "t": "Definition of green gentrification",
+    "d": "“Green gentrification” describes how creating or upgrading urban environmental amenities (parks, greenways, eco-districts) “can produce and reinforce environmental privilege, concentrating clean, green, healthy space among those who can afford to live near it” (synthesised from Gould & Lewis 2017). A 'gentrified urban area starterpack' meme (coffee chains, joggers, small dogs, street art) opens the topic.",
+    "slide": "L3 slides 20–21"
+   },
+   {
+    "t": "Gowanus Canal: 'Venice of Brooklyn'?",
+    "d": "Brooklyn Daily Eagle (2017): the Gowanus Canal, “notorious for its toxic waters”, is advertised as the future Venice of Brooklyn with a state-of-the-art park planned by the Gowanus Canal Conservancy, an example of clean-up as an amenity that attracts investment.",
+    "slide": "L3 slide 22"
+   },
+   {
+    "t": "Treadmill of production: success = displacement",
+    "d": "Gould and Lewis (2017) place greening in a broader “treadmill of production”: growth coalitions of developers, city agencies and boosters use green infrastructure to attract capital and higher-income residents, so rising land values are often the intended signal of 'success'. The crux: “the metrics that make a greening project look successful (rising property values, new investment) are frequently the same metrics that predict displacement.”",
+    "slide": "L3 slide 23"
+   },
+   {
+    "t": "Barcelona: method and link to superblocks",
+    "d": "18 new green spaces in socially vulnerable neighbourhoods (1990s–2000s) were part of a citywide regeneration strategy and a precursor to today's superblocks (superilles). Anguelovski, Connolly, Masip & Pearsall (2018) tracked six socio-demographic indicators around all 18 sites. Lesson: green gentrification “depends on a neighborhood's location and pre-existing market pressure, which is precisely why it remains a planning choice rather than an inevitability.”",
+    "slide": "L3 slide 24"
+   },
+   {
+    "t": "Atlanta BeltLine: the project and the warning",
+    "d": "A 22-mile loop of trails, parks and planned streetcar lines on a disused freight-rail corridor connecting 45 neighbourhoods, launched as a flagship of sustainable transit-oriented redevelopment. Immergluck & Balan used regression analysis of home sales before and after segments opened (2011–2015) and warn that without affordable-housing safeguards it risks driving exclusion in neighbourhoods that are disproportionately lower-income and Black.",
+    "slide": "L3 slides 25–27"
+   },
+   {
+    "t": "Nuances: lag times, proximity, regions",
+    "d": "Green gentrification often follows proximity to new green space, often with longer lag times, suggesting location and 'design' effects. It is more prevalent in North America but still evident in Europe (Anguelovski et al. 2022, map of 17 cities incl. Barcelona, Amsterdam, Copenhagen, Lyon, Vancouver, Atlanta).",
+    "slide": "L3 slide 30"
+   },
+   {
+    "t": "'Just green enough': how",
+    "d": "Wolch, Byrne & Newell (2014) scale greening to existing residents' needs: modest, community-directed improvements rather than flagship projects. Mind that the quantity of greenspace has consequences; avoid beautification and design-oriented thinking; deeper participation with local residents; greening that does not cause gentrification (book: Curran & Hamilton, 'Just Green Enough').",
+    "slide": "L3 slide 31"
+   },
+   {
+    "t": "Discussion questions (exam-style)",
+    "d": "Which values do you prioritise: more green areas or addressing social inequalities? Should planners limit exploitation of ecosystems for housing (e.g. waterfront developments)? Should planners prioritise compact development to reduce sprawl, even if this means less green space and biodiversity in the city? Should planners accept green gentrification as a trade-off, since some people benefit, possibly over the longer term?",
+    "slide": "L3 slide 34"
+   }
+  ]
+ }
+}

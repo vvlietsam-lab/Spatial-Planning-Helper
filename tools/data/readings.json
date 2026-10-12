@@ -1,0 +1,2143 @@
+[
+ {
+  "id": "fw",
+  "wk": 1,
+  "title": "Course framework + Rydin (2021) Introduction: Theory and planning research",
+  "theory": "Meta-framework",
+  "one": "Theory is not optional: every definition of 'planning' already frames the object. A theory (ontology + epistemology + values) tells you what to focus on, links your case to a broader story, and lets research build theory. The course compares theories on four dimensions.",
+  "summary": [
+   "Rydin (2021) writes about theory OF planning (analytic: how planning works), not normative planning theory FOR planning (how it should be done), while admitting the two are entangled: 'all research—including analytic research—is imbued with value judgements'. Even defining planning is theoretical: planning as goal-directed decision-making (instrumental, public administration, e.g. Næss & Saglie 2000) → as state action to order the environment in the collective interest → as intervention affecting diverse interests and system features. Each small shift implies a different view of the process.",
+   "Knowledge is more than information: it is about understanding the dynamics that produced a situation, 'a claim to know the cause of things' (rerum cognoscere causas). Research combines general understanding with a specific case. Theory can be seen as law-like (natural-science model; rejected by Flyvbjerg et al. 2012 because of complexity and Giddens' double hermeneutic) or, Rydin's view, as 'a heuristic aid to understanding a situation, a way to try to know what is essentially unknowable in its completeness' (p. 9): 'a set of ideas that fit together coherently and make general statements about the world or a part of it'. Theories carry ontological, normative and epistemological positions, so the terrain of theory is contested and choosing one is a value choice.",
+   "Is theory necessary? Empiricism ('let the facts speak', Latour's 'modernist settlement') fails: data selection and interpretation involve value judgements, and pure empiricism gives a disparate, unconnected field. Flyvbjerg's phronesis (practical wisdom; four questions: where are we going, who gains/loses by which mechanisms of power, is it desirable, what should we do?) still relies on unacknowledged theory (double hermeneutic, praxis). Three advantages of theory: (1) it focuses attention under time/money limits; (2) it links partial findings to a broader, persuasive narrative, enabling generalisation; (3) empirical research can build and revise theory.",
+   "The course then compares theories on four dimensions: (1) sources of planning outcomes (structure ↔ agency); (2) reproduction and change (reproduction ↔ transformation; deliberate ↔ emergent); (3) knowledge (universal ↔ situated; monist ↔ pluralist; + realism ↔ relativism); (4) normative commitments. Theories make explanatory, evaluative and prescriptive claims. Rydin's book runs from the linear rational model (ch. 2), through actor-centred approaches (rational choice, institutions, governance, urban politics; chs 3–6) and structural political economy (ch. 7), to relational perspectives (Foucault, assemblage; chs 8–9)."
+  ],
+  "concepts": [
+   [
+    "Theory (Rydin 2021)",
+    "A heuristic aid; a coherent set of ideas making general statements about (part of) the world; a narrative account, never complete."
+   ],
+   [
+    "Theory of vs theory for planning",
+    "Analytic (how planning works) vs normative (how it should be done) (Faludi's distinction)."
+   ],
+   [
+    "Empiricism",
+    "'Let the facts speak for themselves': rejected because data choice and interpretation are value-laden and findings stay disconnected."
+   ],
+   [
+    "Phronesis",
+    "Flyvbjerg's practical-wisdom research: situated, value-deliberative, attentive to power. Rydin: it still hides theoretical choices."
+   ],
+   [
+    "Double hermeneutic",
+    "Social scientists interpret how people interpret the world (Giddens), so social science ≠ natural science."
+   ],
+   [
+    "Three advantages of theory",
+    "Focus; link to a broader narrative (generalisation); build/revise theory."
+   ],
+   [
+    "Structure / agency",
+    "Patterned arrangements limiting choice / capacity to act independently."
+   ],
+   [
+    "Explanatory / evaluative / prescriptive claims",
+    "How it works / whether it is good / what to do."
+   ],
+   [
+    "Normative commitment",
+    "Assumption about what ought to be valued, pursued, protected."
+   ]
+  ],
+  "example": "A thesis asking 'which municipal instrument best raises housing output?' assumes a deliberate, planner-centred, universal-knowledge view (governmental model). A thesis asking 'how do tenant groups' experiences of renovation differ?' assumes situated, pluralist knowledge.",
+  "examples": [
+   {
+    "t": "Reading housebuilding rates",
+    "d": "Rydin notes that the same data on housebuilding rates can support different narratives depending on whether you take a historical view, focus on housebuilders' behaviour, or on planners' decisions and their rationale. Shows why empiricism fails: data never 'speaks for itself', so a theoretical framing is needed to pick and defend one narrative.",
+    "src": "text",
+    "p": "p. 8"
+   },
+   {
+    "t": "Phronesis hides its theory",
+    "d": "If a phronetic researcher works with political leaders to change planning through dialogue, that assumes change comes via feedback or communicative action; if they help community groups in planning disputes, that assumes planning is a conflict-ridden political process. Shows Rydin's point that phronesis still relies on an unacknowledged theoretical choice.",
+    "src": "text",
+    "p": "p. 11"
+   },
+   {
+    "t": "Governance vs collaborative planning",
+    "d": "Governance theory (analytic, from political science) explains policy through stakeholder networks, while collaborative planning theory (normative) wants more communicative action between those same stakeholders. Shows that theory OF planning and theory FOR planning overlap even though Rydin's book stays on the analytic side.",
+    "src": "text",
+    "p": "pp. 12-13"
+   },
+   {
+    "t": "Metropolis housing plan case",
+    "d": "Lecture case: a landowner offers 2,000 market-rate homes that comply with the rules and need no subsidy, while the city considers 1,600 homes with 40% affordable, priority for low-income households and a EUR 50 million public contribution. Shows that normative commitments decide what counts as the problem and what you measure when judging which plan is better.",
+    "src": "slides"
+   }
+  ]
+ },
+ {
+  "id": "buit",
+  "wk": 1,
+  "title": "Buitelaar (2026) Making sense of The Just City",
+  "theory": "Normative / political philosophy",
+  "one": "'The Just City' is a concept everyone supports, but its conceptions differ: the Happy, Equal, Supportive and Free City. Each has different materials of justice and policies, and they are not à la carte: some are internally or externally incongruent. Planners need 'justice literacy'.",
+  "summary": [
+   "Concept vs conception (Moroni 2020, after Rawls): nobody opposes the concept of a just city, but conceptions differ. Three problems in debates: justice kept vague to avoid controversy (superficial consensus); justice defined narrowly as if only one conception exists (e.g. Fainstein's anti-neoliberal framing); and inconsistency when incompatible conceptions are pursued at once (you can't condemn segregation and gentrification AND support free settlement). Aim: improve 'justice literacy', i.e. the vocabulary (conceptions) and grammar (how they connect).",
+   "Premises: strictly, a city cannot be just; only institutions (formal and informal rules) can (Moroni). 'City' = the target territory where goods, duties or rights are allocated. Each conception decomposes into five materials of justice (Dawkins 2021): value (what is distributed), principle (how), scope (to whom/where), ground (why), basis (goal-based vs rights/duty-based).",
+   "Happy City (utilitarianism): value = utility/preference satisfaction; principle = maximum collective utility; goal-based. Policies: CBA, agglomeration economies (often labelled 'neoliberal'). Critique: ignores distribution and individual rights. Equal City (egalitarianism): value = equality of outcomes/opportunities; 'the more equal, the better'; inequality instrumentally problematic (neighbourhood effects) and intrinsically wrong. Policies: redistribution, social mixing. Supportive City (sufficientarianism, + prioritarianism, limitarianism): everyone ENOUGH (absolute, not relative poverty); access to primary goods/capabilities, e.g. affordable housing (≤30% of income), commuting limits; setting the threshold is key; rights/duty-based. Free City (liberalism; Hayek, Nozick): equal rights and freedom; 'assigning rights rather than distributing outcomes'; the city as spontaneous order; Nozick's entitlement theory (justice in acquisition and transfer); refrain from growth controls, inclusionary zoning, rent control; Oosterwold. A positive-freedom variant: the capability approach (Sen, Nussbaum).",
+   "Congruence: internal = do the materials within one conception fit (e.g. utility + individual rights don't)? External = do conceptions fit each other? Free + Supportive can combine (primary goods can be rights; capabilities fit sufficiency). The Free City is incompatible with the goal-based Happy and Equal Cities: formal equality clashes with material equality, and 'liberty upsets patterns' (Nozick), e.g. free settlement produces clustering. 'Justice is not à la carte.'"
+  ],
+  "concepts": [
+   [
+    "Concept vs conception",
+    "The general idea of justice vs a specific version of it."
+   ],
+   [
+    "Justice literacy",
+    "Knowing the vocabulary (conceptions) and grammar (connections) of justice."
+   ],
+   [
+    "Materials of justice",
+    "Value, principle, scope, ground, basis (Dawkins 2021)."
+   ],
+   [
+    "Goal-based vs rights-based",
+    "Aims at an end-state for the collective (Happy, Equal) vs secures rights/duties (Supportive, Free)."
+   ],
+   [
+    "Happy City",
+    "Utilitarian; maximum collective utility; CBA, agglomeration."
+   ],
+   [
+    "Equal City",
+    "Egalitarian; everyone the same (relative); social mixing, redistribution."
+   ],
+   [
+    "Supportive City",
+    "Sufficientarian; everyone enough (absolute); spatial primary goods such as affordable housing."
+   ],
+   [
+    "Free City",
+    "Liberal; equal rights and freedom; refrain from intervening; Oosterwold; capabilities (positive freedom)."
+   ],
+   [
+    "Internal / external (in)congruence",
+    "Fit between materials within one conception / between conceptions."
+   ],
+   [
+    "Entitlement theory (Nozick)",
+    "A distribution is just if it came about through just acquisition and transfer."
+   ]
+  ],
+  "example": "Amsterdam's rule that new developments include a fixed share of social housing combines the Equal City (mixing) and the Supportive City (enough affordable homes). A Free City critic would call it a restriction of property rights; a Happy City analyst would run a CBA.",
+  "examples": [
+   {
+    "t": "Room stress and housing ratio",
+    "d": "To set a sufficiency threshold for housing, Buitelaar cites the room stress factor (rooms available divided by rooms required, minus 1; below 0 is inadequate) and the 30% housing ratio, which he says says little without absolute income, hence the 'budget approach'. Shows that in the Supportive City the key task is defining and measuring the threshold.",
+    "src": "text",
+    "p": "pp. 358-359"
+   },
+   {
+    "t": "Redlining as an unjust rule",
+    "d": "Refusing mortgages because a home is in a marginalised neighbourhood or postcode, regardless of the applicant's borrowing capacity, is unjust from a liberal view because it breaches equal rights. Shows the Free City's rules: negative and universal (Hayek's 'negative test of universality'), removing unjust conduct rather than steering outcomes.",
+    "src": "text",
+    "p": "p. 361"
+   },
+   {
+    "t": "The buy-to-let investor",
+    "d": "An investor who legitimately buys and rents out many properties ends up owning far more than owner-occupiers; eyebrows may be raised, but for liberalism this is no injustice. Shows Nozick's entitlement theory: a distribution is just if acquisition and transfer were legitimate, whatever pattern results.",
+    "src": "text",
+    "p": "p. 361"
+   },
+   {
+    "t": "Sen's bicycle",
+    "d": "A bike is a commodity, the pleasure of riding it is utility, but what counts is the capability to ride it or choose not to; for a disabled person the bike itself is of little use. Shows the capability approach (positive freedom) and why it departs from resource-based conceptions like Rawls's primary goods.",
+    "src": "text",
+    "p": "p. 362"
+   }
+  ]
+ },
+ {
+  "id": "hall",
+  "wk": 2,
+  "title": "Hall (2014/2020) The City of Theory",
+  "theory": "Intellectual history of planning thought",
+  "one": "After 1955 planning became an academic discipline and swung from craft (design) to science (systems/rational planning), then fragmented (Lindblom, Davidoff, Marxists, communicative theory), and in the process lost its 'priestly clothing'.",
+  "summary": [
+   "Before 1955 planning was an extension of architecture and engineering: design-based, blueprint end-state plans, survey–analysis–plan (Geddes), with 'theory in planning but no theory of planning'. Goals were implicit, the planner 'would get it right first time', and the political environment was passive: Batty calls it planning's golden age (e.g. Abercrombie's static city with a green belt).",
+   "The 1950s baby boom, economic boom and mass car ownership overwhelmed that static system. At the same time a 'quantitative revolution' (location theory: von Thünen, Weber, Christaller, Lösch; Isard's regional science) and cybernetics (Wiener) arrived. 1960–70: the systems revolution. Cities are systems to be modelled, monitored and controlled (McLoughlin, Chadwick; transportation studies Detroit 1955, Chicago 1956; Lowry model). Rational planning is the theory of the process (Faludi), systems planning the theory of the object. Planning becomes a science, not an art.",
+   "From 1965 to 1975 critiques 'stripped the planner of whatever priestly clothing' he or she had: from the right/pluralists (Lindblom's muddling through; Meyerson & Banfield; Altshuler) and from the left (Davidoff's advocacy planning; Arnstein). Rittel & Webber's wicked problems undercut optimal solutions. Then came the Marxist ascendancy (Harvey, Massey, Castells, Lefebvre): planning serves the reproduction of capital and labour, so planning theory is a product of social forces, a logic Hall calls 'strangely quietist'. Forester tries to resolve it with Habermas: communicative action. Hall's jab: stripped of its philosophy, it is 'good old-fashioned democratic common sense', i.e. Davidoff again. Theory and practice: honeymoon in the 1960s, tiffs in the 1970s, divorce in the 1980s."
+  ],
+  "concepts": [
+   [
+    "Planning as craft",
+    "Pre-1955: design-based, blueprint, end-state plans, intuitive expert goals."
+   ],
+   [
+    "Theory in vs theory of planning",
+    "Borrowed snippets of theory about cities vs a theory of what planning (the process) is."
+   ],
+   [
+    "Systems planning",
+    "Theory of the object: the city as a system of interrelated activities in flux, monitored and controlled (cybernetics)."
+   ],
+   [
+    "Rational (process) planning",
+    "Theory of the process: goals → inventory → model → forecast → alternatives → evaluation → choice → monitoring (Faludi 1973)."
+   ],
+   [
+    "Priestly clothing",
+    "The planner's special status and mystique as expert, lost 1965–75."
+   ],
+   [
+    "Marxist critique",
+    "Planning is a function of the capitalist state: it secures accumulation and reproduction of labour, and always solves one problem by creating another."
+   ],
+   [
+    "Communicative turn",
+    "Forester (via Habermas): planning as communicative action that can distort or reveal; later Healey, Innes. Rydin (2007) calls it the 'new orthodoxy'."
+   ],
+   [
+    "Planning graduate 1955/1965/1975",
+    "Drawing board → analysing computer output → talking to community groups in the evenings (Hall, p. 386)."
+   ]
+  ],
+  "example": "The Dutch Vinex-era models and MKBA practice are the 1960s systems/rational legacy still alive; a participatory 'omgevingsdialoog' under the Omgevingswet is the communicative legacy.",
+  "examples": [
+   {
+    "t": "The graduate planner 1955-1975",
+    "d": "Hall's caricature: in 1955 the new planner sat at the drawing board drawing land uses, in 1965 analysed computer output of traffic patterns, and in 1975 talked late into the night with community groups. Shows the shift from craft to systems science to advocacy, and the loss of the planner's claim to unique expertise.",
+    "src": "text",
+    "p": "p. 400"
+   },
+   {
+    "t": "Altshuler's Minneapolis-St Paul",
+    "d": "Altshuler found the professional planner had no clout against the political machine, which backed the highway engineers; they won by stressing expertise and narrow goals. Shows the pluralist critique from the right: real decisions are political, far from the 'cool, rational, Olympian' style of the systems texts.",
+    "src": "text",
+    "p": "pp. 397-398"
+   },
+   {
+    "t": "Paris clearances, US zoning",
+    "d": "Marxists argued planning always solves one problem by creating another: 19th-century clearances in Paris created a working-class housing problem, and American zoning limited industrialists' most profitable locations. Shows the Marxist view that planning can modify but never remove the contradiction between private accumulation and collective action.",
+    "src": "text",
+    "p": "p. 403"
+   },
+   {
+    "t": "Berlage's Plan Zuid",
+    "d": "The knowledge lecture illustrates 'planning as a craft' with Berlage's Plan Zuid for Amsterdam (1904/1915): a detailed, aesthetic blueprint plan. Shows the pre-1955 design tradition where there was theory in planning but no theory of planning.",
+    "src": "slides"
+   }
+  ]
+ },
+ {
+  "id": "know",
+  "wk": 2,
+  "title": "Rydin (2007) Re-examining the role of knowledge within planning theory",
+  "theory": "Epistemology of planning",
+  "one": "Modernist planning reified knowledge as an object; postmodern planning celebrates many knowledges but has no institutional arrangements to handle them. Rydin argues for treating knowledge as claims about causal relations, distinguishing them from other (ethical, aesthetic) claims, and creating arenas where planners open up to and test (close down) them.",
+  "summary": [
+   "Starting point: the breakdown of the modernist consensus (Latour): knowledge is not a mirror of nature produced by neutral experts, but socially constructed and embedded in social relations and networks (epistemic communities, communities of practice). Modernist planning rested on planners' command of knowledge for progress. Knowledge differs from information and data because it specifies a causal relationship: planners need to know how impacts follow from actions.",
+   "The 'new orthodoxy' in planning theory (consensus building: Innes; collaborative: Healey; radical: Sandercock's 'epistemology of multiplicity') places knowledge outside planning organisations. But deliberation has limits: general ones (vague practice, planner skills, capture by powerful interests, unresolved conflict) and knowledge-specific ones: knowledges are not additive (Evans & Marvin); Innes's consensus building works when information is fully shared or 'uncertainty is rampant', whereas most planning lies in between. 'Engaging different knowledges is fundamentally different to engaging different voices.'",
+   "Knowledge claims must be distinguished from ethical, pragmatic, efficiency or aesthetic claims, since stakeholder rights ≠ expertise rights (Collins & Evans). Habermas's validity claims support this: truth (constatives), normative legitimacy (regulatives), truthfulness (expressives). Labelling all community claims 'knowledge' is politically understandable but wrong: experience 'is not of itself a sufficient condition for it to be knowledge' (p. 9 of MS / p. 56). Planners are co-producers of knowledge (Mode 2): they give voice (opening up) AND test and recognise claims (closing down), aiming at 'socially robust knowledge'. This is a realist constructivism: knowledge is socially constructed yet engages material reality.",
+   "Typology (Figure 1): planning seeks to turn State A into B1; without planning A becomes B; the actual result is B2. Seven knowledge types: (1) empirical State A, (2) predictive State B, (3) process A→B, (4) process A→B1 (how planning works), (5) empirical B2 (outcomes), (6) process A→B2, (7) normative B1 (desired future, normative yet grounded in possible paths). Collapsed into four: empirical, process, predictive, normative (Table 2). None is value-free and each carries a causal story. Each type needs different arenas and planner roles: empirical = lay + expert, planner as client, analyst or facilitator; process = theory-framed research, even action research; predictive = mostly expert-led, planner as client; normative = public-sphere debate, planners keep possible futures on the table (an ethical voice)."
+  ],
+  "concepts": [
+   [
+    "Knowledge (Rydin 2007)",
+    "A claim specifying causal relationships, not just data or information."
+   ],
+   [
+    "Modernist consensus",
+    "Knowledge as an objective mirror of nature produced by experts; its breakdown = knowledge as socially constructed."
+   ],
+   [
+    "New orthodoxy",
+    "Communicative/collaborative planning: many stakeholders, many knowledges, consensus."
+   ],
+   [
+    "Knowledge vs other claims",
+    "Knowledge claims differ from ethical, pragmatic, efficiency and aesthetic claims (Habermas's validity claims; Collins & Evans)."
+   ],
+   [
+    "Opening up & closing down",
+    "Give voice to claims; test and recognise which count as knowledge."
+   ],
+   [
+    "Co-production",
+    "Planners help generate knowledge by testing and recognising claims."
+   ],
+   [
+    "Seven → four knowledge types",
+    "Empirical, predictive, process (×3), normative → empirical, process, predictive, normative."
+   ],
+   [
+    "Universal ↔ situated",
+    "Does validity depend on who produced the claim and from where?"
+   ],
+   [
+    "Monist ↔ pluralist",
+    "How many independent sources can confer the status of knowledge?"
+   ],
+   [
+    "Realism ↔ relativism",
+    "Can claims be judged against each other? Rydin: soft relativism, but claims can be tested."
+   ],
+   [
+    "Multi- vs transdisciplinary",
+    "Several disciplines (can still be monist) vs non-academics as knowledge producers (pluralist)."
+   ]
+  ],
+  "example": "Grenfell Tower: the Grenfell Action Group's warnings (local experiential knowledge) were ignored. Opening up would have heard them; closing down would have tested them against fire-safety evidence.",
+  "examples": [
+   {
+    "t": "B, B1 and B2 in housing",
+    "d": "Rydin's own illustration: B is the expected housing shortage, B1 the planned match of supply and need, and B2 the actual result of profitable developments alongside continued overcrowding, housing stress and homelessness. Shows why planning needs outcome (B2) and process knowledge, not just knowledge of the goal.",
+    "src": "text",
+    "p": "MS p. 15"
+   },
+   {
+    "t": "Local ill-health vs risk experts",
+    "d": "Experts often present a community's view of an environmental risk as exaggerated, yet local experience such as episodes of ill-health can be a basis to challenge the expert assessment. Rydin adds that not all community risk perceptions are therefore knowledge, so shows the need to separate knowledge claims from other claims and test them (closing down).",
+    "src": "text",
+    "p": "MS pp. 9-10"
+   },
+   {
+    "t": "Market prices or child poverty",
+    "d": "Describing an area's affluence with market prices or with child poverty makes a difference. Shows that even descriptive (empirical) knowledge is value-laden in its framing and carries an implicit causal story.",
+    "src": "text",
+    "p": "MS p. 17"
+   },
+   {
+    "t": "Utrecht and Rijnenburg claims",
+    "d": "Lecture exercise: 'car ownership in Utrecht fell by 12% (2015-2023)' is empirical; 'housing demand in Rijnenburg will exceed supply by 2030' is predictive; 'densification near stations reduces car dependency' and 'participation produces better plans' are process claims; 'Rijnenburg should prioritise affordability over aesthetics' is normative. Shows how Rydin's typology tells you which arena and test each claim needs.",
+    "src": "slides"
+   }
+  ]
+ },
+ {
+  "id": "marx",
+  "wk": 2,
+  "title": "Marx (1844) Estranged Labour",
+  "theory": "Marxism / historical materialism",
+  "one": "Under capitalism workers are estranged from their product, their activity, their species-being and each other. History is driven by class struggle over the means of production, so real change needs a structural change of the base: abolition of private property.",
+  "summary": [
+   "Humans realise themselves through labour, their transformative relation with nature. Under private property and wage labour this relation is inverted: 'The worker becomes all the poorer the more wealth he produces.' Marx names four estrangements: from the product (it confronts him as an alien power), from the act of production (labour is 'not voluntary, but coerced; it is forced labor'), from species-being (conscious creative activity reduced to a means to survive) and from other humans.",
+   "Private property is the 'product, the result, the necessary consequence, of alienated labor', though it then reproduces it. An enforced increase of wages would be 'nothing but better payment for the slave' and would not restore human significance to labour.",
+   "Lecture framing: Marx adapts Hegel's dialectic but replaces 'the Spirit' with material relations (historical materialism). The base (means and relations of production) determines the superstructure (values, norms, ideology). This is a deterministic view: humans are subject to, not actors of, broad change. Politically this becomes revolution: abolish private property, pass through a socialist state towards a stateless society. For planning: markets produce material inequality by design, so the progressive planner plans for the poor and the working class through decommodified models (Madden & Marcuse 2016)."
+  ],
+  "concepts": [
+   [
+    "Estranged/alienated labour",
+    "Four forms: from the product, from the labour process, from species-being, from other people."
+   ],
+   [
+    "Species-being",
+    "The human capacity for conscious, free, purposeful creative activity."
+   ],
+   [
+    "Historical materialism",
+    "The material base (means and relations of production) drives history and shapes the superstructure."
+   ],
+   [
+    "Base / superstructure",
+    "Economy and property relations / ideology, law, culture, norms."
+   ],
+   [
+    "Dialectic",
+    "History as the clash of opposites: owners vs the disowned (class struggle)."
+   ],
+   [
+    "Means of production",
+    "Land, factories, tools; ownership defines class."
+   ],
+   [
+    "Commodification",
+    "Turning things (labour, housing, land) into goods produced for exchange value, not use value."
+   ]
+  ],
+  "example": "HC4 slide, quoting Madden & Marcuse (2016): overcrowding and unaffordable homes 'are not market failures, they are how the market works'. The answer is decommodified housing (public, cooperative), not a tweak of zoning.",
+  "examples": [
+   {
+    "t": "Workers in the industrial revolution",
+    "d": "HC4 slides: with the shift from an agricultural to an industrial economy, workers no longer transformed matter for their own use but commodified their bodies for a small wage. Shows estrangement from the product and from the act of production.",
+    "src": "slides"
+   },
+   {
+    "t": "'Better pay for slaves'",
+    "d": "The slide quotes Marx: an enforced rise in wages would be nothing more than better pay for slaves and would not raise human significance or dignity. Shows the structural argument: fixing outcomes within wage labour and private property does not end alienation, only changing the base does.",
+    "src": "slides"
+   },
+   {
+    "t": "Lenin on the transitional state",
+    "d": "The slides quote Lenin that the state must persist until capitalist resistance is crushed and there are no classes, as the step from capitalist state to socialist state to stateless society. Shows the deliberate, structure-changing route to material equality in Marxist thought.",
+    "src": "slides"
+   },
+   {
+    "t": "Red Vienna's municipal housing",
+    "d": "Between the wars the Social Democratic city government of Vienna built tens of thousands of municipal flats at low rents, such as the Karl-Marx-Hof (1927-1930). Shows decommodified housing in the Madden and Marcuse sense, though as reform within capitalism rather than Marx's abolition of private property.",
+    "src": "similar"
+   }
+  ]
+ },
+ {
+  "id": "hayek",
+  "wk": 2,
+  "title": "Hayek (1944) Planning and democracy",
+  "theory": "Liberalism / Austrian economics",
+  "one": "Central economic planning directs all of society towards a single goal, which presupposes a 'complete ethical code' that nobody has. Because democratic assemblies can agree that there should be a plan but not on its ends, planning shifts decisions to experts and discretion, and ultimately to dictatorship. Democracy only works when collective action is limited to fields where true agreement exists and power is bound by general rules.",
+  "summary": [
+   "Starting point (pp. 42–44): all collectivism (communism, fascism) is 'the deliberate organisation of the labours of society for a definite social goal'. Goals such as the 'common good' or 'general welfare' are too vague to decide any concrete action; a single plan would need every need of every person ranked in one order of values, i.e. a 'complete ethical code'. No such code exists: as civilisation grew, moral rules became fewer and more general, merely marking out a sphere of individual freedom. Nobody can survey more than a limited field of needs, so only partial, mutually inconsistent scales of values exist, in individual minds. That, not egoism, is the basis of individualism: the individual is 'the ultimate judge of his ends'.",
+   "Limits of common action (pp. 44–45): social ends are just the identical ends of many individuals, so common action must be limited to fields where people agree; agreement is likeliest on means that serve many purposes, and its probability falls as the scope of state action widens. Once the state controls a large enough share of resources (Germany 1928: 53% of national income), it indirectly controls almost everything, and the 'social scale of values' must cover nearly all individual ends.",
+   "The democratic mechanism (pp. 45–51): people may agree on planning without agreeing on its ends, like a group committing to a journey without agreeing where to go. Parliaments then fail and are seen as 'talking shops'; planning is 'taken out of politics' and delegated to experts (Hayek quotes the Webbs, Laski and the Donoughmore Committee). Majority voting suits choices between limited alternatives, but a plan needs 'a unitary conception' and cannot be voted clause by clause. Unlike a general with one goal, the planner must choose between competing ends, so experts impose their own scale of preferences. Delegation of general rule-making (even to local authorities) is acceptable; delegation of discretion in particular cases ('judging the case on its merits') creates arbitrary power. Separate sectoral plans do not add up, the cry for an 'economic dictator' follows, and parliament ends up choosing persons with near-absolute power: 'plebiscitarian dictatorship'. Germany before 1933 is the example: Hitler exploited a democracy that had already decayed.",
+   "Conclusion (pp. 51–53): 'It is the price of democracy' that conscious control is limited to fields of true agreement and some things are left to chance. The liberal creed reduced the range of subjects needing agreement; only within a competitive system based on free disposal over private property is democracy possible. Democracy is not an end but 'a utilitarian device' for peace and freedom; a homogeneous majority can be oppressive. Planning leads to dictatorship because dictatorship is the most effective instrument of coercion. What prevents arbitrary power is 'not the source but the limitation of power'.",
+   "Slides vs chapter: the lecture presents Hayek through spontaneous order, indeterminism, 'the theory of complex phenomena' (cited as Hayek 1989) and equality of rights vs Marx's material equality. None of these terms appears in this chapter. Dispersed local knowledge comes from Hayek (1945) 'The use of knowledge in society' (cited by Cozzolino); spontaneous order (kosmos vs taxis) from Law, Legislation and Liberty (1973; Moroni cites the 1982 edition). The chapter itself argues from value pluralism, the limits of any one mind's view of needs and ends, and the political mechanics of majority rule and delegation. The slide headings 'The philosophy of individualism' and 'Planning in democracy' are the parts actually drawn from this chapter."
+  ],
+  "concepts": [
+   [
+    "Collectivism",
+    "'The deliberate organisation of the labours of society for a definite social goal' (p. 42); denies autonomous spheres where individual ends are supreme."
+   ],
+   [
+    "Complete ethical code",
+    "A ranking of all human values complete enough to decide every choice a central plan requires; Hayek says it does not exist (pp. 43–44)."
+   ],
+   [
+    "Individualism (Hayek)",
+    "Not egoism: because no mind can survey more than a sector of society's needs, the individual should be the ultimate judge of his own ends within defined limits (p. 44)."
+   ],
+   [
+    "Limits of agreement",
+    "Common action is legitimate where individual views coincide; agreement falls as the scope of state action grows (p. 45)."
+   ],
+   [
+    "Delegation to experts",
+    "When assemblies cannot agree on a plan, it is handed to experts, who then impose their own scale of preferences (pp. 46–48)."
+   ],
+   [
+    "General rules vs discretion",
+    "Delegating general rule-making is acceptable; delegating decisions on particular cases 'on their merits' produces arbitrary power (p. 49)."
+   ],
+   [
+    "Plebiscitarian dictatorship",
+    "End state of democratic planning: parliament only confirms a leader who holds practically absolute power (p. 51)."
+   ],
+   [
+    "Price of democracy",
+    "Conscious control restricted to fields of true agreement; 'in some fields things must be left to chance' (p. 51)."
+   ],
+   [
+    "Democracy as means",
+    "'A utilitarian device for safeguarding internal peace and individual freedom' (p. 52), not the highest end."
+   ]
+  ],
+  "example": "The chapter's own cases: Germany, where by 1928 public authorities controlled 53% of national income and democracy had in effect broken down before 1933, so 'Hitler did not have to destroy democracy' (p. 50); and Britain, where Laski proposed governing by delegated legislation and Order in Council (pp. 46–47). Planning illustration (not in the text): a permit system that decides each project 'on its merits' is what Hayek calls discretion; a zoning code of general rules is the acceptable form.",
+  "examples": [
+   {
+    "t": "A journey with no destination",
+    "d": "People agreeing on central planning without agreeing on its ends are like a group committing to travel together without agreeing where to go, so most end up on a journey they do not want. Shows Hayek's claim that agreement exists only on the mechanism, which pushes decisions to experts.",
+    "src": "text",
+    "p": "p. 46"
+   },
+   {
+    "t": "The general vs the planner",
+    "d": "A general can be handed one supreme goal for a campaign, but an economic planner must choose between the conflicting ends of different people, so experts end up imposing their own scale of preferences. Shows why delegating planning is not just delegating technical detail.",
+    "src": "text",
+    "p": "p. 48"
+   },
+   {
+    "t": "Halevy's composite photograph",
+    "d": "Halevy suggested a composite photograph of Eustace Percy, Oswald Mosley and Stafford Cripps would show one shared feature: the belief that only dictatorial leadership could end economic chaos. Shows Hayek's 'cry for an economic dictator' as a stage on the road from planning to plebiscitarian dictatorship.",
+    "src": "text",
+    "p": "p. 50"
+   },
+   {
+    "t": "Zoning as a tax",
+    "d": "The HC4 slide pairs Hayek with Glaeser and Gyourko (2003): zoning strictness correlates with high prices, a few subsidised units barely affect prices, but cutting the 'zoning tax' on new construction could have a massive impact. Shows the liberal planner's role: set a level framework rather than limit supply or steer outcomes.",
+    "src": "slides"
+   }
+  ]
+ },
+ {
+  "id": "cozz",
+  "wk": 2,
+  "title": "Cozzolino (2020) The (anti) adaptive neighbourhoods",
+  "theory": "Complexity / liberal (Hayek–Moroni line)",
+  "one": "Cities as a whole are complex adaptive systems, but many 20th-century neighbourhoods built all at once are anti-adaptive. The cause lies in neglected factors: action (the source of change), ownership (which distributes design control) and time. Planners should create room for incremental, self-organised adaptation instead of more central plans.",
+  "summary": [
+   "AANs = large residential neighbourhoods built all-at-once and from scratch in the 20th century (e.g. 'La Clementina', Bergamo, vs historic 'Borgo Santa Caterina'). They answered housing pressures and gave affordable ownership, but they are 'in a lock-in situation': they can't self-regenerate, so they call for top-down, 'paternalistic' regeneration. Aims: characterise the causes of AAN formation and perpetuation, and give policy/design implications. Adaptability matters for persistence, identity and innovation (use of dispersed local knowledge, Hayek, Jacobs).",
+   "Traditional cities grew from private ownership, incremental development and organic adjustment among households, governed by legal codes that protected neighbours. Modern planning shifted from proscriptive rules ('thou shalt not', only preventing externalities) to prescriptive rules that predefine spatial configurations. Complexity is emergent (spontaneous action); simplicity is designed: 'the more one neighbourhood is designed from the top, the less space there is for complexity to evolve'.",
+   "Planning's direct responsibility: pushing large-scale developments, demanding large public open spaces, and rules that freeze adaptation. Implications: include time (after construction, leave room for unpredictable adaptation); use 'locality knowledge' while preventing negative externalities; welcome multiple independent ownerships and distributed design control ('everything depends on the pattern of ownership', Moudon). Regeneration: abandon paternalism. New areas: top-down design only for certain common structures; Oosterwold as an experiment. Final point: the problem isn't too few central plans but 'the lack of flexible space for incremental adaptation and the evolution of self-organized orders'. Not nostalgic: the focus is 'the institutional framework that shaped [the traditional city's] evolutionary process', and a distance from New Urbanism."
+  ],
+  "concepts": [
+   [
+    "Anti-adaptive neighbourhood (AAN)",
+    "Built all-at-once from scratch, reluctant to incremental change, 'lock-in'."
+   ],
+   [
+    "Action · ownership · time",
+    "The three under-estimated factors behind adaptability."
+   ],
+   [
+    "Proscriptive vs prescriptive rules",
+    "Prohibitions preventing externalities vs rules predefining spatial outcomes."
+   ],
+   [
+    "Complexity vs simplicity",
+    "Emergent order from spontaneous action vs designed artificial order: a trade-off."
+   ],
+   [
+    "Distribution of design control",
+    "Ownership as the legal title that spreads design control among many actors."
+   ],
+   [
+    "Locality knowledge",
+    "Jacobs: people's situated knowledge of their own needs and place."
+   ],
+   [
+    "Paternalistic circle",
+    "AANs can't self-regenerate, so top-down interventions follow, which reproduce dependence."
+   ]
+  ],
+  "example": "Oosterwold (Almere): buyers get a plot and a short list of rules (build on max. 20%, grow food, arrange your own road and utilities) instead of a master plan.",
+  "examples": [
+   {
+    "t": "Standards forbid the old city",
+    "d": "Cozzolino notes that recreating the physical pattern of the traditional city today would be blocked by prescriptions such as minimum road widths, building distances, parking and green-space standards. Shows the shift from proscriptive rules ('thou shalt not') to prescriptive rules that lower adaptive capacity.",
+    "src": "text",
+    "p": "p. 207"
+   },
+   {
+    "t": "Self-build still rare",
+    "d": "In 2015, self-building made up only 10-15% of new housing in the Netherlands and the UK, even though they are seen as leading nations. Shows demand-driven development and distributed design control as the alternative to supply-driven, all-at-once large projects, and how marginal it still is.",
+    "src": "text",
+    "p": "pp. 214-215"
+   },
+   {
+    "t": "Historic quarters can lock in",
+    "d": "Because of preservation policies and restrictive rules, old historic quarters sometimes show the typical problems of an AAN. Shows that anti-adaptiveness comes from rules and design control, not from age or form, and raises the question whether preservation and adaptability can be reconciled.",
+    "src": "text",
+    "p": "p. 216"
+   },
+   {
+    "t": "Amsterdam's Bijlmermeer",
+    "d": "Listed by Cozzolino among Europe's AANs (note 1), the Bijlmermeer was built in one go from the late 1960s as high-rise honeycomb blocks with large collective green space; from the 1990s a top-down renewal demolished part of it and added low-rise, more often owner-occupied homes. Shows the lock-in and the costly central regeneration ('paternalistic circle') that AANs tend to need.",
+    "src": "similar"
+   }
+  ]
+ },
+ {
+  "id": "gov",
+  "wk": 3,
+  "title": "Rydin (2021) Governmental models: the hope of rational public administration",
+  "theory": "Rational-comprehensive planning (governmental model)",
+  "one": "The governmental model frames planning as a rational, linear (with feedback) process in which politicians set goals and expert planners choose the best means. Research within it becomes policy evaluation: 'a critical friend shadowing the steps'.",
+  "summary": [
+   "Justification comes from welfare economics: markets fail through externalities, missing markets (information), public and merit goods and monopoly (including landowners'), so the public sector intervenes in the public interest. The public interest in this view is the greatest net benefit to society, and planning is welfare optimisation.",
+   "In the Weberian tradition goals 'stand outside the planning process'. Politicians set ends; public administration brings 'expert knowledge to bear on the options available'. The ideal process is Lichfield et al.'s (1975) eleven steps, from problem definition to review. Four features: (1) evidence-based planning, where knowledge 'can be gathered and made available to the planning process in a positive way' (p. 22); (2) a comprehensive synthesis across all dimensions (triple bottom line, systems thinking à la McLoughlin); legitimacy 'comes from the rationality of the analysis' (p. 24); tools such as EA/SEA, CBA, MCA and GIS inform but do not decide; (3) formulation to implementation, with policy instruments (direct investment, strategic spatial planning, regulation, fiscal measures, tradeable permits, information/nudges); (4) implementation studies show how tools are used matters, planners exercise discretion and negotiate, and the politics/administration line blurs.",
+   "Critiques from the lecture: wicked problems (Rittel & Webber 1973), incrementalism/muddling through (Lindblom 1959), advocacy planning (Davidoff 1965). Its ideal-typical assumptions are complete information, clear agreed goals, and objective value-free decisions separated from politics. Yet 'rationality is dead but keeps showing up' (Brooks 2002): e.g. the Dutch MKBA (social cost-benefit analysis) of the toll-free Westerscheldetunnel (net welfare gain €27–39m, ratio 1.5, but 'the feeling of injustice about the toll' could not be priced)."
+  ],
+  "concepts": [
+   [
+    "Instrumental rationality",
+    "Choosing the most efficient means for given ends; planning = optimisation."
+   ],
+   [
+    "Weberian separation",
+    "Politicians set goals; trained officials apply impersonal rules and expertise to choose means."
+   ],
+   [
+    "Market failure",
+    "Externalities, missing markets, public goods, merit goods, monopoly; justifies planning (welfare economics)."
+   ],
+   [
+    "Lichfield's 11 steps",
+    "Problem definition → decision to act → data/forecast → constraints/objectives → criteria → design → test alternatives → evaluate → decide → implement → review."
+   ],
+   [
+    "Comprehensive synthesis",
+    "Integrating all dimensions of a problem into one balanced view; source of legitimacy."
+   ],
+   [
+    "Evidence-based planning",
+    "'we can make policies work better if we understand how policy mechanisms bring about change' (Sanderson 2002)."
+   ],
+   [
+    "Implementation studies",
+    "How tools are used; discretion and negotiation; goals reformulated during implementation."
+   ],
+   [
+    "Critical friend",
+    "Research within this model mirrors the model: evaluation of steps, goals taken as given."
+   ],
+   [
+    "MKBA",
+    "Dutch social cost-benefit analysis: compares options with a no-policy future, in euros where possible."
+   ]
+  ],
+  "example": "Westerscheldetunnel toll: MKBA says abolishing the toll gives a net gain of €27–39m (B/C 1.5), but it cannot price the felt injustice, so politicians still decide.",
+  "examples": [
+   {
+    "t": "Energy planning in Escamp, The Hague",
+    "d": "Hettinga et al. piloted a Geodesign decision support system in Escamp with 12 municipal sustainability officers, a touch table and real-time impact assessments, ending in three agreed boundary conditions and a neighbourhood energy plan. Shows the governmental model's decision-support theme: better data and tools help planners choose the best means, with stakeholders involved instrumentally.",
+    "src": "text",
+    "p": "pp. 26-28"
+   },
+   {
+    "t": "Chongming Eco Island evaluation",
+    "d": "The official self-assessment found 19 of 22 indicator targets for 2014 met, but Ma et al.'s broader evaluation matrix found no sustainable transport, poor waste sorting and little gain for residents. Shows implementation and evaluation research that still judges outcomes against the plan itself (plan implementation).",
+    "src": "text",
+    "p": "pp. 29-31"
+   },
+   {
+    "t": "Tourism scheme at Ria de Aveiro",
+    "d": "A 309-home tourism development on a lagoon sandbar in Portugal was scaled down after EIA negotiations, then refused when a new national government's commission raised coastal erosion. Pinho uses it to show discretion and negotiation inside the planning steps, and how separated procedures block the integrated, balanced view the model promises.",
+    "src": "text",
+    "p": "pp. 31-33"
+   },
+   {
+    "t": "Post-war housing norms (Voorschriften en Wenken)",
+    "d": "The lecture shows Dutch post-war social housing (1945-1965), when the ministry's 'Voorschriften en Wenken' decided centrally what a home should be. An example of the governmental model institutionalised: experts fix the right means for politically given housing goals.",
+    "src": "slides"
+   }
+  ]
+ },
+ {
+  "id": "scott",
+  "wk": 3,
+  "title": "Scott (1998/2020) The high-modernist city",
+  "theory": "Critique of authoritarian high modernism",
+  "one": "High-modernist planning (Le Corbusier, CIAM, Brasília, Chandigarh) imposed a legible, geometric, functionally segregated order seen from above. It produced visual order but social failure, and an unplanned city at the margins. Jane Jacobs's street-level view shows real order is complex and experienced.",
+  "summary": [
+   "High modernism = a strong belief in scientific and technical progress, rational design of the social order, and state power to impose it (with a weak civil society). Le Corbusier's 'total city planning': a tabula rasa, geometry and standardisation (right angles, the straight line), strict functional segregation (work, home, leisure, traffic), and 'rule by the plan, the planner, and the state': the plan is to be imposed, with no consultation. He saw the city from the air; the plan was a utopian project, legible and easy to police.",
+   "Brasília (Costa and Niemeyer, under Kubitschek) is 'the closest thing we have to a high-modernist city'. It was built from zero on state land as a 'utopian miniaturization' meant to transform Brazil. Residents got 'brasilite': no street corners, no crowds, uniform superquadra blocks, disorientation. Legibility for administrators meant confusion for residents. By 1980, 75% of the population lived in unplanned settlements; the planned city depended on the unplanned one ('symbiotic'). Chandigarh (Le Corbusier) repeated this: monumental axes, empty squares, hawkers banned.",
+   "Jacobs (1961) critiques from street level: visual order ≠ experienced order; function, not surface regularity, defines order; mixed use and complexity ('cross-use') are functionally superior; single-use zoning simplifies for planners. Planning as 'urban taxidermy': cities treated as works of art instead of living systems. Scott's wider point (ch. 9) is that high modernism ignores practical, local knowledge (mētis)."
+  ],
+  "concepts": [
+   [
+    "High modernism",
+    "Faith in science/technology and state power to rationally redesign society and space."
+   ],
+   [
+    "Legibility",
+    "Making society readable and controllable from the centre through simplification and standardisation."
+   ],
+   [
+    "Functional segregation",
+    "Separating work, housing, leisure and traffic into zones."
+   ],
+   [
+    "Utopian miniaturisation",
+    "Building a model city from scratch to demonstrate a new society."
+   ],
+   [
+    "Brasilite",
+    "Residents' 'disease' of anonymity and missing street life in Brasília."
+   ],
+   [
+    "Unplanned Brasília",
+    "Squatter and satellite settlements housing most people, symbiotic with the planned core."
+   ],
+   [
+    "Visual vs experienced order",
+    "Jacobs: tidy geometry ≠ a well-functioning, lived environment."
+   ],
+   [
+    "Mētis",
+    "Practical, local, experience-based knowledge high modernism ignores."
+   ]
+  ],
+  "example": "Dutch post-war 'wijkgedachte' neighbourhoods (Bijlmermeer: high-rise, separated traffic levels) are a local high-modernist case, and its 1990s partial demolition a Jacobs-style correction.",
+  "examples": [
+   {
+    "t": "Brasília's unplanned city",
+    "d": "The construction workers (candangos) organised to claim land, services and title; by 1980, 75 percent of Brasília's population lived in settlements the plan never anticipated, while the planned city reached less than half its projected 557,000. Shows Scott's point that the legible, ordered centre depended on an unplanned city at the margins.",
+    "src": "text",
+    "p": "p. 134"
+   },
+   {
+    "t": "Chandigarh's empty monumental squares",
+    "d": "Le Corbusier replaced housing planned for the centre with an 'acropolis of monuments' on a 220-acre site, swapped crowded bazaars for huge squares that now stand largely empty, and street traders were banned from the centre. Shows functional segregation and order seen from above killing street life, again with an unplanned periphery.",
+    "src": "text",
+    "p": "pp. 112, 136"
+   },
+   {
+    "t": "The despised East Harlem lawn",
+    "d": "Jacobs describes a housing project lawn that residents treated with contempt, because in a project of strangers they could not get a newspaper, a coffee or borrow fifty cents. Shows the gap between visual order and experienced, functional order.",
+    "src": "text",
+    "p": "p. 137"
+   },
+   {
+    "t": "Eyes on Boston's North End",
+    "d": "Dense shops, bars and bakeries kept the North End busy all day, so shopkeepers, passers-by and elderly people at windows watched the street; on Jacobs's own street, neighbours and shopkeepers gathered to stop a possible abduction without any police. Shows informal, mixed-use order ('eyes on the street') that single-use planning cannot design.",
+    "src": "text",
+    "p": "p. 139"
+   }
+  ]
+ },
+ {
+  "id": "davoudi",
+  "wk": 3,
+  "title": "Davoudi (2006) Evidence-based planning: rhetoric and reality",
+  "theory": "Post-positivist critique of evidence-based policy",
+  "one": "The UK enthusiasm for evidence-based policy rests on an instrumental, linear, utilitarian view of research, the same naive assumptions as 1960s–70s positivist planning. In the real world evidence competes with ideology, interests, institutions and prior information, so Davoudi argues for an enlightenment model: evidence-informed policy.",
+  "summary": [
+   "Context: New Labour's Modernising Government White Paper (1999): 'what matters is what works'. Two models of the policy–research interface. The instrumental model (linear, direct) has two variants: 'expert on top' (research leads, evidence-driven policy) and 'expert on tap' (research follows policy concerns; speed, usable evidence on demand). The enlightenment model: indirect, long-term; research 'illuminates the landscape' and informs public debate, i.e. evidence-INFORMED rather than evidence-BASED policy.",
+   "The instrumental view rests on three misconceptions: policy-making is a rational process; evidence can only be generated by positive science; experts are apolitical and value-free, 'and they know best'. These echo planning history: Geddes' survey-analysis-plan (linear, but intuitive visionary planners); then 1960s–70s systems and rational planning (cybernetics, McLoughlin, Chadwick, location theory, Popper's falsifiability) which conceived planning as a science solving well-defined problems, 'the paradox of policy analysis'.",
+   "Real world: policy is bricolage (Ball); more information can confuse (Keynes); research sits on shelves ('problem of little effect', Weiss). Evidence competes with Weiss's four I's: ideology (e.g. urban containment/Green Belt sustained by values despite Hall's 1973 evidence), interests (DEFRA: evidence 'to turn strategic priorities into something concrete' → the political/tactical model, cherry-picking; think tanks under Thatcher; the Barker review), institutional norms and practices (quick fixes, unread reports), and prior information (facts only become evidence when used to support a proposition; evidence includes expert and experiential, formal and tacit knowledge; what counts is what is available; validity of relations matters). 'Power is knowledge' (Flyvbjerg): power determines what counts as knowledge.",
+   "The 2004 planning reform's 'soundness' test (PPS12: a 'robust and credible evidence base') became a largely procedural, tick-box exercise. Conclusion: the evidence-based enthusiasm and positivist planning share 'ambitious and naïve assumptions that the complex political and socio-economic processes could be technicized, commanded and controlled'. Keep a broad enlightenment view and two-way interaction between policy and research, and aim at an 'evidence-informed society'."
+  ],
+  "concepts": [
+   [
+    "Instrumental model",
+    "Linear, direct research→policy (expert on top) or policy→research (expert on tap)."
+   ],
+   [
+    "Enlightenment model",
+    "Research indirectly illuminates the context and informs debate: evidence-informed policy."
+   ],
+   [
+    "Expert on top / on tap",
+    "Research leads policy / research serves policy demands."
+   ],
+   [
+    "Three misconceptions",
+    "Policy-making is rational; evidence only from positive science; experts are value-free and know best."
+   ],
+   [
+    "Weiss's four I's",
+    "Ideology, interests, institutional norms/practices, prior information: competitors of evidence."
+   ],
+   [
+    "Political/tactical model",
+    "Evidence gathered or cherry-picked to justify decisions already made."
+   ],
+   [
+    "Evidence (OED, per Davoudi)",
+    "Facts become evidence only when used to (dis)prove a proposition; includes experiential and tacit knowledge."
+   ],
+   [
+    "Soundness test",
+    "UK 2004 plan test on a 'robust and credible evidence base'; in practice procedural, tick-box."
+   ]
+  ],
+  "example": "The Dutch MKBA/'onderbouwing' culture resembles the instrumental model; the fact that Green Heart and urban containment persist on values more than evidence illustrates Weiss's 'ideology'.",
+  "examples": [
+   {
+    "t": "DEFRA's definition of evidence",
+    "d": "DEFRA defined evidence as 'any information that helps turn DEFRA's strategic priorities into something concrete, manageable and achievable'. Shows Weiss's 'interests' and the political/tactical model: evidence is sought to justify priorities already decided.",
+    "src": "text",
+    "p": "p. 19"
+   },
+   {
+    "t": "Inconclusive evidence on high density",
+    "d": "Studies on the costs and benefits of high-density housing remained inconclusive and open to value-based readings, yet policy already treated high density as the route to sustainable communities. Shows that evidence is often incomplete or contested and that policy does not wait for it.",
+    "src": "text",
+    "p": "pp. 20-21"
+   },
+   {
+    "t": "PPS12 'test of soundness'",
+    "d": "The 2004 English reform required plans to rest on a 'robust and credible evidence base', but early practice made soundness a procedural tick-box exercise rather than a test of which growth strategy is better. Shows evidence used in a quasi-judicial sense (reasoned justification) instead of substantive knowledge of how cities work.",
+    "src": "text",
+    "p": "pp. 21-22"
+   },
+   {
+    "t": "Nobody knows where waste goes",
+    "d": "A House of Commons report said of hazardous waste flows that 'no-one seems to have a clue what is going where', because strategic waste planning had not been treated as a policy problem worth research. Shows that 'research for policy's sake' is selective: evidence exists mainly where policy already looks.",
+    "src": "text",
+    "p": "pp. 15-16"
+   }
+  ]
+ },
+ {
+  "id": "alex",
+  "wk": 3,
+  "title": "Alexander: after rationality (contingency theory)",
+  "theory": "Rationality debate / contingency theory",
+  "one": "Rationality has broken down as planning's single paradigm, but nothing has replaced it. Alexander proposes a contingency framework: classic rationality (individual deliberation) and Habermas's communicative action (interaction) are mirror images, each valid in its own domain.",
+  "summary": [
+   "Rationality plays two roles: a descriptive model (explaining decisions as if actors are rational) and a normative paradigm (analytic standard and prescription), and it remains the basis of planners' claims to expertise.",
+   "Responses to its breakdown: ritual (keep using it with token acknowledgment of anomalies), avoidance (swap in descriptive models such as Simon's satisficing or Lindblom's disjointed incrementalism), abandonment (drop process models for intuition, or for a substantive ideology such as neo-Marxism or public choice) and search (new paradigms, contingency models). The procedural-vs-substantive debate is sterile: it is really about level of abstraction (two dimensions: procedural↔structural focus; concrete↔abstract).",
+   "Critical theory/TCA (Habermas) adds reflexive consciousness and the shift from decision to interaction, but it is normative, procedural, and ignores the pre-interactive deliberation by which actors decide what to pursue. Most real interaction is strategic, not communicative. Rationality ignores interaction; TCA ignores deliberation. 'One paradigm cannot supplant another', so a contingency framework combines them.",
+   "Lecture use: rationality is 'no more than a more sophisticated word for reason' (Alexander 2000, 4): having reasons (linking means to ends) and giving reasons (justification). The midterm example question also quotes Alexander's institutional design: 'the deliberate creation of institutions by planners to achieve politically defined societal goals', which Moroni criticises (week 4)."
+  ],
+  "concepts": [
+   [
+    "Rationality (Alexander 2000)",
+    "Having reasons (means-ends) + giving reasons (justification)."
+   ],
+   [
+    "Four responses",
+    "Ritual · avoidance · abandonment · search."
+   ],
+   [
+    "Contingency theory",
+    "Different models are valid under different conditions; a framework assigns domains."
+   ],
+   [
+    "Communicative vs strategic action",
+    "Oriented to consensus through argument vs to success through power and manipulation."
+   ],
+   [
+    "Institutional design (Alexander 2005)",
+    "Devising rules, procedures and organisational structures to achieve held values/objectives; at macro, meso and micro levels."
+   ]
+  ],
+  "example": "A municipality internally ranks options with an MCA (deliberation, rational), then negotiates with developers and residents (interaction, strategic or communicative).",
+  "examples": [
+   {
+    "t": "The 'ritual response' in planning",
+    "d": "Alexander notes that much planning education and practice keeps following the rational model with only token acknowledgement of its anomalies. Illustrates why rationality survives as the normative basis of planners' claims to expertise even after the paradigm broke down.",
+    "src": "text"
+   },
+   {
+    "t": "Mediation: communicative or strategic?",
+    "d": "Mediation, conflict resolution and arbitration belong in the real, collective, consensus-oriented cell only when carried out by a neutral participant or a consensus-oriented group, which Alexander calls rare; once actors pursue their own goals, the same process is strategic action (bargaining, negotiation). Shows how the contingency framework sorts one practice by the actor's purpose.",
+    "src": "text"
+   },
+   {
+    "t": "Linear programming versus satisficing",
+    "d": "Formal optimisation such as linear programming and multi-objective decision-making sits in the ideal, individual cell, while satisficing, disjointed incrementalism and mixed scanning describe how individuals actually decide (real, individual cell). Shows the ideal/real split: rationality works as a norm, not as a description.",
+    "src": "text"
+   }
+  ]
+ },
+ {
+  "id": "rc",
+  "wk": 3,
+  "title": "Rational choice & self-interest (lecture) + Coase",
+  "theory": "Rational choice theory",
+  "one": "All actors (citizens, developers, municipalities) maximise self-interest; property rights and institutions shape their incentives. Planning faces both market failure and state failure, and can work by clarifying rights and cutting transaction costs.",
+  "summary": [
+   "Rational-comprehensive planning is an ideal standard for planning decisions (expert, value-free welfare optimisation). Rational choice theory is an analytical framework for how planning works: rational decision-making by ALL actors, market and state failure, emulating market rationality in state processes.",
+   "Public interest has no objective, universal goal; it is the aggregate of private interests (agency-focused). Land-use planning is limited: landowners have a de facto veto ('Land-use planning will only succeed if it can influence private decisions', Needham 2012, p. 24). Rent = income from owning land above the cost of production (Ricardo). Asymmetry: when planning raises land values owners keep the betterment; when it lowers them (downzoning, heritage, regulatory takings) they claim compensation. Landowner strategies (Rijnenburg, Buitelaar et al. 2025): framing ('low-hanging fruit'), collaborating (consortium), lobbying, negotiating. Swiss hypothesis: the peasant land law bars outsiders buying farmland and caps price gains, so there is no speculative expansion lobby and insiders gain from densification.",
+   "Airbnb: incentives differ (hosts, guests, neighbours, planners). Under-regulation is a collective action problem (Olson): small concentrated interests organise; large diffuse groups free-ride. Regulation (Utrecht 2018: 60 nights, guest cap, registration, fines €150–€21,750) suffers from enforcement, data, transaction costs, legal challenges and waterbed effects. Coase (1960): with clearly defined property rights and zero transaction costs, bargaining yields the efficient outcome regardless of who holds the right. Since transaction costs are never zero (information, bargaining, enforcement, holdouts, many parties), design Coasean interventions: clarify rights and cut transaction costs (tradable hosting permits, VvE negotiation, hosting tax into a neighbourhood fund, platform monitoring).",
+   "Core assumptions: self-interest maximisation (not only economic); applies to all actors; property rights/institutions shape incentives and can be deliberately changed; outcomes judged in costs and benefits; knowledge mostly positivist (models, game theory, CBA). Can explain reproduction (insiders protect interests) and transformation (deliberate redesign of rules). Critiques: over-simple human model, ignores power and inequality, too agency-focused, limiting assumptions, reverse nirvana fallacy."
+  ],
+  "concepts": [
+   [
+    "Self-interest",
+    "Actors weigh costs and benefits to pursue their own interests (not only money)."
+   ],
+   [
+    "State failure",
+    "Government also fails: rent-seeking, capture, information and incentive problems."
+   ],
+   [
+    "Externality",
+    "Effect of one actor's action on others not reflected in prices (noise, safety, housing pressure)."
+   ],
+   [
+    "Collective action problem",
+    "Individually rational free-riding leads to collectively suboptimal outcomes."
+   ],
+   [
+    "Coase theorem",
+    "Clear property rights + zero transaction costs → efficient bargaining outcome, whoever holds the right."
+   ],
+   [
+    "Transaction costs",
+    "Information, bargaining, enforcement, strategic behaviour (holdouts), many parties."
+   ],
+   [
+    "Rent / rent-seeking",
+    "Unearned income from land; efforts to capture it via the political process."
+   ],
+   [
+    "Betterment / compensation asymmetry",
+    "Owners keep planning gains but claim planning losses."
+   ],
+   [
+    "Regulatory taking",
+    "Public regulation that reduces the value of private property."
+   ]
+  ],
+  "example": "Airbnb in Amsterdam: hosts form a small, concentrated, organised interest; neighbours are a large, diffuse group who free-ride, so regulation lags.",
+  "examples": [
+   {
+    "t": "Coase's noisy factory",
+    "d": "Quiet is worth €1,000 to the homeowner and insulation costs the factory €700; whoever holds the right, bargaining leads to insulation and only who pays whom changes. Shows Coase's theorem, which holds only if rights are clearly defined and transaction costs are zero.",
+    "src": "slides"
+   },
+   {
+    "t": "Utrecht's short-stay rules (2018)",
+    "d": "Utrecht set a limit of 60 nights a year, a guest cap per m2, a registration number, a reporting duty and fines from €150 to €21,750. Rational choice scholars expect such one-size-fits-all rules to struggle with detection, platforms withholding data, enforcement transaction costs and waterbed effects.",
+    "src": "slides"
+   },
+   {
+    "t": "Swiss farmland law and densification",
+    "d": "Bouwmeester's hypothesis: Swiss law (BGBB) blocks farmland sales at more than 5-15 percent above agricultural value and bars non-farmers from buying farmland, so no speculative outsider lobby pushes for expansion and insider owners gain scarcity rents from inward growth. Shows property rules shaping incentives so that supporting densification becomes the rational strategy.",
+    "src": "slides"
+   },
+   {
+    "t": "Dutch planschade compensation",
+    "d": "Dutch owners can claim compensation (planschade, under the Omgevingswet 'nadeelcompensatie') when a new plan lowers their property's value, while value gains from upzoning are not taxed as such. A close case of the asymmetry on the slides: landowners keep betterment but claim planning damages.",
+    "src": "similar"
+   }
+  ]
+ },
+ {
+  "id": "needham",
+  "wk": 3,
+  "title": "Needham (2012) Interests and rights in property",
+  "theory": "Institutional economics of property rights (law and economics; rational choice lens in the course)",
+  "one": "Land-use planning is not the public interest against the market: it is one of two ways the state protects identifiable private interests in land, the other being property rights enforced by their holders in court. Which interests get which protection is a political and technical choice that can be revised, so some planning goals could be reached by creating markets in property rights; Needham finds this feasible only under limited circumstances.",
+  "summary": [
+   "Reframing (pp. 23–26): planning is usually justified by 'the public interest', which Needham rejects: it is hard to substantiate, economic 'distortion' arguments no longer convince, and it depersonalises: 'But we too are the public!' People have interests in how land is used, their own and their neighbours' (a deep hole, a pink door, traffic, shops, open landscape, clean air). The authority upholds 'the identifiable interests of many identifiable private persons'. Planning is also not 'command and control': owners' decisions remain voluntary, and 'Land-use planning will succeed only if it can influence the private decisions' (p. 24), via permits, subsidies/levies, persuasion or infrastructure; only taking ownership removes the decision.",
+   "Rights (pp. 26–28): ownership is never absolute; owners may not seriously harm others (though many countries allow harm if the benefit exceeds it, Coase), and owners can grant partial rights (a lease). A property right is a way of using land 'recognized by, and protected by, the courts', so rights are created by the state, not natural (against Locke): 'It is the fact that something is protected that makes it a right' (Bromley). The state protects interests in two ways: private law (the interest becomes a property right the holder enforces in court) and public law (a public authority such as a municipality restricts how others use their rights, e.g. via building permits). Which route applies is partly political (the door colour is not protected at all) and partly technical (right of support: clear cause and few parties; clean air: diffuse effects, hundreds of victims who cannot organise a lawsuit, so public law).",
+   "Rights as policy variable (pp. 28–29): because the split is a decision, it can be revised; property rights can 'be deliberately changed in order purposefully to influence land use', although rights carry high ideological content and the ECHR limits change. Example: vesting future generations' interests as rights held by trustees. A market exists when there is a wanted good, voluntary exchange with free choice of partner, and regular exchange (Hodgson). As markets cannot be excluded (Lindblom), 'planning or the market?' is the wrong question; it is about the mix (Buitelaar), and moving protection from public to private law means creating markets in property rights.",
+   "Method and cases (pp. 30–34): Coase's reciprocity ('Should A be allowed to harm B or should B be allowed to harm A?'), Ellickson's alternatives to zoning and Webster & Lai's club goods. Needham distinguishes this from libertarian attacks on planning, keeps the planning goals, and compares instruments by effectiveness ('remediability', Williamson), not by assumed efficiency. Four cases: housing-estate amenity via covenants and a residents' association (US, England; not binding in the Netherlands); industrial estates maintained by one investor-landlord (not possible in NL: no compulsory association, leases not tradable, so estates decay and need public money; fix: make unexpired leases saleable); privately owned public spaces under permit conditions; and regional coherence, where effects are too dispersed for a market, though US conservation agreements buy development rights.",
+   "Conclusions (pp. 34–35): creating markets in property rights is feasible 'only under certain limited circumstances', and feasibility is not desirability. Advantages: less inflexible, no public compensation for 'takings'; risks: exclusive developments such as gated communities and urban fragmentation. Politically neither left nor right: with Blomley, Needham argues poorer people can be empowered by giving them rights in property. Course framing (HC6): rational choice can explain transformation through deliberate redesign of rights, while Taylor shows reproduction by insiders."
+  ],
+  "concepts": [
+   [
+    "Interest in land",
+    "What a person wants regarding how any land is used (own or others'); only some interests are protected, as rights or by planning (pp. 25–28)."
+   ],
+   [
+    "Property right",
+    "'A way of using land (and buildings), where that way is recognized by, and protected by, the courts' (p. 27); created by the state, never absolute."
+   ],
+   [
+    "Private-law protection",
+    "The state makes an interest a property right; the holder takes the violator to court on her own initiative (p. 27)."
+   ],
+   [
+    "Public-law protection",
+    "A public authority uses powers (permits, prohibitions) to protect those who cannot protect their interests otherwise: land-use planning (pp. 27–28)."
+   ],
+   [
+    "Political vs technical allocation",
+    "Whether an interest is protected at all is political; whether as right or by regulation depends on clarity of cause–effect and number of parties (p. 28)."
+   ],
+   [
+    "Property rights as policy variable",
+    "Since rights are created, they can be deliberately changed to steer land use, like land tenure reform (pp. 28–29)."
+   ],
+   [
+    "Market (Hodgson)",
+    "Something wanted; voluntary exchange with free choice of partner; regular exchange among more people (p. 29)."
+   ],
+   [
+    "Coasean reciprocity",
+    "Restricting A to protect B harms A; the question is who may harm whom (p. 30)."
+   ],
+   [
+    "Remediability",
+    "Williamson's approach: compare how effectively alternative instruments reach the same policy goal, not maximum efficiency (p. 30)."
+   ],
+   [
+    "Creating markets in property rights",
+    "Shifting protection from public law to private law, creating exchange structures in which people realise planning goals themselves (pp. 29–31)."
+   ]
+  ],
+  "example": "Dutch industrial estates (p. 32): firms that own their buildings cannot be obliged to join an association that maintains shared spaces, and tenants avoid long leases because an unexpired lease cannot be sold on. So nobody holds the rights needed to protect the shared interest in quality, estates deteriorate quickly, and only large amounts of public money improve them. In England/US one investor-landlord holds the rights and maintains the estate to protect his investment.",
+  "examples": [
+   {
+    "t": "Covenants in US housing estates",
+    "d": "In the US (private community associations) and less often England, buyers sign covenants against changes that harm the estate and a residents' association enforces them; in the Netherlands this is not legally binding because owners cannot be obliged to join such an association. Shows an interest turned into a property right, and how national property law decides whether a market alternative to planning exists.",
+    "src": "text",
+    "p": "pp. 31-32"
+   },
+   {
+    "t": "Foundations versus clean air",
+    "d": "A neighbour damaging my foundations is covered by a property right (the right of support) because cause, culprit and victim are clear and few; clean air is protected by public law (permits, emission limits) because effects are diffuse and hundreds of victims cannot organise a court case. Shows the partly technical, partly political choice between private-law and public-law protection of interests.",
+    "src": "text",
+    "p": "p. 28"
+   },
+   {
+    "t": "Privately owned public spaces",
+    "d": "Shopping malls, and small housing developments where residents own and maintain shared spaces that stay open to all, operate under planning conditions on public access and maintenance. Shows property rights deliberately created to deliver a certain type of urban environment.",
+    "src": "text",
+    "p": "p. 33"
+   },
+   {
+    "t": "US conservation agreements",
+    "d": "A public or private trust buys a farmer's development rights and never uses them, so the land stays open while the farmer keeps ownership. Shows a public planning goal pursued with private-law tools where regional interests are too dispersed for a market in rights.",
+    "src": "text",
+    "p": "p. 34"
+   }
+  ]
+ },
+ {
+  "id": "olson",
+  "wk": 3,
+  "title": "Hindmoor (2006) Mancur Olson and the logic of collective action",
+  "theory": "Rational choice (collective action / public choice)",
+  "one": "Collective goods are non-excludable, so each rational, self-interested member may free-ride and the good goes under-provided: a collective action problem, best modelled as an (N-person) prisoners' dilemma. Olson does not claim collective action is impossible; groups overcome the problem through coercion, privileged members, selective incentives, process benefits, or conditional cooperation. The self-interest assumption and the lack of a full theory of group formation limit the account.",
+  "summary": [
+   "The problem (pp. 102–105): Olson (1965) challenged the assumption that people with common interests will act on them: 'unless the number of individuals is quite small, or there is coercion or some other special device', self-interested individuals will not act for their group interest. Goods are classed by excludability and rivalness (Box 5.1): public goods (defence), common-pool goods (fisheries), toll goods, private goods. Olson defines public goods only by non-excludability, so the problem covers common goods too. Examples: union dues, Marxist revolution (why risk the barricades?), pluralists such as Truman and Bentley (latent groups like migrant workers may never form), CO2 emissions, the security dilemma.",
+   "Game theory (pp. 105–112; Olson himself used none): the prisoners' dilemma (Jake and Keith) has a dominant strategy of defection and a Pareto-inferior equilibrium; the N-person version (join a protest or stay home) shows free-riding. Not every collective action problem is a PD: in the assurance game (the dam needs both farmers) there is no dominant strategy and cooperation should be easy; in chicken (either farmer can fix the dam) each tries to make the other do it, and 'anything can happen'.",
+   "Solutions (pp. 113–121): Olson 'does not suggest that groups will always fail'. (1) Coercion by the state (taxes; Hardin's leviathan for the tragedy of the commons, against which free-market economists propose property rights and tradeable permits based on Coase) or by gangs (Gambetta's Mafia enforcing exchange). (2) Privileged groups: at least one member values the good enough to pay the whole cost (flatmate who cleans; hegemonic stability); several such members can turn it into chicken. (3) Selective incentives: positive (union legal aid) or negative (ostracism); they raise a second-order collective action problem, possibly solved by entrepreneurs. (4) Process benefits: participation itself is rewarding (Chong on civil rights; kibbutz gossip). (5) Conditional cooperation in intermediate groups, where members notice who contributes: tit-for-tat won Axelrod's tournaments; Ostrom shows communities manage commons without leviathan or market when interaction is long-term, exit is costly, monitoring is cheap and groups are tightly integrated.",
+   "Group size (p. 121): large groups are more likely to be latent, because contributions are easier to see in small groups, but the link is 'at most, an empirical tendency' (a mining community vs strangers in a bed-sit). Limits (pp. 122–128): people also contribute because norms say they ought to; Olson concedes his theory cannot explain 'non-economic' groups like Greenpeace or Amnesty. Experiments (Marwell & Ames) find substantial group contributions that fall, but stay positive, when stakes rise; a few unconditional cooperators may be needed to pass the threshold at which cooperation becomes stable. Assessment: Olson was the first to give a general analysis and inspired many case studies, but he offers no comprehensive theory of how interests and group identities form, how platforms are agreed, how collective action changes policy, or why groups collapse; social psychology and insider-group research are needed too.",
+   "Course application (HC6, not in the chapter): Airbnb regulation lags because hosts/investors organise while neighbours free-ride. Hindmoor's chapter supports the free-riding part, but warns that size is only a tendency and that small groups organise when one member gains enough (privileged) or when members can monitor each other (intermediate). The link with Needham: diffuse harms such as air pollution cannot be protected by individual property rights because victims cannot organise to sue."
+  ],
+  "concepts": [
+   [
+    "Collective action problem",
+    "All members gain if they act together, but no individual gains from contributing to the collective good: free-riding (p. 102)."
+   ],
+   [
+    "Public / common-pool / toll / private goods",
+    "Classified by excludability and rivalness (Box 5.1); Olson's definition uses non-excludability only, so common-pool goods face the problem too."
+   ],
+   [
+    "Prisoners' dilemma",
+    "Game where defection is the dominant strategy and the equilibrium is Pareto-inferior to mutual cooperation (pp. 105–110)."
+   ],
+   [
+    "Assurance and chicken",
+    "Collective action games without a dominant strategy: assurance (both needed, cooperation easy); chicken (one suffices, each waits for the other) (pp. 110–112)."
+   ],
+   [
+    "Latent / privileged / intermediate group",
+    "Latent: nobody bears their share; privileged: at least one member will pay the full cost (Olson 1965: 48–50); intermediate: members notice whether others contribute (Olson 1965: 50)."
+   ],
+   [
+    "Selective incentives",
+    "Excludable rewards for contributors (e.g. free legal representation) or punishments for non-contributors (e.g. ostracism) (Olson 1965: 133–5)."
+   ],
+   [
+    "Second-order collective action problem",
+    "Applying selective incentives (e.g. punishing free-riders) is itself a collective good, risking an infinite regress (pp. 116–117)."
+   ],
+   [
+    "Process benefits",
+    "Instrumental or expressive rewards from participating itself; tied to the collective good, so the problem 'simply dissolves' (pp. 117–118)."
+   ],
+   [
+    "Conditional cooperation / tit-for-tat",
+    "Cooperate as long as others do; in iterated games tit-for-tat wins on average via simplicity, generosity, responsiveness (pp. 118–120)."
+   ],
+   [
+    "Ostrom's self-governed commons",
+    "Communities build rules of allocation, monitoring and sanctioning for common-pool resources without a leviathan or the market (p. 120)."
+   ]
+  ],
+  "example": "Ostrom's Valencia irrigation system (p. 121): it is designed so that the person whose turn is next has a built-in incentive to check that the current user does not take more than their share, lowering monitoring costs so conditional cooperation can last without state coercion or privatisation. Course application (HC6): short-term rental hosts organise while neighbours free-ride, so regulation lags.",
+  "examples": [
+   {
+    "t": "Five students sharing a flat",
+    "d": "Keeping the flat clean is a potential collective action problem, but if one student hates squalor enough to clean alone, the others can free-ride and the good is still provided. Shows Olson's 'privileged group'.",
+    "src": "text",
+    "p": "p. 115"
+   },
+   {
+    "t": "Unions and free legal help",
+    "d": "Workers may join a union for free legal representation (positive selective incentive) or to avoid being ostracised, 'sent to Coventry' (negative incentive). Hindmoor adds that this still leaves a second-order problem: who organised the union or does the ostracising in the first place?",
+    "src": "text",
+    "p": "pp. 116-117"
+   },
+   {
+    "t": "Gossip on Israeli kibbutzim",
+    "d": "Members get housing and food regardless of effort, yet work hard because shirkers become targets of vicious gossip, and gossiping is enjoyable in itself. Shows process benefits solving the second-order problem, helped by the fact that leaving a kibbutz is hard.",
+    "src": "text",
+    "p": "pp. 118, 120"
+   },
+   {
+    "t": "Cooperation in First World War trenches",
+    "d": "Soldiers facing each other for long periods evolved norms such as firing only at set times, once even playing football on Christmas day; commanders then rotated troops to erode that trust. Shows conditional cooperation needs stable membership and repeated interaction.",
+    "src": "text",
+    "p": "p. 120"
+   }
+  ]
+ },
+ {
+  "id": "taylor",
+  "wk": 3,
+  "title": "Taylor (2016) Urban growth boundaries and betterment: rent-seeking in Melbourne",
+  "theory": "Rational choice (rent-seeking)",
+  "one": "Analysing 264 public submissions on Melbourne's 2010 UGB expansion and the Growth Areas Infrastructure Contribution (a betterment tax), Taylor shows that landowners as 'insiders' rent-sought successfully: they discredited expected windfalls and got the GAIC shifted to purchasers, so costs are passed on to homebuyers ('outsiders').",
+  "summary": [
+   "Melbourne's UGB (2002) expanded substantially in 2010; land inside rose 89% per hectare relative to comparable land outside, creating 'instant millionaires'. The GAIC was a hypothecated per-hectare tax on the expected betterment, to fund infrastructure.",
+   "Landowners have multiple interests: premium-seeking owners (often broadacre farmers, vacant land) want inclusion and to unlock development value, and containment creates speculation through 'dual predictability' (Nelson). Others, affluent rural-residential 'lifestyle' owners and hobby farmers, want to preserve restrictions for amenity and value stability ('homevoters', Fischel). Among submissions: 33 included owners were happy, 11 wanted to stay rural; 52 excluded owners wanted inclusion; grassland-zone owners called protection 'conning landowners from their rights'.",
+   "Landowners framed the GAIC as 'unbelievable, unethical, outright robbery', disputed that betterment would occur (a 'Taxed Out!' campaign), and argued it should be paid by developers/buyers. 'Landowner-led pressure on policy makers ultimately led to a set of modifications to the GAIC bill' (p. 272): exemptions for small parcels (0.41–5 ha, ~56% of liable parcels), liability shifted to purchasers (30% at purchase, rest at development), and in 2011 fully deferred to development, which protected hobby farmers.",
+   "Conclusion: the outcome legitimised landowners' misinterpretation of development gain; representations of self-interest were taken 'at face value as more equitable'. Policies 'are decided in large part on the basis of whether or not they survive conflict with groups with an existing economic stake'. Containment creates land premiums that are redistributed through the lobbying of 'insiders', with costs passed to housing consumers ('outsiders'). Rent-seeking by existing owners can decide whether and how strategic planning is implemented."
+  ],
+  "concepts": [
+   [
+    "Urban growth boundary (UGB)",
+    "Legislated line separating urban from non-urban land."
+   ],
+   [
+    "Betterment",
+    "Land-value increase caused by public action; here the windfall from the UGB shift."
+   ],
+   [
+    "GAIC",
+    "Growth Areas Infrastructure Contribution: hypothecated betterment tax, later made 'purchaser pays'."
+   ],
+   [
+    "Rent-seeking",
+    "Lobbying to capture or keep unearned rents."
+   ],
+   [
+    "Premium-seeking vs homevoter",
+    "Owners wanting development value vs owners protecting amenity and property value through restrictions."
+   ],
+   [
+    "Dual predictability",
+    "Containment makes clear which land can be developed AND that it is scarce, fuelling speculation."
+   ],
+   [
+    "Insiders vs outsiders",
+    "Existing property owners who capture gains vs future homebuyers who pay."
+   ]
+  ],
+  "example": "Rijnenburg (Utrecht): developer-owned land was framed as 'low-hanging fruit' for housing, lobbying against the energy-landscape vision.",
+  "examples": [
+   {
+    "t": "Melbourne's 'liquid gold' fringe land",
+    "d": "Rural land around Melbourne worth $15,000 to $35,000 per hectare averaged $365,000 once inside the UGB and rezoned, and after the 2010 shift prices inside rose 89 percent relative to comparable land outside. Shows betterment, an unearned increment created by planning, which the GAIC ($95,000 per hectare) aimed to tax.",
+    "src": "text",
+    "p": "pp. 259, 261-262"
+   },
+   {
+    "t": "Grassland owners versus lifestyle homevoters",
+    "d": "21 owners whose land in the west was to become protected grassland called the rules unfair and wanted in, while hobby farmers argued to keep green wedge restrictions protecting their amenity. Shows Taylor's two rent-seeking interests: premium-seeking to unlock development value versus homevoters defending restrictions.",
+    "src": "text",
+    "p": "p. 268"
+   },
+   {
+    "t": "Owners with development plans stayed quiet",
+    "d": "Only 4 of 49 landowners with development plans objected to the GAIC, against 72 of 137 without such plans. Those who knew their development value saw the charge as small against the gain; opposition came from owners who framed it as a tax on existing value.",
+    "src": "text",
+    "p": "pp. 270-271"
+   },
+   {
+    "t": "Taxed Out! and 'purchaser pays'",
+    "d": "The Taxed Out! campaign cast the GAIC as a tax on existing land value; the bill was redrafted to exempt 0.41 to 5 hectare parcels (about 56 percent of liable parcels) and shift liability to purchasers, and in 2011 fully deferred to development. Shows insiders shifting the cost of value capture onto outsiders, future homebuyers.",
+    "src": "text",
+    "p": "pp. 269-273"
+   }
+  ]
+ },
+ {
+  "id": "ni",
+  "wk": 4,
+  "title": "Neo-institutionalism: the map",
+  "theory": "New institutionalism",
+  "one": "Institutions are the formal and informal rules of the game, not organisations. They are 'ontologically both the context and object of planning' (Savini 2019). New institutionalism comes as rational choice, sociological, historical and evolutionary strands, which disagree on what institutions are, what they do and how they change, and so on how much planners can deliberately design them.",
+  "summary": [
+   "Institutions = systems of established rules and norms that guide, constrain and regulate behaviour; organisations = concrete entities with a purpose (Eurovision: EBU = organisation; statutes and informal norms = institutions). Double life: they constrain actors but are also outcomes of action (context AND object of planning). Alexander (2005): if planning aims to transform society, 'institutional transformation must be a critical aspect of planning'. Some even say 'planning is institutional design' (Innes 1995): planners → design institutions → shape behaviour → reshape society/space.",
+   "Origins (Part A): Hardin's tragedy of the commons (1968): rational self-interest depletes shared resources. Ostrom (1990) shows how self-interested people self-organise rules to overcome the 'problem of commitment'. Her IAD framework has seven rule types: position, boundary, choice, aggregation, information, payoff, scope (applied to informal real estate by Bouwmeester & Hartmann 2021). New institutionalism explains how institutions shape behaviour and how they arise and change, and reconciles structure and agency (Giddens). Example: institutional arrangements shape residential morphology in NL, Flanders and NRW (Tennekes et al. 2015).",
+   "Strands (Part B, after Sorensen 2017 and Salet 2018). (1) Rational choice institutionalism: 'formal and informal rules of the game … humanly devised constraints' (North 1990); they coordinate and give certainty, information and credible commitment; they change when self-interested actors create rules to enhance cooperation. (2) Sociological: institutions 'establish the very criteria by which people discover their preferences'; goodness-of-fit with legitimate templates (DiMaggio & Powell); symbol systems, cognitive scripts, moral templates (Hall & Taylor); internalised; hegemonic norms. Example: Amsterdam-Noord's symbols linking the shipyard past to a creative future (Savini & Dembski 2016). (3) Historical: procedures, routines and norms embedded in the polity; path dependency, critical junctures, structural emphasis. Example: why participation in Norwegian land-use planning stayed weak (Holsen 2021). (4) Evolutionary (Moroni): institutions as unintended outcomes of evolution.",
+   "The key debate is institutional change and the limits of design. Dembski & Salet: symbols can't be used voluntaristically; find under-institutionalised niches. Sorensen: critical junctures, then bounded developmental pathways. Moroni: emergent institutions can't be designed like organisations, so a kosmos approach. 'How we conceptualize institutions shapes how we conceptualize planning agency.'"
+  ],
+  "concepts": [
+   [
+    "Institution vs organisation",
+    "Rules and norms (formal/informal) vs a concrete purposive entity."
+   ],
+   [
+    "Context and object",
+    "Institutions constrain planning AND are what planning produces (Savini 2019)."
+   ],
+   [
+    "Tragedy of the commons",
+    "Hardin: rational individuals overuse shared resources."
+   ],
+   [
+    "Ostrom's IAD rules",
+    "Position, boundary, choice, aggregation, information, payoff, scope."
+   ],
+   [
+    "Rational choice institutionalism",
+    "Rules of the game; certainty and credible commitment; changed by self-interested actors."
+   ],
+   [
+    "Sociological institutionalism",
+    "Institutions shape preferences; legitimacy, goodness-of-fit, cognitive scripts; internalised."
+   ],
+   [
+    "Historical institutionalism",
+    "Embedded routines; path dependency; critical junctures; structural."
+   ],
+   [
+    "Evolutionary institutionalism",
+    "Institutions as unintended results of evolution (Moroni)."
+   ],
+   [
+    "Planning as institutional design",
+    "Innes/Alexander: planners deliberately change institutions."
+   ]
+  ],
+  "example": "Lecture homework: 'Housing is becoming unaffordable'. HI: the problem is path-dependent rules (e.g. mortgage-interest deduction); look for a crisis as a critical juncture. SI: norms of homeownership as 'normal'; change the meanings. Evolutionary: rules that block adaptation; simplify and open general rules gradually.",
+  "examples": [
+   {
+    "t": "Eurovision: organisation versus institutions",
+    "d": "The European Broadcasting Union is the organisation; its statutes and the formal and informal rules of the contest are the institutions. Shows the neo-institutionalist distinction between the rules of the game and its players.",
+    "src": "slides"
+   },
+   {
+    "t": "Ostrom's rules for a fishery",
+    "d": "The IAD slide illustrates rule types with fishing: membership rules for the cooperative (boundary), permitted gear (choice), catch reporting (information), fines for breaking quotas (payoff), off-limits areas and protected species (scope). Shows rational choice institutionalism: users craft rules to avoid the tragedy of the commons.",
+    "src": "slides"
+   },
+   {
+    "t": "Housing morphology in three regions",
+    "d": "Tennekes, Harbers and Buitelaar (2015) link different institutional arrangements in the Netherlands, Flanders and North Rhine-Westphalia to different morphologies of residential development. Shows institutions as context and object of planning, visible in space.",
+    "src": "slides"
+   },
+   {
+    "t": "Amsterdam-Noord's shipyard symbols",
+    "d": "Savini and Dembski (2016): a new development agenda for Amsterdam-Noord was enabled by symbols linking the industrial shipyard past to a creative-economy future, which mobilised consensus. Shows sociological institutionalism: planning as creating meaning.",
+    "src": "slides"
+   }
+  ]
+ },
+ {
+  "id": "dembski",
+  "wk": 4,
+  "title": "Dembski & Salet (2010) The transformative potential of institutions",
+  "theory": "Sociological institutionalism",
+  "one": "Whether symbolic markers (metaphors, landmarks, events) can give new meaning to changing city-regions depends not on the symbol's design but on its institutional embedding: symbols work only if their meaning is inculcated in the audience's mental maps.",
+  "summary": [
+   "Changing city-regions (Zwischenstadt, edge cities, métapolis) lack a crystallised identity, so planners use symbolic markers (Flemish Diamond, Pearl River Delta, Guggenheim Bilbao, IBA Emscher Park) to frame change and mobilise actors. Most fail. Central question: why does symbolisation of new urban spaces strengthen social meaning in some cases, while elsewhere symbols remain powerless or even backfire? Communicative/interpretive planning studies the symbol itself; the authors look for the answer in institutions.",
+   "They reject the view that institutions are 'rusty old fixtures' that only explain preservation, and position themselves with two choices (Table 1): institutions as internalised in actors' mindsets (not external constraints) and as validated in action (not fixed prior to action), which places them in sociological institutionalism. Institutions are the 'chance' of validating rules (Weber) and must be confirmed again and again in everyday practice: 'Institutions are not carved in stone.'",
+   "Theory: Berger & Luckmann (habitualisation, reciprocity of expectations), Bourdieu (habitus: practice informed by structure, the card-game metaphor; 'instituting'; rites of institution consecrate arbitrary boundaries and produce discontinuity out of continuity: 'Become what you are'), Geertz (symbols 'saying something of something'; the Balinese cockfight), Paasi (regional identity has an internal and an external side), Billig (banal nationalism). Symbolic markers cannot be used in a voluntaristic way: 'institutional transformation is deliberate change', yet it needs a sound notion of existing norms. The art of planning is finding under-institutionalised niches or institutional voids (Hajer).",
+   "Methodology (Box 1): 8 steps: (1) symbolic markers; (2) encoded message; (3) subjective context (who symbolises, legitimacy); (4) objective context (social structure, habitus: are symbols genuine?); (5) audience; (6) process of articulation over time; (7) internalisation of symbolic meaning; (8) sanctions for misrecognition."
+  ],
+  "concepts": [
+   [
+    "Symbolic marker",
+    "Metaphor, landmark, event or design used to frame and mobilise change."
+   ],
+   [
+    "Institutional embedding",
+    "Symbols' meaning anchored in internalised social norms; the condition for their efficacy."
+   ],
+   [
+    "Internalised vs external institutions",
+    "In people's mental maps/habitus vs outside constraints on choice."
+   ],
+   [
+    "Validated in action",
+    "Institutions must be reaffirmed in each practice; meaning is never fixed."
+   ],
+   [
+    "Habitus (Bourdieu)",
+    "Durable dispositions: structure internalised, informing but not determining practice."
+   ],
+   [
+    "Rites of institution",
+    "Consecrating an arbitrary boundary so that representation changes reality ('social magic')."
+   ],
+   [
+    "Inculcation",
+    "The audience absorbing and guaranteeing a symbol's meaning."
+   ],
+   [
+    "Institutional void",
+    "Under-institutionalised space where new practices can take root (Hajer)."
+   ]
+  ],
+  "example": "'Brainport Eindhoven' as a marker works because it rests on embedded Philips/ASML industrial practices and identity; a 'Silicon Polder' label on a random business park would not.",
+  "examples": [
+   {
+    "t": "Pearl River Delta and Flemish Diamond",
+    "d": "Metaphors meant to express a coherent Hong Kong-Shenzhen-Guangzhou region and a polycentric Flemish city network had little effect: the first is 'mission impossible', the second stays an idea in planners' minds. Shows that symbolic markers are not self-mobilising without institutional embedding.",
+    "src": "text",
+    "p": "pp. 611-612"
+   },
+   {
+    "t": "Bilbao, Poitiers and 'silicon valleys'",
+    "d": "The Guggenheim has not yet turned industrial Bilbao into a cultural city, the Futuroscope has not made Poitiers a technology centre, and genuine silicon valleys are few. Shows landmarks detached from institutionalised practices failing to enhance social meaning.",
+    "src": "text",
+    "p": "p. 612"
+   },
+   {
+    "t": "Green Heart and London Green Belt",
+    "d": "These concepts are seen as successful on their own terms, but they aim at preservation, not transformation. Shows why the paper's puzzle is about markers of change: a symbol that confirms existing institutions has an easier job.",
+    "src": "text",
+    "p": "p. 612"
+   },
+   {
+    "t": "A master's degree as rite",
+    "d": "Following Bourdieu, ageing is gradual, but rites of institution consecrate an arbitrary boundary (child, adolescent, adult), and the social magic of an amulet does not differ from a master's degree. Shows how symbols institute new social meaning when the audience believes in them.",
+    "src": "text",
+    "p": "p. 620"
+   }
+  ]
+ },
+ {
+  "id": "moroni",
+  "wk": 4,
+  "title": "Moroni (2010) An evolutionary theory of institutions and a dynamic approach to reform",
+  "theory": "Evolutionary institutionalism (Hayekian / liberal)",
+  "one": "Planning's institutional turn is right, but many planners treat institutions 'engineeristically', as objects to design. Institutions mostly evolve unintentionally and embody dispersed knowledge, so reform should be kosmos-oriented: modest, gradual, open, general rules.",
+  "summary": [
+   "Taxis-oriented approach = the engineer's method applied to society (complete problem, one goal, all knowledge). It fails because social problems are 'incomplete' and involve practical, tacit knowledge (Oakeshott). A first-order taxis approach plans activities (end-state land-use plans). A second-order one redesigns institutions themselves for specific goals, and it lurks in the planning literature's institutional turn (e.g. Alexander's 'institutional design', Bolan).",
+   "Institutions ≠ organisations: institutions are basic rules of conduct acknowledged by a community and enforced by sanctions (rules of the game); organisations are systematic arrangements of resources for explicit shared goals (players) (North 1990). Institutions do two jobs: pattern-coordination of individual actions, and a fund of knowledge accumulated over generations.",
+   "Descriptive side: Scottish Enlightenment (Hume, Ferguson, Smith): institutions are 'the result of human action, but not the execution of any human design' (Ferguson). Evolution = variation → selection → propagation; open-ended, contingent, sub-optimal, no inevitable stages. Invisible-hand explanations (Jacobs on safe streets, Schelling on segregation). Three kinds of phenomena: natural; artificial by design (organisations); artificial but unintended (most institutions).",
+   "Prescriptive side: rename 'institutional design' → 'organisational design' vs 'institutional intervention'. Kosmos-oriented approach with 10 principles: peculiarity, knowability, sense-making, motivational realism, non-tabula-rasa, modesty, robustness, gradualism, adaptive efficiency (North), openness. Rather 'learn' than 'educate', 'recognize' than 'invent', 'improve' than 'reconstruct', indirect over direct intervention. 'Planning strictu senso cannot be applied to institutions.'"
+  ],
+  "concepts": [
+   [
+    "Taxis vs kosmos",
+    "Made, designed order vs grown, spontaneous order (Hayek)."
+   ],
+   [
+    "First- vs second-order taxis",
+    "Designing activities (end-state plans) vs designing the institutional rules themselves."
+   ],
+   [
+    "Institutions vs organisations",
+    "Rules of the game vs players (North)."
+   ],
+   [
+    "Invisible-hand explanation",
+    "Order explained as the unintended outcome of dispersed actions, with an element of surprise."
+   ],
+   [
+    "Three kinds of phenomena",
+    "Natural; artificial by design; artificial but not designed (most institutions)."
+   ],
+   [
+    "Adaptive vs allocative efficiency",
+    "Rules that foster learning and discovery over time vs optimal allocation of known resources."
+   ],
+   [
+    "Radical ignorance",
+    "Ignorance is ineradicable in a complex world, not just bounded rationality."
+   ],
+   [
+    "Kosmos principles",
+    "Peculiarity, knowability, sense-making, motivational realism, non-tabula rasa, modesty, robustness, gradualism, adaptive efficiency, openness."
+   ]
+  ],
+  "example": "Instead of a detailed zoning plan per site (taxis), a city sets simple, stable, general rules (plot coverage, nuisance rules) and lets development emerge (Oosterwold, Cozzolino).",
+  "examples": [
+   {
+    "t": "Hume on property and language",
+    "d": "Hume describes the rule of stable possession as a convention that arises gradually from repeated experience of the costs of breaking it, 'without the interposition of a promise', just as languages do. Shows the evolutionary view: key institutions emerge from human action, not human design.",
+    "src": "text",
+    "p": "pp. 278-279"
+   },
+   {
+    "t": "Jacobs and Schelling as invisible hands",
+    "d": "Moroni cites Jacobs's account of what makes city places safe and Schelling's model of residential segregation as invisible-hand explanations: patterns produced by dispersed individual actions aimed at other ends. Shows why many social orders should not be explained, or reformed, as if someone designed them.",
+    "src": "text",
+    "p": "p. 281"
+   },
+   {
+    "t": "The Oracle of Delphi",
+    "d": "'The cryptic utterances of the Oracle of Delphi did not create effective institutions', and neither does obscure or short-lived legislation. Illustrates the principle of knowability: rules must be known in advance so people can act on them.",
+    "src": "text",
+    "p": "p. 284"
+   },
+   {
+    "t": "Bastiat's daily-fed metropolis",
+    "d": "Bastiat marvels that a city of a million people is supplied every day without anyone directing it, thanks to 'freedom in transactions'. Moroni uses it for the principle of modesty: recognise evolved institutions such as contract and ownership instead of inventing new ones.",
+    "src": "text",
+    "p": "p. 285"
+   }
+  ]
+ },
+ {
+  "id": "sorensen",
+  "wk": 4,
+  "title": "Sorensen (2024) Urban intensification and land value capture in Toronto",
+  "theory": "Historical institutionalism (+ conjunctural analysis)",
+  "one": "Land value capture (LVC) redistributes the costs and benefits of development; its Toronto history is a historical-institutionalist sequence of critical junctures (1946, 1989, 2019–22) followed by reactive sequences of contestation within a developmental pathway. HI adds analytical clarity to conjunctural analysis.",
+  "summary": [
+   "Three contributions: (1) LVC is a purposeful attempt to alter the public/private distribution of development costs and benefits and should be a key metric of social equity ('growth should pay for growth'); (2) historical institutionalism (HI) complements conjunctural analysis (Gramsci → Stuart Hall → Peck; Inch & Shepherd; Leitner & Sheppard), which reads how political, economic and ideological forces 'con-join', but says little about specific institutional change; (3) the Toronto case reveals institutional change, path dependence mechanisms and how global hegemonic ideologies are translated locally.",
+   "Critical juncture: 'relatively short periods of time during which there is a substantially heightened probability that agents' choices will affect the outcome of interest' (Capoccia & Kelemen 2007). Sequence (Fig. 1): antecedent conditions → crisis creates permissive conditions (Soifer) → critical juncture, where productive conditions (actors, legal structures, ideology, timing) shape the choice → reactive sequence of contestation → relative stability. Both permissive and productive conditions are needed. Urban institutions are prone to CJs because of multilevel governance, disasters and constant new challenges. The planning system forms a Strategic Action Field (Fligstein & McAdam).",
+   "Toronto: CJ1 = the 1946 Planning Act (postwar housing crisis; subdivision agreements → lot levies spread); CJ2 = the Development Charges Act 1989 (1980s real-estate bubble) plus Section 37 density bonusing; recent CJ = Bill 108 (2019) and Bill 23 (2022, More Homes Built Faster) which cut LVC (S37 capped ~4% of uplift). 2009–18: C$490m S37 and C$2.29bn in DCs. Housing crises gave permissive conditions each time, but different productive conditions gave different outcomes (the first two enhanced LVC, the last reduced it).",
+   "Path dependence is usually not 'lock-in': contestation and incremental change are constant, but within a developmental pathway of bounded contestation that the critical juncture set up. Vancouver captures ~70% of uplift, Toronto negotiated 10–15%: variation comes from contingent institutional histories."
+  ],
+  "concepts": [
+   [
+    "Land value capture (LVC)",
+    "Public recovery of land-value uplift created by public action (DCs, density bonuses, levies, land readjustment)."
+   ],
+   [
+    "Historical institutionalism",
+    "Institutions as historically produced, unequally distributive, contested, path-dependent."
+   ],
+   [
+    "Conjunctural analysis",
+    "Reading the moment where multiple forces and contradictions 'con-join' (Gramsci, Stuart Hall, Peck)."
+   ],
+   [
+    "Critical juncture",
+    "Short window of heightened agency whose choices set a lasting path."
+   ],
+   [
+    "Permissive vs productive conditions",
+    "What opens the window (crisis) vs what shapes the outcome (actors, rules, ideology, timing)."
+   ],
+   [
+    "Reactive sequence",
+    "Chain of contestation and refinement after a critical juncture."
+   ],
+   [
+    "Developmental pathway",
+    "Bounded range of options within which contestation continues (path dependence without lock-in)."
+   ],
+   [
+    "Strategic action field",
+    "Meso-level order where actors interact under shared rules and understandings."
+   ],
+   [
+    "Section 37 / Development charges",
+    "Toronto density-bonus contributions / impact fees for growth infrastructure."
+   ]
+  ],
+  "example": "The Dutch 2008 crisis ended many municipalities' active land policy: a permissive condition. Whether it became a critical juncture depended on productive conditions such as the Omgevingswet and the kostenverhaal rules.",
+  "examples": [
+   {
+    "t": "Ontario's 1946 Planning Act",
+    "d": "Permissive conditions were weak regulation before an expected post-war boom, suburban debt (10 of 12 suburbs needed a provincial bailout in the Depression) and a wartime shift toward intervention; as productive condition, a new Conservative majority passed a more limited law than any proposal on the table. Shows a critical juncture whose ambiguities started a reactive sequence of contestation.",
+    "src": "text",
+    "p": "pp. 1809-1810"
+   },
+   {
+    "t": "Lot levies without legal basis",
+    "d": "The 1946 Act did not mention lot levies, but suburbs used their subdivision approval power to demand them; after court challenges and OMB appeals, the province amended the Act in 1959 and retroactively affirmed existing agreements. Shows incremental institutional change within a developmental pathway.",
+    "src": "text",
+    "p": "p. 1811"
+   },
+   {
+    "t": "Amalgamation: practice changed, rules not",
+    "d": "After the 1997 amalgamation and provincial cuts, Toronto began charging development charges in 2001 (from zero to almost $700 million in 2020) and negotiated 697 Section 37 agreements worth $744 million (1998-2018). Sorensen calls this a change of practice within existing formal institutions, not a critical juncture for value capture.",
+    "src": "text",
+    "p": "p. 1812"
+   },
+   {
+    "t": "Vancouver captures 70 percent",
+    "d": "Vancouver's community benefits agreements routinely capture 70 percent of rezoning uplift, while Toronto planners targeted 10 to 15 percent, now capped at 4 percent by recent legislation. Shows how locally contingent, path-dependent value capture institutions diverge.",
+    "src": "text",
+    "p": "p. 1815"
+   }
+  ]
+ },
+ {
+  "id": "harvey",
+  "wk": 6,
+  "title": "Harvey (1989) From managerialism to entrepreneurialism",
+  "theory": "Marxist political economy (historical-geographical materialism, dialectical)",
+  "one": "Since the early 1970s urban governance in advanced capitalist countries has shifted from managerialism (local provision of services, facilities and benefits) to entrepreneurialism: public-private partnerships, speculative projects in which the local public sector absorbs risk, and a focus on the construction of place rather than on territory. Inter-urban competition, sharpened by mobile capital, acts as an 'external coercive law' after the event: it spreads copied projects, regressive redistribution and instability and helps the transition to flexible accumulation. Yet Harvey sees a potential for a progressive urban corporatism built on alliances across space.",
+  "summary": [
+   "The shift and its drivers (pp. 3–5): the 'managerial' approach typical of the 1960s gave way to initiatory, 'entrepreneurial' forms of action in the 1970s and 1980s; a 1985 colloquium in Orleans (eight large cities, seven countries) showed consensus that cities must be more innovative and entrepreneurial, a consensus that holds 'across national boundaries and even across political parties and ideologies' (p. 4). Examples: British local authorities' economic development activity, Blunkett's Labour Sheffield; in the US, cuts in federal redistribution after 1972 revived boosterism. The shift is incomplete and 'checkered' (New Orleans stayed a ward of federal government). Backdrop: the 1973 recession, deindustrialisation, 'structural' unemployment, fiscal austerity, neoconservatism and appeal to market rationality and privatisation, and the declining power of the nation state over multinational money flows; it may play a role in the transition from Fordist-Keynesian accumulation to 'flexible accumulation' (p. 5). Zero-sum competition would force even municipal socialists to play 'the capitalist game', but under the right circumstances competition 'may open the way to a non zero-sum pattern of development' (p. 5).",
+   "Conceptual issues (pp. 5–7): Harvey warns against reifying cities: 'cities' seem active agents 'when they are mere things'; urbanisation is 'a spatially grounded social process' in which diverse actors interact, with class content hegemonic under capitalism. Its artefacts (built form, institutions) dominate and constrain later action, a dialectic of process and thing. Urban 'governance' means much more than 'government': the power to organise space lies in coalitions and class alliances (chambers of commerce, financiers, developers in 'growth machine' politics, unions, universities, parties, social movements, local state apparatuses); a charismatic mayor or business leader can stamp their mark (Mayor Schaeffer in Baltimore; private entrepreneurs in Halifax or Gateshead).",
+   "Three broad assertions (pp. 7–8), true for Baltimore (the underpinning case) and perhaps more general: (1) the centrepiece is the 'public-private partnership', integrating traditional boosterism with local government powers to attract external funding, investment and jobs; Baltimore's 1978 referendum sanctioned city land for the private development that became Harborplace. (2) The partnership is entrepreneurial because it is speculative in execution and design; often 'the public sector assumes the risk and the private sector takes the benefits' (p. 7), though not always (Gateshead's Metrocenter). Risk-absorption by the local (not national) public sector distinguishes it from earlier civic boosterism. (3) It focuses on the political economy of place rather than of territory: building places (civic centres, industrial parks, cultural and retail centres) whose benefits are indirect and may be wider or narrower than the jurisdiction, and which divert attention from region-wide problems.",
+   "Four basic options (pp. 8–10), not mutually exclusive: (1) competition within the international division of labour: advantages for producing goods and services (resource base, location, infrastructure, subsidies, cheap or skilled labour, agglomeration economies; Bologna/Emilia Romagna); (2) the spatial division of consumption: tourism, retirement, quality of life, gentrification, spectacle, stadia, marinas; the city must appear 'innovative, exciting, creative, and safe'; Baltimore's tourism jobs rose from under one to over fifteen thousand; (3) acquisition of control and command functions in high finance, government, information and media; (4) redistribution of surpluses through central (US: state) governments, e.g. defence contracts (Bristol, Long Beach-San Diego). Synergy between strategies explains uneven growth (Los Angeles). Inter-urban competition, strengthened by falling transport costs and mobile capital, acts as an 'external coercive power' that may force 'serial reproduction' (world trade centres, waterfronts, malls; p. 10). Speculation arises because nobody can predict which package will succeed (p. 11).",
+   "Macro-economic consequences and critique (pp. 11–16): public risk-absorption makes multinational capital more, not less, mobile; localities become sites of labour regulation (local bargaining), facilitating flexible accumulation and linked to postmodern design of 'urban fragments'. PPPs subsidise affluent consumers, corporations and command functions at the expense of collective consumption for the working class and poor; jobs polarise; imitation renders advantage ephemeral; the urban system becomes unstable (Houston, New Orleans' World Fair) and credit-financed malls and stadia feed overaccumulation. Image production brings social control ('bread and circuses'). Theoretically, entrepreneurialism looks like local autonomy, but Marx's 'coercive laws of competition' discipline it after the event (pp. 14–15). Critique should contrast surface vigour with a 'dual city'; yet the city as collective corporation (Paris Commune) offers potential for 'a progressive urban corporatism' with a geopolitical strategy of inter-urban alliances (p. 16). Encyclopedia note (not in the article): Harvey's wider concepts of the spatial fix and accumulation by dispossession (Woodward & Jones 2009, pp. 24, 27)."
+  ],
+  "concepts": [
+   [
+    "Urban managerialism",
+    "Governance focused on 'the local provision of services, facilities and benefits to urban populations' (p. 3); typical of the 1960s (p. 4)."
+   ],
+   [
+    "Urban entrepreneurialism",
+    "Governance preoccupied with fostering local development and employment growth (p. 3); rests on a public-private partnership and the speculative construction of place (p. 8)."
+   ],
+   [
+    "Urban governance vs government",
+    "Governance means much more than government: the power to reorganise urban life lies in a broader coalition of forces and class alliances, in which government has a facilitative, coordinating role (p. 6)."
+   ],
+   [
+    "Public-private partnership",
+    "Centrepiece of the new entrepreneurialism: local boosterism integrated with local government powers to attract external funding, investment and jobs (p. 7)."
+   ],
+   [
+    "Speculation and risk-absorption",
+    "The partnership is speculative in execution and design; often the public sector assumes the risk and the private sector takes the benefits; local risk-absorption distinguishes it from earlier civic boosterism (p. 7)."
+   ],
+   [
+    "Place vs territory",
+    "Territory: projects (housing, education) improving conditions within a jurisdiction; place: constructing or enhancing specific places whose impacts may be smaller or greater than the territory (pp. 7–8)."
+   ],
+   [
+    "Four basic options",
+    "Competition in the international division of labour (production), the spatial division of consumption, for control and command functions, and for redistributions via central government (pp. 8–10)."
+   ],
+   [
+    "Inter-urban competition as coercive law",
+    "An 'external coercive power/law' that disciplines cities into the logic of capitalist development, after the event rather than before (pp. 10, 12, 15)."
+   ],
+   [
+    "Serial reproduction",
+    "Repetitive copying of development forms (world trade centres, waterfronts, cultural centres, malls, science parks) that renders competitive advantage ephemeral (pp. 10–12)."
+   ],
+   [
+    "Progressive urban corporatism",
+    "The city as a collective corporation with democratic decision-making (Paris Commune), armed with a geopolitical strategy of alliances across space to mitigate capitalist accumulation (p. 16)."
+   ]
+  ],
+  "example": "Baltimore (the case underpinning the argument, p. 7): a 1978 referendum narrowly sanctioned city land for the private development that became Harborplace, giving public-private partnership a popular mandate. Tourism jobs rose from under one to over fifteen thousand (p. 9); the city was hailed as a 'renaissance city' on the cover of Time, yet local studies found 'rot beneath the glitter', a 1984 Congressional Report called it one of the 'neediest' US cities, and Levine (1987) showed limited benefits and accelerating decline (p. 14). The image consolidated the power of the partnership and gave residents place-bound identity: \"The circus succeeds even if the bread is lacking. The triumph of image over substance is complete.\" (p. 14). Course link: Hyötyläinen & Haila use Harvey's managerial/entrepreneurial pair for Helsinki's sale of Eiranranta (their p. 140).",
+  "examples": [
+   {
+    "t": "The 1985 Orleans colloquium",
+    "d": "Academics, business people and policymakers from eight large cities in seven advanced capitalist countries agreed that city governments had to become more innovative and entrepreneurial; they disagreed only on how. Harvey uses it as a symptom of the shift from managerialism to entrepreneurialism, a consensus that holds across national borders, parties and ideologies.",
+    "src": "text",
+    "p": "p. 4"
+   },
+   {
+    "t": "Sheffield's Labour council",
+    "d": "David Blunkett, Labour leader in Sheffield, endorsed a local brand of entrepreneurship: support for small firms, public-private links and promotion to attract business. Harvey warns that inside zero-sum inter-urban competition even 'avantgarde municipal socialists' end up playing the capitalist game and disciplining the processes they try to resist.",
+    "src": "text",
+    "p": "pp. 4–5"
+   },
+   {
+    "t": "New Orleans versus Vancouver fairs",
+    "d": "New Orleans, already dependent on federal redistribution, staged a 'disastrous' World Fair that drove it deeper into the mire, while an already booming Vancouver hosted a very successful World Exposition. Shows the speculative, high-risk character of entrepreneurial projects and the instability that inter-urban competition brings to the urban system.",
+    "src": "text",
+    "p": "p. 13"
+   },
+   {
+    "t": "Festival marketplaces losing money",
+    "d": "A decade after being hailed as an 'Alladin's lamp' for struggling cities, Rouse projects in Richmond, Flint and Toledo were losing millions, and even South Street Seaport (New York) and Riverwalk (New Orleans) hit severe financial trouble. Illustrates serial reproduction: copied harbour places and malls make any competitive advantage ephemeral and risk a 'quagmire of indebtedness'.",
+    "src": "text",
+    "p": "p. 13"
+   }
+  ]
+ },
+ {
+  "id": "fog",
+  "wk": 6,
+  "title": "Foglesong (1986/2003) Planning the capitalist city",
+  "theory": "Marxist theory of the state / political economy",
+  "one": "Planning in capitalist cities is best explained as a response to contradictions of capitalist urbanisation: above all the property contradiction between the social character of urban land and its private ownership and control, and the capitalism–democracy contradiction. Planning is needed to socialise some control over land for capital's collective interest, yet it is constrained because it must not undermine private property or hand control to democratic majorities.",
+  "summary": [
+   "Problem (general knowledge; verify): mainstream planning theory treats planning as a neutral, technical pursuit of the public interest, or explains it by market failure, without asking why planning exists in capitalist societies and why it takes the limited form it does. Foglesong proposes a Marxist political-economy account that links planning to the structural needs and contradictions of capitalist urbanisation, while rejecting crude functionalism.",
+   "Property contradiction (general knowledge; verify): urban land and the built environment are social in character: their value and use depend on collective investment (infrastructure, neighbouring uses) and they serve the reproduction of labour and capital as a whole. Yet land is privately owned and controlled, and individual owners pursue their own returns, producing congestion, incompatible uses, housing crises and threats to property values. Capital collectively needs some socialisation of control over land use (via planning, zoning, public works), but individual capitalists and property owners resist it. Planning is thus both necessary for capital and restricted by it.",
+   "Capitalism–democracy contradiction (general knowledge; verify): socialising control over land means transferring decisions to the state, which in a democracy is exposed to popular pressure. The danger for capital is that democratic control over land could go further than capital wants (e.g. redistribution, public housing, limits on property rights). Planning institutions therefore tend to be insulated from democratic control (expert commissions, technical procedures, independent boards), so that planning helps capital while containing popular demands.",
+   "Theory of the state (general knowledge; verify): Foglesong positions himself within Marxist debates. Instrumentalist accounts see the state (and planning) as a tool directly controlled by capitalists; structuralist accounts stress that the state has relative autonomy and serves the long-term, collective interests of capital even against individual capitalists. Foglesong leans to a structural, contradiction-based view while leaving room for class struggle and contingency: planning outcomes are shaped by conflicts between capital fractions, property owners and working-class movements. In the 1986 book he applies this to US planning history from the colonial era to the 1920s (housing reform, City Beautiful, zoning)."
+  ],
+  "concepts": [
+   [
+    "Property contradiction",
+    "Tension between the social character of urban land (collectively produced, collectively needed) and its private ownership and control (general knowledge; verify)."
+   ],
+   [
+    "Capitalism–democracy contradiction",
+    "Socialising land-use control via the state risks democratic control going further than capital accepts; hence planning is insulated from popular pressure (general knowledge; verify)."
+   ],
+   [
+    "Social character of land",
+    "Land value and use depend on collective investments and surrounding uses, not only on the owner's actions."
+   ],
+   [
+    "Instrumentalist theory of the state",
+    "The state (planning) is a tool directly controlled by the capitalist class."
+   ],
+   [
+    "Structuralist theory / relative autonomy",
+    "The state serves capital's long-term collective interests because of structural constraints, even against individual capitalists; it has relative autonomy from specific capitalists."
+   ],
+   [
+    "Planning as contradictory response",
+    "Planning both serves capital (coordination, legitimation) and is constrained by it (property rights, fear of democratic control)."
+   ],
+   [
+    "Legitimation",
+    "Planning also helps legitimise capitalist urban development by presenting it as the public interest."
+   ]
+  ],
+  "example": "Illustration (not from the text): US zoning in the 1910s–20s restricted individual owners' freedom to protect aggregate property values, yet was run by expert commissions rather than popular bodies; both contradictions at work. Course link: in Eiranranta (Hyötyläinen & Haila) and Falck (Savini & Aalbers) the social character of land (public development rights, value capture) collides with private and financial ownership.",
+  "examples": [
+   {
+    "t": "Amsterdam's ground lease system",
+    "d": "Since 1896 Amsterdam has kept much of its land in municipal ownership and issued it on long-term ground lease (erfpacht) instead of selling it. A Dutch case of the property contradiction: the city treats land's value and use as socially produced and steers it publicly, while buildings and use rights remain private.",
+    "src": "similar"
+   }
+  ]
+ },
+ {
+  "id": "hh",
+  "wk": 6,
+  "title": "Hyötyläinen & Haila (2018) Entrepreneurial public real estate policy: Eiranranta, Helsinki",
+  "theory": "Political economy of urban land / neoliberal urbanism (Harvey, Brenner & Theodore)",
+  "one": "Finnish cities and the Finnish state, which own much land, have shifted from administrative allocation and leasing to an 'entrepreneurial public real estate policy': selling land or charging market rent to maximise revenue. The Eiranranta case in Helsinki shows unintended harmful effects: the City ceded planning power, dropped its social housing requirement, reinforced exclusion via record prices, and allowed a fenced enclave for the wealthy that is new in a Nordic welfare city.",
+  "summary": [
+   "Concept and method: entrepreneurial public real estate policy is a rent-maximising land and real estate policy carried out not by private landlords, developers or REITs but by municipalities and the state; it takes two forms, selling public land or charging market rent when leasing, and can be called neoliberal in the sense of introducing a market logic to public land (p. 137). Helsinki owns 60% of its land area (p. 138, fn 3). Leasing had kept planning power with town planners and helped produce a heterogeneous urban fabric without glaring inequalities (p. 138). Data: agendas and minutes of the City Council and Real Estate Committee (REC), interviews with 5 of the 9 REC members who decided the 2005 sale, and field observations/photographs (pp. 137–138). Contribution: political economy of urban land and neoliberal urban policies.",
+   "Enabling conditions (pp. 138–139): after the early-1990s recession the state closed the National Board of Public Building (1995) and created state real estate companies (Kapiteeli, Senaatti, Sponda); Helsinki began selling land in 1993, calculated 'shadow rents', and in 2005 set up the Premises Centre charging market rent. Three changes 'scaled down' land-use decisions: (1) a new state urban policy making cities compete for state subsidies via 'urban programmes' and public-private partnerships; (2) a redistribution shift under the ideology of 'the necessity to save', turning the welfare state into welfare cities; (3) the Land Use and Building Act (MRL, 1999), which removed state ratification of local plans and legalised 'development areas' and development contracts. The state, now a real estate player itself, lost its impartial mediating role.",
+   "Justification (pp. 139–140): four arguments: put public assets to work (Sipilä); make land use efficient; increase transparency; create diversity. The 'necessity to save' became a Bourdieuian 'strong discourse' that made market rule appear natural; the media and some urban scholars (celebrating diversity of 'luxury' and 'rough' areas) supported it. In Eiranranta (former industrial/depot shore next to prestigious Eira, rezoned residential 2001) the REC decided to sell in March 2004; the highest bid would win. Deputy Mayor Pekka Korpinen, an economist, promoted selling shoreline land to maximise revenue and even renamed the area for marketing. REC members cited the budget's sales targets, inter-city competition with Espoo and Kauniainen for 'good taxpayers', and a 'global city' image vis-à-vis Copenhagen, Stockholm and Tallinn: in Harvey's (1989) terms, managerial strategies were replaced with entrepreneurial ones (p. 140).",
+   "The deal and outcomes (pp. 141–142): bids hit a Finnish record of €2621/m², €54 million in total; the newcomer investment company Apollo outbid household developers (SRV, NCC, Tarkala) by €3 million; the Real Estate Department preferred Skanska despite its lower bid. The authors suggest established developers were used to undervaluing land and capturing the value created by public development rights; only one councillor opposed the sale. Apartments sold at €10,000–16,000/m². Eiranranta has no social housing, contradicting the metropolitan social-mix policy; REC members saw concentrations of social housing (Kontula, Jakomäki) as the problem, not concentrations of wealth. The master plan required 1.2 m fences and gated entrances; ads stressed that 'no common laundries are needed'.",
+   "Conclusion (pp. 142–144): the authors do not call Eiranranta a gated community, since residents pay city taxes, use public services and the fences allow right of passage, but it manifests Harvey's 'neoliberal turn'. Unlike the UK state, the Finnish state itself became a land-rent maximiser, treating land as a financial asset 'according to the rent it yields' (Harvey 1982), and lost the impartiality needed to manage the contradictions of marketisation. Privatising land can mean privatising development rights. Selling to investors like Apollo may break developers' monopoly but risks 'creating liquidity out of spatial fixity' (Gotham 2009). Eiranranta is an experiment at the upper end of the market that contradicts Helsinki's welfare instruments (social housing, tenure mix)."
+  ],
+  "concepts": [
+   [
+    "Entrepreneurial public real estate policy",
+    "Rent-maximising land policy by municipalities and the state: selling public land or charging market rent (p. 137; concept from Haila 2016)."
+   ],
+   [
+    "Planning monopoly / development rights",
+    "In Finland cities have the sole right to assign development rights, so the value increase due to development belongs to them (p. 138)."
+   ],
+   [
+    "'Necessity to save'",
+    "Post-recession ideology that justified spending cuts and market-based use of public assets; a 'strong discourse' (Bourdieu) naturalising market rule (pp. 139–140)."
+   ],
+   [
+    "Four justifications",
+    "Put public assets to work; efficient land use; transparency; diversity (p. 139)."
+   ],
+   [
+    "MRL (Land Use and Building Act 1999)",
+    "Ended state ratification of local plans and legalised development areas/contracts (PPP), enabling disconnected enclaves (p. 139)."
+   ],
+   [
+    "Welfare state to welfare cities",
+    "Shift of responsibility for social services from state to municipalities, creating pressure to save (p. 139)."
+   ],
+   [
+    "Inter-city competition for 'good taxpayers'",
+    "Helsinki sold Eiranranta to attract high-income residents from Espoo and Kauniainen (income tax is municipalities' main revenue) (p. 140)."
+   ],
+   [
+    "State as real estate player",
+    "By corporatising its real estate, the Finnish state lost impartiality and its capacity to mediate conflicts (pp. 139, 143)."
+   ],
+   [
+    "Gated community vs exclusive enclave",
+    "Eiranranta is fenced and exclusive but not a full gated community: residents pay city taxes, use public services, and passage is allowed (p. 143)."
+   ]
+  ],
+  "example": "Eiranranta, Helsinki: a former industrial shore and city depot next to prestigious Eira, rezoned residential in 2001; four sites sold in 2005 at a record €2621/m² (€54M); no social housing; blocks bordered by 1.2 m fences with gated entrances; apartments marketed with wine cabinets and home theatres and 'no common laundries'.",
+  "examples": [
+   {
+    "t": "State real estate companies, 1995",
+    "d": "Finland closed the National Board of Public Building and founded state real estate companies (Kapiteeli, Senaatti, Sponda) that seek to maximise land rent; one then demanded the price of developed land when selling state land to Helsinki, which defended its planning monopoly. Shows entrepreneurial public real estate policy at state level: the state became one market player among others and lost its impartial, mediating role.",
+    "src": "text",
+    "p": "p. 138"
+   },
+   {
+    "t": "Hunting 'good taxpayers'",
+    "d": "Real Estate Committee members said a main aim of the Eiranranta sale was to lure high-income residents from Espoo and Kauniainen so they would pay income tax to Helsinki, and to compete with Copenhagen, Stockholm and Tallinn for image. The authors read this, with Harvey, as inter-city competition pushing a shift from managerial to entrepreneurial strategies.",
+    "src": "text",
+    "p": "p. 140"
+   },
+   {
+    "t": "Apollo versus the household developers",
+    "d": "Newcomer investment company Apollo bid €3 million more than the established developers, whose bids were suspiciously close; the Real Estate Department preferred Skanska despite its lower bid. The authors suggest established developers routinely undervalue land to extract the value increase that belongs to the city, so the fight was really over who captures land rent from public development rights.",
+    "src": "text",
+    "p": "pp. 141, 143"
+   },
+   {
+    "t": "Dutch land write-offs after 2008",
+    "d": "Many Dutch municipalities ran an active land policy, buying land and selling serviced plots at a profit; when the market collapsed after 2008 they had to write off large sums on their land holdings. Same mechanism as in Helsinki: a municipality that acts as a land entrepreneur takes on market risk and lets revenue logic steer planning.",
+    "src": "similar"
+   }
+  ]
+ },
+ {
+  "id": "savini",
+  "wk": 6,
+  "title": "Savini & Aalbers (2016) De-contextualisation of land use planning through financialisation: Milan",
+  "theory": "Political economy of financialisation (Harvey's capital switching, land as fictitious capital), with an institutional reading of local government capacity",
+  "one": "Financialisation turns land into a liquid financial asset whose valuation and investment decisions are made by layered investors far from the site; this de-contextualises land capital from local socio-political contexts and makes planning instrumental to unlocking capital. In the Falck site in Sesto San Giovanni, successive owners and SPVs inflated the programme and land price, while a weak, yield-dependent municipality ended up in gridlocked negotiations.",
+  "summary": [
+   "Argument and trends (pp. 1–4): finance increasingly penetrates land planning and development, but fine-grained case studies of the mechanisms are rare. Building on Harvey's 'capital switching' and land as financial asset, the authors identify three features of contemporary urban development: (a) investment relocation towards riskier peripheral, out-of-prime locations (brownfields in urban belts) expected to yield more in the long run; (b) clustering and enlargement of projects into bigger packages that dissolve demand variations and outplay smaller investors, with standardisation and starchitecture to increase liquidity; (c) instrumental land use planning geared to attracting finance, especially where fiscal stress makes municipalities dependent on incoming capital. They are more sceptical than Weber (2010) that municipalities can use financial markets for their own agenda (p. 2).",
+   "De-contextualised land capital (pp. 4–7): as land becomes liquid and part of global portfolios, decisions on its exchange and use are disconnected from the local values, norms and needs where they land; valuations rest on simplified yield projections. Decisions on land-use programmes (local needs) separate from decisions on investment (shareholder profit expectations), with many layers of intermediaries. Land is also used as collateral to create credit for investments elsewhere. Special-purpose vehicles (SPVs) are the key tool: they isolate project risk from the holding, can be bought and sold, and link project gains to shareholders; they are 'both separators and connectors'. Local governments try value capture via regulation, betterment levies, public land development or TIF, but detachment of investment from land-use decisions weakens their understanding and bargaining power.",
+   "The Falck case (pp. 7–13): a 150 ha polluted former steelworks in Sesto San Giovanni (80,000+ inhabitants; about a quarter of its area vacant industrial land), negotiated under the PII regime; 15 years without agreement; land sold four times. Periodisation (Table 1): 1990s: Falck Corporation and a public-private agency (PSTA, later ASNM; municipality 80%, province 5%, Falck 15%) pursuing reindustrialisation. 2000: sold (€180M in the text; €140M land cost in Table 1) to local investor Gruppo Pasini, SPV Immobiliare Cascina Rubina with a Banca Intesa loan; modest plan, 9% expected return; not approved. 2005: ICR sold to Risanamento (Gruppo Zunino), clustered with Santa Giulia etc.; Renzo Piano masterplan, ~double floor area, 50% high-end housing, 15% expected gain on ~€5bn. 2009: credit crunch, bankruptcy procedure. 2010: Sesto Immobiliare (Bizzi & Partners; Korean and other investors) buys for €405M, largely via land transfer to creditor banks, conditional on approval of ≥962,000 m² within two years; programme grows to ~1.2M m²; 12% expected return. 2011: council approves; region commits €323M for a health campus.",
+   "Explanation and conclusion (pp. 13–15): the outcome results from two concurrent trends: growing institutional distance between developer and investors/creditors, and the municipality's increasing dependence on the project's yields, which weakened its negotiating position. Each transfer bound the project more tightly to financial returns and promises of future yields, and the programme was intensified to cover rising costs and debts; planning became 'functional to the urgent need to unlock capital' rather than a response to local needs. Main features of de-contextualisation: separation of ownership and planning responsibility; SPVs insulating risk; complexified, nested property structures. Theoretically, financialisation goes 'one step further than Harvey foresaw in 1982': land is not only a spatial fix but collateral to create credit elsewhere. The outcome is not inevitable: the complexity of financial constructions and the regulatory position of public authorities differentiate outcomes; governing property-led development requires strong regulation combined with proactive intervention capacity."
+  ],
+  "concepts": [
+   [
+    "Financialisation of land",
+    "Land treated as a financial asset valued by expected yields and traded in portfolios; increasingly used as collateral to create credit (pp. 2, 5–6, 14–15)."
+   ],
+   [
+    "De-contextualisation",
+    "The detachment of land investment decisions from the socio-economic and political contexts where their effects are felt (pp. 4–5, 14)."
+   ],
+   [
+    "Three trends",
+    "Investment relocation (riskier peripheries), clustering/enlargement of projects, instrumental land use planning (pp. 3–4)."
+   ],
+   [
+    "Special-purpose vehicle (SPV)",
+    "Project company that isolates risk from its generator/holding, can be traded, and channels gains to shareholders; 'both separators and connectors' between planning and investment (p. 6)."
+   ],
+   [
+    "Capital switching",
+    "Harvey's notion of capital moving into the built environment; finance invents new strategies to reconnect global strategies with local production of space (p. 1)."
+   ],
+   [
+    "Land as fictitious capital",
+    "What is bought and sold is title to future ground rent; land becomes an interest-bearing investment (Harvey 1982, quoted p. 14)."
+   ],
+   [
+    "Value capture",
+    "Public capture of land value increments for public benefits; harder when investment decisions are detached from land-use processes (pp. 6–7)."
+   ],
+   [
+    "Yield dependence of local government",
+    "A fiscally weak municipality depends on project returns for public gains, weakening its bargaining capacity (pp. 13–14)."
+   ],
+   [
+    "PII (Programmi Integrati d'Intervento)",
+    "Italian regulatory framework requiring close negotiation between municipal executives and the developer (p. 7)."
+   ]
+  ],
+  "example": "Falck, Sesto San Giovanni (Milan): 150 ha polluted steelworks; land sold four times with steadily rising prices while no brick was laid; the 2010 purchase was conditional on municipal approval of at least 962,000 m² within two years, putting the municipality under pressure to approve a larger programme.",
+  "examples": [
+   {
+    "t": "PSTA: the locally embedded phase",
+    "d": "When steelmaking ended in 1994 the Falck site was first handled by a development company owned 80% by the municipality, 5% by the province and 15% by Falck, drawing on EU programmes to reconvert the site and save jobs; the booming housing market then pushed Falck to drop reindustrialisation and sell. Shows the starting point before de-contextualisation: a financial set-up tied to local actors and local economic needs.",
+    "src": "text",
+    "p": "p. 10"
+   },
+   {
+    "t": "Risanamento: clustering, then collapse",
+    "d": "In 2005 Risanamento (Gruppo Zunino) bought the SPV with little capital, bundled Falck with projects like Santa Giulia, and had Renzo Piano draw a plan with almost double the floor space, aiming at 15% gains on about €5 billion. In 2009 the credit crunch and Risanamento's heavy debt (part of its holding's €3 billion debt) triggered bankruptcy proceedings and a forced sale, events 'completely alien' to local planning. Illustrates clustering and how financial decisions made elsewhere drive the planning programme.",
+    "src": "text",
+    "p": "pp. 11–12"
+   },
+   {
+    "t": "Industrial firms turned land developers",
+    "d": "In Milan non-real-estate corporations that owned land in key locations became developers, for example Pirelli in Bicocca, alongside investors such as Hines at Garibaldi. Shows land becoming a financial asset for former industrial groups, part of the relocation and clustering trends the paper describes.",
+    "src": "text",
+    "p": "p. 9"
+   },
+   {
+    "t": "Approval bought with public money",
+    "d": "The council approved the Sesto Immobiliare masterplan in 2011 with more retail and offices and less high-end housing and manufacturing, while the regional government put €323 million into a health and research campus on the site. Illustrates instrumental planning: public tools and investment used to unlock a financially stuck project rather than to answer local needs.",
+    "src": "text",
+    "p": "p. 13"
+   }
+  ]
+ },
+ {
+  "id": "rydin6",
+  "wk": 7,
+  "title": "Rydin (2021) Urban politics: conflict, power and justice",
+  "theory": "Urban politics / social movements (framework chapter: growth coalitions, regime theory, urban social movements, agonism, justice)",
+  "one": "Where the governance frame assumes conflict can be handled towards agreement, the urban politics frame sees conflict as unavoidable, power at play within planning and inequality in its outcomes; so planners cannot be neutral and must ask how to plan justly. Rydin organises the field into three dynamics (growth coalitions/urban regimes, urban social movements, agonism) with a running concern for justice, and shows how each is used in planning research.",
+  "summary": [
+   "Framing (pp. 105–107). Urban politics starts from the insight that conflict is part of the fibre of planning. Unlike governance theory (ch. 5), it does not assume conflicts can be handled to reach effective or agreed outcomes; it looks at power in processes and inequality in outcomes. Planners 'cannot be neutral' and should act more like advocates; the research task is how to plan justly. The perspective studies both elite and non-elite actors, and rejects pluralism (Dahl), in which group activism simply follows demand: pluralism came to be seen as 'naïve' because power and resources are unequal, some issues never get on the agenda, and it legitimated a focus on middle-class pressure groups. Urban politics instead attends to the disempowered and treats non-violent occupations and even violence against property as legitimate protest.",
+   "Justice (pp. 106–107). Agyeman distinguishes four aspects: recognition of groups as self-determined (more than giving voice), fair process (e.g. visioning), just exercise of procedures (regulation, implementation) and fair outcomes. This frame is widely used for environmental justice (US origins in toxic sites near communities of colour; Love Canal). A second theme is the Right to the City movement (Butler 2012), e.g. Occupy after 2008. Because conflicts are linked to wider power and inequality (links to structuralism, ch. 7), planning alone can achieve little: justice requires wider political change. The research focus is not the sociology of conflict itself but how planners, planning organisations and systems respond to it (p. 107).",
+   "Coalitions and regimes (pp. 108–109). Molotch's growth coalitions: actors with most to gain from land and property development coalesce, with links to local government, to secure property-led growth; a response to technocratic views, emphasising class and local elites. Critiques: too agent-based (from political economy) and too simple (coalitions are fragmented, unstable, not only local, not always growth-led). Hence Stone's urban regime (Atlanta, 1989): an 'informal yet relatively stable group' that assembles the capacity to act because local government cannot implement its agenda alone; 'power to' rather than 'power over'; based on resource interdependence, cooperation has to be achieved. Four regime types (maintenance/caretaker, development, middle-class progressive, lower-class opportunity expansion); Dowding et al.'s eight criteria. Critiques: bias to corporate interests (Pierre: leaders must cater to business to access its 'systemic power'), US-specific (property taxes, local autonomy), limited transferability (Holman's four reasons).",
+   "Urban social movements and agonism (pp. 109–112). Left theorists disheartened by political economy's crisis-and-revolution message turned to politics with some autonomy from capitalist structures (Gramsci: the oppressed can perceive their own interests without a vanguard). Movements express a social cleavage, not a single issue. Castells linked urban social movements to conflicts over the means of collective consumption (public services needed to reproduce labour), resisting middle-class appropriation and capitalist limitation of services. Later work links USMs to identity, difference and place (Nicholls; Gualini and Bianchi); Mayer's four phases run from industrial crisis via collective consumption and gentrification to globalisation/financialisation. Critiques: gender blindness, North Atlantic bias. The USM's distinctive feature is its physical base in a place. Agonism (Mouffe) rejects governance's promise of consensus: conflict is inevitable and productive; the aim is to turn enemies into adversaries who 'agree to disagree'; critics ask whether it accepts existing power inequalities (Yamamoto).",
+   "Research in practice (pp. 112–123). Regimes revisited: Turin (Ravazzi and Belligni: incubation, naming/blaming/claiming, shift from pro-welfare to market-centred regime) and Guangzhou's Three Old Redevelopment (Li and Liu: regime concept supplemented with 'fragmented authoritarianism' and 'strategic selectivity'). Racism: Sulukule, Istanbul (Uysal: a Roma USM that failed to stop demolition because of unclear property rights, speculation, lack of public support, marginalisation, fragmentation and counter-pressure) and Native American fishing rights after the 1974 Boldt decision (environmental justice as decolonisation). Managing conflict: Trapenberg Frick's Tea Party/progressive tactical coalitions (ephemeral, emergent, established), REDWatch in Sydney as monitory democracy, and Fougère and Bond's Denniston Plateau coal mine (antagonism can create space for agonism; expert knowledge depoliticises). Conclusion: qualitative, normative, often action research, from the emic perspective of the marginalised."
+  ],
+  "concepts": [
+   [
+    "Urban politics perspective",
+    "Frame that sees conflict as unavoidable in planning, power at play within its processes and inequality in outcomes; planners cannot be neutral technocrats (p. 105)."
+   ],
+   [
+    "Pluralism (Dahl) and its critique",
+    "Groups form when there is demand (supply follows demand). Rejected as naïve: unequal resources, non-issues, and a legitimation of middle-class pressure groups (p. 106)."
+   ],
+   [
+    "Justice (Agyeman)",
+    "Four aspects: recognition of self-determined groups, fair process, just exercise of procedures, fair outcomes; widely used in environmental justice (pp. 106–107)."
+   ],
+   [
+    "Right to the City",
+    "Movement and claim against limited access to the city and inequitable use of its assets (Butler 2012; Occupy after 2008). Only briefly treated; Lefebvre himself is not discussed (p. 107)."
+   ],
+   [
+    "Growth coalition (Molotch)",
+    "Coalition of actors with most to gain from land and property development, linked to local government, pursuing property-led growth; criticised as too agent-based and too simple (p. 108)."
+   ],
+   [
+    "Urban regime (Stone)",
+    "'An informal yet relatively stable group with access to institutional resources' that assembles the capacity to govern through resource interdependence; four types; criteria by Dowding et al. (pp. 108–109)."
+   ],
+   [
+    "'Power to' vs 'power over'",
+    "Regime power is the capacity to achieve goals by combining resources ('power to'), not domination of one actor by another ('power over'); often less visible, alongside formal politics (p. 108)."
+   ],
+   [
+    "Systemic power / transferability",
+    "Pierre: to reach business's 'systemic power' leaders must cater to corporate interests; regime theory reflects US local government (property taxes, autonomy), so its transfer abroad needs amendment (Holman's four factors) (p. 109)."
+   ],
+   [
+    "Gramsci",
+    "Politics has relative autonomy from socio-economic structure; the oppressed can recognise their own interests and achieve change short of revolution, without a vanguard (p. 110)."
+   ],
+   [
+    "Urban social movement / collective consumption (Castells)",
+    "Movements expressing a social cleavage, mobilising over collective means (public services) for reproducing labour; Castells' USM combines collective consumption demands, community culture and political self-management (pp. 110, 116)."
+   ],
+   [
+    "Mayer's four phases",
+    "Industrial crisis 1960–80; collective consumption and welfare erosion 1980–90; gentrification and regeneration 1990–2000; globalisation and financialisation since 2000 (p. 111)."
+   ],
+   [
+    "Agonism (Mouffe)",
+    "Conflict is inevitable and productive; turn enemies into adversaries who can 'agree to disagree'; rejects deliberative consensus as a false promise; critics: may accept existing power inequalities (p. 112)."
+   ],
+   [
+    "Post-political",
+    "Planning that annuls dissent and silences overt conflict, e.g. by recourse to expert knowledge (Raco; Fougère and Bond) (pp. 112, 121–122)."
+   ],
+   [
+    "Place attachment vs NIMBY",
+    "Place-based identity used to resist the pejorative NIMBY label (Devine-Wright) (p. 112)."
+   ],
+   [
+    "Emic perspective / action research",
+    "Urban politics research takes the perspective of the marginalised and often supports the groups studied (p. 123)."
+   ]
+  ],
+  "example": "Sulukule, Istanbul (Uysal 2012, pp. 115–117): the 2006 state-led regeneration of a largely Roma area for tourism and heritage displaced most residents to the outskirts. The Sulukule Platform (NGOs, a Roma association, outside activists and academics with an alternative STOP plan) is framed as a Castellsian USM. It won national and international attention but failed to stop demolition: unclear property rights, land speculation, lack of wider public support (reluctance to align with the Roma), a resource-poor marginalised community, internal fragmentation and counter-pressure from the council and developers.",
+  "examples": [
+   {
+    "t": "Turin's post-industrial urban regime",
+    "d": "Ravazzi and Belligni trace a 'great alliance' of Centre-Left politicians, liberal business leaders (the Group of 70, led by a banker) and Politecnico academics that pushed Turin from a pro-welfare to a market-centred agenda of housing, infrastructure, a knowledge district and tourism. Shows Stone's urban regime as 'power to' act, built through naming, blaming and claiming.",
+    "src": "text",
+    "p": "pp. 113–114"
+   },
+   {
+    "t": "The Green Tea Coalition",
+    "d": "In Georgia, Tea Party conservatives and progressive groups including a Sierra Club chapter jointly opposed a transport sales tax and later backed solar power, while never agreeing on climate change. Trapenberg Frick uses such tactical coalitions to show agonism in practice: adversaries cooperate on points of convergence and agree to disagree on the rest.",
+    "src": "text",
+    "p": "pp. 119–120"
+   },
+   {
+    "t": "REDWatch in Sydney",
+    "d": "A community group in a low-income, public-housing area south of Sydney's CBD monitored state redevelopment plans and posted documents that vanished from government websites, acting as an 'inconvenient corporate memory'. Government planners then used its monitoring to argue internally for different outcomes, showing agonistic, informal action can gain influence alongside formal participation.",
+    "src": "text",
+    "p": "pp. 120–121"
+   },
+   {
+    "t": "Denniston Plateau coal mine",
+    "d": "Protests and a community 'Bioblitz' accompanied the consent process for a coal mine in Aotearoa New Zealand. Fougère and Bond find that antagonism dominated, that expert knowledge helped keep the process post-political, and that antagonistic conflict can still open up space for agonism.",
+    "src": "text",
+    "p": "pp. 121–122"
+   }
+  ]
+ },
+ {
+  "id": "bossuyt",
+  "wk": 7,
+  "title": "Bossuyt & D'Ottaviano (2025) Patterns of protection for housing commons",
+  "theory": "Urban commons (neo-Marxian commons theory combined with Ostrom-style institutionalism); urban social movements",
+  "one": "Occupying vacant (public) buildings in central São Paulo turns them into housing commons, but reclaiming is not enough: commons must be protected against enclosure over time. Two self-managed cases (Dandara, Marisa Letícia) show five patterns of protection at three levels (regularization, restoration, integration, ideation, federation), yet protection is partial because regularization converts collective use claims into individual private titles that open new routes to enclosure.",
+  "summary": [
+   "Problem and theory (pp. 1021–1024). The global housing crisis shows the failure of markets; the commons has emerged as a paradigm for reclaiming housing. Research on common-pool resources studies stability (Ostrom), but urban-commons work neglects reproduction: how commons endure against enclosure by capital and state. Housing commons have three dimensions: use value over exchange value (decommodification), self-governance (collective-choice and operational rules), and solidarity through cohabitation. Enclosure takes three forms: commodification (selling for profit), marginalization (exclusivity towards outsiders) and cooptation (state undermining self-governance). Theorists split on property: Dardot and Laval (commons cannot be property), Harvey ('some degree of closure' needed), de Angelis and Stavrides (porosity and proliferation). The authors use de Angelis' tripartite commons (common good, community, commoning practices) and a relational view of property.",
+   "Context and method (pp. 1024–1028). Qualitative participatory action research (2016–2021, via the Brazilian extensão model: one team member was architect of Dandara's retrofit) plus 19 interviews (10 residents, 3 movement leaders, 3 policymakers, 2 social workers, 1 architect). São Paulo has about 590,000 vacant properties and 29,500 homeless families (2022 census). The 1988 Constitution and 2001 City Statute enshrine the right to housing and the social function of property; occupations exploit the contradiction between this principle and the right to private property, legitimising themselves by targeting vacant, tax-defaulting or public buildings. The ULC (founded 1991), part of the UMM umbrella (1987), is less confrontational and frames occupation through citizenship and social rights.",
+   "The cases (pp. 1028–1033). Dandara (former state court in Sé, occupied 2009, renovated 2014–2018) and Marisa Letícia (INSS warehouse site in Brás, completed 2019) are the only two occupations in central São Paulo completed as permanent self-managed housing. Stages: appropriation (forced entry, care, rules of access, legitimacy vs 'invasion'); regularization via autogestão and structural coupling with the state (SPU Ordinance 179; MCMV-Entidades, which gave movements direct access to federal funds but at a cap requiring municipal and state top-ups); renovation through mutirão, committees and an effort-based points system that allocated units and prevented free-riding; moving in, with gates, doormen, condominium courses by social workers. Property regimes diverge: Marisa Letícia became an individual condominium; Dandara a use-right concession.",
+   "Patterns of protection (pp. 1033–1035). Level of the common good: regularization (legal recognition, tenure security) and material restoration (habitability, night vigils, barriers). Level between housing development and movement: integration (embedding residents in the movement's political struggle; points system cultivates solidarity) and ideation (commons ideas stored in movements and materialising later, e.g. Uruguayan cooperative know-how). Interface movement–state: federation (floor committees → resident committees → entidades → movements → federations), which inserted autogestão into state policy (MCMV-E).",
+   "Partial protection and contribution (pp. 1035–1037). Regularization converts collectively claimed public property into individual private titles plus mortgages, making households 'indebted subjects' and eroding collective action; movements ban sale and subletting but cannot enforce it, and a unit appeared on a subletting platform. Institutionalist approaches are 'only of partial use' because they ignore the political dimension; commoning is a pragmatic practice with contradictions. Contributions: combining institutionalist and neo-Marxian understandings of the commons, and showing private law's progressive potential; they call for legal reform enabling collective property and for an 'archipelago of the commons'."
+  ],
+  "concepts": [
+   [
+    "Commons / commoning",
+    "Commons: resources collectively produced, shared and used for use value; commoning: the active practices of sharing and managing them. Housing is not a commons in itself but becomes one through practices and rules (p. 1022)."
+   ],
+   [
+    "Three dimensions of housing commons",
+    "Use value over exchange value (decommodification); self-governance (residents set collective-choice and operational rules); solidarity and participation through cohabitation (p. 1022)."
+   ],
+   [
+    "Enclosure (three forms)",
+    "Commodification (individual sale for profit), marginalization (exclusivity towards outsiders), cooptation (state undermining self-governance) (p. 1023)."
+   ],
+   [
+    "Tripartite commons (de Angelis)",
+    "A social system of common good (object, incl. relational property), community (subject) and commoning practices, within a socio-political context (pp. 1023–1024)."
+   ],
+   [
+    "Social function of property",
+    "Brazilian constitutional principle that private property must benefit the collective; basis for legitimising occupation of vacant property against the right to private property (p. 1027)."
+   ],
+   [
+    "Autogestão / mutirão",
+    "Collective self-management and collective labour: residents' organisations (entidades) run procurement, labour and construction; also a political principle of horizontal governance (pp. 1029–1031)."
+   ],
+   [
+    "Structural coupling",
+    "De Angelis: commons strategically align with state systems (legal frameworks, funding) to stabilise their claims and safeguard autonomy (p. 1030)."
+   ],
+   [
+    "MCMV-Entidades",
+    "Federal programme (2009) channelling funds to movement-led self-managed housing (3% of the MCMV budget); first direct federal access for movements; per-unit cap insufficient for central retrofits (p. 1030)."
+   ],
+   [
+    "Effort-based points system",
+    "Allocation of units by participation (meetings, occupations, marches) to incentivise contribution and prevent free-riding: a self-regulatory boundary (p. 1031)."
+   ],
+   [
+    "Five patterns of protection",
+    "Regularization and restoration (housing development); integration and ideation (development ↔ movement); federation (movement ↔ state) (pp. 1033–1035)."
+   ],
+   [
+    "Ideation",
+    "Varvarousis: commons 'ideated' during a liminal occupation materialise later elsewhere; know-how stored in movements awaits an opportune political moment (pp. 1034–1035)."
+   ],
+   [
+    "Partial protection / new enclosure",
+    "Regularization protects against eviction but creates individual titles and debt that enable commodification (subletting, sale) (p. 1035)."
+   ]
+  ],
+  "example": "Dandara: a vacant former state court on Avenida Ipiranga (Sé) occupied by the ULC in 2009 after negotiations with the federal patrimony secretariat stalled. SPU Ordinance 179 designated it a public-interest asset; MCMV-Entidades funded a self-managed retrofit (federal cap of BRL 76,000 per unit, topped up by state and municipal funds). Families earned points for participation, sat on committees and slept on the mezzanine for over a year to guard the site; they moved in from December 2017 under a use-right concession. Residents may not sell or sublet, but the movement cannot enforce this.",
+  "examples": [
+   {
+    "t": "Marisa Letícia",
+    "d": "A former warehouse site owned by the national social security institute (INSS), designated for social housing in the late 1990s but left idle; the ULC occupied it on and off through the 2000s until it joined MCMV-Entidades in 2013; it was completed in 2019 and occupied from 2020. Unlike Dandara, the state bought and donated the land and it became a condominium with individual titles: regularization protects against eviction but turns collective claims into private property, opening new routes to enclosure.",
+    "src": "text",
+    "p": "pp. 1028–1032"
+   },
+   {
+    "t": "Prestes Maia building",
+    "d": "A former textile factory that once housed 2,000 people in one occupation went through three occupations and two evictions before its renovation became possible in 2022 through the municipal Pode Entrar programme. Shows how precarious appropriation is without structural coupling to state programmes and property regimes.",
+    "src": "text",
+    "p": "p. 1028"
+   },
+   {
+    "t": "Wilton Paes de Almeida fire",
+    "d": "In 2018 a fire in this occupied building killed four people, with five more missing. The disaster highlights the precarity of long occupations, and the ULC has since shifted mostly to shorter, political occupations aimed at forcing negotiations rather than long-term shelter.",
+    "src": "text",
+    "p": "pp. 1026–1027"
+   },
+   {
+    "t": "Ideas from Uruguay's cooperatives",
+    "d": "Exchanges with the Uruguayan Federation of Housing Cooperatives in the 1980s shaped Brazilian movements' thinking on cooperative building and self-management. The authors use this as an example of 'ideation': commoning knowledge stored in movements that later materializes in projects like Dandara.",
+    "src": "text",
+    "p": "pp. 1034–1035"
+   }
+  ]
+ },
+ {
+  "id": "pruijt",
+  "wk": 7,
+  "title": "Pruijt (2003) Is the institutionalization of urban movements inevitable?",
+  "theory": "Urban social movements / political opportunity structure, testing post-Fordist theory and Castells' life-cycle view of institutionalization",
+  "one": "Institutionalization of urban movements is not inevitable: Amsterdam's squatters combined legalization with continued disruption (flexible institutionalization), whereas in New York the market-oriented regime co-opted housing-movement squatting into service provision. A squatters' movement proper, for which squatting is an end and not only a means, is immune to cooptation; paradoxically, a redistributive regime offers more opportunities for squatting than a market-oriented one.",
+  "summary": [
+   "Question and theory (pp. 1–6). Squatting, like any movement, operates within an opportunity structure. Castells (1977) observed that states respond to radical urban movements with both repression and integration; Castells (1983) held that institutionalization, with its attendant identity loss, is inevitable, and protest-wave theory places it at the end of a cycle. Pruijt distinguishes two forms of integration. Institutionalization: a movement channelled into a stable pattern based on formalized rules; terminal (convention replaces disruption) or flexible (conventional tactics complement disruptive ones). Cooptation (after Selznick): the co-opting organization embraces some movement ideas while redefining problems so that solving them does not threaten its stability. Post-Fordist theory predicts that a market-oriented regime, cutting welfare, pushes the 'privatization of poverty' and co-opts movement groups as service providers, while city competition increases repression.",
+   "Cases (pp. 6–11). Both cities had a housing shortage and many vacant buildings but different regimes: the US a liberal welfare regime, the Netherlands social-democratic traits (Esping-Andersen). Amsterdam housed about 9,000 squatters (1981) with a rich infrastructure; New York's movement peaked at 500 squatters in 20 buildings. In Amsterdam the municipality bought about 200 squats and handed them to housing associations; squatters took part in planning, yet kept defending buildings and rioting (e.g. the 1980 coronation): flexible institutionalization, with hardly any cooptation. In New York, 1970s squatting by housing groups died out as organizers moved into city programmes (Tenant Interim Lease, official homesteading with 'sweat equity'), ACORN got 58 buildings only after promising to stop squatting, and Banana Kelly became a service provider: cooptation as post-Fordist theory predicts.",
+   "The anomaly and its explanation (pp. 11–14). After 1983 a squatters' movement proper emerged on the Lower East Side that was neither co-opted nor repressed out of existence; the city refused to negotiate, and 11 squats were legalized only in 2002 via UHAB once no squattable buildings were left: terminal institutionalization. The city did try cooptation elsewhere (ICP, Bronx, 1992), so the explanation lies in the movement. For a housing movement, squatting is a means to house the poor; officials can claim to share the goal and offer support if squatters switch to approved means. For a squatters' movement, squatting is itself institutionalized (Berger and Luckmann) as means and goal, so officials cannot claim shared goals. European activists carried this identity to New York: a pre-existing oppositional identity can partly override the opportunity structure.",
+   "Other opportunity-structure differences (pp. 14–18). Property protection: the 1971 Dutch Supreme Court extended 'house right' to squatters, whereas in the US squatting is criminal trespass, pushing squatters to covert action and city-owned buildings, which leaves speculators alone. Technical condition: New York's abandoned, disinvested tenements were far worse than Amsterdam's. Gentrification: squatters can be precursors but squatting is not gentrification; its effect on the Lower East Side is contested (it may have slowed it).",
+   "Competition with low-income housing providers and conclusion (pp. 19–24). In New York squatters clashed frequently with non-profit developers in an opaque public–private 'poverty industry'; in Amsterdam a broad consensus (affordability, profit/non-profit demarcation, reliability, democratic planning, recognition of squatters' needs) meant squatters left for renewal voluntarily. The market regime leaves one leeway: radicals can act as watchdogs against the 'Weber-Michels' scenario of co-opted groups, but conflict stays local, leaving big real estate, banking and politics unaffected. Post-Fordist theory sees only cooptation; movements that keep an oppositional identity have other options."
+  ],
+  "concepts": [
+   [
+    "Opportunity structure",
+    "The context that determines whether and how a movement can develop and how effective it can be; here urban regime, property law, access to officials, building condition (p. 1)."
+   ],
+   [
+    "Institutionalization",
+    "A movement 'channeled into a stable pattern based on formalized rules and laws'; for Castells it implies identity loss; for Kriesi et al. a shift from disruption to convention (pp. 2–3)."
+   ],
+   [
+    "Terminal vs flexible institutionalization",
+    "Terminal: convention replaces disruption (end of movement, e.g. New York 2002). Flexible: conventional tactics complement disruption (Amsterdam) (p. 4)."
+   ],
+   [
+    "Cooptation",
+    "The co-opting organization embraces some movement ideas while redefining problems so their solution does not threaten its stability; gives activists a role (Selznick; Warren et al.) (p. 4)."
+   ],
+   [
+    "Privatization of poverty",
+    "Post-Fordist logic: a retreating welfare state encourages self-help and uses movement groups as 'plugs for holes'; self-help becomes a cheaper substitute and absorbs activists' energy (pp. 5, 9)."
+   ],
+   [
+    "Market-oriented vs redistributive urban regime",
+    "Pruijt's 'urban regime' means a city's policy orientation (market forces vs state intervention/redistribution), grounded in welfare-state regimes (Esping-Andersen), not Stone's coalition concept (pp. 1, 7)."
+   ],
+   [
+    "Housing movement vs squatters' movement",
+    "For a housing movement squatting is one possible means to house the poor (co-optable); for a squatters' movement squatting is means and end, with its own identity (immune to cooptation) (pp. 12–13)."
+   ],
+   [
+    "House right (1971)",
+    "Dutch Supreme Court ruling extending protection of the home to squatters, which made long-lived squats possible; its erosion after 1986 coincided with decline (pp. 14–15)."
+   ],
+   [
+    "Covert squatting",
+    "Without legal rights, New York squatters hid and chose city-owned buildings, which isolated them and left speculators in peace (p. 15)."
+   ],
+   [
+    "Poverty industry / Weber-Michels scenario",
+    "Opaque third-sector low-income housing sector; co-opted groups may drift from movement to managerial self-interest, and radicals can act as watchdogs (pp. 22–23)."
+   ]
+  ],
+  "example": "ACORN in Brooklyn (p. 10): in 1985 it organized the squatting of 25 city-owned buildings that were due to be auctioned. The city changed policy and turned 58 buildings over to ACORN/Mutual Housing Association of New York, with rehabilitation funds, but only after ACORN promised to abandon squatting: a textbook case of cooptation, where officials accept the goal (homes for the poor) and trade support for giving up the oppositional means.",
+  "examples": [
+   {
+    "t": "Amsterdam: legalize and keep fighting",
+    "d": "Amsterdam bought about 200 squatted buildings and handed most to housing associations, which gave squatters leases; squatters also joined planning in areas like the eastern docklands. Yet the movement kept its disruptive repertoire (the 1980 coronation riots, defending warehouses in 2000), Pruijt's case of flexible institutionalization, where conventional tactics complement rather than replace disruption.",
+    "src": "text",
+    "p": "pp. 7–8"
+   },
+   {
+    "t": "Lower East Side legalization, 2002",
+    "d": "Eleven squatted buildings on the Lower East Side were legalized in 2002 through UHAB, with no direct talks between squatters and the city, and only once no squattable buildings were left. Pruijt classifies this as terminal institutionalization: integration that marks the end of the movement.",
+    "src": "text",
+    "p": "p. 11"
+   },
+   {
+    "t": "Tenant Interim Lease programme",
+    "d": "From 1976 New York let tenants self-manage tax-foreclosed city buildings with a route to cooperative ownership; nearly 1,000 buildings joined by 1996, but these projects got less than half the normal housing subsidy and keeping buildings afloat absorbed activists' energy. Illustrates the 'privatization of poverty': self-help as a cheaper substitute for state provision that turns organizers into managers.",
+    "src": "text",
+    "p": "p. 9"
+   },
+   {
+    "t": "The 1971 Supreme Court ruling",
+    "d": "In 1971 the Dutch Supreme Court applied 'house right' to squatters, so owners could no longer simply evict them from an unused building; later laws chipped away at this (for example making it illegal to squat buildings empty for under a year from 1994). Shows how legal protection of property shapes the opportunity structure: long-lasting, open squats were possible in Amsterdam but not in New York, where squatters hid and stuck to city-owned buildings.",
+    "src": "text",
+    "p": "pp. 14–15"
+   }
+  ]
+ },
+ {
+  "id": "raco",
+  "wk": 7,
+  "title": "Raco & Imrie (2000) Governmentality and rights and responsibilities in urban policy",
+  "theory": "Foucault / governmentality (advanced liberalism, after Rose, Miller and Dean)",
+  "one": "New Labour's 'rights and responsibilities' agenda, studied through the Single Regeneration Budget (SRB), is not a devolution of power to communities but a shift in the art of government: the state governs 'at a distance' by constructing active, self-responsible communities and binding them with audit, targets and competitive bidding. In return for a little extra freedom, subjects come under greater monitoring, scrutiny and surveillance.",
+  "summary": [
+   "Framework (pp. 2188–2191). Following Foucault, Rose, Miller and Dean, governmentality is the 'conduct of conduct': government works through political rationalities (ways of thinking about which problems authorities should address, with moral justifications and a picture of who is to be governed), programmes (white papers, guidance, inquiries that try to reorganise practice) and technologies (audit, benchmarking, devolved budgets, performance criteria that create 'calculable spaces'). Power is not reducible to the state; the state is 'no more than a specific form of government' (p. 2190). 'Advanced liberalism' governs through the self-governing capacities of free subjects; welfare retrenchment means less state intervention but 'not necessarily ... any less government' (p. 2191).",
+   "Rationality and programme: government through community (pp. 2192–2196). SRB (April 1994) replaced many 1980s schemes with one competitive fund for local public–private partnerships that must 'involve the community fully at all stages'. Ten per cent of project funding goes to community 'capacity building'. Territory of government is rescaled from society to community: the local gets 'ontological status' as the site of effective government. The authors read this as directed self-government producing Rose's 'communities of obligation': more rights to define agendas, but conditional on wider responsibilities, and bids must 'work within the grain' of national frameworks. Behind the inclusion rhetoric lie 'discourses of public and private sector abandonment' (p. 2195): deprived areas must provide for themselves.",
+   "Technologies: subjectivity and expertise (pp. 2196–2201). Partnerships must file quantitative progress reports every three months against a priori targets; accountability is vertical, not horizontal; underperformance can lead to intensive monitoring or withdrawal of funding. Best Value and Best Practice discipline local authorities and bidders, partly through peer comparison ('disciplinary government at a distance'). Expertise is redrawn: local knowledge is given privileged status rhetorically, yet community representatives are trained by professionals to handle bureaucratic procedures, baselines and monitoring, making community aspirations 'calculable'. Professionals too become subordinated to performance mechanisms.",
+   "Conclusion (pp. 2201–2202). The Foucauldian approach links the mentalities and conduct of the population to the objectives and techniques of government. SRB 'identifies and institutionalises communities of action', gives them a minimum of competitively allocated resources, and binds them into 'rigid and closely monitored managerial frameworks'. Because the art of government is politically constructed, it can also be reconstructed: the analysis may feed 'resistance, contestation, and challenge', e.g. subpolitics of identity and a rebuilt 'social'.",
+   "Method and status of the claim. The evidence is a critical reading of official documents (DETR bidding guidance, ministerial speeches, CSJ report) plus secondary evaluation evidence (mainly Foley et al. 1998); there is no primary fieldwork (p. 2192). SRB is used as a 'heuristic vehicle' to comment on governmentalisation. This matters for a commentary: the article shows how policy texts construct subjects, not how people on the ground actually experienced or resisted them."
+  ],
+  "concepts": [
+   [
+    "Governmentality",
+    "Foucault's term for the ensemble of institutions, procedures, calculations and tactics through which the conduct of a population is shaped; government as 'the conduct of conduct', not reducible to the state."
+   ],
+   [
+    "Political rationality",
+    "A way of thinking about which problems can and should be governed, with moral justifications and a description of the subjects to be governed (Rose & Miller)."
+   ],
+   [
+    "Technologies of government",
+    "Practical techniques (audit, targets, benchmarking, devolved budgets, bidding rules) that make programmes operable and create 'calculable spaces of action'."
+   ],
+   [
+    "Advanced liberalism",
+    "Rose's term for rule through the regulated choices of autonomous actors: marketised welfare, audit, fragmentation of collective provision, reinvented community."
+   ],
+   [
+    "Government at a distance",
+    "Central government steers local actors through rules, funding conditions and monitoring instead of direct provision; the governed police themselves."
+   ],
+   [
+    "Government through community",
+    "Community is made both the object and the instrument of policy; pre-existing bonds are transformed, affiliated to expertise and given duties."
+   ],
+   [
+    "Communities of obligation",
+    "Rose: communities gain rights to shape agendas only on condition of accepting wider responsibilities for delivery."
+   ],
+   [
+    "Responsibilisation / active citizen",
+    "Transformation of subjectivity from passive recipient to self-governing agent who takes responsibility for welfare and regeneration."
+   ],
+   [
+    "Empowerment as technology",
+    "After Cruikshank: 'empowerment' is a technique for transforming subjectivity, producing a qualitative change in subjects, not a quantitative gain in power."
+   ],
+   [
+    "Calculable spaces",
+    "Domains made governable through quantification (baselines, outputs, milestones) that experts can monitor from above."
+   ]
+  ],
+  "example": "SRB bidding guidance (DETR 1999b): bids must 'involve the community fully at all stages', devote 10% of funding to capacity building, set their own baselines, milestones and outcomes, and file quantitative progress reports every three months; if a scheme 'falls short on its performance, the RDA may take measures varying from the intensive monitoring and review to the reduction or withdrawal of funding' (p. 2198).",
+  "examples": [
+   {
+    "t": "New Deal for the unemployed",
+    "d": "The New Deal combined counselling to raise self-esteem with training to build skills. Raco and Imrie cite it as a 'technology of citizenship': empowerment used to turn powerless subjects into active, self-governing citizens who take responsibility for their own welfare.",
+    "src": "text",
+    "p": "p. 2191"
+   },
+   {
+    "t": "Best Value and peer review",
+    "d": "Best Value required councils to adopt new disciplines of value for money and efficiency, with central action if they failed to act 'responsibly'; Best Practice guidelines made SRB bidders adjust their conduct to the scrutiny of other bidders. Governing at a distance: discipline that works through self-monitoring and peers rather than direct central orders.",
+    "src": "text",
+    "p": "p. 2199"
+   },
+   {
+    "t": "Tenant participation in social housing",
+    "d": "DETR guidance on tenant participation calls for a 'proper balance of rights and responsibilities', but tenants who gain a say must follow public service rules and accept the council's ultimate responsibility for strategic decisions. Communities of obligation: rights to take part come bundled with centrally defined duties.",
+    "src": "text",
+    "p": "pp. 2195–2196"
+   },
+   {
+    "t": "Dutch 'participation society' (2013)",
+    "d": "In the 2013 King's Speech the Dutch government announced a shift from the welfare state to a 'participatiesamenleving', in which citizens are expected to take more responsibility for their own lives and neighbourhoods. A close Dutch analogue of the rights and responsibilities agenda and the governmentality of active citizenship.",
+    "src": "similar"
+   }
+  ]
+ },
+ {
+  "id": "gurran",
+  "wk": 7,
+  "title": "Gurran & Ruming (2016) Less planning, more development? Housing and urban reform discourses in Australia",
+  "theory": "Discourse analysis (broadly Foucauldian: regimes of truth) within a critique of neoliberal planning reform",
+  "one": "In the 2011–2014 New South Wales planning reform, the development industry's framing of planning as 'red tape' that blocks housing supply, growth and affordability became a 'regime of truth' that the government's White Paper and draft Planning Bill largely adopted, while community, environmental and affordable-housing concerns were sidelined. Housing affordability served as a 'semantic justification' for a wider deregulatory agenda; the Bill nevertheless stalled under community backlash, and approvals boomed while prices kept rising.",
+  "summary": [
+   "Context (pp. 1–7). Planning systems have resisted deregulation and elsewhere (UK section 106, US inclusionary zoning) are used to secure affordable housing, but their legitimacy is now questioned for slowing supply (Glaeser and Ward, Ball) and for exclusionary use by owners. Australia has one of the world's most expensive housing markets; ownership fell from about 71% (mid-1980s) to 68% (2012). A long-running national microeconomic reform agenda (COAG) prioritises deregulation of planning and development assessment. Social housing approvals in NSW fell from around 15% of dwellings in 1983 to under 2% in July 2014; the NHSC's 85,000-dwelling shortfall would have been roughly offset (90,000 extra dwellings) had social housing production stayed at its 1996 level (p. 6).",
+   "Approach (pp. 2–3, 7–9). A 'broadly Foucauldian analysis' treats language as producing reality: the power of a group rests on its capacity to sustain a version of reality as 'objective truth'; discourses harden into 'regimes of truth' that fix acceptable problems and solutions (Jacobs, Hastings, Clapham). Data: the July 2012 Green Paper (over 1,200 submissions, 72% from community individuals and organisations, 1% from the development industry), 13 selected submissions (industry: PCA, UDIA, Urban Taskforce, Australand, HIA, Master Builders; plus PIA, LGSA, WSROC, Shelter NSW, EDO, NCC/TEC, and the resident group FOKE), and the April 2013 White Paper and draft Planning Bill; close reading, coding and NVIVO keyword searches.",
+   "Findings: framing and objectives (pp. 10–11). Industry frames planning as dysfunctional, bureaucratic and anti-growth, and residents as part of the problem; local government and residents frame the problem as distrust and 'undue influence of developers'. PCA: the system should deliver 'an economic dividend'. Local government and residents want ecologically sustainable development, social impact and heritage objectives kept. The White Paper makes promoting economic growth the 'main purpose' of planning; the Bill positions housing as 'economic activity' and relegates environment and society through 'while' and 'having regard to'.",
+   "Findings: specific reforms (pp. 11–14). Easier spot rezoning with developer appeals: supported by industry, opposed by councils, adopted. Participation: promised as central, yet no new consultation rights and curtailed statutory consultation in development assessment; Australand wants an 'antidevelopment culture' to shift. Red tape: PCA's claim of 40% cost reduction comes with no evidence; the Bill bans 'onerous' controls affecting financial viability. Infrastructure: here government resists industry, which (against its free-market line) wants broad-based public funding; developers keep paying. Affordable housing: Shelter's inclusionary zoning ignored; existing affordable housing contribution provisions are wound back.",
+   "Conclusion (pp. 14–16). Industry discourse aligned with neoliberal ideology dominated the formal process, but ideology and interests are not the only drivers: the Bill stalled by the end of 2013 in parliament, where the government lacked a majority, after a backlash by the Better Planning Network (more than 300 resident groups; the 'Hazzard tape' protest), whose influence worked outside the formal process. Ironically, approvals reached a 20-year high and almost doubled (Dec 2011 to 2014) under the unreformed system, while Sydney's median house price rose from $535,000 (March 2011) to $735,000 (December 2014): more supply did not ease affordability. The authors ask whether reform discourse distracts from the real pressures on low-income renters and aspiring owners."
+  ],
+  "concepts": [
+   [
+    "Discourse (Foucauldian)",
+    "Language as producing reality and knowledge, not a neutral medium; meaning is contested and tied to power."
+   ],
+   [
+    "Regime of truth",
+    "A dominant, relatively static representation of reality that fixes which problems and solutions count as acceptable (Foucault 1980, via Jacobs)."
+   ],
+   [
+    "Supply-side / 'red tape' discourse",
+    "The industry narrative that planning regulation constrains supply, raises costs and so causes unaffordability; deregulation is the cure."
+   ],
+   [
+    "Semantic justification",
+    "Using housing affordability as a rhetorical warrant for deregulation whose real content is growth and development."
+   ],
+   [
+    "Rhetorical relegation",
+    "Placing environmental and social goals in subordinate clauses ('while', 'having regard to') so that growth becomes the primary purpose."
+   ],
+   [
+    "Neoliberal planning reform",
+    "Microeconomic reform aimed at deregulation and competition: simplified controls, faster decisions, standardised plans, user-pays infrastructure."
+   ],
+   [
+    "Spot rezoning",
+    "Changing permissible land uses on a single site; can deliver large windfalls; the reform eased it and allowed developer appeals."
+   ],
+   [
+    "Inclusionary zoning / value capture",
+    "Levying the value uplift from upzoning to fund affordable housing or infrastructure; proposed by Shelter and PIA, not adopted."
+   ],
+   [
+    "Urban consolidation",
+    "Australian term for growth management: containing greenfield spread and densifying existing areas; opposed by both industry (land supply) and residents (density)."
+   ]
+  ],
+  "example": "The PCA claimed the new system should 'reduce costs by 40% by 2015' through red-tape reduction; the authors note 'no evidence of actual costs or savings is ever provided', yet the draft Bill (s3.3, Principle 10) bars local plans from 'overly complex or onerous controls that may adversely impact on the financial viability of proposed development' (p. 12).",
+  "examples": [
+   {
+    "t": "The shortage that social housing explains",
+    "d": "In 2008 the National Housing Supply Council estimated a shortfall of about 85,000 dwellings, yet also found that keeping social housing output at its 1996 level would have added about 90,000, a modest surplus. This undercuts the industry's 'regime of truth' that planning red tape is the main cause of the shortage.",
+    "src": "text",
+    "p": "p. 6"
+   },
+   {
+    "t": "Affordable housing quietly wound back",
+    "d": "Shelter NSW proposed levying developers for affordable housing where rezoning creates value uplift, but the draft Planning Bill actually cut existing affordable housing contribution provisions. The authors conclude affordability served as a 'semantic justification' for deregulation rather than a real policy aim.",
+    "src": "text",
+    "p": "p. 14"
+   },
+   {
+    "t": "The 'Hazzard tape' protest",
+    "d": "The Better Planning Network, a coalition of over 300 resident groups and local government representatives, wrapped Planning Minister Brad Hazzard in yellow 'Hazzard' tape, and by the end of 2013 the Bill stalled in parliament. Shows that the industry's discursive dominance inside formal consultation could still be blocked by electoral power and direct action outside it.",
+    "src": "text",
+    "p": "p. 15"
+   },
+   {
+    "t": "Record approvals, rising prices",
+    "d": "Under the unreformed planning system NSW housing approvals reached a 20-year high, almost doubling between December 2011 and 2014, while Sydney's median house price still rose from $535,000 to $735,000. Evidence against the claim that planning blocks supply and that more supply alone restores affordability.",
+    "src": "text",
+    "p": "pp. 15–16"
+   }
+  ]
+ }
+]

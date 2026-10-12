@@ -1,0 +1,286 @@
+{
+ "id": "buit",
+ "wk": 1,
+ "title": "Buitelaar (2026) Making sense of The Just City",
+ "cite": "Buitelaar, E. (2026). Making sense of The Just City. Defining, choosing, and applying different conceptions of urban justice. Planning Theory. doi:10.1177/14730952261415602",
+ "theory": "Normative / political philosophy",
+ "status": "full",
+ "statusNote": "Full article on file (Planning Theory 25(4), 351–370).",
+ "one": "'The Just City' is a concept everyone supports, but its conceptions differ: the Happy, Equal, Supportive and Free City. Each has different materials of justice and policies, and they are not à la carte: some are internally or externally incongruent. Planners need 'justice literacy'.",
+ "summary": [
+  "Concept vs conception (Moroni 2020, after Rawls): nobody opposes the concept of a just city, but conceptions differ. Three problems in debates: justice kept vague to avoid controversy (superficial consensus); justice defined narrowly as if only one conception exists (e.g. Fainstein's anti-neoliberal framing); and inconsistency when incompatible conceptions are pursued at once (you can't condemn segregation and gentrification AND support free settlement). Aim: improve 'justice literacy', i.e. the vocabulary (conceptions) and grammar (how they connect).",
+  "Premises: strictly, a city cannot be just; only institutions (formal and informal rules) can (Moroni). 'City' = the target territory where goods, duties or rights are allocated. Each conception decomposes into five materials of justice (Dawkins 2021): value (what is distributed), principle (how), scope (to whom/where), ground (why), basis (goal-based vs rights/duty-based).",
+  "Happy City (utilitarianism): value = utility/preference satisfaction; principle = maximum collective utility; goal-based. Policies: CBA, agglomeration economies (often labelled 'neoliberal'). Critique: ignores distribution and individual rights. Equal City (egalitarianism): value = equality of outcomes/opportunities; 'the more equal, the better'; inequality instrumentally problematic (neighbourhood effects) and intrinsically wrong. Policies: redistribution, social mixing. Supportive City (sufficientarianism, + prioritarianism, limitarianism): everyone ENOUGH (absolute, not relative poverty); access to primary goods/capabilities, e.g. affordable housing (≤30% of income), commuting limits; setting the threshold is key; rights/duty-based. Free City (liberalism; Hayek, Nozick): equal rights and freedom; 'assigning rights rather than distributing outcomes'; the city as spontaneous order; Nozick's entitlement theory (justice in acquisition and transfer); refrain from growth controls, inclusionary zoning, rent control; Oosterwold. A positive-freedom variant: the capability approach (Sen, Nussbaum).",
+  "Congruence: internal = do the materials within one conception fit (e.g. utility + individual rights don't)? External = do conceptions fit each other? Free + Supportive can combine (primary goods can be rights; capabilities fit sufficiency). The Free City is incompatible with the goal-based Happy and Equal Cities: formal equality clashes with material equality, and 'liberty upsets patterns' (Nozick), e.g. free settlement produces clustering. 'Justice is not à la carte.'"
+ ],
+ "concepts": [
+  [
+   "Concept vs conception",
+   "The general idea of justice vs a specific version of it."
+  ],
+  [
+   "Justice literacy",
+   "Knowing the vocabulary (conceptions) and grammar (connections) of justice."
+  ],
+  [
+   "Materials of justice",
+   "Value, principle, scope, ground, basis (Dawkins 2021)."
+  ],
+  [
+   "Goal-based vs rights-based",
+   "Aims at an end-state for the collective (Happy, Equal) vs secures rights/duties (Supportive, Free)."
+  ],
+  [
+   "Happy City",
+   "Utilitarian; maximum collective utility; CBA, agglomeration."
+  ],
+  [
+   "Equal City",
+   "Egalitarian; everyone the same (relative); social mixing, redistribution."
+  ],
+  [
+   "Supportive City",
+   "Sufficientarian; everyone enough (absolute); spatial primary goods such as affordable housing."
+  ],
+  [
+   "Free City",
+   "Liberal; equal rights and freedom; refrain from intervening; Oosterwold; capabilities (positive freedom)."
+  ],
+  [
+   "Internal / external (in)congruence",
+   "Fit between materials within one conception / between conceptions."
+  ],
+  [
+   "Entitlement theory (Nozick)",
+   "A distribution is just if it came about through just acquisition and transfer."
+  ]
+ ],
+ "fig": "[SVG figure; labels: What each city looks at (5 households, bars = housing quality) | Happy · sum | maximise the total | Equal · gap | shrink the differences | Supportive · floor | - - threshold | everyone above the line | Free · rights | fair rules, any pattern | Same city, four verdicts: the conceptions can be incompatible (Buitelaar 2026).]",
+ "cap": "The criterion changes the verdict, not the data.",
+ "table": {
+  "head": [
+   "",
+   "Happy",
+   "Equal",
+   "Supportive",
+   "Free"
+  ],
+  "rows": [
+   [
+    "Philosophy",
+    "Utilitarianism",
+    "Egalitarianism",
+    "Sufficientarianism (+ prioritarianism, limitarianism)",
+    "Liberalism (negative + positive freedom)"
+   ],
+   [
+    "Value",
+    "Utility, welfare, happiness",
+    "(Equality of) outcomes or opportunities",
+    "Access to primary goods, capabilities",
+    "(Equal) rights and freedom"
+   ],
+   [
+    "Principle",
+    "Maximum collective utility",
+    "Everyone the same (relative)",
+    "Everyone enough (absolute)",
+    "Assign rights equally to all"
+   ],
+   [
+    "Ground",
+    "Majority rule",
+    "Inequality instrumentally and intrinsically wrong",
+    "Absolute poverty relevant; inequality irrelevant",
+    "Importance of the individual"
+   ],
+   [
+    "Basis",
+    "Goal-based",
+    "Goal-based",
+    "Rights/duty-based",
+    "Rights/duty-based"
+   ],
+   [
+    "Policy",
+    "Agglomeration economies, CBA",
+    "Social mixing, redistribution",
+    "Spatial primary goods (affordable housing)",
+    "Refrain from intervening; create opportunities"
+   ]
+  ]
+ },
+ "example": "Amsterdam's rule that new developments include a fixed share of social housing combines the Equal City (mixing) and the Supportive City (enough affordable homes). A Free City critic would call it a restriction of property rights; a Happy City analyst would run a CBA.",
+ "quotes": [
+  "\"justice is not a la carte\"",
+  "\"The principle is assigning rights rather than distributing outcomes.\" (on the Free City)",
+  "\"liberty upsets designed patterns\" (after Nozick 1974)"
+ ],
+ "dims": {
+  "sa": null,
+  "rt": null,
+  "de": null,
+  "us": null,
+  "mp": null,
+  "norm": "Explicitly about normative commitments: utility, equality, sufficiency, liberty."
+ },
+ "exam": "Know the Table 1 materials and which conceptions clash: Free vs Happy/Equal (external incongruence); Free + Supportive can combine.",
+ "examples": [
+  {
+   "t": "Room stress and housing ratio",
+   "d": "To set a sufficiency threshold for housing, Buitelaar cites the room stress factor (rooms available divided by rooms required, minus 1; below 0 is inadequate) and the 30% housing ratio, which he says says little without absolute income, hence the 'budget approach'. Shows that in the Supportive City the key task is defining and measuring the threshold.",
+   "src": "text",
+   "p": "pp. 358-359"
+  },
+  {
+   "t": "Redlining as an unjust rule",
+   "d": "Refusing mortgages because a home is in a marginalised neighbourhood or postcode, regardless of the applicant's borrowing capacity, is unjust from a liberal view because it breaches equal rights. Shows the Free City's rules: negative and universal (Hayek's 'negative test of universality'), removing unjust conduct rather than steering outcomes.",
+   "src": "text",
+   "p": "p. 361"
+  },
+  {
+   "t": "The buy-to-let investor",
+   "d": "An investor who legitimately buys and rents out many properties ends up owning far more than owner-occupiers; eyebrows may be raised, but for liberalism this is no injustice. Shows Nozick's entitlement theory: a distribution is just if acquisition and transfer were legitimate, whatever pattern results.",
+   "src": "text",
+   "p": "p. 361"
+  },
+  {
+   "t": "Sen's bicycle",
+   "d": "A bike is a commodity, the pleasure of riding it is utility, but what counts is the capability to ride it or choose not to; for a disabled person the bike itself is of little use. Shows the capability approach (positive freedom) and why it departs from resource-based conceptions like Rawls's primary goods.",
+   "src": "text",
+   "p": "p. 362"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Buitelaar starts from the downsides of the 'triumph of the city' (Glaeser): growing urban poverty, segregation, gentrification and housing affordability problems, and the surge in literature on The Just City since Fainstein's 2010 book (pp. 351–352). 'Just' sounds so positive that nobody would argue against it. But while there is consensus on the concept of justice, there is much less on the conception, the specific version of it (a distinction from Moroni 2020, after Rawls). He sees three problems. First, justice is often kept vague to avoid controversy (Sartori), which creates short-term, superficial consensus while conflicts stay hidden and may surface later in less productive ways. Second, justice is sometimes defined narrowly, as if only one conception existed: Fainstein presents justice as a reaction to neoliberalism, and Young's definition is also 'a conception, not the concept' (p. 352).",
+    "Third, these two problems lead to inconsistency when competing conceptions are pursued at once: “one cannot condemn gentrification and segregation on the one hand, and accept or even support the right to appropriation and free settlement on the other” (p. 352). Pursuing both in one place may produce an 'unjust city' judged by both conceptions. He stresses that not every conception clashes with every other; the point is to avoid rushing to common ground. The aim (p. 353) is to show that pursuing The Just City requires explicit choices, at the strategic city-wide and the operational site level, between competing conceptions that lead to different policies. This should improve 'justice literacy': knowing the vocabulary (the conceptions) and the grammar (how they connect). He presents four conceptions, not all possible ones, but the most dominant in public discourse and potentially the most conflicting."
+   ]
+  },
+  {
+   "h": "Premises: what a 'just city' can and cannot mean",
+   "p": [
+    "The text announces three premises but actually lists four (pp. 353–354). First, strictly speaking a city cannot be just or unjust; only the institutions within which it develops can be, meaning the formal and informal regulatory systems (Moroni 2020). Price rises, demographic growth or investment patterns still signal possible injustice; the concern or outrage they raise starts discussions about institutions. Second, 'city' means the 'target territory' where goods, duties or rights must be allocated. He therefore looks less at the city as a cause of injustice (Harvey, Marcuse), though he does not treat it as a neutral container. He focuses on three basic services: housing, jobs and transport, and on distributional justice, as distinct from procedural and recognition justice; environmental and energy justice are left aside.",
+    "Third, the city is the ethical level (where justice should be achieved), not necessarily the executive level (who brings it about). Fourth, theories of justice often concern 'background justice', the basic structure of society (Rawls); city-level decisions concern 'allocative justice', who gets what (p. 354). To compare conceptions he breaks each into five 'materials of justice' (Dawkins 2021). The value is what people want to have or have access to, such as affordable housing or nearby green space. The principle states how values are justly allocated, for example Rawls' difference principle or equal distribution. The scope is who or where the principle applies to; it could extend to future generations or non-humans, but it does not differ between the four conceptions, so it gets little attention. The ground gives the reasons (instrumental or deontological), and the basis is the ultimate focal point: pragmatic goals such as collective welfare, or securing individual rights and duties (Dworkin) (pp. 354–355)."
+   ]
+  },
+  {
+   "h": "The Happy City: maximising welfare",
+   "p": [
+    "The central value of the Happy City is utility, usually operationalised as preference satisfaction: what people value is the measure of right and wrong (p. 355). Welfare economics measures preferences by willingness to pay. In a perfect market every preference would show up in prices, and equilibrium would be a Pareto-optimal, efficient distribution (no one can be made better off without making someone worse off). The ground is that more preference satisfaction is better for the collective; the individual is subordinate to the sum or average. Markets fail, however (Pigou), especially with the public goods and externalities that make up cities and with market power. Hedonic price analysis can price externalities such as noise, flood risk, green space or heritage by comparing exposed and unexposed properties, but market failure still justifies planning.",
+    "The basis is Bentham's 'greatest happiness of the greatest number': a goal-based end-state for the urban collective, not rights for individuals or groups, and the principle is maximum collective utility (pp. 355–356). In policy this conception has the most developed evaluation method, cost-benefit analysis (CBA), used ex ante for large infrastructure and urban projects. Its urban policies promote agglomeration economies, often labelled 'neoliberal' in planning literature; Sager lists fourteen such policies, from city marketing and attracting the 'creative class' to competitive bidding. Critiques target the use of willingness to pay (some propose measuring subjective happiness instead, which is still utilitarian) and, more fundamentally, utilitarianism's neglect of skewed distributions and its disregard of individual rights and freedoms (p. 356)."
+   ]
+  },
+  {
+   "h": "The Equal City: reducing inequality",
+   "p": [
+    "Egalitarianism puts the skewness of distributions at its centre (p. 356). Economists (Piketty, Stiglitz) focus on income and capital; planners and geographers on spatial inequality and segregation (Harvey, Marcuse). What is valued directly is equality of economic and spatial outcomes; indirectly, equality of opportunity, because outcomes shape opportunities within and across generations. The principle is “the more equal, the more just” (Smith 1994, quoted p. 357), with particular attention to the top and bottom income deciles. Because it aims at a preferred end-state, material egalitarianism is goal-based; those who stress equal rights (formal equality) are instead rights-based (p. 357).",
+    "Grounds can be instrumental (inequality harms health, the economy, or individuals through negative neighbourhood effects of segregation) or intrinsic (inequality is unjust in itself). Both are contested: sufficientarians reject the intrinsic argument, and empirical studies question effects on growth, health and neighbourhood outcomes (p. 357). Policies include progressive taxes and subsidies and, spatially, social mixing or remixing to spread groups more evenly across the city. Buitelaar notes that targeting neighbourhoods and groups this way can cause displacement and stigmatisation of both people and places (Uitermark et al.)."
+   ]
+  },
+  {
+   "h": "The Supportive City: enough for everyone",
+   "p": [
+    "Sufficientarians object to equality as a goal (pp. 357–358). Sen notes that a lower standard of living proves inequality but not poverty unless we know the actual standard. Put sharply: two people can be equal but poor, or very unequal but rich, and most prefer the latter. The Supportive City therefore targets absolute, not relative, poverty: everyone should have enough. Frankfurt puts it: “what is important from the point of view of morality is not that everyone should have the same but that each should have enough” (quoted p. 358). Enough of what? Rawls' 'social primary goods', basic goods everyone should have access to. Because it cares about the minimum and not the pattern above it, this conception is rights-based. Moroni's 'spatial primary goods' are adequate and affordable housing, accessibility to jobs, proximity to greenery and a safe living environment, a list open to political adjustment.",
+    "Policy centres on setting and measuring the threshold (pp. 358–359). For housing adequacy, the 'room stress factor' divides rooms available by rooms required, minus 1; below 0 a household is inadequately housed (Jonkman). For affordability, the housing ratio (housing costs as a share of income, usually 30% maximum) is simple but says little about payment risk; a 'budget approach' checks whether income minus housing costs covers a basic household budget. In transport, 'transport poverty' combines accessibility and affordability, again requiring a threshold. Two variants refine the doctrine (pp. 359–360). Prioritarianism gives priority to those furthest below the threshold (Crisp's compassion principle) rather than lifting those just below it. Limitarianism adds a ceiling: Robeyns argues, instrumentally, that great wealth becomes political power and that resources are needed for global poverty and climate change; Raworth's doughnut is a version."
+   ]
+  },
+  {
+   "h": "The Free City: rights, rules and spontaneous order",
+   "p": [
+    "The first three conceptions, especially the Happy and Equal Cities, aim at a desired material order. The Free City instead judges the institutional framework, whatever order results (p. 360). Moroni: the good city can be defined “only in terms of the rightness of the framework of rules within which the city itself will emerge and function”. Values are fundamental freedoms and equal rights; it is rights-based, and “The principle is assigning rights rather than distributing outcomes” (p. 360). This is liberalism (Hayek, Nozick, earlier Locke and Smith). Buitelaar's football analogy: a result can never be unfair, only specific actions such as a serious foul or a wrongly disallowed goal. Hayek distinguishes spontaneous order (cosmos, self-organised by free individuals without a final image) from designed order (taxis), and holds that complex systems like cities can only come to order spontaneously (p. 360).",
+    "Distributive or social justice then loses relevance, because it assumes a designer responsible for the distribution; justice applies only to individual behaviour (pp. 360–361). Just rules must pass Hayek's 'negative test of universality': general, about interaction between individuals, and negative, forbidding unjust behaviour rather than enforcing 'fair' outcomes; a ban on redlining (refusing mortgages by postcode) is an example. Nozick's entitlement theory judges acquisition and transfer: exchange, gifts, purchase and inheritance are legitimate; theft, discrimination, violence and fraud are not. A buy-to-let investor who legitimately owns many homes may raise eyebrows but is not, for liberalism, a sign of injustice (p. 361). Policy examples: premodern cities as spontaneous orders (Cozzolino 2020); refraining from growth controls, inclusionary housing and rent control; and Almere Oosterwold, where households bought public land and handle design, land preparation, roads, green space and sewerage under a limited set of general rules (pp. 361–362).",
+    "Buitelaar adds a positive-freedom variant (p. 362). Classical liberals defend negative freedom (freedom from interference); positive freedom is being one's own master (Berlin). The capability approach (Sen, Nussbaum) asks “what are people actually able to do and to be?”. Sen's bike example separates the commodity (the bike), its characteristics (it can transport someone), the capability (being able to ride it) and utility (the pleasure of riding). A bike is useless to someone who cannot ride it, and utility only measures a mental reaction; what counts is the real option to ride or not. Primary goods remain a necessary condition, but this departs from Rawls. Capabilities have gained a following in urban and housing research (Basta, Janssen, Kimhur)."
+   ]
+  },
+  {
+   "h": "Congruence: why justice is not à la carte",
+   "p": [
+    "Table 1 (p. 364) sets out the four cities along philosophy, the materials of justice and example policies. One might be tempted to mix materials freely, but not every combination works (pp. 362–363). Internal congruence concerns the fit between materials within one conception; external congruence the fit between conceptions. Some mixing is possible: the Free City's rights-based approach fits the Supportive City's primary goods, since primary goods can be institutional rights and freedoms (they are in Rawls' list), and capabilities fit sufficiency because they have an absolutist core. Other combinations are 'at odds with each other, or even impossible, or nonsensical': individual rights clash with the utilitarian principle of collective welfare, and preference satisfaction is hard to combine with a sufficiency threshold (p. 363).",
+    "Externally, the Free City is incompatible with the two goal-based conceptions, the Happy and Equal Cities, for two reasons (p. 363): formal equality conflicts with material equality, and liberty upsets predetermined patterns such as efficient or equal distributions. Because of differences in human capital and labour, equal rights inevitably produce unequal incomes and wealth. Redistribution implies reducing the rights of those whose money is taken, which is formal inequality (Nozick). The same holds for segregation: correcting it requires limiting some people's freedom to settle, move and trade homes. Grant people liberty and patterns such as equality or Pareto efficiency are unlikely: “liberty upsets designed patterns” (p. 364). People tend to cluster with people like themselves: 'birds of a feather flock together' (p. 365)."
+   ]
+  },
+  {
+   "h": "Evidence and method",
+   "p": [
+    "This is a conceptual, philosophical article, not an empirical study. Buitelaar builds four ideal types from political and economic philosophy and decomposes each with Dawkins' materials of justice, then tests their compatibility by logical argument. The evidence consists of illustrations: measures of housing adequacy and affordability (room stress, housing ratio, budget approach), transport poverty, social mixing policies, the redlining example and Almere Oosterwold. Where empirical research appears, it is cited to show that claims inside a conception are contested, for instance meta-studies questioning the effects of inequality on growth or health and the evidence on neighbourhood effects (p. 357)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Nearly everyone supports The Just City, but that is where the work begins (p. 365). Practice often builds justice into policy intuitively and implicitly (Weghorst et al. 2025); the four archetypes offer a vocabulary that can make justification more explicit and systematic, give words to intuitions and reveal blind spots. Yet “justice is not a la carte” (p. 365): literacy includes grammar. Elements cannot be swapped freely (internal incongruence), and conceptions that each look sympathetic may not go together (external incongruence). This requires being explicit, making choices and possibly entering into conflict over values. His closing line: “we must realize that politics is divisive by definition – so should be The Just City!” (p. 365). The limitations he admits are scope choices: the four conceptions are not exhaustive, the focus is distributional justice for housing, jobs and transport, and the city is treated as the ethical rather than executive level."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis. Buitelaar's article is the course's main tool for the fourth dimension, normative commitments; the first lecture used it with the Metropolis case, where each city points to a different plan. The Free City explicitly draws on Hayek (week 2) and Cozzolino's Oosterwold, so reading these together shows a consistent liberal line: rules rather than end-states, and emergent rather than deliberate order. The Equal City echoes the material equality the HC4 lecture attributes to Marx, though Marx's own text is about abolishing private property rather than a distributive principle, so treat that as a link, not an equivalence.",
+    "On the other dimensions, Buitelaar's premise that only institutions can be just is an institutionalist view: outcomes are produced by actors within rule systems. The goal-based conceptions imply deliberate patterning of outcomes by planners; the Free City accepts whatever emerges from just rules. For the commentary exam, the article gives two practical questions to ask of any text: which conception of justice does the author assume, often without naming it, and are the materials and goals they combine internally and externally congruent? The article also shows that 'being for justice' is not yet a position."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Wet betaalbare huur caps mid-rents",
+  "d": "The Wet betaalbare huur took effect on 1 July 2024 and extends rent regulation to the middle segment: homes up to 186 points in the housing valuation system (WWS) get a maximum rent of 1,157.95 euros per month. The government expects about 300,000 homes to see rents fall by on average 190 euros a month, with 113,000 homes returning to the affordable segment. Minister De Jonge justified it by saying rents rising explosively through scarcity are unaffordable for many people on ordinary incomes.",
+  "why": "Read through Buitelaar, this is a Supportive City policy: a sufficientarian threshold (a home of a given quality should cost no more than X) protecting people on middle incomes, rather than equalising outcomes (Equal City). A Free City critic would call the cap a restriction of the property rights of legitimately acquiring landlords (Nozick's entitlement theory), and a Happy City analyst would ask whether lost supply outweighs the rent gains: the conceptions clash (external incongruence). Limit: the law also contains Equal City and efficiency reasoning, so it is a mix rather than a pure case of one conception.",
+  "src": {
+   "name": "Rijksoverheid",
+   "title": "Wet betaalbare huur aangenomen en van kracht vanaf 1 juli",
+   "url": "https://www.rijksoverheid.nl/actueel/nieuws/2024/06/25/wet-betaalbare-huur-aangenomen-en-van-kracht-vanaf-1-juli",
+   "date": "2024-06-25"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Supportive City threshold: the room stress factor",
+    "svg": "[SVG figure; labels: Room stress = (rooms available ÷ rooms required) − 1 | household size and composition vs dwelling size in rooms | below 0: inadequately housed | 0 or above: adequate | 0 = threshold | fewer rooms than required | at least the rooms required | The Supportive City's key task: set and measure the line everyone must be above.]",
+    "cap": "Jonkman (2019), Distributive justice of housing in Amsterdam, as shown in HC1 (example 1 for the Supportive City).",
+    "slide": "HC1 slide 32"
+   },
+   {
+    "title": "Supportive City threshold for green: the 3–30–300 rule",
+    "svg": "[SVG figure; labels: Three minimum standards for everyday access to green | large trees visible | from your workplace | or home | 30% | tree canopy cover | in your neighbourhood | 300 m | living 300 metres from | a publicly accessible | green space | An absolute 'enough' (sufficiency), not an equal share: proximity to greenery as a spatial primary good.]",
+    "cap": "Recreated from the 3–30–300 infographic in HC1 (shown with an EU logo) in the Supportive City section; the bottom line links it to Buitelaar's sufficiency logic.",
+    "slide": "HC1 slide 34"
+   },
+   {
+    "title": "Free City policy: framework rules and step-by-step growth",
+    "svg": "[SVG figure; labels: Step 1 | Step 2 | Step 3 | Step 4 | amber = unit added in that step; no end-state is drawn in advance, the whole grows piece by piece]",
+    "cap": "Schematic after the 'framework rules' slide (Rauws & De Roo 2016, Dutch organic development): a structure grows in four steps on its plot. The slide shows no rule text; read it as rules framing additions rather than a blueprint.",
+    "slide": "HC1 slide 38"
+   }
+  ],
+  "tables": [],
+  "points": [
+   {
+    "t": "Room stress: the slide's definition",
+    "d": "“Adequacy was operationalized in terms of room stress measuring the relation between the household composition and size and the dwelling size in terms of numbers of rooms.” The factor “divides the number of rooms available by the number of rooms required (and reduces the result by 1)”; below 0 (the threshold) a household is not adequately housed (Jonkman 2019, UvA thesis).",
+    "slide": "HC1 slide 32"
+   },
+   {
+    "t": "Supportive City example 2: Vienna and social housing",
+    "d": "The lecture's second Supportive City example is Vienna's social housing (photo of a large social-housing block), again citing Jonkman (2019), Distributive justice of housing in Amsterdam.",
+    "slide": "HC1 slide 33"
+   },
+   {
+    "t": "Free City example 1: Houston",
+    "d": "The first Free City example is Houston (photo: a residential tower next to low-rise houses), with Buitelaar (2009) 'Zoning, more than just a tool: Explaining Houston's regulatory practice' (European Planning Studies 17(7)) and Gray & McBirney (2020) 'Liberalizing Land Use Regulations: The Case of Houston'. Houston is known for having no zoning ordinance (general knowledge, not stated on the slide).",
+    "slide": "HC1 slide 36"
+   },
+   {
+    "t": "Free City example 2: Almere Oosterwold (source)",
+    "d": "The lecture's Oosterwold example (aerial photo of self-built homes) cites Rauws & De Roo (2016), 'Adaptive planning: Generating conditions for urban adaptability. Lessons from Dutch organic development strategies', Environment and Planning B 43(6), 1052–1074, which also supplies the framework-rules diagram.",
+    "slide": "HC1 slides 37–38"
+   },
+   {
+    "t": "Citation year on the slides",
+    "d": "The lecture cites the article as Buitelaar (2025) (“few people would oppose the idea of a just city”, but on distributional aspects “people may disagree what this 'just city' would look like”), shown next to Fainstein's book The Just City. This site uses the 2026 journal issue.",
+    "slide": "HC1 slide 27"
+   }
+  ]
+ }
+}

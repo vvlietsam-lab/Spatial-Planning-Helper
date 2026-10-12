@@ -1,0 +1,336 @@
+{
+ "id": "p5",
+ "n": 5,
+ "theme": 2,
+ "title": "Fight, flight or freeze? Governing Moerdijk",
+ "who": "Patrick Witte",
+ "slides": true,
+ "lecture": [
+  "Moerdijk: a village next to a major port. 2011 Chemie-Pack chemical fire; 2013 port development strategy ('Port Vision 2030' → compensation planning, the 'Moerdijk regulation'; Committee Nijpels investments of €10m + €8m); 2025 renewed debate on the village's future (PowerPort, energy transition).",
+  "Spatial externalities of port regionalisation: villages vs 'the greater good'. Three governance approaches: Fight (village stays: Pernis, Rozenburg, Heijplaat; Doel?, Ruigoord?), Freeze (village disappears: Weiwerd, Oterdum & Heveskes (Delfzijl); Nieuwesluis & Blankenburg (Rotterdam); Lillo, Oorderen, Oosterweel & Wilmarsdonk (Antwerp); Lützerath), Flight (village goes, i.e. relocates: Kiruna, Immerath).",
+  "Discussion: why is Moerdijk strategic? NIMBY or more at stake? Who takes the initiative and decides? What is a just outcome: stay, move, compensation? The same mandatory reading as lecture 4 applies (more claims than land)."
+ ],
+ "man": {
+  "cite": "Same mandatory reading as lecture 4: Witte et al. (2025).",
+  "status": "full",
+  "one": "Applies 'more claims than land' to a village-scale conflict between port growth, the energy transition and residents.",
+  "summary": [],
+  "concepts": [
+   [
+    "Fight / flight / freeze",
+    "Village stays / relocates / is left to decline."
+   ],
+   [
+    "Compensation planning",
+    "Mitigating harm to residents instead of preventing it."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "Chemie-Pack to 'Moerdijk regulation'",
+    "d": "After the 2011 Chemie-Pack chemical fire, Moerdijk moved from strategic planning (Port Vision 2030) to compensation planning (the 'Moerdijk regulation'), with investments of €10 million plus €8 million following the Committee Nijpels. It shows compensation planning: mitigating harm to residents rather than preventing the conflict between port and village.",
+    "src": "slides"
+   },
+   {
+    "t": "The village that stayed after all",
+    "d": "The slides link a news item on Moerdijk making way for industry and a later one titled 'the village that stayed after all', followed by renewed debate in 2025 on the village's future under PowerPort and the energy transition. It shows that fight, flight or freeze is not a one-off decision: new land claims from the energy transition can reopen it.",
+    "src": "slides"
+   },
+   {
+    "t": "Pernis, Rozenburg, Heijplaat: fight",
+    "d": "Witte lists these Rotterdam villages as 'fight' cases where the village stays while the port grows around it, with Doel (Antwerp) and Ruigoord (Amsterdam) marked with a question mark. They show that a village surviving inside a port region is possible, but its future stays contested.",
+    "src": "slides"
+   },
+   {
+    "t": "Delfzijl villages that gave way",
+    "d": "Weiwerd, Oterdum and Heveskes near Delfzijl are classed on the slides under 'freeze' (the village disappears), alongside Nieuwesluis and Blankenburg (Rotterdam) and the Antwerp port villages. They are the counterpoint to 'fight': the 'greater good' of port and industrial development won over the village. 'Flight' (the village relocates) is reserved for Kiruna and Immerath.",
+    "src": "slides"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What this summary covers and why",
+    "p": [
+     "Lecture 5 has no reading of its own: its mandatory text is the same article as lecture 4 (Witte, Wiegmans and Louw 2025, 'More claims than land'), which is summarised in full under lecture 4. So this extended summary does something different: it walks you through the lecture 5 slides by Patrick Witte, 'Fight, flight or freeze? Governing the future of Moerdijk'. Everything in the sections below comes from those slides; where the slides only show a picture, a year or a web link, I say so rather than fill in details. My own interpretation and the links to the article and other lectures are kept for the final section.",
+     "The lecture follows six steps, as its agenda slide shows: an introduction to the case of Moerdijk; the background of a port accident and a port vision; the current situation with 'PowerPort' and the energy transition; an international comparison framed as 'village vs. ‘the greater good’'; three governance approaches (fight, flight or freeze); and a discussion on the future of the village. The central puzzle is simple to state and hard to solve: what should happen to a small village that lies next to a strategically important and growing port?"
+    ]
+   },
+   {
+    "h": "The case: a village and a port",
+    "p": [
+     "Moerdijk is a village that sits next to the port and industrial area of the same name. The introduction and background slides present a timeline marked 1660, 1887, 1944, 1968–1999 and 2011. In the text version of the slides these years appear without captions, so their exact content cannot be checked here. What the timeline does signal is that the story of village and port goes back centuries, with a long period marked 1968–1999 before the 2011 accident.",
+     "The slide titled 'Moerdijk: port and city in conflict?' then lists four moments. In 2011 there was a chemical accident at the company Chemie-Pack. In 2013 a port development strategy for Moerdijk followed. In 2017 a documentary appeared with the title 'from panic to perspective'. And in 2025 'new discussions on the future of the village' started. The sequence already tells a story: a disaster puts the co-existence of village and port on the agenda, planners respond with a strategy, and more than a decade later the question returns."
+    ]
+   },
+   {
+    "h": "Can port and village co-exist? From strategy to compensation",
+    "p": [
+     "The next slide asks 'Moerdijk: can port and city co-exist?' and contrasts two planning stances. A pro-active stance means 'positive zoning of industrial activity': deliberately designating where industry may go. A reactive stance means 'isolated waterfront development': dealing with the edge between village and port piece by piece. The key line on this slide is the shift 'From strategic planning (‘Port Vision 2030’) to compensation planning (‘Moerdijk regulation’)'.",
+     "The difference matters. Strategic planning sets out a long-term vision for how the port area should develop. Compensation planning accepts that the port will develop and instead arranges measures to offset harm to residents: in this case a specific 'Moerdijk regulation'. The slide adds that investments followed the advice of the 'Committee Nijpels': 10 million plus 8 million (euros). In other words, the governance response to the conflict was partly financial and remedial rather than a choice about where the village or the port should be.",
+     "The slide links to three news items whose web addresses indicate their themes: a NOS video asking whether Moerdijk gives way to industry ('wijkt Moerdijk voor industrie'), a Binnenlands Bestuur piece on 'the village that stayed after all' ('het dorp dat dus toch maar bleef'), and a regional news item about trees in a green buffer zone in Klundert being cut, with residents complaining about noise. Together they sketch a village that was expected to make way, did not, and still lives with the port's nuisances."
+    ]
+   },
+   {
+    "h": "The current situation: PowerPort and the energy transition",
+    "p": [
+     "The third part of the lecture is titled 'Current situation: PowerPort + energy transition', with slides marked 2025 and 2026. In the text version these slides contain only the years, so the specific plans cannot be read from them. The heading itself makes the point, though: the port's future is now tied to the energy transition, and a new wave of port development under the name 'PowerPort' puts renewed pressure on the space around the village. This is why the question of the village's future came back in 2025, as the timeline slide says. Notice how the drivers have changed. In 2011 the issue was safety after a chemical fire; in 2025 it is the land needed for energy infrastructure and new industry. The same small area is being asked to serve different 'greater goods' over time, which is exactly the tension the lecture's next part generalises."
+    ]
+   },
+   {
+    "h": "Village versus 'the greater good': an international comparison",
+    "p": [
+     "The fourth part widens the lens under the title 'village vs. ‘the greater good’'. The slide 'Spatial externalities of port regionalization' shows images for 1968, 1998, 2014 and 2022, plus two videos. 'Port regionalisation' refers to ports expanding beyond their original harbour into a wider region, and 'spatial externalities' are the side effects that this growth imposes on the surrounding area and people who do not share in its benefits. The images themselves are not in the text version, so only the time span (more than half a century) can be read. The framing 'the greater good' is important. Port expansion and energy infrastructure are justified by national or regional interests: jobs, energy supply, economic competitiveness. Small villages bear the local costs. The lecture places Moerdijk in a set of European cases where this clash has already been played out, which leads into the three governance approaches."
+    ]
+   },
+   {
+    "h": "Fight, flight or freeze: three governance approaches",
+    "p": [
+     "The core slide compares three approaches, each defined by what happens to the village: 'Fight' (village stays), 'Freeze' (village disappears) and 'Flight' (village goes). Read literally, the labels mean: in fight, the village holds its ground and port and village must co-exist; in freeze, the village is not moved but is left in limbo, so that over time it empties and disappears; in flight, the village as a whole is relocated or removed to make way.",
+     "The slide lists example villages from the Netherlands, Belgium, Germany and Sweden. In the text version of this slide the table is garbled, so not every village can be placed reliably in a column. What can be read clearly is that Pernis, Rozenburg and Heijplaat (Rotterdam) are the first examples under 'Fight', and that Kiruna (Sweden) appears under 'Flight'. The slide also mentions Doel (Antwerp) and Ruigoord (Amsterdam), both with a question mark, plus Weiwerd, Oterdum and Heveskes (Delfzijl), Nieuwesluis and Blankenburg (Rotterdam), Lillo, Oorderen, Oosterweel and Wilmarsdonk (Antwerp), and Immerath and Lützerath (Garzweiler, Germany). Check the original slide for which column each belongs to."
+    ]
+   },
+   {
+    "h": "Discussion: what would be a just outcome?",
+    "p": [
+     "The lecture closes with three sets of discussion questions. First: why is Moerdijk such a strategic location, and are there many other locations like it? Second: is this a typical case of NIMBYism (residents saying 'not in my back yard'), or is there more at stake? And who should take the initiative and make the final decision? Third: what would be a 'just' outcome? Should the village stay? Should people be financially compensated?",
+     "These questions are open on purpose. They push you to weigh the port's strategic value against residents' rights, to ask which level of government should lead, and to consider whether money can make up for the loss of a place. Lecture 4's slides already announced Moerdijk as an example of 'unclear strategies of different levels of government', to be discussed in this lecture, which suggests that the question of who decides is central to the case."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not the lecturer's claims. Moerdijk is the 'more claims than land' argument of Witte et al. (2025) at village scale. The article's three levels fit: the port region (port regionalisation), the port-city interface (village next to the port) and the local edge (buffer zones, noise). Its dimensions fit too: safety and external risk after 2011, energy transition space in 2025, and the social question of residents. And its multi-actor facet explains the 'who decides' question: the port authority, the municipality, the province and the national government all have stakes, and lecture 4's instruments (zoning, pre-emption, expropriation, project decisions by higher governments) are the tools that could turn fight, freeze or flight into policy.",
+     "In Campbell's terms (lecture 3), Moerdijk sits on the property and development conflicts: port growth versus residents' homes, and energy transition versus local equity. Compensation planning resembles his idea of negotiated trade-offs, while Næss (lecture 1) would ask whether a sustainability goal justifies overriding a minority, recalling his warning about 'majority tyranny'. De Satgé and Watson (lecture 6) offer another lens: the port's techno-economic rationality and villagers' attachment to place can be read as conflicting rationalities meeting at an 'interface'. On the course dimensions, the case is situated and pluralist. The typology also shows that the outcome is a governance choice even when it looks like the natural result of port growth: freeze in particular reads as the result of indecision rather than a formal decision, so no one decides that the village should go, yet it slowly does. That makes it a clear example of an emergent rather than deliberately planned outcome."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Moerdijk: demolition, then 'maybe it stays'",
+   "d": "In November 2025 the village of Moerdijk was told it would have to make way for energy and industry projects; in May 2026 the municipality said the village of about 1,300 residents might remain after all, because the national government was reconsidering its land needs. Residents' representative Pim Meijer called it a relief but said many feel 'first see, then believe', and some residents have already left; an alderman said constantly changing messages hit residents hard.",
+   "why": "Read through the fight/flight/freeze typology, this is freeze in practice: no clear choice between staying (fight) and relocation (flight), so uncertainty itself slowly hollows the village out as people leave. It also shows how 'more claims than land' from the energy transition can reopen a settlement's future at short notice. Limit: a final decision was still pending when this was reported, so the case could still end as fight or flight.",
+   "src": {
+    "name": "NOS",
+    "title": "Gemeente Moerdijk: 'Dorp kan misschien toch blijven bestaan'",
+    "url": "https://nos.nl/l/2615247",
+    "date": "2026-05-21"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Moerdijk village | next to a growing port | 2011 fire · PowerPort | local residents | 'the greater good' | FIGHT | village stays | FREEZE | village disappears | FLIGHT | village goes | Who decides? What is just: stay, move, compensate? | lecture 5 slides (Witte), applied to Moerdijk]",
+ "cap": "The three governance approaches from the lecture 5 slides: the village stays (fight), slowly disappears (freeze) or is relocated (flight).",
+ "rec": [],
+ "exam": "A good case for essays combining Campbell's triangle (economy vs equity vs environment) with justice (who bears the costs of the 'greater good').",
+ "table": {
+  "head": [
+   "Moment (from the slides)",
+   "What happened",
+   "Planning meaning"
+  ],
+  "rows": [
+   [
+    "2011",
+    "Chemical accident at Chemie-Pack",
+    "Safety risk puts co-existence of village and port on the agenda"
+   ],
+   [
+    "2013",
+    "Port development strategy Moerdijk; 'Port Vision 2030'",
+    "Strategic planning: a long-term vision for the port"
+   ],
+   [
+    "After the strategy",
+    "'Moerdijk regulation'; investments after Committee Nijpels (10 + 8 million)",
+    "Shift to compensation planning: offsetting harm rather than choosing where functions go"
+   ],
+   [
+    "2017",
+    "Documentary 'from panic to perspective'",
+    "Reflection on how the crisis was handled"
+   ],
+   [
+    "2025–2026",
+    "New discussions on the village's future; PowerPort and the energy transition",
+    "New 'greater good' claims on the same scarce space"
+   ]
+  ]
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Moerdijk: a village inside the search area for industry",
+    "svg": "[SVG figure; labels: Hollands Diep (river) | existing port + | industrial area | Moerdijk | village | search area for | industry expansion | distribution | site | potential expansion area | (municipal map) | A16 | A17]",
+    "cap": "Schematic, not to scale, after the municipal map (slide 7) and the Trouw map (slide 27). The village sits inside the dashed 'zoekgebied uitbreiding industrie' (search area for industrial expansion), squeezed between the river, the existing port-industrial area, a planned distribution site and the A16. Slide 27 also shows an environmental contour map with the village circled.",
+    "slide": "L5 slides 7, 27"
+   },
+   {
+    "title": "Moerdijk's timeline, 1660–2026",
+    "svg": "[SVG figure; labels: pictures only on the slides (14–17) | events named on the slides | 1660 | 1887 | 1944 | 1968–99 | 2011 | 2013 | 2017 | 2025 | 2026 | harbour | scene | river | painting | bridges | destroyed | port | growth | Chemie-Pack | fire | port | strategy | documentary | 'panic to | perspective' | plan: village | must go | decision | postponed | from a river-crossing village to a site claimed for port, industry and energy]",
+    "cap": "Slides 14–18 show only a year and an image (a 1660 harbour print, an 1887 river painting, a collapsed bridge in 1944, containers for 1968–1999, the 2011 fire); the labels describe those images. The later events come from slide 19 and the news slides 33–34.",
+    "slide": "L5 slides 14–19, 33–34"
+   },
+   {
+    "title": "'Freeze': a village fading out next to industry",
+    "svg": "[SVG figure; labels: industry | 1968 | 1998 | 2014 | 2022 | compact village | farms round church | green traces | outline by industry | no decision to demolish, yet the village slowly disappears]",
+    "cap": "Schematic of the four aerial photos on slides 41–44 (1968, 1998, 2014, 2022), shown under 'spatial externalities of port regionalization' with a linked Ons Erfdeel video. The slides do not caption which village it is; what they show is the 'freeze' pattern: buildings vanish until only the street pattern and a few farms remain beside an industrial site.",
+    "slide": "L5 slides 41–44"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Fight, freeze or flight: the villages as placed on the slide",
+    "head": [
+     "'Fight' (village stays)",
+     "'Freeze' (village disappears)",
+     "'Flight' (village goes)"
+    ],
+    "rows": [
+     [
+      "Pernis, Rozenburg & Heijplaat (Rotterdam, NL)",
+      "Weiwerd, Oterdum & Heveskes (Delfzijl, NL)",
+      "Kiruna (Kiruna, SWE)"
+     ],
+     [
+      "Doel (Antwerp, BE)?",
+      "Nieuwesluis & Blankenburg (Rotterdam, NL)",
+      "Immerath (Garzweiler, GER)"
+     ],
+     [
+      "Ruigoord (Amsterdam, NL)?",
+      "Lillo, Oorderen, Oosterweel & Wilmarsdonk (Antwerp, BE)",
+      "–"
+     ],
+     [
+      "–",
+      "Lützerath (Garzweiler, GER)",
+      "–"
+     ]
+    ],
+    "slide": "L5 slide 53"
+   },
+   {
+    "title": "Moerdijk in the news, 2025–2026 (headlines translated from Dutch)",
+    "head": [
+     "Date",
+     "Headline",
+     "What the slide adds"
+    ],
+    "rows": [
+     [
+      "18 Jun 2025",
+      "Considerable demand for space in the Powerport region Moerdijk (national government)",
+      "About 700 ha must be found in Geertruidenberg, Drimmelen and Moerdijk for the energy transition and business growth: energy infrastructure, cable routes through farmland, port and industry growth. Liveability is under pressure, so 'a just and humane approach' is needed; residents, the port authority, industry and farmers get a role in participation."
+     ],
+     [
+      "11–12 Nov 2025",
+      "Municipality wants to abolish the village of Moerdijk: 'Asking an enormous sacrifice'; 'Moerdijk must disappear, residents shocked'",
+      "The municipality wants to use the area to expand the port; the roughly 1,100 residents find the plan incomprehensible. A resident (72) born in the village: 'Mother is buried here in the churchyard'."
+     ],
+     [
+      "12 Nov 2025",
+      "Plan to abolish Moerdijk raises questions: 'Remarkable timing' (Omroep Brabant)",
+      "–"
+     ],
+     [
+      "13 Nov 2025",
+      "Held-back tears and promises of 'generous compensation' for Moerdijk",
+      "The village probably has to make way for a new 380 kV high-voltage substation."
+     ],
+     [
+      "14 Nov 2025",
+      "Abolishing Moerdijk is up to the new cabinet; 'preferred direction' follows in December",
+      "The caretaker cabinet will not decide on the large, drastic and costly plan."
+     ],
+     [
+      "19 Nov 2025",
+      "Moerdijk municipal council agrees with the village disappearing",
+      "After investigating alternatives for years, the municipality concludes the village must go to make room for project Powerport."
+     ],
+     [
+      "28 Nov 2025",
+      "Province of Noord-Brabant wants more research before deciding on Moerdijk",
+      "Talks with the national government follow."
+     ],
+     [
+      "1 Dec 2025",
+      "Decision on the disappearance of Moerdijk postponed by half a year",
+      "–"
+     ],
+     [
+      "20 Dec 2025",
+      "Moerdijk residents want more compensation for the disappearing village",
+      "Not the promised 100% compensation for homeowners, but up to 350% (EenVandaag)."
+     ],
+     [
+      "1 May 2026",
+      "State knew for months that Moerdijk had to go; municipality wants talks",
+      "Omroep Brabant revealed the national government had concluded in March of the previous year that the village had to make way for industry."
+     ],
+     [
+      "21 May 2026",
+      "Municipality of Moerdijk: 'Village may be able to stay after all'",
+      "Alderman Danny Dingemans: constantly changing messages are drastic for residents, who want clarity, certainty and perspective."
+     ],
+     [
+      "4 Jun 2026",
+      "Again postponement of decision on Moerdijk's survival",
+      "The aim was to remove the village for new energy projects, but the previous month it emerged it might stay."
+     ],
+     [
+      "25 Jun 2026",
+      "Politicians want to win back Moerdijk residents' trust; village's future still uncertain",
+      "Residents may have to make way for industry and energy projects, but the interests are still being weighed."
+     ]
+    ],
+    "slide": "L5 slides 11, 23–24, 26, 29–30, 33–34"
+   }
+  ],
+  "points": [
+   {
+    "t": "Correction: freeze is not flight",
+    "d": "On the slide's own table, Weiwerd, Oterdum and Heveskes (Delfzijl) sit under 'Freeze (village disappears)', together with Nieuwesluis, Blankenburg, the Antwerp villages and Lützerath. 'Flight (village goes)' holds only Kiruna and Immerath. Read flight as the village being moved as a whole, and freeze as a village left to disappear.",
+    "slide": "L5 slide 53"
+   },
+   {
+    "t": "What each approach looks like",
+    "d": "The illustration slides make the labels concrete: 'Fight' shows Rotterdam's port map with villages like Pernis and Heijplaat surrounded by port activity; 'Flight' shows Kiruna, where a whole house is moved on a truck, with a church and a cleared site; 'Freeze' shows old postcards ('Greetings from Oterdum / Heveskes / Weiwerd') of villages that no longer exist.",
+    "slide": "L5 slides 50–52"
+   },
+   {
+    "t": "2023: 'the village that stayed after all'",
+    "d": "Binnenlands Bestuur (31 July 2023): 'It seemed a matter of time before the village of Moerdijk would disappear. Now the village dreams of a new harbour with an attractive terrace.' Two years later the plan to remove the village returned.",
+    "slide": "L5 slide 21"
+   },
+   {
+    "t": "Spatial externalities beyond one village",
+    "d": "Under 'Spatial externalities of port regionalization' the slides show a ship capsized on a river, a devastated port after an explosion (an AFP photo with grain silos, as in Beirut 2020) and the Ever Given container ship blocking the Suez Canal (2021), then a satellite view of the Delfzijl industrial port. Port growth brings risks and dependencies that land on surrounding places.",
+    "slide": "L5 slides 37–40"
+   },
+   {
+    "t": "Ghost villages and lignite",
+    "d": "Photos of an abandoned, graffiti-covered village (bus shelter, petrol pumps, empty street) illustrate what a 'frozen' village looks like; the slides link a video but give no caption. A 2021 headline adds the German case: 'Energy transition? In Germany they plough under entire villages to mine lignite' (Lützerath, Garzweiler).",
+    "slide": "L5 slides 45–48"
+   },
+   {
+    "t": "Energy transition as the new 'greater good'",
+    "d": "Slide 27 combines a D66 billboard ('Wij halen hem weg', 'we'll take it away') in front of a power station, an environmental contour map with the village circled, and a Trouw map placing Moerdijk inside the search area for industrial expansion. Slide 28 shows the Groningen gas field with the IMG effect area and a 6 km zone, plus gas storage at Grijpskerk and Norg; the slide gives no text, so the comparison is left for discussion.",
+    "slide": "L5 slides 27–28"
+   },
+   {
+    "t": "Residents resist",
+    "d": "Fieldtrip photos from the village (the local café 'De Put', the snack bar) and a window poster: 'Red ons dorp – Moerdijk moet blijven – behoud onze geschiedenis' ('Save our village – Moerdijk must stay – preserve our history').",
+    "slide": "L5 slides 8–12"
+   },
+   {
+    "t": "The lecturer's own position",
+    "d": "Witte appeared in national media on the case (NOS 'Met het Oog op Morgen', 30 Nov 2025: 'the uncertainty around Moerdijk'; BNR). BN DeStem headlined: 'According to expert Patrick Witte (37) the plan to let Moerdijk disappear is shaky on all sides', adding he does not see why Moerdijk would no longer have a right to exist.",
+    "slide": "L5 slides 31–32, 35"
+   },
+   {
+    "t": "A live research case",
+    "d": "Utrecht's university paper DUB: 'A village must make way for the energy transition: food for researchers and students'. Examples shown: a fieldtrip reflection on sense of belonging and community (GEO-3128) and a 2026 Spatial Planning master thesis comparing the impact of industrial expansion on Moerdijk (NL) and Doel (BE), supervised by Witte.",
+    "slide": "L5 slides 55–56"
+   }
+  ]
+ }
+}

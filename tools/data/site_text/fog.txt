@@ -1,0 +1,148 @@
+{
+ "id": "fog",
+ "wk": 6,
+ "title": "Foglesong (1986/2003) Planning the capitalist city",
+ "cite": "Foglesong, R.E. (2003). Planning the capitalist city. In S. Campbell & S.S. Fainstein (eds), Readings in Planning Theory (2nd ed.), pp. 102–107. Oxford: Blackwell. Excerpt from Foglesong, R.E. (1986), Planning the Capitalist City: The Colonial Era to the 1920s. Princeton: Princeton University Press.",
+ "theory": "Marxist theory of the state / political economy",
+ "status": "missing",
+ "statusNote": "NOT on file. Everything on this page is built from general knowledge of Foglesong's argument, not from the assigned excerpt, and must be checked against the text on Brightspace (Campbell & Fainstein, pp. 102–107). No quotes and no page numbers are given. Treat specific formulations as provisional.",
+ "one": "Planning in capitalist cities is best explained as a response to contradictions of capitalist urbanisation: above all the property contradiction between the social character of urban land and its private ownership and control, and the capitalism–democracy contradiction. Planning is needed to socialise some control over land for capital's collective interest, yet it is constrained because it must not undermine private property or hand control to democratic majorities.",
+ "summary": [
+  "Problem (general knowledge; verify): mainstream planning theory treats planning as a neutral, technical pursuit of the public interest, or explains it by market failure, without asking why planning exists in capitalist societies and why it takes the limited form it does. Foglesong proposes a Marxist political-economy account that links planning to the structural needs and contradictions of capitalist urbanisation, while rejecting crude functionalism.",
+  "Property contradiction (general knowledge; verify): urban land and the built environment are social in character: their value and use depend on collective investment (infrastructure, neighbouring uses) and they serve the reproduction of labour and capital as a whole. Yet land is privately owned and controlled, and individual owners pursue their own returns, producing congestion, incompatible uses, housing crises and threats to property values. Capital collectively needs some socialisation of control over land use (via planning, zoning, public works), but individual capitalists and property owners resist it. Planning is thus both necessary for capital and restricted by it.",
+  "Capitalism–democracy contradiction (general knowledge; verify): socialising control over land means transferring decisions to the state, which in a democracy is exposed to popular pressure. The danger for capital is that democratic control over land could go further than capital wants (e.g. redistribution, public housing, limits on property rights). Planning institutions therefore tend to be insulated from democratic control (expert commissions, technical procedures, independent boards), so that planning helps capital while containing popular demands.",
+  "Theory of the state (general knowledge; verify): Foglesong positions himself within Marxist debates. Instrumentalist accounts see the state (and planning) as a tool directly controlled by capitalists; structuralist accounts stress that the state has relative autonomy and serves the long-term, collective interests of capital even against individual capitalists. Foglesong leans to a structural, contradiction-based view while leaving room for class struggle and contingency: planning outcomes are shaped by conflicts between capital fractions, property owners and working-class movements. In the 1986 book he applies this to US planning history from the colonial era to the 1920s (housing reform, City Beautiful, zoning)."
+ ],
+ "concepts": [
+  [
+   "Property contradiction",
+   "Tension between the social character of urban land (collectively produced, collectively needed) and its private ownership and control (general knowledge; verify)."
+  ],
+  [
+   "Capitalism–democracy contradiction",
+   "Socialising land-use control via the state risks democratic control going further than capital accepts; hence planning is insulated from popular pressure (general knowledge; verify)."
+  ],
+  [
+   "Social character of land",
+   "Land value and use depend on collective investments and surrounding uses, not only on the owner's actions."
+  ],
+  [
+   "Instrumentalist theory of the state",
+   "The state (planning) is a tool directly controlled by the capitalist class."
+  ],
+  [
+   "Structuralist theory / relative autonomy",
+   "The state serves capital's long-term collective interests because of structural constraints, even against individual capitalists; it has relative autonomy from specific capitalists."
+  ],
+  [
+   "Planning as contradictory response",
+   "Planning both serves capital (coordination, legitimation) and is constrained by it (property rights, fear of democratic control)."
+  ],
+  [
+   "Legitimation",
+   "Planning also helps legitimise capitalist urban development by presenting it as the public interest."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Property contradiction | social character of land | vs private ownership | and control | Capitalism–democracy | socialised control via | state risks popular | control of property | Planning | response to | contradictions | Serves capital: | coordination, | legitimation | Constrained: | property rights, | insulated from | democracy]",
+ "cap": "Foglesong: planning as a contradictory response to two contradictions of capitalist urbanisation (general knowledge; verify).",
+ "table": {
+  "head": [
+   "",
+   "Liberal/pluralist view",
+   "Instrumentalist Marxism",
+   "Structuralist / Foglesong"
+  ],
+  "rows": [
+   [
+    "Why planning exists",
+    "Public interest; market failure",
+    "Capitalists use the state as a tool",
+    "Contradictions of capitalist urbanisation"
+   ],
+   [
+    "Role of the state",
+    "Neutral arbiter among groups",
+    "Controlled by capitalist class",
+    "Relatively autonomous; serves capital's collective interest"
+   ],
+   [
+    "Limits of planning",
+    "Technical/knowledge limits",
+    "Whatever capitalists want",
+    "Property rights; fear of democratic control"
+   ],
+   [
+    "Room for agency",
+    "High (groups compete)",
+    "Low for non-capitalists",
+    "Some: class struggle shapes outcomes"
+   ]
+  ]
+ },
+ "example": "Illustration (not from the text): US zoning in the 1910s–20s restricted individual owners' freedom to protect aggregate property values, yet was run by expert commissions rather than popular bodies; both contradictions at work. Course link: in Eiranranta (Hyötyläinen & Haila) and Falck (Savini & Aalbers) the social character of land (public development rights, value capture) collides with private and financial ownership.",
+ "quotes": [],
+ "dims": {
+  "sa": 20,
+  "rt": 25,
+  "de": 40,
+  "us": 30,
+  "mp": 15,
+  "norm": "Critique of planning's claim to neutrality; exposing whose interests planning serves; implicit sympathy for democratic and working-class control over land."
+ },
+ "exam": "Commentary angle: grounded in Marxist political economy and a structuralist theory of the capitalist state (relative autonomy), with planning explained by contradictions rather than by the public interest. Best critiques: (1) liberal pluralism / communicative planning: planning outcomes reflect many competing groups and deliberation, not just capital; Foglesong risks functionalism (explaining planning by its usefulness to capital); (2) Hayek/liberal: the 'social character' of land does not justify central control; prices and property rights coordinate dispersed knowledge better; (3) public choice: planners and politicians pursue their own interests (bureau-maximising), not capital's; (4) neo-institutionalism: planning systems differ nationally (e.g. Dutch/Nordic public landownership) in ways a general theory of capitalism cannot explain. MCQ traps: the property contradiction is NOT between capital and labour but between social character of land and private ownership/control; the capitalism–democracy contradiction concerns the risk of democratic control of property; instrumentalist vs structuralist definitions swapped.",
+ "examples": [
+  {
+   "t": "Amsterdam's ground lease system",
+   "d": "Since 1896 Amsterdam has kept much of its land in municipal ownership and issued it on long-term ground lease (erfpacht) instead of selling it. A Dutch case of the property contradiction: the city treats land's value and use as socially produced and steers it publicly, while buildings and use rights remain private.",
+   "src": "similar"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the reading asks and why",
+   "p": [
+    "This extended summary is written from general knowledge of Foglesong's argument, not from the assigned excerpt, so check every point against the reading on Brightspace (Campbell and Fainstein, Readings in Planning Theory); it contains no quotes and no page numbers. Foglesong's excerpt comes from his 1986 book Planning the Capitalist City, a history of US urban planning from the colonial era to the 1920s. His starting question is why planning exists at all in capitalist societies that are built on private property and markets, and why it takes the limited form it does.",
+    "He is dissatisfied with two common answers. Mainstream accounts treat planning as a neutral, technical pursuit of the public interest, or as a correction of market failures, without asking whose interests planning serves. Some Marxist accounts, on the other hand, treat planning simply as a tool of capitalists, which cannot explain why capitalists and landowners often resisted it. Foglesong proposes a Marxist political-economy account that explains planning through the contradictions of capitalist urbanisation, while leaving room for conflict and contingency."
+   ]
+  },
+  {
+   "h": "The property contradiction",
+   "p": [
+    "The first and best-known idea is the 'property contradiction'. Urban land and the built environment have a social character: their value and usefulness depend on collective investments such as streets, sewers and transit, on what happens on neighbouring plots, and on the needs of the economy as a whole, for example housing workers and moving goods. Yet land is privately owned and controlled, and each owner pursues their own return. The result is congestion, incompatible land uses, poor housing and threats to property values that no single owner can solve.",
+    "Capital as a whole therefore needs some socialisation of control over land, through public works, zoning and planning. But the same socialisation threatens the rights and profits of individual owners and developers, who resist it. Planning is thus both necessary for capitalism and constrained by it: it can coordinate land use only as far as it does not undermine private property itself."
+   ]
+  },
+  {
+   "h": "The capitalism-democracy contradiction",
+   "p": [
+    "The second idea is a contradiction between capitalism and democracy. Socialising control over land means handing decisions to the state, and in a democracy the state is open to popular pressure. The risk for property owners and capital is that democratic control over land could go further than they want, for example towards public housing, redistribution of land values or stronger limits on property rights. Planning therefore has to be organised so that it serves capital's collective needs while containing democratic demands.",
+    "In this reading, it is no accident that early planning institutions were often insulated from direct democratic control, through expert commissions, technical procedures and independent boards. Planning appears as a managed compromise: enough public control to keep the city working for capital, not so much that it becomes a vehicle for popular redistribution. Check whether the excerpt develops this point with concrete examples."
+   ]
+  },
+  {
+   "h": "Planning as a contradictory, contested response",
+   "p": [
+    "Foglesong positions himself in Marxist debates about the state. Instrumentalist theories see the state as directly controlled by capitalists; structuralist theories stress the state's relative autonomy and its role in securing capital's long-term, collective interests, even against individual capitalists. He leans towards a structural, contradiction-based view, but insists that outcomes are shaped by struggles between fractions of capital, property owners, reformers and working-class movements. In the book he traces this through episodes such as housing reform, the City Beautiful movement and the rise of zoning.",
+    "The takeaway is that planning should be seen neither as neutral public-interest expertise nor as a simple capitalist tool, but as a contradictory response to tensions built into capitalist urbanisation, whose form reflects the balance of political forces at a given time. Check on Brightspace how much of the historical material and the state-theory discussion actually appears in the excerpt."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis. Foglesong belongs to the Marxist political-economy tradition in planning theory. On the course dimensions, he stresses structure (contradictions of capitalism) while allowing agency through class and political struggle; planning mainly reproduces capitalist relations, though conflict creates openings for change. His knowledge claim is general about capitalist cities but grounded in US history, and his normative stance is critical of planning's role in protecting property.",
+    "Links with other readings: Taylor's Melbourne landowners fighting a betterment levy illustrate the property contradiction in a concrete case, and Sorensen's Toronto struggle over who pays for growth can be read the same way, although Sorensen uses historical institutionalism rather than Marxist state theory. Moroni offers the opposite normative view, treating private property as a beneficial evolved institution rather than a source of contradiction."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Berlin's expropriation vote, slowed down",
+  "d": "In a September 2021 referendum about 60% of Berliners voted to expropriate landlords owning more than 3,000 properties. In June 2023 a 13-member expert commission found this 'compatible with the constitution' and proportionate, with compensation possibly below market value. The CDU-led government instead planned a 'framework law' delaying implementation by two years; mayor Kai Wegner: 'I still think it's the wrong way to go.'",
+  "why": "Read through Foglesong, both contradictions show. The property contradiction: housing whose value is socially produced is privately owned, and the crisis creates pressure to socialise control. The capitalism–democracy contradiction: a democratic majority went further than private property allows, and the state slowed it through procedure (a commission, a framework law) rather than open rejection. Limit: Foglesong is about land-use planning in US cities, while this is about ownership of housing stock, and the delay is also ordinary party politics.",
+  "src": {
+   "name": "The Local Germany",
+   "title": "Berlin landlords can legally be expropriated, expert panel rules",
+   "url": "https://www.thelocal.de/20230629/berlin-landlords-can-legally-be-expropriated-expert-panel-rules",
+   "date": "2023-06-29"
+  }
+ }
+}

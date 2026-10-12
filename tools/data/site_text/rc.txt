@@ -1,0 +1,338 @@
+{
+ "id": "rc",
+ "wk": 3,
+ "title": "Rational choice & self-interest (lecture) + Coase",
+ "cite": "Lecture 24 Sept (Bouwmeester): rational choice, property rights, rent-seeking, Airbnb, Coase (1960), Gurran et al. (2018)",
+ "theory": "Rational choice theory",
+ "status": "full",
+ "statusNote": "Lecture slides on file. Needham, Hindmoor and Taylor have their own cards.",
+ "one": "All actors (citizens, developers, municipalities) maximise self-interest; property rights and institutions shape their incentives. Planning faces both market failure and state failure, and can work by clarifying rights and cutting transaction costs.",
+ "summary": [
+  "Rational-comprehensive planning is an ideal standard for planning decisions (expert, value-free welfare optimisation). Rational choice theory is an analytical framework for how planning works: rational decision-making by ALL actors, market and state failure, emulating market rationality in state processes.",
+  "Public interest has no objective, universal goal; it is the aggregate of private interests (agency-focused). Land-use planning is limited: landowners have a de facto veto ('Land-use planning will only succeed if it can influence private decisions', Needham 2012, p. 24). Rent = income from owning land above the cost of production (Ricardo). Asymmetry: when planning raises land values owners keep the betterment; when it lowers them (downzoning, heritage, regulatory takings) they claim compensation. Landowner strategies (Rijnenburg, Buitelaar et al. 2025): framing ('low-hanging fruit'), collaborating (consortium), lobbying, negotiating. Swiss hypothesis: the peasant land law bars outsiders buying farmland and caps price gains, so there is no speculative expansion lobby and insiders gain from densification.",
+  "Airbnb: incentives differ (hosts, guests, neighbours, planners). Under-regulation is a collective action problem (Olson): small concentrated interests organise; large diffuse groups free-ride. Regulation (Utrecht 2018: 60 nights, guest cap, registration, fines €150–€21,750) suffers from enforcement, data, transaction costs, legal challenges and waterbed effects. Coase (1960): with clearly defined property rights and zero transaction costs, bargaining yields the efficient outcome regardless of who holds the right. Since transaction costs are never zero (information, bargaining, enforcement, holdouts, many parties), design Coasean interventions: clarify rights and cut transaction costs (tradable hosting permits, VvE negotiation, hosting tax into a neighbourhood fund, platform monitoring).",
+  "Core assumptions: self-interest maximisation (not only economic); applies to all actors; property rights/institutions shape incentives and can be deliberately changed; outcomes judged in costs and benefits; knowledge mostly positivist (models, game theory, CBA). Can explain reproduction (insiders protect interests) and transformation (deliberate redesign of rules). Critiques: over-simple human model, ignores power and inequality, too agency-focused, limiting assumptions, reverse nirvana fallacy."
+ ],
+ "concepts": [
+  [
+   "Self-interest",
+   "Actors weigh costs and benefits to pursue their own interests (not only money)."
+  ],
+  [
+   "State failure",
+   "Government also fails: rent-seeking, capture, information and incentive problems."
+  ],
+  [
+   "Externality",
+   "Effect of one actor's action on others not reflected in prices (noise, safety, housing pressure)."
+  ],
+  [
+   "Collective action problem",
+   "Individually rational free-riding leads to collectively suboptimal outcomes."
+  ],
+  [
+   "Coase theorem",
+   "Clear property rights + zero transaction costs → efficient bargaining outcome, whoever holds the right."
+  ],
+  [
+   "Transaction costs",
+   "Information, bargaining, enforcement, strategic behaviour (holdouts), many parties."
+  ],
+  [
+   "Rent / rent-seeking",
+   "Unearned income from land; efforts to capture it via the political process."
+  ],
+  [
+   "Betterment / compensation asymmetry",
+   "Owners keep planning gains but claim planning losses."
+  ],
+  [
+   "Regulatory taking",
+   "Public regulation that reduces the value of private property."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Coase: the noisy factory (quiet worth €1,000; insulation costs €700) | Right to make noise: factory | homeowner pays factory €700 | → factory insulates | insulation ✓ | Right to quiet: homeowner | compensation €1,000 &gt; €700 | → factory insulates | insulation ✓ | Same efficient outcome; only who pays whom differs. Only if transaction costs = 0.]",
+ "cap": "Coase's claim from the lecture example.",
+ "example": "Airbnb in Amsterdam: hosts form a small, concentrated, organised interest; neighbours are a large, diffuse group who free-ride, so regulation lags.",
+ "quotes": [
+  "\"Property rights can be deliberately changed in order purposefully to influence land use.\" (Needham, p. 28)",
+  "\"Landowner-led pressure on policy makers ultimately led to a set of modifications to the GAIC bill.\" (Taylor, p. 272)"
+ ],
+ "dims": {
+  "sa": 85,
+  "rt": 50,
+  "de": 25,
+  "us": 15,
+  "mp": 15,
+  "norm": "Efficiency; public interest = aggregate of individual interests."
+ },
+ "exam": "Midterm sample Q2 answers: I = False (large groups fail to organise: free riding), II = True (Olson), III = True (lower transaction costs), IV = False (no objective public interest).",
+ "examples": [
+  {
+   "t": "Coase's noisy factory",
+   "d": "Quiet is worth €1,000 to the homeowner and insulation costs the factory €700; whoever holds the right, bargaining leads to insulation and only who pays whom changes. Shows Coase's theorem, which holds only if rights are clearly defined and transaction costs are zero.",
+   "src": "slides"
+  },
+  {
+   "t": "Utrecht's short-stay rules (2018)",
+   "d": "Utrecht set a limit of 60 nights a year, a guest cap per m2, a registration number, a reporting duty and fines from €150 to €21,750. Rational choice scholars expect such one-size-fits-all rules to struggle with detection, platforms withholding data, enforcement transaction costs and waterbed effects.",
+   "src": "slides"
+  },
+  {
+   "t": "Swiss farmland law and densification",
+   "d": "Bouwmeester's hypothesis: Swiss law (BGBB) blocks farmland sales at more than 5-15 percent above agricultural value and bars non-farmers from buying farmland, so no speculative outsider lobby pushes for expansion and insider owners gain scarcity rents from inward growth. Shows property rules shaping incentives so that supporting densification becomes the rational strategy.",
+   "src": "slides"
+  },
+  {
+   "t": "Dutch planschade compensation",
+   "d": "Dutch owners can claim compensation (planschade, under the Omgevingswet 'nadeelcompensatie') when a new plan lowers their property's value, while value gains from upzoning are not taxed as such. A close case of the asymmetry on the slides: landowners keep betterment but claim planning damages.",
+   "src": "similar"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the lecture asks and why",
+   "p": [
+    "This extended summary is a walk-through of the 24 Sept lecture 'Rational choice and self-interest' by Josje Bouwmeester (slides only; there is no separate article for this entry). The lecture sits at a turning point in the course. Earlier lectures offered big, abstract lenses on knowledge and society (knowledge in planning theory, Marx and Hayek); from rational-comprehensive planning onwards, the course moves to concrete theories of how planning and decision-making work or should work. The lecture had four parts: planning at the intersection of public policy and property rights, strategic behaviour of landowners, Airbnb as a rational choice problem, and information on the midterm.",
+    "The learning objectives tell you what the lecture wants you to be able to do: explain how rational choice concepts (self-interest, externalities, collective action problems, Coase's theorem) help understand planning challenges; assess how property rights structure these dilemmas and shape actors' incentives; explain why landowners and others behave strategically, including 'rent-seeking'; and reflect on what this means for planners as mediators between individual interests and collective outcomes."
+   ]
+  },
+  {
+   "h": "Rational-comprehensive planning is not rational choice theory",
+   "p": [
+    "The first key slide separates two things that both carry the word 'rational'. Rational-comprehensive planning (the previous lecture, Rydin's governmental model) is an ideal standard for planning decisions: planning addresses market failures and optimises welfare, decision-making is objective and value-free, and it relies on expert knowledge and evidence. Rational choice theory is something else: an analytical framework for understanding how planning works. It assumes rational decision-making by all actors involved in planning, not just the planner. It looks not only at market failure but also at state failure, and it is associated with emulating the rationality of the market within state processes.",
+    "What is rationality here? Following Rydin (2020), it is decision-making in which advantages and disadvantages, costs and benefits are weighed against each other; actors are driven by their interests. Because planning is a public activity that tries to control private actions in urban development, it has to deal with rational choice in all sectors. A striking consequence concerns the public interest. In rational choice there is no objective, universal goal; the public interest is simply the aggregate result of the private interests of different actors. The slide adds: it is an agency-focused theory."
+   ]
+  },
+  {
+   "h": "Planning and property rights: the dual role of the state",
+   "p": [
+    "The lecture then brings in property rights, drawing on Needham (2012). Different actors have different interests in land. The state plays a dual role: it creates and protects private property rights, which serve owners, and it makes public policies whose target groups are often those same owners, while the end-beneficiaries may be non-owners. This limits the power of land-use planning. Owners effectively have a 'veto right': if they do not want to develop, a plan alone will not make development happen. The key quote from Needham is: 'Land-use planning will only succeed if it can influence private decisions' (Needham 2012, p. 24).",
+    "Planning can also reduce value, which the lecture calls regulatory takings: excluding land from zoning, conservation or heritage status, downzoning, or infrastructure decisions. Such 'planning damage' is often compensated. This sets up the central tension of the lecture: planning changes the value of land in both directions, and owners respond strategically to protect or capture that value. Two cases then show how these ideas work in practice: the debate between densification and urban expansion (rent-seeking) and Airbnb (Coase)."
+   ]
+  },
+  {
+   "h": "Rent-seeking and landowner strategies",
+   "p": [
+    "Landowners act rationally to capture rent, defined with Ricardo as the income from owning land or natural resources over and above the cost of production: the unearned value of land. This creates a big asymmetry that is much debated in planning. When planning raises land values through rezoning or infrastructure, landowners often keep the gain (betterment). When planning lowers values, they often claim compensation. Value capture mechanisms try to correct this. Taylor (2016) analyses the rational behaviour of two kinds of existing owners: those who want to preserve restrictions on growth, and those who try to avoid controls limiting future development. Both are rational from a rent-seeking perspective.",
+    "The local case is Rijnenburg in Utrecht. Before 2008 developers negotiated with the municipality about housing; the financial crisis made their business case unviable, and an alternative vision of Rijnenburg as an energy landscape emerged. Buitelaar et al. (2025) identify four landowner strategies: framing (the area as 'low-hanging fruit' for housing), collaborating in a consortium of developers, lobbying, and negotiating. Bouwmeester then presents a hypothesis from her own research on why densification works in Switzerland, unlike the UK and the Netherlands where limits on expansion were reversed."
+   ]
+  },
+  {
+   "h": "A rational choice hypothesis: Swiss densification",
+   "p": [
+    "Swiss property law, specifically the Peasant's Land Act (BGBB), has two relevant rules. It prohibits transfers of agricultural land at more than a 5 to 15 percent increase over an adequate agricultural price (Art. 66), and it bars non-farmers from buying agricultural land (Art. 61). The hypothesised effect follows rational choice logic. There is no, or only a limited, speculative lobby of outside developers pushing for expansion. Insider landowners, meanwhile, profit from urban scarcity rents when growth is directed inward. So their rational strategy is to support, or at least accept, densification rather than fight it.",
+    "The point for you is methodological, and the slide says it directly as a thesis tip: do not add theories as an afterthought, but use them to formulate a hypothesis about a specific relationship you could study. Rational choice is useful precisely because it produces testable expectations from assumptions about incentives and institutions. Here the institution (a property law limiting farmland prices and buyers) shapes who has an interest in expansion, and the hypothesis predicts how those actors will behave towards densification policy."
+   ]
+  },
+  {
+   "h": "Airbnb: incentives, externalities and collective action",
+   "p": [
+    "The Airbnb case is based on Gurran et al. (2018), who note that platforms can bring income to hosts and neighbourhoods, but tourist lodging in residential areas can harm neighbours, create safety risks and put 'pressure on local housing supply'. The lecture maps each actor's incentives. Professional hosts gain a new, more profitable income stream than permanent tenants. Guests get cheaper, more flexible, 'authentic' stays. Neighbours bear noise, disruption, weaker community ties, effects on their property values and pressure on housing. Planners face tourism growth, housing pressure and lost tax revenue. The costs borne by neighbours are externalities: effects on others that do not appear in the host's price.",
+    "Why does regulation lag behind, as seen in New York, Barcelona, Amsterdam and Athens? The lecture uses Olson's insight: small, concentrated interests such as hosts and investors organise effectively into a strong lobby, whereas large groups such as neighbours struggle to mobilise because of free-riding. The result is a collective action problem: regulation lags despite collective harm. This links directly to the Olson reading (Hindmoor ch. 5)."
+   ]
+  },
+  {
+   "h": "Regulation and its problems",
+   "p": [
+    "Students then discussed which instruments a planner could use. Standard solutions include land-use controls banning short-term rental in residential zones, tourist taxes and fees, time limits such as 60 nights a year, and complaint systems. Gurran et al. put the general idea as: societies manage externalities from private development 'through regulation or taxation' (2018, p. 4). Utrecht's 2018 policy is an example: a 60-night limit, a guest cap per square metre, a registration number, mandatory reporting and fines from 150 to 21,750 euros.",
+    "Rational choice theorists see problems with such 'one-size-fits-all' rules: enforcement is hard because rentals are hard to detect; platforms resist sharing data; inspections and bureaucracy bring transaction costs; there is a risk of legal challenges as regulatory takings; and there are unintended outcomes such as a waterbed effect, where the problem shifts elsewhere. The lecture's question is therefore: what solution would a rational choice scholar propose instead?"
+   ]
+  },
+  {
+   "h": "Coase's theorem and Coasean solutions",
+   "p": [
+    "Coase (1960) starts from externalities: one actor's action affects others. His claim: if property rights are clearly defined and transaction costs (the costs of negotiating and enforcing deals) are zero, then bargaining between the parties leads to an efficient outcome, regardless of who initially holds the right. The noisy factory example shows this. A homeowner values quiet at 1,000 euros and insulation costs 700 euros. If the factory has the right to make noise, the homeowner pays 700 and the factory insulates. If the homeowner has the right to quiet, the factory would have to pay 1,000 in compensation, so it insulates for 700. Either way insulation is installed; only who pays whom changes.",
+    "But transaction costs are never zero: there are information, bargaining and enforcement costs, strategic behaviour such as holdouts and misrepresentation, and problems with many parties. Even so, the lecture argues, we can design Coasean-inspired interventions that clarify rights and lower transaction costs so actors can negotiate, instead of just restricting. For Airbnb: tradable permits (a market for hosting nights), negotiations within homeowner associations (VvE) as collective bargaining, hosting taxes paid into a neighbourhood fund, and digital monitoring of platforms."
+   ]
+  },
+  {
+   "h": "Core assumptions and critiques",
+   "p": [
+    "The lecture closes with the core assumptions of rational choice theory: people act to maximise their self-interest (not only economic); this applies to all actors, from citizens to developers to municipalities; property rights and other institutions shape incentives and therefore strategies, and can be deliberately changed, though with possible side effects; collective action may be difficult when benefits are diffuse and individuals can free-ride; outcomes are evaluated as costs and benefits to actors; and knowledge is generally approached from a positivist stance, assuming universal rational behaviour and aiming at generalisable explanations (game theory, modelling, cost-benefit analysis). A warning: authors use these assumptions differently and not always consistently, so read each paper critically.",
+    "On reproduction versus transformation, the lecture says rational choice can explain both, depending on the article. Arrangements are reproduced when actors use strategic positions to protect interests (insiders versus outsiders); transformation happens when actors deliberately redesign rules and incentives. Needham, quoted on the slide, writes that 'property rights can be deliberately changed in order purposefully to influence land use' (pp. 28–29 in the chapter); Taylor: landowner pressure led to modifications of the GAIC bill (p. 272). Five critiques end the lecture: an oversimplified model of human behaviour, ignoring power and inequality, too much focus on individual agency, limiting assumptions (like zero transaction costs), and a 'Nirvana fallacy in reverse'."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is a synthesis, not part of the slides. Rational choice sits at the agency end of structure versus agency (the slide says so), treats knowledge as universal and positivist, and can explain both reproduction and transformation. It is monist in method (one model of behaviour) but pluralist about interests: the public interest is only an aggregate of private ones, which sharply contrasts with Rydin's governmental model where a public interest set by politics guides a neutral planner. Its normative commitment, where it has one, is efficiency.",
+    "Compared with the rational-comprehensive readings, rational choice is a critique from the economic side: state failure matters as much as market failure, and planners and politicians are self-interested actors too. Compared with Davoudi, both see evidence and planning as shaped by interests, but Davoudi does not reduce this to utility maximisation. Alexander's cell (b), strategic action and bargaining, is exactly the terrain of this lecture. The two readings for the week, Needham on property rights and Olson (via Hindmoor) on collective action, supply the theory behind the Airbnb and Rijnenburg cases."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "",
+   "Rational-comprehensive planning",
+   "Rational choice theory"
+  ],
+  "rows": [
+   [
+    "What kind of theory",
+    "Ideal standard for planning decisions (normative)",
+    "Analytical framework for how planning works (explanatory)"
+   ],
+   [
+    "Whose rationality",
+    "The planner's, as neutral expert",
+    "All actors: citizens, developers, landowners, municipalities"
+   ],
+   [
+    "What goes wrong",
+    "Market failure, corrected by planning",
+    "Market failure and state failure"
+   ],
+   [
+    "Public interest",
+    "Set by politics; optimised welfare",
+    "No objective goal; aggregate of private interests"
+   ],
+   [
+    "Typical tools",
+    "Evidence, forecasts, MKBA, comprehensive plans",
+    "Incentives, property rights, taxes, tradable permits, Coasean bargaining"
+   ],
+   [
+    "Knowledge stance",
+    "Positivist, expert-led",
+    "Positivist, generalisable models (game theory, modelling, cost-benefit analysis)"
+   ]
+  ]
+ },
+ "news": {
+  "t": "New York's Local Law 18 crushes short-term rentals",
+  "d": "Since September 2023 New York City's Local Law 18 requires short-term rental hosts to obtain a city licence verifying compliance with occupancy rules and building codes. Within a year short-term Airbnb listings fell 83% to about 3,700; the city received 6,672 applications and granted roughly 38%. Airbnb, which made $85 million net revenue in New York in 2022, asked the city to roll back parts of the law.",
+  "why": "Read through rational choice, the city redefined the rights to host and made the platform part of enforcement, cutting the information and monitoring costs that make rules like Utrecht's hard to enforce: incentives changed, so behaviour changed fast. Airbnb's push for amendments is classic lobbying by a concentrated interest with a lot at stake, and record hotel prices hint at who else gains (incumbents). Limit: this is near-prohibition rather than a Coasean bargain, so it tests rights-redesign and enforcement, not Coase's efficient-bargaining claim.",
+  "src": {
+   "name": "Fortune",
+   "title": "Airbnb asks NYC to roll back short-term rental law that caused listings to plummet over 80%",
+   "url": "https://fortune.com/2024/09/04/airbnb-asks-nyc-roll-back-short-term-rental-law-listings-plummet-over-80-law-18",
+   "date": "2024-09-04"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Land value rises with each planning phase",
+    "svg": "[SVG figure; labels: land value | Intentions published | In land use plan | Zoning | Land readjustment | Servicing | Servicing fee paid | Building permit | Agricultural | use | Expected development | area | Designated | building land | Suitable desig- | nated bldg land | Serviced | building plot | Serviced plot | (fee settled) | Developable | building plot | development phases (legal quality) before construction]",
+    "cap": "Model of planning phases after Bonczek & Halstenberg (1963): every planning decision adds value, with the biggest jump at zoning. Shape only; the original has no values.",
+    "slide": "HC6 slide 16"
+   },
+   {
+    "title": "Swiss version: no speculative value before zoning",
+    "svg": "[SVG figure; labels: land value | Speculation (Spatial Vision) | Entry in Strategic Plan | Zoning (art. 15 SPA) | Readjustment (art. 20) | Servicing (art. 19) | Fee paid (art. 19.2) | Permit (art. 22.1) | Agricultural | use | Expected development | area | Designated | building land | Suitable desig- | nated bldg land | Serviced | building plot | Serviced plot | (fee settled) | Developable | building plot | grey wedge = speculative value that the BGBB price cap keeps out]",
+    "cap": "Planning phases adapted to Switzerland (value increases and phase length indicative): the farmland law keeps land at agricultural value until zoning, so outsiders have no speculative gain to lobby for.",
+    "slide": "HC6 slide 26"
+   },
+   {
+    "title": "House price development in the Netherlands (index 1995 = 100)",
+    "svg": "[SVG figure; labels: 100 | 200 | 300 | 400 | 500 | 1995 | 2000 | 2005 | 2008 | 2013 | 2018 | 2022 | 2014–16 | peak ≈ 280 (2008) | low ≈ 225 (2013) | ≈ 435 (2022) | Source on slide: CBS/Kadaster; values read approximately off the chart]",
+    "cap": "Shape of the slide's chart (values read approximately off the graph). The slide circles 2014–2016, the post-crisis trough when the Rijnenburg developers' business case had become unviable.",
+    "slide": "HC6 slide 22"
+   },
+   {
+    "title": "Coase theorem graph",
+    "svg": "[SVG figure; labels: Marginal benefit to polluters | Marginal disbenefit to victims | X1 | X2 | quantity of air pollution emitted per period]",
+    "cap": "The slide's textbook graph: bargaining moves emissions to X1, where the marginal benefit to polluters equals the marginal damage to victims, whoever holds the right; without bargaining an unrestricted polluter emits up to X2.",
+    "slide": "HC6 slide 46"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Airbnb: incentives per actor",
+    "head": [
+     "Actor",
+     "Incentive or effect"
+    ],
+    "rows": [
+     [
+      "Professional hosts",
+      "New income stream, more profitable than permanent tenants"
+     ],
+     [
+      "Guests",
+      "Cheaper, more flexible, 'authentic' experience"
+     ],
+     [
+      "Neighbours",
+      "Noise, disruption, reduced community ties, impact on their own property values, pressure on housing supply (the externalities)"
+     ],
+     [
+      "Planners",
+      "Growth of tourism economy, pressure on housing supply, loss of tax revenue"
+     ]
+    ],
+    "slide": "HC6 slides 36–37"
+   },
+   {
+    "title": "Restricting versus Coasean-inspired tools for Airbnb",
+    "head": [
+     "Standard regulation (Gurran et al. 2018)",
+     "Problem according to rational choice theorists",
+     "Coasean-inspired alternative"
+    ],
+    "rows": [
+     [
+      "Land-use controls banning short-term rentals in residential zones",
+      "Enforcement difficulties: hard to detect",
+      "Tradable permits (a market for hosting nights)"
+     ],
+     [
+      "Taxes and fees paid by tourists",
+      "Platforms resist sharing data with authorities",
+      "Hosting taxes paid into a neighbourhood-improvement fund"
+     ],
+     [
+      "Time limits (e.g. 60 nights/year)",
+      "Transaction costs of inspections, enforcement, bureaucracy; legal challenges ('regulatory takings')",
+      "HOA/VvE negotiations: collective instead of fragmented bargaining"
+     ],
+     [
+      "Complaints systems for neighbours",
+      "Unintended outcomes (e.g. waterbed effect)",
+      "Digital monitoring systems of platforms"
+     ]
+    ],
+    "slide": "HC6 slides 41, 43, 51"
+   }
+  ],
+  "points": [
+   {
+    "t": "Where HC6 sits in the course",
+    "d": "HC3 (knowledge in planning theory) and HC4 (Marx and Hayek) were 'big, abstract lenses for thinking about knowledge, society, reality'; HC5 (rational-comprehensive planning) and HC6 (rational choice and self-interest) are 'concrete theories about how planning and decision-making (should) go(es)'.",
+    "slide": "HC6 slide 2"
+   },
+   {
+    "t": "Who owns Rijnenburg",
+    "d": "The slide's map of land ownership in Rijnenburg in 2022 (Kadaster data) distinguishes housing associations, real estate developers, governments and utilities, private individuals and other legal entities; a large share of the parcels is held by real estate developers.",
+    "slide": "HC6 slide 21"
+   },
+   {
+    "t": "Midterm format",
+    "d": "Part A: 25 multiple-choice questions. Part B: 3–4 open questions. Taken in Remindo, closed book (no texts or notes).",
+    "slide": "HC6 slide 29"
+   },
+   {
+    "t": "Midterm content and focus",
+    "d": "Primary focus: (1) explain the main concepts of different planning theories; (2) apply theories to interpret planning issues and show how frameworks guide research design and analysis. Secondary focus: (3) compare the political-philosophical and epistemological assumptions behind theories. Also listed: (4) a theoretically informed critique that evaluates one framework and builds an alternative from another. Material: lectures + slides, and readings ('connect authors + arguments').",
+    "slide": "HC6 slides 30–31"
+   },
+   {
+    "t": "Other lenses on Airbnb",
+    "d": "The slide shows other ways to study Airbnb: financialisation and housing assetisation (Gil 2024), the evolution of Airbnb regulation 2008–2020 (Von Briel & Dolnicar 2021), and corporate grassroots lobbying by platforms (Yates 2023). Today's lens: rational choice, based on Gurran et al. (2018), 'Urban Planning in the Age of Airbnb: Coase, Property Rights, and Spatial Regulation'.",
+    "slide": "HC6 slides 33–34"
+   },
+   {
+    "t": "Airbnb's counter-message",
+    "d": "The slide shows an Airbnb Newsroom post (Dec 2023), 'New survey finds strict short-term rental rules deter visitors to NYC': three months after Local Law 18, 65% of respondents said they were less likely to visit because of higher hotel prices and 54% were more likely to book through unregulated platforms. An example of platforms contesting strict regulation.",
+    "slide": "HC6 slide 44"
+   },
+   {
+    "t": "Question: which rights must be defined?",
+    "d": "'Imagine you wanted to solve Airbnb's externalities through bargaining instead of regulation. What kinds of rights would need to be clearly defined, so that they could be traded or enforced?' Coasean answers either better define rights or reduce transaction costs.",
+    "slide": "HC6 slides 49–50"
+   }
+  ]
+ }
+}

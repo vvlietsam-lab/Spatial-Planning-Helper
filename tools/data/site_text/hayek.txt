@@ -1,0 +1,303 @@
+{
+ "id": "hayek",
+ "wk": 2,
+ "title": "Hayek (1944) Planning and democracy",
+ "cite": "Hayek, F.A. (1944). Planning and democracy. The Road to Serfdom, ch. 5, pp. 42–53. London: Routledge. Reprinted in Hillier, J. & Healey, P. (eds) (2008) Critical Essays in Planning Theory, Vol. 1: Foundations of the Planning Enterprise, pp. 275–286. Aldershot: Ashgate",
+ "theory": "Liberalism / Austrian economics",
+ "status": "full",
+ "statusNote": "Built from the full chapter (OCR of the Hillier & Healey reprint). The scan shows both paginations: original Road to Serfdom pp. 42–53 (used for all page references below) and reprint pp. 275–286 (reprint p. = original p. + 233). Lecture HC4 (17 Sept, Marx vs Hayek) used for what the slides emphasise. Several Hayek ideas on the slides (spontaneous order, dispersed knowledge, complex phenomena, indeterminism) are NOT in this chapter: see the table.",
+ "one": "Central economic planning directs all of society towards a single goal, which presupposes a 'complete ethical code' that nobody has. Because democratic assemblies can agree that there should be a plan but not on its ends, planning shifts decisions to experts and discretion, and ultimately to dictatorship. Democracy only works when collective action is limited to fields where true agreement exists and power is bound by general rules.",
+ "summary": [
+  "Starting point (pp. 42–44): all collectivism (communism, fascism) is 'the deliberate organisation of the labours of society for a definite social goal'. Goals such as the 'common good' or 'general welfare' are too vague to decide any concrete action; a single plan would need every need of every person ranked in one order of values, i.e. a 'complete ethical code'. No such code exists: as civilisation grew, moral rules became fewer and more general, merely marking out a sphere of individual freedom. Nobody can survey more than a limited field of needs, so only partial, mutually inconsistent scales of values exist, in individual minds. That, not egoism, is the basis of individualism: the individual is 'the ultimate judge of his ends'.",
+  "Limits of common action (pp. 44–45): social ends are just the identical ends of many individuals, so common action must be limited to fields where people agree; agreement is likeliest on means that serve many purposes, and its probability falls as the scope of state action widens. Once the state controls a large enough share of resources (Germany 1928: 53% of national income), it indirectly controls almost everything, and the 'social scale of values' must cover nearly all individual ends.",
+  "The democratic mechanism (pp. 45–51): people may agree on planning without agreeing on its ends, like a group committing to a journey without agreeing where to go. Parliaments then fail and are seen as 'talking shops'; planning is 'taken out of politics' and delegated to experts (Hayek quotes the Webbs, Laski and the Donoughmore Committee). Majority voting suits choices between limited alternatives, but a plan needs 'a unitary conception' and cannot be voted clause by clause. Unlike a general with one goal, the planner must choose between competing ends, so experts impose their own scale of preferences. Delegation of general rule-making (even to local authorities) is acceptable; delegation of discretion in particular cases ('judging the case on its merits') creates arbitrary power. Separate sectoral plans do not add up, the cry for an 'economic dictator' follows, and parliament ends up choosing persons with near-absolute power: 'plebiscitarian dictatorship'. Germany before 1933 is the example: Hitler exploited a democracy that had already decayed.",
+  "Conclusion (pp. 51–53): 'It is the price of democracy' that conscious control is limited to fields of true agreement and some things are left to chance. The liberal creed reduced the range of subjects needing agreement; only within a competitive system based on free disposal over private property is democracy possible. Democracy is not an end but 'a utilitarian device' for peace and freedom; a homogeneous majority can be oppressive. Planning leads to dictatorship because dictatorship is the most effective instrument of coercion. What prevents arbitrary power is 'not the source but the limitation of power'.",
+  "Slides vs chapter: the lecture presents Hayek through spontaneous order, indeterminism, 'the theory of complex phenomena' (cited as Hayek 1989) and equality of rights vs Marx's material equality. None of these terms appears in this chapter. Dispersed local knowledge comes from Hayek (1945) 'The use of knowledge in society' (cited by Cozzolino); spontaneous order (kosmos vs taxis) from Law, Legislation and Liberty (1973; Moroni cites the 1982 edition). The chapter itself argues from value pluralism, the limits of any one mind's view of needs and ends, and the political mechanics of majority rule and delegation. The slide headings 'The philosophy of individualism' and 'Planning in democracy' are the parts actually drawn from this chapter."
+ ],
+ "concepts": [
+  [
+   "Collectivism",
+   "'The deliberate organisation of the labours of society for a definite social goal' (p. 42); denies autonomous spheres where individual ends are supreme."
+  ],
+  [
+   "Complete ethical code",
+   "A ranking of all human values complete enough to decide every choice a central plan requires; Hayek says it does not exist (pp. 43–44)."
+  ],
+  [
+   "Individualism (Hayek)",
+   "Not egoism: because no mind can survey more than a sector of society's needs, the individual should be the ultimate judge of his own ends within defined limits (p. 44)."
+  ],
+  [
+   "Limits of agreement",
+   "Common action is legitimate where individual views coincide; agreement falls as the scope of state action grows (p. 45)."
+  ],
+  [
+   "Delegation to experts",
+   "When assemblies cannot agree on a plan, it is handed to experts, who then impose their own scale of preferences (pp. 46–48)."
+  ],
+  [
+   "General rules vs discretion",
+   "Delegating general rule-making is acceptable; delegating decisions on particular cases 'on their merits' produces arbitrary power (p. 49)."
+  ],
+  [
+   "Plebiscitarian dictatorship",
+   "End state of democratic planning: parliament only confirms a leader who holds practically absolute power (p. 51)."
+  ],
+  [
+   "Price of democracy",
+   "Conscious control restricted to fields of true agreement; 'in some fields things must be left to chance' (p. 51)."
+  ],
+  [
+   "Democracy as means",
+   "'A utilitarian device for safeguarding internal peace and individual freedom' (p. 52), not the highest end."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Democratic planning slides into dictatorship (pp. 45–51) | Democracy agrees | 'there must be | a plan' | No agreement on | ends: no complete | ethical code | Parliament fails: | 'talking shop', | no majority plan | Delegation to | experts: discretion | not general rules | Cry for economic | dictator: plebis- | citarian dictatorship | Liberal alternative (pp. 49–53) | Limit common action | to fields where true | agreement exists | General rules, not | discretion on cases | 'on their merits' | Not the source but | the limitation of | power stops arbitrariness | Cause of the slide: task too big for agreement, not bad politicians (p. 47)]",
+ "cap": "The chapter's mechanism: agreement on planning without agreement on ends pushes power to experts and then to a dictator; the liberal answer is limited, rule-bound collective action.",
+ "table": {
+  "head": [
+   "Idea attributed to Hayek",
+   "In this chapter?",
+   "Where it actually comes from"
+  ],
+  "rows": [
+   [
+    "No complete ethical code; no single scale of values",
+    "Yes (pp. 42–44)",
+    "Planning and democracy"
+   ],
+   [
+    "Limits of one mind: nobody can survey all needs",
+    "Yes (p. 44), about needs and values (ends)",
+    "Planning and democracy"
+   ],
+   [
+    "Delegation to experts; general rules vs discretion",
+    "Yes (pp. 46–50)",
+    "Planning and democracy"
+   ],
+   [
+    "Plebiscitarian dictatorship; limitation (not source) of power",
+    "Yes (pp. 51–53)",
+    "Planning and democracy"
+   ],
+   [
+    "Dispersed, local knowledge of particular circumstances",
+    "No",
+    "Hayek (1945) The use of knowledge in society (cited by Cozzolino)"
+   ],
+   [
+    "Spontaneous order (kosmos vs taxis)",
+    "No, term absent",
+    "Hayek's later work, e.g. Law, Legislation and Liberty (1973); used by Moroni (2010)"
+   ],
+   [
+    "Complex phenomena; indeterminism vs Marx's determinism",
+    "No",
+    "Separate Hayek essay cited in HC4; lecture framing"
+   ],
+   [
+    "Equality of rights vs material equality",
+    "Not in these terms",
+    "HC4 comparison of Marx and Hayek"
+   ]
+  ]
+ },
+ "example": "The chapter's own cases: Germany, where by 1928 public authorities controlled 53% of national income and democracy had in effect broken down before 1933, so 'Hitler did not have to destroy democracy' (p. 50); and Britain, where Laski proposed governing by delegated legislation and Order in Council (pp. 46–47). Planning illustration (not in the text): a permit system that decides each project 'on its merits' is what Hayek calls discretion; a zoning code of general rules is the acceptable form.",
+ "quotes": [
+  "\"It presupposes, in short, the existence of a complete ethical code in which all the different human values are allotted their due place.\" (p. 43)",
+  "\"It is the price of democracy that the possibilities of conscious control are restricted to the fields where true agreement exists, and that in some fields things must be left to chance.\" (p. 51)",
+  "\"Democracy is essentially a means, a utilitarian device for safeguarding internal peace and individual freedom.\" (p. 52)",
+  "\"it is not the source but the limitation of power which prevents it from being arbitrary.\" (p. 53)"
+ ],
+ "dims": {
+  "sa": 80,
+  "rt": 40,
+  "de": 75,
+  "us": 40,
+  "mp": 85,
+  "norm": "Individual freedom (liberty) first; democracy valued as a means; rule of general rules over discretion; limited government."
+ },
+ "exam": "MCQ traps: (1) Hayek's individualism is explicitly NOT an assumption of selfishness (p. 44). (2) He does not oppose delegation as such, only delegation of discretion. (3) He does not say democracy is the highest end, nor that dictatorship must always destroy freedom. (4) 'Spontaneous order' and 'dispersed knowledge' are lecture/other-work ideas, not this chapter. Framework: agency (individual ends), pluralist about values, change towards serfdom is an unintended but causal slide; liberal order leaves things 'to chance' (emergent). Commentary use: Hayek grounds critiques of discretionary, comprehensive planning; critique him from Marxism (formal freedom ignores material inequality and property power), communicative planning (agreement can be built through deliberation rather than only found), or rational-comprehensive planning (experts can rank goals).",
+ "examples": [
+  {
+   "t": "A journey with no destination",
+   "d": "People agreeing on central planning without agreeing on its ends are like a group committing to travel together without agreeing where to go, so most end up on a journey they do not want. Shows Hayek's claim that agreement exists only on the mechanism, which pushes decisions to experts.",
+   "src": "text",
+   "p": "p. 46"
+  },
+  {
+   "t": "The general vs the planner",
+   "d": "A general can be handed one supreme goal for a campaign, but an economic planner must choose between the conflicting ends of different people, so experts end up imposing their own scale of preferences. Shows why delegating planning is not just delegating technical detail.",
+   "src": "text",
+   "p": "p. 48"
+  },
+  {
+   "t": "Halevy's composite photograph",
+   "d": "Halevy suggested a composite photograph of Eustace Percy, Oswald Mosley and Stafford Cripps would show one shared feature: the belief that only dictatorial leadership could end economic chaos. Shows Hayek's 'cry for an economic dictator' as a stage on the road from planning to plebiscitarian dictatorship.",
+   "src": "text",
+   "p": "p. 50"
+  },
+  {
+   "t": "Zoning as a tax",
+   "d": "The HC4 slide pairs Hayek with Glaeser and Gyourko (2003): zoning strictness correlates with high prices, a few subsidised units barely affect prices, but cutting the 'zoning tax' on new construction could have a massive impact. Shows the liberal planner's role: set a level framework rather than limit supply or steer outcomes.",
+   "src": "slides"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Page numbers follow the original Road to Serfdom (1944), ch. 5, pp. 42–53, as printed in the reprint. The chapter opens with Adam Smith's warning that a statesman directing how people employ their capital assumes an authority no council could safely hold. Hayek defines the common feature of all collectivist systems as “the deliberate organisation of the labours of society for a definite social goal” (p. 42). Socialists complain that society lacks 'conscious' direction towards a single aim. Communism, fascism and other forms of collectivism differ in their goal, but all want to organise the whole of society and its resources for one unitary end and refuse to recognise autonomous spheres where individuals' ends are supreme. That, he says, is what 'totalitarian' truly means (p. 42).",
+    "The lecture sets the context: after the Great Depression, which seemed to confirm Marx's predictions, and during the Second World War, many countries adopted some form of central economic planning. Hayek's question is whether such planning is compatible with democracy and individual freedom. His answer is no, and the chapter explains the mechanism step by step. The lecture presents him as the liberal counterpart to Marx: where Marx asks how to change the structure of ownership, Hayek asks what happens to freedom and democracy once the state tries to direct the economy as a whole."
+   ]
+  },
+  {
+   "h": "No complete ethical code",
+   "p": [
+    "The 'social goal' is usually described as the 'common good', 'general welfare' or 'general interest', but these terms are too vague to decide any concrete action (pp. 42–43). The welfare of millions cannot be measured on one scale of more and less; it depends on endless combinations of things and can only be expressed as a hierarchy of ends in which every need of every person has its place. A single plan therefore “presupposes, in short, the existence of a complete ethical code in which all the different human values are allotted their due place” (p. 43).",
+    "We are not used to thinking of moral codes as more or less complete, because in a free society we constantly choose between values without a social rule telling us how. But if all means belong to society and are used according to one plan, a 'social' view must guide every decision, and our moral code would turn out 'full of gaps' (p. 43). Hayek adds a historical point: civilisation has been accompanied by a steady shrinking of the sphere governed by fixed rules. Morals have become fewer, more general, and increasingly mere limits around a sphere where individuals may do as they like; a comprehensive code for a unitary plan would reverse this. The essential point: no such code exists, and on most planning questions people have no views or conflicting views (p. 43)."
+   ]
+  },
+  {
+   "h": "The philosophy of individualism",
+   "p": [
+    "No mind could comprehend the infinite variety of competing needs of different people and weigh each one (p. 44). Whether a person is egoistic or altruistic is of minor importance: the basic fact is that nobody can survey more than a limited field or be aware of more than a limited number of needs. This, Hayek says, is the foundation of individualism, which “does not assume, as is often asserted, that man is egoistic or selfish, or ought to be”. Scales of value can exist only in individual minds, so only partial, different and often inconsistent scales exist. The individualist concludes that people should, within defined limits, follow their own values; the essence of the position is “this recognition of the individual as the ultimate judge of his ends” (p. 44).",
+    "This does not exclude social ends. It limits common action to cases where individual ends coincide: 'social ends' are identical ends of many individuals, or ends people are willing to contribute to in return for help with their own. Often these are not ultimate ends but means that different people can use for different purposes; agreement is most likely where the common end is such a multi-purpose means (pp. 44–45)."
+   ]
+  },
+  {
+   "h": "The limits of the state's sphere",
+   "p": [
+    "An organisation formed for common ends, including the state, gets its own ends and means, but remains one 'person' among others, much more powerful yet with a limited sphere (p. 45). The limits of that sphere are set by how far individuals agree, and the probability of agreement necessarily decreases as the scope of action extends: some state functions have practical unanimity, others a substantial majority, and eventually there are 'almost as many views about what the government should do as there are different people'. The state can rely on voluntary agreement only where agreement exists.",
+    "Moreover the state's sphere cannot be extended indefinitely while leaving the individual free elsewhere. Once the communal sector passes a certain share, its effects dominate the whole system. Hayek's example: in Germany as early as 1928, central and local authorities directly controlled about 53 per cent of national income, and thereby indirectly almost the whole economic life of the nation. Then almost every individual end depends on state action, and the 'social scale of values' guiding the state must cover practically all individual ends (p. 45)."
+   ]
+  },
+  {
+   "h": "Agreeing to plan without agreeing on ends",
+   "p": [
+    "What happens when democracy embarks on planning that requires more agreement than exists (pp. 45–46)? People may agree on a directed economy because they expect prosperity; the goal is labelled 'common welfare', which hides the absence of real agreement on ends. They agree only on the mechanism, but that mechanism can serve only a common end, so once the executive must turn the demand for 'a plan' into a particular plan, disagreement surfaces. Hayek's image: it is as if a group committed to a journey together without agreeing where to go, so that all may end up on a journey most did not want. Planning forces us to agree on far more topics than before, because we cannot confine collective action to what we agree on.",
+    "Democratic assemblies then seem unable to carry out a clear mandate. Parliaments come to be seen as ineffective 'talking shops', and the conviction grows that planning must be 'taken out of politics' and handed to experts, permanent officials or autonomous bodies (p. 46). Hayek shows socialists knew this: the Webbs complained of the Commons' incapacity, and Laski proposed that a Labour government legislate through broad enabling acts and Orders in Council, even asking whether a government in transition to socialism could risk being overturned at the next election (pp. 46–47)."
+   ]
+  },
+  {
+   "h": "Why majorities fail and experts decide",
+   "p": [
+    "The fault lies not with representatives or parliament as such but with the task (pp. 47–48): assemblies are asked not to act where they agree but to produce agreement on everything. Majority decision works for choices between limited alternatives, but “it is a superstition to believe that there must be a majority view on everything”. Nor can a plan be voted clause by clause: 'An economic plan, to deserve the name, must have a unitary conception', and a complex whole cannot come from compromise. As with a military campaign, the task is delegated to experts. But a general has one supreme goal; an economic planner must choose between competing ends of different people, and only those who know all the facts can see which ends conflict. So “It is inevitable that they should impose their scale of preferences on the community for which they plan” (p. 48).",
+    "Delegation is usually justified by technical complexity, but civil law is just as technical and nobody proposes delegating it, because it consists of general rules on which majority agreement is possible (p. 49). Hayek stresses that delegation of law-making as such is not the problem; delegating the power to make general rules, even to local authorities, can be sensible. The objectionable case is delegation because a matter 'cannot be regulated by general rules but only by the exercise of discretion in the decision of particular cases'; the authority then makes what are in effect arbitrary decisions, usually described as 'judging the case on its merits' (p. 49). A footnote on the Donoughmore Committee reads its demand for 'elasticity' as the conferment of arbitrary power (pp. 48–49)."
+   ]
+  },
+  {
+   "h": "From delegation to dictatorship",
+   "p": [
+    "Delegation to separate agencies is only a first step (pp. 49–50). Separate sectoral plans do not add up: 'Many separate plans do not make a planned whole' and may be worse than no plan. As long as the legislature keeps the vital decisions, nobody else can produce the comprehensive plan, so agreement that planning is needed plus parliament's inability to plan produce ever stronger demands to give the government or 'some single individual' power to act. The 'cry for an economic dictator' is a characteristic stage; Halévy saw it in a composite photograph of Percy, Mosley and Cripps. In Germany before 1933 democracy had already broken down; “Hitler did not have to destroy democracy; he merely took advantage of the decay of democracy” (p. 50).",
+    "Planners reply that democracy stays intact as long as it keeps ultimate control; Mannheim argued sovereignty can be boundlessly strengthened by plenary powers without losing democratic control (pp. 50–51). Hayek sees a vital distinction. Parliament can control execution when it has agreed on the aim and only delegates detail. When delegation happens because there is no agreement on ends, the planning body chooses between ends whose conflict parliament does not even see, and parliament can only accept or reject the plan as a whole. Criticism remains a safety valve, but parliament 'cannot direct'; it is reduced to choosing persons with practically absolute power, tending towards 'plebiscitarian dictatorship', where a leader is periodically confirmed by a vote he can steer (p. 51)."
+   ]
+  },
+  {
+   "h": "The price of democracy and the limitation of power",
+   "p": [
+    "Hayek's positive principle: “It is the price of democracy that the possibilities of conscious control are restricted to the fields where true agreement exists, and that in some fields things must be left to chance” (p. 51). A centrally planned society cannot wait for majorities, so often the will of a small minority, the largest group able to agree, is imposed. Democracy has worked where a widely accepted creed limited government to fields where majority agreement was possible, and it is 'the great merit of the liberal creed' that it shrank the range of necessary agreement. If 'capitalism' means a competitive system based on free disposal over private property, then only within it is democracy possible; under a collectivist creed democracy will destroy itself (pp. 51–52).",
+    "He refuses to make a fetish of democracy (p. 52). Unlike Acton's view of liberty, democracy is not the highest political end: “Democracy is essentially a means, a utilitarian device for safeguarding internal peace and individual freedom.” It is not infallible; there has sometimes been more cultural freedom under autocracy, and a homogeneous, doctrinaire majority could be as oppressive as a dictatorship. His claim is not that dictatorship must extirpate freedom, but that planning leads to dictatorship because dictatorship is the most effective instrument of coercion, which large-scale central planning needs. A democratic 'dictatorship of the proletariat' directing the economy would destroy personal freedom as completely as any autocracy. The final lesson: “it is not the source but the limitation of power which prevents it from being arbitrary” (p. 53). Power that cannot be guided by fixed rules becomes arbitrary, even if democratically conferred."
+   ]
+  },
+  {
+   "h": "Evidence and method",
+   "p": [
+    "The chapter is a political-philosophical argument, not an empirical study. Its method is logical: from value pluralism and the limits of any mind to the impossibility of agreement on a complete plan, and from there to delegation, discretion and dictatorship. The evidence is historical and documentary: German state control of 53 per cent of national income in 1928 and the collapse of Weimar democracy before 1933, and British debates on delegated legislation (the Webbs, Laski, the Donoughmore Committee, Mannheim). The examples serve to show the mechanism is already visible, not to test it."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Hayek wants collective action restricted to fields of genuine agreement, government bound by general rules rather than discretion, and a competitive economy based on private property as the precondition for democracy. He wants readers to stop assuming that democratic origin makes power safe: what matters is its limitation. His admitted qualifications are important for exams: individualism is not selfishness; delegation of general rule-making is acceptable; democracy is a means, not an end, and not infallible; and he does not say dictatorship must always destroy all freedom. As the existing reading card explains, several ideas the lecture attributes to Hayek (spontaneous order, dispersed knowledge, the theory of complex phenomena, indeterminism) do not appear in this chapter; the chapter's argument runs through value pluralism and the mechanics of majority rule."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis. On structure ↔ agency, Hayek starts from individuals and their ends, so he leans to agency, though his warning about an unintended slide from planning to dictatorship is a claim about how institutions shape outcomes. On deliberate ↔ emergent, the chapter's 'left to chance' and its preference for general rules point to emergent order, which later Hayek work and Moroni develop as spontaneous order. On knowledge, the chapter stresses the limits of any single mind and the plurality of value scales: pluralist about values, sceptical of comprehensive expert knowledge.",
+    "The contrasts are the core of week 2 and beyond. Against Marx: formal freedom and equality of rights versus material equality; private property as the basis of freedom versus the root of estrangement. Against the governmental model (week 3): Hayek denies that politicians can set agreed goals for experts to optimise, the model's key assumption. Buitelaar's Free City and Cozzolino's framework rules translate Hayek into planning: general rules instead of case-by-case discretion, as the existing card's zoning example shows. Communicative planners could reply that agreement can be built through deliberation rather than only found; Marxists that formal freedom ignores power based on property."
+   ]
+  }
+ ],
+ "news": {
+  "t": "England moves planning decisions to officers",
+  "d": "In a working paper (December 2024, updated February 2025) the UK government proposed a national scheme of delegation for planning applications in England. One option delegates all applications that comply with the development plan to officers, because elected members already approved those policies in the local plan; committees would keep departures from the plan and some major or sensitive cases. The paper notes that 96% of decisions were already made by officers in Q2 2024, against 75% in 2000.",
+  "why": "Read through Hayek, the reform swaps case-by-case judgement 'on the merits' by elected committees for applying a democratically agreed general rule (the local plan), the form of delegation he considers acceptable. At the same time it is delegation to experts, which Hayek warns about when assemblies cannot agree on ends. Limit: the English system remains discretionary at its core and the plan is itself a detailed planning choice, not a neutral framework of general rules in Hayek's strict sense.",
+  "src": {
+   "name": "GOV.UK (Ministry of Housing, Communities and Local Government)",
+   "title": "Planning reform working paper: planning committees",
+   "url": "https://www.gov.uk/government/publications/planning-reform-working-paper-planning-committees/planning-reform-working-paper-planning-committees",
+   "date": "2025-02-13"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Two theories of the state, two implicit values",
+    "svg": "[SVG figure; labels: Marx: equality | material, via shared means of production | Hayek: liberty | equality of rights | equality | freedom | freedom | formal equality]",
+    "cap": "Sketch graphs from the slide (no values): for Marx, equality and freedom rise together in a straight line; for Hayek, freedom rises ever more steeply with formal equality (equality of rights).",
+    "slide": "HC4 slide 35"
+   }
+  ],
+  "tables": [],
+  "points": [
+   {
+    "t": "'Liberalism enters the chat'",
+    "d": "Marx: \"If we abolish private property, the social structure will change!\" Hayek: \"We might try, Marx – but who knows what happens then?\" The cartoon frames Hayek's objection as uncertainty about outcomes, not a defence of the status quo.",
+    "slide": "HC4 slide 22"
+   },
+   {
+    "t": "Setting the stage",
+    "d": "1929: the Great Depression ('Marx's predictions coming true?'); 1940–1945: WWII. Result: some form of centralized (economic) planning in many countries, the context Hayek writes against.",
+    "slide": "HC4 slide 23"
+   },
+   {
+    "t": "Hayek and The Road to Serfdom",
+    "d": "Austrian-British economist and philosopher. Road to Serfdom (1944) is about \"The danger of tyranny that results from government control of economic decision-making through central planning\".",
+    "slide": "HC4 slide 24"
+   },
+   {
+    "t": "Determinism vs indeterminism",
+    "d": "Marx: a deterministic approach to the interpretation of social phenomena. Indeterminism: \"nature and events may not be so 'determined' and 'predictable'\".",
+    "slide": "HC4 slide 25"
+   },
+   {
+    "t": "Hayek (1989) The theory of complex phenomena",
+    "d": "Slide logic: Marx's determinism implies 'we can make the best decisions for the economy'; Hayek believed a total understanding is unknowable; conclusion: 'stop trying to steer phenomena in the desired direction (because we can't!)'. Quoted text: \"A theory will always define only a kind or class of patterns, and the particular manifestation of the pattern to be expected will depend on the particular circumstances (the 'initial and marginal conditions' …). How much in fact we shall be able to predict will depend on how many of those data we can ascertain.\"",
+    "slide": "HC4 slide 26"
+   },
+   {
+    "t": "Spontaneous order",
+    "d": "Emergence of a natural, decentralized order, 'more efficient and adaptable than any centrally planned system'. Slide quote: spontaneous order \"is a system which has developed not through the central direction or patronage of one or a few individuals but through the unintended consequences of the decisions of myriad individuals each pursuing their own interests through voluntary exchange, cooperation, and trial and error\".",
+    "slide": "HC4 slide 27"
+   },
+   {
+    "t": "Quote: agreement only on the mechanism",
+    "d": "\"It is not difficult to see what must be the consequences when democracy embarks upon a course of planning which in its execution requires more agreement than in fact exists.\" The goal is described by a term like \"common welfare\" \"which only conceals the absence of real agreement on the ends of planning. Agreement will in fact exist only on the mechanism to be used.\"",
+    "slide": "HC4 slide 28"
+   },
+   {
+    "t": "Check-in questions on Hayek",
+    "d": "Back to the framework: Is structure or agency more dominant (in Hayek)? How does Hayek explain transformation and reproduction?",
+    "slide": "HC4 slide 31"
+   },
+   {
+    "t": "What kind of state, then?",
+    "d": "Spatial planning, together with economic planning, is one of the most impacting forms of state intervention. \"The extent of the restrictions of freedom that the State can impose through State interventions can be justified and legitimized based on the desired type of equality (which form?)\". The slide shows a 'scale of justice' weighing freedom against equality.",
+    "slide": "HC4 slide 34"
+   },
+   {
+    "t": "Glaeser & Gyourko's own caveat",
+    "d": "The liberal-planner slide ends with: \"We have not considered the benefits of zoning, which could certainly outweigh these costs.\" Hence the liberal concession that interventions may be justified for conflicting land uses, poor quality of space and locational matters.",
+    "slide": "HC4 slide 37"
+   },
+   {
+    "t": "Take-home: liberalism and individual freedom",
+    "d": "\"Liberalism emphasizes that our understanding of social phenomena is limited and characterized by uncertainty. A Hayekian planner focuses setting the right framework conditions to allow for 'spontaneous order' to guide urban development. This spontaneous order emerges if there is equality of rights.\"",
+    "slide": "HC4 slide 38"
+   }
+  ]
+ }
+}

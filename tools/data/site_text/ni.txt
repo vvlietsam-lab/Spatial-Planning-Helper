@@ -1,0 +1,372 @@
+{
+ "id": "ni",
+ "wk": 4,
+ "title": "Neo-institutionalism: the map",
+ "cite": "Lecture 29 Sept (Bouwmeester): Neo-institutionalism & planning · + Dembski & Salet (2010) Table 1",
+ "theory": "New institutionalism",
+ "status": "full",
+ "statusNote": "Lecture slides on file.",
+ "one": "Institutions are the formal and informal rules of the game, not organisations. They are 'ontologically both the context and object of planning' (Savini 2019). New institutionalism comes as rational choice, sociological, historical and evolutionary strands, which disagree on what institutions are, what they do and how they change, and so on how much planners can deliberately design them.",
+ "summary": [
+  "Institutions = systems of established rules and norms that guide, constrain and regulate behaviour; organisations = concrete entities with a purpose (Eurovision: EBU = organisation; statutes and informal norms = institutions). Double life: they constrain actors but are also outcomes of action (context AND object of planning). Alexander (2005): if planning aims to transform society, 'institutional transformation must be a critical aspect of planning'. Some even say 'planning is institutional design' (Innes 1995): planners → design institutions → shape behaviour → reshape society/space.",
+  "Origins (Part A): Hardin's tragedy of the commons (1968): rational self-interest depletes shared resources. Ostrom (1990) shows how self-interested people self-organise rules to overcome the 'problem of commitment'. Her IAD framework has seven rule types: position, boundary, choice, aggregation, information, payoff, scope (applied to informal real estate by Bouwmeester & Hartmann 2021). New institutionalism explains how institutions shape behaviour and how they arise and change, and reconciles structure and agency (Giddens). Example: institutional arrangements shape residential morphology in NL, Flanders and NRW (Tennekes et al. 2015).",
+  "Strands (Part B, after Sorensen 2017 and Salet 2018). (1) Rational choice institutionalism: 'formal and informal rules of the game … humanly devised constraints' (North 1990); they coordinate and give certainty, information and credible commitment; they change when self-interested actors create rules to enhance cooperation. (2) Sociological: institutions 'establish the very criteria by which people discover their preferences'; goodness-of-fit with legitimate templates (DiMaggio & Powell); symbol systems, cognitive scripts, moral templates (Hall & Taylor); internalised; hegemonic norms. Example: Amsterdam-Noord's symbols linking the shipyard past to a creative future (Savini & Dembski 2016). (3) Historical: procedures, routines and norms embedded in the polity; path dependency, critical junctures, structural emphasis. Example: why participation in Norwegian land-use planning stayed weak (Holsen 2021). (4) Evolutionary (Moroni): institutions as unintended outcomes of evolution.",
+  "The key debate is institutional change and the limits of design. Dembski & Salet: symbols can't be used voluntaristically; find under-institutionalised niches. Sorensen: critical junctures, then bounded developmental pathways. Moroni: emergent institutions can't be designed like organisations, so a kosmos approach. 'How we conceptualize institutions shapes how we conceptualize planning agency.'"
+ ],
+ "concepts": [
+  [
+   "Institution vs organisation",
+   "Rules and norms (formal/informal) vs a concrete purposive entity."
+  ],
+  [
+   "Context and object",
+   "Institutions constrain planning AND are what planning produces (Savini 2019)."
+  ],
+  [
+   "Tragedy of the commons",
+   "Hardin: rational individuals overuse shared resources."
+  ],
+  [
+   "Ostrom's IAD rules",
+   "Position, boundary, choice, aggregation, information, payoff, scope."
+  ],
+  [
+   "Rational choice institutionalism",
+   "Rules of the game; certainty and credible commitment; changed by self-interested actors."
+  ],
+  [
+   "Sociological institutionalism",
+   "Institutions shape preferences; legitimacy, goodness-of-fit, cognitive scripts; internalised."
+  ],
+  [
+   "Historical institutionalism",
+   "Embedded routines; path dependency; critical junctures; structural."
+  ],
+  [
+   "Evolutionary institutionalism",
+   "Institutions as unintended results of evolution (Moroni)."
+  ],
+  [
+   "Planning as institutional design",
+   "Innes/Alexander: planners deliberately change institutions."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Externalised | Internalised | Prior to | action | In action | Rational choice inst. | North, Williamson | transaction costs, | collective action dilemmas | Historical inst. | Pierson, Thelen · Sorensen | path dependency, | critical junctures | Actor-centred inst. | Ostrom, Scharpf | policy learning, | actors' strategies | Sociological inst. | Berger &amp; Luckmann, Bourdieu | culture, legitimacy, | Dembski &amp; Salet sit here]",
+ "cap": "Dembski & Salet (2010) Table 1. Moroni's evolutionary view cuts across it (emergent, Hayekian).",
+ "example": "Lecture homework: 'Housing is becoming unaffordable'. HI: the problem is path-dependent rules (e.g. mortgage-interest deduction); look for a crisis as a critical juncture. SI: norms of homeownership as 'normal'; change the meanings. Evolutionary: rules that block adaptation; simplify and open general rules gradually.",
+ "quotes": [
+  "\"Institutions are ontologically both the context and object of planning practices from a relational perspective\" (Savini 2019)",
+  "\"Institutions do not just constrain options: they establish the very criteria by which people discover their preferences.\"",
+  "\"How we conceptualize institutions shapes how we conceptualize planning agency.\""
+ ],
+ "dims": null,
+ "exam": "Sample Q1: a sociological institutionalist says institutions are embedded in cultural norms and cognitive scripts that shape planners' own perceptions (B). C = historical, D = evolutionary (Moroni), A = rational choice/actor-centred.",
+ "table": {
+  "head": [
+   "",
+   "Rational choice",
+   "Sociological",
+   "Historical",
+   "Evolutionary"
+  ],
+  "rows": [
+   [
+    "What are institutions?",
+    "Rules of the game, constraints (North)",
+    "Symbols, cognitive scripts, moral templates",
+    "Procedures, routines, norms embedded in the polity",
+    "Unintended outcomes of long evolution"
+   ],
+   [
+    "What do they do?",
+    "Coordinate; give certainty, information, commitment",
+    "Define appropriateness; shape preferences",
+    "Constrain; channel development along paths",
+    "Coordinate; store dispersed knowledge"
+   ],
+   [
+    "Change",
+    "Deliberate redesign by self-interested actors",
+    "Deliberate but must be embedded (symbols, habitus)",
+    "Critical junctures, then bounded pathways",
+    "Emergent trial and error; only modest intervention"
+   ],
+   [
+    "Planners",
+    "Rule designers (e.g. Ostrom, Coase)",
+    "Meaning-makers in niches",
+    "Actors exploiting junctures",
+    "Humble rule-keepers (kosmos)"
+   ],
+   [
+    "Course author",
+    "Needham, Taylor (RC)",
+    "Dembski & Salet; Savini & Dembski",
+    "Sorensen; Holsen",
+    "Moroni"
+   ]
+  ]
+ },
+ "examples": [
+  {
+   "t": "Eurovision: organisation versus institutions",
+   "d": "The European Broadcasting Union is the organisation; its statutes and the formal and informal rules of the contest are the institutions. Shows the neo-institutionalist distinction between the rules of the game and its players.",
+   "src": "slides"
+  },
+  {
+   "t": "Ostrom's rules for a fishery",
+   "d": "The IAD slide illustrates rule types with fishing: membership rules for the cooperative (boundary), permitted gear (choice), catch reporting (information), fines for breaking quotas (payoff), off-limits areas and protected species (scope). Shows rational choice institutionalism: users craft rules to avoid the tragedy of the commons.",
+   "src": "slides"
+  },
+  {
+   "t": "Housing morphology in three regions",
+   "d": "Tennekes, Harbers and Buitelaar (2015) link different institutional arrangements in the Netherlands, Flanders and North Rhine-Westphalia to different morphologies of residential development. Shows institutions as context and object of planning, visible in space.",
+   "src": "slides"
+  },
+  {
+   "t": "Amsterdam-Noord's shipyard symbols",
+   "d": "Savini and Dembski (2016): a new development agenda for Amsterdam-Noord was enabled by symbols linking the industrial shipyard past to a creative-economy future, which mobilised consensus. Shows sociological institutionalism: planning as creating meaning.",
+   "src": "slides"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the lecture asks and why",
+   "p": [
+    "This is a walk-through of the lecture slides (Josje Bouwmeester, 'Neo-institutionalism & planning', 29 September), not of an article; the slides are the only source here, so some points are brief where the slides are brief. The lecture has two parts. Part A goes 'beyond rational choice theory' via Elinor Ostrom and rational choice institutionalism. Part B defines the other institutionalisms (sociological, historical and evolutionary) and discusses institutional change. The learning objectives are to identify neo-institutionalist theories in planning, understand how they developed, and compare the philosophical and epistemological assumptions (assumptions about what exists and how we can know it) behind the different institutionalist paradigms.",
+    "The starting definition is short: institutions are 'the formal and informal rules of the game'. The first point the lecture hammers home is that institutions are not organisations. Institutions are a system of established rules and norms which guide, constrain and regulate the behaviour of actors; organisations are concrete entities with a specific purpose. The Eurovision example makes this concrete: the European Broadcasting Union is the organisation, while its statutes and the formal and informal rules of the contest (the slide asks students to think of examples) are institutions."
+   ]
+  },
+  {
+   "h": "Why institutions matter to planners",
+   "p": [
+    "The slides quote Savini (2019): “Institutions are ontologically both the context and object of planning practices from a relational perspective”. Institutions as context means the framework within which planning decisions are made: laws, procedures, norms of what is appropriate. Institutions as object means they are also the outcome of planning processes: planners produce new rules, plans and arrangements. The lecture calls this the double life of institutions: they constrain actors, but they are also the outcome of human action.",
+    "Alexander (2005) pushes the point further. If planning is the translation of ideas into action and its goal is the transformation of society, then institutional transformation must be a critical aspect of planning, because there are only two ways of changing people: changing individuals, and changing institutions. This sets up the tension that runs through the whole lecture: if institutions shape us, how far can planners deliberately reshape them?"
+   ]
+  },
+  {
+   "h": "Part A: from the tragedy of the commons to Ostrom",
+   "p": [
+    "The origins story starts with Hardin (1968). The 'tragedy of the commons' occurs when individuals acting in rational self-interest overuse and deplete a shared resource such as a pasture, a fish stock or the atmosphere. Each user gains from taking a bit more, while the cost of depletion is spread over everyone, so the rational individual choice produces a collectively bad outcome. The classic answers were privatisation or state control.",
+    "Elinor Ostrom's work (Governing the Commons, 1990) asked a different question: how do self-interested people self-organise and create norms to prevent economically suboptimal outcomes? Her answer is institutions that overcome 'the problem of commitment': rules that make it credible that others will also hold back. She developed the Institutional Analysis and Development (IAD) framework, a structured way to analyse how rules shape an 'action situation' in which actors interact and produce outcomes.",
+    "The IAD framework distinguishes seven types of rules. Position rules define the roles available; boundary rules specify how actors enter or leave a position (membership of a fishing cooperative); choice rules say what actions are allowed, obliged or forbidden (only certain gear); aggregation rules combine individual actions into collective decisions (majority voting in a village council); information rules regulate what must or may be shared (reporting catches); payoff rules assign rewards and sanctions (fines for breaking quotas); and scope rules define which outcomes are affected (off-limits areas, protected species). The slides link this to Bouwmeester and Hartmann (2021) on informal real estate markets in informal settlements."
+   ]
+  },
+  {
+   "h": "What neo-institutionalism is and where the strands disagree",
+   "p": [
+    "New or neo-institutionalism, according to the slides, offers three things: an explanatory theory of how institutions shape behaviour; an understanding of how institutions arise and transform; and a way of answering and reconciling the relationship between structure and agency, referring to Giddens. The planning example is Tennekes, Harbers and Buitelaar (2015), who show that institutional arrangements affect the morphology (physical form) of residential development in the Netherlands, Flanders and North Rhine-Westphalia.",
+    "How do institutions influence behaviour? The slides stack several definitions. They constrain the set of possible actions and have a normative capacity to orient how agents interact (Giddens 1984); they define what is 'appropriate for actors to do within a given setting' (March and Olsen 2010); they 'guide and give meaning to human interaction' (Buitelaar 2014); and they are formal and informal norms and expectations about how to act in particular social contexts (Morgan and Engwall 1999). Following Sorensen (2017), the lecture then names three questions on which institutionalisms disagree: what institutions are, what they do, and how they transform, including their origins and whether they can be designed."
+   ]
+  },
+  {
+   "h": "Part B: rational choice, sociological and historical institutionalism",
+   "p": [
+    "Following Salet (2018), the lecture lists the three most important paradigms. Rational choice institutionalism uses North's (1990) definition: institutions are the formal and informal rules of the game, humanly devised constraints that shape human interaction. They coordinate effects and provide certainty, information and credible commitment, and they change when rational, self-interested actors create rules to enhance cooperation. Ostrom's commons work belongs here.",
+    "Sociological institutionalism goes deeper into the mind. A slide quote (dated 1991) says “Institutions do not just constrain options: they establish the very criteria by which people discover their preferences.” Key ideas are 'goodness-of-fit', the reproduction of arrangements seen as legitimate because they fit established templates (DiMaggio and Powell 1983); institutions as symbol systems, cognitive scripts and moral templates that provide 'frames of meaning' (Hall and Taylor 1996); an internalised rather than external understanding; and the hegemonic character of norms and values. The example is Savini and Dembski (2016): the new development agenda for Amsterdam-Noord was enabled by a set of symbols linking the industrial shipyard past to a creative-economy future, showing planning as creating meaning and building consensus.",
+    "Historical institutionalism, again via Hall and Taylor (1996), sees institutions as formal or informal procedures, routines, norms and conventions embedded in the organisational structure of the polity or political economy. Its key concepts are path dependency and critical junctures, with an emphasis on structural elements. The example is Holsen (2021), who asks why public participation in Norwegian land-use planning has remained relatively weak despite decades of legislation meant to strengthen it, and answers with a path-dependent explanation. The evolutionary strand is not given its own definition slide; it enters through Moroni in the exercise and in the take-home messages."
+   ]
+  },
+  {
+   "h": "Institutional change: can planners design institutions?",
+   "p": [
+    "The discussion part starts from 'planning as institutional design'. Alexander (2005, p. 210 on the slide) notes that much planning involves institutional transformation, and that some have even suggested that 'planning is institutional design' (Innes 1995). The slide draws the implied chain: planners design institutions, institutions shape behaviour, and behaviour reshapes society and space. This is the most optimistic view of planning agency in the lecture, and the three readings that follow can each be read as a qualification of it.",
+    "Students then pick one of three readings and answer: how does the author explain the limits of deliberate, top-down design; what mechanisms of change are emphasised; and what role do planners have compared with the view of planners as intentional designers. The slide quotes act as an answer key. For Dembski and Salet: symbolic markers cannot be used voluntaristically, new institutions emerge through new cultural practices that become institutionalised, institutionalisation is ongoing normalisation and habituation, and “The art of planning is to find niches of underinstitutionalised space.” (p. 622 on the slide).",
+    "For Sorensen: critical junctures are short periods with a heightened probability that agents' choices affect the outcome; path dependence is usually not 'lock-in' but continuous contestation within a relatively constrained range of options; and critical juncture analysis shows how actors use conjunctural crises to push particular changes. For Moroni: most institutions are the unintentional outcome of slow evolution, so they cannot be designed like organisations, but acknowledging this does not prevent intervention; it calls for an approach different from the 'taxis-oriented' (engineering) one."
+   ]
+  },
+  {
+   "h": "Why it matters and the take-home messages",
+   "p": [
+    "The closing argument returns to Savini's phrase and adds: “How we conceptualize institutions shapes how we conceptualize planning agency”. If institutions are external rules, planners can redesign them; if they are internalised meanings, planners must work with symbols and practices; if they are path-dependent, planners wait for and use junctures; if they are evolved orders, planners should be modest. The homework makes this concrete: for the problem 'Housing is becoming unaffordable', define the problem and likely solution from a historical, a sociological and an evolutionary institutionalist perspective, and post it to the discussion forum.",
+    "The take-home messages are fourfold. Institutions are not the same as organisations in new institutionalism. They are defined differently depending on the tradition, but generally refer to systems of embedded rules and norms. The institutionalisms rest on different underlying assumptions about agency and structure and about institutional change. And the family consists of rational choice, sociological, historical and evolutionary institutionalism. The lecture ends, with a wink, on the break as 'an institution we all fully support'."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not the lecturer's claim. The lecture is essentially a map for placing the week's readings. Taylor's rent-seeking landowners and Ostrom's commons fit the rational choice corner: individuals with given preferences, institutions as external constraints and incentives. Dembski and Salet use Table 1 in their article to place themselves in the sociological, 'in action' quadrant. Sorensen is the historical institutionalist, and Moroni the evolutionary (Hayekian) voice.",
+    "On the course dimensions, the strands spread across structure and agency: rational choice leans to agency within rules, historical institutionalism to structure with moments of agency, sociological institutionalism to internalised structure that is re-enacted in practice. On deliberate versus emergent change, the range runs from 'planning is institutional design' (Alexander, Innes) to Moroni's claim that planning in the strict sense cannot be applied to institutions. The recurring question for exams is therefore not only what an institution is, but what that definition implies for how much planners can deliberately change."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Court orders state to hit nitrogen target",
+  "d": "On 22 January 2025 the District Court of The Hague ruled, in a case brought by Greenpeace, that the Dutch state acts unlawfully by not meeting its statutory nitrogen targets. By 31 December 2030, 50% of nitrogen-sensitive Natura 2000 nature must be below the critical deposition value, with priority for the most vulnerable areas, or the state pays €10 million. The court noted that the PAS permitting approach (2015-2019) violated EU law and called cancelling the €24.3 billion Transition Fund a step backwards.",
+  "why": "Read through the neo-institutionalist map, each strand sees a different problem. Historical institutionalism sees path dependence (permits granted on expected future effects under PAS) and asks whether court rulings become a critical juncture; rational choice institutionalism looks at payoff rules such as the €10 million penalty that change the state's incentives; sociological institutionalism points to shared meanings of farming and nature that explain resistance; evolutionary institutionalism would doubt that a top-down target can quickly reshape evolved rural practices. Limit: a ruling is one formal rule, while the strands explain whole rule systems.",
+  "src": {
+   "name": "De Rechtspraak (Rechtbank Den Haag)",
+   "title": "Staat moet wettelijk stikstofdoel 2030 halen en voorrang verlenen aan gebieden met grootste stikstofoverbelasting",
+   "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/rechtbank-beveelt-nederlandse-staat-wettelijk-stikstofdoel-2030-te-halen",
+   "date": "2025-01-22"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Ostrom's IAD framework",
+    "svg": "[SVG figure; labels: Exogenous variables | Biophysical/material | conditions | Attributes of | community | Rules | Action arena | Action | situations | Participants | Interactions | Outcomes | Evaluative | criteria | feedback: outcomes change the exogenous variables and the arena]",
+    "cap": "Ostrom's Institutional Analysis and Development framework: exogenous variables (incl. rules) shape the action arena, whose interactions produce outcomes judged by evaluative criteria; dashed lines are feedback. The seven rule types in the table below specify the 'Rules' box. After Ostrom, HC7.",
+    "slide": "HC7 slides 16–17"
+   },
+   {
+    "title": "The prisoners' dilemma",
+    "svg": "[SVG figure; labels: Prisoner B | confesses | remains silent | Prisoner A | confesses | remains silent | A: 5 years | B: 5 years | what rational actors choose | A: 0 years (goes free) | B: 20 years | A: 20 years | B: 0 years (goes free) | A: 1 year | B: 1 year | best joint outcome | Confessing is better for each whatever the other does, so both end up with 5 years.]",
+    "cap": "The payoff matrix shown before Hardin's tragedy of the commons: individually rational choices produce a collectively worse outcome. Ostrom's question is how people create institutions that make cooperation credible (the 'problem of commitment'). Values from the slide (Encyclopaedia Britannica graphic).",
+    "slide": "HC7 slide 13"
+   },
+   {
+    "title": "Institutions between structure and agency",
+    "svg": "[SVG figure; labels: STRUCTURE | (rules) | AGENCY | (freedom) | choices | Neo-institutionalism reconciles | structure and agency (Giddens) | actors choose, but within | rules that constrain and enable]",
+    "cap": "The slide's diagram: choices sit where structure (rules) and agency (freedom) overlap. Institutions are the way new institutionalism answers and reconciles the structure–agency relationship.",
+    "slide": "HC7 slide 19"
+   },
+   {
+    "title": "Rational choice institutionalism: how institutions shape action",
+    "svg": "[SVG figure; labels: Actions | Interests | Beliefs about possible | action opportunities | and their effects | Information | institutions supply | certainty and information]",
+    "cap": "Diagram on the rational choice slide (after Sorensen 2017): information shapes actors' interests and their beliefs about possible actions and effects, which together drive action. Institutions work by providing certainty, information and credible commitment.",
+    "slide": "HC7 slide 25"
+   },
+   {
+    "title": "The double life of institutions",
+    "svg": "[SVG figure; labels: CONTEXT | framework within | which planning | decisions are made | Planning practice | (actors) | OBJECT | the outcome of | planning processes | constrain | produce | e.g. land planning law | e.g. a land-use plan | outcomes become the next context | \"Institutions are ontologically both the context and object of | planning practices from a relational perspective\" (Savini 2019)]",
+    "cap": "Institutions constrain actors but are also the outcome of human action. The slide illustrates context with a set of land planning law volumes and object with a conceptual land-use plan.",
+    "slide": "HC7 slides 9–10, 37"
+   },
+   {
+    "title": "Planning as institutional design, and its limits",
+    "svg": "[SVG figure; labels: Planners | design | institutions | shape | behaviour | reshape | society/space | 'planning is institutional design' (Innes 1995, via Alexander 2005) ... qualified by the three readings: | Dembski &amp; Salet | symbols can't be used | voluntaristically; find | under-institutionalised | niches | Sorensen | change at critical | junctures, then within a | constrained pathway | Moroni | institutions evolve | unintentionally; intervene, | but not taxis-style]",
+    "cap": "Top: the chain on the 'planning as institutional design' slide. Bottom: how the quotes the lecturer selected for each reading limit that chain.",
+    "slide": "HC7 slides 31, 34–36"
+   },
+   {
+    "title": "Path dependence in numbers: US mortgage interest deduction",
+    "svg": "[SVG figure; labels: $0 | $40bn | $80bn | $120bn | $160bn | 2000 | 2002 | 2004 | 2006 | 2008 | 2010 | 2012 | 2014 | Treasury revenue loss from deducting mortgage interest (US) | ≈ $150bn | ≈ $60bn | approximate values read from the slide's chart (Subsidyscope / Pew data)]",
+    "cap": "Chart on the historical institutionalism slide: the cost of deducting mortgage interest on owner-occupied homes grows from about $60bn to about $150bn a year (2000–2014). An established rule keeps reproducing itself; link this to the 'housing is becoming unaffordable' homework.",
+    "slide": "HC7 slide 28"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Ostrom's seven types of rules (IAD)",
+    "head": [
+     "Rule type",
+     "What it does",
+     "Fishing example on the slide"
+    ],
+    "rows": [
+     [
+      "1 Position",
+      "Defines the roles or positions available to participants",
+      "-"
+     ],
+     [
+      "2 Boundary",
+      "Specifies how actors enter or leave a position",
+      "Membership rules for a fishing cooperative"
+     ],
+     [
+      "3 Choice",
+      "Defines what an actor in a position is allowed, obliged or forbidden to do",
+      "Fishers may only use certain gear"
+     ],
+     [
+      "4 Aggregation",
+      "Determines how individual actions combine into collective decisions",
+      "Majority voting in a village council"
+     ],
+     [
+      "5 Information",
+      "Regulates what information must, may or must not be shared",
+      "Fishers must report catches to the cooperative"
+     ],
+     [
+      "6 Payoff",
+      "Assigns rewards or sanctions to actions and outcomes",
+      "Fines for breaking quotas, bonuses for compliance"
+     ],
+     [
+      "7 Scope",
+      "Defines the outcomes that are affected",
+      "Areas off-limits to fishing; protected species"
+     ]
+    ],
+    "slide": "HC7 slide 17"
+   },
+   {
+    "title": "Institutions visible in morphology (Tennekes, Harbers & Buitelaar 2015)",
+    "head": [
+     "Flanders (aerial photo, Fig. 3)",
+     "Netherlands (aerial photo, Fig. 2)"
+    ],
+    "rows": [
+     [
+      "Development with cul-de-sacs",
+      "Identical houses"
+     ],
+     [
+      "Vacant lot",
+      "Hierarchical road system"
+     ],
+     [
+      "Open spaces in agricultural use",
+      "Clustered amenities"
+     ],
+     [
+      "Ribbon development",
+      "Clear plan boundary"
+     ]
+    ],
+    "slide": "HC7 slide 20"
+   },
+   {
+    "title": "Exercise: the quotes the lecturer picked per reading",
+    "head": [
+     "Reading",
+     "Strand",
+     "Selected quotes (page)"
+    ],
+    "rows": [
+     [
+      "1 Dembski & Salet (2010)",
+      "Sociological",
+      "Reality socially constructed, but symbolic markers 'cannot be used in a voluntaristic way' (621); new institutions emerge through new cultural practices that become institutionalised (622); institutionalisation = ongoing normalisation and habituation (618); 'the art of planning is to find niches of underinstitutionalised space' (622)"
+     ],
+     [
+      "2 Sorensen (2024)",
+      "Historical",
+      "Critical junctures = short periods of heightened probability that agents' choices matter (1807); path dependence usually not 'lock-in' but a constrained developmental pathway (1814); actors use conjunctural crises to further particular changes (1805)"
+     ],
+     [
+      "3 Moroni (2010)",
+      "Evolutionary",
+      "Most institutions are the unintentional outcome of slow evolution (279); emergent realities cannot be designed like organisations (282); this does not prevent intervening, but calls for an approach different from the taxis-oriented one (287)"
+     ]
+    ],
+    "slide": "HC7 slides 32–36"
+   }
+  ],
+  "points": [
+   {
+    "t": "Prisoners' dilemma as the starting puzzle",
+    "d": "Before Hardin, the lecture shows the prisoners' dilemma: each prisoner does best by confessing whatever the other does, so both get 5 years instead of the 1 year each they would get by staying silent. It is the logic behind the tragedy of the commons and the 'problem of commitment' that Ostrom's institutions solve.",
+    "slide": "HC7 slide 13"
+   },
+   {
+    "t": "Hardin: the lecturer's question",
+    "d": "After stating Hardin's (1968) argument (pasture, fish stock, atmosphere as examples of shared resources), the slide simply asks 'Solution?'. Ostrom's answer on the next slide is self-organised rules rather than only privatisation or the state.",
+    "slide": "HC7 slides 14–15"
+   },
+   {
+    "t": "Sources behind the definitions",
+    "d": "The 'institutionalisms may disagree on' slide cites Sorensen (2017), 'New institutionalism and planning theory', Routledge Handbook of Planning Theory pp. 250–263. The list of three paradigms cites Salet (2018), Public Norms and Aspirations: The Turn to Institutions in Action (Routledge).",
+    "slide": "HC7 slides 22, 24"
+   },
+   {
+    "t": "Eurovision rulebook",
+    "d": "The Eurovision slide shows the EBU logo (organisation) next to the booklet 'Rules of the 59th Eurovision Song Contest' (Copenhagen 2014) as a formal institution, and asks: 'Can you come up with any formal/informal rules of the Eurovision?'",
+    "slide": "HC7 slide 7"
+   }
+  ]
+ }
+}

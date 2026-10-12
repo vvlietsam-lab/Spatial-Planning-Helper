@@ -1,0 +1,505 @@
+{
+ "id": "p6",
+ "n": 6,
+ "theme": 2,
+ "title": "Planning for sustainability in African cities",
+ "who": "Shaun Smith",
+ "slides": true,
+ "lecture": [
+  "Over half of Africa's urban population lives in informal settlements, often on marginal, risky land. Colonial planning (British: military planning, then master planning via Town Planning Ordinances 1920s–50s) meant evictions, commodification of land, dual land laws, institutionalised racism, 'public health' discourses and green belts as exclusion (Njoh: domination, intimidation, surveillance). Legacies: fragmentation (Maputo: services only for the colonial city), elite capture of European areas, costly services, assumptions of tax bases and data capacity that did not hold.",
+  "Postcolonial thinking: colonial knowledge production served domination; theory shouldn't be produced mainly in the West (Miraftab: planning treats Southern cities that don't fit Western models as failures). Post-independence master planning persisted (Accra; Dodoma under Ujamaa), centralised, by foreign consultants, little participation, often elite-captured. Southern urbanism: 'seeing from the South' (Watson), 'ordinary cities' (Robinson), conflicting rationalities.",
+  "Slums and informality: Roy (2007/2011): informality as a mode of urbanisation and a state practice of (de)legitimising (wealthy malls can be 'informal' yet legitimate). Upgrading shifted from resettlement to in-situ, participatory upgrading (risk: benefits landlords). De Soto: give titles to 'heroic entrepreneurs' to unlock capital. Critics: tenure security doesn't need title; titling is costly; it favours those who can exploit markets.",
+  "Trends: insurgent planning (Miraftab: invited vs invented spaces), inverse governmentality, co-production; TOD and 'Corridors of Freedom' (Johannesburg), only partly realised; gated communities and new cities (Tatu City, Kenya) cause fragmentation, evictions and prices out of touch with context (Keeton & Nijhuis 2019)."
+ ],
+ "man": {
+  "cite": "De Satgé, R. & Watson, V. (2018). Urban Planning in the Global South: Conflicting Rationalities in Contested Urban Space. Palgrave, ch. 1–2.",
+  "status": "full",
+  "one": "Planning theory and 'best practices' are place-blind, built on Global North assumptions (strong civil society, capable institutions, formal economies). In Southern cities, state–society engagement is shaped less by a shared 'public interest' than by deep conflicting rationalities between techno-managerial, marketised state planning and marginalised communities surviving under informality.",
+  "summary": [
+   "Ch. 1: a southern turn challenges Northern knowledge assumed to hold everywhere. The Global South differs (rapid urbanisation, weak civil society, under-resourced institutions, informal economies, poverty) and is shaped by colonial histories; 'southern' is a perspective, not a geography. Imported 'best practices' (Garden City, neighbourhood unit, Radburn) justified apartheid removals. Case: Langa, Cape Town (1923 Garden City township), the N2 Gateway megaproject (Breaking New Ground policy, 2004) that sought to 'eradicate' informality at Joe Slovo settlement.",
+   "Watson (2003) coined conflicting rationalities from a Cape Town inquiry: clashing state and shack-dweller worldviews that Habermasian consensus planning cannot resolve. Planners must work with deep difference. Method: a paradigmatic single case (Flyvbjerg), retroductive, with visual methods (photo-elicitation) and interviews in English and Xhosa.",
+   "Ch. 2: a 'southern theorising project' rather than a new North/South binary: critical perspectives on existing theory, rooted in place ('origin narratives', phronesis), with meso-level generalisation. Rationality = a way of seeing, linked to power (Foucault; Flyvbjerg & Richardson): power defines what counts as rational; 'technical' framing is an exercise of power. Identity (race, class, gender, language) shapes rationality; language filters meaning. Governmentality, the shadow state. The 'interface' (Li 2007) is where rationalities clash. Proposition: conflict of rationalities, not a public interest, is the starting point."
+  ],
+  "concepts": [
+   [
+    "Southern turn / southern theorising project",
+    "Critique of place-blind Northern theory; a perspective, not a geography."
+   ],
+   [
+    "Conflicting rationalities",
+    "Techno-managerial, modernising, marketised state planning vs survival logics of marginalised, often informal residents."
+   ],
+   [
+    "Interface",
+    "Times and places where rationalities meet and contest (Li 2007)."
+   ],
+   [
+    "Rationality as power",
+    "Power defines what counts as rational/reality (Foucault, Flyvbjerg)."
+   ],
+   [
+    "Best-practice 'landing'",
+    "Imported models applied without checking fit."
+   ],
+   [
+    "Informality (Roy)",
+    "A mode of urbanisation; the state decides what is legitimate."
+   ]
+  ],
+  "quotes": [
+   "\"categories such as state, civil society, property ownership… are assumed to be universal, but can have severe consequences for those unable or unwilling to conform\" (de Satgé & Watson 2018, on the slides)"
+  ],
+  "examples": [
+   {
+    "t": "Delhi's evictions 'in the public interest'",
+    "d": "Bhan (2016) shows how courts in Delhi appropriated the planning concept of acting 'in the public interest' to justify evictions of basti residents, some from long-established settlements. It illustrates rationality as power: a familiar planning norm is redefined to legitimise excluding the poor.",
+    "src": "text",
+    "p": "pp. 17-18"
+   },
+   {
+    "t": "Bogotá BRT, Brazilian participatory budgeting",
+    "d": "South-South borrowing (bus rapid transit from Bogotá) and even South-North borrowing (participatory budgeting from Brazil) are growing. The authors warn this often falls into the old 'best practice' trap, transferring models without understanding the contextual preconditions for success.",
+    "src": "text",
+    "p": "p. 17"
+   },
+   {
+    "t": "'Government knows what people want'",
+    "d": "Officials on the N2 Gateway knew community engagement should take place, but found it too daunting, and higher levels of government discouraged it on the grounds that a democratic government 'knows what the people want'. It shows the techno-managerial state rationality that clashes with residents' rationalities, and why consensus-based participation was never really attempted.",
+    "src": "text",
+    "p": "p. 4"
+   },
+   {
+    "t": "Mozambique: 7% state-built housing",
+    "d": "Of 86,300 houses built in Mozambique from 1980 to 1997, only 7% were supplied by the state, while master planning approaches that 'do not fit the realities of urban development' persisted. It shows the mismatch between imported planning models and how cities are actually built, largely informally.",
+    "src": "slides"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the chapters ask and why",
+    "p": [
+     "The mandatory reading is the first two chapters of Richard de Satgé and Vanessa Watson's book Urban Planning in the Global South (2018). Chapter 1 introduces the book and its Cape Town case; chapter 2 builds the theoretical frame. The opening questions set the tone: how different does planning theory and practice need to be in different parts of the world, and how far must planners understand the context in which they intervene? The authors argue that both theory and practice have favoured concepts that are 'place-blind' and held to be valid everywhere, and they want to 'foreground the importance of recognising place and location in planning' if planning is to reach its own aims of justice, equity and sustainability and avoid unintended harm (p. 1).",
+     "The authors write from long experience in South Africa: Watson as a planning theorist, de Satgé as a researcher on land, livelihoods and migration in southern Africa, whose doctoral research forms the book's case. Their position is explicitly part of what they call the 'southern turn' in planning scholarship (p. 2). They add that imported concepts now come not only from the global North but also from rapidly modernising parts of the global South, and that this experience of watching ideas arrive from elsewhere, often with little thought about local conditions, motivated the book."
+    ]
+   },
+   {
+    "h": "The southern turn and the problem of 'landing' best practices",
+    "p": [
+     "Chapter 1 explains the southern turn briefly. Planning theory has long been built on the assumed characteristics of global North regions: relatively strong civil societies, well-resourced governance institutions, developed formal economies and lower poverty and unemployment (p. 2). Southern theorists argue that the global South differs enough to need new concepts, and is still shaped by colonial histories that tie it to the North, including in how knowledge is produced. Typical features include rapid urbanisation (though no longer in Latin America), weak and fractured civil society, poorly resourced institutions, largely informal economies and high poverty and inequality. Crucially, 'southern' refers less to a geographical South than to 'a perspective or orientation' (p. 2).",
+     "The authors are especially concerned with how planning concepts travel. Approaches from the global North, and more recently from fast-modernising parts of the South, 'tend to ‘land’ in this part of the global South with little preliminary investigation of their potential ‘fit’, little consultation with those who feel their impact and frequently with highly negative outcomes' (p. 2). South Africa is a stark example: the apartheid government used Northern 'best practice' models such as Garden Cities, neighbourhood units, Radburn layouts and satellite towns to justify racial segregation and the forced removal of families of colour to distant new suburbs (p. 3). Apartheid has gone, but state planning still draws on inappropriate models that deepen the marginalisation of the poorest, mostly black, households."
+    ]
+   },
+   {
+    "h": "From an inquiry report to 'conflicting rationalities'",
+    "p": [
+     "The book's core concept has a concrete origin. In 2003 Watson read the report of a Commission of Enquiry set up by the Cape Town municipality after an informal settlement upgrade plan was rejected by the community and led to protests. The verbatim evidence showed a clash between the modernising ambitions of the state and the very different world views of shack dwellers, which were themselves fragmented and conflictual (p. 3). Watson (2003) coined 'conflicting rationalities' for this divergence.",
+     "Her article also challenged the dominant planning theory of the time: communicative and collaborative planning, inspired by Habermas, which held that the right kind of dialogue between planners and communities could produce consensus. Instead, planners 'needed to understand how to accept and work with deep difference and ongoing conflict' (p. 4). The authors admit that a concept based on one case and secondary sources is hard to defend and risks oversimplifying state-society relations. The book therefore tests it in depth. Interestingly, interviews showed that officials did not consciously follow planning theories; they knew engagement should happen but found it too daunting, and higher-level officials discouraged it on the grounds that a democratic government 'knows what the people want' (p. 4)."
+    ]
+   },
+   {
+    "h": "Method and the Langa case",
+    "p": [
+     "The research is a single case study classed as 'paradigmatic' (following Flyvbjerg): a case with metaphorical and prototypical value that highlights general features of a society (p. 4). It is 'retroductive': it starts from a hypothesised concept (conflicting rationalities), goes to the empirical case, and then speaks back to the concept. The case is Langa, Cape Town's oldest African township, designed in 1923 along British Garden City lines, with about 52,000 people in 3.09 km2 in a city of 3.7 million (pp. 3, 5). Methods embraced the 'visual turn': satellite images and photographs served as triggers for storytelling by residents, officials and civil society actors, in two clusters of interviews (residents; strategic state actors and intermediaries). Interviews were held in English and Xhosa, which revealed gaps and distortions in meaning caused by translation (p. 5).",
+     "The planning intervention studied is the N2 Gateway. In 2004 national housing policy was revised as Breaking New Ground (BNG), which sought well-located land for affordable, denser rental housing and in situ upgrading, reversing the first post-apartheid wave of peripheral housing that had reproduced apartheid geography. Yet BNG contained a contradiction: it announced a new upgrading instrument whose purpose was 'to support the focused eradication of informal settlements' (p. 6). The N2 Gateway megaproject (2005) piloted BNG in Langa and targeted Joe Slovo, an informal settlement along the N2 highway, aiming to 'eradicate' it and replace it with rental and ownership units (p. 6).",
+     "The project sparked long conflicts. It escalated rival claims on space, identity and belonging between Langa 'borners' (people born in the city with pre-democratic urban residence rights), backyarders, hostel dwellers and informal settlers, and provoked protest, eviction attempts and a Constitutional Court judgement (p. 6). The conceptual frame draws on Foucault (power, governmentality, biopolitics) and on Tania Li's contrast between 'the will to govern and improve' and the poor's 'will to survive and thrive' (pp. 6–7)."
+    ]
+   },
+   {
+    "h": "What the book's later chapters find (as previewed)",
+    "p": [
+     "Chapter 1 previews the findings. Officials' narratives show that it is a fallacy to treat the state as a single entity: there are many wills to govern, diverse improvement agendas and conflicts within the state (p. 7). Residents' narratives show a granular mix of competing claims within the township, which the state's neat megaproject logic completely failed to read (p. 7). The concept of conflicting rationalities thus has value but needs elaboration in context, and the case challenges simple binaries of state versus society.",
+     "Two implications follow for planning (p. 8). First, planners must understand contexts in depth before intervening, cataloguing the rationalities behind the will to govern and how they meet the will to survive: 'place' matters everywhere, but especially in under-researched regions or regions studied through imported categories. Second, the thick social complexity of Langa contrasts sharply with 'thin and instrumental assumptions' of public participation and community-driven collaborative planning found both in developmental-state discourse and in Northern planning theory. The book ends (chapter 8) by generating theoretical propositions to be tested elsewhere, not by claiming general validity."
+    ]
+   },
+   {
+    "h": "Chapter 2: the southern turn across disciplines",
+    "p": [
+     "Chapter 2 frames the whole book. It first reviews the southern turn more broadly. Postcolonial thought links power and knowledge: universal theory, when unpicked, often turns out to come from very specific and parochial situations (p. 12). The Comaroffs reject seeing the South as a source of 'unprocessed data'; Connell describes a global 'political economy of knowledge' in which the North controls funding, publishing and citation, so that Southern work is labelled mere data collection; Mignolo argues there is 'no modernity without coloniality' (p. 13). Even the IPCC has had 80–82% of its authors and reviewers from OECD countries (p. 14).",
+     "In urban studies the debate is sharp. Scott and Storper argue that one general theory fits all cities and differences are just 'empirical variation'; Roy responds that this decontextualises cities and reproduces Eurocentrism, and that southern theory asks for 'a new relationality of theory', not just more city types (p. 14). Robinson's critique of 'global cities' and Roy and Ong's 'worlding' question best-practice copying (pp. 14–15).",
+     "In planning, theory relies on Northern disciplines and on Habermas and Rawls, reflecting faith in Western liberal democracy. As Porter puts it, planning 'is not a view from nowhere' (p. 15). Planning differs from other disciplines because it must act, so bad theory has direct effects: African cities are littered with failed imported planning efforts based on wrong assumptions about household strategies, car ownership, land and institutional capacity (p. 16). Meanwhile Northern theory offers little help with deep conflict, profit-driven land development under outdated master plans, or patronage politics. Newer Southern work includes Holston's 'insurgent citizenship', Roy's and Yiftachel's reframing of informality as a practice of the state, Yiftachel's 'gray spaces', Bhan's analysis of Delhi courts using the 'public interest' to justify evictions, and Porter's point that categories such as state, civil society and property are assumed universal but harm those who cannot conform (pp. 17–19)."
+    ]
+   },
+   {
+    "h": "Why a 'southern theorising project'",
+    "p": [
+     "The authors prefer to speak of a 'southern theorising project' rather than a finished southern theory, and address four objections (pp. 20–24). First, does it create a new North/South binary? No: following Connell, the Comaroffs and Bhan, 'southern' is relational and perspectival, echoing Nietzschean perspectivism and Haraway's critique of 'the view from nowhere'; 'seeing from the South' exposes the parochialism of pseudo-universal theory (pp. 20–21). Second, can theory still generalise? Yes, but at a 'meso-level': midlevel concepts developed inductively, tied to the contexts that produced them, overlapping and changing over time, a position between universalism and particularism (pp. 21–22).",
+     "Third, which conceptual lenses? Most (Marxist, Foucauldian, Habermasian) come from the North, but rejecting them leads nowhere; better is a 'critical appropriation' of existing knowledge, such as Chatterjee's critical use of Foucault (pp. 22–23). Fourth, which norms? Planning needs a normative stance, but values differ between and within places: informality, which people use to secure shelter and income, is seen by the wealthy and city managers as disorder, and reconciling such norms will take more than collaborative planning (p. 23). Instead of copying best practices, the authors endorse Healey's 'origin narratives' (every travelling idea should come with a story of its context and preconditions) and Flyvbjerg's phronetic, value-aware case research (pp. 23–24). In sum, the southern project is critical of existing theory, rooted in place, open to meso-level generalisation, and 'a conceptual rather than a physical location' (p. 24)."
+    ]
+   },
+   {
+    "h": "Conflicting rationalities: the concept",
+    "p": [
+     "The second half of chapter 2 defines the concept, posed as an alternative to consensus-based communicative and collaborative planning (p. 25). Rationality means a 'way of seeing', a perspective, a set of values or a world view of actors in a setting. Following Foucault and Flyvbjerg and Richardson, the authors accept that 'power is used (by actors in a particular context) to define what is counted as rationality and so what is counted as reality' (p. 26). Power is pervasive but can be productive as well as destructive, and framing knowledge as 'technical' or 'expert' is itself an exercise of power.",
+     "Identity shapes rationality: ethnicity, race, class, gender and language all mattered in Cape Town, with Fincher and Jacobs' 'located politics of difference' showing that people mobilise different aspects of identity depending on context (pp. 26–27). Language is a key filter: English dominates policy and law, so officials who speak only English or Afrikaans cannot enter the Xhosa-speaking worlds of hostels and informal settlements unguided (pp. 27–28). Governmentality (Foucault's 'conduct of conduct') helps analyse who governs whom and how, and some postcolonial states show a 'shadow state' of brokers and contractors around the official state (p. 28).",
+     "The central tension is between 'techno-managerial, modernising and marketised' state planning, often allied with profit-driven developers, and marginalised populations surviving largely under informality or 'illegality' (p. 29). It plays out at the 'interface' (Li): the times and places where rationalities meet and are contested, where issues are 'rendered technical' or where the marginalised may win gains. The authors immediately list critiques of their own concept: is it a simplistic binary? What about conflicts within groups, and actors who cross the interface? Can the encounter be positive? Any concept, they say, is a proposition to be tested (p. 29)."
+    ]
+   },
+   {
+    "h": "Conclusions and what the authors want",
+    "p": [
+     "The chapter's conclusion states the proposition the book tests: state-society engagement in planning in global South cities 'is shaped more often by a deep ‘conflict of rationalities’ between state and market, and impoverished urban communities, than by some kind of ‘public interest’ which could provide a starting point for participatory and consensus-seeking processes' (p. 30). What the authors want is not a new universal model, but planning that begins with deep contextual understanding, is honest about power and conflict, treats imported ideas with suspicion, and builds theory from Southern cases that can speak back to planning thought everywhere. Their own limits are acknowledged: one case, a provisional concept, and the risk of binary thinking."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis. Lecture 6 uses the book to frame colonial planning and its legacies, postcolonial critique and 'seeing from the South'; the slide quoting that categories like state and property are 'assumed to be universal' is the Porter passage summarised on p. 18. The lecture's material on colonial master plans, Garden Cities as tools of segregation, Roy on informality as state practice, and insurgent planning all appear here as background to the concept of conflicting rationalities.",
+     "On the course dimensions, the reading is firmly situated (knowledge comes from place), pluralist and conflict-oriented, and critical of consensus. It gives agency to marginalised residents but also stresses structures of power and colonial legacies; its normative commitment is to justice for the urban poor. It speaks back to the other readings. Næss (lecture 1) also rejects all-stakeholder consensus, but from a Northern, environmental-goals standpoint that assumes a capable state; de Satgé and Watson would ask whose rationality defines those goals. Campbell's triangle (lecture 3) assumes conflicts can be negotiated between legitimate interests; here the conflict runs deeper, between world views. Angelo and Wachsmuth (lecture 2) show informal settlements being recast as 'models' of sustainability, which this reading would treat carefully as another travelling Northern framing. And lecture 7's Chinese case offers a very different state, where participation is state-bounded, giving a useful comparison of how rationalities meet at the interface."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Nairobi flood demolitions in Mathare",
+   "d": "After floods killed 238 people in Kenya in spring 2024, the government ordered thousands living near rivers, dams and other flood-prone areas to leave and began demolishing homes, including in the Mathare informal settlement along the Nairobi River. Displaced households were offered 10,000 shillings (about $75); three people, including two children, died in Mathare after being run over by bulldozers, and most evicted residents said they did not know where to go.",
+   "why": "Read through De Satgé and Watson, this is a clash of conflicting rationalities: the state's techno-managerial rationality (clear the riparian zone for safety and climate adaptation) meets the survival rationality of residents for whom informal riverside housing is the only affordable option. A legitimate planning goal, flood safety, becomes a tool of displacement because the plan ignores how the poor actually live. Limit: the report covers the emergency phase, not the longer-term Nairobi river plans or any resettlement that followed.",
+   "src": {
+    "name": "VOA Africa",
+    "title": "Kenya government demolishes homes in flood-prone areas",
+    "url": "https://www.voaafrica.com/a/kenya-government-demolishes-homes-in-flood-prone-areas/7602581.html",
+    "date": "2024-05"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: State + market | techno-managerial | modernising · marketised | 'eradicate informality' | \n  | Marginalised residents | survival · informality | kinship networks | 'illegality' | \n  | interface | \n  | Not a shared 'public interest' → consensus is not the starting point (vs Habermas)]",
+ "cap": "De Satgé & Watson's core proposition.",
+ "rec": [
+  {
+   "cite": "Watson, V. (2014). Learning planning from the south: ideas from the new urban frontiers. In Parnell & Oldfield (eds), Routledge Handbook on Cities of the Global South.",
+   "basis": "Abstract not retrieved: based on my general knowledge of the text",
+   "abs": "Argues that planning theory should learn from Southern contexts ('new urban frontiers' of rapid, informal urbanisation) rather than export Northern models: take informality, weak states and conflicting rationalities as starting points, and value situated, co-produced knowledge.",
+   "slides": "Not named on the slides. Related: 'Seeing from the South' (Watson 2008/2009) and the conflicting-rationalities slides."
+  },
+  {
+   "cite": "Castán Broto et al. (2022). Co-production outcomes for urban equality. Current Research in Environmental Sustainability 4.",
+   "basis": "Abstract retrieved",
+   "abs": "Co-production (citizens and institutions delivering a shared outcome) answers critiques of participatory planning and challenges epistemic injustice. Across six cities it can build long-term, adaptable partnerships for urban equality: distribution, reciprocal recognition, political access and plural knowledges. It needs constant adjustment and trade-offs, and its transformative impact isn't always measurable.",
+   "slides": "Not named on the slides. Related: 'community based informal processes', insurgent planning, invited vs invented spaces."
+  }
+ ],
+ "exam": "Theme-2 essay core: 'Can planning theories from one context be transferred to another?' (the literal portfolio question). Use conflicting rationalities, colonial legacies, Roy on informality, and contrast with the Dutch polder model and China.",
+ "table": {
+  "head": [
+   "Issue for a southern theorising project",
+   "The objection or question",
+   "De Satgé and Watson's answer"
+  ],
+  "rows": [
+   [
+    "1. A new North/South binary?",
+    "Does 'southern' theory mean separate theories for a geographical South?",
+    "No: 'southern' is relational and a perspective (Connell, Comaroffs, Bhan); 'seeing from the South' exposes parochial universalism (pp. 20–21)"
+   ],
+   [
+    "2. Generalisation",
+    "If theory must start from place, can it apply beyond one case?",
+    "Yes, as meso-level theory: inductive, tied to its context, provisional and changing (pp. 21–22)"
+   ],
+   [
+    "3. Conceptual lenses",
+    "Most lenses (Marx, Foucault, Habermas) come from the North",
+    "Critical appropriation of existing knowledge rather than culture-bound 'indigenous' theory (pp. 22–23)"
+   ],
+   [
+    "4. Which norms?",
+    "Values about a good or just city differ between and within places",
+    "Planning is political; reconciling clashing norms (e.g. on informality) needs more than collaborative planning (p. 23)"
+   ],
+   [
+    "How ideas should travel",
+    "'Best practice' transfer ignores context",
+    "Healey's 'origin narratives' and Flyvbjerg's phronetic case research (pp. 23–24)"
+   ]
+  ]
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Shares of urban deprivation fall, numbers rise",
+    "svg": "[SVG figure; labels: % of urban population (avg of countries) | Total urban population (millions) | 0% | 20% | 40% | 60% | 80% | 100 | 200 | 300 | 2000 | 2022 | 2000 | 2022 | ≈66% | ≈50% | ≈150m | ≈295m | in slums | without basic sanitation | without electricity | without basic water | shapes and values read approximately from the slide's charts]",
+    "cap": "After UN-Habitat, State of African Cities 2026 (Figures 4 and 5, authors using WDI data). Shares fell from 2000 to 2022 (in slums ≈66% to ≈50%, with an uptick after 2020; without electricity ≈43% to ≈19%), but because cities grow so fast, the number of urban Africans in slums roughly doubled (≈150 to ≈295 million) and the number without basic sanitation rose to ≈265 million. Globally the slum share fell from 28% (2000) to 23% (2014), then rose to 23.5% (2018).",
+    "slide": "L6 slides 6–7"
+   },
+   {
+    "title": "Climate change risk: African cities sit in the high and extreme bands",
+    "svg": "[SVG figure; labels: Low | Medium | High | Extreme | Africa | Europe and Central Asia | Port Elizabeth | Cape Town | Johannesburg | Dakar | Nairobi | Luanda | Lagos | Kananga | Glasgow | London, Paris | Moscow | Madrid, Rome | Athens, Naples | bubble size = | population 2020]",
+    "cap": "Simplified from the Verisk Maplecroft Climate Change Vulnerability Index chart (2021) on the slide. Nearly all large African cities fall in the high or extreme risk bands (Lagos, Kananga and Luanda extreme), whereas European cities sit mostly in the low and medium bands. Many informal settlements are on marginal land: 'low cost but high risks'.",
+    "slide": "L6 slides 6, 8"
+   },
+   {
+    "title": "Colonial planning: two phases, its tools and its legacies",
+    "svg": "[SVG figure; labels: phases (British model) | how it worked | legacies | 1. Military planning | engineers map, design | and site settlements | fear and control: | enemies, but also health | 2. Master planning | Town Planning | Ordinances based on | British law, 1920s–50s | evictions, appropriation | (European property) | land commodified | dual land laws: | 'townships' vs 'native lands' | 'natives' could not own land | 'public health' zoning | green belts to exclude | apartheid: control of | movement and labour | deep fragmentation | (Maputo: services only | for the colonial city) | elites take over | European areas | poor live far from jobs | costly service delivery | assumed tax base and | data capacity that | many cities lacked | Njoh: planning as domination, intimidation, surveillance]",
+    "cap": "Built from the slides on colonial planning practice (examples: Nigeria, South Africa, Kenya), 'public health' and green belts, Njoh on power, and the legacies slide. There was a 'constant tension between need for labour and exclusion'.",
+    "slide": "L6 slides 10–13"
+   },
+   {
+    "title": "Responding to informal settlements",
+    "svg": "[SVG figure; labels: divergent ways to address informality | resite | site and service | upgrade | completely | grounded planning | Early 2000s: shifts in slum upgrading | re-site | upgrade schemes | technocratic | bottom-up participatory | slums as 'problem' | help 'the poor' help | themselves (UN-Habitat, Cities Alliance) | risk: benefits landlords and wealthier residents; security can decrease]",
+    "cap": "The 'slums' slide lists the divergent responses (resite, site and service, upgrade, completely grounded planning approaches); the upgrading slide describes the early-2000s shift. Upgrading means basic services and infrastructure: improved drainage, social safety (public lighting, reduced fire risk), better public and communal areas, on-site sanitation.",
+    "slide": "L6 slides 30, 32"
+   },
+   {
+    "title": "Invited versus invented spaces (Miraftab 2009)",
+    "svg": "[SVG figure; labels: Invited spaces | 'sanctioned spaces of participation' | hegemonic actors (e.g. World Bank) | normalise neoliberal relations via: | participatory, 'inclusive' planning, | recognising informality, | working with grassroots movements | Invented spaces | insurgent planning: actively resists | power through the built environment, | urban practices or protest | slum dweller movements asserting | rights, resisting NGO ties; | legal battles used symbolically | vs | Planning is not only for 'planning professionals': | squatters, poor women and marginalised communities are, in effect, planners]",
+    "cap": "From the insurgent planning slide. Invited spaces are the participation that powerful actors offer; invented spaces are those that marginalised groups create themselves, including community-based informal processes.",
+    "slide": "L6 slide 36"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Evolution of urbanisation in Africa: number of countries by share of urban population",
+    "head": [
+     "Year",
+     "< 20%",
+     "20–32%",
+     "33–49%",
+     "50–65%",
+     "66–79%",
+     "> 79%"
+    ],
+    "rows": [
+     [
+      "1950",
+      "42",
+      "4",
+      "2",
+      "1",
+      "1",
+      "0"
+     ],
+     [
+      "1970",
+      "30",
+      "13",
+      "4",
+      "3",
+      "0",
+      "0"
+     ],
+     [
+      "1990",
+      "17",
+      "14",
+      "13",
+      "3",
+      "2",
+      "1"
+     ],
+     [
+      "2010",
+      "3",
+      "12",
+      "20",
+      "8",
+      "5",
+      "2"
+     ]
+    ],
+    "slide": "L6 slide 4 (OECD/SWAC 2018, Africapolis; numbers read from a small slide image, each row sums to 50 countries)"
+   },
+   {
+    "title": "The debate over formalisation",
+    "head": [
+     "Hernando de Soto (Peruvian economist)",
+     "Critics"
+    ],
+    "rows": [
+     [
+      "People in informal settlements are 'heroic entrepreneurs'",
+      "Secure tenure does not depend on legal title: a broader notion of 'tenure' is needed"
+     ],
+     [
+      "Proposal: give informal dwellers legal title to land",
+      "Tenure comes from protection from eviction and legitimation through service and infrastructure provision"
+     ],
+     [
+      "This will 'unlock' capitalist development: access to credit and functioning property markets",
+      "Urban dwellers improve their housing without titles; acquiring a title is often costly for the poor"
+     ],
+     [
+      "(The Mystery of Capital)",
+      "Formalisation often supports those who can exploit the housing 'market'"
+     ]
+    ],
+    "slide": "L6 slide 33"
+   },
+   {
+    "title": "'Seeing from the South': urban theory",
+    "head": [
+     "Author / strand",
+     "Core idea on the slide"
+    ],
+    "rows": [
+     [
+      "Watson, 'Seeing from the South' (2009)",
+      "City and infrastructure planners in the global South are stuck in a 'conflict of rationalities'"
+     ],
+     [
+      "Robinson, 'Ordinary cities' (2006)",
+      "Because of the weight given to 'global' cities, Southern cities are often 'off the map', empirically and theoretically"
+     ],
+     [
+      "Infrastructure and access literature",
+      "A rich body of socio-technical, ethnographic, anthropological and political-ecology (incl. feminist) work, NGOs, work on urban ideologies and 'city-making'"
+     ],
+     [
+      "Southern urbanism",
+      "Critique Western-centric approaches; de-centre knowledge production"
+     ],
+     [
+      "Monstadt & Schramm (2017)",
+      "'The hybrid sociotechnical constellations of urban infrastructure in Africa are no longer to be interpreted as deviant cases of European models, but as contextually creative translations to particular contexts of a rapidly urbanizing society'"
+     ]
+    ],
+    "slide": "L6 slide 28"
+   },
+   {
+    "title": "Challenges of African 'new' towns (Keeton & Nijhuis 2019)",
+    "head": [
+     "Socio-spatial",
+     "Environmental"
+    ],
+    "rows": [
+     [
+      "Lack of efficient and accessible public transport systems",
+      "Existing ecological zones and green space are not protected"
+     ],
+     [
+      "Lack of (high quality) public space",
+      "Built with insufficient consideration to waste"
+     ],
+     [
+      "Limited housing diversity",
+      "Sprawling development patterns encroach on surrounding environments"
+     ],
+     [
+      "–",
+      "High resource consumption"
+     ]
+    ],
+    "slide": "L6 slide 42"
+   }
+  ],
+  "points": [
+   {
+    "t": "Where Africa urbanises",
+    "d": "Maps of the level of urbanisation in 1950, 1990 and 2015 show urban agglomerations spreading across the continent. In 2015 the major urban clusters were the North African, Nile River, Ethiopian Highland, West African, Great Lakes and South African clusters.",
+    "slide": "L6 slides 3, 5"
+   },
+   {
+    "t": "Segregation drawn into the plan",
+    "d": "A colonial map of Nairobi (1927 boundary) divides land into European private estates, European unrestricted, Asian and African areas, with government reserve, quarries and railway; the 1951 planning scheme of Kampala (Kendall 1955) maps population distribution by European, Asian and African zones.",
+    "slide": "L6 slides 10–11"
+   },
+   {
+    "t": "Racism institutionalised",
+    "d": "'Natives' could not own land in many contexts; native or traditional areas were always considered subordinate to modernisation ideals; areas were split between being fully or only partially controlled by the colonial regime. Under apartheid, laws focused heavily on the movement and labour of people in urban areas.",
+    "slide": "L6 slide 10"
+   },
+   {
+    "t": "Njoh on power",
+    "d": "Planning 'constituted part of a meticulous and complex agenda by colonialists to assert their perceived social, cultural and technological superiority over Africans' (Ambe J. Njoh), through domination, intimidation and surveillance.",
+    "slide": "L6 slide 12"
+   },
+   {
+    "t": "Legacies today",
+    "d": "Poorer or racially segregated populations lived further from economic centres, creating mobility burdens. Colonial fragmentation defined debates for a long time, but urban growth and a rising middle class are now challenging that pattern.",
+    "slide": "L6 slide 13"
+   },
+   {
+    "t": "Water access in Maputo",
+    "d": "A map of Maputo's municipal district 4 (Matsinhe et al. 2008) shows the public utility network (AdeM pipes and stand pipes) concentrated in the old city, while the peri-urban district is served by many private small piped systems run by independent providers: the colonial infrastructure divide persists.",
+    "slide": "L6 slide 14"
+   },
+   {
+    "t": "Railways and colonial remnants",
+    "d": "Maps of East African Railways & Harbours and of railways and major ports across Africa (Bullock 2009) are shown without commentary; they illustrate networks laid out from the coast inland. An aerial photo (ArchDaily, 'urban remnants of colonial planning' in Dar es Salaam and Nairobi) shows a green golf course directly beside a dense informal settlement.",
+    "slide": "L6 slides 15–16"
+   },
+   {
+    "t": "Postcolonial thinking",
+    "d": "Although formal colonialism has largely ended, structures of domination still exist; for example they shape infrastructure access through 'deserving' and 'undeserving' subjects (Anand 2017). Key postcolonial thinkers named: Gandhi, Paulo Freire, Walter Rodney and the dependency theorists.",
+    "slide": "L6 slide 18"
+   },
+   {
+    "t": "Miraftab quote",
+    "d": "'planning […] honors the Western ideals and imaginations of the city and urban development as its norm, and represents cities of the South that have not fit into that Western model as failures' (Miraftab 2009, 'Insurgent Planning').",
+    "slide": "L6 slide 19"
+   },
+   {
+    "t": "Why master planning persisted",
+    "d": "African planners inherited colonial laws, techniques and norms. Master plans were kept for state and nation-building, to break down racial barriers and to address 'uncontrolled' growth. Many planning schools exist in Africa but often used outdated curricula from European contexts (book shown: Silva (ed.), Urban Planning in Sub-Saharan Africa).",
+    "slide": "L6 slide 20"
+   },
+   {
+    "t": "Accra 1958 and Dodoma 1972",
+    "d": "Accra's 1958 master plan designated slums for removal treatment or demolition and areas for lowered construction standards, later zoned by housing density: persistence and reinterpretation of master planning. Dodoma (Tanzania, 1972) was master planning 'with different values': an Ujamaa (African socialism) plan, chosen for its central location, built from a 'theoretical community' model adapted to the site.",
+    "slide": "L6 slides 21–22"
+   },
+   {
+    "t": "Mabin quote",
+    "d": "'Urban research … remains overwhelmingly concentrated in places which decreasingly represent the urban world of the twenty-first century' (Mabin 2001, p. 183).",
+    "slide": "L6 slide 25"
+   },
+   {
+    "t": "Seeing from the South: the planning problems",
+    "d": "Planners view the city and citizens through Western experience; Northern-derived instruments are often used to justify evictions; planning capacity differs (knowledge, people, expensive models and tools); and the normative dimension differs: participation happens in conflict, planning must respond to widespread uncontrolled (capitalist) development, and planners must work under neo-patrimonial government.",
+    "slide": "L6 slide 26"
+   },
+   {
+    "t": "Watson's critique (quote)",
+    "d": "'Watson's critique is on the limitations of planning theories within a region of the world where—for example, informalisation is a dominant feature, kinship and other networks are critical to survival, state authority is weak and very partial in its reach, civil society is deeply fragmented, often on ethnic lines, and there are complex intersections between modernity and the 'retraditionalisation' of society.'",
+    "slide": "L6 slide 27"
+   },
+   {
+    "t": "Slums: the critical view",
+    "d": "The growth of slums is equated with the neoliberal era (accelerating in the 1980s; Mike Davis, Planet of Slums). A 'panoptic' view treats slum life as a major challenge: poor living conditions, sites of exploitation and inequality, NGOs co-opted by powerful local leaders, informal work marked by 'petty exploitation'. Slum dwellers themselves are largely marginalised and ignored.",
+    "slide": "L6 slide 30"
+   },
+   {
+    "t": "Informality: what it reveals",
+    "d": "Informality highlights the gap between what planners do and urban citizens' realities. It is read as spatial form, lived condition (e.g. work), legal classification or mode of urbanisation. Informal employment is 85.8% of all jobs in Africa (ILO 2018). Citizens, businesses, community organisations, local leaders and even state planners step outside 'normal' legal norms. The slide contrasts 'slums of despair' and 'slums of hope'.",
+    "slide": "L6 slide 30"
+   },
+   {
+    "t": "Roy: informality as a heuristic",
+    "d": "'In this sense, urban informality is a heuristic device that serves to deconstruct the very basis of state legitimacy and its various instruments: maps, surveys, property, zoning and, most importantly, the law' (Roy 2011). Poorer residents are marginalised through 'nuisance' discourses.",
+    "slide": "L6 slide 31"
+   },
+   {
+    "t": "Roy on Slumdog Millionaire",
+    "d": "Roy calls Slumdog Millionaire 'poverty pornography': 'it seeks to resurrect the subaltern space of the slum as that of a vibrant and entrepreneurial urbanism' (Roy 2011).",
+    "slide": "L6 slide 31"
+   },
+   {
+    "t": "Inverse governmentality (Nielsen 2011)",
+    "d": "The slide shows two plans from Maputo's periphery: a version of an urban plan drafted by a resident (Zamir) and an informal blueprint drafted by a municipal architect for a residents' association. Residents produce state-like plans themselves, reversing the usual direction in which the state plans and citizens follow.",
+    "slide": "L6 slide 35"
+   },
+   {
+    "t": "Self-production and collective spaces (António 2022)",
+    "d": "Photos from Maputo show micro-enterprises operating in a neighbourhood and individual and collective interventions by residents on road infrastructure (25 de Junho A, next to Bagamoyo): residents build and maintain shared space themselves.",
+    "slide": "L6 slide 37"
+   },
+   {
+    "t": "Transit-oriented development",
+    "d": "TOD is proposed to overcome urban inequality while encouraging growth, as a more compact form: growth corridors with bus rapid transit, renewed metros in some contexts and mixed-use development along major roads (Johannesburg's 'Corridors of Freedom'). In reality it was only partially realised: lack of funding and lack of (and changing) political will to maintain it led to inadvertent policy directions.",
+    "slide": "L6 slide 38"
+   },
+   {
+    "t": "Gated communities and new cities",
+    "d": "Prominent in South Africa from the 1990s, now pervasive: leisure and security communities, part of a trend to 'satellite' and 'new cities' built as a single entity with some political autonomy, aimed at higher and middle incomes (often ethnically and racially exclusionary) and linked to middle-class growth. Positive view: safety inside, economic benefits. Negative: fragmentation, labour dynamics, inclusion/exclusion. Planning challenge: integrated cities when building is financed by global property developers.",
+    "slide": "L6 slides 39–40"
+   },
+   {
+    "t": "Government complicity",
+    "d": "'Middle class suburban advances: the complicity of government and political elites': examples around Maputo (Tchumene I and Project Natureza Viva; Belo Horizonte and Agostinho Neto) show suburban middle-class housing expanding with official backing.",
+    "slide": "L6 slide 41"
+   },
+   {
+    "t": "New towns everywhere",
+    "d": "A map of new towns since 1960 (International New Town Institute 2017) shows they are spread across North, East, West and Southern Africa and proliferate near existing urban centres and along coastlines.",
+    "slide": "L6 slide 43"
+   }
+  ]
+ }
+}

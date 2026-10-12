@@ -1,0 +1,391 @@
+{
+ "id": "cozz",
+ "wk": 2,
+ "title": "Cozzolino (2020) The (anti) adaptive neighbourhoods",
+ "cite": "Cozzolino, S. (2020). Environment and Planning B: Urban Analytics and City Science, 47(2), 203–219. doi:10.1177/2399808319857451",
+ "theory": "Complexity / liberal (Hayek–Moroni line)",
+ "status": "full",
+ "statusNote": "Full article on file.",
+ "one": "Cities as a whole are complex adaptive systems, but many 20th-century neighbourhoods built all at once are anti-adaptive. The cause lies in neglected factors: action (the source of change), ownership (which distributes design control) and time. Planners should create room for incremental, self-organised adaptation instead of more central plans.",
+ "summary": [
+  "AANs = large residential neighbourhoods built all-at-once and from scratch in the 20th century (e.g. 'La Clementina', Bergamo, vs historic 'Borgo Santa Caterina'). They answered housing pressures and gave affordable ownership, but they are 'in a lock-in situation': they can't self-regenerate, so they call for top-down, 'paternalistic' regeneration. Aims: characterise the causes of AAN formation and perpetuation, and give policy/design implications. Adaptability matters for persistence, identity and innovation (use of dispersed local knowledge, Hayek, Jacobs).",
+  "Traditional cities grew from private ownership, incremental development and organic adjustment among households, governed by legal codes that protected neighbours. Modern planning shifted from proscriptive rules ('thou shalt not', only preventing externalities) to prescriptive rules that predefine spatial configurations. Complexity is emergent (spontaneous action); simplicity is designed: 'the more one neighbourhood is designed from the top, the less space there is for complexity to evolve'.",
+  "Planning's direct responsibility: pushing large-scale developments, demanding large public open spaces, and rules that freeze adaptation. Implications: include time (after construction, leave room for unpredictable adaptation); use 'locality knowledge' while preventing negative externalities; welcome multiple independent ownerships and distributed design control ('everything depends on the pattern of ownership', Moudon). Regeneration: abandon paternalism. New areas: top-down design only for certain common structures; Oosterwold as an experiment. Final point: the problem isn't too few central plans but 'the lack of flexible space for incremental adaptation and the evolution of self-organized orders'. Not nostalgic: the focus is 'the institutional framework that shaped [the traditional city's] evolutionary process', and a distance from New Urbanism."
+ ],
+ "concepts": [
+  [
+   "Anti-adaptive neighbourhood (AAN)",
+   "Built all-at-once from scratch, reluctant to incremental change, 'lock-in'."
+  ],
+  [
+   "Action · ownership · time",
+   "The three under-estimated factors behind adaptability."
+  ],
+  [
+   "Proscriptive vs prescriptive rules",
+   "Prohibitions preventing externalities vs rules predefining spatial outcomes."
+  ],
+  [
+   "Complexity vs simplicity",
+   "Emergent order from spontaneous action vs designed artificial order: a trade-off."
+  ],
+  [
+   "Distribution of design control",
+   "Ownership as the legal title that spreads design control among many actors."
+  ],
+  [
+   "Locality knowledge",
+   "Jacobs: people's situated knowledge of their own needs and place."
+  ],
+  [
+   "Paternalistic circle",
+   "AANs can't self-regenerate, so top-down interventions follow, which reproduce dependence."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Adaptive: many small plots | Anti-adaptive: one block, one owner | single developer | detailed plan · covenants · shared ownership | red = plots that changed; each owner can adapt | change needs one big, costly intervention]",
+ "cap": "Grain of control decides whether a neighbourhood can evolve.",
+ "example": "Oosterwold (Almere): buyers get a plot and a short list of rules (build on max. 20%, grow food, arrange your own road and utilities) instead of a master plan.",
+ "quotes": [
+  "\"action (as the main source of urban change), ownership (as the legal title that effectively distributes 'design control' in the built environment), and time (as the essential condition in incremental processes of adaptation)\" (p. 4)",
+  "\"the more one neighbourhood is designed from the top, the less space there is for complexity to evolve\"",
+  "\"the main problem with AANs is not so much … the need for further centrally coordinated plans … but rather the lack of flexible space for incremental adaptation and the evolution of self-organized orders\""
+ ],
+ "dims": {
+  "sa": 70,
+  "rt": 75,
+  "de": 80,
+  "us": null,
+  "mp": null,
+  "norm": "Individual autonomy, diversity, anti-paternalism: the Free City."
+ },
+ "exam": "Agency-leaning, emergent, Free City; draws on Hayek, Jacobs and Moroni. Tutorial critiques: unequal actors (tenants), markets as power structures, a romanticised traditional city.",
+ "examples": [
+  {
+   "t": "Standards forbid the old city",
+   "d": "Cozzolino notes that recreating the physical pattern of the traditional city today would be blocked by prescriptions such as minimum road widths, building distances, parking and green-space standards. Shows the shift from proscriptive rules ('thou shalt not') to prescriptive rules that lower adaptive capacity.",
+   "src": "text",
+   "p": "p. 207"
+  },
+  {
+   "t": "Self-build still rare",
+   "d": "In 2015, self-building made up only 10-15% of new housing in the Netherlands and the UK, even though they are seen as leading nations. Shows demand-driven development and distributed design control as the alternative to supply-driven, all-at-once large projects, and how marginal it still is.",
+   "src": "text",
+   "p": "pp. 214-215"
+  },
+  {
+   "t": "Historic quarters can lock in",
+   "d": "Because of preservation policies and restrictive rules, old historic quarters sometimes show the typical problems of an AAN. Shows that anti-adaptiveness comes from rules and design control, not from age or form, and raises the question whether preservation and adaptability can be reconciled.",
+   "src": "text",
+   "p": "p. 216"
+  },
+  {
+   "t": "Amsterdam's Bijlmermeer",
+   "d": "Listed by Cozzolino among Europe's AANs (note 1), the Bijlmermeer was built in one go from the late 1960s as high-rise honeycomb blocks with large collective green space; from the 1990s a top-down renewal demolished part of it and added low-rise, more often owner-occupied homes. Shows the lock-in and the costly central regeneration ('paternalistic circle') that AANs tend to need.",
+   "src": "similar"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Page numbers are journal pages (Environment and Planning B, 47(2), 203–219); the file is the online-first version (pp. 1–17), where journal page = online page + 202. Cozzolino opens with two epigraphs: Jacobs on Utopias where only the planners in charge may have significant plans, and Habraken's “If a built environment is a complex organism, it is so by virtue of human actions: people imbue it with life” (p. 203). The traditional city has not only aesthetic qualities but adaptive capacities, often contrasted with the rigidity of large residential neighbourhoods built all-at-once and from scratch in the 20th century, which he calls anti-adaptive neighbourhoods (AANs). While the traditional city works as an adaptive system, AANs are 'under a lock-in situation' that compromises their long-term survival (p. 204). His illustration is from his home town Bergamo: 'La Clementina' (1980s) versus the historic 'Borgo Santa Caterina', which keeps changing in small ways.",
+    "AANs had real merits: they met great housing pressures, handled emergencies such as earthquakes and floods, and let families become owners at affordable prices (p. 204). But they show little openness to incremental development; built instantly, they remain largely unchanged. Social and economic change still happens inside them, but they rarely undergo spontaneous physical re-adaptation. Because they cannot self-regenerate, top-down interventions follow, creating 'questionable paternalistic circles' (p. 205). The article has two goals: “first, it aims at characterizing the causes behind the formation and perpetuation of AANs; second, it aims at providing policy and design implications” (p. 205). Its novelty is attention to three underestimated factors: “(i) action (as the main source of urban change), (ii) ownership (as the legal title that effectively distributes ‘design control’ in the built environment), and (iii) time” (p. 206). He is not nostalgic: the focus is 'the institutional framework that shaped its evolutionary process', which distances him from New Urbanism."
+   ]
+  },
+  {
+   "h": "Why adaptability matters",
+   "p": [
+    "Adaptive systems adjust to new conditions, learn from experience and can be modified for new purposes; anti-adaptive systems keep their structure whatever happens (p. 206). In the built environment adaptability matters for three reasons. Persistence: as Habraken says, 'continuous renewal and replacements preserves it', because users can change their surroundings as their needs, technologies and lifestyles change. Identity: adaptive environments allow places with unique characters to emerge. Innovation: adaptability makes efficient use of 'dispersed local knowledge' (Hayek 1945; Jacobs 1961), letting people renew the urban fabric in ways nobody could predict, so that society benefits from continuous trial and error. The article assumes that current debates can learn from the old principles and processes that shaped the traditional city."
+   ]
+  },
+  {
+   "h": "How the traditional city grew",
+   "p": [
+    "Following Pirenne, the European city's beauty goes back to the 11th-century civitas, where citizenship required owning a dwelling (p. 206). Citizens expressing themselves through their houses drove the city's growth; Romano speaks of the 'deliberate aesthetic will of their citizens'. This was not a legal vacuum: codes aimed at ensuring minimum damage to existing structures and fairness between neighbours (Hakim), so change was accepted if it did not compromise others' rights, and owners were otherwise free (pp. 206–207). Municipalities collected taxes for essential public works and services. The founding principles were private ownership, incremental development and organic adjustment among households, with two virtues: respect for the existing environment and openness to additions from many decisions (p. 207)."
+   ]
+  },
+  {
+   "h": "From proscriptive to prescriptive rules",
+   "p": [
+    "The old codes were mainly proscriptive: prohibitions ('thou shalt not' instead of 'thou shalt') that could not impose any predetermined spatial configuration and only prevented negative externalities on others' property, such as pollution or noise (p. 207). They therefore allowed spontaneous, unique settlements. Modern planning, aiming at coordinated and less disordered development, turned to prescriptions: individual actions were regulated positively to reach the goals of comprehensive land-use plans, and national governments imposed the same criteria on all cities. This lowered the spontaneity that had produced unique places. His test: if we tried to recreate traditional patterns today, standards on minimum road widths, building distances, parking and green space would largely prevent it (p. 207).",
+    "AANs spread with modern planning (pp. 207–208). The idea was self-sufficient neighbourhood units fostering 'sane and morally intact urban life'; after the Second World War housing demand exploded and healthy dwellings were urgently needed. But AANs also reflected urban, social and political ideologies. The planner's scale of reference changed from designing public spaces and infrastructure to total design and comprehensive large-scale plans. What had been the incremental result of many citizens became the product of central decisions, strict prescriptions and master plans. Self-building became harder, streets were separated from buildings in favour of ample, undefined, underused open space, and small demand-driven developments gave way to large supply-driven ones (p. 208)."
+   ]
+  },
+  {
+   "h": "What makes a neighbourhood anti-adaptive",
+   "p": [
+    "AANs are everywhere; about 16% of Europeans live in large prefabricated estates, some publicly owned, some private, some public and later partly privatised, and new ones are still built (p. 208). Settlements range from complex and open to change to simple and reluctant to change, visible in the intensity of spontaneous actions over time. A simple configuration has a designed, artificial order; a complex one is emergent, the result of spontaneous action. This is a trade-off: “the more one neighbourhood is designed from the top, the less space there is for complexity to evolve” (p. 209). Adaptability is relative, a matter of degree, and not every characteristic must be present.",
+    "Figure 3 lists eight characteristics (pp. 209–211), summarised in the table: attractiveness that fades over time; a large scale of design; a single designer or team; construction all at once; planning rules that coincide with the built configuration, freezing density, heights and uses; mono-functionality (the 'dormitory'); large open spaces managed by one agency, with Jacobs' problem of 'streets without eyes'; and communal ownership such as big condominiums, where changing anything needs large majorities, an 'anti-commons' problem. Adaptive environments have the opposite features: plot-scale design, as many designers as users over time, incremental construction that avoids synchronous decay, rules that leave room beyond what exists, mixed and changing uses, little open space, and many independent owners, because 'small groups adapt more quickly than large groups' (Brand)."
+   ]
+  },
+  {
+   "h": "Planning's share of the responsibility",
+   "p": [
+    "Cozzolino is careful about blame (p. 212). Planning has direct responsibility for three characteristics. It pushes large-scale developments, using plans less to regulate small private actions than to attract politically strategic projects. It demands large public open spaces through standards on minimum unbuilt area. And it produces rules that freeze adaptation, since the room for change depends 'also and even mostly' on the space rules leave for future actions. For the other characteristics its role is indirect: large-scale development brings centralised design control, all-at-once construction and collectively managed buildings and spaces. Functions and attractiveness can only be encouraged: planning cannot force people to run businesses in an AAN or to visit it, and the state cannot supply all activities that make a neighbourhood vibrant (p. 212)."
+   ]
+  },
+  {
+   "h": "What planners should do",
+   "p": [
+    "General principles (pp. 212–213). Include time: the main difference between traditional and modern environments is the role time played in forming them; Akbar asks why we analyse the end-product rather than the process that produced it. This does not mean building slowly, but leaving room after construction for progressive, unpredictable adaptation, moving from a static architectural view to one of change and self-organising complexity, for example when a flat becomes an office or a storey is added. Such actions rest on 'locality knowledge' (Jacobs): people's subjective understanding of their own situation, needs and means. The challenge is to let people use it while avoiding undesirable externalities; Oosterwold is cited as an experiment. And welcome multiple independent ownerships and distributed design control, since, as Moudon says, “everything depends on the pattern of ownership” (p. 213).",
+    "For existing AANs (pp. 213–214), abandon paternalism; Jacobs: 'we must regard dwellers as people capable of understanding and acting upon their own self-interests'. Enlarge room for local experimentation: allow demolition and rebuilding, extra floor area for densification, and a plurality of uses. Rule changes alone may fail, because communal ownership can stifle self-regeneration. Rules should not impose 'a stringent technocratic order', since future needs cannot be predicted; when rules simply copy the initial design, the knowledge embedded in continual neighbouring adaptation is lost. Planners can also improve accessibility and connections, abandoning the ideal of self-sufficient units.",
+    "For new neighbourhoods (pp. 214–215), embrace 'real' complexity. Participatory design and city gaming are welcome but still tend to produce rational, mechanical designs fixed in space: more complex designs, not spaces where self-organising complexity can emerge. Copying the traditional neighbourhood's form cannot reproduce its complexity. Favour demand-driven development and many builders of various sizes, abandon the political use of large projects that centralise design control and favour big developers, and promote self-building (only about 10–15% of new homes even in the Netherlands and UK in 2015). Separate publicly relevant assets from private space: public space as 'a robust skeleton' designed top-down, with bottom-up design on individual lots; public spaces only when strictly necessary. A note adds that total spontaneity (favelas, slums) may not produce good settlements and that some top-down design may be indispensable (p. 216)."
+   ]
+  },
+  {
+   "h": "Evidence and method",
+   "p": [
+    "The article is conceptual and argumentative. It draws on urban history (Pirenne, Romano, Hakim), complexity and self-organisation literature (Batty, Portugali, Moroni), Jacobs, Habraken and Brand, and uses the Bergamo neighbourhoods as illustrative images rather than as data. Figure 3 is a typology built from this literature, not from measurement. Cozzolino admits that more empirical work is needed to understand the micro-dynamics and long-term evolution of AANs (p. 215)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Cozzolino stresses that he does not blame or condemn AANs as such; they matter to the many people living in them (p. 215). The challenge is creating conditions for more adaptive environments, by paying attention to action, ownership and time. His core claim: “the main problem with AANs is not so much, as many planners and policy makers largely believe, the need for further centrally coordinated plans, investments, and interventions, but rather the lack of flexible space for incremental adaptation and the evolution of self-organized orders” (p. 215). He lists open questions: the micro-dynamics of AANs; whether design solutions can combine the benefits of common ownership (lower prices, shared services, density) with the freedom of many dwellers; and whether preserving historic quarters, which can themselves become anti-adaptive through restrictive rules, is compatible with long-term adaptability (pp. 215–216)."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis. Cozzolino belongs to the liberal, complexity-oriented line of Hayek and Moroni: he cites Hayek's dispersed knowledge, contrasts designed and spontaneous order, and prefers proscriptive general rules to prescriptive plans. On the course dimensions he leans to agency (action as 'the main source of urban change'), while giving institutions (rules, ownership) a decisive enabling or constraining role; change should be emergent rather than deliberate; knowledge is local and dispersed. Normatively he values individual autonomy, diversity and anti-paternalism, which fits Buitelaar's Free City, where Cozzolino and Oosterwold appear as examples.",
+    "The Tutorial 1 critiques give the counter-perspective. Actors are unequal: tenants in a large estate cannot adapt their homes, and 'many independent owners' presumes ownership. Markets are power structures, so what emerges may serve exchange value for owners rather than residents, the Marxist point from HC4. And the traditional city can be romanticised, although Cozzolino explicitly disclaims nostalgia and admits pure spontaneity may fail. Against Scott's high modernism (week 3) he shares the critique of top-down legibility, and against the governmental model he rejects comprehensive plans as the answer."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "Characteristic (Fig. 3)",
+   "Anti-adaptive neighbourhood",
+   "Adaptive neighbourhood",
+   "Planning's responsibility (p. 212)"
+  ],
+  "rows": [
+   [
+    "Attractiveness",
+    "High at first, declines strongly over time",
+    "Lasting; continuous mingling of people for different purposes",
+    "Indirect: can improve access, cannot oblige people to come"
+   ],
+   [
+    "Scale of design",
+    "Comprehensive design over a whole area; land assembled into one parcel",
+    "Limited to single plots; minimal central coordination",
+    "Direct: plans push large-scale developments"
+   ],
+   [
+    "Designers",
+    "One designer or team, all intelligence at the start",
+    "As many designers as users over time",
+    "Indirect, via large-scale projects"
+   ],
+   [
+    "Construction time",
+    "All at once, from scratch; synchronous decay",
+    "Incremental; varied values, maintenance and users",
+    "Indirect, via large-scale projects"
+   ],
+   [
+    "Planning rules",
+    "Rules coincide with the built form, freezing density, heights, uses",
+    "Rules leave room beyond the existing configuration",
+    "Direct: rules freeze adaptation"
+   ],
+   [
+    "Functions",
+    "Mono-functional 'dormitories'",
+    "Multiple uses, open to change",
+    "Indirect: can only create conditions"
+   ],
+   [
+    "Public space",
+    "Large open spaces managed by one agency",
+    "Little open space, created only when strictly necessary",
+    "Direct: standards demand large open spaces"
+   ],
+   [
+    "Ownership",
+    "Communal (big condominiums); change needs large majorities",
+    "Many independent owners; decentralised responsibility",
+    "Indirect, via large collectively managed buildings"
+   ]
+  ]
+ },
+ "news": {
+  "t": "Few homes split despite the shortage",
+  "d": "An ANP survey of nearly 300 municipalities (February 2026) found that splitting existing homes into more dwellings remains rare: Amsterdam grants hundreds of permits a year, many smaller municipalities only a few. Rules differ widely: in Zaanstad split homes must be 100 metres apart, in Groningen the original home must be at least 140 m2, several municipalities demand parking on the plot, and Almelo and Raalte do not allow it. Research from 2023 estimated splitting could add 80,000 to 160,000 homes by 2030, and the new D66, VVD and CDA coalition wants splitting and adding storeys to be possible without a permit 'where possible'.",
+  "why": "Read through Cozzolino, splitting is exactly the small-scale, owner-led incremental change that keeps a neighbourhood adaptive, and the municipal requirements are prescriptive rules (size, parking, spacing) that block it. Permit-free splitting with national minimum standards would move towards proscriptive rules and redistribute design control to individual owners. Limit: the municipalities' liveability worries are about externalities, which Cozzolino accepts proscriptive rules may legitimately address, so not every requirement is anti-adaptive.",
+  "src": {
+   "name": "Binnenlands Bestuur (ANP)",
+   "title": "Weinig woningen gesplitst, ook al zijn gemeenten er positief over",
+   "url": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/weinig-woningen-gesplitst",
+   "date": "2026-02-04"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Constructive alignment",
+    "svg": "[SVG figure; labels: Learning objectives | Teaching methods | Assessment | must match | each other]",
+    "cap": "Learning objectives should match your teaching methods and should match how you check learning (assessment). The same logic tells you what the exam checks: the course goals (apply the framework, critique) rather than recall.",
+    "slide": "Tutorial 1 slide 8"
+   },
+   {
+    "title": "Heuristic skeleton for preparing a seminar (and a commentary)",
+    "svg": "[SVG figure; labels: 1 Context: who is the author, discipline, | where are they based? | 2 What kind of article is this? | Empirical, conceptual, review, etc. | 3 Main argument, and who are they speaking | against? (what is the debate) | 4 What is the theoretical perspective? | Neo-institutional, rational choice, political economy… | 5 What assumptions underpin it? | And what quotes illustrate that? | 6 How would another course perspective approach | the same topic, and what does that say | about the article's blind spots? | ← the first step | The contrasting theory | should follow logically | from the assumptions: | e.g. an agency-heavy | article is contrasted | with a structure-focused | perspective]",
+    "cap": "The tutorial's heuristic skeleton. Steps 4–6 are exactly the final-exam commentary task: identify the perspective, find its assumptions, critique from an alternative perspective chosen because of those assumptions.",
+    "slide": "Tutorial 1 slide 16"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Reconstructing Cozzolino's argument in five steps",
+    "head": [
+     "Step",
+     "Question on the slide",
+     "One-sentence answer (from the article)"
+    ],
+    "rows": [
+     [
+      "1. The problem",
+      "What does Cozzolino mean by an AAN?",
+      "A large 20th-century neighbourhood built all-at-once and from scratch that resists incremental change and is locked in."
+     ],
+     [
+      "2. The cause",
+      "What characteristics make a neighbourhood anti-adaptive?",
+      "Single-developer, all-at-once production, prescriptive rules and concentrated ownership/design control; neglect of action, ownership and time."
+     ],
+     [
+      "3. The mechanism",
+      "How do these characteristics prevent change by residents and other actors?",
+      "Without many independent owners and with rules that fix spatial outcomes, nobody can make small adjustments, so change needs one big top-down (paternalistic) intervention."
+     ],
+     [
+      "4. The alternative",
+      "What allows an adaptive neighbourhood to change over time?",
+      "Many independent owners with distributed design control, acting incrementally within proscriptive rules that only prevent externalities."
+     ],
+     [
+      "5. The implication",
+      "What should planners therefore do differently?",
+      "Include time, use locality knowledge, welcome multiple ownerships, abandon paternalism, and limit top-down design to common structures (e.g. Oosterwold)."
+     ]
+    ],
+    "slide": "Tutorial 1 slide 28"
+   },
+   {
+    "title": "Misaligned vs aligned example",
+    "head": [
+     "",
+     "Misaligned",
+     "Aligned"
+    ],
+    "rows": [
+     [
+      "Learning goal",
+      "Students will be able to analyze a scientific article",
+      "Students will be able to evaluate the methodology used in a scientific article"
+     ],
+     [
+      "Teaching activity",
+      "Lectures on basic concepts without active engagement or critical discussion of articles",
+      "Students engage in group discussions where they critically assess the methodologies of various articles"
+     ],
+     [
+      "Assessment",
+      "A multiple-choice exam testing factual recall of terms from the article",
+      "An in-class exam in which students evaluate the strengths and weaknesses of the methodology of a given article"
+     ]
+    ],
+    "slide": "Tutorial 1 slide 10"
+   },
+   {
+    "title": "Teaching activities (UU Teaching and Learning Collection)",
+    "head": [
+     "Activity",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Concept map",
+      "Reconstruct the concepts and relationships within a theoretical perspective"
+     ],
+     [
+      "Think–pair–share",
+      "Give everyone time to formulate and discuss an interpretation before the plenary exchange"
+     ],
+     [
+      "Forced debate",
+      "Explore contrasting theoretical interpretations or positions"
+     ],
+     [
+      "Scientific dilemmas",
+      "Compare alternative explanations or arguments from the literature"
+     ],
+     [
+      "Entry and exit tickets",
+      "Briefly check students' initial understanding or what they take away from the seminar"
+     ]
+    ],
+    "slide": "Tutorial 1 slide 19"
+   }
+  ],
+  "points": [
+   {
+    "t": "What kind of article is this?",
+    "d": "A conceptual/theoretical article with illustrative examples (Bergamo and Oosterwold), but no empirical testing. Aims: 1. \"Characterizing the causes behind the formation and perpetuation of AAN's\"; 2. \"providing policy and design implications\" (p. 205).",
+    "slide": "Tutorial 1 slide 26"
+   },
+   {
+    "t": "Seminar learning objectives (model)",
+    "d": "At the end of the seminar students should be able to: 1. understand what kind of article this is and what it aims to do; 2. explain the author's central argument; 3. use the course framework to identify an underlying assumption and explain what this assumption overlooks. Seminar plan: introduction (5 min), reconstructing the argument (20), structure and agency (10), conclusion (5).",
+    "slide": "Tutorial 1 slides 22–23"
+   },
+   {
+    "t": "Cozzolino and Hayek",
+    "d": "The tutorial puts Hayek's portrait next to Cozzolino's title page and asks 'Anything you recognize, relate to, links you can make?': the intended link is the Hayekian line (dispersed knowledge, spontaneous vs designed order). It then contrasts photos of 'adaptive' and 'anti-adaptive' neighbourhoods.",
+    "slide": "Tutorial 1 slides 24–25, 27"
+   },
+   {
+    "t": "Critique of the agency assumption (verbatim)",
+    "d": "Hint: Marx. \"Actors are not equally capable of acting -> What about tenants?\" \"Markets are a power structure -> What emerges 'spontaneously' may just enhance exchange value for owners rather than use value for residents.\" \"The traditional city is romanticized -> Incremental development may produce morphological complexity, but these cities were also characterized by overcrowding, poor construction quality.\"",
+    "slide": "Tutorial 1 slides 33–34"
+   },
+   {
+    "t": "Concluding questions",
+    "d": "What is Cozzolino's central argument in one sentence? What, if anything, remains unclear?",
+    "slide": "Tutorial 1 slide 35"
+   },
+   {
+    "t": "Why objectives come first",
+    "d": "A seminar's activities and checks should follow from self-defined objectives, not from, for example, the article's structure. Write one usable objective and think of how you would check whether it was met.",
+    "slide": "Tutorial 1 slide 4"
+   },
+   {
+    "t": "Step 1: learning goals",
+    "d": "Any seminar starts with a set of goals for the 40 minutes. Good goals use active verbs (understand, apply, evaluate, create, etc.) which can be checked; within 40 minutes, 2 to 3 goals may be the maximum. Test: 'is this verb observable? Could this goal have been easily done by someone at home last night?'",
+    "slide": "Tutorial 1 slides 11, 15"
+   },
+   {
+    "t": "Step 2: checking learning",
+    "d": "Use active group discussions (facilitate, listen, correct), writing on a whiteboard (framework, grids, maps) or exit tickets. Because these are literature seminars, hosts should facilitate group discussions for their peers, which allows the most in-depth engagement.",
+    "slide": "Tutorial 1 slide 12"
+   },
+   {
+    "t": "Steps 3–4: activity and wrap-up",
+    "d": "Give an introduction and overview, then split into sub-groups ('islands') and facilitate there: reconstruct the argument, compare with previously discussed authors, find and criticise assumptions. Collect results on paper, whiteboard or flipchart so hosts can check whether peers got the material right.",
+    "slide": "Tutorial 1 slides 5, 13–14"
+   },
+   {
+    "t": "What makes a seminar succeed",
+    "d": "Everyone: bring a quote or question, bring the material, give room to think independently before discussing, facilitate different voices, think of the room set-up. A successful seminar has an opening announcing goals, structure and activities; hosts who split up to guide groups; prepared participants; activities that let everyone contribute.",
+    "slide": "Tutorial 1 slides 17–18, 20"
+   },
+   {
+    "t": "Closing reflection",
+    "d": "How was this seminar built up? What were the objectives, where did we check whether they were met, and what parts of the 'skeleton' did we leave out?",
+    "slide": "Tutorial 1 slide 36"
+   }
+  ]
+ }
+}

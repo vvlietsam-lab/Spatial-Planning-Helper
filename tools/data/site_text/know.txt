@@ -1,0 +1,305 @@
+{
+ "id": "know",
+ "wk": 2,
+ "title": "Rydin (2007) Re-examining the role of knowledge within planning theory",
+ "cite": "Rydin, Y. (2007). Planning Theory, 6(1), 52–68 · + lecture 'Knowledge in planning theory' (15 Sept) + exit-ticket answers",
+ "theory": "Epistemology of planning",
+ "status": "full",
+ "statusNote": "Full article on file (author's version) + lecture 15 Sept + exit-ticket answers.",
+ "one": "Modernist planning reified knowledge as an object; postmodern planning celebrates many knowledges but has no institutional arrangements to handle them. Rydin argues for treating knowledge as claims about causal relations, distinguishing them from other (ethical, aesthetic) claims, and creating arenas where planners open up to and test (close down) them.",
+ "summary": [
+  "Starting point: the breakdown of the modernist consensus (Latour): knowledge is not a mirror of nature produced by neutral experts, but socially constructed and embedded in social relations and networks (epistemic communities, communities of practice). Modernist planning rested on planners' command of knowledge for progress. Knowledge differs from information and data because it specifies a causal relationship: planners need to know how impacts follow from actions.",
+  "The 'new orthodoxy' in planning theory (consensus building: Innes; collaborative: Healey; radical: Sandercock's 'epistemology of multiplicity') places knowledge outside planning organisations. But deliberation has limits: general ones (vague practice, planner skills, capture by powerful interests, unresolved conflict) and knowledge-specific ones: knowledges are not additive (Evans & Marvin); Innes's consensus building works when information is fully shared or 'uncertainty is rampant', whereas most planning lies in between. 'Engaging different knowledges is fundamentally different to engaging different voices.'",
+  "Knowledge claims must be distinguished from ethical, pragmatic, efficiency or aesthetic claims, since stakeholder rights ≠ expertise rights (Collins & Evans). Habermas's validity claims support this: truth (constatives), normative legitimacy (regulatives), truthfulness (expressives). Labelling all community claims 'knowledge' is politically understandable but wrong: experience 'is not of itself a sufficient condition for it to be knowledge' (p. 9 of MS / p. 56). Planners are co-producers of knowledge (Mode 2): they give voice (opening up) AND test and recognise claims (closing down), aiming at 'socially robust knowledge'. This is a realist constructivism: knowledge is socially constructed yet engages material reality.",
+  "Typology (Figure 1): planning seeks to turn State A into B1; without planning A becomes B; the actual result is B2. Seven knowledge types: (1) empirical State A, (2) predictive State B, (3) process A→B, (4) process A→B1 (how planning works), (5) empirical B2 (outcomes), (6) process A→B2, (7) normative B1 (desired future, normative yet grounded in possible paths). Collapsed into four: empirical, process, predictive, normative (Table 2). None is value-free and each carries a causal story. Each type needs different arenas and planner roles: empirical = lay + expert, planner as client, analyst or facilitator; process = theory-framed research, even action research; predictive = mostly expert-led, planner as client; normative = public-sphere debate, planners keep possible futures on the table (an ethical voice)."
+ ],
+ "concepts": [
+  [
+   "Knowledge (Rydin 2007)",
+   "A claim specifying causal relationships, not just data or information."
+  ],
+  [
+   "Modernist consensus",
+   "Knowledge as an objective mirror of nature produced by experts; its breakdown = knowledge as socially constructed."
+  ],
+  [
+   "New orthodoxy",
+   "Communicative/collaborative planning: many stakeholders, many knowledges, consensus."
+  ],
+  [
+   "Knowledge vs other claims",
+   "Knowledge claims differ from ethical, pragmatic, efficiency and aesthetic claims (Habermas's validity claims; Collins & Evans)."
+  ],
+  [
+   "Opening up & closing down",
+   "Give voice to claims; test and recognise which count as knowledge."
+  ],
+  [
+   "Co-production",
+   "Planners help generate knowledge by testing and recognising claims."
+  ],
+  [
+   "Seven → four knowledge types",
+   "Empirical, predictive, process (×3), normative → empirical, process, predictive, normative."
+  ],
+  [
+   "Universal ↔ situated",
+   "Does validity depend on who produced the claim and from where?"
+  ],
+  [
+   "Monist ↔ pluralist",
+   "How many independent sources can confer the status of knowledge?"
+  ],
+  [
+   "Realism ↔ relativism",
+   "Can claims be judged against each other? Rydin: soft relativism, but claims can be tested."
+  ],
+  [
+   "Multi- vs transdisciplinary",
+   "Several disciplines (can still be monist) vs non-academics as knowledge producers (pluralist)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: A · situation now | EMPIRICAL claims | B1 · planned future | NORMATIVE claims | B · without planning | PREDICTIVE claims | B2 · what happens | EMPIRICAL (later) | PROCESSUAL claims | the causal links between states | (\"if we do X, then Y\")]",
+ "cap": "Rydin (2007) Figure 1 as redrawn in the lecture. Processual claims cover A→B, A→B1 and A→B2. Practice: 'Car ownership in Utrecht fell 12% 2015–2023' = empirical; 'Rijnenburg demand will exceed supply by 2030' = predictive; 'densification near stations reduces car use because it changes relative costs' = process; 'Rijnenburg should prioritise affordability' = normative.",
+ "table": {
+  "head": [
+   "Knowledge type (Table 2)",
+   "Who generates it",
+   "Planner's role",
+   "How it is tested"
+  ],
+  "rows": [
+   [
+    "Empirical",
+    "Lay and expert (experiential)",
+    "Client (consultancy), analyst, facilitator of community input",
+    "Forums: expert–expert, lay–lay, lay–expert; procedures to resolve claims"
+   ],
+   [
+    "Process",
+    "Theory-framed research, action research",
+    "Object of research and co-researcher",
+    "Engaging rival causal models; evaluations"
+   ],
+   [
+    "Predictive",
+    "Mostly expert-led",
+    "Client of researcher, alert to lay input",
+    "Challenging causal models + prediction methods"
+   ],
+   [
+    "Normative",
+    "Public-sphere debate; academia's scenarios",
+    "Manage informed debate; keep possible futures open",
+    "Is the future scenario warranted as possible?"
+   ]
+  ]
+ },
+ "example": "Grenfell Tower: the Grenfell Action Group's warnings (local experiential knowledge) were ignored. Opening up would have heard them; closing down would have tested them against fire-safety evidence.",
+ "quotes": [
+  "\"engaging different knowledges is fundamentally different to engaging different voices\"",
+  "\"The experience of local stakeholders may be an important basis for claiming local or experiential knowledge but … such experience is not of itself a sufficient condition for it to be knowledge\"",
+  "\"Contemporary planning theory has tended to be better at discussing opening-up than closing-down.\""
+ ],
+ "dims": {
+  "sa": null,
+  "rt": null,
+  "de": null,
+  "us": 75,
+  "mp": 80,
+  "norm": "Better decisions through tested, co-produced knowledge; democratic inclusion balanced by validity."
+ },
+ "exam": "Traps: (1) a survey of 1,000 people isn't pluralism; (2) a positivist treats bias as error; (3) situated ≠ anything goes. New from the article: knowledge claims ≠ ethical claims, seven knowledge types → four, and Innes's two conditions for consensus.",
+ "examples": [
+  {
+   "t": "B, B1 and B2 in housing",
+   "d": "Rydin's own illustration: B is the expected housing shortage, B1 the planned match of supply and need, and B2 the actual result of profitable developments alongside continued overcrowding, housing stress and homelessness. Shows why planning needs outcome (B2) and process knowledge, not just knowledge of the goal.",
+   "src": "text",
+   "p": "MS p. 15"
+  },
+  {
+   "t": "Local ill-health vs risk experts",
+   "d": "Experts often present a community's view of an environmental risk as exaggerated, yet local experience such as episodes of ill-health can be a basis to challenge the expert assessment. Rydin adds that not all community risk perceptions are therefore knowledge, so shows the need to separate knowledge claims from other claims and test them (closing down).",
+   "src": "text",
+   "p": "MS pp. 9-10"
+  },
+  {
+   "t": "Market prices or child poverty",
+   "d": "Describing an area's affluence with market prices or with child poverty makes a difference. Shows that even descriptive (empirical) knowledge is value-laden in its framing and carries an implicit causal story.",
+   "src": "text",
+   "p": "MS p. 17"
+  },
+  {
+   "t": "Utrecht and Rijnenburg claims",
+   "d": "Lecture exercise: 'car ownership in Utrecht fell by 12% (2015-2023)' is empirical; 'housing demand in Rijnenburg will exceed supply by 2030' is predictive; 'densification near stations reduces car dependency' and 'participation produces better plans' are process claims; 'Rijnenburg should prioritise affordability over aesthetics' is normative. Shows how Rydin's typology tells you which arena and test each claim needs.",
+   "src": "slides"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "The file is the author's manuscript, so page numbers below refer to the manuscript (MS); the course's own quote from p. 56 of the journal corresponds to MS p. 9. Rydin starts from what Latour calls the breakdown of the modernist consensus (MS p. 2). In that consensus knowledge was a mirror of nature: an entity produced by experts in institutions that guaranteed its objectivity. Its breakdown means recognising that knowledge is constructed through social processes, that knowledge institutions are not necessarily neutral, and that knowledge is embedded in social relations and networks, such as epistemic communities (Haas) or communities of practice (Wenger). This matters for planning, which Sandercock describes as rooted in modernism: planners manage events for the public good, knowledge is harnessed for progress, and the planner's expert status rests on command of specialist knowledge (MS pp. 2–3).",
+    "Her focus is institutional: what arrangements should planning processes have for handling knowledge (MS p. 3)? She argues that the usual answer from planning theory and science studies, deliberation, is inadequate, and proposes a pragmatic alternative: arenas where knowledge claims are tested and recognised. She first defines terms: “Knowledge differs from information and data in that the specification of a causal relationship is central to knowledge” (MS p. 4). Planning seeks specific impacts, so planners must understand how impacts follow from actions. Even a dataset relies on knowledge of such causal links to be used."
+   ]
+  },
+  {
+   "h": "From knowledge to knowledges",
+   "p": [
+    "After the modernist consensus, knowledge is no longer one category (Evans and Marvin): there are multiple claims to represent reality and multiple ways of knowing, held by many actors, not only experts (MS p. 4). Science studies stress lay knowledges (Wynne); environmental policy showed the value of local, experiential, contextualised knowledge compared to the non-local, objectified, generalised knowledge of science. Some warn against automatically prioritising local knowledge (Forsyth), but drawing on it is now accepted. Rydin separates this from calls for public debate on science, which aim to build trust in policy (MS p. 5).",
+    "Planning theory made a parallel journey from modernism (peaking in 1970s systems theory) to a fragmented field in which a 'new orthodoxy' is emerging: planning as engaging stakeholders, giving them voice and seeking consensus (MS p. 5). Versions differ: consensus won by negotiation and mediation (Innes), consensus inherent in communication (Healey's collaborative planning), or empowerment of the most disadvantaged rather than consensus at any price (Sandercock). All challenge the planner as 'the knower'. Sandercock calls for an 'epistemology of multiplicity': knowing through dialogue, experience, local knowledge, reading symbolic and non-verbal evidence, and contemplative knowledge (MS p. 6). Planning's purpose becomes handling multiple knowledges, and the proposed method is deliberative and collaborative processes."
+   ]
+  },
+  {
+   "h": "The limits of deliberation for knowledge",
+   "p": [
+    "Some concerns about deliberation are general and well known (MS p. 7): vague guidance on practice, doubts about planners' skills, capture by powerful interests, and inability to resolve real conflicts of interest. Rydin adds concerns specific to knowledge. Deliberative processes are usually promoted to explore values and build trust, and an orientation towards agreement may not ensure that the most appropriate knowledge shapes decisions. Two questions follow: can these processes handle multiple knowledges, and can they distinguish knowledge from other bases for involvement?",
+    "On the first: engaging lay and expert knowledges requires translation, but knowledges are not additive (Evans and Marvin), so a shared lingua franca does not resolve disagreement rooted in different experiences (MS p. 8). Innes herself says consensus building works through collective storytelling rather than the force of the better argument, and names two conditions: fully shared information, or situations where 'uncertainty is rampant'. In both, disputes are about values, either because knowledge is not contested or because no certain knowledge exists. Most planning lies in between. Hence: “engaging different knowledges is fundamentally different to engaging different voices” (MS p. 8).",
+    "So Rydin recasts knowledge as knowledge claims: claims to understand causal relationships. These differ from ethical, pragmatic, efficiency or aesthetic claims. All matter, but they are different. Collins and Evans argue that stakeholder rights differ from rights based on expertise, and Habermas distinguishes validity claims to truth (constatives), normative legitimacy (regulatives) and truthfulness (expressives) (MS pp. 8–9). Rydin stresses that this is not a ranking: knowledge claims are not more important than ethical claims, just fundamentally different, and a planning process must be able to tell them apart."
+   ]
+  },
+  {
+   "h": "Why not every claim is knowledge",
+   "p": [
+    "Planning theory has blurred this distinction for two reasons (MS p. 9). It has focused on values and how to reach agreement between them; knowledge carries values but cannot be reduced to them. And it tends to label all community claims as knowledge, which is politically understandable because it raises their status. But, following Collins and Evans: “The experience of local stakeholders may be an important basis for claiming local or experiential knowledge but … such experience is not of itself a sufficient condition for it to be knowledge” (MS p. 9).",
+    "Three examples make this concrete (MS pp. 9–10). With environmental risk, experts contrast their probabilistic assessment with community attitudes; local experience (for instance episodes of ill-health) may legitimately challenge expert assessments, but not every community perception of risk is knowledge. With cultural heritage, a community may hold historic knowledge of its area alongside emotional attachment and political claims based on its historic stake; these are distinct. A disadvantaged community can offer rich knowledge of lived experience that reveals overlooked poverty and shapes regeneration, and it also has a strong ethical claim to influence, but the ethical and knowledge claims do not coincide."
+   ]
+  },
+  {
+   "h": "Planners as co-producers: opening up and closing down",
+   "p": [
+    "Recognising knowledge claims also means recognising that planning co-produces knowledge (Jasanoff), in line with 'Mode 2' knowledge production in which practitioners and users take part (Gibbons et al.) (MS p. 10). Co-production has two parts: giving voice to actors with relevant knowledge claims, while recognising power differences, and actively recognising some claims as relevant knowledge, which requires testing them. Science studies make the same move: expertise is 'made' in debate but not all claims are equal (Liberatore and Funtowicz); Rip asks for assessment of robustness; Nowotny's 'socially robust knowledge' is tested for validity, involves an extended group of experts and is repeatedly tested and modified (MS p. 11).",
+    "This fits collaborative theory's Habermasian roots (MS pp. 11–12). For Habermas only speech acts that carry criticisable validity claims constitute communicative action; consensus depends on convincing listeners that claims are rational, justified against appropriate criteria (facts, norms or authenticity), and a speech act must be both understandable (planning theory's emphasis) and warranted. White objects that people can understand without judging validity, but in planning, Rydin argues, actors should not accept claims on an unwarranted basis. Testing validity claims is an intuitive skill of competent speakers, ironically itself a product of modernity.",
+    "So the planning system should be a series of arenas where knowledges engage, with planners co-generating knowledge by testing and recognising claims: opening-up (giving voice) and closing-down (testing and recognising). “Contemporary planning theory has tended to be better at discussing opening-up than closing-down” (MS p. 13). This matches a view of knowledge as socially constructed and engaged with material reality: 'realist constructivism' (Wynne). Arenas may require supporting actors without resources, and accepting that claims come in different languages; it is patronising to assume lay people can only offer experiential stories or emotions (MS p. 13)."
+   ]
+  },
+  {
+   "h": "A typology of knowledge claims",
+   "p": [
+    "Rydin starts from a generic concept of planning with a normative focus: improving the natural and built environment for society (MS p. 14). Figure 1: planning seeks to turn State A into B1; without planning, societal, economic and environmental processes would turn A into B; actual outcomes differ from intentions, so the result is B2. Planning is part of those societal processes, not outside them, and it has real effects, even if not the stated ones (against the view that planning is purely symbolic). Her housing example: B is the anticipated shortage, B1 the planned match of supply and need, B2 profitable developments alongside continuing overcrowding, housing stress and homelessness (MS p. 15).",
+    "This yields seven types (MS pp. 15–17): (1) knowledge of current State A as a benchmark; (2) of predicted State B, since B1 must be judged against B, not A; (3) of processes moving A to B; (4) of how planning could move A to B1; (5) of actual outcomes B2; (6) of how A became B2; and (7) normative knowledge of desired State B1. The seventh is explicitly normative, but still knowledge because a goal must engage with possible realities: 'not any imaginings will serve'. All types share two features: none is value-free, since framing involves choices (describing an area by market prices or by child poverty makes a difference), and each carries an embedded causal story (MS p. 17)."
+   ]
+  },
+  {
+   "h": "Testing and recognising each type (Table 2)",
+   "p": [
+    "The task is to create arenas to engage, test and recognise claims, Rip's 'hybrid forums' (MS pp. 17–18). Table 2 collapses the seven types into four. Empirical claims come in lay and expert forms (hence 'experiential knowledge'); the planner acts as consultancy client, data analyst or facilitator of community input, and needs forums where expert meets expert, lay meets lay, and lay and expert examine each other's claims, with procedures to resolve them (MS p. 18). Process claims need theoretically framed research, sometimes action research, in which planners are object of or participants in research; testing means engaging rival causal models, in academia or policy evaluations, until the planner judges a model robust enough for decisions (MS p. 19).",
+    "Predictive claims resemble process claims but are mostly expert-led, since lay knowledge is rooted in past and present; the planner is the client of researchers, alert to lay input, and testing adds debate on prediction techniques (MS p. 19). Normative claims belong in debate in the public sphere; academics can help by developing alternative scenarios (Flyvbjerg's phronesis). The planner manages informed debate, checks that proposed futures are genuinely possible and makes sure no possible future is ruled out, thereby adding 'an ethical voice of their own' (MS p. 20). Table 1 applies the typology to three examples: sustainable construction, where expert knowledge must be open to building users and NGOs; the housing market, where developers' framing of the 'problem' must be challenged; and landscape values, which mix expert and lay assessments (MS pp. 20–21). Without testing forums, knowledge claims lose their specific character and dissolve into other claims."
+   ]
+  },
+  {
+   "h": "Evidence and method",
+   "p": [
+    "The article is conceptual. It builds its argument from planning theory and science and technology studies (Latour, Wynne, Collins and Evans, Jasanoff, Nowotny) and from Habermas' theory of validity claims. The typology is presented as a heuristic, with its simplifications admitted, and illustrated with three stylised policy examples in Table 1 (sustainable construction, the housing market, landscape values) rather than tested on cases. There is no fieldwork; the contribution is a set of distinctions and an institutional proposal that others could apply and test."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Rydin wants to bridge modernist and postmodern planning theory (MS p. 21). Knowledge is socially constructed, multiple and made of claims open to contestation and recognition, yet knowledge has a specific contribution that must not be lost. Planning should hear many voices for the sake of democracy and empowerment, but also create specific spaces to test knowledge claims. “Not all claims within planning can be recast as knowledge claims just to promote the status of the claim-maker” (MS pp. 21–22). The value of knowledge must be asserted alongside the value of hearing diverse stakeholders. Her caveats are that the typology simplifies, that she deliberately leaves the planning approach open beyond a generic normative focus, and that the institutional design of forums is sketched rather than worked out."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis. The knowledge lecture uses this article to define the third dimension: universal ↔ situated, monist ↔ pluralist, and realism ↔ relativism. Rydin is pluralist (many actors can hold valid knowledge) and sees knowledge as socially constructed and situated, but she is not a strong relativist: claims can be tested and ranked, which the lecture labels soft relativism and she calls realist constructivism. That combination is what makes her position distinctive, and it is the source of the classic exam traps: pluralism is about who can produce knowledge, not how many people you survey, and situated does not mean anything goes.",
+    "She positions herself against both poles of Hall's history: the modernist expert monopoly of systems planning, and the communicative 'new orthodoxy' that treats all voices as knowledge. Her call for closing-down links to Davoudi's evidence-informed planning (week 3), and her typology helps analyse the governmental model's evidence claims. Contrast Hayek, who (in other work than the course chapter) stresses dispersed local knowledge that no planner can collect, and Scott's mētis. In a commentary, ask of any author: which knowledge claims do they make (empirical, process, predictive, normative), who is allowed to make them, and how are they tested?"
+   ]
+  }
+ ],
+ "news": {
+  "t": "Groningen gas: knowledge deliberately limited",
+  "d": "On 24 February 2023 the parliamentary enquiry committee on gas extraction in Groningen published its report 'Groningers boven gas'. Its overarching finding is that the interests of Groningers were structurally ignored in gas extraction; its conclusions include that the severity of the problems was structurally underestimated, that money was dominant in decisions, and that 'de kennisontwikkeling over het Groningenveld is doelbewust beperkt gehouden' (knowledge development about the field was deliberately kept limited).",
+  "why": "Read through Rydin (2007), this is a failure on both sides of her proposal: residents' experiential claims about damage were not opened up (given voice in an arena), and the expert knowledge that should have tested them (closing down) was itself constrained by the parties with an economic interest. It shows knowledge as an institutional product, not a neutral mirror of nature, and why claims about causal relations (does extraction cause these quakes and this damage?) need separate testing from efficiency claims (gas revenue). Limit: the enquiry is a political judgement in hindsight, not a test of Rydin's institutional design.",
+  "src": {
+   "name": "Tweede Kamer",
+   "title": "Rapport parlementaire enquêtecommissie aardgaswinning Groningen",
+   "url": "https://www.tweedekamer.nl/groningen/rapport",
+   "date": "2023-02-24"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Three epistemological questions and the two paradigms",
+    "svg": "[SVG figure; labels: What is knowledge? | universal | situated | Who can produce it? | monist | pluralist | Assessing and comparing knowledge claims (after the break) | realism | relativism | positivism | usually universal + monist | post-positivism | usually situated + pluralist]",
+    "cap": "After the 'two axes', 'paradigms' and 'a question of epistemology' slides (Allmendinger 2002; Davoudi 2012, p. 430). Each question can still be answered separately: many shades of grey.",
+    "slide": "Knowledge lecture slides 16–17, 47"
+   },
+   {
+    "title": "The elephant parable: realist vs relativist",
+    "svg": "[SVG figure; labels: Realist version | partial account | partial account | partial account | the elephant | revealed | combining accounts gets closer to reality | Relativist version | a story | a story | a story | no elephant, | only stories | of the elephant | no neutral way to compare frameworks]",
+    "cap": "Schematic of the elephant parable as used in the lecture to contrast epistemological realism and relativism.",
+    "slide": "Knowledge lecture slides 46, 48"
+   }
+  ],
+  "tables": [],
+  "points": [
+   {
+    "t": "A definition of planning (Friedmann)",
+    "d": "“Planning is linking knowledge to action, in the governing of shared spaces, for the attainment of desirable futures.” PLANNING = KNOWLEDGE and ACTION + GOVERNANCE + FUTURES (based on Friedmann 1987; Healey 1997).",
+    "slide": "Knowledge lecture slide 11"
+   },
+   {
+    "t": "Planning's authority rests on knowledge",
+    "d": "“Planning's authority has always rested on a claim about knowledge.” “Knowledge claims are linked to the changing historical authority of planning.” “Planning theories now tend to emphasize that engaging different knowledges matters – but how …”",
+    "slide": "Knowledge lecture slide 12"
+   },
+   {
+    "t": "Learning goals of the knowledge lecture",
+    "d": "Explain what it means for a planning theory to take a position on knowledge; trace how planning's grounds for expertise changed between the 1950s and the 2000s and explain the breakdown of the 'modernist consensus'; identify different types of knowledge claims.",
+    "slide": "Knowledge lecture slide 10"
+   },
+   {
+    "t": "Epistemology",
+    "d": "What is knowledge (universal or situated) and who can produce it (monist or pluralist) “are questions of epistemology, the study of what knowledge is, who makes it, and how we assess it.”",
+    "slide": "Knowledge lecture slide 15"
+   },
+   {
+    "t": "Paradigms: positivism and post-positivism",
+    "d": "“universal + monist is usually associated with positivism: science can be value-free and objective; the social and natural sciences work alike.” “situated + pluralist is usually associated with post-positivism: science can never be entirely value-free; there are many nuances within this.” “But each question can still be answered separately and there are many shades of grey” (Allmendinger 2002; Davoudi 2012, p. 430).",
+    "slide": "Knowledge lecture slide 17"
+   },
+   {
+    "t": "Realism vs relativism: the slide's definitions",
+    "d": "“Realist. Claims are about a real world outside them and some claims can be better than others.” “Relativist. Claims are valid only inside a framework and there is no neutral way to compare frameworks.”",
+    "slide": "Knowledge lecture slide 46"
+   },
+   {
+    "t": "The lecture's guiding questions",
+    "d": "“Are all knowledge claims equally valid?” (think-pair-share) and “If we acknowledge there are multiple forms of knowledge, how do we then deal with this in planning practice?”, answered with Rydin's opening up and closing down.",
+    "slide": "Knowledge lecture slides 45, 49"
+   },
+   {
+    "t": "Key communicative texts shown",
+    "d": "Healey, Collaborative Planning: Shaping Places in Fragmented Societies; Susskind & Cruikshank, Breaking the Impasse: Consensual Approaches to Resolving Public Disputes; Forester, The Deliberative Practitioner.",
+    "slide": "Knowledge lecture slide 38"
+   },
+   {
+    "t": "Hands up: where does the communicative turn sit?",
+    "d": "After presenting the 'new orthodoxy' (many stakeholders aiming at agreement; Habermas's communicative rationality; knowledge held by residents and other groups, not only planners), the lecture asked again: universal or situated? monist or pluralist? By the slide's own wording ('different knowledges', held by many groups) the answer leans situated and pluralist (our reading).",
+    "slide": "Knowledge lecture slide 39"
+   },
+   {
+    "t": "Exam tip: bachelor-level theory is assumed",
+    "d": "BPT's entry requirements: “Knowledge of basic planning theories and understanding of spatial planning paradigms. This equals the content of the bachelor course Planning Theory.” So the lecture does not go deep on Innes, Healey or Sandercock: “we assume you are already familiar with them and/or use Rydin (2007)”.",
+    "slide": "Knowledge lecture slide 40"
+   },
+   {
+    "t": "Consensus vs wicked problems",
+    "d": "The lecture's version of Rydin's limits: “Consensus fits cases with fully shared information, or with very high uncertainty, but planning often deals with 'wicked problems'.”",
+    "slide": "Knowledge lecture slide 42"
+   },
+   {
+    "t": "Grenfell and the farmers' protest",
+    "d": "Next to the Grenfell Action Group blog ('KCTMO – Playing with fire!'), the lecture showed a photo of a farmers' tractor protest at the EU quarter in Brussels (Independent). It was shown without text; it seems meant as another case of contested claims about knowledge and interests (our reading).",
+    "slide": "Knowledge lecture slides 43–44"
+   },
+   {
+    "t": "Exit ticket",
+    "d": "“Which of the three knowledge dimensions was hardest to understand, and what made it hard for you to understand?” Written on paper and followed up the next week.",
+    "slide": "Knowledge lecture slide 58"
+   }
+  ]
+ }
+}

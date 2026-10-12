@@ -1,0 +1,224 @@
+{
+ "id": "scott",
+ "wk": 3,
+ "title": "Scott (1998/2020) The high-modernist city",
+ "cite": "Scott, J.C. (2020). Seeing Like a State, ch. 4 'The High-Modernist City: An Experiment and a Critique', pp. 103–146. Yale UP",
+ "theory": "Critique of authoritarian high modernism",
+ "status": "full",
+ "statusNote": "Full chapter on file (from your book text).",
+ "one": "High-modernist planning (Le Corbusier, CIAM, Brasília, Chandigarh) imposed a legible, geometric, functionally segregated order seen from above. It produced visual order but social failure, and an unplanned city at the margins. Jane Jacobs's street-level view shows real order is complex and experienced.",
+ "summary": [
+  "High modernism = a strong belief in scientific and technical progress, rational design of the social order, and state power to impose it (with a weak civil society). Le Corbusier's 'total city planning': a tabula rasa, geometry and standardisation (right angles, the straight line), strict functional segregation (work, home, leisure, traffic), and 'rule by the plan, the planner, and the state': the plan is to be imposed, with no consultation. He saw the city from the air; the plan was a utopian project, legible and easy to police.",
+  "Brasília (Costa and Niemeyer, under Kubitschek) is 'the closest thing we have to a high-modernist city'. It was built from zero on state land as a 'utopian miniaturization' meant to transform Brazil. Residents got 'brasilite': no street corners, no crowds, uniform superquadra blocks, disorientation. Legibility for administrators meant confusion for residents. By 1980, 75% of the population lived in unplanned settlements; the planned city depended on the unplanned one ('symbiotic'). Chandigarh (Le Corbusier) repeated this: monumental axes, empty squares, hawkers banned.",
+  "Jacobs (1961) critiques from street level: visual order ≠ experienced order; function, not surface regularity, defines order; mixed use and complexity ('cross-use') are functionally superior; single-use zoning simplifies for planners. Planning as 'urban taxidermy': cities treated as works of art instead of living systems. Scott's wider point (ch. 9) is that high modernism ignores practical, local knowledge (mētis)."
+ ],
+ "concepts": [
+  [
+   "High modernism",
+   "Faith in science/technology and state power to rationally redesign society and space."
+  ],
+  [
+   "Legibility",
+   "Making society readable and controllable from the centre through simplification and standardisation."
+  ],
+  [
+   "Functional segregation",
+   "Separating work, housing, leisure and traffic into zones."
+  ],
+  [
+   "Utopian miniaturisation",
+   "Building a model city from scratch to demonstrate a new society."
+  ],
+  [
+   "Brasilite",
+   "Residents' 'disease' of anonymity and missing street life in Brasília."
+  ],
+  [
+   "Unplanned Brasília",
+   "Squatter and satellite settlements housing most people, symbiotic with the planned core."
+  ],
+  [
+   "Visual vs experienced order",
+   "Jacobs: tidy geometry ≠ a well-functioning, lived environment."
+  ],
+  [
+   "Mētis",
+   "Practical, local, experience-based knowledge high modernism ignores."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Plano Piloto | legible, geometric | satellite / squatter towns (75% of residents by 1980) | Seen from the air (Le Corbusier) | order = visual geometry | Seen from the street (Jacobs) | order = complex mixed use, | sidewalk life, cross-use]",
+ "cap": "Scott: the cost of order at the centre required an unplanned city at the margins.",
+ "example": "Dutch post-war 'wijkgedachte' neighbourhoods (Bijlmermeer: high-rise, separated traffic levels) are a local high-modernist case, and its 1990s partial demolition a Jacobs-style correction.",
+ "quotes": [
+  "\"the cost of this kind of order and legibility at the center of the plan virtually required that it be sustained by an unplanned Brasília at the margins. The two Brasílias were not just different; they were symbiotic.\"",
+  "\"there is no necessary correspondence between the tidy look of geometric order on one hand and systems that effectively meet daily needs on the other\" (on Jacobs)"
+ ],
+ "dims": {
+  "sa": 40,
+  "rt": 60,
+  "de": 70,
+  "us": 80,
+  "mp": 80,
+  "norm": "Scott's own view: respect for local practical knowledge, livability, humility about state planning."
+ },
+ "exam": "Careful: high modernism itself is universal/monist/deliberate; Scott's critique of it is situated/pluralist (mētis) and shows emergent, unplanned outcomes. An MCQ may ask about either.",
+ "examples": [
+  {
+   "t": "Brasília's unplanned city",
+   "d": "The construction workers (candangos) organised to claim land, services and title; by 1980, 75 percent of Brasília's population lived in settlements the plan never anticipated, while the planned city reached less than half its projected 557,000. Shows Scott's point that the legible, ordered centre depended on an unplanned city at the margins.",
+   "src": "text",
+   "p": "p. 134"
+  },
+  {
+   "t": "Chandigarh's empty monumental squares",
+   "d": "Le Corbusier replaced housing planned for the centre with an 'acropolis of monuments' on a 220-acre site, swapped crowded bazaars for huge squares that now stand largely empty, and street traders were banned from the centre. Shows functional segregation and order seen from above killing street life, again with an unplanned periphery.",
+   "src": "text",
+   "p": "pp. 112, 136"
+  },
+  {
+   "t": "The despised East Harlem lawn",
+   "d": "Jacobs describes a housing project lawn that residents treated with contempt, because in a project of strangers they could not get a newspaper, a coffee or borrow fifty cents. Shows the gap between visual order and experienced, functional order.",
+   "src": "text",
+   "p": "p. 137"
+  },
+  {
+   "t": "Eyes on Boston's North End",
+   "d": "Dense shops, bars and bakeries kept the North End busy all day, so shopkeepers, passers-by and elderly people at windows watched the street; on Jacobs's own street, neighbours and shopkeepers gathered to stop a possible abduction without any police. Shows informal, mixed-use order ('eyes on the street') that single-use planning cannot design.",
+   "src": "text",
+   "p": "p. 139"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Seeing Like a State is James Scott's book about why well-intended state schemes to improve people's lives so often fail. His core idea, developed in earlier chapters with the example of scientific forestry, is 'legibility': states simplify complex realities (forests, land, people) so they can be read, counted and controlled from the centre. Chapter 4 applies this to cities. Its puzzle is: what happens when an ideology of total rational order, which Scott calls 'high modernism', gets the chance to build a whole city from scratch? The chapter is both 'an experiment' (Brasília as the nearest thing to a built high-modernist city) and 'a critique' (through Jane Jacobs).",
+    "Scott uses Le Corbusier as his main figure. Le Corbusier (Charles-Edouard Jeanneret) was active roughly 1920 to 1960, 'less an architect than a visionary planner of planetary ambitions' (p. 106). Most of his schemes were never built, but his doctrines shaped the Athens Charter of CIAM, the international congress of modern architects. Scott admits Le Corbusier is almost a caricature of modernist urbanism, but argues he is useful precisely because his views were extreme, consistent and influential: they celebrate the logic built into high modernism and so show it in sharp relief (p. 107). Note on pages: the numbers used here follow the page markers in the chapter file."
+   ]
+  },
+  {
+   "h": "Total city planning and the view from the air",
+   "p": [
+    "In The Radiant City (1933) Le Corbusier set out his doctrine. His plans were deliberately immodest: Plan Voisin for central Paris (a city of 3 million), a 'business city' for Buenos Aires, a housing scheme for about ninety thousand people in Rio (p. 107). Scott notes three things. No compromise was made with the existing city; the new cityscape completely replaced it. The plans were designed to make a visual impact that could only be seen from a great distance: Buenos Aires as seen from a ship, Rio and Paris as if from an aircraft. And none referred to local history, traditions or tastes; they 'could be anywhere at all' (p. 107).",
+    "Le Corbusier's scorn for the old city had two roots (pp. 107–109). One was functional and scientific: dark, crowded, disease-ridden cities really did need drastic change to become healthy and efficient. The other was aesthetic: he was offended by disorder, and the disorder he saw was a disorder visible from above, a bird's-eye view. For him, formal geometric order was not just balanced against efficiency; it was a precondition of it. He wanted his city to rise on a cleared site as one integrated composition, refusing, in his words, any concession to 'the mess we are in now' (p. 109)."
+   ]
+  },
+  {
+   "h": "Geometry, standardisation and functional segregation",
+   "p": [
+    "Le Corbusier loved simple, repetitive straight lines and right angles and presented this as a feature of human nature and reason (pp. 110–111). Scott dismantles the justification: the machines Le Corbusier admired (locomotive, airplane, car) are rounded or teardrop-shaped; science recognises every shape as geometric; nature's order is complex. What remains is 'an aesthetic ideology' (p. 111), which also produced a legible grid that could be grasped at a glance and repeated endlessly, and which was often ruinously expensive on uneven terrain. He also foresaw industrial standardisation of building parts, and CIAM's 1928 manifesto wanted standards legislated through the League of Nations (p. 111).",
+    "The most decisive simplification was strict functional segregation (pp. 112–113). His second principle was 'the death of the street': pedestrians separated from vehicles, and slow from fast traffic. The city was split into zones for work, housing, shopping and entertainment, and monuments and government, a doctrine that became standard planning until the late 1960s. At Chandigarh his first act was to replace central housing with an 'acropolis of monuments'. Scott explains the logic: it is far easier to plan something with one purpose. A road judged only on getting cars from A to B can be optimised; a home, used for work, sociability, cooking, gossip, education and politics, cannot. Planning from above requires that the values maximised be few and sharply specified, preferably one (p. 113)."
+   ]
+  },
+  {
+   "h": "Rule by the plan, the planner and the state",
+   "p": [
+    "Le Corbusier's first principle was 'The Plan: Dictator' (p. 113). The existing city was the product of historical chance; the city of the future would be consciously designed from start to finish. Centralisation of the plan was mirrored in the city: a 'monocephalic' city whose business centre issues commands, modelled on the factory, which he admired as the one place where a single rational purpose ordered both space and people (pp. 113–114). Hierarchy runs everywhere, from the city centre out to the provinces. At the top sits not a capricious autocrat but a kind of philosopher-king applying scientific truth.",
+    "Scott quotes at length the passage that shows this most starkly: 'The despot is not a man. It is the Plan.' (p. 115). The plan, Le Corbusier says, is drawn up away from the mayor's office and the cries of the electorate, ignores existing regulations and does not consider whether it fits the constitution. Scott's reading: the wisdom of the plan sweeps away elected authorities, voters, the constitution and the law, amounting at least to a dictatorship of the planner. Technocracy here means believing that urban design has a unique solution an expert can discover, so politics and bargaining can only produce the wrong answer (p. 115). Le Corbusier dedicated his major work 'to Authority' and spent his career seeking a Prince, whether in Moscow, Vichy, Algiers or Nehru's India, who would give him a free hand (p. 116)."
+   ]
+  },
+  {
+   "h": "The city as a utopian project with an abstract citizen",
+   "p": [
+    "Because he believed his plans expressed universal science, Le Corbusier assumed people would embrace them once they understood them; CIAM even wanted school children taught the principles of scientific housing (p. 117). Happiness for him could be expressed in numbers and calculated designs. The citizen's satisfaction was not personal freedom but fitting into a rational whole, like a worker proud of a perfect product. The Plan Voisin even coded status spatially: the business elite in towers at the core, subaltern classes in garden apartments at the edge (p. 117).",
+    "Scott grants that Le Corbusier planned for real basic needs neglected in the slums: light, air, space, services. But he did so by stipulating 'an abstract, simplified human subject' with fixed material requirements (p. 118). He never admitted that the people planned for might have something valuable to say or that their needs might be plural. The utopian stance also implied contempt for the existing city and its people; Scott quotes his language about 'human garbage' and notes his awareness that slums hindered police work, so a legible city was also a city easy to control (pp. 118–119). Le Corbusier is thus a 'textbook case' of high-modernist planning: total rationalisation, universal ambitions, a strong visual aesthetic, and repudiation of tradition in favour of a 'clean tablecloth' (pp. 119–120)."
+   ]
+  },
+  {
+   "h": "Brasília: the high-modernist city built, almost",
+   "p": [
+    "Brasília, drawing on James Holston's anthropological study, is Scott's main case (pp. 120–121). It was President Kubitschek's project ('fifty years of progress in five'), designed by Lucio Costa and Oscar Niemeyer within CIAM doctrine, and built on an empty plateau about 1000 km inland. Conditions were ideal for high modernism: the state planning agency owned all the land, so there were no private owners to negotiate with; functions were segregated; the city was a single-function administrative capital. It was meant as the negation of old Brazil, a 'dawn of a new day' that would transform how Brazilians lived (p. 122).",
+    "What it negated most of all was the street and the square. In Brazilian cities the square had been a 'public visiting room' for processions, play, shopping, meeting and politics (p. 122). Brasília had roads for cars, not streets, and a vast Plaza of the Three Powers where meeting a friend would be like meeting in the Gobi desert, with nothing to do once there (p. 123). Informal public spaces (cafés, street corners, small squares) were designed out, leaving only officially designated ones and large 'dead' voids. The plan also had an emancipating side: no land speculation, 25 square metres of green space per resident, similar housing for all, and superquadra blocks of about 1,500 to 2,500 residents each with schools and services (p. 130). Scott's comparison: Brasília is to São Paulo or Rio as scientific forestry is to the unplanned forest."
+   ]
+  },
+  {
+   "h": "Living in Brasília and the unplanned Brasília",
+   "p": [
+    "Residents were struck that it was 'a city without crowds' and said it lacked street corners (p. 130). The first generation coined 'brasilite', a mock illness expressing the monotony and anonymity of a daily life without the small pleasures of outdoor street life. Identical facades without even balconies resisted personalisation; children asked by Holston to draw 'home' all drew a traditional house, not a flat (p. 131). Scott highlights an irony: what seemed rational and legible to administrators felt like disorder to residents, who struggled to find their way among identical sectors and acronyms. Order at the macro level produced confusion at the micro level (pp. 131–132).",
+    "The biggest miscarriage was demographic (pp. 132–134). The sixty thousand construction workers were expected to leave; instead they squatted, organised, and using Kubitschek's own heroic rhetoric about the 'candangos' demanded land, services and title. By 1980, 75 percent of the population lived in settlements never anticipated, while the planned city had reached less than half its projected 557,000. Instead of a classless city, Brasília became starkly segregated by class, with the poor at the periphery. Scott's key sentence: 'The two Brasílias were not just different; they were symbiotic.' (p. 134). The order at the centre required an unplanned city at the margins. Chandigarh repeated the pattern: monumental axes, empty squares, hawkers banned, and another unplanned city at the edges (pp. 135–136)."
+   ]
+  },
+  {
+   "h": "Jane Jacobs: order seen from the street",
+   "p": [
+    "Scott then turns to Jane Jacobs's The Death and Life of Great American Cities (1961), which he calls the most carefully observed critique of high-modernist urbanism (p. 136). Her perspective is the opposite of Le Corbusier's: where he saw the city from the air, she saw it as a pedestrian on daily rounds, doing an ethnography of sidewalks and intersections. Her formative insight: 'there is no necessary correspondence between the tidy look of geometric order on one hand and systems that effectively meet daily needs on the other' (p. 137). Her example is an East Harlem housing project whose neat lawn residents despised, since they could not even get a newspaper or a coffee there.",
+    "Planners' basic mistake, for Jacobs, was inferring functional order from visual regularity. Complex systems look like chaos until you understand them, like leaves falling or the inside of an engine (p. 137). This aesthetic error drove the second error, rigid single-use zoning, which was easier to plan and looked tidier; Scott compares it to an army on parade rather than an army in combat (p. 138). Jacobs also warned that more sophisticated statistical models encouraged massive slum clearance that treated families like 'billiard balls' (p. 138). Against this she argued for the functional superiority of mixed use and complexity: public peace is kept by an informal network of 'eyes on the street', shopkeepers and residents on 'sidewalk terms', as in Boston's North End or her own Manhattan street where neighbours quietly watched over a child (pp. 138–139)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "The chapter as supplied breaks off in the middle of the Jacobs section (around p. 140), so the rest of her critique and Scott's closing remarks for the chapter are not available here. From what is there, Scott's argument is clear. High-modernist planning produces legibility and visual order for the state and the planner, but it does so by simplifying a city to a few functions and an abstract citizen. The result is not the intended new society but monotony for residents and an unplanned city that the plan itself makes necessary.",
+    "Scott is not against order or health; he acknowledges Brasília was 'rational, healthy, rather egalitarian' in its way (p. 130). His target is the combination of a total plan, a universalising science and an authoritarian state willing to override politics, law and residents. What he values instead, via Jacobs, is the complex, informal order that emerges from people's everyday practices and that planners easily mistake for chaos. The success of Brasília was real if measured by its difference from old Brazilian cities, but minimal if measured by its power to transform Brazil or make people love its way of life (p. 134)."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is a synthesis linking Scott to the course, not his own framing. High modernism as Scott describes it is the extreme, authoritarian version of Rydin's governmental model: knowledge is universal and scientific, monist (the expert planner decides), and outcomes are assumed to follow deliberately from the plan. Scott's critique moves in the opposite direction on every dimension: it values situated, local knowledge (in the wider book he calls this 'mētis'), it is pluralist about who knows the city, and it shows emergent outcomes, since the real Brasília was made by squatters, politics and resistance. On structure versus agency, Scott shows the state's structural power but also residents' agency in bending the plan.",
+    "Contrasts: Rydin's governmental model keeps politicians in charge of goals, whereas Le Corbusier wants the Plan to override politics altogether; that is what makes it authoritarian rather than merely rational. Davoudi's critique of evidence-based policy and Alexander's contingency view are gentler, internal critiques of rationality; Scott's is a critique from outside. In lecture terms, Scott illustrates the 'high modernism' context (Brasília slide): belief in scientific knowledge, confidence in state-led redesign, and the idea that society can be known and controlled. A Dutch link from the course summary is the Bijlmermeer."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "High-modernist principle",
+   "What it meant in the plan",
+   "What Scott and Jacobs show it cost"
+  ],
+  "rows": [
+   [
+    "Clean slate ('clean tablecloth')",
+    "Build on cleared or empty land, no concession to the existing city (Plan Voisin, Brasília on state land)",
+    "Places that 'could be anywhere'; history, local tastes and practices erased"
+   ],
+   [
+    "Geometry and standardisation",
+    "Straight lines, right angles, uniform blocks and parts",
+    "An aesthetic ideology, often costly; identical superquadra and disorientation for residents"
+   ],
+   [
+    "Functional segregation",
+    "Separate zones for work, housing, shopping, government; 'death of the street'",
+    "No street corners or public visiting rooms; 'brasilite'; dead voids"
+   ],
+   [
+    "Rule by the plan",
+    "'The Plan: Dictator'; experts find the one true solution; politics bypassed",
+    "Authoritarian planning, a search for a Prince; residents not consulted"
+   ],
+   [
+    "Abstract, schematic citizen",
+    "Needs stipulated in square metres, air, light, services",
+    "Plural social and cultural needs ignored; people treated as 'billiard balls'"
+   ],
+   [
+    "Legibility from above",
+    "City read at a glance from the air, easy to administer and police",
+    "Macro-order, micro-confusion; an unplanned Brasília (75% by 1980) sustaining the planned one"
+   ]
+  ]
+ },
+ "news": {
+  "t": "Saudi Arabia scales back NEOM's The Line",
+  "d": "The Line was planned as two 500-metre tall buildings running 170 kilometres from the Red Sea through desert mountains, housing nine million people by 2045. In January 2026 Euronews reported that Crown Prince and NEOM chairman Mohammed bin Salman now envisions a much smaller development, amid pressure from a subdued oil price (Brent just above $60) and reports that the true cost could approach $9 trillion. The focus is shifting to industrialising NEOM, notably as a data-centre hub.",
+  "why": "Read through Scott, The Line is a textbook case of authoritarian high modernism: a tabula rasa 'utopian miniaturisation' on state-controlled land, a single geometric form fully legible from above, decided by one ruler with no civil-society check. Its retreat shows how such master plans run into the complexity they ignore. Limit: the reported reasons are financial (oil price, cost), not the social failure Scott and Jacobs describe, since nobody has really lived in it yet.",
+  "src": {
+   "name": "Euronews",
+   "title": "Neom no more? Saudi Arabia reduces ambitious plans for 'The Line' and futuristic megacity",
+   "url": "https://euronews.com/culture/2026/01/26/neom-no-more-saudi-arabia-reduces-ambitious-plans-for-the-line-and-futuristic-megacity",
+   "date": "2026-01-26"
+  }
+ },
+ "lect": {
+  "figs": [],
+  "tables": [],
+  "points": [
+   {
+    "t": "Brasília as the lecture's example",
+    "d": "Right after the three features of high modernism (faith in scientific and technical knowledge, confidence in state-led reshaping of society, society can be 'known' and 'controlled'), the lecture showed an aerial photo of Brasília's monumental centre as the example.",
+    "slide": "Rational planning slides 11–12"
+   }
+  ]
+ }
+}

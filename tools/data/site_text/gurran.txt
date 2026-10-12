@@ -1,0 +1,224 @@
+{
+ "id": "gurran",
+ "wk": 7,
+ "title": "Gurran & Ruming (2016) Less planning, more development? Housing and urban reform discourses in Australia",
+ "cite": "Gurran, N. & Ruming, K. (2016). Less planning, more development? Housing and urban reform discourses in Australia. Journal of Economic Policy Reform, 19(3), 262–280. doi:10.1080/17487870.2015.1065184",
+ "theory": "Discourse analysis (broadly Foucauldian: regimes of truth) within a critique of neoliberal planning reform",
+ "status": "full",
+ "statusNote": "Full text on file, but it is the online-first version (published online 22 Sep 2015), paginated 1–16, not the issue pagination 262–280. All page numbers here refer to the online-first pages. Figures 1–3 are charts only partly legible in the text file; the numbers used are those stated in the prose. Links to Taylor (2016), Hayek/Glaeser, Marxism and neo-institutionalism are my own connections.",
+ "one": "In the 2011–2014 New South Wales planning reform, the development industry's framing of planning as 'red tape' that blocks housing supply, growth and affordability became a 'regime of truth' that the government's White Paper and draft Planning Bill largely adopted, while community, environmental and affordable-housing concerns were sidelined. Housing affordability served as a 'semantic justification' for a wider deregulatory agenda; the Bill nevertheless stalled under community backlash, and approvals boomed while prices kept rising.",
+ "summary": [
+  "Context (pp. 1–7). Planning systems have resisted deregulation and elsewhere (UK section 106, US inclusionary zoning) are used to secure affordable housing, but their legitimacy is now questioned for slowing supply (Glaeser and Ward, Ball) and for exclusionary use by owners. Australia has one of the world's most expensive housing markets; ownership fell from about 71% (mid-1980s) to 68% (2012). A long-running national microeconomic reform agenda (COAG) prioritises deregulation of planning and development assessment. Social housing approvals in NSW fell from around 15% of dwellings in 1983 to under 2% in July 2014; the NHSC's 85,000-dwelling shortfall would have been roughly offset (90,000 extra dwellings) had social housing production stayed at its 1996 level (p. 6).",
+  "Approach (pp. 2–3, 7–9). A 'broadly Foucauldian analysis' treats language as producing reality: the power of a group rests on its capacity to sustain a version of reality as 'objective truth'; discourses harden into 'regimes of truth' that fix acceptable problems and solutions (Jacobs, Hastings, Clapham). Data: the July 2012 Green Paper (over 1,200 submissions, 72% from community individuals and organisations, 1% from the development industry), 13 selected submissions (industry: PCA, UDIA, Urban Taskforce, Australand, HIA, Master Builders; plus PIA, LGSA, WSROC, Shelter NSW, EDO, NCC/TEC, and the resident group FOKE), and the April 2013 White Paper and draft Planning Bill; close reading, coding and NVIVO keyword searches.",
+  "Findings: framing and objectives (pp. 10–11). Industry frames planning as dysfunctional, bureaucratic and anti-growth, and residents as part of the problem; local government and residents frame the problem as distrust and 'undue influence of developers'. PCA: the system should deliver 'an economic dividend'. Local government and residents want ecologically sustainable development, social impact and heritage objectives kept. The White Paper makes promoting economic growth the 'main purpose' of planning; the Bill positions housing as 'economic activity' and relegates environment and society through 'while' and 'having regard to'.",
+  "Findings: specific reforms (pp. 11–14). Easier spot rezoning with developer appeals: supported by industry, opposed by councils, adopted. Participation: promised as central, yet no new consultation rights and curtailed statutory consultation in development assessment; Australand wants an 'antidevelopment culture' to shift. Red tape: PCA's claim of 40% cost reduction comes with no evidence; the Bill bans 'onerous' controls affecting financial viability. Infrastructure: here government resists industry, which (against its free-market line) wants broad-based public funding; developers keep paying. Affordable housing: Shelter's inclusionary zoning ignored; existing affordable housing contribution provisions are wound back.",
+  "Conclusion (pp. 14–16). Industry discourse aligned with neoliberal ideology dominated the formal process, but ideology and interests are not the only drivers: the Bill stalled by the end of 2013 in parliament, where the government lacked a majority, after a backlash by the Better Planning Network (more than 300 resident groups; the 'Hazzard tape' protest), whose influence worked outside the formal process. Ironically, approvals reached a 20-year high and almost doubled (Dec 2011 to 2014) under the unreformed system, while Sydney's median house price rose from $535,000 (March 2011) to $735,000 (December 2014): more supply did not ease affordability. The authors ask whether reform discourse distracts from the real pressures on low-income renters and aspiring owners."
+ ],
+ "concepts": [
+  [
+   "Discourse (Foucauldian)",
+   "Language as producing reality and knowledge, not a neutral medium; meaning is contested and tied to power."
+  ],
+  [
+   "Regime of truth",
+   "A dominant, relatively static representation of reality that fixes which problems and solutions count as acceptable (Foucault 1980, via Jacobs)."
+  ],
+  [
+   "Supply-side / 'red tape' discourse",
+   "The industry narrative that planning regulation constrains supply, raises costs and so causes unaffordability; deregulation is the cure."
+  ],
+  [
+   "Semantic justification",
+   "Using housing affordability as a rhetorical warrant for deregulation whose real content is growth and development."
+  ],
+  [
+   "Rhetorical relegation",
+   "Placing environmental and social goals in subordinate clauses ('while', 'having regard to') so that growth becomes the primary purpose."
+  ],
+  [
+   "Neoliberal planning reform",
+   "Microeconomic reform aimed at deregulation and competition: simplified controls, faster decisions, standardised plans, user-pays infrastructure."
+  ],
+  [
+   "Spot rezoning",
+   "Changing permissible land uses on a single site; can deliver large windfalls; the reform eased it and allowed developer appeals."
+  ],
+  [
+   "Inclusionary zoning / value capture",
+   "Levying the value uplift from upzoning to fund affordable housing or infrastructure; proposed by Shelter and PIA, not adopted."
+  ],
+  [
+   "Urban consolidation",
+   "Australian term for growth management: containing greenfield spread and densifying existing areas; opposed by both industry (land supply) and residents (density)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Industry (1%) | planning = red tape, | blocks supply, growth | Community, councils | distrust; keep ESD, | heritage, participation | Shelter, PIA | value capture, IZ | Rhetorical strategies | affordability as | semantic justification | '40%' without evidence | 'while', 'having regard' | White Paper + Bill | growth = main purpose | easier rezoning | no 'onerous' controls | AH contributions cut | less DA consultation | adopted | little traction | Better Planning Netw. | 300+ groups: Bill stalls | Outcome 2011–14 | approvals up, price up | outside formal process]",
+ "cap": "Industry frames pass through rhetorical strategies into the White Paper and Bill; community and advocate frames gain little traction in the formal process but stall the Bill from outside (pp. 10–16).",
+ "table": {
+  "head": [
+   "Reform area",
+   "Industry",
+   "Councils / community / advocates",
+   "Government response (White Paper, draft Bill)"
+  ],
+  "rows": [
+   [
+    "Purpose of planning",
+    "'economic dividend' (PCA)",
+    "Keep ESD, social impact, heritage",
+    "Growth is the 'main purpose'"
+   ],
+   [
+    "Spot rezoning",
+    "Support; developer appeals",
+    "Undermines strategic planning",
+    "Adopted: new rezoning tools"
+   ],
+   [
+    "Community participation",
+    "Endorse limits; change 'antidevelopment culture'",
+    "Participation in plan making and DA",
+    "Charter promised; DA consultation curtailed"
+   ],
+   [
+    "Red tape / speed",
+    "Cut costs 40% (no evidence)",
+    "Speed not at expense of assessment",
+    "Ban 'onerous' controls hurting viability"
+   ],
+   [
+    "Infrastructure",
+    "Broad-based public funding",
+    "Value capture",
+    "Private participation; developers still pay"
+   ],
+   [
+    "Affordable housing",
+    "Opposes planning requirements",
+    "Shelter: inclusionary levy on uplift",
+    "Existing contribution provisions wound back"
+   ]
+  ]
+ },
+ "example": "The PCA claimed the new system should 'reduce costs by 40% by 2015' through red-tape reduction; the authors note 'no evidence of actual costs or savings is ever provided', yet the draft Bill (s3.3, Principle 10) bars local plans from 'overly complex or onerous controls that may adversely impact on the financial viability of proposed development' (p. 12).",
+ "quotes": [
+  "\"the power of an individual or group rests on their capacity to promote and sustain a particular version of reality as being the 'objective truth'\" (p. 3, online-first)",
+  "\"Environmental and social concerns are thus relegated to secondary or ancillary positions through terms such as 'while' and 'having regard to'.\" (p. 11, online-first)",
+  "\"housing affordability problems are used as a semantic justification for a wider deregulatory agenda\" (p. 14, online-first)",
+  "\"increased supply did not ease affordability pressures\" (p. 16, online-first)"
+ ],
+ "dims": {
+  "sa": 50,
+  "rt": 35,
+  "de": 30,
+  "us": 70,
+  "mp": 60,
+  "norm": "Public interest beyond growth: environmental and social goals, genuine community participation, direct support for affordable housing for low-income renters and aspiring owners; sceptical of deregulation."
+ },
+ "exam": "Grounding perspective: discourse analysis in a broadly Foucauldian sense (regimes of truth, language constructs problems and solutions) combined with a critique of neoliberalism; unlike Raco & Imrie it is actor-centred: identifiable interest groups mobilise discourse strategically (closer to Hajer-style discourse coalitions, my link via Rydin ch. 8). Best critiques: (1) Hayek / liberal economics (and Glaeser-style supply economics, cited on p. 1): the authors never test whether regulation raises prices; approvals rising with prices under the old system does not show supply is irrelevant (no counterfactual: demand, interest rates, investment incentives also moved), and industry's 'regime of truth' may simply be true. (2) Rational choice / public choice (my link: Taylor 2016 uses the same method, public submissions, to show landowner rent-seeking; Olson): influence follows concentrated interests and campaign funding, so 'discourse' may be an epiphenomenon of interest-group power; and the resident groups are also rent-seekers (NIMBY protection of property values, p. 9), which the authors bracket. (3) Marxist political economy: the analysis stays at the level of text; it does not explain why developer capital holds 'disproportionate' discursive power (land rent, accumulation, state dependence on growth). (4) Neo-institutionalism: the 1979 Act's survival and the stalled Bill suggest path dependence and veto points, not discourse, explain the outcome. (5) Method: 13 submissions out of 1,220; influence inferred from textual similarity, not from process tracing. MCQ traps: community submitted 72% but had least influence; government resisted industry on infrastructure; affordability was the rhetorical rationale but affordable housing provisions were cut; approvals rose without the reform; the Bill stalled because of backlash outside the formal process.",
+ "examples": [
+  {
+   "t": "The shortage that social housing explains",
+   "d": "In 2008 the National Housing Supply Council estimated a shortfall of about 85,000 dwellings, yet also found that keeping social housing output at its 1996 level would have added about 90,000, a modest surplus. This undercuts the industry's 'regime of truth' that planning red tape is the main cause of the shortage.",
+   "src": "text",
+   "p": "p. 6"
+  },
+  {
+   "t": "Affordable housing quietly wound back",
+   "d": "Shelter NSW proposed levying developers for affordable housing where rezoning creates value uplift, but the draft Planning Bill actually cut existing affordable housing contribution provisions. The authors conclude affordability served as a 'semantic justification' for deregulation rather than a real policy aim.",
+   "src": "text",
+   "p": "p. 14"
+  },
+  {
+   "t": "The 'Hazzard tape' protest",
+   "d": "The Better Planning Network, a coalition of over 300 resident groups and local government representatives, wrapped Planning Minister Brad Hazzard in yellow 'Hazzard' tape, and by the end of 2013 the Bill stalled in parliament. Shows that the industry's discursive dominance inside formal consultation could still be blocked by electoral power and direct action outside it.",
+   "src": "text",
+   "p": "p. 15"
+  },
+  {
+   "t": "Record approvals, rising prices",
+   "d": "Under the unreformed planning system NSW housing approvals reached a 20-year high, almost doubling between December 2011 and 2014, while Sydney's median house price still rose from $535,000 to $735,000. Evidence against the claim that planning blocks supply and that more supply alone restores affordability.",
+   "src": "text",
+   "p": "pp. 15–16"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Gurran and Ruming start from the contradictory position of planning under neoliberal reform (p. 1). Planning systems have proved remarkably resilient to deregulation and remain a key form of state intervention, and in some countries (the UK, the Netherlands, many US cities) planning tools even help secure affordable homes within market developments. Yet over the past decade, amid anxiety about housing production and affordability, the legitimacy of planning has been questioned: critics point to slow and complex processes, restrictive controls, and residents using planning rules to block development (pp. 1–2).",
+    "Planning is thus expected to support economic growth by facilitating big development, while also protecting the property interests of established suburbs; wider public goals such as environmental protection or better housing for the poor get squeezed between these interests (p. 2). The article examines these tensions in Australia, one of the world's most expensive housing markets, where prices rose fast after mortgage deregulation and home ownership fell from about 71% in the mid 1980s to 68% in 2012 (p. 2).",
+    "The authors' question is how particular interests shape urban policy debate and reform. Their case is the planning system review in New South Wales (NSW), Australia's most populous state, between 2011 and 2014 (pp. 2–3). They compare written submissions from industry, residents and professionals with the government's responses and find that the government mostly echoed industry narratives. In that setting, housing development is framed as the engine of economic growth and the planning system as the constraint holding it back, while community worries about affordability and new development are reframed to fit the growth agenda (p. 1)."
+   ]
+  },
+  {
+   "h": "Discourse as power: the method's theory",
+   "p": [
+    "The approach is discourse analysis, which the authors describe as broadly Foucauldian (p. 3). Language is not just a medium for communication but central in 'producing or constructing reality', including what we know and the meanings we give to the world (quoting Hastings). Following Jacobs, politics is seen as an arena where groups try to establish a particular narrative of events to pursue their objectives.",
+    "The key concept is the 'regime of truth' (Foucault). The power of a group lies in its ability to promote and sustain its version of reality as the 'objective truth' through speech, text and images (p. 3). Once established, such discourses become fairly static representations that define which formulations of problems and solutions are acceptable. Discourse is therefore not the product of neutral, rational deliberation but a messy site of power struggles, where dominant regimes of truth can also be challenged. The authors want to show how one set of narratives about planning's problems, objectives and solutions became a regime of truth reflected in the government's draft legislation (p. 3)."
+   ]
+  },
+  {
+   "h": "Neoliberalism, housing and planning",
+   "p": [
+    "The authors place their case in a broader literature (pp. 3–4). Neoliberalism, emerging in the 1970s and 1980s, opposes state intervention in markets and challenges the legitimacy of planning regulation of private developers. Its effects on housing vary by context, but typically include more support for home ownership and private investment, rent subsidies instead of public housing, and quasi-market management of social housing. In the UK, Thatcherism shifted social housing to tenants and housing associations, but councils could still use 'section 106' agreements to secure land for social housing; in the US, inclusionary zoning emerged alongside tax credits.",
+    "These approaches have limits (p. 4). Home ownership policies for low-income groups were questioned after the global financial crisis; rent subsidies expose vulnerable groups to insecurity; and inclusionary schemes depend on buoyant markets. Still, planning is an important mechanism for making sure affordable housing is well located near jobs and services. In Australia, however, attempts to require affordable housing through planning have been resisted by industry and governments fearing higher prices and less development, and by resident groups; the dominant rhetoric stresses the negative effects of planning on the housing market (p. 4)."
+   ]
+  },
+  {
+   "h": "The Australian context",
+   "p": [
+    "Both major parties have applied neoliberal reforms since the 1980s (p. 4). Public housing investment was replaced by subsidies for private renters: social housing approvals in NSW fell from around 15% of dwellings in 1983 to less than two per cent in 2014 (Figure 1). Unusually, most postwar public dwellings were later sold off, so by 1981 only about 120,000 of 840,000 remained public rentals (p. 5). Public infrastructure investment also declined, replaced by user-pays charges and public-private partnerships.",
+    "Planning is a state and territory responsibility, with local councils handling detailed land allocation and assessment (p. 5). By the 1990s planning had narrowed to a local battle between established homeowners and developers, sharpened by 'urban consolidation' (Australia's term for growth management and densification). Industry criticized consolidation for limiting greenfield land, while homeowners feared density. From the 2000s, states tried to cut 'red' and 'green' tape, and COAG, the council of federal, state and local governments, put planning deregulation on its national competition agenda (pp. 5–6).",
+    "Housing affordability became the main rationale for these reforms (p. 6). Yet the authors point to a telling finding by the former National Housing Supply Council: Australia's estimated shortage of about 85,000 dwellings in 2008 would have been a modest surplus if social housing production had kept pace with its 1996 level, which would have added about 90,000 dwellings. By 2011/2012 only 3.9% of households lived in social housing. In short, the supply gap could be read as a retreat of public provision rather than a failure of planning, but the national agenda still framed it as a planning problem (pp. 6–7)."
+   ]
+  },
+  {
+   "h": "The NSW reform process and the data",
+   "p": [
+    "NSW's Environmental Planning and Assessment Act 1979 was Australia's first to promote wide environmental and social equity goals, but the past decade had seen these protections wound back, including 2005 reforms giving the Minister absolute discretion over major projects (p. 7). After a change of government in 2011, a comprehensive review began: over 100 public meetings, a 96-page Green Paper in July 2012, then a White Paper and draft Planning Bill in April 2013 (p. 7).",
+    "The Green Paper drew over 1,200 submissions (Table 1, p. 8). The community (individuals, residents' groups and community organizations) accounted for 72%, peak bodies 6%, and the development industry only 1%. The authors selected a set of submissions covering the main interests (Table 2): six industry submissions (including the Property Council of Australia, the Urban Development Institute of Australia, the Urban Taskforce, the builder Australand and two housing industry associations), the Planning Institute, two environmental organizations, the housing advocacy group Shelter NSW, local government associations, and the resident group Friends of Ku-ring-gai Environment (FOKE), located in the then Premier's electorate (p. 9). They close-read, coded themes and used keyword searches in NVivo to compare the submissions with the White Paper and draft Bill (p. 9)."
+   ]
+  },
+  {
+   "h": "Framing the problem and the objectives",
+   "p": [
+    "The submissions frame the problem very differently (p. 10). Industry presents a 'regime of truth' in which planning is dysfunctional, overly bureaucratic and designed to block development, causing lost growth, sluggish supply and poor affordability; local residents are cast as part of the problem. Local governments and community groups instead stress distrust: a sense that developers can buy their way through the system, fed by corruption investigations (p. 10).",
+    "On objectives there is a stark dichotomy. The Property Council states: 'The new planning system needs a purpose. In our view, it should be geared towards delivering an economic dividend for NSW' (p. 10). Local government and residents want existing social and environmental goals, including heritage, retained (pp. 10–11). The government's White Paper echoes industry: 'The main purpose of the planning system is to promote economic growth and development in NSW for the benefit of the entire community, while protecting the environment and enhancing people's way of life' (p. 11). The draft Bill treats housing as an 'economic activity'. The authors' close reading of the grammar is instructive: 'Environmental and social concerns are thus relegated to secondary or ancillary positions through terms such as 'while' and 'having regard to'' (p. 11)."
+   ]
+  },
+  {
+   "h": "Six specific reforms",
+   "p": [
+    "The authors then trace six reform areas (pp. 11–14). Spot rezoning: the Green Paper made it easier for developers to obtain rezonings and to appeal refusals; councils and communities opposed this, industry supported it, and the White Paper adopted it in the name of housing supply (p. 11). Community participation: the government claimed to put 'people and their choices at the heart of planning', but the Bill added no consultation rights and curtailed statutory consultation in development assessment; Australand urged communities to move from 'an antidevelopment culture to a progressive development culture' (p. 12).",
+    "Decision speed and red tape: environmental groups accepted simplification but warned against fast approvals of poor development; the Property Council demanded a 40% cut in red-tape costs without evidence, and the draft Bill barred local plans from 'onerous' controls affecting financial viability (p. 12). Infrastructure: industry, usually anti-intervention, called for infrastructure to be funded from general taxation; this is the one area where the government resisted, keeping developer contributions (p. 13). Affordable housing: Shelter NSW and planners proposed value capture and inclusionary zoning, yet existing affordable housing provisions were wound back (p. 14). The authors conclude that 'housing affordability problems are used as a semantic justification for a wider deregulatory agenda' (p. 14)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the authors want",
+   "p": [
+    "The conclusion returns to the international comparison (pp. 14–15). Elsewhere, planning has sometimes softened the transition to market provision of low-cost housing and acted as a lever for affordable homes. In Australia, however, the dominant representations of planning are either a mechanism for 'bulldozing the beautiful' (FOKE's phrase) or a constraint on supply and affordability (pp. 14–15). Both have given developers new ways to contest sustainability and containment policies. The analysis shows that industry discourses were the ones most closely adopted by government, aligned with neoliberal ideology (p. 15).",
+    "But the authors warn against oversimplification (p. 15). By the end of 2013 the Bill stalled in the state's Legislative Assembly, where the government lacked a majority. The Better Planning Network, a coalition of over 300 resident groups and local councils, mobilized outside the formal consultation, including a widely publicized stunt wrapping the planning minister in 'Hazzard' tape. The latent electoral power of conservative homeowners preserved the status quo. Ironically, housing approvals then reached a 20-year high under the old system, while Sydney's median house price still rose from about 535,000 to 735,000 Australian dollars between 2011 and 2014 (pp. 15–16). More supply did not ease affordability.",
+    "The authors' main message is that development interests can shape policy by mobilizing regimes of truth that cast planning as a drain on growth and the cause of unaffordability (p. 16). Alternative discourses about genuine participation, environmental impacts or direct support for affordable housing get little traction. They expect the same arguments to return in the next downturn and ask whether planning debates keep distracting from the real pressures on low-income renters and aspiring owners. They acknowledge that their analysis is only a snapshot of a longer process."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not the authors' claims. The article combines Foucauldian discourse analysis with a political economy critique of neoliberal planning reform. Unlike Raco and Imrie, who use Foucault to study how subjects are formed, Gurran and Ruming use 'regimes of truth' more instrumentally: discourse is a resource that interest groups deploy, which brings them closer to interest-group and political economy explanations. The Property Council's call for an 'economic dividend' connects to Harvey's entrepreneurial city and to Savini and Aalbers on how finance reshapes planning.",
+    "On the course dimensions: structure matters (neoliberal ideology, national reform agendas), but agency is visible in lobbying and especially in the resident backlash. The reform attempt aimed at transformation (deregulation) but ended in reproduction of the existing system, through contingent, emergent politics rather than deliberate design. The knowledge claim is situated in NSW. Normatively, the authors value planning's social and environmental goals and direct support for affordable housing. A useful contrast is Hayek, whose case against planning resembles the industry discourse the authors criticize, and Taylor's work on rent-seeking in Melbourne, which offers a rational choice lens on similar Australian conflicts."
+   ]
+  }
+ ],
+ "news": {
+  "t": "STOER: scrapping rules to build faster",
+  "d": "On 10 July 2025 housing minister Mona Keijzer received the final report of the STOER advisory group (Schrappen Tegenstrijdige en Overbodige Eisen en Regelgeving). Its more than 100 proposals include cutting the planning phase from an average of 7 to 3.5 years, lighter research requirements via quick-scans with studies valid for at least 5 years, streamlined objection and appeal procedures, and uniform national building standards instead of local ones. Keijzer said the housing crisis is severe and that rules made with good intentions have, by piling up, come to block housebuilding.",
+  "why": "Read through Gurran and Ruming, this is the 'less planning, more development' discourse in Dutch form: the housing shortage is framed as a problem of regulation and procedure, so deregulation becomes the obvious cure, close to the 'red tape' regime of truth in the NSW reform. Housing affordability ('faster, more and more affordable') serves as the justification, while questions about land prices, investor demand or social-housing output are not the focus of the package. Limit: STOER explicitly keeps legal protection and minimum quality as conditions, and the Dutch system still has strong public steering, so whether affordability is only a 'semantic justification' here would need evidence on outcomes.",
+  "src": {
+   "name": "Rijksoverheid",
+   "title": "Minister Keijzer ontvangt eindrapport STOER: elke schakel in beeld om sneller, meer en betaalbaarder te bouwen",
+   "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/07/10/minister-keijzer-ontvangt-eindrapport-stoer-elke-schakel-in-beeld-om-sneller-meer-en-betaalbaarder-te-bouwen",
+   "date": "2025-07-10"
+  }
+ }
+}

@@ -1,0 +1,753 @@
+{
+ "id": "p7",
+ "n": 7,
+ "theme": 2,
+ "title": "Planning for sustainability in Chinese cities",
+ "who": "Yanliu Lin",
+ "slides": true,
+ "lecture": [
+  "Socialist planning (1950s–70s): strong state, no market, work units, 156 Soviet-aided industrial projects, satellite towns (Shanghai 1958) that failed to attract people. Legacies: hukou (1958) rural/urban registration that restricts migrants' access to services, and the dual land system (state-owned urban land with transferable use rights vs rural collective land that must be expropriated before urban use).",
+  "1989 City Planning Act: 'one report, two permits'; planning serves growth and controls urban, not rural, land, which led to sprawl. Shenzhen: from villages to a metropolis; 2,042 urban villages house ~60% of residents. Fragmentation before 2019: city, land-use, regional, ecological, transport and main-function-zoning plans each had their own maps. 1994 fiscal reform (locals keep ~25% of tax) → land finance → a land-driven growth coalition (cheap industrial land, expensive residential land), with environmental and social costs.",
+  "Collaborative turn? Legalised participation (2006, 2008 Act) became 'authoritarian deliberation': Enning Road, Guangzhou went from demolition and protest (2007) to micro-regeneration and a co-creation committee (2018). This reduced conflict but had limited influence, came late, and involved unequal power. It is instrumental rather than normative.",
+  "Experiments: eco-cities (>259; Sino-Singapore Tianjin Eco-City), greenways (Guangdong, 20,000 km, often reduced to transport), smart cities (>900; scale over effectiveness, hardware over software). Do these top-down experiments stay isolated showcases? Territorial Spatial Planning (2018–19): one system, one ministry (MNR), five levels, three types, three control lines (ecological red line, permanent basic farmland, urban development boundary), 'one map', a new law. Guangzhou 2021–35: 15-minute living circles, ecological corridors; weak legal backing until 2025."
+ ],
+ "man": {
+  "cite": "Liu, Y. & Zhou, Y. (2021). Territory spatial planning and national governance system in China. Land Use Policy 102, 105288.",
+  "status": "full",
+  "one": "China's spatial planning was fragmented (many plan types, overlapping and conflicting, complex approvals, frequent revisions, weak implementation, no superior law), which caused imbalanced development, ecological damage and resource pressure. The national territory spatial planning (NTSP) system and legislation integrate these into one system, but major challenges remain.",
+  "summary": [
+   "A review of the evolution of Chinese spatial planning against strategic spatial planning in Europe (ESDP 1999). Problems: types, overlaps, approvals, revisions, implementation.",
+   "Measures: treat territorial space as a system; move from sectoral/special plans to integrated NTSP (the 2018 institutional reform, MNR); push for NTSP legislation as a milestone for governing space by law.",
+   "Challenges: formulation and implementation must fit the times, modernisation laws and local conditions; the authors give countermeasures (legal basis, coordination across levels, the 'one map' data platform, balancing development and protection)."
+  ],
+  "concepts": [
+   [
+    "NTSP",
+    "National territory spatial planning: one integrated system."
+   ],
+   [
+    "Three control lines",
+    "Ecological protection red line · permanent basic farmland · urban development boundary."
+   ],
+   [
+    "'Multiple plans in one'",
+    "Integrating land-use, urban-rural, main-function zoning and other plans."
+   ],
+   [
+    "Land finance",
+    "Local revenue from land sales after the 1994 fiscal reform."
+   ],
+   [
+    "Authoritarian deliberation",
+    "State-bounded participation with limited empowerment."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "Four ministries, four time horizons",
+    "d": "Land use, urban-rural construction, main functional zone and environmental protection planning were run by four different ministries, with planning periods of 15, 20, 10 and 5 years respectively. This shows the fragmentation the NTSP reform targets: plans that could not align in timing or content, resolved by moving these functions into the Ministry of Natural Resources in 2018.",
+    "src": "text",
+    "p": "p. 4"
+   },
+   {
+    "t": "Same field, different land classes",
+    "d": "Urban-rural construction planning used a three-level land classification while land use planning used a two-level one, so farmland, forest and grassland were identified differently in different plans. It shows why 'multiple plans in one' and a single 'One Map' data base are needed before control lines can be enforced.",
+    "src": "text",
+    "p": "p. 3"
+   },
+   {
+    "t": "A hundred villages lost daily",
+    "d": "China's natural villages fell from 3.77 million in 1990 to 2.61 million in 2016, on average more than 100 villages a day, while more than 10,000 towns and street offices lost population between 2000 and 2010. The authors use this to argue that the urban development boundary and village planning must plan for shrinkage, not only growth.",
+    "src": "text",
+    "p": "p. 7"
+   },
+   {
+    "t": "Sino-Singapore Tianjin Eco-City",
+    "d": "Planned in 2008 on 30 km² of unusable land as a joint venture between a Tianjin investment group and Singapore state-owned enterprises, it combines water-saving, solar and green-building technologies with housing and industrial development. The lecture asks whether such top-down experiments change the wider planning system or remain isolated showcases, the problem the integrated NTSP is meant to address.",
+    "src": "slides"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Yansui Liu and Yang Zhou, geographers at the Chinese Academy of Sciences, write about one of the largest planning reforms of recent years: China's move to a single national territory spatial planning (NTSP) system. They define spatial planning as 'the long-term planning and overall arrangement of land resources and space layout under the jurisdiction of a country or region government, aiming to achieve effective control and scientific management of territorial space and promote the balance between development and protection' (p. 1). 'Territorial space' here means all land and sea under national jurisdiction.",
+     "The article does three things (p. 2): it reviews how Chinese spatial planning evolved and which problems it created; it analyses the measures China has taken (institutional reform, a unified planning system, new legislation) and their challenges; and it proposes countermeasures. The authors note that international understanding of China's planning is limited because its land management system is so different, and present their paper as a contribution to closing that gap. Keep in mind that it is written from inside the Chinese policy world and is largely supportive of the reform."
+    ]
+   },
+   {
+    "h": "Spatial planning in Europe and China: the background",
+    "p": [
+     "The introduction first sketches the European story as a reference point (p. 1). Strategic spatial planning dominated European urban and regional planning in the 1960s and 1970s, was dismissed by neoconservatism and doubted by postmodernism in the 1980s, and was revived in the 1990s after disordered urban development, land fragmentation and environmental concerns. The term 'spatial planning' first appeared in the Council of Europe's 1983 charter, and the European Spatial Development Perspective (ESDP, 1999) made its purpose explicit: economic and social cohesion, sustainable development and balanced competitiveness. Countries such as Britain, Germany, France and the Netherlands built mature spatial planning and legal systems early.",
+     "China's path was different (p. 2). After 1949 it borrowed the Soviet model of five-year national economic plans, with urban planning as the spatial continuation of the economic plan. From the 1990s, regional, land-use, environmental, transport and main functional zoning plans were added. Under the market economy, planning shifted to multiple targets, including urban expansion, real estate, 'vanity projects' and place promotion, and plan-making became an arena where central and local governments interfered to different degrees. Because there was no overarching plan, contents were repeated, spaces overlapped and land-use boundaries conflicted, leading to wasted land, social conflict, overheated land development and unbalanced regional development. In 2013 the state proposed building an NTSP system as part of 'ecological civilisation'."
+    ]
+   },
+   {
+    "h": "How China's spatial planning evolved",
+    "p": [
+     "Section 2 places the NTSP within national goals: ecological civilisation, high-quality development, 'Beautiful China', rural revitalisation and 'harmonious coexistence of human and nature' (p. 2). The history runs as follows. After reform and opening-up in 1978, China practised regional planning focused on productivity and urban layout. Resource surveys of land, water and climate followed; in 1987 rules for land planning were issued, but a 1990 draft General Plan of Land and Resources was never approved (p. 2).",
+     "In the early 2000s pilots of territory planning ran in Tianjin, Xinjiang, Liaoning and Guangdong. The authors describe four shifts in this period: from 'leading' to 'guiding' planning, from resource use to equal attention to development and protection, from pure economic growth to coordinating economy, population, resources and environment, and from an industry focus to regional spatial layout (pp. 2–3). In 2010 the National Main Function Zoning divided the country into optimised, key, restricted and prohibited development zones, but it was hard to implement because its protection theme was not prominent. From 2014, 28 counties and cities piloted 'multi-planning integration' (p. 3). The authors summarise three stages: first land-use planning aimed at agriculture; then urban and regional planning serving urbanisation and industrialisation; and now the NTSP, aimed at high-quality development, ecological protection and sustainability (p. 3)."
+    ]
+   },
+   {
+    "h": "Three core problems of the old system",
+    "p": [
+     "Section 2.2 names three problems caused by the absence of a superior planning law (pp. 3–4). First, there were too many plan types and systems, each under its own department with its own levels. The authors' Table 1 compares the four main ones: main functional zone planning, urban-rural planning, land-use planning and eco-environmental protection planning. They conflicted in scale, boundaries, land-use rights, control rules and targets. They even classified land differently (a three-level system in urban-rural planning, a two-level one in land-use planning), so the same plot of farmland, forest or grassland could carry multiple attributes and uses (p. 3).",
+     "Second, poor coordination produced what the authors call planning 'dislocation, offside and vacancy' (p. 4): plans in the wrong place, overstepping each other, or missing. Planning was spread over more than ten national departments, including the Ministry of Land and Resources, the Ministry of Housing and Urban-Rural Development, the National Development and Reform Commission and the environment ministry. Plan periods differed (10, 20, 15 and 5 years for the four plan types), and all ultimately rested on the five-year socioeconomic plan, which added instability (p. 4).",
+     "Third, legalisation and standardisation lagged. China had more than eighty kinds of spatial plans, but the legal framework was scattered, there was no law at all for main functional zone planning, rights and responsibilities were unclear, and most legislation was administrative in character with inadequate provisions for public participation. The content, preparation, approval, implementation and modification of plans, and the responsibilities of those making them, all lacked clear legal provisions (p. 4)."
+    ]
+   },
+   {
+    "h": "The reform: one ministry, one system, one map",
+    "p": [
+     "Section 3 explains the response. The authors state that since 1949 there had been no basic or superior plan for territorial space, which they see as a root of disordered urban expansion, loss of farmland, inefficient resource use, ecological degradation and social conflict (p. 4). The first step was institutional: the 2018 State Council reform abolished the Ministry of Land and Resources and created the Ministry of Natural Resources (MNR), which took over land-use planning, urban-rural planning (from the housing ministry), main functional zone planning (from the NDRC) and eco-environmental planning. This gave the new system an organisational home (p. 4).",
+     "The second step was a unified planning system. The May 2019 'Opinions' set out three steps (p. 4): by 2020, establish the NTSP system, complete overall plans for all levels from city and county up, and form a preliminary 'One Map' of territorial development and protection; by 2025, complete the laws, standards and monitoring and early-warning mechanisms; by 2035, modernise territorial governance and achieve efficient production space, liveable living space and 'beautiful' ecological space. The system has general, special and detailed plans; general and special plans exist at five levels (national, provincial, municipal, county, township), and detailed plans at two (control and construction) (p. 4). Plans must be based on an assessment of resource and environmental carrying capacity and the suitability of land for development (p. 5).",
+     "The heart of the system is three control lines (p. 5). The ecological protection red line marks areas with key ecological functions or high ecological sensitivity (for example water conservation, biodiversity, coastal protection, nature reserves) that must be strictly protected. Permanent basic farmland is protected permanently for food security. The urban-town development boundary limits where cities may grow, to prevent disordered sprawl. The authors expect the reform to end the problems of too many plans, conflicts, long approvals and constantly changing local plans, to break departmental interests, and to reverse environmental decline 'from the source' (pp. 5–6)."
+    ]
+   },
+   {
+    "h": "The legal step: a spatial planning law",
+    "p": [
+     "The third measure is legislation (p. 6). Because there was no superior law, plans could not be implemented 'in accordance with the law'. In March 2020 the government was consulting on an NTSP law, which the authors call a great innovation. The law would create a multi-level system from the national level down to village plans; regulate how plans are drawn up, approved, revised and supervised; state that plans may not be changed without legal procedures (to end frequent revisions); and emphasise public participation, requiring draft plans to be published and expert and public opinion to be sought through demonstration meetings or hearings. A supervisory committee would review the process and punish violations. For the authors, this law fills a long-standing lack of 'macro top-level design', resolves conflicts between existing laws, clarifies who is responsible for making and for implementing plans, and supports 'ruling the country by law' and ecological civilisation (p. 6)."
+    ]
+   },
+   {
+    "h": "Discussion: remaining challenges",
+    "p": [
+     "The discussion is more reflective (pp. 6–7). Citing Van Assche and Djanibekov, the authors note that planning systems do not escape path dependence. They identify the root of China's planning problems plainly: it 'lies in the game of interests between the central and local governments, between different departments and within the country, and multi-management, as well as the insufficient understanding of the rules of spatial layout by planners and decision makers' (p. 6). Land was split between urban and non-urban planning zones; planners were constrained by land-use rights; and plan-making was out of touch with research such as land-change science.",
+     "Looking ahead, the NTSP must prioritise homeland, ecological and food security. National and provincial plans should handle strategic issues (food, energy, economic and ecological security), while municipal and county plans deal with layout, intensity and environmental quality (p. 6). Drawing the control lines is hard: ecological red lines must keep ecosystems connected to avoid 'ecological islands', and urban boundaries must account for shrinking places as well as growth, since between 2000 and 2010 more than 10,000 towns and street offices lost population (p. 7).",
+     "The NTSP must also combine top-down arrangement with bottom-up needs, especially in rural areas. Village numbers fell from 3.77 million in 1990 to 2.61 million in 2016, over 100 a day, and with urbanisation expected to reach 70–75% by 2035, hundreds of thousands more may disappear; village plans must anticipate this to avoid wasted infrastructure (p. 7). Compared with the past, the NTSP will use big data and the third national land survey, control land and sea in three dimensions, integrate urban and rural areas, and shift from prioritising economic growth to equal attention for high-quality development and environmental protection, efficiency and fairness, with public involvement raising people's 'sense of gain and happiness' (p. 7)."
+    ]
+   },
+   {
+    "h": "Conclusions and what the authors want",
+    "p": [
+     "The conclusion repeats the diagnosis (scattered plans, conflicts, long approvals, constant local changes, leading to resource mismatch, ecological deterioration and regional imbalance) and claims a broader shift: China's spatial planning has moved 'from single actor to multiple actors, from mono-target to multi-target and from top-down control towards more decentralized approaches at the local level' (p. 7). The NTSP and its law are described as epoch-making.",
+     "Still, five tasks remain (p. 8): supporting measures for preparing, reviewing, revising and supervising plans; technical guidelines and standards for land classification, zoning and intensity; reform of existing laws plus transitional rules while the new law is pending; balancing top-down macro planning with bottom-up demands and participation, where 'Under the premise of ensuring the state ownership of land unchanged, the NTSP should be combined with the development needs of local and even people'; and third-party evaluation of plans. China should learn from international experience and could become a model for other developing countries. The limits they admit are mainly about implementation, not about the reform's direction."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis. Lecture 7 places this reform at the end of a longer story: socialist planning, the 1989 City Planning Act, fragmentation across plan types, and the 2018–19 Territorial Spatial Planning system with one ministry, five levels and three control lines. The lecture adds what the article does not discuss: the 1994 fiscal reform and land finance, the land-driven growth coalition, hukou and the dual land system. These help explain the 'game of interests between the central and local governments' that the authors name but do not unpack, and why fragmentation let local governments bypass farmland and ecological protection.",
+     "On the course dimensions, the article is strongly deliberate, top-down and technocratic: it trusts integrated plans, data ('One Map', big data) and law to steer development, with sustainability defined through ecological civilisation and control lines. Its claim of a move towards 'multiple actors' and decentralisation sits uneasily with the lecture's 'authoritarian deliberation', where participation is legalised but limited, late and unequal. Compared with the other readings: Næss (lecture 1) would welcome binding limits on land take but ask who defines the goals; Campbell (lecture 3) would read the control lines as a way of settling the resource conflict by decree, leaving the property and development conflicts open; de Satgé and Watson (lecture 6) would note the risk of a single techno-managerial rationality meeting villagers and migrants at the 'interface'; and the Dutch reading (lectures 4–5) shows a very different, negotiated way of handling 'more claims than land'."
+    ]
+   }
+  ],
+  "news": {
+   "t": "China shifts from expansion to existing stock",
+   "d": "At the Central Urban Work Conference in Beijing on 14 and 15 July 2025, the leadership stated that China's urbanisation is shifting from rapid growth to stable development, and urban development from large-scale expansion to improving the quality and efficiency of existing urban areas. By 2024 the share of permanent urban residents had reached 67%, and 'green, low-carbon and beautiful urban spaces' were listed among the priorities.",
+   "why": "Read through Liu and Zhou, this is the top-down national governance logic that the territory spatial planning system is built to transmit: a central political goal (stop expansion, renew the stock) that must cascade into one integrated plan and its control lines at every level. It shows the reform's ambition to replace fragmented, growth-driven local planning with national steering. Limit: the source is state media reporting a policy signal; whether local governments, dependent on land revenue, implement it is exactly the implementation gap the authors warn about.",
+   "src": {
+    "name": "China Daily",
+    "title": "Xi addresses Central Urban Work Conference, listing priorities for urban development",
+    "url": "https://subsites.chinadaily.com.cn/npc/2025-07/16/c_1109654.htm",
+    "date": "2025-07-16"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: City plan | Land-use plan | Regional plan | Eco protection | Transport | Function zoning | \n  | Territorial Spatial | Planning (2019) | one map · one ministry | \n  | 3 control lines | ● ecological red line | ● permanent farmland | ● urban development boundary | 5 levels · 3 plan types | national → township]",
+ "cap": "The integration reform discussed in lecture 7 and Liu & Zhou.",
+ "rec": [
+  {
+   "cite": "Fu, Y. & Zhang, X. (2017). Planning for sustainable cities? Master plans of eco, low-carbon and conventional new towns in China. Habitat International 63.",
+   "basis": "Abstract retrieved",
+   "abs": "A content analysis comparing master plans of eco, low-carbon and conventional new towns. Eco and low-carbon plans do focus more on sustainability, differently: eco towns target a sustainable way of life (evenly spread, stress on an aesthetically pleasing, liveable environment); low-carbon towns target sustainable production (industrial integration and transformation). Plans show intentions only; it's too early to call them failures.",
+   "slides": "Not named on the slides. Related: the eco-city slides (>259 cities; eco-state + local entrepreneurialism + policy mobility; Tianjin) and the question whether top-down experiments stay isolated showcases."
+  }
+ ],
+ "exam": "Know hukou, the dual land system, land finance, fragmentation vs NTSP, authoritarian deliberation. Essay: 'Can top-down sustainability experiments transform planning?' or a comparison of China with the Netherlands and Africa.",
+ "table": {
+  "head": [
+   "Plan type (before reform)",
+   "Planning period",
+   "Levels",
+   "Legal basis",
+   "Responsible department"
+  ],
+  "rows": [
+   [
+    "Main functional zone planning",
+    "10 years",
+    "National, provincial",
+    "None",
+    "National Development and Reform Commission (with provinces)"
+   ],
+   [
+    "Urban-rural planning",
+    "20 years",
+    "National to township",
+    "Town and Country Planning Act (2015 amendment)",
+    "Housing and urban-rural authorities"
+   ],
+   [
+    "Land-use planning",
+    "15 years",
+    "National to township",
+    "Land Management Law (2004 amendment)",
+    "Land management department (Ministry of Land and Resources)"
+   ],
+   [
+    "Eco-environmental protection planning",
+    "5 years",
+    "National to county",
+    "Environmental Protection Law (2014 amendment)",
+    "Environmental protection department"
+   ],
+   [
+    "NTSP (after 2018–19 reform)",
+    "Goals set to 2035",
+    "General and special plans at 5 levels; detailed plans at 2",
+    "NTSP law in preparation (consultation 2020)",
+    "Ministry of Natural Resources"
+   ]
+  ]
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "The socialist city: work units in the state domain",
+    "svg": "[SVG figure; labels: The city/municipality as state domain | state work-unit | state work-unit | state work-unit | state work-unit | residual space | Rural areas (non-state domain) | strong state, small society, no market]",
+    "cap": "After Wu (2015): in the socialist period (1950s–1970s) planning was conducted in the 'state domain', organised around self-contained work units (state-owned enterprises, public institutions), which caused spatial fragmentation; rural areas lay outside it.",
+    "slide": "L7 slide 3"
+   },
+   {
+    "title": "The 1989 City Planning Act: plan hierarchy and 'one report, two permits'",
+    "svg": "[SVG figure; labels: Urban System Plan | Master Plan | District Plan | Detailed Development | Control Plan (DDCP) | Urban design + parcel-based | Detailed Construction Plan | One report, two permits | site selection report | land use planning permit | building permit | plans in the 1989 Act | controls urban, not rural land: | growth over ecology, sprawl | onto rural land]",
+    "cap": "Plan hierarchy after Yeh and Wu (1999). The Act gave city planning statutory status and local planning authorities the power to enforce development control, but it served economic development and controlled urban rather than rural land; the slide's sustainability critique: urban sprawl onto rural land and inefficient land use.",
+    "slide": "L7 slide 9"
+   },
+   {
+    "title": "The land-driven growth machine",
+    "svg": "[SVG figure; labels: 1994 fiscal reform | local governments keep | only ~25% of tax | Land finance | off-budget revenue: land | sales + land-related fees | Growth coalition | local governments + | developers/enterprises | cheap | industrial land | expensive | resid./comm. | Link to fragmentation | city planning = legal tool to convert farmland | fragmented plans let local governments bypass | farmland + eco protection; eco plans overruled | Environmental consequences | rapid urbanisation, sprawl, land degradation, | water pollution, ecological decline, | loss of green space and arable land | Social consequences | demolition of low-income neighbourhoods | and urban villages, displacement, | growing social justice issues]",
+    "cap": "'Why plans conflict': the 1994 fiscal reform pushed local governments to raise revenue from land. Selling industrial land cheaply attracts investment, selling residential and commercial land dearly maximises revenue, and urban planning becomes the legal tool to convert agricultural land into profitable urban uses.",
+    "slide": "L7 slide 13"
+   },
+   {
+    "title": "Power shifts in Chinese governance (Hu et al. 2013)",
+    "svg": "[SVG figure; labels: coordination (closed) | competition | participation | power shifts | power shifts | power | argumentation | open]",
+    "cap": "Redrawn from Hu et al. (2013), 'changes in power relationships and governance in the last 10 years in China' (after Martens 2006): governance moves from closed state coordination (A) towards more competition (B, market) and participation (C, society). The axes run from closed to open and from power to argumentation.",
+    "slide": "L7 slide 15"
+   },
+   {
+    "title": "Contexts and power relations in collaborative planning (Lin 2026)",
+    "svg": "[SVG figure; labels: Macro-changes | socioeconomic | restructuring; tech. | advancement | Institutional contexts | political system · legal | frameworks · policies · | informal institutions | Power relations | actors: government, private sector, | civil society, planners, citizens | power: authority, resources, discourse | Local contexts (material) | socioeconomic · | environmental · spatial | Collaborative | planning]",
+    "cap": "Conceptual framework from Lin, Y. L. (2026), 'Understanding contexts and power relations in collaborative planning in China', Journal of Planning Literature 41(2), 265–278 (the lecturer's own paper). Collaborative planning outcomes depend on institutional and local contexts and on the power relations they produce, under broader macro-changes.",
+    "slide": "L7 slide 16"
+   },
+   {
+    "title": "Enning Road, Guangzhou: from demolition to co-creation",
+    "svg": "[SVG figure; labels: 2007 | 2012 | 2016 | 2018 | demolition and protests | project stagnated | top-down | redevelopment + | demolition | (no participation) | informal social | media participation: | Mashi Street | Protection Movement | micro-regeneration | outsourced to a | developer: Yongqingfang | (critiques) | Co-creation | Committee: public | deliberation, participation | and collaboration | Liwan District: traditional architecture and native residents' lifestyle; contested since 2006]",
+    "cap": "After Zhou, Lin, Monstadt, Hooimeijer, Wang and Zheng (2025), 'Examining collaborative planning processes and outcomes in urban regeneration: A deliberative turn in China?', Urban Studies 62(4), 682–699.",
+    "slide": "L7 slide 18"
+   },
+   {
+    "title": "Who sits on the Enning Road co-creation committee",
+    "svg": "[SVG figure; labels: Duobao street office | organiser of the committee | Property owners | Operator | Third party | Liwan District Urban | Renewal Bureau (main owner) | Resident representatives: | private owners, public- | housing tenants, | local business owners | Real estate developer | (micro-regeneration contractor) | Community planner | (project's planning firm) | Local media: civic | newspaper, Party newspaper | Professors and experts: | architecture, planning | District People's Congress, | Political Consult. Conference | participants nominated by government; residents registered themselves | residents report problems, but the street office announces the agenda]",
+    "cap": "Structure of the co-creation committee meetings. Deliberation themes: (1) regeneration planning (latest renovation plans, types of commercial activities, public infrastructure and facilities, style of historic buildings, functions of renovated buildings, self-renovation guideline); (2) problems in construction (noise, building damage, buildings to be demolished, legitimate permits); (3) problems in operation (noise from commercial activities, management of public space such as trash collection, lighting and use of public space).",
+    "slide": "L7 slide 19"
+   },
+   {
+    "title": "Smart city plan in Shenzhen: three layers",
+    "svg": "[SVG figure; labels: Applications | public service · public security · city governance · smart industry | Smart City Coordination Management Centre | City Big Data Centre: data resources, AI, big data analysis, sharing | Smart City Sensor Grid System | traffic, video and environmental sensors · Wi-Fi · IoT · networks | standards | safeguard | network | security]",
+    "cap": "Simplified from Shenzhen's 2018 new-type smart city plan (Große-Bley and Kostka 2021). The lecture's points: data centralisation in a City Big Data Centre changes power relations between lower and higher levels of government, involves IT companies and research institutions, and brings new challenges.",
+    "slide": "L7 slide 28"
+   },
+   {
+    "title": "Smart city enterprises are concentrated in the east",
+    "svg": "[SVG figure; labels: share of smart city construction enterprises (2022) | share of per-capita number of enterprises (2022) | Eastern region | Middle region | Western region | Northeast region | 52% | 37% | 27% | 30% | 18% | 19% | 3% | 14%]",
+    "cap": "From the slide's Figure 7 (panels C and D) on the investment and construction status of smart cities in China. Other panels show China with one of the largest shares of the world smart city market (behind America and Europe) and central government investment rising from almost nothing in 2015 to its highest level in 2021. The lecture's point: smart city development is unevenly distributed, mainly in the eastern and central regions.",
+    "slide": "L7 slide 27"
+   },
+   {
+    "title": "Guangzhou 2021–2035: 'one belt, one axis, three cores, four poles'",
+    "svg": "[SVG figure; labels: belt: Pearl River | high-quality development | innovation vitality axis | Knowledge City | Northern Growth Pole | Conghua Green | Demo Zone | Lion Ocean Pole | Central | historic | Eastern | modern | Nansha | future | cores (red) · poles (green) | schematic, not to scale]",
+    "cap": "Urban structure of the Guangzhou Territorial Spatial Master Plan (2021–2035): belt = Pearl River high-quality development belt; axis = innovation vitality axis (Knowledge City → Nansha); cores = Central City (historic), Eastern Center (modern), Nansha (future); poles = Knowledge City, Northern Growth Pole, Lion Ocean Pole, Conghua Green Demo Zone. Positions are approximate.",
+    "slide": "L7 slide 35"
+   }
+  ],
+  "tables": [
+   {
+    "title": "The dual land system",
+    "head": [
+     "Category",
+     "State-owned land",
+     "Rural collective land"
+    ],
+    "rows": [
+     [
+      "Location",
+      "Urban areas",
+      "Rural/suburban areas"
+     ],
+     [
+      "Owner",
+      "The State (State Council acts on behalf, managed by the city)",
+      "Village collective (village committee/collective economic organisation)"
+     ],
+     [
+      "Transferability",
+      "Use rights transferable (lease, sale, etc.)",
+      "Severely restricted; non-agricultural use requires state expropriation first"
+     ]
+    ],
+    "slide": "L7 slide 8"
+   },
+   {
+    "title": "Shanghai's planned new towns ('one city, nine towns' era)",
+    "head": [
+     "Name",
+     "Distance to People's Square (km)",
+     "Planned size (km²)",
+     "District",
+     "Planned population",
+     "Development goals",
+     "Style"
+    ],
+    "rows": [
+     [
+      "Songjiang New City",
+      "34",
+      "21",
+      "Songjiang",
+      "500,000",
+      "Research, education",
+      "British"
+     ],
+     [
+      "Lingang New City",
+      "57",
+      "75",
+      "Nanhui",
+      "800,000",
+      "Logistics",
+      "European"
+     ],
+     [
+      "Anting Town",
+      "28",
+      "68",
+      "Jiading",
+      "50,000",
+      "Automobile",
+      "German"
+     ],
+     [
+      "Zhujiajiao Town",
+      "44",
+      "9",
+      "Qingpu",
+      "illegible",
+      "Tourism",
+      "Chinese"
+     ],
+     [
+      "Gaoqiao Town",
+      "15",
+      "39",
+      "Pudong",
+      "illegible",
+      "Residential",
+      "Dutch"
+     ],
+     [
+      "Pujiang Town",
+      "16",
+      "15",
+      "Minhang",
+      "100,000",
+      "Residential",
+      "Italian"
+     ],
+     [
+      "Fengcheng Town",
+      "39",
+      "9",
+      "Fengxian",
+      "illegible",
+      "Trade/export",
+      "Spanish"
+     ],
+     [
+      "Fengjing Town",
+      "58",
+      "14",
+      "Jinshan",
+      "40,000",
+      "Trade",
+      "North American"
+     ],
+     [
+      "Luodian Town",
+      "21",
+      "12",
+      "Baoshan",
+      "30,000",
+      "Tourism, residential",
+      "Swedish"
+     ],
+     [
+      "Zhoupu Town",
+      "15",
+      "–",
+      "Nanhui",
+      "30,000",
+      "–",
+      "North American"
+     ],
+     [
+      "Baozheng Town",
+      "–",
+      "–",
+      "Chongming",
+      "–",
+      "–",
+      "North American"
+     ],
+     [
+      "Dongtan Eco-City",
+      "44",
+      "40",
+      "Chongming",
+      "200,000",
+      "Eco-housing",
+      "–"
+     ]
+    ],
+    "slide": "L7 slide 5 (source: Ranhagen 2014; three population figures are unreadable on the slide)"
+   },
+   {
+    "title": "The eight eco-cities in the MOHURD pilot programme",
+    "head": [
+     "Eco-city",
+     "Planned area (km²)",
+     "Population target",
+     "Per capita built-up area (m²)",
+     "Construction span (years)"
+    ],
+    "rows": [
+     [
+      "Sino-Singapore Tianjin Eco-city",
+      "30",
+      "350,000",
+      "58",
+      "10–15"
+     ],
+     [
+      "Caofeidian International Eco-city",
+      "74.3",
+      "800,000",
+      "93",
+      "5"
+     ],
+     [
+      "Guangming new district of Shenzhen",
+      "156",
+      "800,000–1 mn",
+      "90",
+      "n.a."
+     ],
+     [
+      "Wuxi Taihu new town",
+      "150",
+      "1 mn",
+      "100",
+      "8"
+     ],
+     [
+      "Chongqing Yuelai Eco-city",
+      "3.4",
+      "57,000",
+      "43",
+      "9"
+     ],
+     [
+      "Changsha Meixihu new district",
+      "7.6",
+      "178,000",
+      "40",
+      "8"
+     ],
+     [
+      "Guiyang Zhongtian Eco-city",
+      "9.5",
+      "172,000",
+      "41",
+      "5"
+     ],
+     [
+      "Chenggong new district of Kunming",
+      "160",
+      "1.5 mn",
+      "107",
+      "n.a."
+     ]
+    ],
+    "slide": "L7 slide 22 (Wu 2015, adapted from China Society for Urban Studies 2013)"
+   },
+   {
+    "title": "Four types of greenway observed in Shenzhen (Liu et al. 2020)",
+    "head": [
+     "Type",
+     "Corridor",
+     "Traffic impact",
+     "Land",
+     "Landscape",
+     "Use"
+    ],
+    "rows": [
+     [
+      "Forest greenway",
+      "Wide green corridor",
+      "Low",
+      "Forest land",
+      "Natural landscape",
+      "Tourism and long-distance exercise"
+     ],
+     [
+      "Rural greenway",
+      "Wide green corridor",
+      "Low",
+      "Rural land for service purposes",
+      "Countryside landscape",
+      "Tourism and long-distance exercise"
+     ],
+     [
+      "Park greenway",
+      "Wide green corridor",
+      "Low",
+      "Park land and green buffer land",
+      "Surrounded by designed landscape",
+      "Everyday recreational activities"
+     ],
+     [
+      "Transport greenway",
+      "Narrow green corridor",
+      "High",
+      "Transport land",
+      "Street greenery",
+      "Everyday non-motorised travel"
+     ]
+    ],
+    "slide": "L7 slide 25"
+   },
+   {
+    "title": "Before 2019: each plan its own map, data and priorities",
+    "head": [
+     "Plan type",
+     "Focus"
+    ],
+    "rows": [
+     [
+      "City planning",
+      "Urban growth, construction and development control"
+     ],
+     [
+      "Land use planning",
+      "Farmland protection and construction land quotas"
+     ],
+     [
+      "Regional planning",
+      "Regional productivity and urban layout"
+     ],
+     [
+      "Ecological protection",
+      "Pollution control and nature conservation"
+     ],
+     [
+      "Transportation planning",
+      "Roads, rail and infrastructure networks"
+     ],
+     [
+      "Main function zoning",
+      "Designating development vs. protection zones"
+     ]
+    ],
+    "slide": "L7 slide 12 (problems: conflicting boundaries and weak enforcement)"
+   },
+   {
+    "title": "Why Territorial Spatial Planning: old problems and the new answer",
+    "head": [
+     "Problem of the old system",
+     "Answer in the Territorial Spatial Planning system"
+    ],
+    "rows": [
+     [
+      "Too many plans, no coordination: scattered across departments with overlapping mandates",
+      "One system (land use, urban-rural, main function zoning, environmental protection) under one ministry (MNR, 2018)"
+     ],
+     [
+      "Conflicting boundaries: different land classification standards for the same parcel",
+      "One map: a unified 'One Map' of territorial development and protection"
+     ],
+     [
+      "Mismatched periods: horizons from 5 to 20 years",
+      "Five levels (national to township) and three types (overall, detailed, special) in one hierarchy"
+     ],
+     [
+      "Weak legal basis: no superior spatial planning law; responsibilities and participation unclear",
+      "Legal foundation: a new Spatial Planning Law being enacted"
+     ],
+     [
+      "Environmental consequences: sprawl, farmland loss, ecological degradation",
+      "Three bottom lines: ecological protection red line, permanent basic farmland, urban development boundary"
+     ],
+     [
+      "Failed experiments: eco-city, greenway and smart city remained pilots outside statutory planning",
+      "Goal: optimise spatial layout, protect ecology, promote sustainable development"
+     ]
+    ],
+    "slide": "L7 slides 32–33"
+   },
+   {
+    "title": "Guangzhou Territorial Spatial Master Plan (2021–2035) in figures",
+    "head": [
+     "Item",
+     "On the slides"
+    ],
+    "rows": [
+     [
+      "Area; population",
+      "7,434.4 km²; 18.827 million (2023); 2035 target strictly controlled within 22 million"
+     ],
+     [
+      "Status",
+      "First batch approved by the State Council (2024); integrates the former land-use, urban-rural and functional zoning plans into 'one plan'; digital 'one-map' smart planning"
+     ],
+     [
+      "Vision",
+      "'Beautiful livable Flower City, dynamic global city' → central-type world city by 2035, fully realised by 2050"
+     ],
+     [
+      "City roles (6)",
+      "Provincial capital, national central city, historic cultural city, maritime modern city, international transport hub, science/education/culture centre"
+     ],
+     [
+      "Core functions (4)",
+      "International trade centre, advanced manufacturing base, national gateway, global innovation hub"
+     ],
+     [
+      "Ecological bottom lines",
+      "'Three zones and three lines'; urban boundary ≤ 2,135 km²; mountains-water-forests-farmland-lakes-sea as one community"
+     ],
+     [
+      "Green structure",
+      "'Nine areas, six cores, multiple corridors'; 5,000 km of ecological corridors; compact, resilient, low-carbon layout"
+     ],
+     [
+      "Liveability",
+      "All-age 15-minute living circles; blue-green open spaces; organic renewal; heritage protection"
+     ],
+     [
+      "Green industry",
+      "623 km² of industrial blocks; industrial affordable housing; multi-storey factories; mixed use and stock land conversion"
+     ]
+    ],
+    "slide": "L7 slides 34–37"
+   }
+  ],
+  "points": [
+   {
+    "t": "Soviet model abandoned",
+    "d": "The Soviet model of industry-driven development was not suitable for China, and city planning was abandoned in the 1960s and 1970s. Planning in the socialist period supported industrial cities (state industrial projects, worker villages).",
+    "slide": "L7 slide 3"
+   },
+   {
+    "t": "Satellite towns and decentralised clusters",
+    "d": "Planning followed the Soviet idea of an industrial complex at the city's periphery: industrial suburbs and satellite towns. Beijing planned ten 'decentralized clusters' at its periphery, separated from the urban area by green belts (Wu 2015). Shanghai's 1959 regional plan showed its satellite towns; they lacked facilities and services and failed to attract people until large-scale suburbanisation in the 1990s.",
+    "slide": "L7 slides 3–4"
+   },
+   {
+    "t": "Twelve new towns with foreign styles",
+    "d": "Shanghai's Comprehensive Plan 1999–2020 added new towns around the city, each with a development goal and often a European or North American architectural style (see the table).",
+    "slide": "L7 slide 5"
+   },
+   {
+    "t": "The workers' village",
+    "d": "Socialist residential planning: Caoyang (Chaoyang) New Village in Shanghai, designed in 1951 and finished in 1977, was the first workers' village built in Shanghai in the socialist period and an exemplar of its kind (Sha et al. 2014).",
+    "slide": "L7 slide 6"
+   },
+   {
+    "t": "Hukou in detail",
+    "d": "Set up in 1958 to control and plan the distribution of food and services. Registration by birthplace, in two categories: rural hukou implied a plot of cultivation/residential land in the village, urban hukou entitlement to urban public services. Because it could not be changed, it discouraged migration, to 'keep peasants on the land'. After the 1980s reforms, labour demand in SEZs and cities needed migration, so hukou was 'reformed', but rural migrants often still cannot get urban hukou and its services.",
+    "slide": "L7 slide 7"
+   },
+   {
+    "t": "Collective land rules",
+    "d": "Collective land is not freely alienable for urban or industrial use: it must first be converted to state ownership via expropriation. Villagers hold use rights (contract/management rights), not ownership.",
+    "slide": "L7 slide 8"
+   },
+   {
+    "t": "Shenzhen's peripheral governance gap",
+    "d": "Plans: Shenzhen SEZ plan 1982, City Master Plan 1996–2010. The 1996 plan covered the whole city, but town and subdistrict management outside the SEZ was weak, so the plan had limited control over urban-rural peripheries. By 2022 the 2,042 urban villages had 319,000 buildings and 5.913 million housing units, 220 million m²: over 40% of the city's building area (Hao et al. 2009 map of urban villages).",
+    "slide": "L7 slides 10–11"
+   },
+   {
+    "t": "How collaborative planning arrived",
+    "d": "Collaborative or communicative planning theory travelled around the world and was introduced into China by several Chinese scholars at the start of the 21st century, to address growing complexity, social polarisation, environmental problems, fragmentation and diverse interests. Practices emerged in urban regeneration, water governance, community garden development and environmental management.",
+    "slide": "L7 slide 14"
+   },
+   {
+    "t": "Why deliberation emerged",
+    "d": "Problems of rapid economic development (Hu et al. 2013): globalisation, decentralisation and marketisation; rising social conflict and inequality; the rise of the internet and civil society; diverse, competing interests of government, market and society; environmental problems and awareness; the rise of the middle class and citizens' rights.",
+    "slide": "L7 slide 15"
+   },
+   {
+    "t": "Urban regeneration: challenges and contestation",
+    "d": "Challenges: state entrepreneurship, large-scale demolition, complex property rights, fragmented land use, the heritage movement and social conflict. Response: micro-regeneration of historical areas, urban villages and old areas. Contestation: government-developer alliances versus residents, professionals and civil society/journalism using new media to reshape power relations.",
+    "slide": "L7 slide 17"
+   },
+   {
+    "t": "Enning Road outcomes",
+    "d": "Positive: participants could urge the developer or government responsible for problems to act, social conflict fell, and there was a sense of moral responsibility. But influence was limited: the committee was set up only at the implementation stage, and power relations stayed unequal. Photos show renovated buildings next to resident-occupied houses.",
+    "slide": "L7 slide 20"
+   },
+   {
+    "t": "Power and social media",
+    "d": "Unequal power relations in Chinese collaborative planning take the form of asymmetric power structures, network power and (some) more shared power. Social media and other platforms shape new forms of power and inequality, but affect offline decision-making only under specific conditions.",
+    "slide": "L7 slide 21"
+   },
+   {
+    "t": "Eco-cities: three trends combined",
+    "d": "Eco-cities are a special type of new town with technological and ecological features to meet ecological targets, responding to greenhouse gas problems; 'low-carbon eco-cities' combine eco-cities with low-carbon policies. They combine three trends (Wu 2015): the eco-state (regulating carbon emissions), local entrepreneurialism (using eco-cities to promote local growth) and policy mobility (eco-city technologies from overseas). Tianjin Eco-City is 1/20 the size of Singapore.",
+    "slide": "L7 slides 22–23"
+   },
+   {
+    "t": "Greenways: rural and social roles",
+    "d": "Greenway planning aims to address the ecological, social and economic issues of rapid urbanisation, through top-down institutional arrangements. It can promote rural economic development by attracting tourists and service sectors, and works as a social strategy: compensatory public goods. The weakness reflects the centralised administrative system and inadequate greenway resources. The slide also links a CNN piece on China's sponge cities (Kongjian Yu).",
+    "slide": "L7 slides 24–25"
+   },
+   {
+    "t": "Smart city movement: timeline and finance",
+    "d": "2009: smart city cooperation with IBM, Cisco and large ICT firms; 2012: MOHURD's 'Notice on Carrying out National Pilot Smart Cities'; 2013–2015: 290 pilot projects approved; by end 2020: over 900 cities with initiatives or plans. Governments lead financing, development and operation, either fully or through PPPs: build-operate-transfer (BOT), build-transfer (BT), build-own-operate (BOO) and build-transfer-operate (BTO).",
+    "slide": "L7 slide 26"
+   },
+   {
+    "t": "Official aim of smart cities",
+    "d": "Smart cities in China 'aim to integrate various information resources, improve urban management and service, and promote industrial transformation' (National Development and Reform Commission 2014).",
+    "slide": "L7 slide 27"
+   },
+   {
+    "t": "Lujiazui Smart Community, Shanghai",
+    "d": "In Pudong's Lujiazui Financial and Trade Center (6.89 km²; residential communities, finance, trade, exhibition, landmarks), a layered smart community framework (Arup Foresight): infrastructure networks, a Smart Community Information Service Platform with civil, public and commercial service platforms, and applications for community governance and services, plus a community public management platform.",
+    "slide": "L7 slide 29"
+   },
+   {
+    "t": "Smart city shortcomings (Liu and Wu 2023)",
+    "d": "Too much emphasis on scale rather than effectiveness (not well combined with urban development goals); often not based on city-specific characteristics but simple replication of model cities, reducing social, economic and environmental benefits; superficial cameras and big screens rather than data quality and integration; hardware over software; too much reliance on government-led initiatives.",
+    "slide": "L7 slide 30"
+   },
+   {
+    "t": "Lecture discussion questions",
+    "d": "Can top-down sustainable experimentations (smart cities, eco-cities, greenways) genuinely promote urban sustainability? Do they remain isolated showcases that leave the broader planning system untouched? What are the differences between the old fragmented system and the new Territorial Spatial Planning system? What are its main challenges in practice? Can it genuinely promote sustainability in Chinese cities?",
+    "slide": "L7 slides 31, 38"
+   },
+   {
+    "t": "Guangzhou: 15-minute living circles, weak law",
+    "d": "The plan distributes public service facilities (education, healthcare, culture, sports, community services) for balanced, all-age-friendly access citywide, with urban-rural integration and equal basic public services. However, the Guangzhou Territorial Space Planning Regulations only took effect in late 2025; without full legal backing, the plan's enforceability and ability to constrain development are weakened.",
+    "slide": "L7 slide 37"
+   }
+  ]
+ }
+}

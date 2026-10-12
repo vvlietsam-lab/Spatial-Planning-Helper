@@ -1,0 +1,772 @@
+{
+ "id": "p2",
+ "n": 2,
+ "theme": 1,
+ "title": "Are cities sustainable?",
+ "who": "Shaun Smith",
+ "slides": true,
+ "lecture": [
+  "Facts: cities use ~70% of resources and energy, emit ~70% of CO₂ and produce 75–80% of waste; 60%+ lie on coasts; 1.6bn people live in inadequate housing (1bn in slums). Inequality is higher in urban areas (Gini higher in 36 of 42 countries). Domestic Material Consumption grows faster than population; cities' share rises from 50% (2010) to 60% (2050). Shrinkage is a new challenge too.",
+  "Definitions vary (Mega & Pederson; Hamilton et al.; Wu 2014: 'an adaptive process… ecosystem services and human well-being'), and measurement is weak: only ~80 cities have consistent CO₂ data (World Bank). Tanguay et al.: indicators suffer from vague definitions, no standard classification, and data limits.",
+  "Pessimistic view: cities cause unsustainability; planning is geared to growth (corridors, entrepreneurialism, competition); injustices linger (climate gentrification, Miami); an implementation gap; McPhearson's 'dystopian Anthropocene'; radical shifts are needed. Optimistic view: urbanisation as a 'positive force for transformation' (UN-Habitat); economic (agglomeration, innovation), political (C40, mayors), organisational (bypass national blockages) and conceptual (systems) arguments; compact cities, 15-minute city; big low-cost emission cuts in buildings and transport.",
+  "Angelo & Wachsmuth: why does everyone think cities can save the planet? Because of sprawl, informal settlements and climate change. The urban agenda moved from the MDGs (Target 7D, slums) to the universal SDGs with a standalone urban goal (SDG 11). Limits: Krähmer (degrowth critique). Conclusions: cities are disproportionately unsustainable; urban form matters but depends on income and commuting; is absolute sustainability impossible, and do we need a relative conception?"
+ ],
+ "man": {
+  "cite": "Angelo, H. & Wachsmuth, D. (2020). Why does everyone think cities can save the planet? Urban Studies 57(11), 2201–2221.",
+  "status": "full",
+  "one": "Global policy flipped from 'the city as sustainability problem' to 'the city as sustainability solution'. This rests on three developments rooted in the 1970s and intensified in the 1990s: reactions to sprawl (North), to informal settlements (South, UN-Habitat 1978) and to climate change (connecting both).",
+  "summary": [
+   "The 'urban sustainability' consensus now looks commonsensical, even inevitable, and is tied to entrepreneurial, competitive urban governance. Urban planning and sustainability planning are merging.",
+   "Three roots: (1) sprawl: the Global North sustainability agenda reacts to decades of car-based expansion (compact city, smart growth); (2) informal settlements: an international agenda on the environmental deficits of informal urbanisation in the Global South; (3) climate change: the overarching concern linking North and South.",
+   "It is a two-sided story: urbanists turned to the environment, and environmentalists turned to the city (e.g. The Nature Conservancy's urban programme). Research agenda: historical, multi-spatial, political and representational analysis of urban sustainability thinking, rather than accepting it at face value."
+  ],
+  "concepts": [
+   [
+    "City as problem → solution",
+    "The discursive shift in global urban-environmental policy."
+   ],
+   [
+    "Three roots",
+    "Sprawl, informal settlements, climate change."
+   ],
+   [
+    "Methodological cityism",
+    "Treating the city as the self-evident scale of analysis and action (Angelo & Wachsmuth 2015)."
+   ]
+  ],
+  "quotes": [
+   "\"Variations in urban form are systematically linked to socio-environmental outcomes\" (as quoted on the slides)"
+  ],
+  "examples": [
+   {
+    "t": "From Ecotopia to compact city",
+    "d": "Callenbach's novel Ecotopia (1975) imagined abolishing cars and economic growth altogether, while by 1985 Peter Calthorpe argued the city is 'the most environmentally benign form of human settlement' and in 1998 the Sierra Club cast sprawl as an ongoing catastrophe. This shows the sprawl root: the solution shifted from 'less city' (limiting growth) to 'more city' (density).",
+    "src": "text",
+    "p": "pp. 2205-2206"
+   },
+   {
+    "t": "'How slums can save the planet'",
+    "d": "In 2010 Stewart Brand called informal settlements 'unexpectedly green' because of their density, and places like Dharavi in Mumbai came to be celebrated as hotbeds of creativity; in 2016 Alejandro Aravena won the Pritzker Prize for housing based on informal settlements' incremental growth. This is the informal-settlement root: from environmental problem to model for sustainable urbanism.",
+    "src": "text",
+    "p": "p. 2207"
+   },
+   {
+    "t": "Chicago Climate Charter",
+    "d": "After Trump announced the US withdrawal from the Paris Agreement, mayors in Canada, Mexico and the USA signed the Chicago Climate Charter to uphold the Paris targets anyway. It shows the climate root: as multilateral treaties floundered, cities and mayors were cast as the climate protagonists.",
+    "src": "text",
+    "p": "p. 2209"
+   },
+   {
+    "t": "Austin's revanchist green clean-up",
+    "d": "Tretter (2013) showed how the growth machine in Austin, Texas used environmentalism for a 'clean-up' of downtown that shifted the costs of growth onto the city's homeless population. It illustrates the authors' political research agenda: urban sustainability has become pro-growth and system-affirmative, and can exclude poorer residents.",
+    "src": "text",
+    "p": "p. 2214"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "This is the introduction to a 2020 special issue of Urban Studies, and its title question is meant seriously: why does everyone now believe that cities can save the planet? Angelo and Wachsmuth start from a puzzle. Today the 'sustainable city' leads urban planning and policy; as Parnell puts it, 'there is no longer a question of whether cities are important for sustainable development, but rather why and how the urban condition affects our common future' (p. 2202). Yet in 1999 the environmentalist Herbert Girardet could still describe the relationship between cities and sustainability as a potential contradiction in terms (p. 2202). What happened in between?",
+     "The authors do not set out to prove or disprove that cities are sustainable. Their aim is historical and critical: to explain how a shift in the environmental imaginary of the city took place, 'from the city as a sustainability problem to the city as a sustainability solution' (p. 2203), and to prevent that shift from being 'naturalised', that is, treated as obvious and inevitable. They build on their earlier critique of 'methodological cityism' (urban-environmental research that looks only inside city boundaries) and now add a time dimension."
+    ]
+   },
+   {
+    "h": "From problem to solution: the new common sense",
+    "p": [
+     "The introduction sketches how the consensus formed. After the Brundtland report (1987) and the Earth Summit, 'sustainable city' initiatives spread in the 1990s. Girardet pioneered an urban view of sustainable development; Jenks and colleagues argued for the 'compact city', based on the insight that variations in urban form are systematically linked to socio-environmental outcomes (p. 2203; the lecture 2 slides quote this line); the US 'smart growth' movement applied this to suburban contexts. The idea that density is green was still counterintuitive in 2004 when David Owen popularised it, but it has since become the basis of municipal and national climate plans worldwide (p. 2203).",
+     "The authors note that this happened even while suburban growth continued to expand across the globe. Smart city thinking carries the same assumption (the built environment can be re-engineered to improve local and global sustainability) with added techno-optimism, and 'resiliency' reframed it again around crisis. The result is that sustainability understood as dense, green urbanism has become the norm (p. 2203). Critics have examined its governance, economics, ideology and inequalities; this article asks where the vision came from."
+    ]
+   },
+   {
+    "h": "Root 1: sprawl in the Global North",
+    "p": [
+     "The core argument is that three historical developments, rooted in the 1970s and intensifying in the 1990s, together made cities look like the solution: sprawl, informal settlements and climate change (p. 2204). Each followed the same pattern: the city and nature were first seen as opposed, and later as potentially in harmony. Although sprawl and informal settlements are now understood as global problems, strategies to address them long developed separately, in different professional and geographical spheres (p. 2204).",
+     "Sprawl is the first. The US, the most car-dependent country, is the key site (pp. 2204–2205). For a long time suburbs were themselves the proposed cure for the ills of dense, polluted tenements. From the 1960s, inspired by Silent Spring, The Closing Circle and The Limits to Growth, environmentalists saw suburban sprawl as unsustainable resource use. Importantly, these critics treated suburbanisation as equal to urbanisation in general and blamed economic growth: their critiques were often anti-capitalist rather than just anti-suburban. Callenbach's novel Ecotopia (1975), where cars and 'economic progress' are abolished, is the example (p. 2205).",
+     "The shift to the city as solution began with the 1970s oil crisis and grew in the 1980s and 1990s as cities tried to lure the white middle class back downtown and as concern about emissions grew. Architect Peter Calthorpe wrote in 1985: 'Ideally, the city is the most environmentally benign form of human settlement' (p. 2205). Newman and Kenworthy, Jenks et al. and the Sierra Club's 1998 'Challenge to Sprawl' followed. What unites them is that they separate sprawl (the problem) from dense urban development (the solution) (p. 2206)."
+    ]
+   },
+   {
+    "h": "Root 2: informal settlements in the Global South",
+    "p": [
+     "The second development played out in a different professional world: international development. By the 1970s informal settlements were growing rapidly across the Global South without the industrialisation that was supposed to replace them, and they came to be seen as environmental problems: pollution, exposure to floods and landslides, disease (p. 2206). Global policy documents show this framing, from the 1976 Vancouver Declaration (Habitat I) and Brundtland's chapter on 'Third World Cities' to Habitat II (1996) and UN-Habitat's The Challenge of Slums (2003). The response was to clear or 'upgrade' settlements in the name of development (p. 2207).",
+     "Then the narrative turned. UN-Habitat's 2010 report called urbanisation a positive force for transformation, and Stewart Brand's article 'How slums can save the planet' described informal settlements as 'unexpectedly green' because of their extreme density, walkability, recycling and community networks (p. 2207). Earlier work by Gilbert et al. (1996) had even argued that the North might need to become more like the South. Dharavi became a symbol of creativity, and Aravena won the Pritzker Prize in 2016 for housing based on informal incremental design. The very features once seen as problems (informality, impermanence, living with less, density) were now taken up as models for sustainable living (p. 2207)."
+    ]
+   },
+   {
+    "h": "Root 3: climate change connects North and South",
+    "p": [
+     "Climate change is the third development and the one that ties the other two together, providing, in Slavin's words, the context for the global institutionalisation of urban sustainability (p. 2208). Brundtland had credited Northern cities, in theory, with the flexibility and local leadership to act, but spent more words on their disproportionate resource use and pollution (p. 2208). Through the 1980s and 1990s cities were first seen as climate problems: key sources of emissions because of their growing share of population and the consumption of affluent residents.",
+     "International treaties struggled. The UNFCCC (1992) was non-binding; Kyoto's (1997) targets were political compromises with little scientific basis; the US withdrew under Bush and later from Paris under Trump (p. 2208). As national efforts floundered, affluent Northern cities were cast as a great hope because of nimble leadership, direct accountability and a feasible scale of action (p. 2208). The 1992 Rio conference recognised cities as an arena for sustainability. City networks followed: ICLEI (1990), the US Mayors' Climate Protection Agreement (2007), C40, 100 Resilient Cities, the Global Covenant of Mayors (p. 2209).",
+     "A second climate wave focused on vulnerability. Hurricanes Katrina, Sandy, Harvey and Irma, droughts in São Paulo and Cape Town and floods in South Asia led to 'resiliency' planning and investment, such as New York's Rebuild By Design and the export of Dutch water expertise, and by private foundations such as the Rockefeller Foundation's 100 Resilient Cities. Today, city leaders see their cities as both unusually vulnerable to climate change and significantly responsible for it, so the profile of climate issues has become distinctly urban (p. 2209)."
+    ]
+   },
+   {
+    "h": "The pattern: from 'less city' to 'more city'",
+    "p": [
+     "The authors then summarise the three stories in their Table 1 (p. 2210). Each problem first received a non-city solution: limit growth (sprawl), sustainable international development (informal settlements), multilateral treaties (climate change). Later each received a city solution: compact and smart cities (spatial planning, for affluent Northern cities), informal settlements as models for resilient design (architecture, first for the South and later for the North), and interlocal networks and empowered mayors (governance, everywhere).",
+     "The key conclusion is that this outcome 'was neither necessary nor inevitable. The sustainability conversation was not always urban – it became urban' (pp. 2209–2211). Some global orientation was probably unavoidable, since climate change cannot be solved 'in one place'. But the discourse also reflects a specific history: urban sustainability grew out of an international development community (UN actors, networks, funding) that already existed and could turn its attention to cities (p. 2211).",
+     "Climate change also differs from the other two. Sprawl and slums could initially be answered with 'less city', but climate change offered no obvious 'less city' option: retreating from affluent coastal cities would mean an unthinkable loss of assets, and the 'urban age' ideology was already established (p. 2211). Anti-urban, back-to-the-land visions exist but are 'paths not taken'. Instead, over the past decade cities have become the dominant solution to the world's sustainability problems, together with a new pressure to design more resilient and sustainable cities (pp. 2211–2212)."
+    ]
+   },
+   {
+    "h": "A research agenda in four dimensions",
+    "p": [
+     "The second half proposes how to study 'cities saving the planet' critically, framing the special issue (p. 2212). Historical research places urban-environmental concerns in their time and path dependencies. Each mode of development produces its own framing of problems: suburban expansion led to worries about land and resources; informal growth to worries about unplanned deficits; tech-led development today to 'eco-cityism'. History also reveals 'paths not taken': Gilbert et al. (1996) already insisted that protecting the environment and fighting poverty were interlinked, a lead mainstream policy, which has been city-centric and 'system affirmative' (accepting the existing economic system), did not follow (p. 2213).",
+     "Multi-spatial research looks beyond city limits: the relation between city, suburb, periphery and countryside, such as Freiburg's and Calgary's central 'sustainability fix' met with a suburban 'counter-sustainability fix', the reconfiguration of the commons at Delhi's urban-rural edge, the colonial and postcolonial pathways along which climate adaptation expertise travelled from Amsterdam to New York and Jakarta, and the invisible 'operational landscapes' of energy, extraction, logistics and waste that support cities (pp. 2213–2214).",
+     "Political research asks who gains. Dominant urban sustainability planning is socially, economically and racially narrow (p. 2214), focused on the liveability of wealthy residents whose consumption-heavy lifestyles may cancel the carbon savings of their efficient downtowns. The authors note a shift from the anti-capitalist 'limits to growth' tradition to 'sustainability as the sustainability of growth' (p. 2215). Representational research studies the images and ideologies (green versus grey urban nature, techno-utopian bird's-eye views, model cities such as Bogotá, 'mayors ruling the world') that make policies look like common sense (pp. 2215–2216)."
+    ]
+   },
+   {
+    "h": "Conclusions and what the authors want",
+    "p": [
+     "The conclusion restates two premises: the sustainable city leads urban planning and entrepreneurial, competitive urban governance; and urban planning is becoming central to global sustainability efforts, so urban and sustainability planning are becoming two sides of the same coin (p. 2216). The authors have explained this through three successive juxtapositions of cities and environmental problems, moving from 'less city' to 'more city'.",
+     "They admit the story they tell is one-sided. The conjunction is 'not simply a matter of urbanists turning to the environment but also of environmentalists turning to the city' (p. 2216): the Nature Conservancy, once focused on wilderness, now runs an urban programme. That parallel, and the dispossession happening in rural areas alongside the celebration of urban sustainability, deserve more research (pp. 2216–2217). Their final point is that every new way of thinking about the urban or about nature brings new blind spots and new conflicts. What they want is not rejection of urban sustainability, but scrutiny instead of acceptance at face value."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis. Lecture 2 uses the article to frame the pessimistic and optimistic views of cities: the optimistic slide even quotes the title as a slogan. Note that Angelo and Wachsmuth are not optimists; they explain why optimism became common sense. Their table maps neatly onto the lecture's MDG to SDG story: urban issues moved from a Southern slum target (7D) to a universal, standalone urban goal, which is the same Southern-to-everywhere movement.",
+     "On the course dimensions, this is a situated, historical and discursive text: it treats 'the city as solution' as a construction produced by actors, institutions and circumstances, not a timeless fact. It is critical and reproduction-focused (dominant urban sustainability is 'system affirmative'), and it sees change as largely emergent from converging histories rather than one deliberate plan. It connects to Næss (lecture 1), who helped build the compact-city case but already warned that efficiency without sufficiency is not enough, echoing the authors' point that wealthy residents' consumption can cancel density gains. Their political dimension anticipates Campbell's triangle and green gentrification (lecture 3), and their critique of Northern models circulating as 'best practice' links to de Satgé and Watson (lecture 6) and to China's eco-city experiments (lecture 7)."
+    ]
+   }
+  ],
+  "news": {
+   "t": "3,000 local leaders gather before COP30",
+   "d": "On the eve of COP30, the COP30 Presidency and Bloomberg Philanthropies brought nearly 3,000 mayors, governors and other subnational leaders from over 120 countries together in Rio de Janeiro. Michael Bloomberg pledged $168 million for local climate leadership, a €80 million fund was announced for over 1,700 electric buses in Brazil by 2030, and a joint statement asked heads of state at Belém to partner with cities.",
+   "why": "Read through Angelo and Wachsmuth, this is the 'city as solution' consensus in action: local action is framed as tangible and trust-building where national negotiations stall, and the solutions offered (e-buses, methane cuts) are technical fixes delivered through mayors and philanthropy. It shows how commonsensical the urban sustainability frame has become, which is exactly what they ask us to question rather than accept. Limit: the source is a press release by an organiser, so it shows the framing, not whether cities actually deliver the cuts.",
+   "src": {
+    "name": "Bloomberg Philanthropies",
+    "title": "Thousands of Local Leaders Gather in Rio to Turbocharge Global Climate Action Ahead of COP30",
+    "url": "https://www.bloomberg.org/press/thousands-of-local-leaders-gather-in-rio-to-turbocharge-global-climate-action-ahead-of-cop30/",
+    "date": "2025-11-05"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Sprawl | Global North · car-based expansion | Informal settlements | Global South · UN-Habitat 1978 | Climate change | links North and South | 'Cities can save the planet' | 1970s roots → 1990s intensification]",
+ "cap": "Angelo & Wachsmuth's explanation of the shift.",
+ "rec": [
+  {
+   "cite": "McPhearson et al. (2021). Radical changes are needed for transformations to a good Anthropocene. npj Urban Sustainability 1.",
+   "doi": "10.1038/s42949-021-00017-x",
+   "basis": "Abstract retrieved",
+   "abs": "The scale and pace of human activity demand radical departures from the status quo to stay within planetary boundaries. Society's steering arms (finance, law, politics, governance) must be realigned, recognising the connection of social, ecological and technological systems. Five principles: rethinking growth, efficiency, the state, the commons, and justice.",
+   "slides": "L2: 'Relation between urban growth and sustainability problems' figure; the 'dystopian Anthropocene' quote (status quo, inequality, growth-focused, law cementing the status quo); 'radical planning shifts are needed', coupling social, ecological and technological systems. L3: the five principles as the 'normative approach'."
+  },
+  {
+   "cite": "Krähmer, K. (2020). Are green cities sustainable? A degrowth critique of sustainable urban development in Copenhagen. European Planning Studies 29(7).",
+   "basis": "Abstract retrieved",
+   "abs": "Copenhagen (European Green Capital 2014) seen through degrowth. Absolute decoupling is infeasible. Three flaws: (1) externalisation: only local emissions count, while consumption-based emissions stay high; (2) efficiency ≠ lower impact, just slower growth of impact; (3) sustainability as a 'green fix' for competitiveness and growth, which raises consumption. This does not mean rejecting all typical measures.",
+   "slides": "L2: 'The limits to planning: can the city really be sustainable? (de- or post-growth)'. L3: listed under the critical perspective (with Næss and post-growth)."
+  }
+ ],
+ "exam": "Essay: 'Are cities the cause of or the solution to unsustainability?' Structure: pessimistic vs optimistic evidence (slides), then why the solution-framing emerged (Angelo & Wachsmuth), then its limits (Krähmer: externalisation, efficiency, green fix; measurement problems).",
+ "table": {
+  "head": [
+   "Problem (emerged)",
+   "Non-city solution",
+   "City solution",
+   "Type of solution"
+  ],
+  "rows": [
+   [
+    "Sprawl: too much resource consumption (1960s)",
+    "Limit capitalist growth; limit urban growth (Limits to Growth, Ecotopia)",
+    "Compact city, densification, smart cities",
+    "Spatial planning, for affluent Northern cities"
+   ],
+   [
+    "Informal settlements: vulnerability, sanitation, rapid growth (1980s)",
+    "Sustainable development (Brundtland, Habitat I)",
+    "Informal settlements as model for resilient, sustainable design; sustainable urban development (Habitat II)",
+    "Architecture/design: for Southern cities, later a model for the North"
+   ],
+   [
+    "Climate change: global coordination to cut emissions (1990s)",
+    "Multilateral treaties (UNFCCC 1992, Kyoto 1997)",
+    "City networks (ICLEI), empowered mayors, cities as climate protagonists (Habitat III)",
+    "Governance, everywhere"
+   ],
+   [
+    "Climate vulnerability of cities to extreme weather (2000s)",
+    "None",
+    "Resilience investment in coastal cities (100 Resilient Cities, Rebuild By Design)",
+    "Resilience planning and investment"
+   ]
+  ]
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Urban overtakes rural population",
+    "svg": "[SVG figure; labels: 2,000 | 4,000 | 6,000 | 8,000 | 1950 | 2000 | 2050 | crossover late 2000s | Urban | Rural | Population (millions)]",
+    "cap": "Urban and rural population of the world, 1950–2050; shape and approximate levels read from the slide's chart (urban ≈ 6.7 bn vs rural ≈ 3.1 bn by 2050).",
+    "slide": "L2 slide 3"
+   },
+   {
+    "title": "The 'great acceleration' behind urban growth",
+    "svg": "[SVG figure; labels: SOCIAL | ECOLO- | GICAL | TECHNO- | LOGICAL | A. Urban population | B. Real GDP | C. Global water usage | D. Biosphere degradation | E. Surface temperature | F. Carbon dioxide | G. Primary energy use | H. Crude steel | I. Cement production]",
+    "cap": "McPhearson et al. (2021): urban population, GDP, resource use and environmental pressures all curve sharply upwards together since about 1950 (schematic of the nine panels).",
+    "slide": "L2 slide 6"
+   },
+   {
+    "title": "CO₂ per capita vs urbanisation: weakening link",
+    "svg": "[SVG figure; labels: r = 0.6416 | 1990 | r = 0.6252 | 2000 | r = 0.5918 | 2010 | r = 0.5465 | 2019 | Correlation: urban share (%) × CO₂ per capita]",
+    "cap": "Countries with a higher urban share emit more CO₂ per capita, but the correlation weakens between 1990 and 2019 (scatterplots summarised by their r values).",
+    "slide": "L2 slide 10"
+   },
+   {
+    "title": "Vulnerability: urban vs rural",
+    "svg": "[SVG figure; labels: 2.0 | 3.0 | 4.0 | 5.0 | Urban | Intermediate | Rural | Economic ↑ | Environmental ↓ | Overall ↑ | Social, Political ↑ | Median vulnerability index score (EEA 2026)]",
+    "cap": "EEA (2026): economic, social, political and overall vulnerability scores rise from urban to rural areas; only environmental vulnerability is highest in urban areas. Levels read approximately from the slide.",
+    "slide": "L2 slide 11"
+   },
+   {
+    "title": "Urban heat island: temperature profile",
+    "svg": "[SVG figure; labels: Rural | Suburban | Commercial | Downtown | Urban res. | Park | Suburban | Farmland | peak | dip | Late-afternoon temperature (≈85–92 °F)]",
+    "cap": "Urban Heat Island Effect (adapted from US EPA, via GIZ 2019): temperatures peak downtown and dip over parks. The Antwerp map (slide 15) shows the densest centre on average 2 °C warmer than the peri-urban surroundings.",
+    "slide": "L2 slides 14–15"
+   },
+   {
+    "title": "Vicious cycle of urban heat islands",
+    "svg": "[SVG figure; labels: Higher local temperatures | More air conditioning | Greater energy demand | More GHG release | More global warming | Lower air quality | Intensified urban | heat island effect]",
+    "cap": "'Vicious cycle of business as usual' (GIZ 2019), simplified: heat drives cooling demand and emissions, which feed back into higher temperatures.",
+    "slide": "L2 slide 14"
+   },
+   {
+    "title": "Two Anthropocene pathways",
+    "svg": "[SVG figure; labels: Status quo | 2020 | Transformative pathways | rethinking principles 1–5 | Business as usual | conventional principles | Good Anthropocene | 2050 | Dystopian futures | 2050 | ↑ benefits for | people and nature]",
+    "cap": "McPhearson et al. (2021): from today's status quo, rethinking growth, efficiency, the state, the commons and justice leads to a 'good Anthropocene'; business as usual leads to dystopian futures.",
+    "slide": "L2 slide 28"
+   },
+   {
+    "title": "Cheapest emission cuts: buildings first",
+    "svg": "[SVG figure; labels: Buildings | Agriculture | Industry | Energy | Forestry | Transport | Waste | low cost | medium cost | high cost | Mitigation potential by sector, GtCO₂-eq (WRI, approx.)]",
+    "cap": "World Resources Institute (after IPCC AR4): buildings offer the biggest emission cuts, almost all at low cost; transport cuts are also mostly low-cost. Bar heights approximate, read from the slide.",
+    "slide": "L2 slide 31"
+   },
+   {
+    "title": "Circular city: two material cycles",
+    "svg": "[SVG figure; labels: Renewables (biological) | Finite materials (technical) | Parts manufacturer | Product manufacturer | Service provider | Consumer | User | farming / collection | biochemical feedstock | regeneration (biosphere) | cascades | anaerobic digestion | biogas | extraction of feedstock | inner loops first: | 1 share | 2 maintain / prolong | 3 reuse / redistribute | 4 refurbish/remanufacture | 5 recycle | collection → minimise systematic leakage and negative externalities]",
+    "cap": "Ellen MacArthur Foundation 'butterfly' diagram shown for circular cities (with the Metabolic Cities Program): biological materials cascade back to the biosphere; technical materials circulate through ever-wider loops, from sharing to recycling.",
+    "slide": "L2 slide 34"
+   },
+   {
+    "title": "Features of a 20-minute neighbourhood",
+    "svg": "[SVG figure; labels: 20-minute | neighbourhood | Local shopping centres | Local health services | Local schools | Lifelong learning | Playgrounds and parks | Green street spaces | Community gardens | Sport and recreation | Safe streets and spaces | Affordable housing options | Ability to age in place | Housing diversity | Walkability | Safe cycling networks | Local public transport | Well connected to PT, | jobs and services | Local employment]",
+    "cap": "Features of a 20-minute neighbourhood (UN-Habitat 2022, World Cities Report, after State of Victoria). Shown alongside 'The 15-minute Paris' and Utrecht's '10-minute city'.",
+    "slide": "L2 slides 37–38"
+   },
+   {
+    "title": "What predicts household carbon? (UK)",
+    "svg": "[SVG figure; labels: 1. Density | split at 50 pop/ha | lower density | higher density | 2. Income | split at £900 / week | 3. Household size | split at 2.3 persons | then: heating degree days, | poor housing condition, central heating | then: density, central heating, | income, heating degree days]",
+    "cap": "Baiocchi et al. (2015): a regression tree splits UK settlements first on density, then on income (less dense) or household size (denser), ending in settlement types with different kg CO₂ per capita. Urban form matters, but only together with income and household traits.",
+    "slide": "L2 slide 40"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Sustainable urban form matrix (Jabareen 2006)",
+    "head": [
+     "Design concept",
+     "Neotraditional",
+     "Compact city",
+     "Urban containment",
+     "Eco-city"
+    ],
+    "rows": [
+     [
+      "Density",
+      "Moderate",
+      "High",
+      "Moderate",
+      "Moderate"
+     ],
+     [
+      "Diversity",
+      "High",
+      "High",
+      "Moderate",
+      "Moderate"
+     ],
+     [
+      "Mixed land use",
+      "High",
+      "High",
+      "Moderate",
+      "Moderate"
+     ],
+     [
+      "Compactness",
+      "Moderate",
+      "High",
+      "Moderate",
+      "Low"
+     ],
+     [
+      "Sustainable transportation",
+      "Moderate",
+      "High",
+      "Moderate",
+      "High"
+     ],
+     [
+      "Passive solar design",
+      "Low",
+      "Low",
+      "Low",
+      "High"
+     ],
+     [
+      "Greening / ecological design",
+      "Moderate",
+      "Low",
+      "Low",
+      "High"
+     ],
+     [
+      "Total score",
+      "15 points",
+      "17 points",
+      "12 points",
+      "16 points"
+     ]
+    ],
+    "slide": "L2 slide 39"
+   },
+   {
+    "title": "How cities are called upon to save the planet (Angelo & Wachsmuth 2020, Table 1)",
+    "head": [
+     "Global problem",
+     "Emerged",
+     "Non-city solution",
+     "City solution",
+     "Type of solution"
+    ],
+    "rows": [
+     [
+      "Sprawl: too much resource consumption, as in suburban sprawl",
+      "1960s",
+      "Limiting capitalist growth (Meadows et al. 1972); limiting urban growth (Callenbach 1975)",
+      "Concentrate people and resources in efficient urban spaces: compact cities, densification, smart cities",
+      "Spatial planning (for affluent Northern cities)"
+     ],
+     [
+      "Informal settlements: physical vulnerability, sanitation, health, extreme weather, too-rapid growth, lack of infrastructure",
+      "1980s",
+      "Sustainable development (Brundtland 1987; Habitat I)",
+      "Informal settlements as model for resilience and sustainable design (Brand 2010); sustainable urban development (Habitat II)",
+      "Architecture/design (for poor Southern cities; eventually a model for Northern cities)"
+     ],
+     [
+      "Climate change: need for global coordination to reduce GHG emissions",
+      "1990s",
+      "Multilateral treaty process (UNFCCC 1992; Kyoto 1997)",
+      "Interlocal networks (ICLEI 1990); empowered mayors; Mayors' Climate Protection Agreement 2007; cities as climate protagonists (Habitat III)",
+      "Governance (everywhere)"
+     ],
+     [
+      "Physical vulnerability of cities' infrastructure, populations and assets to extreme weather",
+      "2000s",
+      "None",
+      "New investment in resilience in coastal cities (100 Resilient Cities; Rebuild By Design)",
+      "—"
+     ]
+    ],
+    "slide": "L2 slide 46"
+   },
+   {
+    "title": "The evolving urban agenda in international policy forums (Parnell 2015)",
+    "head": [
+     "Period",
+     "Conceptions of cities",
+     "Strategies",
+     "Programmes / frameworks",
+     "Inputs to advance targets"
+    ],
+    "rows": [
+     [
+      "UNCED 1992 (recognition of 'the local')",
+      "Cities and urban growth as problems; sustainable urban and rural development",
+      "Local authority and stakeholder engagement; more integrated local planning",
+      "Local Agenda 21 (urban sustainability planning); integrated development planning",
+      "'Major Groups'; coalition of local government associations / Curitiba Summit; Local Government Awards"
+     ],
+     [
+      "Habitat II 1996 (cities as strategic sites in a globalising economy)",
+      "Cities as growth centres, 'half the world's population'; focus on mega-cities",
+      "Inclusive cities; good urban governance; public–private partnerships / privatisation",
+      "City Development Strategies; Cities Alliance; Cities Without Slums; best practices and benchmarking",
+      "UN-Habitat Best Practices / Dubai Award; Global Urban Observatory; World Water Forum"
+     ],
+     [
+      "Rio+20 / current and next (the world as an urban system)",
+      "Cities as centres of economic, social and ecological productivity; 'city as opportunity', 'innovation spaces', 'development agents', 'leaders of climate action'",
+      "Regional (rural–urban) integration; green urban economy; transition theory / regenerative cities; cities for life (equity and social justice)",
+      "Urban Nexus; smart cities initiatives; initiative for an Urban SDG",
+      "Global Town Hall; Stakeholder Forum"
+     ]
+    ],
+    "slide": "L2 slide 47"
+   },
+   {
+    "title": "Urban sustainability categories in the literature (Cohen 2017, Table 5, first part)",
+    "head": [
+     "Category",
+     "Instances in literature",
+     "Unique elements",
+     "Sources referencing"
+    ],
+    "rows": [
+     [
+      "Air quality",
+      "19",
+      "2",
+      "16"
+     ],
+     [
+      "Arts, culture and recreation",
+      "40",
+      "18",
+      "22"
+     ],
+     [
+      "Buildings",
+      "49",
+      "19",
+      "18"
+     ],
+     [
+      "Built environment",
+      "30",
+      "9",
+      "17"
+     ],
+     [
+      "Climate change",
+      "18",
+      "3",
+      "14"
+     ],
+     [
+      "Community",
+      "22",
+      "9",
+      "18"
+     ],
+     [
+      "Economy",
+      "104",
+      "41",
+      "40"
+     ],
+     [
+      "Education",
+      "16",
+      "6",
+      "12"
+     ],
+     [
+      "Energy",
+      "45",
+      "12",
+      "33"
+     ],
+     [
+      "Equity",
+      "73",
+      "28",
+      "30"
+     ],
+     [
+      "Food systems",
+      "14",
+      "8",
+      "11"
+     ],
+     [
+      "Governance",
+      "124",
+      "32",
+      "34"
+     ],
+     [
+      "Growth and development",
+      "8",
+      "5",
+      "8"
+     ],
+     [
+      "Housing",
+      "29",
+      "9",
+      "20"
+     ],
+     [
+      "Infrastructure",
+      "29",
+      "11",
+      "16"
+     ],
+     [
+      "Land use",
+      "84",
+      "13",
+      "36"
+     ],
+     [
+      "(continued: management, manufacturing, material use, mobility and transportation, natural environment, natural resources, pollution, public health, quality of life, safety, technology, waste, water)",
+      "too small to read",
+      "",
+      ""
+     ]
+    ],
+    "slide": "L2 slide 22"
+   },
+   {
+    "title": "Environmental challenges faced by cities and their regions (number of cities; two bars per item on the slide)",
+    "head": [
+     "Challenge",
+     "Bar 1",
+     "Bar 2"
+    ],
+    "rows": [
+     [
+      "Air pollution",
+      "34",
+      "34"
+     ],
+     [
+      "Traffic congestion",
+      "33",
+      "37"
+     ],
+     [
+      "Lack/loss of green space",
+      "25",
+      "22"
+     ],
+     [
+      "Severe storms and flooding",
+      "22",
+      "23"
+     ],
+     [
+      "Stormwater management",
+      "21",
+      "22"
+     ],
+     [
+      "Noise pollution",
+      "21",
+      "22"
+     ],
+     [
+      "Heat waves",
+      "18",
+      "17"
+     ],
+     [
+      "Solid waste disposal",
+      "15",
+      "14"
+     ],
+     [
+      "Solid waste processing",
+      "12",
+      "13"
+     ],
+     [
+      "Decline of native species/habitats",
+      "11",
+      "11"
+     ],
+     [
+      "Water pollution",
+      "11",
+      "10"
+     ],
+     [
+      "Sewage treatment and disposal",
+      "8",
+      "8"
+     ],
+     [
+      "Forest fires",
+      "7",
+      "6"
+     ],
+     [
+      "Water shortages/droughts",
+      "6",
+      "6"
+     ],
+     [
+      "Sea level rise",
+      "5",
+      "5"
+     ],
+     [
+      "Energy shortages/scarcity",
+      "5",
+      "3"
+     ],
+     [
+      "Land/soil erosion; light pollution; ground contamination",
+      "4",
+      "4"
+     ],
+     [
+      "Lack/loss of ecologically productive land",
+      "3",
+      "4"
+     ],
+     [
+      "Food shortages/access to food",
+      "2",
+      "2"
+     ],
+     [
+      "Drinking water shortages; timber, mineral and other resource shortages",
+      "1",
+      "1 / 0"
+     ]
+    ],
+    "slide": "L2 slide 18"
+   }
+  ],
+  "points": [
+   {
+    "t": "Where urban growth will happen",
+    "d": "The largest population increases will be in small and medium-sized cities; India, China and Nigeria will account for 37% of population growth until 2050. Not all Global South cities are growing (e.g. Maputo), and new types of cities may emerge: eco-cities, 'economic' cities, satellite cities, newly built smart cities, virtual cities, reclaimed cities on water (Weight of Cities 2019).",
+    "slide": "L2 slide 4"
+   },
+   {
+    "t": "Energy since 1950 vs the whole Holocene",
+    "d": "“A recent study shows that human energy expenditure since 1950 (~22 zetajoules (ZJ)), particularly related to fossil fuels, exceeds that across the entire prior 11,700 years of the Holocene (~14.6 ZJ)” (Elmqvist et al. 2021, referring to Syvitski et al. 2020, whose figure shows population, energy use and GDP per capita all shooting up together).",
+    "slide": "L2 slide 5"
+   },
+   {
+    "t": "Urban shrinkage as a new challenge",
+    "d": "A global map of annual population change at Functional Urban Area level, 2000–2015 (European Commission 2022), shows shrinking FUAs (negative rates) alongside growing ones, notably in Europe and East Asia. The lecturer asks whether shrinkage is a new sustainability challenge.",
+    "slide": "L2 slide 7"
+   },
+   {
+    "t": "Cities are vulnerable",
+    "d": "60%+ of cities are on coastlines and urban populations seem increasingly susceptible to air pollution and heat. “The overall proportion of sealed land in Europe has increased by over 6% since 2000. Meanwhile, an estimated 26.9% of urban areas saw a significant (>10%) increase in population living within existing floodplains between 2011 and 2021.” Add entrenched inequality, poverty and violence (e.g. Cape Town) and path-dependent infrastructure systems.",
+    "slide": "L2 slide 9"
+   },
+   {
+    "t": "Bigger cities: richer but more unequal",
+    "d": "“Larger cities are generally richer but more unequal than smaller cities. The opportunities that cities bring are unevenly distributed in space, preventing entire neighbourhoods and groups of population from accessing proper health care, good schools, sanitation, piped water, employment opportunities and adequate housing among others” (UN DESA).",
+    "slide": "L2 slide 12"
+   },
+   {
+    "t": "Domestic Material Consumption (definition)",
+    "d": "DMC: “A measure of the total amount of materials directly used by an economy and defined as the annual quantity of raw materials extracted from the domestic territory, plus all physical imports, minus all physical exports.” The chart shows aggregate global urban DMC rising steeply to 2050 in every world region, driven by rising incomes (Weight of Cities 2019).",
+    "slide": "L2 slide 13"
+   },
+   {
+    "t": "Urban air pollution",
+    "d": "“96% of people living in EU cities were exposed to levels of air pollution by fine particulate matter (PM2.5) above the WHO guideline.” Shown with a UN News item: the WHO warns of rising urban air pollution, with poorer cities most at risk.",
+    "slide": "L2 slide 16"
+   },
+   {
+    "t": "Urbanisation and biodiversity loss",
+    "d": "Urbanisation causes biodiversity loss through direct effects (habitat converted to urban land) and indirect effects. A map of projected urban-caused habitat loss 2000–2030 highlights hotspots in the eastern US, south-east China, Brazil and Nigeria.",
+    "slide": "L2 slide 17"
+   },
+   {
+    "t": "Three definitions of urban sustainability",
+    "d": "Mega & Pederson (1998): a sustainable city is “one which succeeds in balancing economic, environmental and socio-cultural progress through processes of active citizen participation.” Hamilton et al. (2002): “the process of developing a built environment that meets people’s needs whilst avoiding unacceptable social or environmental impacts.” Wu (2014): “an adaptive process of facilitating and maintaining a virtual cycle between ecosystem services and human well-being through concerted ecological, economic, and social actions in response to changes within and beyond the urban landscape.”",
+    "slide": "L2 slide 20"
+   },
+   {
+    "t": "Hardly any measured city CO₂ data",
+    "d": "World Bank (2022): consistently measured emissions estimates exist for only about 80 cities, “only half in developing countries. What’s more, hardly any estimates are based on actual emissions. Most estimates rely on parameters from engineering studies that are applied to survey-based activity measures for transport, energy production, and manufacturing.”",
+    "slide": "L2 slide 21"
+   },
+   {
+    "t": "Local monitoring: Amsterdam and Utrecht",
+    "d": "Cities now report on the SDGs themselves through Voluntary Local Reviews (Amsterdam 2022; 'Utrecht and the Global Goals' 2023). Example indicator: Amsterdam's 2019 modal split for trips by residents and visitors: car 29%, bicycle 28%, public transport 25%, walking 16%, moped 2%.",
+    "slide": "L2 slide 23"
+   },
+   {
+    "t": "Tanguay et al. studied 17 cities",
+    "d": "The three measurement problems (broad definition, no standard classification of sustainable development indicators, data constraints) come from Tanguay et al. (2010), who studied 17 cities in Europe, Asia and North America.",
+    "slide": "L2 slide 24"
+   },
+   {
+    "t": "Pessimistic view: planning itself is the problem",
+    "d": "“As such, spatial planning itself, focused on guiding land use, permitting private developments and building technical infrastructures/public services is not sustainable.” The city also “becomes abstracted from more fundamental processes of socio-economic and socio-ecological change”. Illustration: Asia is home to 99 of the world's 100 most vulnerable cities (Jakarta: pollution, flooding, heatwaves).",
+    "slide": "L2 slide 26"
+   },
+   {
+    "t": "The 'dystopian Anthropocene' (full quote)",
+    "d": "“We define a ‘dystopian Anthropocene’ as one that broadly mirrors the present, where the current status quo is maintained into the future with human societies facing rampant inequality, unacceptable social and environmental injustice, economic models and development trajectories focused on growth, law used as a reactive tool to cement the status quo, and environmental ills from human-caused pollution, climate change, and ecosystem degradation unchanged or worse.” (McPhearson et al. 2021)",
+    "slide": "L2 slide 27"
+   },
+   {
+    "t": "Do we live in the Anthropocene?",
+    "d": "Term from Paul J. Crutzen (chemist) and Eugene F. Stoermer (biologist); not universally accepted. Proposed start dates: 12–15k years ago (agricultural revolution), 1760 (industrial revolution) or 1945. Human activity has shifted the planet into a fundamentally different (irreversible?) state in biodiversity and bioactivity, land cover, climate and geomorphology, so 'radical' planning shifts must account for complexity (knowledge, institutions, business, behaviour) and couple social, ecological and technological systems.",
+    "slide": "L2 slide 28"
+   },
+   {
+    "t": "Mayors bypassing national governments",
+    "d": "Example of the political and organisational optimistic arguments: US mayors (then LA mayor Eric Garcetti, chair of C40) sought to bypass Trump with a direct role at UN climate talks: “If cities are invited to be at the table, I believe that they will help accelerate the work that needs to be done.”",
+    "slide": "L2 slide 29"
+   },
+   {
+    "t": "UN-Habitat: don't vilify cities",
+    "d": "World Cities Report 2024 (Cities and Climate Action): “Vilifying cities as producers of greenhouse gas emissions is to fundamentally misunderstand their potential to deliver a more sustainable future for our planet... net zero or low-carbon pathways can be achieved through appropriate climate responsive planning choices.” Compact cities with integrated transport and energy-efficient buildings can be significantly more sustainable than suburban or rural areas.",
+    "slide": "L2 slide 30"
+   },
+   {
+    "t": "Quick wins in transport and buildings",
+    "d": "The New Climate Economy: “investments in transport – vehicle efficiency and electrification, modal shift, and urban freight logistics improvements – have a positive NPV under nearly all scenarios, as do the residential buildings measures”. Weight of Cities: if cities were more resource-efficient in transport, commercial buildings and heating/cooling, resource use could fall by about 46–67%.",
+    "slide": "L2 slide 31"
+   },
+   {
+    "t": "Ontological dimensions: kinds of 'sustainable city'",
+    "d": "The lecture lists the city models through which urban sustainability is pursued: resilient cities (Rockefeller's 100 Resilient Cities, Cape Town Resilience Strategy, Melbourne's 'Resilient City Foodbowl'), low-carbon cities (City of Cape Town Climate Change Strategy), circular cities (Metabolic Cities Program), green/eco cities and nature-based solutions (blue-green infrastructure in Chinese cities), compact cities (Jenks, Burton & Williams, 'The Compact City: A Sustainable Urban Form?') and the 15-minute city.",
+    "slide": "L2 slides 32–36"
+   },
+   {
+    "t": "15-minute Paris and the Utrecht '10-minute city'",
+    "d": "The 15-minute Paris drawing groups daily needs around home: learn, work, share and reuse, stock up, enjoy the outdoors, take care of your health, get around, stay active, eat healthy, be engaged in your community (Nigudkar 2021). Utrecht: “All of this helps us turn Utrecht into the ‘10-minute city’. In our city, everyone and everything you need is close by”, under the banner 'Healthy Urban Living for Everyone'.",
+    "slide": "L2 slides 37–38"
+   },
+   {
+    "t": "Settlement types × lifestyle groups",
+    "d": "A heatmap (Baiocchi et al. 2015) cross-tabulates human settlement types (from the regression tree) with ONS lifestyle groups (e.g. rural economies, young city professionals, multicultural inner city, suburbia), showing that low-carbon dense settlement types are dominated by specific social groups: urban form and who lives there go together.",
+    "slide": "L2 slide 41"
+   },
+   {
+    "t": "MDGs: Goal 7 targets",
+    "d": "MDG Goal 7 (ensure environmental sustainability): Target 7C, halve by 2015 the proportion without sustainable access to safe drinking water and basic sanitation (indicators split urban and rural); Target 7D, by 2020 a significant improvement in the lives of at least 100 million slum-dwellers (indicator: proportion of urban population living in slums).",
+    "slide": "L2 slide 48"
+   },
+   {
+    "t": "MDGs → SDGs: three shifts",
+    "d": "(a) from the Global South to universal goals; (b) much more emphasis on social values and ecological limits; (c) a standalone urban goal/agenda (SDG 11). “The SDGs provide a comprehensive and integrated framework of 17 goals, 169 targets and 231 unique indicators designed to guide progress on sustainable development to 2030” (Wiedmann and Allen 2021).",
+    "slide": "L2 slides 48–49"
+   },
+   {
+    "t": "SDG dashboard for OECD countries",
+    "d": "A dashboard colours each OECD country's progress on all 17 SDGs (achieved, challenges remain, significant challenges, major challenges). The Netherlands, highlighted, shows major challenges on several goals too: rich countries are far from 'sustainable'.",
+    "slide": "L2 slide 50"
+   },
+   {
+    "t": "Copenhagen's carbon-neutral 2025 goal fails",
+    "d": "Illustrating Krähmer's degrowth critique: the headline “Copenhagen’s dream of being carbon neutral by 2025 goes up in smoke” (Euractiv 2022), because the capital failed to reach its target after its iconic waste incinerator (Amager Bakke / CopenHill, with a ski slope on top) did not meet CO₂ capture requirements for state support.",
+    "slide": "L2 slide 51"
+   },
+   {
+    "t": "Conclusions: what planning can do",
+    "d": "Planning is key to achieving more sustainable cities through vision-setting, urban form, encouraging institutional change and tackling political conflicts and trade-offs. Open questions: do growth, externalisation and efficiency make absolute sustainability impossible? Is a new, relative conception of sustainability needed? “Should we abandon growth completely?”",
+    "slide": "L2 slide 52"
+   }
+  ]
+ }
+}

@@ -1,0 +1,343 @@
+{
+ "id": "gov",
+ "wk": 3,
+ "title": "Rydin (2021) Governmental models: the hope of rational public administration",
+ "cite": "Rydin, Y. (2021). Theory in Planning Research, ch. 2, pp. 19–40. Springer · + lecture 22 Sept",
+ "theory": "Rational-comprehensive planning (governmental model)",
+ "status": "full",
+ "statusNote": "Full chapter on file.",
+ "one": "The governmental model frames planning as a rational, linear (with feedback) process in which politicians set goals and expert planners choose the best means. Research within it becomes policy evaluation: 'a critical friend shadowing the steps'.",
+ "summary": [
+  "Justification comes from welfare economics: markets fail through externalities, missing markets (information), public and merit goods and monopoly (including landowners'), so the public sector intervenes in the public interest. The public interest in this view is the greatest net benefit to society, and planning is welfare optimisation.",
+  "In the Weberian tradition goals 'stand outside the planning process'. Politicians set ends; public administration brings 'expert knowledge to bear on the options available'. The ideal process is Lichfield et al.'s (1975) eleven steps, from problem definition to review. Four features: (1) evidence-based planning, where knowledge 'can be gathered and made available to the planning process in a positive way' (p. 22); (2) a comprehensive synthesis across all dimensions (triple bottom line, systems thinking à la McLoughlin); legitimacy 'comes from the rationality of the analysis' (p. 24); tools such as EA/SEA, CBA, MCA and GIS inform but do not decide; (3) formulation to implementation, with policy instruments (direct investment, strategic spatial planning, regulation, fiscal measures, tradeable permits, information/nudges); (4) implementation studies show how tools are used matters, planners exercise discretion and negotiate, and the politics/administration line blurs.",
+  "Critiques from the lecture: wicked problems (Rittel & Webber 1973), incrementalism/muddling through (Lindblom 1959), advocacy planning (Davidoff 1965). Its ideal-typical assumptions are complete information, clear agreed goals, and objective value-free decisions separated from politics. Yet 'rationality is dead but keeps showing up' (Brooks 2002): e.g. the Dutch MKBA (social cost-benefit analysis) of the toll-free Westerscheldetunnel (net welfare gain €27–39m, ratio 1.5, but 'the feeling of injustice about the toll' could not be priced)."
+ ],
+ "concepts": [
+  [
+   "Instrumental rationality",
+   "Choosing the most efficient means for given ends; planning = optimisation."
+  ],
+  [
+   "Weberian separation",
+   "Politicians set goals; trained officials apply impersonal rules and expertise to choose means."
+  ],
+  [
+   "Market failure",
+   "Externalities, missing markets, public goods, merit goods, monopoly; justifies planning (welfare economics)."
+  ],
+  [
+   "Lichfield's 11 steps",
+   "Problem definition → decision to act → data/forecast → constraints/objectives → criteria → design → test alternatives → evaluate → decide → implement → review."
+  ],
+  [
+   "Comprehensive synthesis",
+   "Integrating all dimensions of a problem into one balanced view; source of legitimacy."
+  ],
+  [
+   "Evidence-based planning",
+   "'we can make policies work better if we understand how policy mechanisms bring about change' (Sanderson 2002)."
+  ],
+  [
+   "Implementation studies",
+   "How tools are used; discretion and negotiation; goals reformulated during implementation."
+  ],
+  [
+   "Critical friend",
+   "Research within this model mirrors the model: evaluation of steps, goals taken as given."
+  ],
+  [
+   "MKBA",
+   "Dutch social cost-benefit analysis: compares options with a no-policy future, in euros where possible."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Politics sets goals | 1. problem | 2. goals & constraints | 3. data + forecast | 4. alternatives | 5. test & evaluate (MKBA) | 6. decide | 7. implement | 8. monitor & review | Planner = expert | chooses means, value-free]",
+ "cap": "Linear with feedback loops (after Lichfield et al. 1975 / CATS steps). Goals come from outside the process.",
+ "table": {
+  "head": [
+   "Assumption",
+   "Challenged by"
+  ],
+  "rows": [
+   [
+    "Complete, accurate information",
+    "Wicked problems (Rittel & Webber); Lindblom's bounded knowledge; Hayek's dispersed knowledge"
+   ],
+   [
+    "Clear, agreed goals",
+    "Lindblom (means and ends chosen together); Davidoff (plural interests); Buitelaar (conflicting justice)"
+   ],
+   [
+    "Objective, value-free, politics separate from administration",
+    "Davidoff (planners aren't neutral); implementation studies (discretion); Marxists (serves capital)"
+   ]
+  ]
+ },
+ "example": "Westerscheldetunnel toll: MKBA says abolishing the toll gives a net gain of €27–39m (B/C 1.5), but it cannot price the felt injustice, so politicians still decide.",
+ "quotes": [
+  "\"the assumption is that knowledge can be gathered and made available to the planning process in a positive way, supporting decision-making\" (p. 22)",
+  "\"the legitimacy of plans and planning decisions comes from the rationality of the analysis and propositions that are put forward by planners and planning agencies\" (p. 24)",
+  "\"It becomes a critical friend shadowing the steps set out in the rational planning model\" (p. 38)"
+ ],
+ "dims": {
+  "sa": 65,
+  "rt": 55,
+  "de": 10,
+  "us": 10,
+  "mp": 10,
+  "norm": "Public interest as net welfare / efficiency; effectiveness of planning."
+ },
+ "exam": "Know how to RECOGNISE it in research: problem-solving, instrumentalist wording ('effectiveness', 'implementation gap', 'evidence'), the case is a planner or planning organisation, goals taken for granted, missing power/conflict.",
+ "examples": [
+  {
+   "t": "Energy planning in Escamp, The Hague",
+   "d": "Hettinga et al. piloted a Geodesign decision support system in Escamp with 12 municipal sustainability officers, a touch table and real-time impact assessments, ending in three agreed boundary conditions and a neighbourhood energy plan. Shows the governmental model's decision-support theme: better data and tools help planners choose the best means, with stakeholders involved instrumentally.",
+   "src": "text",
+   "p": "pp. 26-28"
+  },
+  {
+   "t": "Chongming Eco Island evaluation",
+   "d": "The official self-assessment found 19 of 22 indicator targets for 2014 met, but Ma et al.'s broader evaluation matrix found no sustainable transport, poor waste sorting and little gain for residents. Shows implementation and evaluation research that still judges outcomes against the plan itself (plan implementation).",
+   "src": "text",
+   "p": "pp. 29-31"
+  },
+  {
+   "t": "Tourism scheme at Ria de Aveiro",
+   "d": "A 309-home tourism development on a lagoon sandbar in Portugal was scaled down after EIA negotiations, then refused when a new national government's commission raised coastal erosion. Pinho uses it to show discretion and negotiation inside the planning steps, and how separated procedures block the integrated, balanced view the model promises.",
+   "src": "text",
+   "p": "pp. 31-33"
+  },
+  {
+   "t": "Post-war housing norms (Voorschriften en Wenken)",
+   "d": "The lecture shows Dutch post-war social housing (1945-1965), when the ministry's 'Voorschriften en Wenken' decided centrally what a home should be. An example of the governmental model institutionalised: experts fix the right means for politically given housing goals.",
+   "src": "slides"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Rydin's book is about the theories that sit, often unspoken, underneath planning research. Chapter 2 opens the series with the oldest and most familiar frame: the 'governmental' or 'public administration' model, in which planning is a rational activity of the state that links means to ends in the public interest. The chapter has three jobs. It explains why planning exists at all according to this frame, it sets out the key concepts the frame works with (evidence, comprehensive synthesis, implementation), and it shows through seven published studies what research looks like when it adopts this frame, often without saying so.",
+    "The title already hints at Rydin's stance: this is 'the hope' of rational public administration. She does not dismiss the model; she treats it as an ideal that policy makers aspire to and that much research quietly shares. The question for you as a reader is: how do you recognise this model in a piece of research, and what does it take for granted? The 22 Sept lecture (Bossuyt) used the chapter exactly this way: as a tool for spotting the rational model in theses and articles."
+   ]
+  },
+  {
+   "h": "Why plan? Market failure and the public interest",
+   "p": [
+    "Rydin starts with the justification (p. 19). Planning histories present planning as a response to problems: slum housing, poor sewage, pollution in fast-growing cities. One influential account of those problems comes from welfare economics, whose key idea is 'market failure': the reasons why markets fail to deliver the broader public interest. She lists the sources. Externalities are impacts, positive or negative, that do not show up in prices; pollution is the classic negative one. Missing markets mean there is no price to ration use, so things like beautiful views get over-exploited; information is also under-supplied because you cannot easily charge for it.",
+    "Welfare economics also identifies goods that markets under-supply: merit goods (things society decides people should have, such as good housing) and public goods (once supplied to some, others cannot be excluded, such as street lighting). Finally there is monopoly power, and in land-use planning the key monopoly is that of landowners, which can justify the public sector stepping in (pp. 19–20). The conclusion: planning redresses problems that market processes alone cannot solve (p. 20). The lecture summarised this chain as: markets allocate efficiently, except when they don't, so the state may intervene; the public interest then equals the greatest net benefit to society, and planning becomes the optimisation of welfare."
+   ]
+  },
+  {
+   "h": "The Weberian division: politicians set ends, planners choose means",
+   "p": [
+    "This justification puts the planner and other public officials centre stage, in the Weberian tradition (p. 20). Max Weber described the modern state as run by trained officials who follow impersonal rules and serve the political leadership. In Rydin's words: 'The goals themselves stand outside the planning process' (p. 20). Politicians, answerable to voters, set the goals; the public administration interprets them, considers how to implement them and brings expert knowledge to bear on the options and policy instruments. This is 'instrumental rationality', as the lecture put it with Alexander's definition: reason as linking means to ends, and being able to justify a course of action.",
+    "Planning in this frame is purposeful problem-solving: urban planning improves towns, environmental planning protects nature, transport planning creates efficient mobility. Rydin notes that the smart city can be seen as the latest version, integrating technological rationality into urban planning (p. 20). Crucially, the frame assumes that good planning produces the desired outcomes, so any problems are located within the planning process and in how planners operate (p. 20). The frame looks inward at the process, not outward at the context in which planning works (p. 21)."
+   ]
+  },
+  {
+   "h": "The ideal model: Lichfield's eleven steps",
+   "p": [
+    "The model is also an idealised sequence of steps. Rydin uses Nathaniel Lichfield's 'general planning process' (Fig. 2.1, p. 21): (1) recognising and defining the problem, (2) deciding to act and defining the task, (3) data collection, analysis and forecasting, (4) constraints and objectives, (5) operational criteria for design, (6) plan design, (7) testing alternative plans, (8) plan evaluation, (9) decision-taking, (10) implementation, (11) review over time. Monitoring closes the loop, because outcomes feed back into how instruments are used. The lecture linked this to the CATS ten steps from the bachelor's: data, forecast, goals, alternatives, testing, choice, monitoring.",
+    "Rydin condenses the ideal type in a short definition (p. 21): planning is future-oriented and comprehensive, emphasises synthesis and integration, is based on information, knowledge and evidence, responds to a public interest set in the political sphere, and involves stakeholders, but only instrumentally, to make planning more effective. That last clause matters for later readings: participation here is a means to better plans, not a source of legitimacy. The model is found in public documentation and professional guidance; it is an ideal that planning policy makers aspire to."
+   ]
+  },
+  {
+   "h": "Key concept 1: evidence-based planning",
+   "p": [
+    "Rydin identifies three dynamics that matter in this frame: evidence, comprehensive synthesis and implementation (p. 22). First, evidence. Planning should rest on the best current knowledge: data on the present situation, likely future scenarios and trends, and knowledge of how a specific development will have impacts. Her example is wind farms: knowledge about bird strikes, noise and flicker for residents, and for offshore sites, impacts on fish, fishing fleets and marine mammals. The core assumption is stated plainly: 'the assumption is that knowledge can be gathered and made available to the planning process in a positive way, supporting decision-making and the development of strategies' (p. 22). 'Positive' here means in the positivist sense: knowledge as neutral facts that can be collected.",
+    "Big data and IT extend this hope: Kontokosta argues planners need new data and computational methods to forecast needs and evaluate alternatives (p. 22). Rational planning also needs knowledge of how policy itself works, which is the idea behind 'evidence-based planning': making policies work better by understanding how policy mechanisms bring about change (Sanderson 2002, quoted p. 22). Rydin flags a problem: many confounding factors, from markets to social dynamics, shape urban change, so the effectiveness of planning tends to be partly taken for granted (p. 23). She also cites Davoudi (2006) on the suggestion that policy often leads to the choice of evidence rather than the reverse."
+   ]
+  },
+  {
+   "h": "Key concept 2: comprehensive synthesis",
+   "p": [
+    "Second, planning claims to take account of many dimensions at once (p. 23). A transport plan considers congestion, safety, environment and economic development; a regeneration plan aims at community, accessibility and mixed uses. The 'triple bottom line' of social, environmental and economic goals is often used to check comprehensiveness. But it is more than listing dimensions: planning must integrate them, for example designing a landscape that works as sustainable drainage while also being attractive, safe, accessible and not wasting development land (pp. 23–24). Planning is thus a synthesising activity that looks across all issues to produce a reasoned, balanced overall view (p. 24). Systems thinking (McLoughlin 1969) and later socio-ecological systems were proposed as ways to achieve this.",
+    "Here Rydin states where legitimacy comes from in this model: stakeholder and public input may matter, 'but the legitimacy of plans and planning decisions comes from the rationality of the analysis and propositions that are put forward by planners and planning agencies' (p. 24). Tools such as environmental assessment, SEA, cost-benefit analysis, multi-criteria analysis and GIS fit this model; their proponents stress they inform rather than make decisions. The lecture's Dutch example was the MKBA (social cost-benefit analysis) of making the Westerscheldetunnel toll-free: a net welfare gain of 27–39 million euros, but some effects, such as the feeling of injustice about the toll, could not be put in euros. Rydin notes the state struggles with both too little and too much knowledge, which led to Lindblom's disjointed incrementalism (p. 24)."
+   ]
+  },
+  {
+   "h": "Key concept 3: from formulation to implementation",
+   "p": [
+    "Third, plans are not ends in themselves; they must be implemented (pp. 24–25). A whole evaluation industry judges planning bodies by whether they achieve stated goals, assuming a linear process: deliberate, predict, plan, formulate, implement, evaluate. Smith (2018) distinguishes 'plan implementation' (did the plan's goals happen?) from 'planning implementation' (closer to integration, needing process evaluation). Rydin lists the policy instruments that together measure the power of the state planner (p. 25): direct public investment including landownership, strategic coordination through spatial planning, regulation and permits, fiscal measures, tradeable permits, and information and persuasion including nudges.",
+    "Implementation studies then complicate the picture from within. Outcomes depend not just on which tools are used but on how: fit with context, compatibility, structure and agency, resources and power, catalysts and communication (p. 25). Planners have discretion and negotiate with developers, communities and other departments. This blurs the Weberian line: goals get reformulated during implementation, so planners, as administrators, are inevitably political (p. 26). Kaza (2019) adds that not all plans should be judged by implementation at all, since plans can also frame debates, spread information or offer a narrative; some authorities even adopt mutually inconsistent plans (p. 26)."
+   ]
+  },
+  {
+   "h": "Evidence and cases: seven studies in the governmental frame",
+   "p": [
+    "Rydin then shows three research themes (p. 26). Supporting decision-making: Hettinga et al. (2018) piloted a Geodesign decision support system for neighbourhood energy planning in Escamp, The Hague, with 12 municipal sustainability officers, a touch table and a geodata expert; local knowledge surfaced problems like connecting to district heating (pp. 26–27). Kumar et al. (2016) built a standardised climate vulnerability index for Bangalore from exposure, sensitivity and adaptive capacity indicators, weighted 30/45/25%, and mapped it by ward; the tool was clearly expert-led and the planner stayed centre stage (pp. 28–29).",
+    "Implementation and evaluation: Ma et al. (2018) evaluated Chongming Eco Island near Shanghai with a broader matrix than official indicator sets (which claimed 19 of 22 targets met), finding real gains in restricting development and restoring water courses but weak transport, waste sorting and little benefit for residents (pp. 29–31). Pinho (1997) followed the paper trail of a tourism condominium on a Portuguese sandbar that local planning supported but a national EIA commission ultimately refused, showing discretion and disjointed negotiation (pp. 31–33).",
+    "Assessing integration: Furlong et al. (2016) revised Lichfield's process into a water infrastructure framework with more stakeholder input and circular feedback (pp. 33–34). Tajima and Fischer (2013) found that integrating many impact assessments into English SEA can downgrade some values, especially environmental ones (pp. 34–36). Zhou et al. (2017) diagnosed fragmentation in Yulin City's planning system and proposed a unified 'multi-planning link model' and 'One Map' (pp. 36–37). Common thread: close ties to government, technical expertise, the planner or planning organisation as the case, and the ideal model as benchmark."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Rydin's conclusion (pp. 37–38) is that the governmental approach frames planning as a linear, rational process with feedback loops, and this framing describes both how planning operates and how it should. Research in this frame stays within the model and typically becomes policy evaluation: goals are taken as given, the focus is on steps and instruments, and before-and-after data judge impact. In her phrase, research 'becomes a critical friend shadowing the steps set out in the rational planning model' (p. 38).",
+    "She explains why the vision is so attractive to planners: it makes them the main actors, suggests planning is under their control, displays their knowledge, and presents itself as rational and therefore hard to argue with (p. 38). Failures are fixed inside the process, often with new tools such as GIS or ICT-supported engagement. Even when stakeholders appear, it is to garner support, identify values or find barriers. What is missing, implicitly, is the context outside the planning process: markets, power, politics. That is what later chapters of her book (and later weeks of the course) add."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is a synthesis for the course, not Rydin's own claims. On the course dimensions, the governmental model sits at the universal, monist and realist end of the knowledge questions: knowledge is gathered 'in a positive way', experts are the authorised producers, and reality is knowable (as the lecture slide on the framework showed). It is strongly deliberate rather than emergent (outcomes follow from plans), leans towards agency of the planner rather than structure, and is reformist within existing institutions rather than transformative. Its normative commitment is the public interest understood as net welfare.",
+    "Contrasts: Scott (same week) shows what happens when this model is backed by an authoritarian state and a high-modernist ideology; Davoudi (2006) questions the evidence-based part of it; Alexander argues rationality should be kept but made contingent. The rational choice lecture and Olson/Needham offer a different economic lens: instead of a benevolent planner correcting market failure, they model self-interested actors, including in government, and property rights. A useful exam habit: for any thesis, check for the signals the lecture listed: problem-solving language, instrumental questions, the planner as the case, and no questioning of the goals."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Ontwerp-Nota Ruimte: one national spatial synthesis",
+  "d": "On 26 September 2025 the cabinet sent the draft Nota Ruimte to parliament: one national spatial vision making integrated choices on housing, accessibility, energy, defence, economy, agriculture and nature up to 2050, with an outlook to 2100. It designates 4 national and 127 regional large-scale housing locations and reserves space around the big rivers for dike raising and freshwater supply. Minister Keijzer: 'The space is scarce and we can only divide it once.'",
+  "why": "Read through Rydin's governmental model, this is the 'comprehensive synthesis' in action: the state integrates all spatial claims into one balanced picture and treats planning as allocating a scarce resource to maximise net benefit, with experts working out the means (locations, reservations) for politically set goals. Limit: it is still a draft that goes through public consultation (zienswijzen), and most of the 127 regional locations depend on provinces and municipalities to deliver, so implementation and negotiation, not the synthesis itself, will decide the outcome, as implementation studies predict.",
+  "src": {
+   "name": "Rijksoverheid",
+   "title": "Kabinet stelt nationale omgevingsvisie op en maakt keuzes: ontwerp-Nota Ruimte naar Tweede Kamer",
+   "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/09/26/kabinet-stelt-nationale-omgevingsvisie-op-en-maakt-keuzes-ontwerp-nota-ruimte-naar-tweede-kamer",
+   "date": "2025-09-26"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Theory as a pair of glasses",
+    "svg": "[SVG figure; labels: Ontology + | epistemology + values | Theory A | the lens you look through | Research design, | questions, analysis | Today's lens: the rational (governmental) model and its critics]",
+    "cap": "Recap slide: a theory bundles ontology, epistemology and values, and that bundle steers research design, questions and analysis.",
+    "slide": "Rational planning slide 3"
+   },
+   {
+    "title": "Planning as a process of rational action",
+    "svg": "[SVG figure; labels: 1. Definition of | problems and/or | goals | 2. Identification | of alternative | plans/policies | 3. Evaluation | of alternative | plans/policies | 4. Implementation | of plans/ | policies | 5. Monitoring | of effects of | plans/policies | FEEDBACK to every earlier step | Black (1990) Fig. 4.2; same logic as Lichfield's 11 steps (Rydin 2021, Fig. 2.1)]",
+    "cap": "The slide set Black's five-step version (the CATS steps from the bachelor's) beside Lichfield's eleven steps and asked: is this still how planning works today?",
+    "slide": "Rational planning slide 14"
+   },
+   {
+    "title": "Why plan at all? The welfare-economics chain",
+    "svg": "[SVG figure; labels: Markets allocate | efficiently | except when | they don't | the state may | intervene | but what option | to choose? | public goods, merit goods, | externalities, etc. | Public interest = the greatest net benefit to society | so planning = optimisation of welfare]",
+    "cap": "Welfare economics as both justification and method of the governmental model (Rydin 2021, pp. 19–20; Klosterman 1985).",
+    "slide": "Rational planning slide 19"
+   },
+   {
+    "title": "Rational-comprehensive versus muddling through",
+    "svg": "[SVG figure; labels: Rational-comprehensive | all alternatives compared, one optimal route | Incrementalism (Lindblom 1959) | limited comparisons, repeated small steps]",
+    "cap": "Schematic of the slide's 'science of muddling through' image: ends and means chosen together, simplified limited comparisons, and repeated attacks on the problem instead of one comprehensive optimum.",
+    "slide": "Rational planning slide 27"
+   },
+   {
+    "title": "Where the rational model sits in the course framework",
+    "svg": "[SVG figure; labels: What is knowledge? | universal | situated | Who can produce knowledge? | monist | pluralist | Can we know social reality, and judge between accounts of it? | realist | relativist | governmental model (knowledge 'gathered in a positive way', expert planners)]",
+    "cap": "The slide shows the three knowledge axes blank as a discussion question; the markers are the position this site derives from Rydin pp. 22 and 24 (quotes A and B on slide 31).",
+    "slide": "Rational planning slide 32"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Core elements of the governmental model in research",
+    "head": [
+     "Element",
+     "What it assumes about knowledge",
+     "Westerschelde example"
+    ],
+    "rows": [
+     [
+      "Evidence",
+      "Reality can be known: 'if we do nothing, then y1, if we do x, then y2'",
+      "Traffic forecasts, ferry data, etc."
+     ],
+     [
+      "Comprehensive synthesis",
+      "All issues can be weighed in one balanced view",
+      "MKBA: travel time, costs, benefits in one sum"
+     ],
+     [
+      "Implementation",
+      "Plans > results > feedback > ..",
+      "???? (left open on the slide)"
+     ]
+    ],
+    "slide": "Rational planning slide 33"
+   }
+  ],
+  "points": [
+   {
+    "t": "Learning goals of the session",
+    "d": "By the end you should be able to explain what the rational model is, how it is justified and where it still appears today; identify what it assumes about knowledge; compare different critiques; and develop a strategy for identifying the rational model in research articles.",
+    "slide": "Rational planning slide 2"
+   },
+   {
+    "t": "Three questions for the lecture",
+    "d": "What does the rational model assume about knowledge? Why do planners still hold on to the rational model? What does the rational model miss or ignore?",
+    "slide": "Rational planning slide 9"
+   },
+   {
+    "t": "Planning = optimisation (Friedmann 1987)",
+    "d": "If planning is about 'instrumental rationality', using systematic methods to find the most efficient means to achieve goals, then planning = optimization. The slide refers to Friedmann (1987), 'Planning as social reform', in Planning in the Public Domain.",
+    "slide": "Rational planning slide 13"
+   },
+   {
+    "t": "Post-war housing: standard floor plans",
+    "d": "Under 'Deciding centrally what a home should be (1945–1965)' the slide shows a standard floor plan from the Studiegroep Efficiënte Woningbouw (Standaardplattegronden, systematische etagewoningen, 1952) next to a row of post-war homes: the state fixed the dwelling type centrally.",
+    "slide": "Rational planning slide 15"
+   },
+   {
+    "t": "Institutionalised in the Netherlands: PBL and CPB",
+    "d": "The governmental model is institutionalised in Dutch planning through government assessment agencies: the slide shows PBL (Netherlands Environmental Assessment Agency) and CPB (the Netherlands Bureau for Economic Policy Analysis).",
+    "slide": "Rational planning slide 20"
+   },
+   {
+    "t": "Westerscheldetunnel: the policy question",
+    "d": "For years drivers paid a toll for the tunnel, with no alternative route for much of Zeeuws-Vlaanderen. A parliamentary motion (Alkaya / Van der Plas, 2021) asked to make the tunnel toll-free. Question posed: how would the rational model tackle this question?",
+    "slide": "Rational planning slide 21"
+   },
+   {
+    "t": "What an MKBA does",
+    "d": "A social cost-benefit analysis compares each policy option to a future without those options, expresses effects 'as much as possible in euros', and informs policy decisions, but politicians still decide. It is used, for example, in the national infrastructure explorations (MIRT). Sources on the slide: Ecorys (2021), KCBR Algemene MKBA-leidraad, CPB/PBL note on MKBA and broad welfare.",
+    "slide": "Rational planning slide 22"
+   },
+   {
+    "t": "Many more critiques",
+    "d": "Besides wicked problems, incrementalism and advocacy planning, the slide lists political economy, institutionalist, more-than-human, feminist, insurgent and rational-choice critiques. Pair exercise: take two perspectives and discuss which of the three assumptions (complete information; clear, agreed goals; objective, value-free decisions) they challenge and how.",
+    "slide": "Rational planning slide 24"
+   },
+   {
+    "t": "Wicked problems: the epistemological side",
+    "d": "Rittel & Webber (1973): problems involve broadly defined groups or clients with diverse interests; how can we know the outcomes of our actions over long periods of time?; feedback is challenging. And for wicked problems, 'problem solutions alter the understanding of the problem itself'.",
+    "slide": "Rational planning slide 25"
+   },
+   {
+    "t": "Wicked problems: implications",
+    "d": "No definitive formulation of the problem (the problem explanation determines its resolution); solutions are not true-or-false but good-or-bad; every wicked problem is essentially unique. 'Because rationality is bounded, we may be better off focusing on procedural rationality.'",
+    "slide": "Rational planning slide 26"
+   },
+   {
+    "t": "Lindblom (1959) 'The Science of Muddling Through'",
+    "d": "Ends and means are selected simultaneously; planners should make simplified, limited comparisons among alternatives; trust the results of social experimentation over theory; act incrementally through repetitive attacks on the problems being addressed.",
+    "slide": "Rational planning slide 27"
+   },
+   {
+    "t": "Three challenges summarised",
+    "d": "(1) Planning problems may be difficult to summarise or know fully. (2) Knowledge may be limited, or complete knowledge is impossible [epistemology]. (3) Interests may be plural, and planners may not be neutral themselves [values and politics].",
+    "slide": "Rational planning slide 28"
+   },
+   {
+    "t": "Why do planners cling to it?",
+    "d": "'Since the 1970s-1980s rationality has increasingly been questioned, yet planners (both in theory and practice) still cling on to plan-making and problem-solving activities in a way that follows the rational model.' Discussion question: why do planners still hang on to the rational model, and what does the rational model protect us against?",
+    "slide": "Rational planning slides 29–30"
+   },
+   {
+    "t": "Spotting the governmental approach: three signals",
+    "d": "Pair exercise: reading a thesis or article, write down three signals that it takes the governmental approach: (1) a word or phrase you would expect, (2) a type of research question, (3) something that is missing.",
+    "slide": "Rational planning slide 34"
+   },
+   {
+    "t": "Typical research questions in this frame",
+    "d": "How outcomes are influenced by how certain policy tools are used; the extent to which bureaucrats such as planners exercise discretion or negotiate; how policy goals are reformulated in policy-making; problems and solutions seen to lie within the planning process (a theory of planning); the (dissolution of the) Weberian line between politics and administration.",
+    "slide": "Rational planning slide 35"
+   },
+   {
+    "t": "Exit ticket",
+    "d": "Think of your own bachelor thesis: which signs or elements of the rational model did it have? And note one thing that is still unclear to you after the lecture.",
+    "slide": "Rational planning slide 37"
+   }
+  ]
+ }
+}

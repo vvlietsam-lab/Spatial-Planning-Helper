@@ -1,0 +1,195 @@
+{
+ "id": "p12",
+ "n": 12,
+ "theme": 3,
+ "title": "Planning for post-growth cities",
+ "who": "Shaun Smith",
+ "slides": false,
+ "lecture": [
+  "Slides not uploaded yet (15 Oct)."
+ ],
+ "man": {
+  "cite": "Durrant, D., Lamker, C. & Rydin, Y. (2023). The Potential of Post-Growth Planning: Re-Tooling the Planning Profession for Moving beyond Growth. Planning Theory & Practice 24(2), 287–295.",
+  "status": "full",
+  "one": "Planning has bound itself to a pro-growth agenda, and 'sustainable development' has been subsumed into it. Since absolute decoupling isn't happening, planners should re-tool existing instruments (for housing and infrastructure) to delink public goals from growth, and voice uncomfortable truths.",
+  "summary": [
+   "Planning's instruments were built to cope with and foster growth, and success is measured in money. Sustainability became eco-modernist green growth ('almost always possible to label… more development as sustainable', Krähmer). Degrowth is structural and economic; post-growth is a pragmatic, interdisciplinary search for radical alternatives within existing structures.",
+   "Decoupling: relative (impact grows slower) vs absolute (impact falls). There is little evidence of absolute decoupling: rebound (Jevons paradox), problem-shifting, overestimated recycling and circularity, underestimated service-economy impacts.",
+   "Post-growth tools: exclude land value capture (inherently pro-growth); protect land for public, social and community housing; set targets for self-build; mandatory life-cycle and carbon accounting; cumulative impacts; minimum AND maximum space standards; ceilings (not only targets) on development, redistributed from high-price to high-need areas; plan for shrinkage; reuse the existing stock; restrict second homes and short-term lets. Infrastructure: plan phase-outs alongside new build (cycling at the expense of roads; rail with less air capacity); interrogate 'do nothing' scenarios. Planners move from neutral managers to 'supportive holders of shared leadership', grounded in expertise about consequences."
+  ],
+  "concepts": [
+   [
+    "Degrowth vs post-growth",
+    "Structural, economic and North–South critique vs pragmatic re-tooling within existing structures."
+   ],
+   [
+    "Relative vs absolute decoupling",
+    "Slower impact growth vs actual impact decline."
+   ],
+   [
+    "Jevons paradox (rebound)",
+    "Efficiency gains increase total use."
+   ],
+   [
+    "Development ceilings",
+    "Absolute limits instead of growth targets."
+   ],
+   [
+    "Why exclude land value capture?",
+    "It depends on creating more monetised development value, which is pro-growth."
+   ]
+  ],
+  "quotes": [
+   "\"Planners would move towards a role where they are supportive holders of shared leadership rather than neutral managers, process designers, or 'master planners.'\""
+  ],
+  "examples": [
+   {
+    "t": "Sustainable beacon cities",
+    "d": "Cities that promote themselves as beacons of the sustainable transition may look far less exemplary once the consumption emissions of their residents' lifestyles are counted (Krähmer 2021). It illustrates why relative decoupling within city limits is not absolute decoupling, and why labelling more development as 'sustainable' is easy.",
+    "src": "text",
+    "p": "p. 289"
+   },
+   {
+    "t": "Amsterdam's holiday rental cap",
+    "d": "Amsterdam limits renting out a whole home to tourists to 30 nights a year (since 2019, down from 60). It is a real version of the post-growth tool Durrant et al. propose: restricting short-term lets so the existing stock serves housing needs instead of building more.",
+    "src": "similar"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Durrant (UCL), Lamker (Groningen) and Rydin (UCL) write a short 'Comment' in Planning Theory & Practice. They start from the revived debate on whether pursuing economic growth is compatible with meaningful cuts in greenhouse gas emissions and resource use, a debate labelled 'degrowth' or 'post-growth' (p. 287). Their question is practical: what do these debates mean for planning, and how could its existing instruments and tools be adapted, in quite radical ways, for a post-growth future? They use two core planning tasks as examples: housing and infrastructure.",
+     "They deliberately narrow the scope (p. 287). They distinguish structural constraints on planning, the wider planning system, and the instruments and tools planners use, and focus on the last. Structural reform of societies and economies is left to a broader post-growth debate. They also set aside, 'for now', the relationship between lower- and higher-income countries, although rich countries may need to shrink their biophysical footprint by 40 to 50 percent. They argue their focus on what planners can do today is relevant in both the Global North and South."
+    ]
+   },
+   {
+    "h": "Planning's bond with growth",
+    "p": [
+     "Since 19th-century industrialisation, planning tools were developed to cope with, organise and even foster growth (pp. 287–288). In Europe and North America planning grew out of public health, housing conditions and infrastructure for growing cities; in colonial contexts it served economic growth through exploitation of colonised places and people. Recently economic growth has moved to the core of planning globally. The impetus for the paper is the recognition that \"planning has bound itself into a pro-growth agenda that is mentally and institutionally hard to overcome\" (p. 288). Instruments now facilitate development to achieve other goals, through direct benefits (infrastructure provision) or indirect ones (a bigger tax base), and success is usually expressed in money, as with GDP.",
+     "The authors grant that GDP says something about livelihoods and wellbeing, and that the only experience of shrinking economies is recession, with unequal harm (p. 288). But they reject the idea that criticising growth means a forced recession: a planned restructuring focused on environmental and spatial change is different, and would reuse and adapt existing planning tools. The sharpest point concerns sustainability: \"It is particularly worrying to see how the pursuit of sustainability has been subsumed to the pro-growth agenda\" (p. 288). Planning embraced eco-modernism (eco-cities, carbon-neutral developments, renewable energy infrastructure), making it 'almost always possible' to label more development as sustainable. Trading off environmental, social and economic dimensions has avoided the deeper conflicts over resource use that Campbell identified."
+    ]
+   },
+   {
+    "h": "Post-growth, degrowth and the decoupling problem",
+    "p": [
+     "The authors distinguish the two labels (pp. 288–289). Degrowth is more rooted in economics, more structural and theoretical, and gives voice to North-South inequality and different development pathways. Post-growth is an interdisciplinary and pragmatic search for radical alternatives within existing structures, so it suits an analysis of today's planning tools while still aiming to transform planning itself. Both share one empirical core: the question of decoupling, meaning breaking the link between economic activity and resource use. Historically, growth has come with rising resource use and emissions despite efficiency gains, and reducing resource consumption matters as much as reducing emissions.",
+     "Decoupling can be relative (the economy grows faster than resource use, thanks to efficiency) or absolute (resource use plateaus or falls while the economy grows) (p. 289). Most analysts say absolute decoupling is needed, but there is little evidence it is happening or even possible in a pro-growth world. The reasons: rebound effects (the Jevons paradox: efficiency does not reduce total consumption), technological change that misses high-consumption areas or shifts the problem elsewhere, an overestimated potential of recycling and the circular economy, and underestimated impacts of the service economy and of shifting consumption across the globe. Cities that market themselves as sustainability beacons may look worse once their residents' consumption emissions are counted (p. 289)."
+    ]
+   },
+   {
+    "h": "What post-growth planning would do for housing",
+    "p": [
+     "The central aim is stated plainly: \"The aim of post-growth planning is to delink planning policy and practice from the reliance on growth and ever-continuing new urban development to achieve public goals\" (p. 290). Planning should encourage resource efficiency, set a built environment that allows slower growth elsewhere in the economy, and fit a slower pace of development. At the same time, economic activity is a prerequisite for livelihoods, so planning should support sufficient activity and help redress the uneven spatial distribution of too little and too much, within absolute ecological limits. The toolbox considered: plan-making at several scales, regulation, taxation and incentives, information and assessments, public land ownership and direct development.",
+     "One tool is explicitly excluded: land value capture, because it depends on creating more monetised development value, often in expensive locations, to fund other goals, which is inherently pro-growth (p. 290). Planning should also make literal space for low-value and non-commercial activities such as care and the social economy. For housing, post-growth planning rejects the idea, 'for which there is no foundation', that affordability can be solved by more market-led housebuilding in high-price areas. A first step is to diversify tenures and use site allocations to protect land for public, social and community housing, with ambitious targets for self-build and community-built housing, rather than tying social housing to a share of market housing."
+    ]
+   },
+   {
+    "h": "Efficiency, ceilings, shrinkage and the existing stock",
+    "p": [
+     "Two further pathways are needed (pp. 290–291). The first is regulating new development for the highest resource efficiency and circularity. Many systems already do this, but it needs better information: life cycle analysis and carbon accounting should be standard for every proposal, with attention to cumulative impacts at local, regional and national level so that individually 'good' projects do not add up to boundary-busting totals. More contentious: both minimum and maximum space standards. The second, more challenging pathway addresses the Jevons paradox: slowing and redistributing development. That means absolute limits, with ceilings and not only floors or targets, ideally framed nationally, and diverting activity from high-price, high-demand areas to lower-price, high-need areas.",
+     "This implies abandoning the idea of growth engines, growth nodes in polycentric plans and competition between localities, which leads to over-supply (p. 291). Plans should consider the whole range from shrinkage through no or low growth to limited development. Shrinking areas could be testbeds for post-growth ideas, but shrinkage is not in itself success, and responsibility should not be pushed onto them alone; fast-growing areas may be better placed to lead. Planning should also make courageous use of the existing stock: requiring reuse where the carbon analysis supports it, using fiscal tools against excessive use of space, and restricting second homes and short-term lets."
+    ]
+   },
+   {
+    "h": "Infrastructure: planning for phase-out",
+    "p": [
+     "Infrastructure shapes the environmental impact of mobility, energy and water use, and building and maintaining it is resource-intensive (pp. 291–292). There can be strong post-growth arguments for replacing infrastructure to enable more efficient patterns, but also for working within existing networks rather than expanding them indefinitely, since they embody sunk resources and financial and political capital. Decisions will be delicate and context-specific. Better knowledge of embedded carbon and cumulative impacts is needed, along with critical scrutiny of the 'do nothing' scenarios that often justify new projects.",
+     "Above all, new infrastructure should be coordinated with the planned replacement or shrinkage of existing infrastructure (p. 292). Investment in renewable energy should go with phasing out carbon-based infrastructure; expanding cycling and walking networks should take space from roads and car-based spaces; investment in long-distance rail should be coordinated with reduced air travel capacity. The authors admit this goes beyond tools and needs a new vision for planning. For now they seek 'hacks' that permit change from within. The main obstacle is that pro-growth thinking grips planners' imagination so strongly that alternatives seem inconceivable."
+    ]
+   },
+   {
+    "h": "Frameworks and the planner's role",
+    "p": [
+     "Post-growth planning needs supportive frameworks, especially nationally (p. 292). Planners have skills at community and neighbourhood level and can leverage local civil society; freed from pressure to accommodate market-led growth, these capacities could grow. But control over finance and land must be devolved within supportive regional, national and ideally international frameworks, for instance to meet housing needs through public, social or community schemes. On responsibility, the authors are careful (p. 293). Academics should show future practitioners that growth-based development is often incompatible with addressing the environmental crisis. Yet most planners are employees, often under elected politicians, so the authors question how far individual planners can legitimately promote a new agenda.",
+     "Their answer is to ground the role in expertise rather than values (pp. 293–294). Planners know more than ever about resources and impacts, so instead of promoting market-led development with cursory impact assessment, they should spell out the medium- to long-term environmental and social consequences of plans, including the trade-offs and compensation usually offered. They should speak to the infeasibility of plans that presuppose growth, rather than follow standard 'best practices' of green growth. Just as it is unethical to propose an unimplementable plan, it is unethical to advise action known to be disastrous: \"Planners should consider part of their role to voice uncomfortable truths and to avoid the easier path or discourse of growth-dependence\" (p. 293). Planners might turn to supporting community initiatives, re-tooling towards community building and skills, and becoming holders of shared leadership (p. 294)."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not the authors' claims. The paper sits in the critical, post-growth strand of sustainability thinking. On reproduction versus transformation it wants transformation but through pragmatic reform ('hacks') of existing tools, not revolution. It is deliberate and planner-centred, though it leans on national frameworks and civil society. On structure versus agency it acknowledges structural limits (employment, politicians, property interests) yet gives professionals real agency. Its knowledge stance is interesting: it bases the planner's legitimacy on expert knowledge of consequences rather than on values, while being clearly normative (absolute ecological limits, sufficiency, needs over market growth).",
+     "Links: this is the most direct heir to Næss (L1), who argued that continuous growth of building stock in rich countries is incompatible with sustainability and that planning needs substantive goals. It uses Daly's distinction between growth and development (L1) and the efficiency versus sufficiency debate: ceilings and maximum space standards are sufficiency tools. It explicitly cites Campbell (L3), arguing that trade-offs have hidden fundamental conflicts over resources, and Krähmer (L3) on labelling development as sustainable. Angelo and Wachsmuth (L2) show why cities became 'solutions'; Durrant et al. add that 'sustainable' cities may still have large consumption footprints.",
+     "Contrasts: Hodson et al. (L8) treat competing sustainabilities as something to map; Durrant et al. take a side. The Dutch context (L4, L5) is a good test: 'more claims than land' in port-cities and the national housing targets are classic growth-framed planning, where ceilings and redistribution would be a radical shift. Hansen et al. (L13) show how hard even incremental change is inside municipal administrations, which tempers expectations about post-growth re-tooling."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Schiphol 'shrinks' to 478,000 flights",
+   "d": "In May 2025 the cabinet made official a cap of 478,000 flight movements a year at Schiphol from November 2025 (down from 500,000), with night flights cut from 32,000 to 27,000, via the Luchthavenverkeersbesluit. It follows a March 2024 court ruling that the state did not protect residents enough from noise; but Schiphol had 473,000 movements in 2024, so the cap still allows more flights, and a residents' group had argued 400,000 was realistic.",
+   "why": "Read through Durrant et al., this is a ceiling on infrastructure use, one of the post-growth tools they propose (less air capacity), using an existing legal instrument to put a public goal (health) above growth. It also shows how hard delinking is: the 'shrinkage' is set just above current traffic, so growth logic survives inside the cap. Limit: the decision was driven by a court ruling and legal compliance, not an explicit post-growth planning agenda.",
+   "src": {
+    "name": "NH Nieuws",
+    "title": "Krimp Schiphol nu officieel, maar nog steeds meer vluchten dan vorig jaar",
+    "url": "https://www.nhnieuws.nl/nieuws/348336/krimp-schiphol-nu-officieel-maar-nog-steeds-meer-vluchten-dan-vorig-jaar",
+    "date": "2025-05-07"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Pro-growth planning | tools foster growth; | success = money | (p. 288) | Decoupling? | relative: some | absolute: little evidence | (p. 289) | Why not absolute | rebound (Jevons), | problem-shifting, | recycling overrated | Post-growth planning | delink public goals from growth (p. 290) | Housing | protect land: social, | community, self-build | Pathway 1 | efficiency: LCA, | carbon, space caps | Pathway 2 | ceilings, redistribute, | plan for shrinkage | Infrastructure: plan phase-outs alongside new build (p. 292)]",
+ "cap": "Durrant, Lamker & Rydin (2023): from the failure of absolute decoupling to re-tooling planning instruments (pp. 288–292).",
+ "rec": [
+  {
+   "cite": "Xue, J. (2021). Urban planning and degrowth: a missing dialogue. Local Environment 27(4).",
+   "basis": "Abstract not retrieved: based on my general knowledge of the text",
+   "abs": "Argues that degrowth scholarship and urban planning have barely engaged with each other: degrowth lacks a spatial and planning dimension, and planning is locked into growth. Xue sketches what degrowth planning could mean (housing sufficiency and less floor space per capita, compact but non-growth-driven urban form, the role of the state and public land).",
+   "slides": "No slides yet."
+  },
+  {
+   "cite": "Savini, Ferreira & von Schönfeld (2022). Uncoupling planning and economic growth: towards post-growth urban principles (intro), Post-growth planning.",
+   "basis": "Abstract retrieved",
+   "abs": "Existing planning instruments depend on ceaseless growth, which erodes planners' capacity to address socio-ecological justice. How can planning be emancipated from the growth imperative, geared to well-being, equality and ecological equilibrium? Key areas: housing, transport and mobility, governance, regulation, food and resource provision, planning worldviews and ethics.",
+   "slides": "No slides yet."
+  }
+ ],
+ "exam": "Connect with L1 (Daly: growth vs development; sufficiency), L2 (Krähmer) and L3 (Campbell: growth vertex). A likely essay: 'Is sustainable urban planning possible without growth?'",
+ "table": {
+  "head": [
+   "Domain",
+   "Growth-dependent default",
+   "Post-growth re-tooling"
+  ],
+  "rows": [
+   [
+    "Purpose of instruments",
+    "Facilitate development and growth to fund other goals; success measured in money (p. 288)",
+    "Delink public goals from growth and ever-continuing new development (p. 290)"
+   ],
+   [
+    "Value capture",
+    "Land value capture as predominant instrument",
+    "Excluded: it needs more monetised development value, so is inherently pro-growth (p. 290)"
+   ],
+   [
+    "Housing",
+    "More market-led housebuilding, especially in high-price areas",
+    "Diversify tenures; protect land for public, social, community and self-build housing (p. 290)"
+   ],
+   [
+    "Assessment and regulation",
+    "Cursory impact assessment or sustainability appraisal (p. 293)",
+    "Standard LCA and carbon accounting; cumulative impacts; minimum and maximum space standards (p. 291)"
+   ],
+   [
+    "Amount and location of development",
+    "Floors and targets; growth nodes; localities competing for development",
+    "Ceilings; redistribute from high-price to high-need areas; plan for no growth or shrinkage (p. 291)"
+   ],
+   [
+    "Existing stock",
+    "Excessive use of space; second homes and short-term lets",
+    "Reuse existing stock; fiscal disincentives; restrict second homes and short-term lets (p. 291)"
+   ],
+   [
+    "Infrastructure",
+    "Expansion justified against 'do nothing' scenarios",
+    "Coordinate new build with phase-outs: cycling vs roads, rail vs air (p. 292)"
+   ],
+   [
+    "Planner's role",
+    "Neutral managers, process designers, 'master planners' (p. 294)",
+    "Voice uncomfortable truths; supportive holders of shared leadership (pp. 293–294)"
+   ]
+  ]
+ }
+}

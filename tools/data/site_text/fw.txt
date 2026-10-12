@@ -1,0 +1,486 @@
+{
+ "id": "fw",
+ "wk": 1,
+ "title": "Course framework + Rydin (2021) Introduction: Theory and planning research",
+ "cite": "Lecture 8 Sept (Bossuyt & Bouwmeester) + Rydin (2021) Introduction: Theory and Planning Research, pp. 1–17",
+ "theory": "Meta-framework",
+ "status": "full",
+ "statusNote": "Full text on file: Rydin (2021) ch. 1 plus the 8 Sept lecture slides.",
+ "one": "Theory is not optional: every definition of 'planning' already frames the object. A theory (ontology + epistemology + values) tells you what to focus on, links your case to a broader story, and lets research build theory. The course compares theories on four dimensions.",
+ "summary": [
+  "Rydin (2021) writes about theory OF planning (analytic: how planning works), not normative planning theory FOR planning (how it should be done), while admitting the two are entangled: 'all research—including analytic research—is imbued with value judgements'. Even defining planning is theoretical: planning as goal-directed decision-making (instrumental, public administration, e.g. Næss & Saglie 2000) → as state action to order the environment in the collective interest → as intervention affecting diverse interests and system features. Each small shift implies a different view of the process.",
+  "Knowledge is more than information: it is about understanding the dynamics that produced a situation, 'a claim to know the cause of things' (rerum cognoscere causas). Research combines general understanding with a specific case. Theory can be seen as law-like (natural-science model; rejected by Flyvbjerg et al. 2012 because of complexity and Giddens' double hermeneutic) or, Rydin's view, as 'a heuristic aid to understanding a situation, a way to try to know what is essentially unknowable in its completeness' (p. 9): 'a set of ideas that fit together coherently and make general statements about the world or a part of it'. Theories carry ontological, normative and epistemological positions, so the terrain of theory is contested and choosing one is a value choice.",
+  "Is theory necessary? Empiricism ('let the facts speak', Latour's 'modernist settlement') fails: data selection and interpretation involve value judgements, and pure empiricism gives a disparate, unconnected field. Flyvbjerg's phronesis (practical wisdom; four questions: where are we going, who gains/loses by which mechanisms of power, is it desirable, what should we do?) still relies on unacknowledged theory (double hermeneutic, praxis). Three advantages of theory: (1) it focuses attention under time/money limits; (2) it links partial findings to a broader, persuasive narrative, enabling generalisation; (3) empirical research can build and revise theory.",
+  "The course then compares theories on four dimensions: (1) sources of planning outcomes (structure ↔ agency); (2) reproduction and change (reproduction ↔ transformation; deliberate ↔ emergent); (3) knowledge (universal ↔ situated; monist ↔ pluralist; + realism ↔ relativism); (4) normative commitments. Theories make explanatory, evaluative and prescriptive claims. Rydin's book runs from the linear rational model (ch. 2), through actor-centred approaches (rational choice, institutions, governance, urban politics; chs 3–6) and structural political economy (ch. 7), to relational perspectives (Foucault, assemblage; chs 8–9)."
+ ],
+ "concepts": [
+  [
+   "Theory (Rydin 2021)",
+   "A heuristic aid; a coherent set of ideas making general statements about (part of) the world; a narrative account, never complete."
+  ],
+  [
+   "Theory of vs theory for planning",
+   "Analytic (how planning works) vs normative (how it should be done) (Faludi's distinction)."
+  ],
+  [
+   "Empiricism",
+   "'Let the facts speak for themselves': rejected because data choice and interpretation are value-laden and findings stay disconnected."
+  ],
+  [
+   "Phronesis",
+   "Flyvbjerg's practical-wisdom research: situated, value-deliberative, attentive to power. Rydin: it still hides theoretical choices."
+  ],
+  [
+   "Double hermeneutic",
+   "Social scientists interpret how people interpret the world (Giddens), so social science ≠ natural science."
+  ],
+  [
+   "Three advantages of theory",
+   "Focus; link to a broader narrative (generalisation); build/revise theory."
+  ],
+  [
+   "Structure / agency",
+   "Patterned arrangements limiting choice / capacity to act independently."
+  ],
+  [
+   "Explanatory / evaluative / prescriptive claims",
+   "How it works / whether it is good / what to do."
+  ],
+  [
+   "Normative commitment",
+   "Assumption about what ought to be valued, pursued, protected."
+  ]
+ ],
+ "fig": "[SVG figure; labels: 1 · Sources of outcomes | structure | agency | 2a · Reproduction/change | reproduction | transformation | 2b · How change happens | deliberate | emergent | 3 · Knowledge | universal · monist · realist | situated · pluralist · relativist | 4 · Normative | efficiency | democracy | equity | sustainability | justice | Place any author on these lines, then ask: what does this position make visible, and what does it hide?]",
+ "cap": "The four dimensions you use to position every author in the course.",
+ "example": "A thesis asking 'which municipal instrument best raises housing output?' assumes a deliberate, planner-centred, universal-knowledge view (governmental model). A thesis asking 'how do tenant groups' experiences of renovation differ?' assumes situated, pluralist knowledge.",
+ "quotes": [
+  "\"a heuristic aid to understanding a situation, a way to try to know what is essentially unknowable in its completeness\" (Rydin 2021, p. 9)",
+  "\"Theory is, therefore, best seen as a set of ideas that fit together coherently and make general statements about the world or a part of it.\"",
+  "\"all research—including analytic research—is imbued with value judgements\""
+ ],
+ "dims": null,
+ "exam": "Expect MCQs asking which role theory plays (focus, generalise, build theory) or that give a quote or case and ask where it sits on a dimension. Remember: defining 'planning' is itself a theoretical choice.",
+ "examples": [
+  {
+   "t": "Reading housebuilding rates",
+   "d": "Rydin notes that the same data on housebuilding rates can support different narratives depending on whether you take a historical view, focus on housebuilders' behaviour, or on planners' decisions and their rationale. Shows why empiricism fails: data never 'speaks for itself', so a theoretical framing is needed to pick and defend one narrative.",
+   "src": "text",
+   "p": "p. 8"
+  },
+  {
+   "t": "Phronesis hides its theory",
+   "d": "If a phronetic researcher works with political leaders to change planning through dialogue, that assumes change comes via feedback or communicative action; if they help community groups in planning disputes, that assumes planning is a conflict-ridden political process. Shows Rydin's point that phronesis still relies on an unacknowledged theoretical choice.",
+   "src": "text",
+   "p": "p. 11"
+  },
+  {
+   "t": "Governance vs collaborative planning",
+   "d": "Governance theory (analytic, from political science) explains policy through stakeholder networks, while collaborative planning theory (normative) wants more communicative action between those same stakeholders. Shows that theory OF planning and theory FOR planning overlap even though Rydin's book stays on the analytic side.",
+   "src": "text",
+   "p": "pp. 12-13"
+  },
+  {
+   "t": "Metropolis housing plan case",
+   "d": "Lecture case: a landowner offers 2,000 market-rate homes that comply with the rules and need no subsidy, while the city considers 1,600 homes with 40% affordable, priority for low-income households and a EUR 50 million public contribution. Shows that normative commitments decide what counts as the problem and what you measure when judging which plan is better.",
+   "src": "slides"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Rydin opens Theory in Planning Research (2021) with a problem every new planning student meets: planning research is extremely varied, with many topics, questions and theories. Unlike economics, where micro- and macro-economic theory dominates and 'alternative' frameworks are only promoted in certain places, one planning school can use very different theoretical reference points. Researchers therefore face a choice: “How is that choice to be made? What is at stake?” (p. 2). The book answers by showing how theory guides and frames research, and what choosing one framework over another means for the research questions, the methodology, the way results are presented and the findings. Each later chapter outlines one perspective and then discusses published studies that used it.",
+    "Rydin sets five caveats (pp. 2–3). First, this is not a book of planning theory. Planning theory, in her usage, is normative: it asks how planning should be done. Her book is analytic: it offers frameworks to understand how planning processes work. Recommendations may follow, but only after the analysis. She immediately adds that the two cannot be fully separated: “all research—including analytic research—is imbued with value judgements” (p. 2). Second, the selection reflects her own knowledge; feminism, for instance, is folded into urban politics (ch. 6) and postcolonial approaches into political economy (ch. 7). Third, she deals with theory of planning, not theory for planning (Faludi 1973). Fourth, the book concerns empirical, data-based social science. Fifth, it is not a methods textbook."
+   ]
+  },
+  {
+   "h": "Defining 'planning' is already a theoretical choice",
+   "p": [
+    "Before discussing theory, Rydin asks what planning research studies. You might call your work planning research because you sit in a planning school or study people called planners, but any definition “implies a framing of that object of research and that has theoretical implications” (p. 4). She shows three small shifts. Planning as goal-directed decision-making frames it as an instrumental process (means to ends) and a public administration activity, downplaying politics; Næss and Saglie (2000) take this line and, Rydin notes, accept planners' intentions at face value. Planning as the state ordering the environment in the public or collective interest reframes it as intervention that corrects imbalances and inefficiencies of market-led change. A politicised definition sees planning as engaging different interests, to be judged by who benefits, or even as maintaining (or not) systemic features of society (pp. 4–5).",
+    "Each framing carries value judgements about what is important and what planning should do. That does not turn analytic research into normative planning theory, but it means analytic work can be aligned with or against professional and political ideologies (p. 5). Planning is also very diverse across systems, scales and domains. What the cases share is attention to the future and how it relates to current decisions, a focus on the natural and built environment with an eye to society, economy and environment, and a mix of political and technical work. Beyond that, Rydin refuses a generic definition: one purpose of theory is precisely to supply a more detailed and specific definition of planning for a given study (p. 5)."
+   ]
+  },
+  {
+   "h": "Why do planning research, and why it is hard",
+   "p": [
+    "Research is more than collecting facts about planning; a doctorate requires a 'contribution to knowledge' (p. 6). Knowledge, for Rydin, goes beyond description: it means understanding the dynamics that produced a situation, 'a claim to know the cause of things' (the LSE motto rerum cognoscere causas). She warns that this motto can suggest a too linear link between cause and effect; later chapters offer other views of change. Research therefore combines a general understanding of how planning 'works' (or doesn't) with knowledge of one case, and moves in both directions: the case improves the general picture, and the general picture guides the case study (p. 6).",
+    "Research is also social: a dialogue with other researchers, for which a shared theory is an entry point, and ideally with practitioners. Rydin takes seriously the complaint of a gap between academy and profession: planners in a survey wanted “real, tangible issues” rather than “creating a utopia” (Goodman et al., quoted p. 7), and Campbell et al. warn that constant critique can breed conservatism and inaction. She gives two responses (p. 7). Research led by a practice agenda carries that agenda's values; goals like sustainability, justice and economic development seem unassailable, yet planners must repeatedly choose between them, and denying this turns planning into a technical 'best practice' exercise. And theory-informed research can support practitioners' reflection on how processes were generated and suggest tentative pathways for change.",
+    "Research is difficult (p. 8). Students worry about the amount and quality of data, subjectivity and getting beyond description, and must balance rigour against the pragmatism needed to finish at all. Crucially, data almost never proves a finding unequivocally: it has to be interpreted into a narrative, and the same data can support different narratives. Her example: data on housebuilding rates reads differently from a historical perspective, from a focus on housebuilders' behaviour, or from a record of planners' decisions and their rationale. Each narrative implies value judgements, so the researcher must build the most persuasive narrative the data allows, and an explicit theoretical perspective helps with exactly that."
+   ]
+  },
+  {
+   "h": "What theory is",
+   "p": [
+    "Rydin distinguishes two views of theory (p. 9). One sees theory as a law connecting variables, as in the natural sciences, tested by searching for confirming or refuting evidence. Following Flyvbjerg et al. (2012), she rejects this model for social science: the social world is complex and interacts with built and natural environments, and there is a 'double hermeneutic' (Giddens 1986): social scientists interpret the way people themselves interpret the world. The alternative she adopts sees theory as “a heuristic aid to understanding a situation, a way to try to know what is essentially unknowable in its completeness” (p. 9). A heuristic is a tool that helps you find things out without guaranteeing a complete answer. The world is irreducibly complex; we understand more by layering analyses and relating them to each other.",
+    "Theory is therefore a narrative account of the world and of planning processes: “Theory is, therefore, best seen as a set of ideas that fit together coherently and make general statements about the world or a part of it” (p. 9). It is mostly text, sometimes supported by diagrams or formulas, and its persuasiveness, both in itself and in how it illuminates empirical research, is central. Theories are not arbitrary windows on the world. Each involves an ontology (assumptions about how the world is), normative positions (how it should be, even if unstated) and an epistemology (how knowledge can be generated through research). So the terrain of theory is contested, and choosing a theory means making value judgements part of your research, which Rydin calls 'often profoundly satisfying' (pp. 9–10)."
+   ]
+  },
+  {
+   "h": "Is theory necessary? Empiricism and phronesis",
+   "p": [
+    "Empiricism claims the facts can speak for themselves: collect data rigorously and let patterns emerge, since the world is 'out there' and just needs looking at. Latour called this the 'modernist settlement' (p. 10). Rydin's objections are pragmatic. Value judgements run through the supposedly neutral practice: you cannot collect all data, so why this data, collected this way, on a topic defined this way? Data also allows alternative interpretations, and choosing one again involves values. And pure empiricism produces a disparate field: each situation is researched in detail, but findings are hard to connect. Theory answers both problems, by focusing attention and by building a broader picture of planning (p. 10).",
+    "She then discusses phronesis, Flyvbjerg et al.'s (2012) call for research as practical wisdom: situated knowledge about how to act in specific settings, based on deliberation about values and interests, drawing on local and tacit knowledge and aiming at praxis, change with an appreciation of 'the ineliminable presence of power' (p. 11). Phronetic research asks four questions: Where are we going with this problematic? Who gains and who loses, by which mechanisms of power? Is this desirable? What, if anything, should we do?",
+    "Rydin raises two problems (p. 11). First, phronesis dismisses theory using a straw man of what theory can be, and presents good research as a virtue of the researcher's character; she prefers to see research as a skill that can be learnt. Second, phronesis makes theoretical judgements without admitting them. It relies on Giddens' double hermeneutic, which is a theoretical choice. Its praxis also implies theory: a researcher who works with political leaders and chief executives to change planning assumes change comes through feedback or communicative action (chs 2 and 5); one who helps community groups in planning disputes assumes planning is a political process 'riven with conflict' (ch. 6). Phronesis can be combined with theory, but it should go with an explicit theoretical framing."
+   ]
+  },
+  {
+   "h": "Three advantages of using theory",
+   "p": [
+    "Rydin lists three advantages (pp. 11–12). First, focus: frameworks differ in what they consider important, so the chosen theory makes these judgements explicit and lets the researcher concentrate on certain issues, data and sources and downplay others, which is essential in a project limited in time and funding. Second, connection: every empirical account is partial and provisional, and linking it to a theoretical account fits it into a broader, pre-existing story about planning. This helps analysis and conclusions, makes generalisation possible, and a persuasive theory reinforces a persuasive analytic narrative. Third, theory building: empirical research can build, revise and amplify frameworks, linking the particular and the general and contributing to a deeper understanding of society through the study of planning.",
+    "Normative and analytic theory overlap (pp. 12–13). Governance theory (analytic, from political science) explains urban policy through networks of stakeholders; collaborative planning theory (normative) wants to improve planning through more communicative action between stakeholders, aiming at mutual understanding and possibly consensus. Both focus on stakeholder interaction, so one framework can have analytic and normative sides. Practitioners find theory's language unintelligible and its tone too critical and sweeping; Rydin remains optimistic that research can be translated and support self-reflection, but insists that “it is the role of the academy to do the best job it can of the research task first” (p. 13)."
+   ]
+  },
+  {
+   "h": "The map of the book: how each theory reacts to the governmental model",
+   "p": [
+    "The rest of the book forms an arc (pp. 13–14): from the ideal of planning as a linear rational activity (the governmental model, ch. 2), through actor-centred approaches that stress the agency of individuals and organisations (rational choice, new institutionalism, governance, urban politics; chs 3–6), to a structural account (Marxian political economy, ch. 7), and finally two relational perspectives (Foucault, assemblage and material entities; chs 8–9) that unsettle conventional ideas of agency and even of the actor. The approaches also differ in how they think planning can be improved (pp. 14–15). Governmental: better action by planners and officials, with politics setting goals. Rational choice: realign incentive structures. New institutionalism: influence organisational culture through learning. Governance: planners skilled in partnership working, managing networks and collaboration. These four 'look inward' at planning actors and organisations.",
+    "The other approaches look beyond the state. Urban politics sees certain groups as repeatedly disadvantaged and wants them better resourced, listened to and given more power. Political economy also puts socio-economic inequality at the centre but looks to structural change in society. Foucauldian approaches tend towards the structural and their stress on hidden power suggests little prospect of improvement, though Foucault's idea of resistance offers a pathway. Relational approaches such as actor-network theory are criticised as detailed description rather than a theory of dynamics, so their prescriptions are small-scale experimentation and nuanced changes in assemblages (p. 15).",
+    "Table 1.1 (p. 15) then shows each approach as a reaction to the limits of the governmental approach, which is closest to planning's self-presentation as a rational, expert-led process and offers a template that, if it fails, is only adjusted at the margin. Rydin deliberately does not add a limitations section per chapter: the chapters already criticise each other, all approaches can yield insight, and researchers “have a right to reflect their own value judgements in their research work” (p. 16). She admits being drawn to some perspectives more than others but tried not to let this shape her account. The example papers in later chapters are presented, not critiqued (p. 16)."
+   ]
+  },
+  {
+   "h": "What the first lecture adds",
+   "p": [
+    "The 8 September lecture uses this chapter as the foundation of the course. It sets Rydin's definition next to Føllesdal et al.'s (1990): theory as “a body of assumptions, of which the mutual relations have been made explicit”; note that the slide quotes Rydin as 'to understand a situation' where the book reads 'to understanding a situation'. A slide shows ontology, epistemology and values together forming 'Theory A', which drives research design, questions and analysis. The lecture then introduces the four dimensions for comparing theories: sources of planning outcomes (structure ↔ agency); reproduction and change (reproduction ↔ transformation, and deliberate ↔ emergent); knowledge and expertise (universal ↔ situated, monist ↔ pluralist); and normative commitments (for example efficiency, democracy, equity, sustainability, justice).",
+    "The second half of the lecture concerns normative commitments. Theories make explanatory claims (how does planning work, why do outcomes occur), evaluative claims (which processes are fair, which outcomes to strive for) and prescriptive claims (what should good planners do). Normative commitments are 'the underlying values and principles used to evaluate planning' and, per the concluding slide, 'assumptions about what ought to be valued, pursued, protected'. They shape what we see as a problem, what planning should achieve, and how we evaluate outcomes and therefore what we measure. The lecture illustrates this with Buitelaar's four just cities and the Metropolis housing case (2,000 market homes without subsidy versus 1,600 homes with 40% affordable and a €50 million contribution)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Rydin wants planning researchers to choose a theory consciously and to know what it can and cannot do for their research. Theory is not an optional decoration: even defining planning, selecting data and interpreting it involve theoretical and value choices, and a theory makes those choices explicit and defensible. She repeats near the end of the chapter that “all theoretical endeavours in the social sciences are inevitably value-laden, and a rigorous approach should seek to make this clear and explicit” (p. 14). The limits she admits are about scope: the selection of theories is partial and shaped by her interests, the book stays analytic rather than normative, it concerns empirical social science only, and it presents example studies without critiquing them. "
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not Rydin's claims. Rydin's view of theory is itself an epistemological position: by rejecting law-like theory and treating theory as a heuristic, partial narrative that carries values, she sits on the situated, post-positivist side of the knowledge dimension, which fits her 2007 article on knowledge claims (week 2). Her arc through the book maps onto the course's first dimension: actor-centred chapters lean to agency, political economy to structure, and relational approaches question the divide. Her list of how each approach hopes to improve planning maps onto the second dimension: incentives and learning suggest deliberate, incremental change; political economy suggests structural transformation.",
+    "The chapter is also a useful contrast with Hall's 'City of Theory' (week 2), which describes theory and practice drifting into divorce; Rydin accepts the gap but is optimistic that translation and dialogue can bridge it. Her insistence that analytic research carries values links to the course's fourth dimension, where Buitelaar supplies the vocabulary for naming those values. For the commentary exam, the practical lesson is to ask of any article: which definition of planning does it adopt, which theory frames it, what does that theory make visible or hide, and which value judgements does it carry without saying so?"
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "Ch.",
+   "Approach",
+   "What it says the governmental model misses (Table 1.1)",
+   "Where it looks for better planning (pp. 14–15)"
+  ],
+  "rows": [
+   [
+    "2",
+    "Governmental models",
+    "(Baseline) planning as a rational, comprehensive and evidence-based process undertaken by the public sector",
+    "Better action by planners and officials; politics sets the goals"
+   ],
+   [
+    "3",
+    "Rational choice",
+    "State failure and the influence of state actors' self-interests",
+    "Realign incentive structures"
+   ],
+   [
+    "4",
+    "New institutionalism",
+    "A cultural dimension that often drives action, including path dependency",
+    "Influence organisational culture through learning"
+   ],
+   [
+    "5",
+    "Governance theory",
+    "The importance of stakeholder involvement in formulation and implementation",
+    "Planners skilled in partnership working, networks, collaboration"
+   ],
+   [
+    "6",
+    "Urban politics",
+    "Wider political forces outside the state; power and conflict",
+    "Resource, listen to and empower disadvantaged groups"
+   ],
+   [
+    "7",
+    "Political economy",
+    "Structural, especially economic, forces shaping government action and outcomes",
+    "Structural change in society"
+   ],
+   [
+    "8",
+    "Foucauldian approach",
+    "The taken-for-granted dimension of societal discourses",
+    "Little prospect given hidden power, but resistance offers a pathway"
+   ],
+   [
+    "9",
+    "Relational approaches",
+    "The complexity of inter-related elements, including material ones",
+    "Small-scale experimentation; nuanced changes in assemblages"
+   ]
+  ]
+ },
+ "news": {
+  "t": "Why Dutch housebuilding fell in 2024",
+  "d": "The government's 'Staat van de Volkshuisvesting 2024' (20 January 2025) reported that about 82,000 homes were added in 2024 through new construction and reuse of buildings, while the aim is for production to rise to 100,000 homes a year from 2027. It attributes the slowdown to high interest rates and rising costs, and Minister Keijzer stresses removing barriers such as the 'stapeling van lokale regels en procedures' (piling up of local rules and procedures). Keijzer also states that the housing shortage remains high.",
+  "why": "Read through Rydin, the same figure supports rival explanatory claims depending on the theory you bring: a structural reading points to interest rates and construction costs, a liberal (Hayekian) reading to over-regulation by municipalities, a Marxist reading to investors building only when profit is secured. Each theory makes a different balance of structure and agency visible and so implies a different prescriptive claim (deregulate, subsidise, or decommodify). Limit: the ministry document itself already picks a framing (rules and procedures as barriers), so it is evidence of one narrative, not a neutral 'fact speaking for itself'.",
+  "src": {
+   "name": "Rijksoverheid",
+   "title": "Staat van de Volkshuisvesting 2024",
+   "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/01/20/staat-van-de-volkshuisvesting-2024",
+   "date": "2025-01-20"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Theory as a lens between assumptions and research",
+    "svg": "[SVG figure; labels: Ontology | + epistemology | + values | Theory A | the lens (glasses) | Research design, | questions, analysis | what you assume | what you look through | what you then do | Put on other glasses (Theory B) and the questions, data and analysis change with them.]",
+    "cap": "Redrawn from the 'glasses' slide: a theory bundles ontology, epistemology and values and drives research design, questions and analysis. The bottom line is our gloss on the image.",
+    "slide": "HC1 slide 19; Knowledge lecture slide 7"
+   },
+   {
+    "title": "Structure and agency meet in choices",
+    "svg": "[SVG figure; labels: STRUCTURE | (rules) | AGENCY | (freedom) | CHOICES | choices | Structural vs agency theories | Structure: | recurrent, patterned arrangements | that limit the choices and | opportunities available | Agency: | the capacity of individuals to act | independently and exercise free will]",
+    "cap": "The structure–agency diagram used to close the Hayek part: structure (rules) and agency (freedom) overlap, and actual choices are made in the overlap.",
+    "slide": "HC4 slide 32"
+   }
+  ],
+  "tables": [
+   {
+    "title": "The four dimensions with the lecture's guiding questions",
+    "head": [
+     "Dimension",
+     "Questions",
+     "Main positions"
+    ],
+    "rows": [
+     [
+      "1. Sources of planning outcomes",
+      "What shapes the actions of planning actors and the outcomes of planning processes? How much explanatory weight is given to individual action versus wider social, economic and institutional conditions?",
+      "Structure ↔ agency"
+     ],
+     [
+      "2. Reproduction and change",
+      "a. Does the theory emphasize the reproduction of existing arrangements or their transformation? b. Are stability and change understood as deliberately produced or as emerging from interacting actions and wider processes?",
+      "a. Reproduction ↔ transformation; b. Deliberate ↔ emergent"
+     ],
+     [
+      "3. Knowledge and expertise",
+      "a. What is knowledge? b. Who can produce knowledge, and what role should different forms of knowledge play in planning?",
+      "a. Universal ↔ situated; b. Monist ↔ pluralist (realism ↔ relativism added in the knowledge lecture)"
+     ],
+     [
+      "4. Normative commitments",
+      "What should planning and planners achieve or do? Which values and assumptions are explicitly or implicitly embedded in theory and research?",
+      "For example: efficiency, democracy, equity, sustainability, justice"
+     ]
+    ],
+    "slide": "HC1 slides 20–21; Knowledge lecture slide 9"
+   },
+   {
+    "title": "Theories make three kinds of claims",
+    "head": [
+     "Kind of claim",
+     "Questions it answers (slide wording)",
+     "Where normativity enters"
+    ],
+    "rows": [
+     [
+      "Explanatory",
+      "How does planning work? Why do certain outcomes occur?",
+      "Not highlighted on the slide"
+     ],
+     [
+      "Evaluative",
+      "What planning processes are fair? What planning outcomes should be strive[n] for?",
+      "Highlighted: 'are fair', 'should be strive[n]'"
+     ],
+     [
+      "Prescriptive",
+      "What should good planners do?",
+      "Highlighted: 'should good planners'"
+     ]
+    ],
+    "slide": "HC1 slides 23–25"
+   },
+   {
+    "title": "Assessment",
+    "head": [
+     "Component",
+     "Weight",
+     "What it is",
+     "If you fail"
+    ],
+    "rows": [
+     [
+      "Midterm exam",
+      "50%",
+      "Tests your understanding of theories and concepts",
+      "(not stated on slide)"
+     ],
+     [
+      "Final exam: commentary",
+      "50%",
+      "Commentary on a new article read during the exam; in the classroom on a university computer; handwritten notes allowed",
+      "Re-sit: commentary"
+     ],
+     [
+      "Student-led seminar",
+      "Pass/fail",
+      "Each team leads one 40-minute discussion",
+      "Re-do: oral exam"
+     ]
+    ],
+    "slide": "HC1 slides 9–11"
+   },
+   {
+    "title": "Where the first sessions sit",
+    "head": [
+     "Date",
+     "Session",
+     "Block"
+    ],
+    "rows": [
+     [
+      "8 Sept",
+      "Intro + four dimensions on which planning theories differ + normative commitments",
+      "Block 1: What is theory? + 4 dimensions"
+     ],
+     [
+      "15 Sept",
+      "What is knowledge, what counts as knowledge, and who has it",
+      "Block 1"
+     ],
+     [
+      "17 Sept",
+      "Structure and agency (+ Tutorial 1: bring Cozzolino 2020 on paper and your notes)",
+      "Block 1"
+     ],
+     [
+      "22 Sept",
+      "Modernism and evidence-based planning",
+      "Block 1"
+     ],
+     [
+      "later",
+      "Block 2: the development of planning thought across different theories; Block 3: writing a commentary",
+      "Blocks 2–3"
+     ]
+    ],
+    "slide": "Knowledge lecture slides 4–5, 57"
+   },
+   {
+    "title": "Excursion quiz: sorting Utrecht statements into agency- vs structure-focused explanations",
+    "head": [
+     "Statement (as on the slide; some are cut off)",
+     "Matched to",
+     "Mark on slide"
+    ],
+    "rows": [
+     [
+      "Utrecht's politicians and planners have deliberately pursued a dense, sustainable and largely car-free …",
+      "Explanations focusing mainly on what actors want, decide and do",
+      "✓"
+     ],
+     [
+      "What ultimately gets built depends on negotiations between the municipality, landowners and developers",
+      "Explanations focusing mainly on what actors want, decide and do",
+      "✓"
+     ],
+     [
+      "Developers make strategic choices about what to build, when to invest and which municipal requirements to …",
+      "Explanations focusing mainly on what actors want, decide and do",
+      "✓"
+     ],
+     [
+      "Planning takes place within established laws and policies (institutions), and developers need to adhere to those in order to be …",
+      "Explanations focusing mainly on conditions and forces beyond individual actors",
+      "✗"
+     ],
+     [
+      "Merwede is being developed amid high demand for housing and scarcity of well-located urban land. These market …",
+      "Explanations focusing mainly on conditions and forces beyond individual actors",
+      "✓"
+     ],
+     [
+      "Housing and land function as commodities in a capitalist economy. Urban development therefore depends on …",
+      "Explanations focusing mainly on conditions and forces beyond individual actors",
+      "✗"
+     ]
+    ],
+    "slide": "HC4 slide 6"
+   }
+  ],
+  "points": [
+   {
+    "t": "The course in one idea: Escher's Relativity",
+    "d": "The course text shown on Brightspace: “The cover image, M.C. Escher’s Relativity, captures a central idea of this course: the same spatial world can appear coherent in radically different ways depending on the perspective from which it is viewed.” It opens with: “But what does a “better” city actually look like, and who gets to decide? Why do some interests, forms of knowledge and policy solutions prevail over others?”",
+    "slide": "HC1 slide 8; Knowledge lecture slides 8, 54"
+   },
+   {
+    "t": "Course learning goal (Brightspace)",
+    "d": "Students “learn to question taken-for-granted assumptions and analyze how planning problems and outcomes are produced in different bodies of literature”, and should be able to “explain and apply the main planning theories, compare their political-philosophical and epistemological foundations, and critique the limitations of one framework by developing an alternative grounded in another.”",
+    "slide": "HC1 slide 8"
+   },
+   {
+    "t": "Why planning theory matters to you",
+    "d": "The lecture gives two reasons for the course's focus: relevance for your master thesis, and relevance for you as future practitioners.",
+    "slide": "HC1 slide 18"
+   },
+   {
+    "t": "Final exam: the commentary",
+    "d": "You write a commentary on a new article that you read during the exam, in the classroom on a university-provided computer. Handwritten notes are allowed. It “assesses your understanding of the theories, and your ability to contrast them with other theories.”",
+    "slide": "HC1 slide 10"
+   },
+   {
+    "t": "Exam tip: take handwritten notes",
+    "d": "Take handwritten notes during lectures, seminars and when reading texts: “you can bring these to the final exam!” Electronic devices are not used in class unless you have a personal reason and contact the teachers; bring copies of texts to seminars.",
+    "slide": "HC1 slide 13"
+   },
+   {
+    "t": "Tutorials and student-led seminars",
+    "d": "Two tutorial groups of six teams each; everyone reads the required articles and participates; each team leads one discussion. Three student-led seminars (40 minutes, pass/fail) and two instructor-led seminars: an example article discussion and a practice commentary writing session.",
+    "slide": "HC1 slide 11"
+   },
+   {
+    "t": "Why student-led seminars",
+    "d": "They are practice for the commentary: read academic texts, identify the theoretical argument and main assumptions in an article, and develop a counter-perspective. “These are the same skills needed for the commentary.”",
+    "slide": "HC1 slide 12"
+   },
+   {
+    "t": "Evaluative and prescriptive claims carry the values",
+    "d": "Repeating the three kinds of claims, the lecture highlighted 'are fair', 'should be strive[n] for' and 'should good planners': the evaluative and prescriptive questions are where normative commitments, “the underlying values and principles used to evaluate planning”, come in. The lecture then asked: examples of normative commitments?",
+    "slide": "HC1 slides 24–26"
+   },
+   {
+    "t": "Lecturers and their specialisms",
+    "d": "Dr. Daan Bossuyt: politics, housing, public real estate, digitalization. Dr. Josje Bouwmeester: neo-institutionalism, housing, land policy, discourses and power, real estate development.",
+    "slide": "HC1 slides 4–5"
+   },
+   {
+    "t": "GenAI and the excursion",
+    "d": "A slide on GenAI pointed to the UU student AI policy (uu.nl AI index), with a cartoon. The first Thursday was an excursion through Utrecht in seminar teams.",
+    "slide": "HC1 slides 14, 41"
+   },
+   {
+    "t": "HC4 learning objectives",
+    "d": "Students should be able to: understand the different dimensions of the framework; distinguish between the different ontologies of Marxist and Hayekian thought; grasp how each thinker understands the role of planning and the planner, and understand the implications for normative commitments.",
+    "slide": "HC4 slide 12"
+   },
+   {
+    "t": "Recap: ontology",
+    "d": "The lecture opens the framework part with a recap of 'Ontology' ('Say what now?'): Marx and Hayek are introduced as two different ontologies of social order, which is why they are used to explain the remaining framework dimensions.",
+    "slide": "HC4 slide 10"
+   },
+   {
+    "t": "Excursion reflection questions",
+    "d": "After the Utrecht excursion (Merwede): 1. What did you learn about Utrecht that you did not know already? 2. Did the excursion give you some first insights into the course framework? And if so, how? 3. What was most memorable about this excursion?",
+    "slide": "HC4 slide 6"
+   },
+   {
+    "t": "Take-home: planning values",
+    "d": "The contrasting ontologies of Marx and Hayek 'lead to different implicit, and explicit values underlying planning theories'.",
+    "slide": "HC4 slide 38"
+   }
+  ]
+ }
+}

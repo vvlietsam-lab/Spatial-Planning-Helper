@@ -1,0 +1,234 @@
+{
+ "id": "sorensen",
+ "wk": 4,
+ "title": "Sorensen (2024) Urban intensification and land value capture in Toronto",
+ "cite": "Sorensen, A. (2024). Environment and Planning A: Economy and Space, 56(6), 1803–1819. doi:10.1177/0308518X231216535",
+ "theory": "Historical institutionalism (+ conjunctural analysis)",
+ "status": "full",
+ "statusNote": "Full article on file.",
+ "one": "Land value capture (LVC) redistributes the costs and benefits of development; its Toronto history is a historical-institutionalist sequence of critical junctures (1946, 1989, 2019–22) followed by reactive sequences of contestation within a developmental pathway. HI adds analytical clarity to conjunctural analysis.",
+ "summary": [
+  "Three contributions: (1) LVC is a purposeful attempt to alter the public/private distribution of development costs and benefits and should be a key metric of social equity ('growth should pay for growth'); (2) historical institutionalism (HI) complements conjunctural analysis (Gramsci → Stuart Hall → Peck; Inch & Shepherd; Leitner & Sheppard), which reads how political, economic and ideological forces 'con-join', but says little about specific institutional change; (3) the Toronto case reveals institutional change, path dependence mechanisms and how global hegemonic ideologies are translated locally.",
+  "Critical juncture: 'relatively short periods of time during which there is a substantially heightened probability that agents' choices will affect the outcome of interest' (Capoccia & Kelemen 2007). Sequence (Fig. 1): antecedent conditions → crisis creates permissive conditions (Soifer) → critical juncture, where productive conditions (actors, legal structures, ideology, timing) shape the choice → reactive sequence of contestation → relative stability. Both permissive and productive conditions are needed. Urban institutions are prone to CJs because of multilevel governance, disasters and constant new challenges. The planning system forms a Strategic Action Field (Fligstein & McAdam).",
+  "Toronto: CJ1 = the 1946 Planning Act (postwar housing crisis; subdivision agreements → lot levies spread); CJ2 = the Development Charges Act 1989 (1980s real-estate bubble) plus Section 37 density bonusing; recent CJ = Bill 108 (2019) and Bill 23 (2022, More Homes Built Faster) which cut LVC (S37 capped ~4% of uplift). 2009–18: C$490m S37 and C$2.29bn in DCs. Housing crises gave permissive conditions each time, but different productive conditions gave different outcomes (the first two enhanced LVC, the last reduced it).",
+  "Path dependence is usually not 'lock-in': contestation and incremental change are constant, but within a developmental pathway of bounded contestation that the critical juncture set up. Vancouver captures ~70% of uplift, Toronto negotiated 10–15%: variation comes from contingent institutional histories."
+ ],
+ "concepts": [
+  [
+   "Land value capture (LVC)",
+   "Public recovery of land-value uplift created by public action (DCs, density bonuses, levies, land readjustment)."
+  ],
+  [
+   "Historical institutionalism",
+   "Institutions as historically produced, unequally distributive, contested, path-dependent."
+  ],
+  [
+   "Conjunctural analysis",
+   "Reading the moment where multiple forces and contradictions 'con-join' (Gramsci, Stuart Hall, Peck)."
+  ],
+  [
+   "Critical juncture",
+   "Short window of heightened agency whose choices set a lasting path."
+  ],
+  [
+   "Permissive vs productive conditions",
+   "What opens the window (crisis) vs what shapes the outcome (actors, rules, ideology, timing)."
+  ],
+  [
+   "Reactive sequence",
+   "Chain of contestation and refinement after a critical juncture."
+  ],
+  [
+   "Developmental pathway",
+   "Bounded range of options within which contestation continues (path dependence without lock-in)."
+  ],
+  [
+   "Strategic action field",
+   "Meso-level order where actors interact under shared rules and understandings."
+  ],
+  [
+   "Section 37 / Development charges",
+   "Toronto density-bonus contributions / impact fees for growth infrastructure."
+  ]
+ ],
+ "fig": "[SVG figure; labels: antecedent conditions | permissive conditions (crisis) | CRITICAL JUNCTURE + productive conditions | reactive sequence | relative stability | 1946 | Planning Act | postwar housing crisis | 1989 | DC Act + S37 | 80s property bubble | 2019–22 | Bill 108 / 23 | affordability crisis: LVC cut | Between junctures: incremental contestation (courts, OMB tribunal, legislature) within one developmental pathway.]",
+ "cap": "Top: Sorensen's Fig. 1 logic. Bottom: the three Toronto junctures.",
+ "example": "The Dutch 2008 crisis ended many municipalities' active land policy: a permissive condition. Whether it became a critical juncture depended on productive conditions such as the Omgevingswet and the kostenverhaal rules.",
+ "quotes": [
+  "\"relatively short periods of time during which there is a substantially heightened probability that agents' choices will affect the outcome of interest\" (Capoccia & Kelemen, quoted)",
+  "\"In most cases path dependence is not a matter of 'lock-in' … but within a developmental pathway representing a relatively constrained range of options.\""
+ ],
+ "dims": {
+  "sa": 35,
+  "rt": 45,
+  "de": 45,
+  "us": 40,
+  "mp": 30,
+  "norm": "Social equity: fair distribution of costs and benefits of urban development."
+ },
+ "exam": "Identifiers of HI: path dependence, critical junctures, sequences, contestation, power-distributive institutions. Compare with the sample open question (Old Fadama): 'once actors have ventured far down a particular path… difficult to reverse course' = path dependence → (historical) institutionalism.",
+ "examples": [
+  {
+   "t": "Ontario's 1946 Planning Act",
+   "d": "Permissive conditions were weak regulation before an expected post-war boom, suburban debt (10 of 12 suburbs needed a provincial bailout in the Depression) and a wartime shift toward intervention; as productive condition, a new Conservative majority passed a more limited law than any proposal on the table. Shows a critical juncture whose ambiguities started a reactive sequence of contestation.",
+   "src": "text",
+   "p": "pp. 1809-1810"
+  },
+  {
+   "t": "Lot levies without legal basis",
+   "d": "The 1946 Act did not mention lot levies, but suburbs used their subdivision approval power to demand them; after court challenges and OMB appeals, the province amended the Act in 1959 and retroactively affirmed existing agreements. Shows incremental institutional change within a developmental pathway.",
+   "src": "text",
+   "p": "p. 1811"
+  },
+  {
+   "t": "Amalgamation: practice changed, rules not",
+   "d": "After the 1997 amalgamation and provincial cuts, Toronto began charging development charges in 2001 (from zero to almost $700 million in 2020) and negotiated 697 Section 37 agreements worth $744 million (1998-2018). Sorensen calls this a change of practice within existing formal institutions, not a critical juncture for value capture.",
+   "src": "text",
+   "p": "p. 1812"
+  },
+  {
+   "t": "Vancouver captures 70 percent",
+   "d": "Vancouver's community benefits agreements routinely capture 70 percent of rezoning uplift, while Toronto planners targeted 10 to 15 percent, now capped at 4 percent by recent legislation. Shows how locally contingent, path-dependent value capture institutions diverge.",
+   "src": "text",
+   "p": "p. 1815"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Land value capture (LVC) means using public powers to recover part of the land value increases created by public decisions and infrastructure, for example by taxing uplift or requiring developers to contribute to infrastructure (p. 1804). Sorensen notes great variety worldwide: impact fees and tax increment finance in the US, planning gain in the UK, land readjustment, density bonuses, auctioned density permits in São Paulo, and huge differences in how much is captured, from Japan where most developments contribute nothing to the Netherlands where municipalities long captured all rural-to-urban uplift by buying land cheaply and selling serviced plots (p. 1804). Why such variation, and what shapes a jurisdiction's capacity to do LVC?",
+    "He makes three contributions (pp. 1804–1805). First, LVC is at its core an attempt to purposefully shift the distribution of the costs and benefits of property development between public and private actors in the interest of social equity, and should be a key metric of the fairness of development. In Ontario the principle is that “growth should pay for growth” (p. 1804): buyers of new homes are on average wealthier than existing residents, so if development contributes nothing, lower-income residents subsidise either the newcomers or developers' profits. LVC rules are therefore important 'rules of the game' of capitalism, and contested.",
+    "Second, he connects conjunctural analysis, an approach from Gramsci and Stuart Hall that reads how political, economic, social and ideological processes combine at a historical moment, with historical institutionalism (HI), which studies how institutions emerge and change over time (p. 1805). He argues HI adds midlevel concepts and methods for analysing contests over specific institutions: “Critical juncture analysis in this way helps to explain the processes through which political actors take advantage of conjunctural crises to further particular institutional changes” (p. 1805). Third, he applies this to Toronto, whose LVC has been contested since 1946 (p. 1805)."
+   ]
+  },
+  {
+   "h": "Two traditions of conjunctural analysis",
+   "p": [
+    "In critical urban studies, conjunctural analysis follows Stuart Hall's idea that crises arise when forces and contradictions in different practices and sites 'come together or con-join' in one moment (p. 1806). Peck's Transatlantic City papers revived it, calling for attention to contextual specificity and for 'midlevel' theory, but offered few details of method (p. 1806). Inch and Shepherd used it to analyse shifting planning ideologies in the UK housing crisis, and Leitner and Sheppard 'spatialised' it via land assetisation in Jakarta and Bangalore, but said nothing about specific institutional change (p. 1806). In all of these, the focus is on how hegemonic economic and ideological change affects local processes.",
+    "HI, Sorensen argues, has long had robust concepts and methods for conjunctures and critical junctures (p. 1807). Most HI scholars see both as times when a confluence of events heightens the potential for major institutional change; Mahoney uses the terms interchangeably. The core definition, from Capoccia and Kelemen, is that critical junctures are “relatively short periods of time during which there is a substantially heightened probability that agents' choices will affect the outcome of interest” (p. 1807). They matter because of path dependence: institutions are hard to change, especially where 'positive feedback' reinforces them, and once an option is chosen it becomes progressively harder to go back (p. 1807)."
+   ]
+  },
+  {
+   "h": "The critical juncture method",
+   "p": [
+    "HI treats institutions as unequally distributive, produced by and constitutive of unequal power relations, and contested (p. 1807). Sorensen quotes North's 'rules of the game' and his own definition of planning institutions as 'collectively enforced rules and expectations' about the creation, management and use of urban space and property (p. 1807). For cities, it makes sense to focus on formal rules that shift costs and benefits of development between actors, like LVC, because they strongly affect land values and profits.",
+    "Major change is analysed as a sequence (Figure 1, pp. 1807–1808). A crisis or confluence of events creates 'permissive conditions' that make institutions more open to change; during the critical juncture, actors fight for alternatives and a choice is made; a 'reactive sequence' follows in which the choice is contested and refined; eventually comes a period of relative stability. Following Soifer, permissive conditions raise the causal power of agency and contingency, while 'productive conditions' (engaged actors, political and legal structures, available change mechanisms, ideology, economics, and the timing of events) shape the specific outcome (pp. 1807–1808). Both are needed; neither alone is sufficient.",
+    "Urban governance institutions are, he argues, especially prone to critical junctures: they sit in multi-level systems where senior governments can trigger change through legislation, disasters prompt new institutions, and urban systems face a constant stream of new challenges (p. 1808). He adds Fligstein and McAdam's 'Strategic Action Field', a meso-level order where actors interact under shared understandings of the field's purpose, power relations and rules (p. 1808). Those who benefit from an institution tend to defend it; those disadvantaged seek change."
+   ]
+  },
+  {
+   "h": "Evidence and cases: method and the Toronto setting",
+   "p": [
+    "The case is presented as a historical narrative using process tracing (following causal chains through a sequence of events) and reactive sequence analysis (p. 1808). It covers all significant changes to Ontario planning law, value capture and infrastructure finance since 1946, based on an exhaustive review of secondary literature and primary documents such as parliamentary debates and City reports, two sets of financial data on LVC revenues and Section 37 benefits (1998–2020), and eleven interviews in 2022–2023 with planners, councillors and consultants (pp. 1808–1809).",
+    "Context matters. The Toronto metropolitan area grew from 1.1 million people in 1951 to 6.2 million in 2021 (p. 1809). Canadian provinces are constitutionally powerful, while municipalities are 'creatures of the province' with little legal autonomy; provinces can and often do unilaterally change planning law, boundaries and municipal taxation (p. 1809). Over 2009–2018 Toronto collected over C$490 million through 'Section 37' density agreements (extra density in exchange for community benefits) and C$2.29 billion in development charges (DCs, fees on new development similar to impact fees) (p. 1805)."
+   ]
+  },
+  {
+   "h": "Critical juncture 1: the Planning Act of 1946",
+   "p": [
+    "Three permissive conditions paved the way (pp. 1809–1810). Planning powers were weak: the 1917 Act let cities comment on subdivision plans but not require changes, contributions or even zoning, and a draft law with a betterment tax, proposed in 1916, was rejected. Infrastructure finance was a sore point: after Toronto stopped annexing suburbs in 1914, small suburban municipalities borrowed heavily in the 1920s, and ten of twelve could not service their debts in the Depression, forcing a provincial bail-out. And the war shifted attitudes towards intervention: the federal Curtis report recommended master plans, subdivision control and developers paying for streets and sewers, and the 1943 Ontario election crushed the Liberals and boosted the left (p. 1810).",
+    "The Progressive Conservatives won a majority in 1945 and in 1946 passed a Planning Act that was far more limited than any proposal debated during the election (p. 1810). Still, it was the first law to give municipalities meaningful power over subdivision and zoning, a major limitation of property rights. Sorensen stresses contingency: no one expected the approach chosen. Crucially, the Act was ambiguous: it rejected making subdividers pay for services but gave local governments real discretion to refuse subdivision plans (only 42 percent of proposed lots approved in 1954–57), which gave suburbs bargaining power over developers (pp. 1810–1811).",
+    "A reactive sequence followed. Metropolitan Toronto (a new upper tier of regional government) secured suburban infrastructure finance by requiring developers to provide on-site infrastructure and pay 'lot levies' for off-site works, which the 1946 Act never mentioned but subdivision powers made possible (p. 1811). After court challenges and appeals to the Ontario Municipal Board, the province amended the Act in 1959 to confirm the levies retroactively. This system lasted three decades (p. 1811)."
+   ]
+  },
+  {
+   "h": "Critical juncture 2: the Development Charges Act of 1989",
+   "p": [
+    "In the 1970s a suburban boom and new regional governments nearly doubled lot levies, and developers organised against them, arguing municipalities used them to keep property taxes artificially low (p. 1811). A 1983 revision added Section 36 (later 37), allowing extra density in return for local contributions, though this was little used until after 2000, but failed to settle levies, now called development charges. Municipalities (AMO) lobbied for DCs, developers (UDI, OHBA) opposed them, and a provincial working group could not agree (p. 1811).",
+    "A Liberal minority government passed the Development Charges Act in 1989, giving clear statutory authority for DCs, linking them to building permits rather than subdivision plans, specifying which hard and soft services could be included and how to calculate charges, and letting school boards levy them too (pp. 1811–1812). Sorensen calls this a second critical juncture: it ended a long period of contention and launched a new legislative framework with its own reactive sequence (p. 1812).",
+    "That sequence included a 1997 Conservative revision limiting DCs to hard infrastructure and requiring existing taxpayers to cover at least 10 percent, alongside amalgamation into a new City of Toronto and deep cuts to provincial transfers that caused a financial crisis (p. 1812). Under budget pressure and a construction boom, Toronto began collecting DCs in 2001 and used Section 37 far more: DC revenue grew from zero to almost C$700 million a year by 2020, and 697 Section 37 agreements yielded C$744 million in cash between 1998 and 2018 (p. 1812; Figure 2). Sorensen classes this as a change of practice within existing institutions, not a new critical juncture for LVC, even though amalgamation was one for governance (p. 1812)."
+   ]
+  },
+  {
+   "h": "A possible third juncture: rolling back value capture since 2018",
+   "p": [
+    "The Liberal government from 2003 supported intensification through a greenbelt and growth mandates but did not change DC or Section 37 rules (pp. 1812–1813). The Progressive Conservative government elected in 2018 aimed at deregulation and lower LVC revenue to boost housing supply. Bill 108 (2019) limited DCs and replaced Section 37 with a limited 'Community Benefits Charge'; Toronto protested that lower DCs would simply raise developer profits in a tight market (p. 1813). Opposition was so wide that Bill 197 (2020) walked back several changes. Bill 23 (2022) cut revenues further, to about 28 percent of what the pre-2018 system would have produced, and Bill 97 (2023) increased provincial ministers' powers over planning policy (pp. 1813–1814).",
+    "Sorensen is cautious about calling this a third critical juncture because the consequences are not yet clear, but finds it hard to imagine it will not be seen that way (p. 1814). The continuing battles, with heavy lobbying by developers and municipalities, show that LVC is still intensely contested and that the main target is the rules of the game in provincial legislation (p. 1814)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Sorensen's first conclusion is methodological: HI critical juncture analysis complements conjunctural analysis by specifying institutions, actors, change mechanisms and patterns, and by offering a comparative method (p. 1814). The Toronto pattern of critical juncture and reactive sequence is typical of planning laws created in response to crises. The ambiguity of 1946 about who pays for urbanisation is still at the centre of today's debate (p. 1814).",
+    "Second, on path dependence: “In most cases path dependence is not a matter of 'lock-in,' as for many important institutions contestation is continuous and incremental change constant, but within a developmental pathway representing a relatively constrained range of options” (p. 1814). Critical junctures set the terrain of debate, which institutions are contested, the rules for changing rules, and the degree of ambiguity. In Fligstein and McAdam's terms, 1946 created a Strategic Action Field; even the recent radical changes alter amounts, timing and names, but keep density bonuses and DCs (pp. 1814–1815). Vancouver, by contrast, routinely captures about 70 percent of rezoning uplift, while Toronto planners aimed for 10–15 percent, now capped at 4 percent (p. 1815).",
+    "Third, each juncture coincided with a housing crisis: the postwar shortage, the late-1980s price bubble and the current affordability crisis. Yet the first two strengthened LVC and the latest weakened it: “A housing crisis contributed to 'permissive conditions' in each case, but differing 'productive conditions' determined the outcome” (p. 1815). Variation in LVC between places is thus the product of contingent historical processes and the timing of change (pp. 1815–1816). He leaves open whether reduced LVC will lower housing prices or raise profits and land values, calling it a question for future research (p. 1815)."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not Sorensen's claim. The article is the course's main example of historical institutionalism: institutions as distributive, power-laden and contested, analysed through path dependence, critical junctures and reactive sequences. By linking HI to Gramscian conjunctural analysis, it also builds a bridge to critical political economy, so it is not purely an institutionalist 'middle range' text. It also shows how a planning-law history can be used to test theory about institutional change.",
+    "On the course dimensions, structure dominates most of the time (the developmental pathway), but agency matters strongly in junctures, when choices are contingent. It explains both reproduction (bounded pathways) and transformation (junctures and cumulative incremental change). Change is deliberate in each political battle but the long-term pathway is emergent. Knowledge is situated: Sorensen stresses locally specific, contingent outcomes and warns against reading off global trends. His normative commitment is explicit: LVC as social equity, 'growth should pay for growth'.",
+    "Contrasts: Taylor shows the same kind of contest from the landowner side in Melbourne, using rent-seeking theory. Moroni would see frequent rule changes as undermining robustness, while Sorensen treats contestation as normal and valuable. Dembski and Salet criticise HI for explaining continuity better than change; Sorensen's reply is precisely the juncture-plus-reactive-sequence model and the claim that path dependence is rarely lock-in."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "Phase",
+   "What changed",
+   "Conditions and actors",
+   "Effect on value capture"
+  ],
+  "rows": [
+   [
+    "Critical juncture 1: Planning Act 1946",
+    "First meaningful municipal powers over subdivision and zoning; ambiguous on who pays",
+    "Permissive: weak rules, 1930s suburban debt crisis, wartime pro-planning shift; productive: PC majority chose an unexpected, limited law (pp. 1809–1810)",
+    "Discretion over subdivision gave suburbs bargaining power (p. 1810)"
+   ],
+   [
+    "Reactive sequence 1950s–1983",
+    "Lot levies spread; 1959 amendment legalised them; 1983 added Section 36/37 density bonuses",
+    "Metro Toronto, court cases, OMB appeals, developer lobbying (p. 1811)",
+    "Levies became standard infrastructure finance"
+   ],
+   [
+    "Critical juncture 2: DC Act 1989",
+    "Statutory development charges, tied to building permits, with set calculation methods",
+    "Levy boom, late-1980s price bubble, AMO vs UDI and OHBA; Liberal minority government (pp. 1811–1812)",
+    "Clearer, wider LVC framework"
+   ],
+   [
+    "Reactive sequence 1997–2018",
+    "1997 revision limits DCs; Toronto starts DCs (2001) and expands Section 37",
+    "Amalgamation, provincial cuts, budget crisis, condo boom (p. 1812)",
+    "Change of practice within existing rules: DCs to almost C$700m a year by 2020"
+   ],
+   [
+    "Possible critical juncture 3: 2018–2023",
+    "Bills 108, 197, 23 and 97 cut DCs, cap community benefits, centralise power",
+    "PC deregulation agenda, affordability crisis (pp. 1813–1814)",
+    "Revenues to about 28% of pre-2018 system; basic tools kept"
+   ]
+  ]
+ },
+ "news": {
+  "t": "England removes hope value from compulsory purchase",
+  "d": "The Levelling-up and Regeneration Act 2023 lets acquiring authorities in England seek a direction to remove 'hope value' (the prospect of future planning permission) from compulsory purchase compensation, so landowners are paid on existing-use value. Government guidance of 3 October 2024 limits this to schemes with public-sector-led affordable or social housing, NHS and education purposes, so that the benefits 'are delivered directly to the public'.",
+  "why": "Read through Sorensen, this is a change in the formal rules of land value capture: who gets the uplift that planning permission creates, which a long-standing compensation rule gave to landowners. Whether it becomes a critical juncture or stays an incremental change depends on productive conditions, such as whether authorities actually use it, and on the reactive sequence of contestation by landowners. Limit: it is national and narrow, whereas Sorensen studies municipal tools such as Toronto's development charges and Section 37.",
+  "src": {
+   "name": "GOV.UK",
+   "title": "Compulsory purchase compensation: Power to remove hope value",
+   "url": "https://www.gov.uk/guidance/compulsory-purchase-compensation-power-to-remove-hope-value",
+   "date": "2024-10-03"
+  }
+ },
+ "lect": {
+  "figs": [],
+  "tables": [],
+  "points": [
+   {
+    "t": "Lecture exercise: Sorensen as reading 2",
+    "d": "HC7 uses Sorensen as the historical-institutionalist answer to the exercise questions. The lecturer's three quotes: the critical juncture definition (p. 1807), path dependence as 'not a matter of lock-in' but a 'relatively constrained range of options' (p. 1814), and critical juncture analysis explaining how 'political actors take advantage of conjunctural crises to further particular institutional changes' (p. 1805).",
+    "slide": "HC7 slides 33, 35"
+   },
+   {
+    "t": "Two Sorensens in the lecture",
+    "d": "Besides this 2024 Toronto article, the lecture's framework slides cite Sorensen (2017), 'New institutionalism and planning theory' (Routledge Handbook of Planning Theory), for the questions institutionalisms disagree on and for the rational choice definition. Don't mix up the two in citations.",
+    "slide": "HC7 slides 22, 25"
+   }
+  ]
+ }
+}

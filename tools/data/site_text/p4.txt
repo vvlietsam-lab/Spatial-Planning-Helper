@@ -1,0 +1,372 @@
+{
+ "id": "p4",
+ "n": 4,
+ "theme": 2,
+ "title": "The Dutch planning system",
+ "who": "Patrick Witte",
+ "slides": true,
+ "lecture": [
+  "Why a planning system? To balance tensions: flexibility vs legal certainty, property rights vs public regulation, expertise vs participation, central vs decentral, comprehensive vs sectoral. Functions: spatial quality, arranging the spatial effects of sectors, comprehensive weighing of claims, coordination, democratic justification, legal protection and certainty. Planning is part of the executive (trias politica). Art. 21 of the Constitution: habitability and protection of the living environment.",
+  "History: a Napoleonic tradition (top-down) yet a decentralised unitary state (Thorbecke 1848; 'House of Thorbecke' vertical coordination). National = strategic (>10 yrs), provinces = tactical (5–10), municipalities = operational (<5; binding zoning). Pendulum swings: beyond blueprint and the 'makeable society', beyond entrepreneurial and participatory planning, yet none of these has gone.",
+  "Three municipal strategies: inside (public land instruments), outside (acting as a private stakeholder: active land policy) and alongside (open planning, 'polderen': early stakeholder involvement, draagvlak, extra-legal covenants; informal first, law codifies later). Active land policy: buy, service and sell land (VINEX → NOVEX), a 'double hat' problem, only works in rising markets (municipal losses 2008–10; Rijnenburg again). Omgevingswet: care for the living environment, the Omgevingsvisie and Omgevingsplan, complementary task allocation (stronger provinces, project decisions). Instruments: pre-emption right (voorkeursrecht), expropriation, leasehold (erfpacht).",
+  "Just city? Informal planning can mean co-creation or tokenism; active land policy means control vs financial risk; public instruments mean legitimacy vs rigidity. Wicked problems are beyond state or market alone. Governance raises questions: who owns the land, who is represented, the meta-governance problem, grey accountability, power imbalances."
+ ],
+ "man": {
+  "cite": "Witte, Wiegmans & Louw (2025). More claims than land: multi-facetted land use challenges in the port-city interface. Journal of Transport Geography 124.",
+  "status": "full",
+  "one": "In dense port-cities (Rotterdam, Amsterdam) the net port area is stable, but land-use claims from energy transition, circular economy, climate adaptation, housing, biodiversity and regulation are multiplying: cumulatively there are 'more claims than land', so conflicts will intensify.",
+  "summary": [
+   "The port-city is usually analysed one-dimensionally (economic efficiency) and at one level. The authors argue for a multi-facetted, multi-level view (port region, port-city interface, waterfront).",
+   "Method: quantitative analysis of land supply over time in Rotterdam and Amsterdam plus a qualitative analysis of port visions and annual reports. Available land has declined over decades, with many internal dynamics. Rotterdam's coastal extension gives more 'puzzling space' than confined Amsterdam (e.g. Haven-Stad housing pressure).",
+   "Mitigation framework: distinguish levels (region–port-city–waterfront) and types of claims (urban, environmental, economic) to structure conflict types and solutions across institutional contexts."
+  ],
+  "concepts": [
+   [
+    "Port-city interface",
+    "Zone where port functions and urban functions meet and compete."
+   ],
+   [
+    "More claims than land",
+    "Cumulative claims exceed available land even if net claims don't."
+   ],
+   [
+    "Multi-level port-city",
+    "Port region · port-city interface · waterfront."
+   ],
+   [
+    "Puzzling space",
+    "Room to rearrange land uses (larger in Rotterdam than Amsterdam)."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "Houtrakpolder: three claims, one polder",
+    "d": "The province of North Holland reserves the Houtrakpolder as a possible expansion area for the Port of Amsterdam, the municipality of Haarlemmermeer contests this, and the same polder is also considered for excess rainwater storage. The reservation is linked to Amsterdam's Haven-Stad housing plan, which will cost 135 ha of port sites. This is 'more claims than land' at the port-region level: port economy, housing and climate adaptation compete for one site.",
+    "src": "text",
+    "p": "p. 8"
+   },
+   {
+    "t": "Amsterdam's fossil phase-out",
+    "d": "Amsterdam decided in 2008 to allow no new terminals for transport fuels, closed one of three coal terminals in 2023 by not renewing its leasehold, and aims to phase out fossil fuel handling by 2030, freeing about 370 ha for hydrogen, electricity and circular industries. It shows how energy-transition claims reshuffle port land internally, and how leasehold works as a land-policy instrument.",
+    "src": "text",
+    "p": "p. 8"
+   },
+   {
+    "t": "Westpoort runs out of noise",
+    "d": "The Port of Amsterdam had to insulate homes in Zaanstad after an expanded noise zone, and some vacant port plots could not be allocated because there was no noise capacity left; the 2016 annual report warned of insufficient environmental space across Westpoort. It shows that 'environmental space' (noise, safety, emissions) is itself a claim on land: land can be physically empty yet unusable.",
+    "src": "text",
+    "p": "p. 8"
+   },
+   {
+    "t": "Maasvlakte II nature compensation lags",
+    "d": "The Voordelta nature compensation for the Second Maasvlakte was agreed to happen alongside construction rather than before it, but monitoring shows it lags behind the economic targets, and in 2024 the nature organisations that signed the covenant threatened to go to court. It illustrates the growing tension between environmental and economic claims even in Rotterdam, where more 'puzzling space' exists.",
+    "src": "text",
+    "p": "p. 9"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Witte (Utrecht University, who also gives lectures 4 and 5), Wiegmans (Municipality of Purmerend) and Louw (TU Delft) study a very Dutch problem: ports that sit inside dense urban regions and have almost no room left. Traditionally, port geography looked at the port-city relation mainly through economic efficiency: how can the port handle more cargo? The authors argue that this is too narrow. Next to port growth, land is now claimed by the energy transition, the circular economy, climate adaptation, reducing urban heat stress, water quality, external safety and housing (p. 1).",
+     "Their central finding is in the title and abstract: 'even though the net claims do not yet outnumber the available land, the cumulative effects of these diverging interests do, which suggests that the battle for space is about to intensify as there are more claims than land' (p. 1). The research question is: 'How to identify and mitigate land-use conflicts in the port-city interface in densely populated areas?' (p. 2). The 'port-city interface' is the zone where port functions and urban functions meet and compete for the same space."
+    ]
+   },
+   {
+    "h": "Why the port can no longer simply move away",
+    "p": [
+     "The introduction sets out two perspectives on competition for space. From the urban side (city-port), pressure comes from housing demand and densification policies that push into port areas; Amsterdam's Haven-Stad project, which plans large-scale housing along the IJ banks, is the main example. From the port side (port-city), pressure comes from new demands for port functions, innovation, energy transition and climate adaptation that spill into adjacent urban space (p. 1).",
+     "For a long time such conflicts could be 'avoided' by moving industrial port activities to peripheral sites downstream. The authors state that 'This ‘fleeing’ of the port is no longer a viable option', because whole port regions are now intertwined with urban land uses (p. 2). Co-existence of port and city within the existing space becomes the norm, and with it land-use conflict. To capture this, they propose a multi-facetted view based on Campbell's sustainability triangle (cited in its 2016 version), considering regional-economic, urban and socio-ecological development together, and giving room to the full range of stakeholders, including the local port community (p. 2)."
+    ]
+   },
+   {
+    "h": "Three spatial levels of the port-city",
+    "p": [
+     "The literature review first traces how the port-city concept evolved. It began with transport flows at quays, and Bird's (1963) 'Anyport' model described six phases in which new facilities were built ever further downstream. In the last decade attention shifted to planning, governance and actor behaviour. Most models came from Western ports; Middle-Eastern and Asian ports kept closer, more reciprocal port-city relations (p. 2). The authors distil three levels.",
+     "The highest level is the port region: studies of polycentric port regions and multi-port gateways, of connectivity and of entrepreneurship show growing awareness of competing and overlapping land uses (p. 2). The middle level is the port-city interface itself. Bird, Hoyle and Norcliffe described a growing separation of port and city, which made sense when space was abundant; now it is not, so they 'increasingly compete for the same space' (p. 2). Wiegmans and Louw (2011) added port regulation (environment, transport, spatial planning, labour, safety), widening the concept beyond economics (p. 2).",
+     "The lowest level is the waterfront. Daamen's study of Rotterdam and Hamburg found that planners now propose redeveloping port areas still in use, and that city and port are engaged in 'a similar battle to attract people and business' (p. 3). Charlier warned that 'residual maritime potential' is 'non-renewable': once port land becomes city, port functions will 'never' return (p. 3)."
+    ]
+   },
+   {
+    "h": "Campbell's triangle applied to ports",
+    "p": [
+     "Section 2.2 uses Campbell's three conflicts to show that port-city challenges are multi-dimensional (p. 3). The resource conflict (economy versus environment) appears in ports as sites of production and transshipment of building materials: good for jobs and agglomeration, but with pollution, congestion and emissions that hurt nature and residents; hence today's debate on circularity. The property conflict (economy versus equity) appears in the mix of public and private land ownership, which shapes whether areas can be redeveloped for housing and whether planners pursue integration (mixed uses) or separation. Waterfront regeneration attracts businesses and young professionals, causing gentrification and rising prices that push out port workers and original residents (p. 3).",
+     "The development conflict (equity versus environment) means that just urban development in these districts must also be green, which raises development and living costs. This is hard because port-city districts are historically blue-collar; new, higher-value activities are unaffordable to existing residents and may displace them. Port areas are also vulnerable to sea level rise, and climate-adaptive, green redevelopment further increases gentrification. Space for water safety, offshore wind and hydrogen adds to the pressure (pp. 3–4)."
+    ]
+   },
+   {
+    "h": "The multi-facetted framework",
+    "p": [
+     "Section 2.3 combines this into a framework (their Fig. 2) with three facets (p. 4). Multi-level: port region, port-city interface, waterfront. Multi-dimensional: not only economic but also environmental, institutional and socio-cultural issues. Multi-actor: port businesses, the municipality (formally in charge of land-use zoning), the port authority (which should also weigh environmental and urban interests) and the social acceptance of local communities.",
+     "The authors stress that the relations between these elements are not deterministic: at which level or in which dimension a conflict materialises depends on context and on the stakeholders involved. In one case a port authority may compensate a company's expansion by financing a nature project elsewhere in the region; in another a municipality may use zoning conditions on industry at the waterfront to relieve residents (p. 4). That is why they test the framework in a specific institutional context."
+    ]
+   },
+   {
+    "h": "Method and the two cases",
+    "p": [
+     "Amsterdam and Rotterdam are chosen as 'critical cases' (following Flyvbjerg): large port activity in dense surroundings, the same national legal context, and rich documentation (p. 4). In 2022 the Rotterdam region (Rijnmond) had 6,493 net hectares of port land and over 108,000 direct port jobs; the Amsterdam region (Noordzeekanaalgebied) had 2,491 hectares and about 43,000 jobs (Table 1, p. 4).",
+     "Quantitatively, they use the IBIS database of Dutch business sites to track net port area (usable land, including vacant land, excluding roads and basins) from 1985 to 2022. Qualitatively, they code port visions, progress reports and annual reports since 2011 using keywords such as 'space', 'land' and 'environment'. They admit a clear limitation: only the port authorities' perspective is captured, not the experience of port users and local communities (pp. 4–5).",
+     "The regions differ. The Amsterdam region spans six municipalities and includes IJmuiden and Tata Steel's private quays; the Port of Amsterdam is a bulk and production port (fuels, coal, cocoa). Rotterdam, Europe's largest seaport, stretches over 40 km from inner-city sites to Maasvlakte I and II, focuses on containers and crude oil, and dominates its region more strongly (pp. 5–7)."
+    ]
+   },
+   {
+    "h": "Evidence: land figures and policy change",
+    "p": [
+     "The land figures show stability on the surface and pressure underneath (p. 7). Amsterdam's port area hovers around 2,500 ha; Rotterdam's jumped in 2009 to almost 6,400 ha with the Second Maasvlakte. But vacant land fell from about 20% to 11% in Rotterdam and from 18% to 8% in Amsterdam. Between 1985 and 2022, 240 ha of port land was transformed in Amsterdam against 64 ha in Rotterdam, with 153 ha and 115 ha planned (Table 2, p. 7). New port land is far from the city; transformed land is right next to housing. Amsterdam also faces a new kind of conflict at its possible expansion site, the Houtrakpolder: reserved for the port, contested by Haarlemmermeer, and eyed for rainwater storage, while Haven-Stad removes about 135 ha of port sites (p. 8).",
+     "The policy documents tell a similar story. Both port authorities are publicly owned companies that lease land; they are not public decision-making bodies, so the municipal council has little direct influence, although their owners tend to treat them as public (p. 8). Amsterdam's 2008 'Smart Port' vision demanded intensive land use; its 2020 vision abandoned the principle of a constant port size, aims to phase out fossil fuel handling by 2030 (freeing about 370 ha for energy and circular uses) and accepts that 10% of the municipal port area becomes housing. Noise became a binding constraint: some plots could not be allocated for lack of 'noise capacity', and by 2021–22 environmental risks were rated higher than economic ones (p. 8).",
+     "Rotterdam pursued more efficient use of existing space, the CityPorts transformation and the 'Makers District'. By 2015 it wrote that 'the limits of environmental use space are being reached' (p. 9), especially for nitrogen and industrial noise. With more room, it follows an 'and-and-approach': new energy activities next to a modernised petrochemical cluster. Its 2020 progress report counted 230 housing plans (about 5,550 homes) inside the port's environmental zone, and it started calling noise the municipality's 'responsibility' rather than a matter of 'collaboration'; the Voordelta nature compensation lagged behind, leading nature organisations to threaten court action in 2024 (p. 9)."
+    ]
+   },
+   {
+    "h": "Conclusions and what the authors want",
+    "p": [
+     "Comparing the cases (Table 3, pp. 9–10): net port area is fairly stable, but there are many internal dynamics, and conflicts now arise not only at the interface but also at potential development sites on the waterfront and at the regional level. Amsterdam's energy transition directly replaces port uses and is squeezed by Haven-Stad; Rotterdam can combine old and new. In governance, Amsterdam partly reversed port privatisation (the municipality again writes the port vision) and became more protective and risk-averse, while Rotterdam's port authority seems to 'mind its own business' more, pointing to the municipality for environmental problems yet playing an active role in education and jobs (p. 10).",
+     "The answer to the research question: identify conflicts by analysing land supply over a long period (which shows it shrinking), and recognise that demand is rising both quantitatively and qualitatively, from energy transition, water storage, growth, climate change, housing, biodiversity and EU environmental rules. To mitigate tensions, distinguish levels (region, port-city, waterfront) and types of claims (urban, environmental, economic); the framework could structure conflicts across institutional contexts (p. 10). They admit limits: vacant land is a crude measure that ignores land productivity, and results depend on ownership models and the port's size relative to the city. Ports with more 'puzzling space', such as Rotterdam, which is considering a third coastal extension, can adapt more easily than confined ports such as Amsterdam (p. 10)."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis. In lecture 4 Witte presents the Dutch planning system as a balancing act, and this article is a concrete test of it: the port authority acts partly 'outside' the formal system (as a landowner leasing land, comparable to the lecture's active land policy and its 'double hat' problem), the municipality acts 'inside' through zoning and the Omgevingsplan, and much coordination happens 'alongside' in visions and covenants. The finding that the council has little direct grip on a publicly owned port company echoes the lecture's worries about grey accountability and meta-governance.",
+     "The article explicitly rests on Campbell (lecture 3), translating the triangle's three conflicts to the port-city, including green gentrification risks at the waterfront. It is pluralist and situated (conflicts depend on context and actors; the Netherlands as a critical case), analytical rather than strongly normative, and mostly structural in tone: space scarcity and cumulative claims drive conflict. It also connects to Angelo and Wachsmuth (lecture 2): the energy transition and compact-city housing (Haven-Stad) are 'city solutions' that themselves compete for scarce land. Lecture 5 then zooms in on one village, Moerdijk, where 'more claims than land' becomes a question of whether residents can stay."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Rotterdam port is running out of room",
+   "d": "In January 2026 the national government, the province of South Holland, the municipality of Rotterdam and the Port of Rotterdam started a study into the port's shortage of space. Although fossil activities are declining, the freed-up land, even with infill, is expected to be insufficient for the energy transition, hydrogen production and offshore wind. Options are intensifying existing port areas, redeveloping industrial sites in the wider region, and seaward expansion of the Maasvlakte; the study also covers nature, recreation and residents' health and should finish around end 2027.",
+   "why": "Read through Witte et al., this is 'more claims than land' stated by the port authorities themselves: the net port area is fixed, but energy-transition claims stack on top of existing uses and on the liveability agenda, so even the land freed by fossil phase-out is not enough. The three options also show the escalation the authors expect, from intensification inside the port to claims on the region and the sea. Limit: it is a study, not a decision, so how the conflicts are resolved is still open.",
+   "src": {
+    "name": "Rijksoverheid",
+    "title": "Onderzoek naar ruimtegebrek in de haven en verbeteren leefomgeving van start",
+    "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/01/13/onderzoek-naar-ruimtegebrek-in-de-haven-en-verbeteren-leefomgeving-van-start",
+    "date": "2026-01-13"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Formal planning system | Omgevingswet · Omgevingsplan | \n  | INSIDE: pre-emption, expropriation | \n  | OUTSIDE | active land policy | \n  | ALONGSIDE | open planning, 'polderen' | \n  | National: strategic · Province: tactical · Municipality: operational (House of Thorbecke)]",
+ "cap": "Witte's three municipal intervention strategies.",
+ "rec": [],
+ "exam": "Comparison material for theme 2: a strong formal system and polder culture vs Chinese NTSP and African cities. Know the three strategies, the double-hat problem and the Omgevingswet basics.",
+ "table": {
+  "head": [
+   "Aspect",
+   "Amsterdam region (Noordzeekanaalgebied)",
+   "Rotterdam region (Rijnmond)"
+  ],
+  "rows": [
+   [
+    "Net port land (2022)",
+    "2,491 ha, stable around 2,500 ha (incl. about 700 ha Tata Steel)",
+    "6,493 ha, jump in 2009 with the Second Maasvlakte"
+   ],
+   [
+    "Vacant share of port land",
+    "18% to 8% (1985 to 2022)",
+    "20% to 11% (1985 to 2022)"
+   ],
+   [
+    "Port land transformed",
+    "240 ha (1985–2022), 153 ha planned; Haven-Stad takes about 135 ha",
+    "64 ha (1985–2022), 115 ha planned"
+   ],
+   [
+    "Energy transition strategy",
+    "Replace: phase out fossil fuels by 2030, freeing about 370 ha",
+    "'And-and': new energy next to modernised petrochemicals"
+   ],
+   [
+    "Governance shift",
+    "Municipality again writes the port vision; more protective, risk-averse",
+    "Port authority seems to 'mind its own business'; points to municipality on environment; active on jobs and education"
+   ],
+   [
+    "Room to manoeuvre",
+    "Confined; conflict even at expansion site (Houtrakpolder)",
+    "More 'puzzling space'; third coastal extension considered"
+   ]
+  ]
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "House of Thorbecke: coordination scheme",
+    "svg": "[SVG figure; labels: national | provincial | local | DG Spatial Planning | 342 municipalities (1-1-2024) | top-down | bottom-up | vertical coordination | horizontal coordination]",
+    "cap": "Dutch coordination scheme: top-down and bottom-up vertical coordination between national, provincial and local government, plus horizontal coordination within each level.",
+    "slide": "L4 slides 10–11"
+   },
+   {
+    "title": "Stages in land and real estate development",
+    "svg": "[SVG figure; labels: Initial / alternative use | Developable land | Developed land | New real estate | re-zoning | land development | construction | − construction costs | − land development costs | surplus / land rent | value gained by re-zoning | Value]",
+    "cap": "Residual land value: the value of new real estate minus construction and land development costs leaves a surplus (land rent) above the initial use, created mainly by re-zoning. This is what active land policy tries to capture.",
+    "slide": "L4 slide 22"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Roles of government levels in Dutch planning",
+    "head": [
+     "Level",
+     "Spatial role",
+     "Time horizon",
+     "Type of planning"
+    ],
+    "rows": [
+     [
+      "National",
+      "Strategic choices (e.g. mainports) and equal distribution of resources",
+      "Long term (>10 years), macro level",
+      "Strategic"
+     ],
+     [
+      "Provinces",
+      "Spatial visions; translating national policies ('search areas', 'provincial puzzles'); under the Omgevingswet stronger 'area managers'",
+      "Medium term (5–10 years), meso level",
+      "Tactical"
+     ],
+     [
+      "Municipalities",
+      "Legally binding land-use zoning plans (now Omgevingsplan), negotiations, solving problems",
+      "Short term (<5 years), micro level",
+      "Operational"
+     ]
+    ],
+    "slide": "L4 slides 12–13, 26"
+   },
+   {
+    "title": "Municipal intervention strategies: a balancing act",
+    "head": [
+     "Strategy",
+     "Position",
+     "Promise",
+     "Risk"
+    ],
+    "rows": [
+     [
+      "Informal, open planning ('polderen')",
+      "Alongside the system",
+      "Co-creation and conflict reduction",
+      "Tokenism and unequal power relations"
+     ],
+     [
+      "Active land policy",
+      "Outside: municipality as private stakeholder",
+      "Control over land development + financing",
+      "Dubious 'hats' and financial risks"
+     ],
+     [
+      "Public land instruments (pre-emption, expropriation, leasehold, Omgevingsplan)",
+      "Inside: municipality as public stakeholder",
+      "Legal certainty and legitimacy",
+      "Rigidity and lengthy procedures"
+     ]
+    ],
+    "slide": "L4 slides 14, 30"
+   },
+   {
+    "title": "Omgevingswet: instruments and who uses them",
+    "head": [
+     "Instrument",
+     "Who",
+     "What it does"
+    ],
+    "rows": [
+     [
+      "Omgevingsvisie (environmental vision)",
+      "Every municipality (obligatory), also provinces and state",
+      "Strategic, long-term vision integrating all spatial interests"
+     ],
+     [
+      "Omgevingsplan (environmental plan; was bestemmingsplan)",
+      "Municipality",
+      "Central, comprehensive articulation of how space is allocated and regulated"
+     ],
+     [
+      "Omgevingsverordening (environmental ordinance)",
+      "Province",
+      "Direct provincial rules besides the land-use plan"
+     ],
+     [
+      "Projectbesluit (project decision)",
+      "Province or ministry",
+      "Direct local intervention by higher government ('they can make use of this')"
+     ],
+     [
+      "AMvB (national rules)",
+      "Ministry",
+      "National general rules"
+     ]
+    ],
+    "slide": "L4 slides 25–27"
+   }
+  ],
+  "points": [
+   {
+    "t": "Planning as a public activity (definition)",
+    "d": "Planning is part of the executive branch (trias politica, next to legislative and judicial), implements planning law and is controlled by/in court. Definition: “the systematic preparation of policy-making and executive actions that are aimed at consciously intervening in spatial order and at organizing these interventions”. Because government acts in public and private space for 'the public good', the formal planning system matters for the legitimacy of spatial interventions.",
+    "slide": "L4 slides 6–7"
+   },
+   {
+    "t": "Art. 21 of the Constitution (quote)",
+    "d": "“The care of the government focuses on the habitability of the land and the protection and improvement of the living environment”, translated into the Environment and Spatial Planning Act (Omgevingswet).",
+    "slide": "L4 slide 7"
+   },
+   {
+    "t": "History in one slide",
+    "d": "Traditionally a strong (?) national government; influence of spatial planning concepts and doctrines; aimed at increasing spatial quality. Pendulum movements: beyond blueprint planning and the 'makeable society', beyond entrepreneurial and participatory planning, but neither is gone. “‘Involving the public’ will not save the world – regardless of the obligation in the new spatial planning act.”",
+    "slide": "L4 slide 9"
+   },
+   {
+    "t": "Decentralised unitary state",
+    "d": "Napoleonic tradition (top-down rules) combined with Thorbecke's (1848) decentralised unitary state: only partial autonomy of lower governments (principle of equivalence; egalitarianism). Multi-level dynamics are complex and likely not eased by the Omgevingswet.",
+    "slide": "L4 slides 10, 12"
+   },
+   {
+    "t": "Open planning: from inspraak to interactive governance",
+    "d": "Involve key stakeholders as early as possible; actors have influence (from government to governance); joint solutions + implementation = support ('draagvlak'). Participation means interactive governance instead of 'just' voicing concerns at council meetings ('inspraak'). Cf. Healey (1995): the communicative turn in planning.",
+    "slide": "L4 slide 17"
+   },
+   {
+    "t": "Open planning: the informal comes first",
+    "d": "The primacy of the informal trajectory; effectiveness and legitimacy matter; ambitious and intervention-oriented, in contrast to 'permit-planning' that only limits negative external effects. Paradox with the heavily formalised/legalised Dutch system: the formal process comes 'towards the end', with planning law as 'codification' of earlier informal agreements.",
+    "slide": "L4 slide 18"
+   },
+   {
+    "t": "Extra-legal ('buitenwettelijk') coordination",
+    "d": "In practice coordination runs through informal networks of actors organised around shared interests (governance), multi-level and multi-sectoral. This extra-legal structure has become more common under the Omgevingswet. Extra-legal means not illegal, but also not codified in law (plans, agreements, covenants).",
+    "slide": "L4 slide 19"
+   },
+   {
+    "t": "Ricardo: price determines rent",
+    "d": "Active land policy starts from land price and land value: function determines price, “price follows the product”. “The price of corn is not high because the land rent paid is high, but the high rent is paid because the price of corn is high” (Ricardo 1817). Active land policy = government intervention in the land market via public or private land instruments.",
+    "slide": "L4 slide 21"
+   },
+   {
+    "t": "VINEX to NOVEX: details",
+    "d": "Strategic greenfield housing locations; municipalities buy up, service and sell land, often in PPPs; land speculators and free riders play a role. The 'double hat problem': the municipality is both regulator and land developer. It only works well in rising markets; in the 2008–2010 collapse municipalities went (near) bankrupt through active land policy, and “now: the same story all over again (example Rijnenburg)”.",
+    "slide": "L4 slide 23"
+   },
+   {
+    "t": "Omgevingswet goal (quote)",
+    "d": "“With a view to sustainable development, the habitability of the country, and the protection and improvement of the living environment, aimed at coherently: (a) achieving and maintaining a safe and healthy physical living environment and good environmental quality, also due to the intrinsic value of nature; and (b) efficiently managing, using, and developing the physical living environment to meet societal needs.” Wider than Art. 21: 'everyone is required to' care.",
+    "slide": "L4 slide 25"
+   },
+   {
+    "t": "Complementary task allocation (ETFAL)",
+    "d": "Thorbecke's coordination scheme remains (strategic, tactical, operational roles), but depending on the task, levels may act 'complementary' to solve problems at 'the most suitable level': 'a balanced allocation of functions to locations' (ETFAL). Provinces get a stronger role as 'area managers', and province and state can intervene locally through a project decision.",
+    "slide": "L4 slide 26"
+   },
+   {
+    "t": "Pre-emption, expropriation, leasehold: experiences",
+    "d": "Voorkeursrecht and onteigening are strong regulatory tools; erfpacht is potentially a softer option. Main goal: strategic control over future allocation of functions. Experiences differ: combating NIMBYism vs detrimental effects on local spatial quality. Example Moerdijk: unclear strategies of different levels of government (developed further in the afternoon PSC session).",
+    "slide": "L4 slide 28"
+   },
+   {
+    "t": "Can governance be 'just'?",
+    "d": "Is the planning system able to deal with the current crises (housing, energy, climate)? General impression: wicked planning problems are beyond either state or market to resolve. Can governance approaches provide a viable alternative? They challenge the classic system and the public role in land use; questions include how to avoid spatial fragmentation and how to incorporate governance outcomes in the formal system.",
+    "slide": "L4 slides 31–32"
+   }
+  ]
+ }
+}

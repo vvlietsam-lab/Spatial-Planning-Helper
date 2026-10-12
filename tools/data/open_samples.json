@@ -1,0 +1,62 @@
+[
+ {
+  "t": "ni",
+  "pts": 15,
+  "q": "Read this excerpt (from the midterm guidelines): 'the paper builds on Lowndes' (2009) analogy of a game by devising a novel typology of the different players that shape both formal and informal rules… offers a dynamic approach to history, giving agency to all kinds of social groups (North, 1992). It also provides critical insights into why once actors have ventured far down a particular path, they are likely to find it very difficult to reverse course (Reinalda, 2013)… reinforcing a particular socio-political path into the future.' (a) Which theoretical perspective do the authors adopt? (5) (b) Support your answer with two arguments, each with a direct quote. (10)",
+  "model": "(a) Neo-institutionalism, specifically historical institutionalism (with actor-centred elements: formal and informal rules, players).\n(b) Argument 1, institutions as rules of the game: they analyse the 'formal and informal rules and practices' shaped by 'players', using Lowndes' 'analogy of a game' and citing North (institutions = rules of the game). Argument 2, path dependency: 'once actors have ventured far down a particular path, they are likely to find it very difficult to reverse course' and 'reinforcing a particular socio-political path into the future', which explains why the status quo (informality) endures despite pressure for change: reproduction via vested interests.",
+  "rubric": [
+   "Names neo-institutionalism / historical institutionalism",
+   "Argument 1 about rules (formal/informal) + quote",
+   "Argument 2 about path dependency / reproduction + quote",
+   "Explains HOW each quote shows the perspective (not just quotes)"
+  ]
+ },
+ {
+  "t": "hayek",
+  "pts": 10,
+  "q": "Compare Marx and Hayek on (a) structure vs agency, (b) how change occurs, and (c) the role of the planner.",
+  "model": "(a) Marx: structure dominant; the base (means/relations of production) determines the superstructure; deterministic. Hayek: agency/individualism; society is too complex to know or steer. (b) Marx: change via class struggle and deliberate revolutionary transformation of the base (abolish private property). Hayek: change is emergent: spontaneous order from individuals acting under general rules. (c) Marxist planner: redistributes towards material equality, decommodified housing (Madden & Marcuse). Hayekian planner: sets framework rules, equality of rights, avoids end-state steering (Glaeser & Gyourko: zoning reform).",
+  "rubric": [
+   "Structure (Marx) vs agency (Hayek)",
+   "Deliberate/revolution vs emergent/spontaneous order",
+   "Material equality vs equality of rights/liberty",
+   "Planner role for each with example"
+  ]
+ },
+ {
+  "t": "ni",
+  "pts": 12,
+  "q": "'Housing is becoming unaffordable.' Define the problem and a likely solution from (a) a historical institutionalist, (b) a sociological institutionalist and (c) an evolutionary institutionalist perspective. (Lecture 29 Sept homework)",
+  "model": "(a) HI: unaffordability results from path-dependent institutions (e.g. mortgage-interest deduction, land and tenure rules) reproduced by positive feedback and the interests they create; change needs a critical juncture (a crisis as permissive condition) plus productive conditions: coalitions ready with an alternative (Sorensen). (b) SI: the problem is embedded norms and meanings, homeownership as 'normal' and the legitimate template; change requires new meanings to be inculcated, through symbolic markers and new practices in under-institutionalised niches (e.g. cooperatives), not voluntaristic top-down design (Dembski & Salet). (c) Evolutionary: over-detailed, frequently changed, prescriptive rules block adaptation and supply; solution: modest, gradual, general and stable rules that allow discovery and incremental development (Moroni; Cozzolino).",
+  "rubric": [
+   "HI: path dependency + critical juncture logic",
+   "SI: norms/meanings + embedding/symbols",
+   "Evolutionary: emergent institutions + modest general rules",
+   "Uses at least one author per perspective"
+  ]
+ },
+ {
+  "t": "hayek",
+  "pts": 12,
+  "q": "A Dutch municipality wants to meet its housing target by deciding every large development 'on its merits' through negotiated, discretionary deals, with the council approving the overall programme only as a package. (a) Explain how Hayek (1944, 'Planning and democracy') would criticise this approach, using at least three concepts from the chapter. (b) Contrast this with how a Marxist-inspired planner (as presented in HC4) would evaluate the same approach.",
+  "model": "(a) Hayek would see a small-scale version of the mechanism in ch. 5. A housing programme serves many competing ends (affordability, density, green space, profit), and there is no 'complete ethical code' ranking them; the council can agree that there must be a plan but not on its content. Presenting it as a package leaves parliament (here the council) only to accept or reject the whole, so criticism 'cannot direct' (p. 51). Deciding cases 'on their merits' is exactly the delegation of discretion Hayek calls arbitrary power (p. 49); general rules, even local ones, would be acceptable. The officials negotiating deals must choose between ends and therefore impose their own scale of preferences (p. 48). What prevents arbitrariness is 'not the source but the limitation of power' (p. 53): democratic approval of the package does not make the discretion legitimate. Hayek's alternative is to restrict collective action to where true agreement exists and to use general rules. (b) A Marxist planner (Madden & Marcuse in HC4) would judge the approach on outcomes: markets turn housing into a commodity and produce material inequality, so the problem is not too much discretion but that deals with developers reproduce the structural logic of profit. They would support stronger, deliberate intervention (decommodified public or cooperative housing) and treat Hayek's formal equality of rights as blind to property power. Contrast: liberty and limited, rule-bound power vs material equality and structural transformation.",
+  "rubric": [
+   "Uses at least three chapter concepts correctly (complete ethical code, delegation/discretion vs general rules, plebiscitarian/take-it-or-leave-it plan, limitation of power)",
+   "Applies them to the case rather than reciting",
+   "Marxist evaluation: structure, commodification, material equality, deliberate transformation",
+   "Explicit contrast of normative commitments (liberty/equality of rights vs material equality)"
+  ]
+ },
+ {
+  "t": "harvey",
+  "pts": 20,
+  "q": "Write a short theoretical commentary on Harvey (1989), 'From managerialism to entrepreneurialism'. (a) Identify the theoretical perspective that grounds the argument and show how it shapes Harvey's explanation of the shift. (b) Critique the argument from one alternative perspective covered in the course.",
+  "model": "(a) Harvey argues that since the early 1970s urban governance shifted from managerialism (local provision of services, facilities and benefits) to entrepreneurialism: public-private partnerships, speculative projects in which the local public sector absorbs risk, and the construction of place rather than improvement of territory (pp. 7–8). The grounding is Marxist political economy. The explanation is structural: the 1973 recession, deindustrialisation, austerity and mobile multinational capital make inter-urban competition an 'external coercive law' (p. 12). Cities pursue four options (production, consumption, command functions, central-state redistribution); copying renders advantage ephemeral, PPPs subsidise the affluent at the expense of the poor, and the shift facilitates flexible accumulation. Agency lies in class coalitions (he refuses to reify 'the city'), and he rejects a captive local state: competition disciplines choices after the event (pp. 14–15). (b) From historical neo-institutionalism the broad convergence is too strong: national land, fiscal and legal regimes filter global pressures. Helsinki's public landownership made entrepreneurialism a municipal land sale (Hyötyläinen & Haila), while Sesto's weak position under the PII regime produced gridlock (Savini & Aalbers). Harvey's monist, capital-centred account risks functionalism and treats institutions as outcomes, not independent causes of variation. A strong answer credits his own nuance: the shift is incomplete (p. 5), competition may be non zero-sum (p. 5), and a progressive urban corporatism built on inter-urban alliances is possible (p. 16), which sits uneasily with the coercive logic he emphasises.",
+  "rubric": [
+   "Correctly summarises managerialism vs entrepreneurialism and its key features/strategies",
+   "Identifies Marxist political economy and links it to the structural, competition-driven explanation",
+   "Critique from a clearly named alternative perspective with its own assumptions (e.g. neo-institutionalism, regime theory, governmentality, Hayek/public choice)",
+   "Uses examples or course readings to support the critique and weighs strengths/limits (structure vs agency, monism)"
+  ]
+ }
+]

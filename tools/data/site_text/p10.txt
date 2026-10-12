@@ -1,0 +1,180 @@
+{
+ "id": "p10",
+ "n": 10,
+ "theme": 3,
+ "title": "Digital planning for sustainable urban futures",
+ "who": "Yanliu Lin",
+ "slides": false,
+ "lecture": [
+  "Slides not uploaded yet (8 Oct)."
+ ],
+ "man": {
+  "cite": "Lin, Y.L., Geertman, S., Witte, P. & Pinto, N. (2025). Editorial: Digital planning for sustainable urban future. CEUS 122, 102334.",
+  "status": "full",
+  "one": "Digital planning (PSS, urban analytics, digital twins, AI, VR/AR, gamification, e-participation) promises more efficient, effective and inclusive planning, but brings implementation, usability, bias, digital-divide and cybersecurity problems. It requires new ways of planning, not just new tools.",
+  "summary": [
+   "Cities face climate change, ageing, polarisation, unaffordability and mobility issues, and planning struggles with complexity and conflicting interests. Many countries are digitising planning (national plan registers; the UK Digital Taskforce; the Dutch Omgevingswet digitalising participation).",
+   "Opportunities: engagement via online platforms, crowdsourcing and social-media analysis; real-time and big data; digital twins for scenarios and consensus-building.",
+   "Risks: mismatch between technology supply and demand, user-unfriendly tools, socio-political bias, exclusion, a skills gap in authorities and universities, uneven and fragmented integration. Digitalisation needs proper methods and communication strategies, with insights from academia."
+  ],
+  "concepts": [
+   [
+    "Digital planning",
+    "Digital technologies and data-driven approaches to improve the efficiency, effectiveness and inclusivity of planning."
+   ],
+   [
+    "PSS / PSScience",
+    "Planning support systems / the science behind them (Geertman)."
+   ],
+   [
+    "Digital twin",
+    "A virtual replica of the city for simulation and scenarios."
+   ],
+   [
+    "Digital divide",
+    "Unequal access and skills, risking exclusion."
+   ]
+  ],
+  "quotes": [],
+  "examples": [
+   {
+    "t": "Zwolle's inclusive mapping tool",
+    "d": "A collaborative mapping tool was co-designed with and for people with disabilities to plan accessible public spaces in Zwolle. The study found that inclusive digital planning depends not only on software but also on hardware and the setting in which a tool is used, which addresses the digital divide directly.",
+    "src": "text",
+    "p": "p. 4"
+   },
+   {
+    "t": "Guangzhou social media participation",
+    "d": "Third parties and citizens used social media to spread information fast and raise their voices in a Guangzhou planning practice. It supported informal participation and reshaped government-society relations, but new power inequalities appeared within and beyond online networks.",
+    "src": "text",
+    "p": "p. 3"
+   },
+   {
+    "t": "Sydney's political urban analytics",
+    "d": "A study of urban analytics in a major strategic planning process in Sydney found that political factors shaped every part of the system, from which data were available to how analytics were used. It shows that PSS and analytics are not neutral tools, the socio-political bias the editorial warns about.",
+    "src": "text",
+    "p": "p. 3"
+   },
+   {
+    "t": "Eindhoven VR co-design",
+    "d": "Immersive VR was used to involve citizens and local stakeholders in co-designing healthier urban spaces in Eindhoven, and most workshop participants were positive. The study still recommends better visuals and multi-user functions, which shows the usability and supply-demand gaps between tools and practice.",
+    "src": "text",
+    "p": "p. 3"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the editorial asks and why",
+    "p": [
+     "This is the editorial to a special issue of Computers, Environment and Urban Systems, written by four planners, three of them from Utrecht University (Lin, Geertman, Witte) and one from Manchester (Pinto). It is short (five pages) and programmatic rather than empirical: it sets out what 'digital planning' is, how it differs from related concepts, what the special issue articles found, and what should happen next. It starts from the problems cities face: climate change, ageing, social polarisation, unaffordable housing and mobility issues, combined with conflicting stakeholder interests and citizen activism (p. 1).",
+     "Governments are responding with digitisation. Several European countries have built national digital plan registers and digitised municipal land-use planning; the UK set up a Digital Taskforce for Planning; the Netherlands' new Environment and Planning Act (Omgevingswet) emphasises digital participation and planning; similar moves are under way in Finland, Australia, Switzerland, the US, China and Singapore (p. 1). The editorial's aim is to frame the variety of ideas in this new field, with particular attention to inclusive participation and sustainable urban futures."
+    ]
+   },
+   {
+    "h": "Promise and problems",
+    "p": [
+     "The promise is broad (p. 1). Planning support systems (PSS), urban analytics and city information modelling have enabled a transformative digitalisation of planning; newer tools include digital twins, AI, virtual and augmented reality, gamification platforms, public participation GIS (PPGIS) and the Internet of Things. Some tools collect citizen feedback or help understand problems; others support interaction between authorities, professionals, firms and citizens. Social media (Twitter, Facebook, Weibo) let civil society and marginalised groups voice their views. Machine learning and social network analysis are used to analyse social media data, and digital twins combine geospatial, remote sensing and IoT data with AI to build scenarios that support consensus-building.",
+     "The problems are just as real (p. 1). Technology supply and planning demand often do not match, interfaces are user-unfriendly, and tools carry socio-political bias. Digital tools can reshape power relations and create new inequality and exclusion. Planning authorities and universities have a large digital skills gap, integration is uneven and fragmented, and there are new risks such as the digital divide and cybersecurity. Hence the editorial's central warning: \"Digitalization of planning is not just the straightforward implementation and use of new technologies\" (p. 1). It demands new ways of planning, proper methods and adjusted communication, and a two-way exchange between academia and practice."
+    ]
+   },
+   {
+    "h": "Digital planning versus Planning Support Science",
+    "p": [
+     "Section 2 separates digital planning from the older field of planning support systems (p. 2). Britton Harris defined PSS in 1989, arguing that GIS could loosely integrate computer techniques to generate, evaluate and test plans. Since then PSS have been understood as computer-based tools that help planners and stakeholders with scenario building, forecasting, participation and trend analysis, evolving from GIS, land-use models and decision support systems towards digital twins, AI, VR and data infrastructures. As the field matured, Geertman and Stillwell proposed reading PSS as Planning Support Science, echoing Klosterman's point that \"planning support should start from the peculiarities of the planning activity itself, and not from the characteristics of the technology\" (p. 2).",
+     "The relationship is layered (p. 2). PSS are tools that can be used within digital planning. Planning Support Science is scientific: it asks how instruments can be fitted to the governance and application at hand in a specific context. Digital planning asks the follow-up question of how those instruments contribute to inclusive and effective planning, and is application-oriented, focused on results in practice. One is a prerequisite for the other. Delivering it requires a 'quadruple' collaboration between government, market parties, societal organisations and individuals, and education and research institutes."
+    ]
+   },
+   {
+    "h": "Smart cities and platform urbanism",
+    "p": [
+     "Section 3 compares digital planning with two other concepts (pp. 2–3). The smart city debate is younger; it started academically with Giffinger et al.'s six smart city domains (2007) but was driven mainly by business. Technology companies built entire smart city ecosystems, such as Songdo in South Korea; Barcelona, Amsterdam and Helsinki are often cited as European best practice. The concept was long fuzzy; one durable definition (Caragliu et al.) links investment in human and social capital and infrastructure to sustainable growth, quality of life and participatory governance. Critics stress its technocratic nature and weak link to the real problems of citizens.",
+     "Platform urbanism is 'a mode of urbanization that is deeply shaped by the conditions and affordances of platforms' (Barns), driven by smartphones and 4G/5G (p. 2). It includes everyday platforms (Uber, Airbnb, Alibaba, Facebook) and government and business initiatives such as Mobility-as-a-Service or Alibaba's City Brain traffic platform. The authors conclude that digital planning includes both as potential tools, but differs in being strategic, procedural and operational, more government-led and more consciously guided by policy goals of sustainable and inclusive development (pp. 2–3). Because smart city applications and platforms often develop without any planning intervention, poor alignment can hinder digital planning, so data governance becomes critical."
+    ]
+   },
+   {
+    "h": "A definition and three principles",
+    "p": [
+     "Section 4 reviews definitions (p. 3). Potts and Webb see digital planning as integrating ICT into engagement, decision-making, daily practice and strategy. Hersperger et al. find that digitalisation in land-use planning makes administrative processes more efficient and supports government-citizen interaction and transparency, but does less for innovation. Nummi et al. show that dominant planning styles and institutions can block technological innovation, so digital transformation needs cultural change in organisations. Batty and Yang propose a cyclic system with two loops: an evidence analytics loop driven by data, and a democratic decision-making loop of argument, discussion, design and politics.",
+     "The authors then define digital planning as \"the application of digital technologies and data-driven approaches to enhance efficiency, effectiveness, and inclusivity in planning processes at different scales to improve social, economic, and environmental outcomes for achieving a more sustainable urban future\" (p. 3). Each term is explained. Efficiency means efficient use of resources and faster, better-coordinated decision-making, including real-time monitoring. Effectiveness means better strategies and policies based on data analytics and prediction, and wider support through participation. Inclusivity means participation, engagement and empowerment, including marginalised groups in formal and informal channels."
+    ]
+   },
+   {
+    "h": "What the special issue shows",
+    "p": [
+     "The contributions span the field (pp. 3–4). Geertman and Witte link Planning Support Science to the digital planning agenda. Nurminen et al. found that planners valued a PPGIS tool in nine Finnish projects and that it could improve data representativeness, equality and quality. He et al. show that social media in Guangzhou supported informal participation and reshaped government-society relations, but also produced new power inequalities within and beyond online networks. Daniel and Pettit found that political factors shaped every aspect of urban analytics in Sydney's strategic planning, from data availability to use.",
+     "Several papers study co-design of tools (pp. 3–4). In Finland, Nummi and Hapuoja found a technology-driven culture dominating national development, though co-development benefited both developers and planners. Dane et al. used immersive VR to co-design healthier spaces in Eindhoven, with mostly positive participant experiences. Flacke et al. co-designed a mapping tool with people with disabilities in Zwolle and argue that digital, physical, social and procedural accessibility are all needed. The authors suggest a future typology should classify approaches by purpose, users, level of digitisation, type of technology, level of complexity and environment (analog, VR/AR, metaverse), warning that \"Any typology should also encompass more than the narrow operational objectivity of digital planning as a set of tools\" (p. 4)."
+    ]
+   },
+   {
+    "h": "Recommendations",
+    "p": [
+     "The conclusion is that realising digital planning requires more than technology adoption (p. 4). Tools should be co-developed with planners, citizens and technical experts, and research should explore how to scale co-design from experiments to widespread practice. Attention is needed to power: how existing structures shape tool design and how new tools reshape those structures. Governance must adapt through institutional reform, new policies, a culture supportive of innovation, training of officials, and digital participation. Citizens and marginalised groups should be engaged in formal and informal processes, supported by uniform data standards and integration of social sensing data and local knowledge.",
+     "Two further warnings stand out (pp. 4–5). AI is shifting from a tool that supports humans to an autonomous, 'agentic' decision-maker, raising concerns about democratic representation, ethics, privacy and justice, especially as politicians with tight budgets may be tempted to substitute human-centred processes with AI tools. Governance should keep AI transparent, inclusive and human-centred, while not forgetting 'low-tech' tools such as social media. Finally, planners need digital literacy and interdisciplinary skills, curricula should cover participatory technology, data analytics and digital ethics, and a systematic review of definitions should prevent the conceptual fragmentation that weakened the smart city concept."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not the authors' claims. The editorial is broadly optimistic and pragmatic: technology can improve planning if it is embedded in context, co-designed and governed well. It treats power and exclusion as risks to be managed rather than as the core of the story. On deliberate versus emergent change it is strongly deliberate (government-led, policy-informed). Its knowledge stance is mixed: it values data-driven evidence but also local knowledge and 'social sensing', and it keeps the planning process (Batty and Yang's democratic loop) alongside analytics. Normatively it commits to efficiency, effectiveness and inclusivity for a sustainable city, three goals that could conflict with each other.",
+     "Links: Li and Dang (L11) take the editorial's final warning about agentic AI much further and are far more pessimistic about whether regulation and augmentation can hold. The emphasis on co-design and scaling echoes Bulkeley et al.'s urban living labs (L9), where scaling beyond the demonstration was the weak point. Campbell's planner's triangle (L3) is a useful check: efficiency and effectiveness can serve growth while inclusivity serves equity, so digital tools do not escape the conflicts of sustainable development. The Omgevingswet reference ties the topic to the Dutch system (L4), and He et al.'s Guangzhou case to the Chinese governance context (L7)."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Omgevingswet's digital system runs rough",
+   "d": "Answering parliamentary questions in July 2024, minister De Jonge acknowledged that publishing environmental documents in the Digitaal Stelsel Omgevingswet (DSO) is sometimes complicated. The eighth chain-testing report found substandard functioning: municipalities could not independently publish changes to their omgevingsplan, the viewer had problems showing amendments, and many permit-check questions were 'needlessly complicated or redundant'; the testing was extended by at least six months.",
+   "why": "Read through Lin et al., the DSO is digital planning at national scale and shows their point that it needs new ways of planning, not just new tools: implementation and usability problems mean the promised efficiency and transparency do not arrive automatically. Citizens facing an over-complicated permit check is also a digital-divide issue. Limit: these are early teething problems reported in 2024, and the system has kept developing since.",
+   "src": {
+    "name": "Binnenlands Bestuur",
+    "title": "Motorblok Omgevingswet draait verre van soepel",
+    "url": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/omgevingswet/motorblok-omgevingswet-draait-verre-van-soepel",
+    "date": "2024-07-03"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Means | digital technologies | PSS, twins, VR, apps | data-driven methods | big data, AI, analytics | Principles | efficiency | effectiveness | inclusivity | Outcomes | social, economic, | environmental | sustainable future | Risks (p. 1) | supply-demand mismatch, usability, bias, power shifts, | digital divide, skills gap, fragmentation, cybersecurity | Needs new ways of planning, co-design and education, | not just new tools (pp. 1, 4)]",
+ "cap": "Lin, Geertman, Witte & Pinto (2025): the editorial's definition of digital planning (p. 3) and the risks it must manage.",
+ "rec": [
+  {
+   "cite": "Geertman & Witte (2024). From PSScience to digital planning. CEUS 114, 102183.",
+   "basis": "Abstract retrieved",
+   "abs": "There is no accepted definition of digital planning: 'the application of digital technologies and data-driven approaches to enhance efficiency, effectiveness, and inclusivity in planning processes to improve social, economic, and environmental outcomes'. PSScience is the scientific base of practice-oriented digital planning. It needs a quadruple-helix collaboration (government, market, society, education and research).",
+   "slides": "No slides yet."
+  }
+ ],
+ "exam": "Link to BPT knowledge debates: digital tools can reinforce a technocratic, positivist view (L11: AI) or support inclusive co-production.",
+ "table": {
+  "head": [
+   "Concept",
+   "Origin",
+   "Orientation",
+   "Relation to digital planning"
+  ],
+  "rows": [
+   [
+    "Planning Support Systems / Science",
+    "Harris (1989); later reinterpreted as Planning Support Science (Geertman & Stillwell)",
+    "Scientific: how instruments fit the governance and context at hand",
+    "PSS are tools within digital planning; PSScience is its prerequisite"
+   ],
+   [
+    "Smart city",
+    "Mostly business-initiated; academic debate from Giffinger et al. (2007)",
+    "Technology- and business-driven; criticised as technocratic",
+    "Applications can be incorporated as tools"
+   ],
+   [
+    "Platform urbanism",
+    "Smartphones and 4G/5G; defined by Barns (2020)",
+    "Algorithms and real-time data reshaping labour, mobility and consumption",
+    "Platforms can be incorporated, but need alignment and data governance"
+   ],
+   [
+    "Digital planning",
+    "No accepted definition; the editorial proposes one (p. 3)",
+    "Application-oriented, government-led, guided by sustainability and inclusion goals",
+    "The overarching concept: strategic, procedural and operational"
+   ]
+  ]
+ }
+}

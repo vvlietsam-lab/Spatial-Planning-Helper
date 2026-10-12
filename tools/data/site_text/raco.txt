@@ -1,0 +1,216 @@
+{
+ "id": "raco",
+ "wk": 7,
+ "title": "Raco & Imrie (2000) Governmentality and rights and responsibilities in urban policy",
+ "cite": "Raco, M. & Imrie, R. (2000). Governmentality and rights and responsibilities in urban policy. Environment and Planning A, 32(12), 2187–2204. doi:10.1068/a3365",
+ "theory": "Foucault / governmentality (advanced liberalism, after Rose, Miller and Dean)",
+ "status": "full",
+ "statusNote": "Full article on file (pp. 2187–2204); page numbers are the journal pagination. No lecture slides yet for the 22 Oct session. Links to Rydin ch. 8, Taylor (2016), NPM/rational choice and Marxism are my own connections, marked as such.",
+ "one": "New Labour's 'rights and responsibilities' agenda, studied through the Single Regeneration Budget (SRB), is not a devolution of power to communities but a shift in the art of government: the state governs 'at a distance' by constructing active, self-responsible communities and binding them with audit, targets and competitive bidding. In return for a little extra freedom, subjects come under greater monitoring, scrutiny and surveillance.",
+ "summary": [
+  "Framework (pp. 2188–2191). Following Foucault, Rose, Miller and Dean, governmentality is the 'conduct of conduct': government works through political rationalities (ways of thinking about which problems authorities should address, with moral justifications and a picture of who is to be governed), programmes (white papers, guidance, inquiries that try to reorganise practice) and technologies (audit, benchmarking, devolved budgets, performance criteria that create 'calculable spaces'). Power is not reducible to the state; the state is 'no more than a specific form of government' (p. 2190). 'Advanced liberalism' governs through the self-governing capacities of free subjects; welfare retrenchment means less state intervention but 'not necessarily ... any less government' (p. 2191).",
+  "Rationality and programme: government through community (pp. 2192–2196). SRB (April 1994) replaced many 1980s schemes with one competitive fund for local public–private partnerships that must 'involve the community fully at all stages'. Ten per cent of project funding goes to community 'capacity building'. Territory of government is rescaled from society to community: the local gets 'ontological status' as the site of effective government. The authors read this as directed self-government producing Rose's 'communities of obligation': more rights to define agendas, but conditional on wider responsibilities, and bids must 'work within the grain' of national frameworks. Behind the inclusion rhetoric lie 'discourses of public and private sector abandonment' (p. 2195): deprived areas must provide for themselves.",
+  "Technologies: subjectivity and expertise (pp. 2196–2201). Partnerships must file quantitative progress reports every three months against a priori targets; accountability is vertical, not horizontal; underperformance can lead to intensive monitoring or withdrawal of funding. Best Value and Best Practice discipline local authorities and bidders, partly through peer comparison ('disciplinary government at a distance'). Expertise is redrawn: local knowledge is given privileged status rhetorically, yet community representatives are trained by professionals to handle bureaucratic procedures, baselines and monitoring, making community aspirations 'calculable'. Professionals too become subordinated to performance mechanisms.",
+  "Conclusion (pp. 2201–2202). The Foucauldian approach links the mentalities and conduct of the population to the objectives and techniques of government. SRB 'identifies and institutionalises communities of action', gives them a minimum of competitively allocated resources, and binds them into 'rigid and closely monitored managerial frameworks'. Because the art of government is politically constructed, it can also be reconstructed: the analysis may feed 'resistance, contestation, and challenge', e.g. subpolitics of identity and a rebuilt 'social'.",
+  "Method and status of the claim. The evidence is a critical reading of official documents (DETR bidding guidance, ministerial speeches, CSJ report) plus secondary evaluation evidence (mainly Foley et al. 1998); there is no primary fieldwork (p. 2192). SRB is used as a 'heuristic vehicle' to comment on governmentalisation. This matters for a commentary: the article shows how policy texts construct subjects, not how people on the ground actually experienced or resisted them."
+ ],
+ "concepts": [
+  [
+   "Governmentality",
+   "Foucault's term for the ensemble of institutions, procedures, calculations and tactics through which the conduct of a population is shaped; government as 'the conduct of conduct', not reducible to the state."
+  ],
+  [
+   "Political rationality",
+   "A way of thinking about which problems can and should be governed, with moral justifications and a description of the subjects to be governed (Rose & Miller)."
+  ],
+  [
+   "Technologies of government",
+   "Practical techniques (audit, targets, benchmarking, devolved budgets, bidding rules) that make programmes operable and create 'calculable spaces of action'."
+  ],
+  [
+   "Advanced liberalism",
+   "Rose's term for rule through the regulated choices of autonomous actors: marketised welfare, audit, fragmentation of collective provision, reinvented community."
+  ],
+  [
+   "Government at a distance",
+   "Central government steers local actors through rules, funding conditions and monitoring instead of direct provision; the governed police themselves."
+  ],
+  [
+   "Government through community",
+   "Community is made both the object and the instrument of policy; pre-existing bonds are transformed, affiliated to expertise and given duties."
+  ],
+  [
+   "Communities of obligation",
+   "Rose: communities gain rights to shape agendas only on condition of accepting wider responsibilities for delivery."
+  ],
+  [
+   "Responsibilisation / active citizen",
+   "Transformation of subjectivity from passive recipient to self-governing agent who takes responsibility for welfare and regeneration."
+  ],
+  [
+   "Empowerment as technology",
+   "After Cruikshank: 'empowerment' is a technique for transforming subjectivity, producing a qualitative change in subjects, not a quantitative gain in power."
+  ],
+  [
+   "Calculable spaces",
+   "Domains made governable through quantification (baselines, outputs, milestones) that experts can monitor from above."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Rationality | advanced liberalism: | rights and | responsibilities | Blair, CSJ, Mulgan | Programme | SRB (1994): bid | competitively via | local partnerships | 'involve community' | Technologies | 10% capacity building | quarterly targets | audit, Best Value | peer review | Subjectivity | active citizens, | communities of | obligation that | police themselves | Official discourse | empowerment, inclusion, | bottom-up | Foucauldian reading | little extra freedom, | more surveillance | unmasked as | government at a distance: DETR, RDAs, partnerships, communities]",
+ "cap": "Rationality, programme and technologies produce responsible subjects; 'empowerment' turns out to be a qualitative change in subjectivity under closer control (pp. 2195, 2201).",
+ "table": {
+  "head": [
+   "SRB element",
+   "Official rationale",
+   "Raco & Imrie's reading"
+  ],
+  "rows": [
+   [
+    "Community involvement 'at all stages'",
+    "Schemes better focused on local needs; ownership",
+    "'not optimal but a necessary requirement (for funders)' (p. 2194)"
+   ],
+   [
+    "10% capacity building",
+    "Community makes a 'full and equal contribution'",
+    "Training produces representatives who make aspirations calculable"
+   ],
+   [
+    "Self-help: credit unions, social enterprises",
+    "Active citizenship, local quality of life",
+    "Arms-length governance; 'public and private sector abandonment'"
+   ],
+   [
+    "Quarterly quantitative reporting",
+    "Transparency, accountability",
+    "Vertical accountability; 'inspection mentality' (Foley et al.)"
+   ],
+   [
+    "Best Value / Best Practice",
+    "'Nonideological' tools of empowerment",
+    "Disciplinary power; peer review as government at a distance"
+   ],
+   [
+    "RDAs as regional bodies",
+    "Regional devolution",
+    "Sub-contractors of central government (fn. 3)"
+   ]
+  ]
+ },
+ "example": "SRB bidding guidance (DETR 1999b): bids must 'involve the community fully at all stages', devote 10% of funding to capacity building, set their own baselines, milestones and outcomes, and file quantitative progress reports every three months; if a scheme 'falls short on its performance, the RDA may take measures varying from the intensive monitoring and review to the reduction or withdrawal of funding' (p. 2198).",
+ "quotes": [
+  "\"the retraction of the welfare state which, while meaning less state intervention, does not necessarily mean any less government\" (p. 2191)",
+  "\"It creates forms of 'empowerment' that do not lead to quantitative increases in power for communities but a qualitative transformation of forms of subjectivity to make government work\" (p. 2195)",
+  "\"Far from propagating agendas of social 'inclusion', SRB is underpinned by discourses of public and private sector abandonment\" (p. 2195)",
+  "\"in return for a little extra freedom of action, subjects come under greater monitoring, scrutiny, and surveillance by the state\" (p. 2201)"
+ ],
+ "dims": {
+  "sa": 30,
+  "rt": 45,
+  "de": 40,
+  "us": 70,
+  "mp": 65,
+  "norm": "Critical: exposes control behind empowerment rhetoric; values unconditional rights, local democratic (horizontal) accountability and the possibility of resistance/reconstruction of the 'social'."
+ },
+ "exam": "Grounding perspective: Foucault/governmentality (Rose, Miller, Dean): rationalities, programmes, technologies; power as productive and dispersed, the state as one site among many; subjects constituted by discourse. Structure-leaning but not structuralist (my link: Rydin ch. 8 places Foucauldian work between actor-centred and political-economy approaches). Best critiques: (1) Rational choice / principal-agent (my link: Rydin ch. 8, p. 156, notes NPM is often justified as incentive alignment): the same evidence (managers use monitoring only to check targets; involvement is 'a necessary requirement (for funders)') suggests strategic compliance with funding incentives rather than internalised subjectivity, so governmentality may over-read the texts. (2) Marxist political economy: Raco and Imrie deliberately refuse a unified state and class analysis, yet their own sources point to cost-cutting and 'abandonment'; a Marxist reading would ground SRB in fiscal crisis and the reproduction of uneven development rather than in 'mentalities'. (3) Communicative planning / Healey (quoted in the opening): capacity building could be genuine institution-building; the article offers no way to tell empowerment from control. (4) Method: documents plus secondary evaluation only; little evidence on actual subjects or resistance, which the conclusion itself calls for. MCQ traps: governmentality is not 'less government' but different government; 'empowerment' = qualitative change in subjectivity, not quantitative gain; accountability is vertical, not horizontal; communities of obligation = rights conditional on duties; the paper is about New Labour but says it continues Thatcherite active-citizen ideas.",
+ "examples": [
+  {
+   "t": "New Deal for the unemployed",
+   "d": "The New Deal combined counselling to raise self-esteem with training to build skills. Raco and Imrie cite it as a 'technology of citizenship': empowerment used to turn powerless subjects into active, self-governing citizens who take responsibility for their own welfare.",
+   "src": "text",
+   "p": "p. 2191"
+  },
+  {
+   "t": "Best Value and peer review",
+   "d": "Best Value required councils to adopt new disciplines of value for money and efficiency, with central action if they failed to act 'responsibly'; Best Practice guidelines made SRB bidders adjust their conduct to the scrutiny of other bidders. Governing at a distance: discipline that works through self-monitoring and peers rather than direct central orders.",
+   "src": "text",
+   "p": "p. 2199"
+  },
+  {
+   "t": "Tenant participation in social housing",
+   "d": "DETR guidance on tenant participation calls for a 'proper balance of rights and responsibilities', but tenants who gain a say must follow public service rules and accept the council's ultimate responsibility for strategic decisions. Communities of obligation: rights to take part come bundled with centrally defined duties.",
+   "src": "text",
+   "p": "pp. 2195–2196"
+  },
+  {
+   "t": "Dutch 'participation society' (2013)",
+   "d": "In the 2013 King's Speech the Dutch government announced a shift from the welfare state to a 'participatiesamenleving', in which citizens are expected to take more responsibility for their own lives and neighbourhoods. A close Dutch analogue of the rights and responsibilities agenda and the governmentality of active citizenship.",
+   "src": "similar"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Around 2000, citizenship was a central theme in British urban policy. Government documents called for 'a new brand of involved and responsible citizenship', and Tony Blair summarized the ethos as 'It is something for something. A society where we play by the rules. You only take out what you put in. That's the bargain' (p. 2187). Raco and Imrie want to understand this 'rights and responsibilities' agenda: citizens receive rights, but only in exchange for duties.",
+    "The idea of the 'active citizen' was not new; Thatcherism also encouraged voluntary and community action while the state shrank (p. 2188). What is new, the authors argue, is that active citizenship moves to the centre of the relationship between state and civil society. Citizens are no longer defined mainly as consumers or voters but as democratic agents who empower themselves by challenging institutions that shape their lives.",
+    "The authors use Michel Foucault's concept of 'governmentality' to argue that this shift is part of a wider transformation in how government thinks and works (p. 2188). Following Nikolas Rose, they call it 'advanced liberalism': strategies that treat citizens, individually and collectively, as potentially 'active' in their own government, and that govern by using the self-governing properties of the governed. The argument has three parts: a justification of the Foucauldian framework; an empirical analysis of the Single Regeneration Budget (SRB), organized around government through community and the shaping of subjectivity and expertise; and conclusions on why this framework matters."
+   ]
+  },
+  {
+   "h": "Why a Foucauldian lens: governmentality explained",
+   "p": [
+    "The authors start from claims by Beck, Giddens and others that globalization and the end of Keynesian welfare systems have shifted risk from collective, state-led provision to 'individualisation', where people must take more responsibility for their own welfare (p. 2188). Class politics dissolves into identity politics, and people reject the paternalistic postwar state (p. 2189). Government then takes on an enabling role: helping citizens become 'more responsible' and more capable.",
+    "For Foucault, such changes point to new 'mentalities of government' concerned with shaping, channeling and guiding 'the conduct of others' (p. 2189). The object of government is the population, managed as a resource to be fostered and optimized. Crucially, power is exercised through many agencies, not only the state; the state is not a unified actor but one institution among many. This differs from Marxist, pluralist or elitist theories that treat the state as a single actor, though the authors note parallels with neo-Gramscian and regulationist views (p. 2189).",
+    "Governmentality has three linked elements (p. 2190). Political rationalities are ways of thinking about which problems authorities should address, underpinned by moral justifications and a picture of who is to be governed. Programmes are the purposive attempts to reorganize institutions and conduct, visible in white papers and inquiries; government is a 'problematising' activity that keeps trying to fix its own failures. Technologies of government are the practical tools that make programmes work: legal, architectural, financial and administrative devices, from auditing and benchmarking to devolved budgets, which create 'calculable spaces' where conduct can be measured against authoritative criteria."
+   ]
+  },
+  {
+   "h": "Advanced liberalism: governing through freedom",
+   "p": [
+    "Advanced liberalism, in Dean's summary, includes marketized welfare, audit and consumerism, fragmented collective welfare, a reinvented notion of 'community', and strong discipline for deviant performance (p. 2190, note 2). Its core is the demise of social collectivities and the spread of self-management: government through the governed. Rose describes 'rationalities and techniques that seek to govern without governing society, to govern through regulated choices made by discrete and autonomous actors in the context of their particular commitments to families and communities' (p. 2191).",
+    "The paradox is that the free, self-determining individual is at the centre, yet this freedom must be shaped, guided and moulded through authority (p. 2191). Dean's 'new prudentialism' ties risk management to self-care; Cruikshank calls empowerment a 'technology of citizenship' that transforms powerless people into active citizens. The New Deal for the unemployed, with counseling for self-esteem and training, is an example. Less state intervention thus does not mean less government; it means new ways of acting on people so that they govern themselves in line with government aims (p. 2191)."
+   ]
+  },
+  {
+   "h": "The SRB as a window on urban policy",
+   "p": [
+    "The SRB, established in April 1994, was the most important English urban policy initiative since the mid-1990s (p. 2191). It replaced a patchwork of earlier schemes with a single funding source, distributed competitively to locally defined public-private partnerships that develop 'bottom-up strategies'. Some welcomed it as a break toward community focus; others saw 'managerial localism', reduced resources distributed through competition with strong managerial controls (pp. 2191–2192).",
+    "The authors treat the SRB as a heuristic vehicle for analyzing the 'governmentalisation' of UK urban policy (p. 2192). Their method is a critical reading of official policy documents and bidding guidance, secondary evidence from SRB programmes, and related policy areas. They keep in mind Foucault's warning that the dilemma of modern government is that 'if one governs too much one finishes by not being able to govern at all' (p. 2192). Their claim is that discourses of empowerment, social inclusion and active citizenship represent new forms of governmentalisation rather than greater autonomy for the people targeted by policy."
+   ]
+  },
+  {
+   "h": "Government through community",
+   "p": [
+    "Policy documents of the time present communities as both subjects and objects of policy (pp. 2192–2193). The Commission for Social Justice wanted to build local capacities so people could shape their own futures; ministers spoke of giving communities 'responsibility', 'skills and confidence' and 'power'. SRB bidders had to 'involve the community fully at all stages', on the assumption that place-based communities hold unique local knowledge without which policy fails (p. 2193).",
+    "The authors read this as a rescaling of government from society and the nation-state to community and locality (p. 2194). The local is given an ontological status: it is treated as the natural place where effective government happens. Ten percent of SRB funding had to go to community 'capacity building', and bids had to make capacity building a key objective (p. 2194). So community involvement was not optional but a funding requirement.",
+    "Behind the moral language of participatory democracy lies what the authors call 'directed self-government' (p. 2194). The SRB requires the marginalized and poor to act so that government becomes effective. Following Rose, they speak of 'communities of obligation': communities get more rights to define agendas but must accept wider responsibilities for implementing them. Community enterprises and credit unions are promoted precisely where services are 'unattractive to the private sector', so the SRB rests on discourses of public and private abandonment and echoes Thatcherite ideas of self-reliance (p. 2195).",
+    "Bids also had to fit national frameworks and 'add value' to other programmes, which places responsibility for policy coherence on recipients rather than policymakers (p. 2195). The result is an 'empowerment' that brings no quantitative increase in power for communities but 'a qualitative transformation of forms of subjectivity to make government work' (p. 2195). Conditionality dominates: communities must accept centrally defined parameters and act 'responsibly', which limits the emancipatory potential while the state's capacity to shape conduct grows (p. 2196)."
+   ]
+  },
+  {
+   "h": "Technologies of performance and the reshaping of expertise",
+   "p": [
+    "The second dimension concerns technologies of government (pp. 2196–2197). Responsibility is presented positively, as social connectedness ('Social responsibility is for all', in Blair's words), but it functions as a discourse of control. The key technique is spreading financial calculation and budgetary obligations into areas previously run by professional or bureaucratic norms. Bidders must address codified expert questions about quantified impacts, risk, financial management and monitoring. The authors summarize: 'Local subjects are given a little extra freedom in return for closer monitoring, scrutiny, and subjection to new discourses and the disciplines of external expertise' (p. 2197).",
+    "Evidence from Foley et al.'s evaluations shows surveillance replacing trust (pp. 2197–2198). SRB managers submit quantitative progress reports every three months against targets set in advance; as Foley et al. put it, 'An inspection mentality can start to dominate' (p. 2198). Accountability is vertical, toward funders, not horizontal toward communities, and monitoring data were used to check targets rather than to improve policy. Underperforming schemes risked intensive review or loss of funding, and project funding depended on rigorous appraisal (pp. 2198–2199).",
+    "Parallel disciplines apply to local authorities through 'Best Value', which presents itself as non-ideological empowerment of residents as consumers but works as disciplinary power from the centre (p. 2199). 'Best Practice' guidance adds peer review: bidders adjust to the scrutiny of other bidders, another form of government at a distance (pp. 2199–2200). Finally, expertise itself is reshaped (pp. 2200–2201). Community knowledge is formally privileged, yet communities are seen as lacking technical skill, so representatives are trained by professionals to implement government objectives and monitoring. Communities must build their own statistical baselines and milestones. Even professional experts become subordinated to performance mechanisms (p. 2201)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the authors want",
+   "p": [
+    "The authors conclude that a Foucauldian approach links the mentalities and actions of the population with the objectives and techniques of advanced liberal government (p. 2201). Urban policy illustrates the paradox that, in return for a little more freedom, subjects come under greater monitoring and surveillance. Rationalities of government and state sovereignty are not pregiven but constructed through techniques of government (p. 2201).",
+    "The SRB, in their summary, identifies and institutionalizes communities of action, gives them a minimum of competitively allocated resources, encourages local policies within rigid managerial frameworks, and reshapes expertise around cost minimization and the shifting of responsibility onto trained local representatives (p. 2202). Policy documents say little about local electoral accountability. They grant that policymakers may genuinely believe in empowerment, but argue that the frameworks are as much about control as about community mobilization.",
+    "The authors do not end in pure pessimism. If the art of government is politically constructed, it can also be reconstructed on different principles (p. 2202). Reflexive government may open space for a 'subpolitics' of identity and difference from which advanced liberalism can be challenged, and the balance of rights and responsibilities will be crucial to any future politics. Note that their evidence is mainly documentary and secondary; they do not present their own fieldwork on how communities experienced or resisted the SRB."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not the authors' claims. The theory is Foucauldian governmentality, the course's main example of a post-structuralist view of power: power is not held by a single sovereign state but works through discourses, techniques and the formation of subjects. This contrasts with Marxist readings (Harvey, Foglesong), where the state serves capital, and with rational choice or public administration models (Rydin's governmental models), where the state is a unitary actor pursuing goals.",
+    "On the course dimensions: the analysis stresses structure in a special sense; agency is real but produced and channeled by government. It focuses on reproduction: participation and empowerment reproduce central control rather than transforming it, though the conclusion leaves room for resistance. Governing appears deliberate at the level of programmes but diffuse in its effects. The knowledge claim is critical and situated in New Labour Britain. Normatively, the authors favour genuine local accountability. Useful contrasts: communicative or collaborative planning (Healey is quoted at the start) sees participation as empowering, whereas Raco and Imrie see it as a technology of government. Pruijt's cooptation of movements into service providers and Gurran and Ruming's 'regimes of truth' are close cousins of this argument."
+   ]
+  }
+ ],
+ "news": {
+  "t": "The Dutch 'uitdaagrecht' (right to challenge)",
+  "d": "The Wet versterking participatie op decentraal niveau (5 June 2024, Stb. 2024, 203) amended the Municipalities, Provinces and Water Boards Acts and entered into force on 1 January 2025. It obliges councils to set out participation rules in a participation ordinance and introduces the 'uitdaagrecht': residents and civil-society organisations can ask a municipality to hand over the execution of a task to them, possibly with the matching budget.",
+  "why": "Read through Raco and Imrie, this is governmentality in legal form: a 'rights and responsibilities' programme that frames citizens as active, self-governing communities who can take over public tasks, while the municipality keeps the rules, the budget and the judgement of whether the challenge succeeds (governing at a distance). The ordinance works like their technologies of government: participation becomes a formal, calculable obligation rather than a transfer of power. Limit: the law is enabling, not a competitive bidding regime like the SRB with quarterly targets and funding cuts, so the audit and surveillance side is much weaker so far.",
+  "src": {
+   "name": "Nederlands Juristenblad (NJB)",
+   "title": "Participatieverordening en uitdaagrecht (Stb. 2024, 203)",
+   "url": "https://www.njb.nl/wetgeving/staatsbladen/participatieverordening-en-uitdaagrecht/",
+   "date": "2024-06"
+  }
+ }
+}

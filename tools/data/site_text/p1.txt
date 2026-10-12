@@ -1,0 +1,570 @@
+{
+ "id": "p1",
+ "n": 1,
+ "theme": 1,
+ "title": "Perspectives on sustainability",
+ "who": "Shaun Smith",
+ "slides": true,
+ "lecture": [
+  "From 1962–72 (the foundational decade) to Brundtland (1987): sustainable development meets present needs without compromising future generations. Its aim was political (consensus), with not absolute limits but limits of current technology and social organisation. It remained, in essence, a pro-growth agenda. Today: planetary boundaries (Rockström, Steffen, Richardson).",
+  "Weak vs strong sustainability: weak (neo-classical, Solow) assumes natural and other capitals are substitutable; strong assumes they are complementary, not interchangeable (planetary boundaries). The conventional three-pillar/Venn view is from Purvis et al.",
+  "Dilemma: 'sufficiently vague'. Daly: sustainable development was left vague on purpose to build consensus; growth (getting bigger) ≠ development (getting better); three rules (renewables not faster than regrowth; non-renewables not faster than substitutes; waste not faster than absorption). Swyngedouw (2010): sustainability as post-political: 'impossible not to support', can be captured by incumbents, and it closes off the political question of which natures we want.",
+  "Strategies (Huber, via Rudolf & Schmidt 2025): efficiency (tech gains per unit), sufficiency ('seeking enough when more is possible', Princen), consistency (qualitative change in industrial metabolism, mimicking natural cycles). Social sustainability is neglected and messy: Vallance et al. (2011) name development, bridge and maintenance sustainability.",
+  "Næss (2001): the first paper on sustainable development in urban planning. Planning orthodoxy (communicative turn) can neglect substantive content; he is somewhat sympathetic to the compact city; argues for per-capita degrowth of building stock; the city in ecology (non-local consequences). Form vs process (Neuman): 'the primacy of process over form'."
+ ],
+ "man": {
+  "cite": "Næss, P. (2001). Urban Planning and Sustainable Development. European Planning Studies 9(4), 503–524.",
+  "status": "full",
+  "one": "Truly sustainable urban development needs far more ambitious policy than today, and continuous growth of the building stock in rich countries is incompatible with it. So planning must hold substantive long-term goals and build alliances with supporters of equity and environmental values, rather than seek consensus with everyone.",
+  "summary": [
+   "'If sustainability is everything, maybe it's nothing?' Procedural planning theory is detached from substance; for sustainability that is inappropriate, because suitable procedures depend on the goals (bottom-up works if local lifestyles fit the goals, not if they are the problem).",
+   "Substantively: limit energy use, pollution and loss of natural and arable land. Re-use urban areas and densify (compact city) as a strategy, but continuous growth of floor space per capita undermines it, so per-capita building stock must stop growing in wealthy countries (Brundtland's global equity).",
+   "Procedurally: use knowledge of environmental consequences and long-term goals, but not only means-ends rationality. He criticises consensus-based communicative planning (a consensus criterion for truth is problematic for environmental knowledge) and proposes scenarios and alliance-building among groups that support the basic equity and environmental values."
+  ],
+  "concepts": [
+   [
+    "Substantive vs procedural planning theory",
+    "What planning should achieve vs how it should proceed; Næss wants substance back."
+   ],
+   [
+    "Compact city",
+    "Densification/re-use to save land and reduce travel; a means, not a guarantee."
+   ],
+   [
+    "Per-capita degrowth of building stock",
+    "Growth in floor space cancels out efficiency gains."
+   ],
+   [
+    "Alliance-building",
+    "Coalitions with supporters of sustainability values instead of all-stakeholder consensus."
+   ]
+  ],
+  "quotes": [
+   "\"Rather than aiming at consensus including all stakeholder groups, planning for sustainability should facilitate alliance-building among those population groups who can support the basic equity and environmental values of a sustainable development.\""
+  ],
+  "examples": [
+   {
+    "t": "Greater Oslo travel gradient",
+    "d": "Survey data from Greater Oslo show that residents living further from downtown travel more by motorised modes, even after controlling for socio-economic factors (Figure 1). Næss uses this to back the compact city as the most energy-conscious urban form, a substantive planning goal rather than a procedural one.",
+    "src": "text",
+    "p": "pp. 508-509"
+   },
+   {
+    "t": "Nordic floor space doubled",
+    "d": "Each Norwegian and Dane has on average more than 50 m² of residential floor area, twice as much as 30 to 35 years earlier and about 70% more than affluent Japan. This is his core case for per-capita degrowth of the building stock: efficiency gains in new buildings are cancelled out by ever more floor space.",
+    "src": "text",
+    "p": "p. 512"
+   },
+   {
+    "t": "NAMIT trend vs environmental scenario",
+    "d": "The Norwegian research project 'Environmentally Sound Urban Development' (NAMIT) compared a 'trend' and an 'environmental' scenario for three urban areas; its dissemination raised planners' awareness and probably contributed to less sprawling development in Norway in the 1990s. It illustrates his proposal of scenarios as a way to make long-term sustainability goals concrete and debatable.",
+    "src": "text",
+    "p": "p. 519"
+   },
+   {
+    "t": "Aalborg: power beats good plans",
+    "d": "Næss cites Flyvbjerg's study of a prize-winning environmental project in Aalborg whose implementation was distorted, concluding that planners need influential alliance partners and strategic skills. This is why he prefers alliance-building among supporters of sustainability over consensus with all stakeholders, including those who profit from unsustainable development.",
+    "src": "text",
+    "p": "p. 519"
+   }
+  ],
+  "ext": [
+   {
+    "h": "What the article asks and why",
+    "p": [
+     "Petter Næss wrote this paper in 2000, when 'sustainable development' had become part of everyday planning vocabulary but planning theory itself hardly engaged with it. His starting observation is that there were many texts about the physical shape of sustainable cities, and many texts about planning procedures, but very few that connected the two. Procedural planning theory (theory about how planning should be done: who participates, how decisions are reached) tended to stay detached from the substance of what planning deals with (p. 503). For sustainability, Næss argues, that separation is especially inappropriate, because the right procedure depends on the goal. If the goals fit local residents' lifestyles, bottom-up planning may work; if those lifestyles are themselves a main part of the problem, it will not (p. 504).",
+     "The paper therefore does two things in one argument. First it asks what a sustainable urban development would substantively require in a wealthy country. Then it asks which planning procedures could deliver that, and which cannot. His answer to the first question is demanding (much less energy use, much less land take, and an end to growth in floor space per person). His answer to the second is critical of the dominant communicative and consensus-based planning theory of the 1990s, and ends in a plea for goal-oriented planning and alliance-building."
+    ]
+   },
+   {
+    "h": "A concept at risk of being watered down",
+    "p": [
+     "Section 1 is a warning about the word itself. Because so many strategies and projects now claim to follow from sustainable development, Næss turns the Norwegian saying around: 'a pet name gets many children' (p. 504). His diagnosis is sharp: 'It has become politically impossible not to be a supporter of a sustainable development, so there is a clear danger that the concept will be watered out' (p. 504).",
+     "He reads the Brundtland discourse as originally a counter-discourse to the dominant growth discourse in industrial countries. A dominant discourse can defend its hegemony by de-radicalising and redefining the challenger (Van Dijk), and Næss sees attempts to stretch sustainable development to cover all kinds of extra concerns as an example of that (p. 504). In a note he makes this concrete: Campbell's (1996) triangle places economic growth as one pole of sustainability on the same level as equity and environment, whereas Brundtland treated growth only as a possible means, and only if its content changes (note 4, p. 520). So Næss deliberately sticks to a narrow, Brundtland-based reading."
+    ]
+   },
+   {
+    "h": "What Brundtland actually demands",
+    "p": [
+     "Section 2 sets out that reading. Sustainable development combines ethical norms of welfare, distribution and democracy with the recognition that nature's capacity to absorb human pressure is limited (p. 504). The core is meeting everybody's basic needs (food, water, clothes, shelter, work, energy, hygiene), in poor and rich countries, now and in the future, without jeopardising the natural systems life depends on, and through democratic and legitimate decisions.",
+     "Næss draws out two implications (p. 505). Present generations must limit their encroachments on nature and their use of non-renewable resources. And if poor countries need more material consumption to meet basic needs, rich countries must consume less so that the total environmental load stays within limits. Sustainable development therefore contains a strong element of distributive ethics: fairness across generations and across space (p. 505). He also notes that Brundtland mentions nature's intrinsic value and demands democratic procedures, support for grassroots initiatives and stronger local democracy, echoed in Agenda 21. Keep this last point in mind: later he will argue that it does not mean handing all decisions to local communities."
+    ]
+   },
+   {
+    "h": "Five substantive criteria for sustainable spatial planning",
+    "p": [
+     "Section 3 translates the concept into criteria for land use, buildings and infrastructure. Næss stresses that the task differs by context: in poor countries improving housing and hygiene is central, while in wealthy regions the key task is to reduce the per capita use of natural and environmental resources (p. 505). From the literature he distils five elements: (1) cut energy use and emissions per person to a level compatible with global ecological and distributional criteria; (2) minimise conversion of natural areas, ecosystems and farmland; (3) minimise environmentally harmful building materials; (4) replace open-ended resource flows with closed loops relying more on local resources; (5) a healthy urban environment with enough green space for people to experience nature (p. 506).",
+     "He argues each point briefly. On energy, the UN climate panel's suggested 60% global cut in CO2 would, with a rise in consumption in developing countries, require industrial countries to cut considerably more than 60%; renewables alone cannot do it, so a 'low-energy future' is needed (p. 506). Farmland matters because a growing world population will limit Europe's food imports (pp. 506–507).",
+     "He then notes that the criteria can conflict because they reflect two focal points: 'ecology within the city' (parks, clean air and water for residents' health) and the 'city in ecology' (the city as part of the larger ecosystem, with ecological footprints far beyond its hinterland) (p. 507). Brundtland, he says, requires planners to add the second perspective to the first."
+    ]
+   },
+   {
+    "h": "Compact city, green city or no city at all?",
+    "p": [
+     "Section 4 compares the competing urban models. In Norway, Britain and Germany the debate converged on the 'compact city': meet future needs mainly by densifying inside existing urban boundaries. In Denmark, the Netherlands and partly Sweden, the focus was on local cycles of water, sewage and food, which leads to the 'green city' with a more open, mosaic-like structure and growth by spatial extension. Some went further and rejected cities altogether in favour of rural eco-villages (pp. 507–508).",
+     "Næss weighs these against his five criteria and comes down clearly on the side of concentrated, land-saving structures. Dense patterns shorten distances and support public transport and cycling; Oslo data show inner-city residents travel much less by car than outer-area residents even after controlling for socio-economic differences (Figure 1, p. 508); apartments and row houses need less heating per square metre than detached houses (p. 508); and densification converts less nature and farmland (p. 509). Building more roads to relieve congestion simply attracts more car commuting (p. 508).",
+     "This is not a plea for a solid 'core city' without green wedges: Frey's figure of about 60 persons per hectare at district level is enough to support local services within walking distance, and at the metropolitan scale some green structure is needed (p. 510). But the dispersed green city neglects energy use and land take, and its supporters seem to use sustainability arguments selectively, dressing up older landscape-aesthetic and decentralist ideals (p. 511). The eco-village model he dismisses as unrealistic: what would happen to French ecosystems 'if all Parisians moved out to settle in dispersed eco-villages?' (p. 511)."
+    ]
+   },
+   {
+    "h": "Why efficiency and re-use are not enough",
+    "p": [
+     "Section 5 is the most radical part and the reason the paper is still cited. Suppose planners do everything right: no more sprawl, no more road capacity, most construction inside existing boundaries near the centre. The question remains whether that is sufficient 'as long as the building stock continues to grow' (p. 511). Næss's answer is no. Even if each new building is greener, the total load of the stock rises as it grows: more volume to heat, more materials. New green buildings are only favourable in a relative sense (compared with worse options), unless they replace worse ones (p. 511).",
+     "He then gives the numbers. Floor area per person has grown steadily since the Second World War, mainly because dwellings got larger while households got smaller. Norwegians and Danes each have more than 50 square metres of residential floor area, twice as much as 30–35 years earlier and about 70% more than in affluent Japan (p. 512). He asks whether it can be ethically defended to keep raising this level when, for the planet's sake, we must hope poor countries never reach it.",
+     "His proposal is 'selective standard improvement' under a national ceiling on resource use (p. 512). Some new dwellings are still needed for population growth, smaller households and people in substandard housing. But then more floor space for people who already live spaciously competes directly with housing for those who lack it. The old route of raising low-income standards by letting the affluent move up and freeing cheaper homes (filtering) no longer works in a resource-limited world."
+    ]
+   },
+   {
+    "h": "Which planning procedures can deliver this?",
+    "p": [
+     "Section 6 turns to procedural theory. He first repeats that the few authors who discuss planning procedures and sustainability rarely say what sustainable planning should achieve, and often assume that sustainability goals fit local residents' lifestyles and views, which in affluent societies will hardly be the case (p. 512). Næss's starting point is that in affluent societies sustainability requires cutting activities that make individual life more convenient, enjoyable or prestigious (p. 513), so goals will clash with prevailing lifestyles. He then examines the main planning models in turn.",
+     "Unbridled markets cannot do the job, because they do not deal with externalities (costs shifted onto others or the environment, such as pollution) or with fair distribution (p. 513). Incrementalism (Lindblom's 'muddling through', choosing options close to current practice) is also insufficient: if current practice is unsustainable, none of the small steps will change course, radical alternatives never get discussed, and trial-and-error is dangerous when interventions in nature are irreversible (p. 513). Planning must therefore be goal-oriented. But the rational-comprehensive model, which is best at linking means to explicit goals, has its own problems: it shares modernism's technological optimism, neglects lay knowledge, leans on cost-benefit analysis that ignores what cannot be priced, and its utilitarian logic risks 'majority tyranny' over minorities (pp. 513–514).",
+     "Communicative planning (Healey's collaborative planning, Innes's consensus-building) gets the most attention. Its belief that dialogue can turn conflicts into win-win situations and that tasks are 'discovered' in communication (Healey, quoted p. 514) is a poor fit for sustainability, because 'a sustainable development is to a high extent a matter of redistributing consumption levels from us who live here and now to those who live there and then' (p. 515). A green, globally fair land use will not emerge spontaneously from the grassroots of rich countries. Local communities also face a 'prisoner's dilemma': why cut emissions if neighbours do not? That calls for coordination at higher scales, so local planning should work within frames set to include non-local consequences (p. 515)."
+    ]
+   },
+   {
+    "h": "Knowledge, power and the limits of consensus",
+    "p": [
+     "Næss adds two further objections to consensus-based planning. The first is about knowledge. Communicative theory tends to treat valid knowledge as whatever participants agree on. For ecological facts that fails: 'If the members of a local planning committee agree on the statement that car traffic does not represent any environmental problem, this conclusion will not for that reason be true!' (p. 516). And when planners step back from goals and expert knowledge, the vacuum is not filled by residents' everyday knowledge; it is filled by the experts of banks, developers and road builders, so expertise ends up serving only those who can pay for it (p. 516). He wants expert and lay knowledge combined, across natural, technical, social and human sciences.",
+     "The second objection is about power. Current unsustainable development is no accident: some actors want it because it produces profit and growth. A model that does not accept the right of a majority to decide against a minority's interests is poorly suited to confront those actors (p. 517), especially since keeping consumption within limits would sharpen class conflicts over distribution. Here Næss joins the critics (Flyvbjerg, Tewdwr-Jones and Allmendinger) who call collaborative planning naive about power. Note the tension with his earlier worry about 'majority tyranny': he wants majorities able to overrule privileged interests, but minorities' vital interests protected."
+    ]
+   },
+   {
+    "h": "What planners can do now",
+    "p": [
+     "Section 7 is practical. Næss admits there is little political support for ambitious sustainability policy in any European country, and that outside pressure (for example a tougher Kyoto follow-up) might help (p. 517). Still, planners can act: assess the consequences of alternatives against sustainability criteria, especially energy and biodiversity, and share that with politicians and the public; draw up sustainable alternatives themselves and start a debate about them; and use their municipality's official sustainability goals or national goals to legitimise this (p. 517).",
+     "Because planners who expose the unsustainable plans of powerful groups risk being called disloyal or even fired, he proposes legislation requiring impact analysis and public monitoring of strategic plans against sustainability indicators, for more transparency and accountability (pp. 517–518). He rejects the opposition 'participatory democracy good, representative democracy bad': deliberation (amalgamating arguments) and voting (aggregating preferences) should be combined across arenas, from neighbourhood meetings to the council, sometimes with a referendum (p. 518). Following Forester, planners should counter 'distorted communication' and 'contain the strong and empower the weak', or participation brings 'more power to the powerful' (p. 518)."
+    ]
+   },
+   {
+    "h": "Conclusions: scenarios and alliance-building",
+    "p": [
+     "The final section offers two tools. Scenarios can make abstract, long-term and global issues tangible by contrasting principally different strategies; the Norwegian NAMIT project's 'trend' versus 'environmental' scenarios raised awareness among planners and probably contributed to less sprawling development in Norway in the 1990s (p. 519). Developed in interdisciplinary groups, scenarios make planning a learning process and can reveal both shared interests and fundamental antagonisms.",
+     "Alliance-building is the second and main tool. Oil companies will not join a consensus to restrict cars, and business coalitions with leading politicians often block environmental policy (Flyvbjerg's Aalborg study; Logan and Molotch's growth machine) (p. 519). Growth coalitions already use alliance-building; Næss wants planners to do the same for sustainability. 'In my opinion, aiming to achieve consensus among all stakeholders is futile' (p. 520). Consensus is possible, and useful, within groups that share basic values and have no stake in the most harmful sectors, making them stronger against their opponents. His hope is modest: open, well-informed processes might build strategies for ecological sustainability and social justice with enough support to withstand those who profit from the status quo."
+    ]
+   },
+   {
+    "h": "Connecting it to the course",
+    "p": [
+     "This section is my synthesis, not Næss's own claims. In lecture 1 Næss appears as the first paper to bring sustainable development into urban planning, and the slides highlight his 'city in ecology' and per-capita degrowth of the building stock. His position lines up with strong sustainability on the slides: nature sets limits that efficiency cannot buy away, which is why he insists that greener new buildings are only relatively better. In Huber's triad (efficiency, sufficiency, consistency) Næss clearly adds sufficiency on top of efficiency, long before the post-growth literature. His warning that everyone must support sustainability anticipates Swyngedouw's post-political critique, which the slide even attributes partly to him.",
+     "On the course dimensions: Næss is strongly normative and substantive, a realist about knowledge (ecological facts are not settled by agreement), and pluralist only within limits (conflict is real, so alliances rather than universal consensus). He leans towards deliberate, goal-oriented steering and transformation, but grounded in agency: planners' ideas and skills matter even within institutional constraints. His note on Campbell (lecture 3) is a useful exam contrast: Campbell treats growth as one legitimate corner of the triangle and looks for conflict resolution; Næss denies growth that status and prefers taking sides. Angelo and Wachsmuth (lecture 2) later ask why the compact city became common sense; Næss is one of the voices that built that case, though he adds that compactness without sufficiency is not enough."
+    ]
+   }
+  ],
+  "news": {
+   "t": "Dutch floor space per person keeps growing",
+   "d": "CBS reported in September 2026 that on 1 January 2026 the average Dutch resident had 55 m² of living floor area, 2 m² more than ten years earlier. Single-person households have 87 m² per person against 40 m² in families with children, and people aged 70+ gained about 3 m² over the decade.",
+   "why": "Read through Næss, this is the per-capita growth of the building stock he says rich countries must stop: the Netherlands is already above the 50 m² he flagged for Norway and Denmark, and still rising. It shows why efficiency gains in new homes are eaten up by more floor space per person (shrinking households, ageing in large homes). Limit: CBS measures floor area per resident, not energy use or land take, so the climate effect is an inference.",
+   "src": {
+    "name": "CBS",
+    "title": "Gemiddelde woonoppervlakte neemt toe met 2 m² in 10 jaar",
+    "url": "https://www.cbs.nl/nl-nl/nieuws/2026/39/gemiddelde-woonoppervlakte-neemt-toe-met-2-m-in-10-jaar",
+    "date": "2026-09-21"
+   }
+  }
+ },
+ "fig": "[SVG figure; labels: Weak sustainability | Strong sustainability | \n  | economy | society | nature | capitals substitutable (Solow) | \n  | nature / planetary boundaries | society | economy | nested: not interchangeable]",
+ "cap": "Three-pillar Venn (conventional, Purvis et al.) vs nested strong sustainability.",
+ "rec": [
+  {
+   "cite": "Purvis, Mao & Robinson (2019). Three pillars of sustainability: in search of conceptual origins. Sustainability Science 14.",
+   "basis": "Abstract retrieved",
+   "abs": "The three-pillar (social–economic–environmental) Venn model is everywhere, but it has no single origin. It emerged gradually from social and ecological critiques of growth plus UN efforts to reconcile growth with social and environmental concerns (Barbier 1987 drew an early three-system diagram). 'Nowhere have we found a theoretically rigorous description of the three pillars', which frustrates rigorous operationalisation.",
+   "slides": "L1: the source of the 'conventional view' slide, and the quote that sustainability is 'an open concept with myriad interpretations and context-specific understanding'."
+  },
+  {
+   "cite": "Rudolf & Schmidt (2025). Efficiency, sufficiency and consistency in sustainable development. Ecological Economics 227.",
+   "basis": "Abstract retrieved",
+   "abs": "Humanity's dilemma: meeting human needs endangers the natural basis of life. The three strategies are poorly distinguished, so people disagree about which to pursue. A graphical classification by effect on consumption and environmental impact shows the limited long-run effects of efficiency and sufficiency, and the promise of consistency as systemic change (energy transition, circular economy).",
+   "slides": "L1: three slides define the strategies (from Joseph Huber). Efficiency = resource/energy gains per unit via technology; sufficiency = 'self-limitation of material needs and an egalitarian distribution', 'seeking enough when more is possible' (Princen 2005); consistency = qualitative change in industrial metabolism via fundamental innovations."
+  }
+ ],
+ "exam": "Comprehension: define weak vs strong sustainability, or the three strategies. Essay: 'Is sustainable development too vague to guide planning?' Use Daly, Swyngedouw (post-political), Purvis (no rigorous theory) and Næss (substance + alliances).",
+ "table": {
+  "head": [
+   "Planning approach",
+   "What it offers",
+   "Why Næss finds it insufficient for sustainability"
+  ],
+  "rows": [
+   [
+    "Unbridled market",
+    "Efficient allocation of private goods",
+    "Cannot handle externalities such as pollution, nor secure fair distribution (p. 513)"
+   ],
+   [
+    "Incrementalism (Lindblom)",
+    "Small steps; quick learning from experience",
+    "Stays close to an unsustainable status quo; radical alternatives never discussed; risky for irreversible loss of nature (p. 513)"
+   ],
+   [
+    "Rational-comprehensive",
+    "Goal-oriented; links means to explicit ends",
+    "Technology optimism, neglect of lay knowledge, cost-benefit bias, utilitarian 'majority tyranny' (pp. 513–514)"
+   ],
+   [
+    "Communicative / consensus-building (Healey, Innes)",
+    "Participation, dialogue, local knowledge",
+    "Rich-country grassroots won't redistribute consumption; consensus is no test of ecological truth; naive about power (pp. 514–517)"
+   ],
+   [
+    "Næss's alternative",
+    "Goal-oriented planning with impact analysis, deliberation plus voting, scenarios, alliance-building",
+    "Accepts real conflict: seeks consensus only among groups sharing equity and environmental values (pp. 517–520)"
+   ]
+  ]
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "1962–1972: the foundational decade",
+    "svg": "[SVG figure; labels: foundational decade | 1962 | Silent Spring (Carson) | 1968 | The Population Bomb (Ehrlich) | 1972 | Blueprint for Survival (The Ecologist) | The Limits to Growth | Small is Beautiful (Schumacher, 1973)]",
+    "cap": "The five book covers on the slide, placed on a timeline (publication years added). Together they set up the 'limits' framing that Brundtland (1987) later softened into limits of technology and social organisation.",
+    "slide": "PSC L1 slide 15"
+   },
+   {
+    "title": "Planetary boundaries: assessed vs crossed",
+    "svg": "[SVG figure; labels: 2009 | 2015 | 2023 | 2025 | boundaries assessed (of 9) | boundaries crossed | Rockström et al. 2009, Steffen et al. 2015, Richardson et al. 2023; Stockholm Resilience Centre 2025]",
+    "cap": "The slide's four planetary-boundary diagrams reduced to their message: more boundaries can be quantified over time, and more are crossed (3 → 4 → 6 → 7). Unlike Brundtland's relative limits, these are global biophysical limits.",
+    "slide": "PSC L1 slide 19"
+   },
+   {
+    "title": "Dutch consumption footprints vs GDP (2010 = 100)",
+    "svg": "[SVG figure; labels: 50 | 75 | 100 | 125 | 2010 | 2012 | 2014 | 2016 | 2018 | 2020 | 2022 | GDP | land use (dashed) | GHG, biodiversity | Consumption footprints of the Dutch economy (CBS 2025) | shape and values approximate, read from the slide; 2022 provisional]",
+    "cap": "Relative decoupling: GDP grows (index about 120+ by 2022) while the greenhouse gas, land-use and biodiversity footprints fall to roughly 80–85, with GHG and biodiversity rising again after 2021. The absolute footprints stay far beyond the country's own land area (see point).",
+    "slide": "PSC L1 slide 5"
+   },
+   {
+    "title": "Deaths linked to air pollution in the EU, 2023 (top 7)",
+    "svg": "[SVG figure; labels: Deaths attributable to long-term PM2.5 exposure, 2023 (EEA) | #1 Italy | 43,083 | #2 Poland | 25,268 | #3 Germany | 21,640 | #4 France | 14,741 | #5 Romania | 14,065 | #6 Spain | 13,317 | #7 Greece | 10,249 | … #27: 34]",
+    "cap": "Top of the slide's ranking of 27 EU countries (countries identified from the flags). The #11 bar, 3,847 deaths, carries a red-white-blue flag, apparently the Netherlands; the lowest is 34. Used in the intro as evidence that cities are not yet sustainable.",
+    "slide": "PSC L1 slide 6"
+   },
+   {
+    "title": "The efficiency paradox (rebound effect)",
+    "svg": "[SVG figure; labels: Fuel-efficient | car | Lower petrol | bills | Holiday | in Fiji | Lower running | costs | Drive further, | more often | More energy | More energy | The efficiency paradox | top: indirect rebound · bottom: direct rebound]",
+    "cap": "Graphic by Ben Godden on the slide 'Direct and indirect impacts of the rebound effect': savings from efficiency are spent on more energy use, so efficiency alone may not cut total consumption, which is why sufficiency follows.",
+    "slide": "PSC L1 slide 29"
+   },
+   {
+    "title": "Sufficiency: the consumption corridor",
+    "svg": "[SVG figure; labels: Resource | consumption | Consumption corridor | 'seeking enough when more is possible' | Maximum consumption standard | above: planetary boundaries exceeded | Minimum consumption standard | below: protected needs not satisfied]",
+    "cap": "Diagram on the sufficiency slide (quote from Princen, The Logic of Sufficiency, 2005): a good life lies between a floor that satisfies everyone's needs and a ceiling set by planetary boundaries.",
+    "slide": "PSC L1 slide 30"
+   }
+  ],
+  "tables": [
+   {
+    "title": "Course structure: the learning arch",
+    "head": [
+     "Theme 1: Planning dilemmas",
+     "Theme 2: Spatialising planning for sustainability",
+     "Theme 3: Planning approaches for sustainable cities"
+    ],
+    "rows": [
+     [
+      "Perspectives on sustainability",
+      "Dutch planning system (case study: Fight, flight or freeze? Governing the future of Moerdijk)",
+      "Urban sustainability transitions"
+     ],
+     [
+      "Are cities sustainable?",
+      "Planning for sustainability in African cities",
+      "Urban experimentation and co-creation"
+     ],
+     [
+      "Sustainability: a planning dilemma",
+      "Planning for sustainability in Chinese cities",
+      "Digital planning for sustainable urban futures"
+     ],
+     [
+      "",
+      "",
+      "Artificial intelligence, planning and sustainability"
+     ],
+     [
+      "",
+      "",
+      "Planning for post-growth cities"
+     ],
+     [
+      "",
+      "",
+      "Planning with nature: history, principles and urban futures"
+     ]
+    ],
+    "slide": "PSC L1 slides 9–10"
+   },
+   {
+    "title": "What happened in the Brundtland Commission's 900 days (Oct 1984–Apr 1987)",
+    "head": [
+     "Event",
+     "Toll on the slide"
+    ],
+    "rows": [
+     [
+      "Drought-triggered environment-development crisis in Africa",
+      "36 million people at risk; perhaps a million killed"
+     ],
+     [
+      "Pesticides factory leak, Bhopal (India)",
+      "More than 2,000 killed; over 200,000 blinded and injured"
+     ],
+     [
+      "Liquid gas tanks exploded, Mexico City",
+      "1,000 killed; thousands left homeless"
+     ],
+     [
+      "Chernobyl nuclear reactor explosion",
+      "Fallout across Europe; higher risk of future cancers"
+     ],
+     [
+      "Warehouse fire in Switzerland: agricultural chemicals, solvents and mercury into the Rhine",
+      "Millions of fish killed; drinking water threatened in West Germany and the Netherlands"
+     ],
+     [
+      "Diarrhoeal diseases from unsafe drinking water and malnutrition",
+      "An estimated 60 million dead, most of them children"
+     ]
+    ],
+    "slide": "PSC L1 slide 18"
+   },
+   {
+    "title": "Efficiency, consistency, sufficiency by sector (Rudolf & Schmidt 2025)",
+    "head": [
+     "Sector",
+     "Efficiency (IAM: efficiency)",
+     "Consistency (IAM: technological substitution)",
+     "Sufficiency (IAM: lifestyle change)"
+    ],
+    "rows": [
+     [
+      "Transport",
+      "Fuel-efficient vehicles",
+      "Electric vehicles",
+      "Public transport; tele-conferencing"
+     ],
+     [
+      "Residential",
+      "Energy-efficient products",
+      "Micro-generation",
+      "Thermostat adjustment; tiny house"
+     ],
+     [
+      "Food",
+      "Efficient food production",
+      "Local products",
+      "Sustainable, healthy diet"
+     ],
+     [
+      "Consumer goods & services",
+      "Efficient supply chain",
+      "Purchase sustainable goods",
+      "Sustainable use of goods; sharing economy"
+     ]
+    ],
+    "slide": "PSC L1 slide 27"
+   },
+   {
+    "title": "Three kinds of social sustainability (Vallance et al. 2011)",
+    "head": [
+     "Type",
+     "Focus"
+    ],
+    "rows": [
+     [
+      "Development sustainability",
+      "Addressing basic needs, justice and equity"
+     ],
+     [
+      "Bridge sustainability",
+      "Change in social behaviour to achieve bio-physical (environmental) goals"
+     ],
+     [
+      "Maintenance sustainability",
+      "Preservation of socio-cultural characteristics"
+     ]
+    ],
+    "slide": "PSC L1 slide 32"
+   },
+   {
+    "title": "Compact city characteristics (Neuman, 'The Compact City Fallacy', Table 2)",
+    "head": [
+     "#",
+     "Characteristic"
+    ],
+    "rows": [
+     [
+      "1",
+      "High residential and employment densities"
+     ],
+     [
+      "2",
+      "Mixture of land uses"
+     ],
+     [
+      "3",
+      "Fine grain of land uses (proximity of varied uses and small relative size of land parcels)"
+     ],
+     [
+      "4",
+      "Increased social and economic interactions"
+     ],
+     [
+      "5",
+      "Contiguous development (some parcels or structures may be vacant or abandoned or surface parking)"
+     ],
+     [
+      "6",
+      "Contained urban development, demarcated by legible limits"
+     ],
+     [
+      "7",
+      "Urban infrastructure, especially sewerage and water mains"
+     ],
+     [
+      "8",
+      "Multimodal transportation"
+     ],
+     [
+      "9",
+      "High degrees of accessibility: local/regional"
+     ],
+     [
+      "10",
+      "High degrees of street connectivity (internal/external), including sidewalks and bicycle lanes"
+     ],
+     [
+      "11",
+      "High degree of impervious surface coverage"
+     ],
+     [
+      "12",
+      "Low open-space ratio"
+     ],
+     [
+      "13",
+      "Unitary control of planning of land development, or closely coordinated control"
+     ],
+     [
+      "14",
+      "Sufficient government fiscal capacity to finance urban facilities and infrastructure"
+     ]
+    ],
+    "slide": "PSC L1 slide 36"
+   }
+  ],
+  "points": [
+   {
+    "t": "Income inequality across Dutch municipalities",
+    "d": "A CBS map of the Gini coefficient by municipality (2022, provisional) uses five classes from below 0.24 to 0.30 or more. The most unequal municipalities cluster in the western Randstad, while much of the north and east is in the lowest classes.",
+    "slide": "PSC L1 slide 3"
+   },
+   {
+    "t": "Income disparities within cities (PBL 2016)",
+    "d": "PBL's 'Cities in the Netherlands' maps income per person and the share of residents with a non-western background in Amsterdam, The Hague and Arnhem. Rich households occupy Amsterdam's historic centre and Oud-Zuid, The Hague's high sandy ground near the coast (the traditional 'sand and peat divide': Duinoord, Statenkwartier, Archipelbuurt) and Arnhem's northern edge near the Veluwe; the second set of maps shows roughly the reverse pattern.",
+    "slide": "PSC L1 slide 4"
+   },
+   {
+    "t": "The Dutch footprint in numbers (CBS 2025)",
+    "d": "Greenhouse gas footprint: 239 Mt CO₂-equivalent in 2022, or 13.5 thousand kg per person, smaller since 2010 but growing again from 2021. Land-use footprint: 13 million ha in 2022 (0.7 ha per person), three times the land area of the Netherlands. Biodiversity footprint: over 18 million ha in 2021, more than four times the country's size.",
+    "slide": "PSC L1 slide 5"
+   },
+   {
+    "t": "Opening quote (Yigitcanlar & Teriman 2015)",
+    "d": "\"The concept of sustainable urban development has been around over a considerably long time … however, to date such development has not been achieved in large scales anywhere around the globe\"",
+    "slide": "PSC L1 slide 7"
+   },
+   {
+    "t": "Why 'dilemma'",
+    "d": "The course frames sustainability as a dilemma, defined on the slide as 'a situation in which a difficult choice has to be made between two or more alternatives, especially ones that are equally undesirable.'",
+    "slide": "PSC L1 slide 8"
+   },
+   {
+    "t": "Teachers",
+    "d": "Shaun Smith (assistant professor, coordinator; urban energy transitions, African cities), Yanliu Lin (associate professor in spatial planning and digitalisation; digital planning/governance, collaborative planning, planning support science) and Niki Frantzeskaki (chair professor of regional and metropolitan governance and planning; urban transitions and transformations, climate adaptation, nature-based solutions).",
+    "slide": "PSC L1 slide 11"
+   },
+   {
+    "t": "Assessment",
+    "d": "(1) Portfolio of 4,700 words built up through the course, deadline 6 November. (2) One group presentation at the end of an allocated lecture, based on that session's mandatory reading. (3) Written exam on university laptops with two question types: comprehension and an essay.",
+    "slide": "PSC L1 slide 12"
+   },
+   {
+    "t": "Brundtland quote on limits",
+    "d": "\"The concept of sustainable development does imply limits - not absolute limits but limitations imposed by the present state of technology and social organization on environmental resources and by the ability of the biosphere to absorb the effects of human activities\" (WCED 1987)",
+    "slide": "PSC L1 slide 17"
+   },
+   {
+    "t": "Three ways to draw sustainability (Purvis et al. 2019)",
+    "d": "The 'conventional view' slide shows three depictions: three intersecting circles (social, environment, economic, 'sustainable' in the middle), literal pillars holding up 'sustainability', and concentric circles with the economy inside society inside the environment.",
+    "slide": "PSC L1 slide 20"
+   },
+   {
+    "t": "Weak sustainability: who and when",
+    "d": "Weak sustainability stems from neo-classical economics in the 1970s (the slide names Robert Solow and 'John Kawrick', i.e. John Hartwick) and presumes that social and natural capitals are (necessarily) interchangeable. The slide on weak vs strong is illustrated with the Antarctic ozone hole, an example of a biophysical limit.",
+    "slide": "PSC L1 slide 21"
+   },
+   {
+    "t": "Weak sustainability example: Norway",
+    "d": "Headlines 'Norway's growing $2 trillion oil empire' (the oil fund's market value since inception) next to 'Oslo Is Ranked One Of The Most Sustainable Cities In The World': a green capital financed by fossil-fuel wealth, i.e. natural capital converted into financial capital.",
+    "slide": "PSC L1 slide 22"
+   },
+   {
+    "t": "Daly: vague on purpose",
+    "d": "Daly (1996, Beyond Growth) argued sustainable development was left intentionally vague to build consensus, including among actors with diverse interests such as business leaders and environmental campaigners.",
+    "slide": "PSC L1 slide 23"
+   },
+   {
+    "t": "Volkswagen and the failure of CSR",
+    "d": "A Forbes article 'Volkswagen And The Failure Of Corporate Social Responsibility' (2015) illustrates how a vague, consensus-friendly sustainability concept can be claimed by firms whose practices contradict it.",
+    "slide": "PSC L1 slide 24"
+   },
+   {
+    "t": "Swyngedouw: which natures?",
+    "d": "Swyngedouw contests the dominant view of a 'dynamic equilibrium-based nature' that is doomed to catastrophe if we don't align to it. That view blocks political questions about which nature(s) are desirable: 'we may want to preserve natures, to make, or to eradicate'. Since it is impossible not to support sustainability (Næss 2000), the dominant discourse can be manipulated by incumbent interests who may be perpetuating unsustainability in the first place.",
+    "slide": "PSC L1 slide 25"
+   },
+   {
+    "t": "Swyngedouw quote",
+    "d": "\"The fantasy of 'sustainability' imagines the possibility of an originally fundamentally harmonious Nature, one that is now out-of-synch but, which, if 'properly' managed, we can and have to return to by means of a series of technological, managerial and organisational fixes.\" (Swyngedouw 2010)",
+    "slide": "PSC L1 slide 26"
+   },
+   {
+    "t": "Huber's triad: origin",
+    "d": "Efficiency, sufficiency and consistency were proposed by the German economist and sociologist Joseph Huber to solve the dilemma of conflicting sustainability goals. Efficiency can mean a relative or an absolute reduction in economic impact; consistency means technological leaps that mimic the natural resource cycle.",
+    "slide": "PSC L1 slide 27"
+   },
+   {
+    "t": "Efficiency examples",
+    "d": "A ranking of the most fuel-efficient cars (V3Cars 2026) and an IRPP (2023) figure showing that deep retrofits of a low-income single-family home and an affordable multi-unit building improve affordability, energy efficiency and climate resilience: efficient lighting and appliances, heating and cooling, windows, doors and insulation, water-efficient plumbing, flood- and fire-resilient construction, battery backup, vehicle charging and low-carbon materials.",
+    "slide": "PSC L1 slide 28"
+   },
+   {
+    "t": "Social sustainability: three problems",
+    "d": "General: social sustainability is neglected as a concept. Messy: there are many social conceptions (liveability, justice, basic social needs approaches) that are hard to align in one approach. And it raises arguably the most problematic questions, e.g. Global North vs South.",
+    "slide": "PSC L1 slide 32"
+   },
+   {
+    "t": "Vallance et al. quote",
+    "d": "\"need to rely less on 'objective data' and 'scientific evidence' to stimulate changed human perspectives on bio-physical environmental issues. This is not a call to abandon environmental science, but rather a suggestion that its practitioners work alongside social scientists in order to explore how residents interpret, and incorporate concerns about, the places in which they live and the world around them\" (Vallance et al. 2011)",
+    "slide": "PSC L1 slide 33"
+   },
+   {
+    "t": "Næss: relational approach",
+    "d": "Besides the points already on this page, the Næss slide lists a relational approach to planning research, and notes that his 2001 paper is often credited as the first to address sustainable development in the context of urban planning.",
+    "slide": "PSC L1 slide 34"
+   },
+   {
+    "t": "Neuman: process over form",
+    "d": "Neuman argues that \"sustainable urban development, runs counter to the principles of the compact city in one fundamental respect: the primacy of process over form\". Liveability is found in both compact and low-density cities. Yet a purely procedural view of planning neglects substantive content. Sustainability is a question about how to live: a long-term process, health, place specificity and interrelationships.",
+    "slide": "PSC L1 slide 35"
+   },
+   {
+    "t": "Post-growth planning (closing slide)",
+    "d": "From postgrowthplanning.com: a planning in which growth is neither a necessary starting point nor a goal. It works on change but does not set economic growth (GDP) or competition between public entities (for population or economic numbers) as its goal. It aims to enhance quality of life for a diversity of people, but not with more of the same growth solutions. It acts within available resources (including land) and planetary boundaries, so that critical post-growth planners take honest, just and democratic decisions.",
+    "slide": "PSC L1 slide 37"
+   }
+  ]
+ }
+}

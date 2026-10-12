@@ -1,0 +1,297 @@
+{
+ "id": "hall",
+ "wk": 2,
+ "title": "Hall (2014/2020) The City of Theory",
+ "cite": "Hall, P. (2020). 'The City of Theory', from Cities of Tomorrow (4th edn, 2014), in The City Reader, pp. 440–453",
+ "theory": "Intellectual history of planning thought",
+ "status": "full",
+ "statusNote": "Full chapter on file (your scanned PDF; I ran OCR on all 29 pages).",
+ "one": "After 1955 planning became an academic discipline and swung from craft (design) to science (systems/rational planning), then fragmented (Lindblom, Davidoff, Marxists, communicative theory), and in the process lost its 'priestly clothing'.",
+ "summary": [
+  "Before 1955 planning was an extension of architecture and engineering: design-based, blueprint end-state plans, survey–analysis–plan (Geddes), with 'theory in planning but no theory of planning'. Goals were implicit, the planner 'would get it right first time', and the political environment was passive: Batty calls it planning's golden age (e.g. Abercrombie's static city with a green belt).",
+  "The 1950s baby boom, economic boom and mass car ownership overwhelmed that static system. At the same time a 'quantitative revolution' (location theory: von Thünen, Weber, Christaller, Lösch; Isard's regional science) and cybernetics (Wiener) arrived. 1960–70: the systems revolution. Cities are systems to be modelled, monitored and controlled (McLoughlin, Chadwick; transportation studies Detroit 1955, Chicago 1956; Lowry model). Rational planning is the theory of the process (Faludi), systems planning the theory of the object. Planning becomes a science, not an art.",
+  "From 1965 to 1975 critiques 'stripped the planner of whatever priestly clothing' he or she had: from the right/pluralists (Lindblom's muddling through; Meyerson & Banfield; Altshuler) and from the left (Davidoff's advocacy planning; Arnstein). Rittel & Webber's wicked problems undercut optimal solutions. Then came the Marxist ascendancy (Harvey, Massey, Castells, Lefebvre): planning serves the reproduction of capital and labour, so planning theory is a product of social forces, a logic Hall calls 'strangely quietist'. Forester tries to resolve it with Habermas: communicative action. Hall's jab: stripped of its philosophy, it is 'good old-fashioned democratic common sense', i.e. Davidoff again. Theory and practice: honeymoon in the 1960s, tiffs in the 1970s, divorce in the 1980s."
+ ],
+ "concepts": [
+  [
+   "Planning as craft",
+   "Pre-1955: design-based, blueprint, end-state plans, intuitive expert goals."
+  ],
+  [
+   "Theory in vs theory of planning",
+   "Borrowed snippets of theory about cities vs a theory of what planning (the process) is."
+  ],
+  [
+   "Systems planning",
+   "Theory of the object: the city as a system of interrelated activities in flux, monitored and controlled (cybernetics)."
+  ],
+  [
+   "Rational (process) planning",
+   "Theory of the process: goals → inventory → model → forecast → alternatives → evaluation → choice → monitoring (Faludi 1973)."
+  ],
+  [
+   "Priestly clothing",
+   "The planner's special status and mystique as expert, lost 1965–75."
+  ],
+  [
+   "Marxist critique",
+   "Planning is a function of the capitalist state: it secures accumulation and reproduction of labour, and always solves one problem by creating another."
+  ],
+  [
+   "Communicative turn",
+   "Forester (via Habermas): planning as communicative action that can distort or reveal; later Healey, Innes. Rydin (2007) calls it the 'new orthodoxy'."
+  ],
+  [
+   "Planning graduate 1955/1965/1975",
+   "Drawing board → analysing computer output → talking to community groups in the evenings (Hall, p. 386)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Craft | design, blueprint, expert intuition | 1960s | Positivism | systems + rational models, computers | 1965–85 | Fragmentation | Lindblom, Davidoff, Rittel & Webber, Marxists | 1990s→ | Communicative 'consensus' | Forester, Healey, Innes; many knowledges | Where does the planner's authority come from? | design skill → scientific method → (contested) → facilitating many knowledges]",
+ "cap": "Lecture 15 Sept's reading of Hall: craft › positivism › fragmentation › consensus(?).",
+ "example": "The Dutch Vinex-era models and MKBA practice are the 1960s systems/rational legacy still alive; a participatory 'omgevingsdialoog' under the Omgevingswet is the communicative legacy.",
+ "quotes": [
+  "\"there was some theory in planning but there was no theory of planning\"",
+  "\"within a decade, from 1965 to 1975, these approaches together neatly stripped the planner of whatever priestly clothing, and consequent mystique, she or he may have possessed\"",
+  "\"planning was a science, not an art\" (Taylor, quoted by Hall)"
+ ],
+ "dims": null,
+ "exam": "Link a skill to a period and knowledge type: design judgement = craft (situated expert, monist); modelling = positivist (universal, monist); facilitation = communicative (situated, pluralist).",
+ "examples": [
+  {
+   "t": "The graduate planner 1955-1975",
+   "d": "Hall's caricature: in 1955 the new planner sat at the drawing board drawing land uses, in 1965 analysed computer output of traffic patterns, and in 1975 talked late into the night with community groups. Shows the shift from craft to systems science to advocacy, and the loss of the planner's claim to unique expertise.",
+   "src": "text",
+   "p": "p. 400"
+  },
+  {
+   "t": "Altshuler's Minneapolis-St Paul",
+   "d": "Altshuler found the professional planner had no clout against the political machine, which backed the highway engineers; they won by stressing expertise and narrow goals. Shows the pluralist critique from the right: real decisions are political, far from the 'cool, rational, Olympian' style of the systems texts.",
+   "src": "text",
+   "p": "pp. 397-398"
+  },
+  {
+   "t": "Paris clearances, US zoning",
+   "d": "Marxists argued planning always solves one problem by creating another: 19th-century clearances in Paris created a working-class housing problem, and American zoning limited industrialists' most profitable locations. Shows the Marxist view that planning can modify but never remove the contradiction between private accumulation and collective action.",
+   "src": "text",
+   "p": "p. 403"
+  },
+  {
+   "t": "Berlage's Plan Zuid",
+   "d": "The knowledge lecture illustrates 'planning as a craft' with Berlage's Plan Zuid for Amsterdam (1904/1915): a detailed, aesthetic blueprint plan. Shows the pre-1955 design tradition where there was theory in planning but no theory of planning.",
+   "src": "slides"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Page numbers below are those printed in the scanned chapter (Cities of Tomorrow, 4th edn, 2014, pp. 386–413). Hall's book is an intellectual history of planning ideas, 'cities of theory' brought into practice. This chapter covers the moment, around 1955, when that description stops working. His thesis is a paradox: planning at last became legitimate as an academic discipline, but in doing so 'began to sow the seeds of its own destruction' (p. 386). It split into two camps: planning schools obsessed with theory, and local authority and consultancy offices concerned only with everyday practice. In the late 1950s and 1960s theory and practice seemed perfectly linked, but the honeymoon was followed by tiffs in the 1970s and divorce in the 1980s, and planning lost much of its new legitimacy (p. 386). The epigraphs set the ironic tone, including Shaw's “He who can, does. He who cannot, teaches.”"
+   ]
+  },
+  {
+   "h": "Before 1955: planning as a design craft",
+   "p": [
+    "Academic planning education existed well before 1955 (pp. 386–388): Liverpool's Department of Civic Design (1909, funded by soap magnate Lever's libel winnings), the Town Planning Review with Abercrombie as first editor, the Town Planning Institute (1914), and US schools such as Harvard, MIT and Cornell. But these grew out of architecture and engineering and carried their design-based professional styles. The planner's job was to make plans, write codes and enforce them; by 1950 planning had become 'comprehensive land-use planning'. Batty describes a subject that was 'somewhat mystical' to citizens but lacked a consistent body of theory: planners borrowed snippets from Chicago school sociology, land economics or regional geography. In Hall's key formulation, “there was some theory in planning but there was no theory of planning” (p. 388). The process was single-shot: survey (Geddes), analysis, then design.",
+    "Implementation and updating were barely discussed. The 1947 Act required five-yearly updates but still assumed a fixed land-use plan; goals were implicit (Abercrombie's 'beauty, health and convenience') and planners derived them intuitively from their own 'expert' and apolitical values (p. 389). Batty calls this planning's golden age: the planner, free from political interference and sure of his technical capacity, would 'get it right first time'; the political environment was passive (p. 390). This suited a world of slow change; Abercrombie and Jackson's 1948 West Midlands plan even aimed to slow urban change, fixing a maximum population and a green belt envelope. American planning was slightly different: Kent's 1964 text spoke of 'end-directions which are continually adjusted' and left final value judgements to councils, yet still believed an optimal land-use plan was possible (pp. 390–391)."
+   ]
+  },
+  {
+   "h": "The systems revolution of the 1960s",
+   "p": [
+    "In the 1950s the static world disappeared (p. 392): a baby boom, an economic boom, mass consumption and especially land-hungry homes and cars overwhelmed a planning system geared to stability. At the same time the supply of ideas changed. Geographers and economists rediscovered German location theory (von Thünen, Weber, Christaller, Lösch), geography turned to logical positivism (testing general hypotheses about spatial distributions), and Isard created regional science. With official encouragement (the 1950 Schuster Committee) this entered planning curricula. Batty: the discipline 'changed more in the 10 years from 1960 to 1970, than in the previous 100, possibly even 1,000 years' (p. 393). Planning moved from a craft based on personal knowledge to an apparently scientific activity: cities and regions were complex systems, and planning a continuous process of monitoring and control derived from Wiener's cybernetics.",
+    "Two foci emerged (p. 393): systems planning, a theory of the object (the urban or regional system), and rational planning, a theory of the process. Following Nigel Taylor, the shift had four elements: towns as systems of interrelated activities in flux rather than physical form; a socio-economic rather than aesthetic view; process instead of end-state planning; and scientific skills, since “planning was a science, not an art” (p. 393). Uptake was slow in Britain; the RTPI took decades to bring social science into its syllabus. The model came from US transportation studies (Detroit 1955, Chicago 1956): set goals, take inventories, build mathematical models, forecast, design and evaluate alternatives, implement and monitor (p. 394). Regional scientists then made the link two-way (transport also shapes land use), and models like Garin-Lowry entered planning practice (p. 395).",
+    "This meant a new concept of planning: not a blueprint with fixed objectives, but a process in which programmes are adapted during implementation as information arrives (Faludi), 'a special way of deciding and acting' independent of what is planned (Webber) (p. 395). British textbooks (McLoughlin, Chadwick) and the sub-regional studies of 1965–75 (Leicester-Leicestershire, Notts-Derby, Coventry-Warwickshire-Solihull, South Hampshire) applied it, often with the same key individuals, such as McLoughlin in Leicester and Batty in Notts-Derby, in directing or consulting roles (pp. 395–396)."
+   ]
+  },
+  {
+   "h": "Cracks in the systems model",
+   "p": [
+    "The revolution was less complete than claimed (pp. 396–397). Many 'systems' plans still produced blueprint-like fixed proposals such as freeway systems. The systems planners shared a metaphysics with their predecessors: the planning system was active, the city passive, and politics benign and receptive to expert advice. The planner was actually doing two different things: observing reality as a social scientist, and acting on it as a designer, which is less certain and depends on objectives set through messy dealings between professionals, politicians and public. The core problem was a logical paradox: in a weapons system the controls are inside the system, but the urban system sits inside its own system of control (p. 397). Cities have many, possibly contradictory objectives, relations are probabilistic, and costs and benefits are hard to quantify. By 1975 even Britton Harris no longer believed hard planning problems could be solved by optimising methods."
+   ]
+  },
+  {
+   "h": "Attacks from right and left, and the loss of the 'priestly clothing'",
+   "p": [
+    "From the late 1960s the systems approach was attacked from two directions (pp. 397–398). From the right, American political scientists described a pluralist structure where no one has total knowledge or power, so decisions proceed by 'disjointed incrementalism' or 'muddling through'. Meyerson and Banfield showed the Chicago Housing Authority failed because it misread the power structure; Downs modelled politicians buying votes with policy bundles; Lindblom contrasted the rational-comprehensive model with real policy-making, a mix of values and analysis and a confusion of ends and means; Altshuler showed the planner had no clout against the political machine. Some concluded planning should be partial, experimental and incremental.",
+    "From the left, fuelled by the civil rights movement, the war on poverty, Vietnam protests and urban riots (1964–67), came distrust of expert top-down planning, suspicion that systems jargon masked unethical policies, and the charge that systems planning had worsened inner-city conditions; Bolan called it old comprehensive planning 'dressed up in fancier garb' (p. 398). The response was advocacy planning (Davidoff 1965): planners working bottom-up for diverse groups, making goal-setting explicit, informing the public of alternatives and forcing agencies to compete (p. 399). Hall notes this was democratic and pluralistic but legalistic, and paradoxically gave planners some of the powers of elected officials. The incrementalist, the advocate, Bolan's catalyst and Webber's probabilistic planner all assumed a pluralist world and limited planner power; social learning (Friedmann) even returned to anarchist roots (pp. 399–400).",
+    "In Hall's words: “within a decade, from 1965 to 1975, these approaches together neatly stripped the planner of whatever priestly clothing, and consequent mystique, she or he may have possessed” (p. 400). Young planners saw themselves as 'barefoot doctors' for the inner-city poor. Hall's caricature: in 1955 the new planner was at the drawing board, in 1965 analysing computer output of traffic patterns, and in 1975 talking late into the night with community groups (p. 400). The claim to unique expertise was largely lost; Wildavsky asked whether, if planning is everything, it is nothing. Planning theory had theorised its own role so far that it denied its own legitimacy, and by the mid-1970s faced a 'paradigm crisis': separating process from substance had pushed substantive theory to the margins (pp. 400–401)."
+   ]
+  },
+  {
+   "h": "The Marxist ascendancy",
+   "p": [
+    "In the 1970s logical positivists retreated and Marxists 'took possession' (p. 401): Harvey and Massey explained urban change through the circulation of capital, Castells and Lefebvre developed sociological theories. A key debate concerned the state: Lojkine saw it as underpinning private productive investment; Castells stressed collective consumption (public housing, schools, transport) that reproduces the labour force and dampens class conflict. The Marxian view of planning (pp. 401–403): the capitalist city is the result of capital pursuing profit; capital calls on the state to remedy disorganisation, secure accumulation, reproduce labour and legitimate property relations. But capital also wants state planning limited, so planning 'always solves one problem only by creating another' (Paris clearances created a working-class housing problem), and it cannot change the land market's intrinsic logic. Conventional planning theory is then 'vacuous': it depoliticises and legitimates planning, while in reality it is a creation of the social forces that produce planning (p. 403).",
+    "Hall accepts this as 'a disturbing body of coherent criticism' (p. 403) but asks what, then, planning theory is for: does it have any normative content (p. 404)? Cooke says theory should only identify mechanisms and avoid prescription; Scott and Roweis say theory cannot assume transcendent norms, yet also want to tell 'progressive planners' what to do, which Hall calls 'sheer rhetoric'. Since no planner-theorist can divert capitalism by more than 'a millimeter or a millisecond', “the Marxian logic is strangely quietist: it suggests that the planner retreats from planning altogether into the academic ivory tower” (p. 404)."
+   ]
+  },
+  {
+   "h": "Forester, the communicative turn and Sandercock",
+   "p": [
+    "John Forester tried to escape the dilemma through Habermas (pp. 404–405): late capitalism maintains legitimacy through systematically distorted communication, but planning as communicative action can reveal rather than distort, 'pragmatics with vision'. Hall's verdict: stripped of its philosophy, the practical prescription is “good old-fashioned democratic common sense” (p. 405), no different from Davidoff's advocacy planning: build community networks, listen, involve the less organised, share information. Taylor dates a full communicative theory to the early 1990s. Unlike 1970s political economy, which wanted to replace the system, the new theory wanted to work with the market; by the 1990s radicals like Sandercock even urged less control of space, rejecting the welfare state in 'a strange reflection of Thatcherite libertarian logic' (p. 406).",
+    "Sandercock contrasted the 'official story' of planning as heroic, state-led reason with 'insurgent planning histories' of community-based planning, often by women and people of colour excluded from the profession, and later argued that migration, postcolonialism and women's movements were transforming planning (pp. 406–407). Hall grants she had a point but raises two problems: redefining planning as something entirely different 'robs the word of all meaning' (Humpty Dumpty), and hinting at planning's 'noir side' implies all official planning is secretly malign, equating 1920s exclusionary zoning with 1960s Swedish social democrats (p. 407)."
+   ]
+  },
+  {
+   "h": "Postmodernism, the cultural turn and practice's retreat",
+   "p": [
+    "Hall is scathing about postmodern theory (pp. 407–409): following Giddens, its tenets are that nothing can be known with certainty, history has no direction so progress is impossible, and a vague new agenda exists. It is written in a hermetic style for a small coterie, is 'infuriatingly aspatial', and because it denies meta-theory it cannot explain socio-economic relationships. Storper's critique of the 'cultural turn' (pp. 410–411): knowledge and practice become relativistic because culturally determined; difference is celebrated for its own sake; localism can legitimise the state's retreat. Advocacy planning becomes 'radical democracy', and communicative planning assumes that bringing groups to the table will produce the best solutions, though it can run into powerful interests. Taylor, however, argues none of these shifts was a true Kuhnian paradigm shift; they 'filled out' a primitive post-war conception of planning (p. 411).",
+    "Meanwhile practice retreated from theory (pp. 411–413). Apart from communicative planning, the theory had nothing to do with 'the boring job of planning real places'. Practitioners drifted into an untheoretical, pragmatic, even visceral style; Tewdwr-Jones describes planning reduced to 'rampant technocracy' and 'New Proceduralism', with an 'intellectual abdication' by the RTPI (p. 412). Academic theorists became spectators in the grandstand; in the 1950s they had been 'the coaches, down there with the team'. As professional education is absorbed by the academy and careers depend on peer judgement, the gap widens; much highly regarded academic work became 'simply irrelevant, even completely incomprehensible' to practitioners (p. 413)."
+   ]
+  },
+  {
+   "h": "Evidence and method",
+   "p": [
+    "This is intellectual history, not an empirical study. Hall reconstructs debates from textbooks, landmark studies and commentators (Batty, Taylor, Faludi, Scott and Roweis, Storper, Tewdwr-Jones), and illustrates them with concrete moments: Abercrombie's plans, the Detroit and Chicago transportation studies, British sub-regional studies, American urban riots and the Chicago Housing Authority. His own voice is strong and often ironic; he is clearly more sympathetic to the 1960s link between science and practice than to Marxist, postmodern or cultural-turn theory, so read his judgements as a participant's argument, not neutral description."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Hall ends on an unresolved problem: 'The relationship between planning and the academy had gone sour' (p. 413). He blames both sides: theory that turned inward, critical, relativist and incomprehensible, and practice that became unreflective proceduralism. What he implicitly wants is theory that helps real planning of real places, as in the brief 1950s–60s alliance, and a profession with the intellectual resources to defend itself. He admits the picture is not uniform: many academics still teach practical planning, some practitioners return for training, and the divorce was less visible in America (p. 412). He also concedes that the systems revolution itself had a hidden blueprint character and naive political assumptions, so no period offers a simple model to return to."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not Hall's. The chapter is a map of where the course's theories come from. Hall's pre-1955 craft and 1960s systems planning are the roots of the governmental and rational model (week 3); Lindblom and the pluralists anticipate agency-centred and incremental views; the Marxist critique is the structural pole of the structure ↔ agency dimension (week 2, Marx); Forester and Sandercock lead to communicative and collaborative theory. On the knowledge dimension, the story runs from monist expert knowledge (the design expert, then the scientific modeller) to pluralist and finally relativist positions, which is exactly the terrain Rydin (2007) tries to steer between: she accepts many knowledges but insists claims can be tested.",
+    "Hall also illustrates the lecture's point about theory and practice. His charge that Marxian logic is 'quietist' is a claim about reproduction ↔ transformation: if structure determines everything, deliberate change by planners seems impossible. Rydin (2021) is more optimistic than Hall that theory and practice can talk. For exam use, Hall's periods give a quick way to date and classify an author's view of the planner: drawing board (design craft), computer model (systems science), community meeting (advocacy and communicative planning)."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "Phase (pages)",
+   "What planning and the planner were",
+   "Key names",
+   "Hall's verdict"
+  ],
+  "rows": [
+   [
+    "Before 1955 (pp. 386–391)",
+    "Design craft: blueprint land-use plans; survey, analysis, design; implicit expert goals",
+    "Geddes, Abercrombie, Keeble, Kent",
+    "'Golden age' of a static world; 'theory in planning but no theory of planning'"
+   ],
+   [
+    "1960s systems revolution (pp. 392–396)",
+    "Science: city as system, planning as cybernetic control; rational process of goals, models, forecasts, evaluation, monitoring",
+    "Isard, McLoughlin, Chadwick, Faludi, Webber, transport studies",
+    "Theory and practice linked (honeymoon), but naive about politics; controls sit inside the system they control"
+   ],
+   [
+    "Critiques 1965–75 (pp. 397–401)",
+    "Planner as incrementalist, advocate, catalyst; community work",
+    "Lindblom, Meyerson & Banfield, Altshuler, Davidoff, Bolan",
+    "Stripped the planner of 'priestly clothing'; paradigm crisis"
+   ],
+   [
+    "Marxist ascendancy, 1970s (pp. 401–404)",
+    "Planning as a function of the capitalist state: accumulation, reproduction, legitimation",
+    "Harvey, Massey, Castells, Lefebvre, Scott & Roweis",
+    "Coherent critique, but 'strangely quietist'"
+   ],
+   [
+    "Communicative planning (pp. 404–406)",
+    "Planner as mediator revealing or distorting communication",
+    "Forester (via Habermas), Taylor",
+    "'Good old-fashioned democratic common sense', i.e. Davidoff again"
+   ],
+   [
+    "Insurgent and postmodern theory, 1990s (pp. 406–411)",
+    "Community-based 'insurgent' planning; relativism, cultural turn",
+    "Sandercock, Storper, Giddens, Harvey",
+    "Robs 'planning' of meaning; aspatial; cannot explain"
+   ],
+   [
+    "Practice, 1980s–90s (pp. 411–413)",
+    "Unreflective procedure: 'New Proceduralism', 'rampant technocracy'",
+    "Tewdwr-Jones",
+    "Divorce of theory and practice; relationship 'gone sour'"
+   ]
+  ]
+ },
+ "news": {
+  "t": "The Omgevingswet: one system, plus participation",
+  "d": "On 14 March 2023 the Eerste Kamer voted 41 to 29 to bring the Omgevingswet into force on 1 January 2024. The law merges 26 different laws, and about 50,000 zoning plans and management ordinances are to become circa 400 omgevingsplannen. Entry into force had already been postponed five times because of problems with the digital system DSO, and an adopted motion asked that intended decisions be published in the DSO 'om participatie te bevorderen'.",
+  "why": "Read through Hall, the law layers his three phases on top of each other: one integrated plan per municipality backed by a national digital information system echoes systems planning (the environment as one interrelated system to be monitored), while the push for participation on intended decisions is the communicative turn. The repeated IT delays also show how the systems ambition of total information keeps running into practice. Limit: Hall describes a historical sequence in Anglo-American planning theory, whereas here the layers coexist in one Dutch law; it shows fragmentation rather than a clean swing from craft to science.",
+  "src": {
+   "name": "Eerste Kamer der Staten-Generaal",
+   "title": "Omgevingswet gaat in op 1 januari 2024",
+   "url": "https://eerstekamer.nl/9370000/1/j9vvkfvj6b325az/vm1djcn34yix",
+   "date": "2023-03-14"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Planning as a process of rational action",
+    "svg": "[SVG figure; labels: 1. Definition of problems and/or goals | 2. Identification of alternative plans/policies | 3. Evaluation of alternative plans/policies | 4. Implementation of plans/policies | 5. Monitoring of effects of plans/policies | feedback | a logical, | orderly path | from problem | to solution | Demands complete causal knowledge: planning as a scientific exercise.]",
+    "cap": "Redrawn from the diagram on the 'rational planning' slide (Taylor 1998, as cited in Hall 2014, p. 393; see also Davoudi 2012).",
+    "slide": "Knowledge lecture slide 27"
+   }
+  ],
+  "tables": [],
+  "points": [
+   {
+    "t": "Was craft planning atheoretical? Keeble (1952)",
+    "d": "Keeble's Principles and Practice of Town and Country Planning discusses five diagrams of town form when talking about planning theories: 'theory' in the sense of “a desirable end state” for a town or settlement. Compare Rydin's theory as “a set of ideas that fit together coherently and make general statements about the world or a part of” it (Taylor 1999).",
+    "slide": "Knowledge lecture slide 23"
+   },
+   {
+    "t": "Rational planning on the slide",
+    "d": "“The comprehensive rational planning model is the process of understanding a problem, followed by the establishment of goals, the formulation of alternatives and their implementation, and finally monitoring the progress of the chosen alternatives.” Inspired by the rational decision-making model, a “multi-step process that follows a logical, orderly path from problem identification through solution.” “Planning is a scientific exercise an[d] demands complete causal knowledge.”",
+    "slide": "Knowledge lecture slide 27"
+   },
+   {
+    "t": "Systems planning on the slide",
+    "d": "Cities are made of interconnected and interdependent parts (systems); planning is about controlling them. “Rather than using blueprints (planning-as-craft), we need to use plans as trajectories of dynamic states that are monitored.” Monitoring, analysing and intervening are ongoing, helped by computers, model-making and science (McLoughlin, Urban and Regional Planning: A Systems Approach).",
+    "slide": "Knowledge lecture slide 28"
+   },
+   {
+    "t": "Images of the systems planner",
+    "d": "'The systems planner' is illustrated by the Project Cybersyn operations room (Chile, 1971–73; image Gui Bonsiepe), followed by a SimCity-style screenshot: the city as a system run from a control room or screen. 'The rational planner' is a photo of two planners bent over a city plan.",
+    "slide": "Knowledge lecture slides 26, 29–30"
+   },
+   {
+    "t": "Hands-up check: rational and systems planning",
+    "d": "The lecture asked: positivist or post-positivist? universal or situated? monist or pluralist? By the lecture's own definitions (slide 17: universal + monist = positivism) the expected answer is positivist, universal and monist (our reading; the slide gives no answer).",
+    "slide": "Knowledge lecture slide 31"
+   },
+   {
+    "t": "'Can knowledge be value-free?'",
+    "d": "Among the four reasons rational and systems planning 'could not deliver what it promised' (no steering a city from outside like an engineer steers a machine; many, conflicting goals; by 1975 even leading systems planners doubted optimal solutions), the lecture adds the epistemological question “Can knowledge be value-free?” (Hall 2014, p. 397; Rittel & Webber 1973).",
+    "slide": "Knowledge lecture slide 32"
+   },
+   {
+    "t": "The attacks read as knowledge critiques",
+    "d": "From the right (Lindblom): “Real decisions come from bargaining between groups, in small steps. Muddling through. Knowledge is dispersed, and every knower is limited.” From the left (Davidoff): “Planners should advocate for groups that are not heard – distrust of top-down planning – is knowledge coloured by power + class-interests?” The critiques of rational planning return in depth the following week.",
+    "slide": "Knowledge lecture slide 34"
+   },
+   {
+    "t": "Pair discussion: which skill, which period, which knowledge?",
+    "d": "Lecture question: with what period and type of knowledge (universal/situated, monist/pluralist) do you associate (a) convening and facilitating between many parties, (b) design skill, judgement and intuition, (c) scientific modelling of the city as a system? Suggested answer (ours, following the lecture's periods): (b) craft before 1955; (c) 1960s positivism, universal + monist; (a) communicative turn since the 1990s, situated + pluralist.",
+    "slide": "Knowledge lecture slide 36"
+   },
+   {
+    "t": "Think-pair-share on Hall's three graduates",
+    "d": "For the 1955, 1965 and 1975 graduates the lecture asked: “What kind of knowledge is each graduate using, where does it come from? Who counts as the expert in each scene?” These two questions lead straight into the knowledge axes (universal/situated, monist/pluralist).",
+    "slide": "Knowledge lecture slides 13–15"
+   },
+   {
+    "t": "Consensus(?) since the 1990s",
+    "d": "The fourth period: “Since the 1990s: fragmentation of theories but also some consensus on the planners need to accomodate multiple knowledges (see Rydin 2007 and Davoudi 2012).” The question mark signals that this consensus is contested.",
+    "slide": "Knowledge lecture slide 37"
+   },
+   {
+    "t": "Back to the staircases",
+    "d": "“Theories do not replace one another cleanly; there are multiple staircases; old theories do not just disappear.” The field of planning theory is fragmented, and planning has no single body of theory of its own (endogenous theory): it borrows from many disciplines (Escher's Relativity as the image).",
+    "slide": "Knowledge lecture slides 54–55"
+   },
+   {
+    "t": "Book tip: Encounters in Planning Thought",
+    "d": "Beatrix Haselsberger (ed.), Encounters in Planning Thought: 16 Autobiographical Essays from Key Thinkers in Spatial Planning; based on interviews with key thinkers in the development of spatial planning theory, autobiographical and theoretical.",
+    "slide": "Knowledge lecture slide 56"
+   }
+  ]
+ }
+}

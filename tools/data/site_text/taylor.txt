@@ -1,0 +1,230 @@
+{
+ "id": "taylor",
+ "wk": 3,
+ "title": "Taylor (2016) Urban growth boundaries and betterment: rent-seeking in Melbourne",
+ "cite": "Taylor, E.J. (2016). Urban Growth Boundaries and Betterment: Rent-seeking by Landowners on Melbourne's Expanding Urban Fringe. Growth and Change, 47(2), 259–275. doi:10.1111/grow.12110",
+ "theory": "Rational choice (rent-seeking)",
+ "status": "full",
+ "statusNote": "Full article on file.",
+ "one": "Analysing 264 public submissions on Melbourne's 2010 UGB expansion and the Growth Areas Infrastructure Contribution (a betterment tax), Taylor shows that landowners as 'insiders' rent-sought successfully: they discredited expected windfalls and got the GAIC shifted to purchasers, so costs are passed on to homebuyers ('outsiders').",
+ "summary": [
+  "Melbourne's UGB (2002) expanded substantially in 2010; land inside rose 89% per hectare relative to comparable land outside, creating 'instant millionaires'. The GAIC was a hypothecated per-hectare tax on the expected betterment, to fund infrastructure.",
+  "Landowners have multiple interests: premium-seeking owners (often broadacre farmers, vacant land) want inclusion and to unlock development value, and containment creates speculation through 'dual predictability' (Nelson). Others, affluent rural-residential 'lifestyle' owners and hobby farmers, want to preserve restrictions for amenity and value stability ('homevoters', Fischel). Among submissions: 33 included owners were happy, 11 wanted to stay rural; 52 excluded owners wanted inclusion; grassland-zone owners called protection 'conning landowners from their rights'.",
+  "Landowners framed the GAIC as 'unbelievable, unethical, outright robbery', disputed that betterment would occur (a 'Taxed Out!' campaign), and argued it should be paid by developers/buyers. 'Landowner-led pressure on policy makers ultimately led to a set of modifications to the GAIC bill' (p. 272): exemptions for small parcels (0.41–5 ha, ~56% of liable parcels), liability shifted to purchasers (30% at purchase, rest at development), and in 2011 fully deferred to development, which protected hobby farmers.",
+  "Conclusion: the outcome legitimised landowners' misinterpretation of development gain; representations of self-interest were taken 'at face value as more equitable'. Policies 'are decided in large part on the basis of whether or not they survive conflict with groups with an existing economic stake'. Containment creates land premiums that are redistributed through the lobbying of 'insiders', with costs passed to housing consumers ('outsiders'). Rent-seeking by existing owners can decide whether and how strategic planning is implemented."
+ ],
+ "concepts": [
+  [
+   "Urban growth boundary (UGB)",
+   "Legislated line separating urban from non-urban land."
+  ],
+  [
+   "Betterment",
+   "Land-value increase caused by public action; here the windfall from the UGB shift."
+  ],
+  [
+   "GAIC",
+   "Growth Areas Infrastructure Contribution: hypothecated betterment tax, later made 'purchaser pays'."
+  ],
+  [
+   "Rent-seeking",
+   "Lobbying to capture or keep unearned rents."
+  ],
+  [
+   "Premium-seeking vs homevoter",
+   "Owners wanting development value vs owners protecting amenity and property value through restrictions."
+  ],
+  [
+   "Dual predictability",
+   "Containment makes clear which land can be developed AND that it is scarce, fuelling speculation."
+  ],
+  [
+   "Insiders vs outsiders",
+   "Existing property owners who capture gains vs future homebuyers who pay."
+  ]
+ ],
+ "fig": "[SVG figure; labels: UGB | urban-zoned: high value | rural: agricultural value | betterment gap | land value]",
+ "cap": "Illustrative: the gap at the line is the rent landowners fight over.",
+ "example": "Rijnenburg (Utrecht): developer-owned land was framed as 'low-hanging fruit' for housing, lobbying against the energy-landscape vision.",
+ "quotes": [
+  "\"Landowner-led pressure on policy makers ultimately led to a set of modifications to the GAIC bill.\" (p. 272)",
+  "\"policies with broader implications are decided in large part on the basis of whether or not they survive conflict with groups with an existing economic stake in the outcomes\""
+ ],
+ "dims": {
+  "sa": 85,
+  "rt": 25,
+  "de": 30,
+  "us": 15,
+  "mp": 15,
+  "norm": "Implicit: capture betterment for the public, and expose rent-seeking."
+ },
+ "exam": "Rational choice/rent-seeking + Olson: a concentrated insider group beats diffuse future buyers. Shows reproduction of owners' advantages. Links to Sorensen (land value capture, analysed with historical institutionalism instead).",
+ "examples": [
+  {
+   "t": "Melbourne's 'liquid gold' fringe land",
+   "d": "Rural land around Melbourne worth $15,000 to $35,000 per hectare averaged $365,000 once inside the UGB and rezoned, and after the 2010 shift prices inside rose 89 percent relative to comparable land outside. Shows betterment, an unearned increment created by planning, which the GAIC ($95,000 per hectare) aimed to tax.",
+   "src": "text",
+   "p": "pp. 259, 261-262"
+  },
+  {
+   "t": "Grassland owners versus lifestyle homevoters",
+   "d": "21 owners whose land in the west was to become protected grassland called the rules unfair and wanted in, while hobby farmers argued to keep green wedge restrictions protecting their amenity. Shows Taylor's two rent-seeking interests: premium-seeking to unlock development value versus homevoters defending restrictions.",
+   "src": "text",
+   "p": "p. 268"
+  },
+  {
+   "t": "Owners with development plans stayed quiet",
+   "d": "Only 4 of 49 landowners with development plans objected to the GAIC, against 72 of 137 without such plans. Those who knew their development value saw the charge as small against the gain; opposition came from owners who framed it as a tax on existing value.",
+   "src": "text",
+   "p": "pp. 270-271"
+  },
+  {
+   "t": "Taxed Out! and 'purchaser pays'",
+   "d": "The Taxed Out! campaign cast the GAIC as a tax on existing land value; the bill was redrafted to exempt 0.41 to 5 hectare parcels (about 56 percent of liable parcels) and shift liability to purchasers, and in 2011 fully deferred to development. Shows insiders shifting the cost of value capture onto outsiders, future homebuyers.",
+   "src": "text",
+   "p": "pp. 269-273"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Melbourne's Urban Growth Boundary (UGB), a legal line separating land where urban development is allowed from land kept rural, was legislated in 2002 and expanded substantially in 2010 (p. 259). After the expansion the press reported 'instant millionaire' landowners, and one study found that per-hectare land prices inside the boundary rose by 89 percent relative to comparable land outside (p. 259). Yet during one window of time, just before the expansion, many of the same landowners argued the opposite: that being brought inside the boundary would not raise the value of their land at all. Taylor's article is about that reversal and about what it did to policy.",
+    "The trigger was a new instrument that came with the expansion: the Growth Areas Infrastructure Contribution (GAIC). Taylor calls it in effect a 'hypothecated' tax (a tax whose revenue is earmarked for one purpose, here infrastructure in new suburbs) on betterment, the rise in land value caused by a public decision such as rezoning (pp. 259–260). She critically interprets 264 public submissions on the UGB expansion and the GAIC, and argues that the later changes to the GAIC, including the switch to a 'purchaser pays' model, are best understood as a response to rent-seeking pressure from existing landowners acting as 'insiders' (p. 260).",
+    "Rent-seeking here means using political influence to secure or protect income from land that is not earned by productive effort. Taylor borrows two routes from Clingermayer: 'heresthetics', the intentional manipulation of an issue, and 'happenstance', where altruistic goals unintentionally line up with rent-seeking ones (p. 260). She also uses Evans' 'insider-outsider' problem: planning participation tends to be biased towards existing property owners, while future residents have no voice. Her position is careful: she does not claim all landowners were lying, but tests the assumption that at least part of their claims was driven by perceived economic self-interest, including a wish to avoid the GAIC (p. 260)."
+   ]
+  },
+  {
+   "h": "Melbourne's boundary and the promise of windfall gains",
+   "p": [
+    "The 2008 planning update 'Melbourne @ 5 Million' proposed to consider about 50,000 hectares of 'investigation areas' for inclusion in the UGB, justified by population projections and a stated need to keep land supply 'adequate and competitive' (p. 261). The same update introduced the GAIC, which Taylor notes was, 'probably tellingly', not named a betterment tax (p. 261). The state government presented it as only a small portion of the significant increase in land values that rezoning creates, to be used to offset the heavy costs of infrastructure in growth areas.",
+    "The charge rested on concrete estimates. The Growth Areas Authority cited research that rural land around Melbourne was typically worth $15,000 to $35,000 per hectare, but that rural land brought inside the UGB and rezoned rose to an average of $365,000 per hectare, within a range of $225,000 to $450,000 (p. 261). Planners and developers interviewed in another study agreed that land inside the UGB had become much more expensive, though they blamed each other. One developer put it bluntly: “People that are inside the UGB, the farmers and the owners, believe their land is liquid gold” (p. 261).",
+    "The GAIC design mattered for what followed. It was a flat, one-off charge of $95,000 per hectare on land over 0.41 hectares (one acre) brought inside the UGB, payable at the sale or subdivision of the land, whichever came first (p. 261). This meant it could hit ordinary vendors who were simply selling, not only developers at the point of development. Development gains in Victoria had never been directly taxed; the 1971 metropolitan plan had discussed and rejected a betterment tax (p. 262). A landowner group, Taxed Out!, campaigned against the proposal throughout 2009 and early 2010."
+   ]
+  },
+  {
+   "h": "The economics: why a boundary creates betterment",
+   "p": [
+    "Taylor then sets out the economic logic. A UGB is part of an urban containment strategy, which typically aims at a more compact city, higher densities near public transport and the preservation of rural landscapes (p. 262). Whatever their goals, they affect land and housing markets. Farmland near cities tends to gain value as demand for building land grows, and planning rules sharpen the gap between agricultural and urban land. Citing Jun, she notes that although the evidence is not overwhelming, many studies find that containment raises land prices by limiting the supply of developable land (p. 262).",
+    "Price differences at the boundary can come from the supply side (less land allowed) or from the demand side (the certainty and amenity a boundary creates). For economists this distinction matters because it decides whether a boundary is efficient; for fringe landowners, Taylor remarks, what counts is simply that land outside is worth less than land inside (p. 262). Figure 1 shows the mechanism: without a boundary, urban and rural land prices meet at a point c. A binding boundary drawn before c splits the price at the line into a higher urban price (d) and a lower rural price (e). The gap f between them is the betterment, which is unlocked for any parcel the boundary is moved to include (p. 263).",
+    "Betterment goes by many names: development gain, windfall, planning gain (p. 263). The political case for taxing it is that the owner has made an unearned gain that arises largely from community or government action. Impact fees and inclusionary zoning are related forms of land value taxation (p. 263). The GAIC rested on exactly this assumption: that inclusion within the UGB brings a substantial rise in land value."
+   ]
+  },
+  {
+   "h": "Two opposing interests landowners can have",
+   "p": [
+    "Planning is an intervention in property rights, which it limits, allocates and reallocates, and these allocations have economic value that invites 'capture' (p. 264). Taylor highlights the idea of 'dual predictability': containment makes it more certain which land can and cannot be developed, while also making clear that land inside the boundary is exhaustible (p. 264). This gives owners outside the line a strong incentive to lobby to be included and harvest the expected betterment. She calls this premium-seeking behaviour.",
+    "But some landowners want the opposite. Owners of lifestyle properties in low-density communities near cities often value the aesthetic or symbolic quality of rural land, and the scarcity and value stability that planning controls give them (p. 264). Here Taylor uses Fischel's term 'homevoters': owner-occupiers whose political choices are driven by protecting their property values. Their interests mix sometimes noble, altruistic intentions with inevitable property market consequences. So theory predicts two, sometimes opposite, kinds of rent-seeking: avoiding controls that limit future development value, and preserving restrictions on growth to protect a home and a landscape (p. 264).",
+    "Either way, if the boundary moves and urban values are unlocked, a tax on the betterment is unwelcome. How costly it really is depends on who ends up bearing it, its 'incidence', which is disputed: some research suggests landowners receive slightly lower prices but homebuyers ultimately bear most of the cost (p. 264). This is why Taylor focuses on what landowners claimed about incidence: who they said would really pay."
+   ]
+  },
+  {
+   "h": "Evidence and cases: what the submissions show",
+   "p": [
+    "The material is the public inquiry into 'Delivering Melbourne's Newest Sustainable Communities' (2010), which received 1,411 individual and 503 organisational submissions (p. 265). Taylor took the first 20 percent received from each group; because code numbers were assigned randomly, this is effectively a random sample. From 382 coded submissions she removed those dealing only with other proposals and those that were confidential, duplicates or empty, leaving 264 (218 individuals, 46 organisations). As a rent-seeking perspective would predict, 186 of them (70 percent) came from fringe landowners directly affected, including 26 commercial farmers, 28 'lifestyle' residents and 49 owners with plans to develop (p. 265).",
+    "On the expansion 'in principle', most comments were objections (83 of 111) (p. 265). Objections from non-landowners, often inner-Melbourne residents and environmental groups, referred to urban consolidation in general and to high-value areas such as the Merri Creek and western grasslands. Landowners who objected instead talked about local amenity (the rural feel, birdlife, lack of noise) and their rural lifestyle, often in terms that fit Hubbard's 'self/other' contrast between rural and urban (p. 266). Taylor stresses that such owners may argue in good faith, but their altruistic arguments unavoidably align with their property interests.",
+    "Views on owners' own land sorted neatly by interest (Table 2, p. 267). Thirty-three owners inside the new UGB were happy to be included, 52 outside wanted in, and 11 inside wanted to stay out. Those happy to be in were mainly broad-hectare farmers or owners of vacant land, suggesting plans to sell and move. Those wanting out were mostly lifestyle owners and businesses such as a winery, valuing land use over development. Twenty-one owners in the west, whose land was to be protected grassland, called the rules unfair; Taylor reads this as premium-seeking objection to planning restrictions, in stark contrast to non-landowners who supported grassland protection (p. 268)."
+   ]
+  },
+  {
+   "h": "Discrediting betterment: the campaign against the GAIC",
+   "p": [
+    "The GAIC itself was almost universally unpopular with the people who would pay it: 83 sampled submissions objected, 76 of them from impacted individual landowners, and only four supported it (Table 3, p. 268). Crucially, objectors treated the charge as a tax on their existing land value, not on a future windfall. About a third claimed it would hurt their existing values and home equity, and about a third called it unfair, undemocratic or immoral, often in emotional terms about years of hard work (p. 269).",
+    "Taylor identifies three ways in which submissions doubted and ultimately discredited the windfall premise (pp. 269–270). First, some owners simply did not understand, or ignored, the betterment logic, calculating the charge as a share of their current property value (one concluded he would lose more than half his home). Second, some openly disbelieved that inclusion would raise values at all, or mocked the idea, asking who would guarantee the increase. Third, some accepted that values might rise elsewhere but not on their own land for some years. This framing was central to the Taxed Out! campaign (p. 270).",
+    "She connects these reactions to the power of perceived property rights, which can gain political traction even when they contradict the legal basis of property (p. 270), and to a strong political aversion to any tax on owner-occupation. The most telling pattern comes from owners with development plans (Table 4, p. 271): only 4 of these 49 (8 percent) objected to the GAIC, against 72 of the 137 (53 percent) who mentioned no plans. Owners who knew what development would earn them saw the charge as affordable. Taylor concludes that opposition was driven by landowners, not developers, who tend to accept charges that are transparent and can be passed on to buyers (p. 271)."
+   ]
+  },
+  {
+   "h": "From vendor tax to 'purchaser pays'",
+   "p": [
+    "The most common alternative proposal (32 submissions, 42 percent of landowner objectors) was that developers, not landowners, should pay, since they could pass the charge on to the eventual home purchasers (p. 271). Submissions called this 'user pays' or 'purchaser pays' and presented it as fairer and more traditional. Taxed Out! also wanted the charge applied only at subdivision or development, not at sale. A key concern was lifestyle properties with houses on them, whose dwelling value would not count for a developer buying the land (p. 272).",
+    "Policy followed these pressures. The GAIC bill was first blocked by the opposition, which supported the expansion but not the charge (p. 272). As Taylor puts it, “landowner-led pressure on policy makers ultimately led to a set of modifications to the GAIC bill” (p. 272). It was redrafted twice and approved in mid-2010 with sales of parcels between 0.41 and 5 hectares exempted (an estimated 56 percent of formerly liable parcels) and formal liability moved in most cases to purchasers or developers, who would pay 30 percent at purchase and the rest at development. In June 2011 a new minister made the charge fully deferred until development (pp. 272–273). The minister said this protected hobby farmers and lifestyle owners: a 'homevoter' effect (p. 273)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Taylor's central finding is that landowners managed to discredit the idea that windfall profits would result from moving the boundary, and on that basis escaped formal liability for the charge (p. 273). This is at odds with what happened next: the press soon reported a 64-hectare farm selling for $36 million, and a 10-hectare site bought for $50,000 in 1983 selling for $7.54 million (p. 273). She admits limits: not every owner would have gained so much, and the GAIC's survival shows stakeholder influence has limits (p. 273).",
+    "Still, the adjustments are revealing because they seem to legitimise landowners' misinterpretation, wilful or otherwise, of what the charge was for. They show how “the representation of perceived self-interest can, through the political discourse around planning, come to be taken at face value as more equitable” (p. 273). The broader lesson is that policies with wide implications survive or fail depending on conflict with groups who have an existing economic stake. In Melbourne, unlike the UK, property speculation generally overrides preservationist interests, but in both cases outcomes follow the pressure of existing owners (p. 274).",
+    "Her final picture is a cycle: containment creates price premiums in the land market, these are redistributed through the lobbying of 'insiders', and the costs are likely passed on to housing consumers as 'outsiders' (p. 274). That is a concern in a city with long-standing problems of affordability, planning efficiency and infrastructure for new suburbs. The article is a single-case content analysis of what people claimed; it does not measure who actually bore the GAIC, and Taylor herself calls the 'purchaser pays' incidence an assumption (p. 272)."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not Taylor's claim. The article applies rational choice theory, specifically public choice ideas about rent-seeking and 'capture', to planning politics. Actors are treated as pursuing economic self-interest within a set of rules, and the interesting question is how they use participation and political pressure to shift those rules in their favour. In the terms of the neo-institutionalism lecture, it sits close to rational choice institutionalism: institutions (the UGB, the GAIC) create value and incentives, and organised interests then fight to change them.",
+    "On the course dimensions: agency is strong but structured, since landowners act strategically within a boundary regime that creates the rent in the first place. The outcome is reproduction rather than transformation: existing owners protect their advantage and costs shift to future buyers. Change is deliberate lobbying, but the final policy is no one's design. Knowledge is situated in one Melbourne episode, though Taylor draws a general implication about insiders and outsiders. Her normative commitment is visible in the concern for affordability and for capturing unearned gains for public infrastructure.",
+    "Useful contrasts: Sorensen's Toronto study shows land value capture as a long, contested institutional pathway (historical institutionalism), while Taylor zooms in on one moment of interest-group pressure. Moroni would read the protection of property rights more positively, as a valuable evolved institution. A Marxist reading, such as Foglesong's property contradiction, would link the fight over betterment to the tension between the social production of land value and its private ownership. Communicative planning ideals also look different here: open participation mainly amplified those with a stake."
+   ]
+  }
+ ],
+ "table": {
+  "head": [
+   "Group (in submissions)",
+   "Main interest in the UGB",
+   "Stance on the GAIC",
+   "Evidence (pages)"
+  ],
+  "rows": [
+   [
+    "Lifestyle and hobby-farm owners ('homevoters')",
+    "Keep rural status, amenity and stable equity; some inside the new UGB wanted out",
+    "Strongly opposed; wanted rural-residential sales exempt",
+    "11 inside wanting out, 8 of them lifestyle owners; 15 wanting restrictions kept (pp. 267–268, 272)"
+   ],
+   [
+    "Commercial farmers and vacant-land owners",
+    "Get included to sell or develop (premium-seeking)",
+    "Less opposed when development value was clear",
+    "33 inside and happy; 52 outside wanting in; 21 grassland objectors (pp. 267–268)"
+   ],
+   [
+    "Owners with stated development plans",
+    "Unlock development value quickly",
+    "Rarely objected: 4 of 49 (8%)",
+    "Table 4; 13 via professional representatives (p. 271)"
+   ],
+   [
+    "Owners with no stated plans",
+    "Keep or sell land in current use",
+    "Often objected: 72 of 137 (53%)",
+    "Table 4 (p. 271)"
+   ],
+   [
+    "Non-impacted individuals and environmental groups",
+    "Oppose sprawl; protect Merri Creek and grasslands",
+    "Largely silent",
+    "38 in-principle objections from non-landowners, 11 from groups (pp. 265–266)"
+   ],
+   [
+    "Housing developers",
+    "Access to new urban land",
+    "Cautious acceptance if transparent and passed on to buyers",
+    "Opposition 'driven by landowners rather than housing developers' (p. 271)"
+   ]
+  ]
+ },
+ "news": {
+  "t": "England strips 'hope value'; landowners push back",
+  "d": "The Levelling Up and Regeneration Act gave English local authorities power to remove or limit 'hope value' (land's potential future worth from possible planning permission) from compensation when compulsorily purchasing land for social or affordable housing, education or health. CLA president Victoria Vyvyan said forcing landowners to sell without hope value 'will harm the viability of many farms', doubting house builders would 'be taking a lower profit' and arguing the cost 'is not significant enough to increase housing delivery'.",
+  "why": "Read through Taylor, hope value is the expected betterment created by planning, and the state is trying to capture it for the public. The landowner lobby's framing mirrors Melbourne's GAIC fight: the measure is cast as unfair to farmers, the windfall is downplayed as not worth taking, and the burden is said to belong to developers, i.e. insiders defending an unearned rent. Limit: unlike Taylor's case we cannot yet see that the lobbying succeeded, and this is compulsory purchase compensation, not a betterment tax.",
+  "src": {
+   "name": "Farmers Weekly",
+   "title": "Councils gain compulsory purchase powers without paying hope value",
+   "url": "https://fwi.co.uk/business/business-management/planning-permission/councils-gain-compulsory-purchase-powers-without-paying-hope-value",
+   "date": "2024-05-11"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Two rational strategies of existing owners",
+    "svg": "[SVG figure; labels: Existing owners | at the urban fringe | 1. aim to preserve | restrictions on growth | 2. try to avoid controls | limiting future development | Both rational: | rent-seeking]",
+    "cap": "How the lecture summarised Taylor (2016): opposite stances towards growth controls, one logic.",
+    "slide": "HC6 slide 20"
+   }
+  ],
+  "tables": [],
+  "points": []
+ }
+}

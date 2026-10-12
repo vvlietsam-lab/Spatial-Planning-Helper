@@ -1,0 +1,240 @@
+{
+ "id": "bossuyt",
+ "wk": 7,
+ "title": "Bossuyt & D'Ottaviano (2025) Patterns of protection for housing commons",
+ "cite": "Bossuyt, D. & D'Ottaviano, C. (2025). The patterns of protection for housing commons: building occupations in São Paulo. International Journal of Urban and Regional Research, 2025 issue 5, 1021–1039. https://doi.org/10.1111/1468-2427.13335",
+ "theory": "Urban commons (neo-Marxian commons theory combined with Ostrom-style institutionalism); urban social movements",
+ "status": "full",
+ "statusNote": "Built from the full published open-access text (IJURR 2025, issue 5, pp. 1021–1039 per the Wiley download header; volume number not shown in the file); page numbers are the journal's. Daniël Bossuyt (UU) is the course coordinator: expect this to be one of the commentary articles or at least a reference point.",
+ "one": "Occupying vacant (public) buildings in central São Paulo turns them into housing commons, but reclaiming is not enough: commons must be protected against enclosure over time. Two self-managed cases (Dandara, Marisa Letícia) show five patterns of protection at three levels (regularization, restoration, integration, ideation, federation), yet protection is partial because regularization converts collective use claims into individual private titles that open new routes to enclosure.",
+ "summary": [
+  "Problem and theory (pp. 1021–1024). The global housing crisis shows the failure of markets; the commons has emerged as a paradigm for reclaiming housing. Research on common-pool resources studies stability (Ostrom), but urban-commons work neglects reproduction: how commons endure against enclosure by capital and state. Housing commons have three dimensions: use value over exchange value (decommodification), self-governance (collective-choice and operational rules), and solidarity through cohabitation. Enclosure takes three forms: commodification (selling for profit), marginalization (exclusivity towards outsiders) and cooptation (state undermining self-governance). Theorists split on property: Dardot and Laval (commons cannot be property), Harvey ('some degree of closure' needed), de Angelis and Stavrides (porosity and proliferation). The authors use de Angelis' tripartite commons (common good, community, commoning practices) and a relational view of property.",
+  "Context and method (pp. 1024–1028). Qualitative participatory action research (2016–2021, via the Brazilian extensão model: one team member was architect of Dandara's retrofit) plus 19 interviews (10 residents, 3 movement leaders, 3 policymakers, 2 social workers, 1 architect). São Paulo has about 590,000 vacant properties and 29,500 homeless families (2022 census). The 1988 Constitution and 2001 City Statute enshrine the right to housing and the social function of property; occupations exploit the contradiction between this principle and the right to private property, legitimising themselves by targeting vacant, tax-defaulting or public buildings. The ULC (founded 1991), part of the UMM umbrella (1987), is less confrontational and frames occupation through citizenship and social rights.",
+  "The cases (pp. 1028–1033). Dandara (former state court in Sé, occupied 2009, renovated 2014–2018) and Marisa Letícia (INSS warehouse site in Brás, completed 2019) are the only two occupations in central São Paulo completed as permanent self-managed housing. Stages: appropriation (forced entry, care, rules of access, legitimacy vs 'invasion'); regularization via autogestão and structural coupling with the state (SPU Ordinance 179; MCMV-Entidades, which gave movements direct access to federal funds but at a cap requiring municipal and state top-ups); renovation through mutirão, committees and an effort-based points system that allocated units and prevented free-riding; moving in, with gates, doormen, condominium courses by social workers. Property regimes diverge: Marisa Letícia became an individual condominium; Dandara a use-right concession.",
+  "Patterns of protection (pp. 1033–1035). Level of the common good: regularization (legal recognition, tenure security) and material restoration (habitability, night vigils, barriers). Level between housing development and movement: integration (embedding residents in the movement's political struggle; points system cultivates solidarity) and ideation (commons ideas stored in movements and materialising later, e.g. Uruguayan cooperative know-how). Interface movement–state: federation (floor committees → resident committees → entidades → movements → federations), which inserted autogestão into state policy (MCMV-E).",
+  "Partial protection and contribution (pp. 1035–1037). Regularization converts collectively claimed public property into individual private titles plus mortgages, making households 'indebted subjects' and eroding collective action; movements ban sale and subletting but cannot enforce it, and a unit appeared on a subletting platform. Institutionalist approaches are 'only of partial use' because they ignore the political dimension; commoning is a pragmatic practice with contradictions. Contributions: combining institutionalist and neo-Marxian understandings of the commons, and showing private law's progressive potential; they call for legal reform enabling collective property and for an 'archipelago of the commons'."
+ ],
+ "concepts": [
+  [
+   "Commons / commoning",
+   "Commons: resources collectively produced, shared and used for use value; commoning: the active practices of sharing and managing them. Housing is not a commons in itself but becomes one through practices and rules (p. 1022)."
+  ],
+  [
+   "Three dimensions of housing commons",
+   "Use value over exchange value (decommodification); self-governance (residents set collective-choice and operational rules); solidarity and participation through cohabitation (p. 1022)."
+  ],
+  [
+   "Enclosure (three forms)",
+   "Commodification (individual sale for profit), marginalization (exclusivity towards outsiders), cooptation (state undermining self-governance) (p. 1023)."
+  ],
+  [
+   "Tripartite commons (de Angelis)",
+   "A social system of common good (object, incl. relational property), community (subject) and commoning practices, within a socio-political context (pp. 1023–1024)."
+  ],
+  [
+   "Social function of property",
+   "Brazilian constitutional principle that private property must benefit the collective; basis for legitimising occupation of vacant property against the right to private property (p. 1027)."
+  ],
+  [
+   "Autogestão / mutirão",
+   "Collective self-management and collective labour: residents' organisations (entidades) run procurement, labour and construction; also a political principle of horizontal governance (pp. 1029–1031)."
+  ],
+  [
+   "Structural coupling",
+   "De Angelis: commons strategically align with state systems (legal frameworks, funding) to stabilise their claims and safeguard autonomy (p. 1030)."
+  ],
+  [
+   "MCMV-Entidades",
+   "Federal programme (2009) channelling funds to movement-led self-managed housing (3% of the MCMV budget); first direct federal access for movements; per-unit cap insufficient for central retrofits (p. 1030)."
+  ],
+  [
+   "Effort-based points system",
+   "Allocation of units by participation (meetings, occupations, marches) to incentivise contribution and prevent free-riding: a self-regulatory boundary (p. 1031)."
+  ],
+  [
+   "Five patterns of protection",
+   "Regularization and restoration (housing development); integration and ideation (development ↔ movement); federation (movement ↔ state) (pp. 1033–1035)."
+  ],
+  [
+   "Ideation",
+   "Varvarousis: commons 'ideated' during a liminal occupation materialise later elsewhere; know-how stored in movements awaits an opportune political moment (pp. 1034–1035)."
+  ],
+  [
+   "Partial protection / new enclosure",
+   "Regularization protects against eviction but creates individual titles and debt that enable commodification (subletting, sale) (p. 1035)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Appropriation | occupy vacant bldg | Regularization | coupling with state | Renovation | mutirão, autogestão | Moving in | condominium | Five patterns of protection at three levels | 1 Housing development | regularization | restoration | 2 Development ↔ | movement | integration | ideation | 3 Movement ↔ state | federation | Partial: new enclosure | private titles, debt, | subletting online | use value vs | exchange value]",
+ "cap": "Commoning cycle (top), the five patterns of protection by level (middle) and the contradiction that regularization reopens enclosure (bottom).",
+ "table": {
+  "head": [
+   "Pattern",
+   "Level",
+   "What it protects",
+   "Case evidence"
+  ],
+  "rows": [
+   [
+    "Regularization",
+    "Housing development (common good)",
+    "Tenure security against eviction via legal recognition",
+    "SPU Ordinance 179 (Dandara, use-right concession); MCMV-E (Marisa Letícia, condominium)"
+   ],
+   [
+    "Restoration",
+    "Housing development",
+    "Habitability, safety, collective use rights",
+    "Mutirão renovation; night vigils; gates, doorman"
+   ],
+   [
+    "Integration",
+    "Development ↔ movement",
+    "Political engagement, solidarity; prevents marginalization",
+    "Entidades as entry point; effort-based points system"
+   ],
+   [
+    "Ideation",
+    "Development ↔ movement",
+    "Know-how that outlives hostile politics",
+    "Uruguayan cooperative federation's influence (1980s)"
+   ],
+   [
+    "Federation",
+    "Movement ↔ state",
+    "Resources and policy change",
+    "ULC within UMM; autogestão institutionalised in MCMV-E"
+   ]
+  ]
+ },
+ "example": "Dandara: a vacant former state court on Avenida Ipiranga (Sé) occupied by the ULC in 2009 after negotiations with the federal patrimony secretariat stalled. SPU Ordinance 179 designated it a public-interest asset; MCMV-Entidades funded a self-managed retrofit (federal cap of BRL 76,000 per unit, topped up by state and municipal funds). Families earned points for participation, sat on committees and slept on the mezzanine for over a year to guard the site; they moved in from December 2017 under a use-right concession. Residents may not sell or sublet, but the movement cannot enforce this.",
+ "quotes": [
+  "\"Housing, like any other good, does not constitute a commons in and of itself; rather, it becomes one through an open-ended interaction between practices and rules (Dardot and Laval, 2019).\" (p. 1022)",
+  "\"Housing units were allocated by entidades using an effort-based points system designed to incentivize participation and prevent free-riding.\" (p. 1031)",
+  "\"Collective use claims are thus essentially transformed into individual property titles, illustrating how regularization—purely out of necessity—may reproduce a hegemonic property regime in the absence of legal options for collective ownership.\" (p. 1034)",
+  "\"In trying to understand the stability of housing commons, prevailing institutionalist approaches are only of partial use because they overlook the political dimension integral to such projects.\" (p. 1036)"
+ ],
+ "dims": {
+  "sa": 65,
+  "rt": 55,
+  "de": 55,
+  "us": 80,
+  "mp": 65,
+  "norm": "Decommodification of housing (use value over exchange value), right to housing and to live in the centre, social function of property, self-management and solidarity; engaged research (participatory action research with the movements); calls for legal reform enabling collective property."
+ },
+ "exam": "Grounding perspective: urban commons theory in a neo-Marxian register (de Angelis, Harvey, Dardot and Laval: enclosure, use vs exchange value, capitalist urbanization) combined with Ostrom-style institutionalism (collective-choice rules, boundaries, points system against free-riding); movements are USMs in Castells' sense (collective consumption, the right to the city). The authors themselves claim to bridge institutionalist and neo-Marxian views. Best critiques: (1) Neo-institutionalism / Pruijt: regularization, MCMV-E and 'structural coupling' look like institutionalization or even cooptation (movements become housing producers for a countercyclical state programme); historical institutionalism explains why only a condominium regime was available (path dependence of Brazil's ownership culture). (2) Marxist political economy (harder line): the state crafts private property and debt from collective claims; commons as a fix that lets the state off the hook; only two successes out of many occupations. (3) Rational choice/Olson: the points system IS a selective incentive; residents' homeownership aspirations and subletting show individual interest eroding the collective good once the selective incentive ends. (4) Hayek: secure private titles are what give residents security and freedom; occupations violate the rule of law and property. (5) Governmentality: condominium courses and mortgages produce responsible, indebted subjects. Critical points: two successful cases (selection on the dependent variable), researchers are involved actors (PAR), normative commitment to commons shapes interpretation, 'protection' partly means exclusion. MCQ traps: five patterns (not three), levels, 'structural coupling' is de Angelis', enclosure forms.",
+ "examples": [
+  {
+   "t": "Marisa Letícia",
+   "d": "A former warehouse site owned by the national social security institute (INSS), designated for social housing in the late 1990s but left idle; the ULC occupied it on and off through the 2000s until it joined MCMV-Entidades in 2013; it was completed in 2019 and occupied from 2020. Unlike Dandara, the state bought and donated the land and it became a condominium with individual titles: regularization protects against eviction but turns collective claims into private property, opening new routes to enclosure.",
+   "src": "text",
+   "p": "pp. 1028–1032"
+  },
+  {
+   "t": "Prestes Maia building",
+   "d": "A former textile factory that once housed 2,000 people in one occupation went through three occupations and two evictions before its renovation became possible in 2022 through the municipal Pode Entrar programme. Shows how precarious appropriation is without structural coupling to state programmes and property regimes.",
+   "src": "text",
+   "p": "p. 1028"
+  },
+  {
+   "t": "Wilton Paes de Almeida fire",
+   "d": "In 2018 a fire in this occupied building killed four people, with five more missing. The disaster highlights the precarity of long occupations, and the ULC has since shifted mostly to shorter, political occupations aimed at forcing negotiations rather than long-term shelter.",
+   "src": "text",
+   "p": "pp. 1026–1027"
+  },
+  {
+   "t": "Ideas from Uruguay's cooperatives",
+   "d": "Exchanges with the Uruguayan Federation of Housing Cooperatives in the 1980s shaped Brazilian movements' thinking on cooperative building and self-management. The authors use this as an example of 'ideation': commoning knowledge stored in movements that later materializes in projects like Dandara.",
+   "src": "text",
+   "p": "pp. 1034–1035"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "The article starts from a blunt observation: the global housing crisis shows that private markets fail to guarantee adequate and affordable housing, and in response the 'commons' has emerged as a way of thinking about reclaiming housing (p. 1021). In central São Paulo, housing movements occupy vacant buildings, both to shelter people and to assert rights. Earlier research read these occupations through the lenses of citizenship and urban reform; a newer strand reads them as 'urban commoning', the collective practice of producing and managing a shared resource. Bossuyt and D'Ottaviano join that newer strand but push it in one specific direction.",
+    "Their puzzle is about time. Most work on urban commons focuses on loss and reclamation: how a resource is taken back from state or market. Much less is known about reproduction, meaning how a commons survives once it exists. Ostrom's work on common-pool resources (fisheries, forests) studied stability extensively, but the urban literature has 'somewhat overlooked' this dimension (p. 1021). Because capitalist urbanization and state cooptation keep threatening to take commons back, the authors argue that understanding how housing commons endure is just as important as understanding how they are won.",
+    "The article therefore asks: through which mechanisms are housing commons protected, and what role do social movements and property claims play in that protection? The empirical answer comes from two occupations in central São Paulo, Dandara and Marisa Letícia, that were turned into permanent self-managed housing. The authors identify five 'patterns of protection': regularization, restoration, integration, ideation and federation (p. 1021). They also show that each of these protections is partial, which becomes the most interesting and uncomfortable part of the argument."
+   ]
+  },
+  {
+   "h": "Housing as a commons and the threat of enclosure",
+   "p": [
+    "The authors first define their terms. 'The commons' refers to resources that are collectively produced, shared and used for their use value; 'commoning' refers to the active practices of sharing and managing them (p. 1022). Two traditions meet here. Institutionalist scholars (Ostrom) see commons as sets of rules that communities create to manage resources without relying on state or market. Neo-Marxian scholars (Caffentzis and Federici, Dardot and Laval) see commoning as a political principle opposed to capitalism. The article builds on Massimo de Angelis, for whom commons are social systems of shared resources, sustained and reproduced by a group through commoning practices. Housing is not a commons by nature; it becomes one through an open-ended interaction of practices and rules.",
+    "Housing commons have three dimensions (p. 1022). First, use value is prioritized over exchange value: housing is for living in, not for making profit, which the authors call a degree of 'decommodification'. Second, self-governance: residents themselves decide the collective-choice rules (who decides and how) and the operational rules (daily management). Third, solidarity and active participation grow through living together. Maintaining these three is a continuous struggle, because members, for example of limited-equity cooperatives, face a constant temptation of individual financial gain.",
+    "The opposite of a commons is 'enclosure', the loss of commons leading to dispossession and market dependency (p. 1023). In housing, enclosure has three forms. Commodification happens when residents sell their homes individually for profit, as when a cooperative is dissolved. Marginalization happens when a self-selecting commons shuts out outsiders through exclusive use, membership or access. Cooptation happens when the state undermines self-governance, for example by slowly absorbing cooperatives into statist logics. In each case value ends up with a single party while the people who live in, rely on or work for the commons lose out. The authors add that Ostrom's principles, designed for natural resources threatened by overuse, risk depoliticizing housing if protection is seen only in material terms."
+   ]
+  },
+  {
+   "h": "The property debate and the analytical framework",
+   "p": [
+    "Theorists disagree on how commons should be protected, and the question of property sits at the heart of that disagreement (p. 1023). Dardot and Laval argue that commons cannot be objects of property at all, because property implies exclusion. Harvey, by contrast, considers 'some degree of closure' necessary to protect commons in a commodified world. De Angelis and Stavrides take a middle ground: commons survive through porosity (open, permeable boundaries) and proliferation (spreading beyond their own boundaries). Savini adds that fragile cooperatives rely on 'nesting and federating', creating networks of commons so that single projects do not become, in Vidal's phrase, 'islands in commodified waters' (p. 1023).",
+    "Rather than deciding in theory whether commons and property are compatible, the authors propose to look at the concrete strategies people actually use to protect housing as a collectively managed, decommodified good (p. 1023). Their framework follows de Angelis' three-part view of a commons. The common good is the pooled resource, here understood through a relational concept of property: property as a bundle of claims, rights and obligations, shaped by legal frameworks. Such property relations can shield a commons, but they can also become a tool of enclosure when they take the 'ownership model' that vests power in one entity. The community consists of the commoners who make political claims about housing use. The practices are commoning itself: collective labor, decision-making, maintenance and cohabitation (pp. 1023–1024)."
+   ]
+  },
+  {
+   "h": "Method and the São Paulo context",
+   "p": [
+    "The research is qualitative and longitudinal (p. 1024). Between 2016 and 2021 the team did participatory action research, which began because one team member worked as an architect on Dandara's retrofit plans. This follows the Brazilian model of 'extensão', in which public universities collaborate with societal actors such as social movements. The team attended assemblies, subcommittee meetings and site visits, and conducted 19 interviews: ten residents, three movement leaders, three policymakers, two social workers and an architect. Policy documents, laws and federal housing statistics complemented this material. The two cases were chosen precisely because they succeeded, so that the protective mechanisms that let them persist could be studied.",
+    "São Paulo is marked by strong socio-spatial inequality and acute shortages (p. 1025). Public programmes long favored homeownership for formal-sector workers, so low-income groups built for themselves on the periphery. The democratization struggles of the 1980s produced the 1988 Constitution and the 2001 City Statute, which enshrined the right to housing and the 'social function of property'. Meanwhile, the city center emptied out: a 2022 census counted roughly 590,000 vacant properties against about 29,500 homeless families. Many low-income inner-city residents rent overcrowded tenements (cortiços), while the center itself has excellent infrastructure (pp. 1025–1026).",
+    "The movement studied is the ULC (Unification of Tenement Struggles), founded in 1991 and part of the umbrella UMM (Union of Housing Movements), founded in 1987 (p. 1026). The UMM is organized in neighborhood 'origin groups' federated up to state, federal and international networks. Compared to some other movements, UMM and ULC are less confrontational and legitimize occupations through citizenship and social rights. Because prolonged occupations are precarious (a 2018 fire in an occupied building killed four people), the ULC has mostly shifted toward shorter, political occupations, although these can still last years (pp. 1026–1027)."
+   ]
+  },
+  {
+   "h": "The legal contradiction behind occupations",
+   "p": [
+    "Occupations exploit a contradiction in Brazilian law between two principles: the social function of property and the right to private property (p. 1027). The social function principle says that private property carries an obligation to be used in ways that benefit the collective; it restricts owners' rights for the social good and rests on a relational view of property associated with the legal scholar Léon Duguit. Because municipal governments are often entangled with local 'growth machines' (coalitions pushing real estate development), they implement this principle poorly, so movements take matters into their own hands.",
+    "Movements therefore deliberately target vacant buildings: property that fails its social function. The UMM, for instance, chooses buildings whose owners have not paid taxes for long periods, or public buildings the state has neglected (p. 1027). Yet occupations remain disruptive, sometimes violent, and they infringe on a strongly valued principle. The authors add a point that becomes important later: many residents themselves aspire to homeownership, which in Brazil is seen as a precondition for full citizenship and a symbol of stability. Repression has also hardened; former president Bolsonaro called occupiers 'terrorists' (pp. 1027–1028)."
+   ]
+  },
+  {
+   "h": "The two cases: from occupation to condominium",
+   "p": [
+    "Dandara is a retrofit of a former state court in the Sé district, occupied in 2009 and renovated from 2014 to 2018; Marisa Letícia is a newly built complex on a former warehouse site in Brás, finished in 2019 (p. 1028). As of 2023 they were the only occupations in central São Paulo completed as permanent housing through self-management. The authors follow them through four stages.",
+    "Appropriation. Occupiers force entry into vacant public buildings and immediately start caring for them: changing locks, cleaning, removing waste, setting rules of access (p. 1029). This care is also strategic, because any sign of degradation feeds hostile politicians. Residents insist that they occupy, not 'invade'; as one resident put it, 'we occupy a place where no one has it' (p. 1029). Legitimacy, following de Angelis, is a critical resource against eviction.",
+    "Regularization. Movements then negotiate with the state for funding and formal status, using 'autogestão' (collective self-management) (pp. 1029–1030). Because movements lack money, they rely on the state. A federal ordinance (SPU 179) opened Dandara to negotiation, and Marisa Letícia entered the MCMV-Entidades programme, which for the first time gave movements direct access to federal housing funds. The federal cap of BRL 76,000 per unit was insufficient in the expensive center, so state and municipal top-ups were needed. The authors call this 'structural coupling': commons align with state systems to stabilize their claims (p. 1030).",
+    "Renovation and moving in. Residents contributed labor ('mutirão') and joined committees for purchasing, security or finance (pp. 1030–1031). Units were allocated through an effort-based points system rewarding participation in meetings, occupations and marches, which prevented free-riding. One resident recalled: 'We built our social fabric over two years during the construction phase, getting to know one another so that by the time we moved in, we were no longer strangers' (p. 1031). Before move-in, residents guarded the sites day and night; afterwards, gates and doormen controlled access, and social workers taught courses on condominium life (p. 1032). The property outcomes differed: Marisa Letícia became an individual condominium with private titles and mortgages, while Dandara received an unusual use-right concession. In both, selling or subletting is forbidden by the movements, but they cannot enforce it. As the authors put it, 'Regularization, therefore, transforms collective use claims to buildings into state-sanctioned private legal claims' (p. 1033)."
+   ]
+  },
+  {
+   "h": "Five patterns of protection at three levels",
+   "p": [
+    "The core contribution is a typology of five patterns operating at three levels (pp. 1033–1034). Together they help maintain the three principles of a housing commons: use value over exchange value, self-governance and solidarity. At the level of the housing development itself, the patterns are regularization and restoration (p. 1034). Regularization is legal recognition, the main defense against eviction. But because cooperative or collective property regimes are uncommon in Brazil, regularization usually means condominium property with individual titles; out of necessity it may 'reproduce a hegemonic property regime'. Restoration is material: making the building habitable, livable and safe, including night vigils and physical barriers. Protection is thus both legal and physical.",
+    "At the level between the development and the movement, the patterns are integration and ideation (pp. 1034–1035). Integration embeds residents in the wider housing struggle; the entidades (residents' organizations) are the entry point, and the points system encourages contribution, although it can clash with homeownership aspirations. Integrating new members also counters marginalization. Ideation, a term from Varvarousis, describes how commons ideas formed in one place later materialize elsewhere; the authors point to exchanges between Uruguayan housing cooperatives and Brazilian movements in the 1980s, and argue that technical know-how stays 'stored' in movements until a favorable political moment arrives.",
+    "At the interface between movements and the state, the pattern is federation (p. 1035). Commoning is layered: floor committees, resident committees, entidades, movements and finally federations that lobby for political change. This echoes de Angelis' 'common ecologies'. Federation made it possible to insert autogestão into state policy, amending the market-led MCMV programme so that both projects could be built at all."
+   ]
+  },
+  {
+   "h": "Why protection is only partial",
+   "p": [
+    "The authors stress that these protections are 'inherently partial' (p. 1035). Regularization and renovation convert public property, claimed collectively, into individual private titles. Private ownership plus individual mortgages turns households into 'indebted subjects' who could face foreclosure, and the conversion of collective political claims into personal debt relationships erodes collective action. Renovation also makes residents less dependent on the movement for tenure and habitability. So while regularization protects against eviction, it opens new avenues of enclosure; late in fieldwork, a unit appeared on a subletting platform (pp. 1035–1036).",
+    "Theoretically, this means institutionalist approaches are 'only of partial use' because they miss the political dimension (p. 1036). The authors propose a relational perspective, patterns of protection, that follows how political claims and property regimes evolve together. Commoning appears as a pragmatic practice that takes different organizational forms over time and contains contradictions that should not be dismissed just because they do not fit an ideal type. Against earlier work stressing Brazilian public law (the City Statute), they highlight the mediating role of private law, concluding that 'Social rights help to create and reclaim housing as commons, but may not be enough to sustain them' (p. 1036)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the authors want",
+   "p": [
+    "The conclusion restates two contributions (pp. 1036–1037). First, the article combines institutionalist and neo-Marxian understandings of the commons, by linking residents' values, property claims and patterns of protection. Second, it underlines the progressive potential of private law, not only public legislation. The lack of collective property arrangements in Brazil means legal reform is needed to create frameworks that support housing commons and guard against marketization.",
+    "The authors admit limits and open questions. The cases are two successes, chosen to see what makes survival possible. They call for longitudinal work on how market logics infiltrate such buildings, in particular how digital subletting platforms mediate commercialization and affect a community's collective ethos. And they ask for further theorizing and mapping of an 'archipelago of the commons': linked commons that support each other rather than standing alone (p. 1037)."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not the authors' claims. The article rests on commons theory, explicitly bridging Ostrom-style institutionalism (rules, collective-choice arrangements) and neo-Marxian thinking (commons against capital, enclosure). You can link the institutional side to the week 4 neo-institutionalism readings: property regimes and state programmes enable or constrain action, and 'structural coupling' is close to the idea that institutions can be transformative (Dembski and Salet). The Marxian side connects to Harvey and to Madden and Marcuse's critique of commodified housing.",
+    "On the course dimensions: agency is prominent (movements, residents, mutirão), but always within legal and financial structures, so the article sits in the middle of structure and agency. It is about transformation (decommodifying buildings) yet shows how transformation slides back into reproduction of private ownership. Protection is partly deliberate (points systems, federations) and partly emergent (ideation). Knowledge is situated: the patterns come from São Paulo's specific legal contradiction. Normatively, the authors are committed to use value, self-management and solidarity. A useful contrast is Pruijt: both study occupations and cooptation, but Pruijt asks whether movements survive integration, while Bossuyt and D'Ottaviano ask whether the housing itself stays common after integration."
+   ]
+  }
+ ],
+ "news": {
+  "t": "State fund for Dutch housing cooperatives",
+  "d": "In January 2026 the Dutch government announced the Fonds Coöperatief Wonen: €60.6 million (allocated in October 2025), managed by SVn, to finance housing cooperatives, housing associations and CPO groups from the planning phase onward. It targets projects of 12 to 100 homes for middle incomes (up to twice the median income), both rental and owner-occupied, with at least 5% own contribution and a location and municipal approval required. Minister Keijzer said cooperatives give people the chance to realise a shared housing wish together.",
+  "why": "Read through Bossuyt and D'Ottaviano, this is the 'restoration' pattern of protection at the state level: like MCMV-Entidades in São Paulo, public finance is what lets a housing commons be built at all, and in return the state sets the terms (income caps, own contribution, municipal approval). The fact that the fund also covers owner-occupied projects echoes their core warning: regularisation into individual ownership can reopen routes to commodification, while collective rental keeps use value over exchange value. Limit: these are middle-income groups starting from scratch, not occupations by homeless movements reclaiming vacant buildings.",
+  "src": {
+   "name": "Rijksoverheid",
+   "title": "Fonds Coöperatief Wonen gaat financiering wooncoöperaties mogelijk maken",
+   "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/01/19/fonds-cooperatief-wonen-gaat-financiering-wooncooperaties-mogelijk-maken",
+   "date": "2026-01-19"
+  }
+ }
+}

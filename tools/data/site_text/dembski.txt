@@ -1,0 +1,233 @@
+{
+ "id": "dembski",
+ "wk": 4,
+ "title": "Dembski & Salet (2010) The transformative potential of institutions",
+ "cite": "Dembski, S. & Salet, W. (2010). Environment and Planning A, 42(3), 611–625. doi:10.1068/a42184",
+ "theory": "Sociological institutionalism",
+ "status": "full",
+ "statusNote": "Full article on file.",
+ "one": "Whether symbolic markers (metaphors, landmarks, events) can give new meaning to changing city-regions depends not on the symbol's design but on its institutional embedding: symbols work only if their meaning is inculcated in the audience's mental maps.",
+ "summary": [
+  "Changing city-regions (Zwischenstadt, edge cities, métapolis) lack a crystallised identity, so planners use symbolic markers (Flemish Diamond, Pearl River Delta, Guggenheim Bilbao, IBA Emscher Park) to frame change and mobilise actors. Most fail. Central question: why does symbolisation of new urban spaces strengthen social meaning in some cases, while elsewhere symbols remain powerless or even backfire? Communicative/interpretive planning studies the symbol itself; the authors look for the answer in institutions.",
+  "They reject the view that institutions are 'rusty old fixtures' that only explain preservation, and position themselves with two choices (Table 1): institutions as internalised in actors' mindsets (not external constraints) and as validated in action (not fixed prior to action), which places them in sociological institutionalism. Institutions are the 'chance' of validating rules (Weber) and must be confirmed again and again in everyday practice: 'Institutions are not carved in stone.'",
+  "Theory: Berger & Luckmann (habitualisation, reciprocity of expectations), Bourdieu (habitus: practice informed by structure, the card-game metaphor; 'instituting'; rites of institution consecrate arbitrary boundaries and produce discontinuity out of continuity: 'Become what you are'), Geertz (symbols 'saying something of something'; the Balinese cockfight), Paasi (regional identity has an internal and an external side), Billig (banal nationalism). Symbolic markers cannot be used in a voluntaristic way: 'institutional transformation is deliberate change', yet it needs a sound notion of existing norms. The art of planning is finding under-institutionalised niches or institutional voids (Hajer).",
+  "Methodology (Box 1): 8 steps: (1) symbolic markers; (2) encoded message; (3) subjective context (who symbolises, legitimacy); (4) objective context (social structure, habitus: are symbols genuine?); (5) audience; (6) process of articulation over time; (7) internalisation of symbolic meaning; (8) sanctions for misrecognition."
+ ],
+ "concepts": [
+  [
+   "Symbolic marker",
+   "Metaphor, landmark, event or design used to frame and mobilise change."
+  ],
+  [
+   "Institutional embedding",
+   "Symbols' meaning anchored in internalised social norms; the condition for their efficacy."
+  ],
+  [
+   "Internalised vs external institutions",
+   "In people's mental maps/habitus vs outside constraints on choice."
+  ],
+  [
+   "Validated in action",
+   "Institutions must be reaffirmed in each practice; meaning is never fixed."
+  ],
+  [
+   "Habitus (Bourdieu)",
+   "Durable dispositions: structure internalised, informing but not determining practice."
+  ],
+  [
+   "Rites of institution",
+   "Consecrating an arbitrary boundary so that representation changes reality ('social magic')."
+  ],
+  [
+   "Inculcation",
+   "The audience absorbing and guaranteeing a symbol's meaning."
+  ],
+  [
+   "Institutional void",
+   "Under-institutionalised space where new practices can take root (Hajer)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Symbolic marker | 'Flemish Diamond' | Institutionally | embedded? | inculcated by audience | yes → new meaning | no → powerless | Not decisive: the design quality, rhetoric or 'pearls of rhetoric' of the symbol itself. | Decisive: are the transmitters legitimate 'knowers'? does it fit existing norms? does the audience believe it (inside AND outside)? | Bilbao still isn't a cultural city; Green Heart works, but it aims at preservation, not transformation.]",
+ "cap": "The paper's core causal claim.",
+ "table": {
+  "head": [
+   "Step",
+   "Question"
+  ],
+  "rows": [
+   [
+    "1 Symbolic markers",
+    "Which linguistic/material markers?"
+   ],
+   [
+    "2 Encoded message",
+    "What social patterns do they symbolise (past, transformation, past bent to the future)?"
+   ],
+   [
+    "3 Subjective context",
+    "Who symbolises, and are they legitimate?"
+   ],
+   [
+    "4 Objective context",
+    "What social structure is reproduced; are symbols genuine?"
+   ],
+   [
+    "5 Audience",
+    "Who is addressed?"
+   ],
+   [
+    "6 Articulation",
+    "How do meanings change over time; who contests?"
+   ],
+   [
+    "7 Internalisation",
+    "How is meaning inculcated, habituated, consecrated?"
+   ],
+   [
+    "8 Sanctions",
+    "What happens on misrecognition, and who sanctions?"
+   ]
+  ]
+ },
+ "example": "'Brainport Eindhoven' as a marker works because it rests on embedded Philips/ASML industrial practices and identity; a 'Silicon Polder' label on a random business park would not.",
+ "quotes": [
+  "\"It is in the institutional embedding in the mental maps of humankind that the success or failure of symbolic communication lies.\"",
+  "\"Institutions are not carved in stone.\"",
+  "\"Symbolic markers cannot be used in a voluntaristic manner. Institutional transformation is deliberate change.\""
+ ],
+ "dims": {
+  "sa": 45,
+  "rt": 85,
+  "de": 40,
+  "us": 80,
+  "mp": 70,
+  "norm": "Meaningful, legitimate transformation of city-regions; social mobilisation."
+ },
+ "exam": "Key identifiers: 'internalised', 'validated in action', 'habitus', 'logic of appropriateness', 'symbols', 'meaning' → sociological institutionalism. Emphasis on transformation, not path dependency.",
+ "examples": [
+  {
+   "t": "Pearl River Delta and Flemish Diamond",
+   "d": "Metaphors meant to express a coherent Hong Kong-Shenzhen-Guangzhou region and a polycentric Flemish city network had little effect: the first is 'mission impossible', the second stays an idea in planners' minds. Shows that symbolic markers are not self-mobilising without institutional embedding.",
+   "src": "text",
+   "p": "pp. 611-612"
+  },
+  {
+   "t": "Bilbao, Poitiers and 'silicon valleys'",
+   "d": "The Guggenheim has not yet turned industrial Bilbao into a cultural city, the Futuroscope has not made Poitiers a technology centre, and genuine silicon valleys are few. Shows landmarks detached from institutionalised practices failing to enhance social meaning.",
+   "src": "text",
+   "p": "p. 612"
+  },
+  {
+   "t": "Green Heart and London Green Belt",
+   "d": "These concepts are seen as successful on their own terms, but they aim at preservation, not transformation. Shows why the paper's puzzle is about markers of change: a symbol that confirms existing institutions has an easier job.",
+   "src": "text",
+   "p": "p. 612"
+  },
+  {
+   "t": "A master's degree as rite",
+   "d": "Following Bourdieu, ageing is gradual, but rites of institution consecrate an arbitrary boundary (child, adolescent, adult), and the social magic of an amulet does not differ from a master's degree. Shows how symbols institute new social meaning when the audience believes in them.",
+   "src": "text",
+   "p": "p. 620"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Planners, designers, developers and civic groups increasingly mark urban change with symbols: landmarks, design objects, planning metaphors, marketing images, new public spaces and big events (p. 611). The aim is to enhance the social meaning of transforming spaces, to make them mean more than is now apparent. But this often fails. Dembski and Salet list examples: the Pearl River Delta suggests a coherent metropolitan region but is 'mission impossible', the Flemish Diamond has little effect on policy, Bilbao has not yet become a cultural city, and genuine silicon valleys are few (p. 612). Successful concepts such as the London Green Belt or the Dutch Green Heart aim at preservation, not transformation.",
+    "Their central question is: why does the symbolisation of new urban spaces strengthen social meaning in some cases, while in others the symbols remain powerless or even backfire (p. 612)? Communicative planning theory has studied discourse, narrative and metaphor, but the authors want to find the institutional conditions that enable effective mobilisation. Their thesis is that success does not lie in the quality of the symbol itself: “It is in the institutional embedding in the mental maps of humankind that the success or failure of symbolic communication lies” (p. 612). Planners who see a symbol fail tend to redesign the symbol, which misses the point.",
+    "This creates a theoretical problem they must solve first. Most institutional research stresses path dependency and durability; planners often see institutions as 'rusty old fixtures' that block solutions (p. 612). So why use institutions to explain dynamic change? The authors answer that “Institutions are not carved in stone” (p. 613): norms must be validated and reproduced in every new situation, and this ongoing affirmation and contestation opens room for innovation. The paper is conceptual: it reappraises institutional theory, links it to symbolic theory, and proposes a research model (p. 613)."
+   ]
+  },
+  {
+   "h": "Cities in transition: why new symbols are sought",
+   "p": [
+    "The authors first describe the urban change that prompts symbolic planning. The classic pattern of a central city with decreasing density outward began to crack in North America in the 1960s: Friedmann and Miller's 'urban field', Fishman's end of suburbia, Garreau's 'Edge City' and Soja's 'mass regional urbanisation' all describe dispersed, non-hierarchical urban regions (p. 613). In Europe, containment policies slowed this but did not prevent it. Ascher's 'métapolis' and Sieverts' 'Zwischenstadt' (the in-between city that is neither compact city nor countryside nor classic suburb) named the new reality in the 1990s (p. 613).",
+    "These changes cross administrative and cultural boundaries (p. 614). Urban sprawl ignores municipal borders, the town-countryside dichotomy has disappeared into a patchwork, and urban activities pop up in unexpected places such as offices at highway junctions. The new landscape is perceived as a 'nonplace' without deeply rooted meaning, which creates a quest for new identity. The fragmented city-regional archipelago needs integration and legitimacy for city-regional arrangements (p. 614). The authors suggest the regional city may be the appropriate form for contemporary Western societies, but whether perceptions follow is uncertain, which is why they study how new symbols are made to serve as vehicles for identifying new qualities of life (p. 614)."
+   ]
+  },
+  {
+   "h": "Choosing a position in institutional theory",
+   "p": [
+    "Institutions are 'simply defined' as 'patterns of social rules', and most institutional approaches try to explain how social rules enable collective action in a world of individual choices (p. 615). To select a paradigm, the authors use two dimensions (Table 1, p. 615). First, the position of institutions: are they external constraints on individuals, or internalised in human agency? Second, their validation: do institutions exist 'prior to action', or must they be validated 'in action'? This gives four quadrants: rational choice institutionalism (external, prior to action), historical institutionalism (internalised, prior to action), political or actor-centred institutionalism such as Ostrom and Scharpf (external, in action), and sociological institutionalism (internalised, in action).",
+    "On the first dimension, the external view has the advantage of clearly separating rules from individual choices and is widely used in economics (p. 615). Rational choice institutionalism sees rules as reducing uncertainty and solving collective action dilemmas, where individual maximisation leads to collectively poor outcomes (p. 616). Actor-centred institutionalism adds power and interest in change, but still treats institutions as external. The authors need internalisation, because they expect symbols to work through the meaning people attribute to them. In this view people follow institutions not from strategic calculation but from an assumed imperative, and institutions shape basic preferences: “the logic of appropriateness ranks higher than efficiency” (p. 616)."
+   ]
+  },
+  {
+   "h": "Institutions as validated in action, not fixed in advance",
+   "p": [
+    "The second dimension concerns change. Historical institutionalism stresses path dependency and the legacy of history, which is valuable in comparative politics but weak in explaining change; some historical institutionalists therefore turn to critical junctures, but innovation remains a historical particularity rather than the core of the theory (pp. 616–617). Following Friedland and Alford, the authors criticise the absence of 'living society' in both rational choice and deterministic historical accounts (p. 617).",
+    "Their alternative, following Weber, is to define institutions as the 'chance (or possibility)' of validating patterns of social rules (p. 617). Institutions have to be confirmed repeatedly in everyday practice to have real meaning. Their meaning may be neglected, latent or manifest, contested between conflicting institutions, or interpreted differently by different norm holders, and this is the rule rather than the exception. Norms usually change gradually, not because they are fixed, but because it is unlikely that everyone changes their interpretation at once (p. 617). In transforming cities, many people cling to old perceptions while new practices institutionalise new meanings. Hence institutional innovation is 'deliberate change', requiring a sound grasp of existing norms (p. 617). This places them in the fourth quadrant: internalised and validated in action."
+   ]
+  },
+  {
+   "h": "Instituting social meaning: habitualisation and habitus",
+   "p": [
+    "Drawing on Berger and Luckmann, institutionalisation is described as an ongoing process of normalisation or 'habitualisation' (p. 618). Codes gain institutional depth when a 'reciprocity of expectations' grows among norm holders: everyone expects everyone else to act in the typical way. Institutions evolve over long periods; even formal legislation takes shape gradually and must be validated in practice after it is enacted. Their main control is reciprocal recognition, with sanctions reserved for those who fail to recognise the norm. Mary Douglas' analysis of a meal as a set of coded messages shows that such structures are expressed and reproduced in daily life (p. 618).",
+    "To avoid a purely subjective reading, the authors use Bourdieu's 'habitus': durable dispositions through which people internalise their position in social space, so that practice is neither a mechanical reaction to structure nor independent of it (p. 618). Bourdieu's card game image helps: the cards (material capital) have values set by the rules, which limit strategies, but players' skill still matters. These patterns must be constantly reconstructed, and Bourdieu stresses the active verb 'instituting' (pp. 618–619). Institutions, in short, are made and remade in practice."
+   ]
+  },
+  {
+   "h": "How symbols can enlarge social meaning: rites of institution",
+   "p": [
+    "A symbol refers to something wider that is not in the symbol itself (p. 619). With Geertz, culture is a pattern of meanings embodied in symbols; his Balinese cockfight shows spectators cheering not for the birds but for their own status groups. Institutions need reaffirmation through symbolic objects and rituals, and in fact 'institutions are symbolic systems' (p. 619). Institutions such as religion or land property are real only to those who believe in them; voting makes sense only if one believes in democracy (p. 619).",
+    "The key mechanism comes from Bourdieu's 'rites of institution' (p. 620). Ageing is continuous, but rites mark sharp passages between childhood, adolescence and adulthood and legitimise those differences: “The rite is thus one not of passage but of instituting” (p. 620). Such 'social magic' produces discontinuity out of continuity: a master's degree, like an amulet, changes how others treat a person and how the person sees themself. But it works only if the meaning is inculcated in, and guaranteed by, the audience. That is the Achilles heel: if the institutional condition is not met, symbolic mobilisation stays powerless (p. 620).",
+    "Applied to regions, instituting a high-technology city-region is more than developing technology; it must be believed, inside and outside (p. 620). Following Paasi, regional identity has an internal and an external side, and a material, institutional shape as well as a symbolic shape. Those who impose norms must be recognised as legitimate 'knowers'. Billig's 'banal nationalism' (the everyday flag, not the big moment) shows that regions must be reaffirmed through conscious and especially unconscious remembrance, or their mobilising power fades (p. 621)."
+   ]
+  },
+  {
+   "h": "Evidence and cases: a research model rather than a case study",
+   "p": [
+    "The paper has no empirical case; it proposes an eight-step research strategy (Box 1, pp. 621–622). Steps 1 and 2 identify the symbolic markers (metaphors, landmarks, icons, model projects) and diagnose the encoded message: does it symbolise past social relations, transformation, or the past 'bent' towards a new future? Steps 3 to 5 cover the field of power: who the symbolisers are and whether they are authoritative (subjective context), what social structure is reproduced and whether the symbols are genuine (objective context, e.g. via habitus), and which audience is addressed.",
+    "Step 6 adds time: how symbols change, conflicting interpretations, and the role of claim-makers, drawing on framing literature. Step 7 examines internalisation: inculcation, habituation, rites of institution, consecration and the making of discontinuity out of continuity. Step 8 analyses sanctions for misrecognition and who the sanctioners are (p. 622). The warning for practice is clear: “Symbolic markers cannot be used in a voluntaristic manner” (p. 621), meaning planners cannot simply will a new reality into being. Cultural symbols used by planners are often detached from institutionalised practices and fall on fallow ground (p. 621)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the authors want",
+   "p": [
+    "Institutional change happens through new practices that deviate from existing practices without ignoring evolved meaning (p. 621). Where evolved and emerging appropriateness meet, conflict is manifest; new institutions arise through new cultural practices that become institutionalised, gradually or in what Hajer called an 'institutional void' (p. 622). Hence: “The art of planning is to find niches of underinstitutionalised space (social as well as spatial)” (p. 622), places not dominated by power struggles over the norm, such as forgotten industrial sites, opencast pits or dilapidated estates. In a fragmented institutional order, planning can build on the accepted practices of particular groups.",
+    "The conclusion restates the argument (p. 623): institutions are internalised patterns whose existence is continually validated in practice, so their meaning is never fixed; transforming reality requires a sound notion of existing norms and norm holders; symbolic mediation is essential to reaffirm institutional meaning; and symbols work their social magic only when their meaning is inculcated by the audience. The authors admit the internalised approach is analytically harder, since it is not easy to investigate what is internalised in people's minds (p. 616), and the paper offers no test of its model."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not the authors' claim. The article is the course's clearest statement of sociological institutionalism, and its Table 1 is the map the lecture uses. It rests on Berger and Luckmann's social constructionism, Geertz's interpretive anthropology and Bourdieu's theory of practice. It also speaks to communicative planning theory: it shares the interest in meaning and metaphor but argues that communication alone cannot explain success.",
+    "On the course dimensions, it is a structuration-type middle position: habitus is internalised structure, yet it is re-enacted and can shift in action. It aims at transformation, but only transformation that connects with existing norms, so it sits between reproduction and radical change. Change is 'deliberate' yet not voluntaristic; planners can steer but not decree. Knowledge is situated, since meaning depends on audience and place. It is pluralist in recognising many groups with different norms, and its normative commitment is modest: effective, legitimate mobilisation rather than a specific social goal.",
+    "Contrasts: Moroni shares the scepticism about top-down design but grounds it in evolved rules and dispersed knowledge rather than meaning, and draws more liberal conclusions. Sorensen's historical institutionalism, which the authors criticise as better at continuity than change, answers with critical junctures and ongoing contestation. Taylor's rent-seeking actors are the kind of strategic, external-rule actors Dembski and Salet set aside."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Saudi Arabia's The Line shrinks",
+  "d": "In April 2024 CNBC reported that The Line, the 105-mile glass-walled city in Saudi Arabia's NEOM project, was reportedly scaled back to 1.5 miles by 2030, with a target of 300,000 instead of 1.5 million residents. NEOM is part of Vision 2030, meant to diversify the economy away from oil. Economy minister Faisal Al Ibrahim denied it: 'There is no change in scale.'",
+  "why": "Read through Dembski and Salet, The Line is a symbolic marker of a post-oil future whose meaning was designed rather than embedded: no existing urban practices, residents or institutions carry it, so it resembles their Futuroscope case more than a marker like Brainport. The paper predicts that such markers do not mobilise meaning on their own. Limit: NEOM is greenfield and centrally ruled, not a changing city-region with plural actors, and its trouble is also simply financial.",
+  "src": {
+   "name": "CNBC (via NBC Washington)",
+   "title": "Saudi Arabia says all NEOM megaprojects will go ahead as planned despite reports of scaling back",
+   "url": "https://www.nbcwashington.com/news/business/money-report/saudi-arabia-says-all-neom-megaprojects-will-go-ahead-as-planned-despite-reports-of-scaling-back/3603773/",
+   "date": "2024-04-29"
+  }
+ },
+ "lect": {
+  "figs": [],
+  "tables": [],
+  "points": [
+   {
+    "t": "Lecture exercise: Dembski & Salet as reading 1",
+    "d": "In HC7 students pick a reading and answer: how does it explain the limits of deliberate, top-down institutional design; which mechanisms of change does it emphasise; what role do planners have compared with planners as intentional designers? 'Use quotes to support your answers.' The lecturer's answer quotes for this paper are below.",
+    "slide": "HC7 slides 33–34"
+   },
+   {
+    "t": "Quote: limits of design (p. 621)",
+    "d": "\"The fact that reality is socially constructed does not by any means imply that planners and policy makers can create whatever social reality they desire. Symbolic markers cannot be used in a voluntaristic way.\"",
+    "slide": "HC7 slide 34"
+   },
+   {
+    "t": "Quote: mechanism of change (pp. 618, 622)",
+    "d": "\"New institutions emerge through new cultural practices that become institutionalised.\" (p. 622) and \"Institutionalisation is an ongoing process of normalisation and habituation.\" (p. 618)",
+    "slide": "HC7 slide 34"
+   }
+  ]
+ }
+}

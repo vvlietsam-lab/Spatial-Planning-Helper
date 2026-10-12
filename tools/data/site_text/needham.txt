@@ -1,0 +1,232 @@
+{
+ "id": "needham",
+ "wk": 3,
+ "title": "Needham (2012) Interests and rights in property",
+ "cite": "Needham, B. (2012). Interests and rights in property, and their place in land-use planning: a theoretical investigation. In T. Hartmann & B. Needham (eds), Planning By Law and Property Rights Reconsidered (ch. 1, pp. 23–36). Taylor & Francis Group, 2012 (the syllabus lists it as Routledge 2016; same pagination)",
+ "theory": "Institutional economics of property rights (law and economics; rational choice lens in the course)",
+ "status": "full",
+ "statusNote": "Built from the full chapter (ProQuest ebook, copyright 'Taylor & Francis Group 2012'; pp. 23–35 text, 35–36 references). The syllabus lists it as 2016 (Routledge); pagination 23–36 matches. Lecture HC6 (24 Sept) used for how the course frames it. The 'dual role of the state' matrix and the landowner 'veto' are lecture framings, not terms in the chapter.",
+ "one": "Land-use planning is not the public interest against the market: it is one of two ways the state protects identifiable private interests in land, the other being property rights enforced by their holders in court. Which interests get which protection is a political and technical choice that can be revised, so some planning goals could be reached by creating markets in property rights; Needham finds this feasible only under limited circumstances.",
+ "summary": [
+  "Reframing (pp. 23–26): planning is usually justified by 'the public interest', which Needham rejects: it is hard to substantiate, economic 'distortion' arguments no longer convince, and it depersonalises: 'But we too are the public!' People have interests in how land is used, their own and their neighbours' (a deep hole, a pink door, traffic, shops, open landscape, clean air). The authority upholds 'the identifiable interests of many identifiable private persons'. Planning is also not 'command and control': owners' decisions remain voluntary, and 'Land-use planning will succeed only if it can influence the private decisions' (p. 24), via permits, subsidies/levies, persuasion or infrastructure; only taking ownership removes the decision.",
+  "Rights (pp. 26–28): ownership is never absolute; owners may not seriously harm others (though many countries allow harm if the benefit exceeds it, Coase), and owners can grant partial rights (a lease). A property right is a way of using land 'recognized by, and protected by, the courts', so rights are created by the state, not natural (against Locke): 'It is the fact that something is protected that makes it a right' (Bromley). The state protects interests in two ways: private law (the interest becomes a property right the holder enforces in court) and public law (a public authority such as a municipality restricts how others use their rights, e.g. via building permits). Which route applies is partly political (the door colour is not protected at all) and partly technical (right of support: clear cause and few parties; clean air: diffuse effects, hundreds of victims who cannot organise a lawsuit, so public law).",
+  "Rights as policy variable (pp. 28–29): because the split is a decision, it can be revised; property rights can 'be deliberately changed in order purposefully to influence land use', although rights carry high ideological content and the ECHR limits change. Example: vesting future generations' interests as rights held by trustees. A market exists when there is a wanted good, voluntary exchange with free choice of partner, and regular exchange (Hodgson). As markets cannot be excluded (Lindblom), 'planning or the market?' is the wrong question; it is about the mix (Buitelaar), and moving protection from public to private law means creating markets in property rights.",
+  "Method and cases (pp. 30–34): Coase's reciprocity ('Should A be allowed to harm B or should B be allowed to harm A?'), Ellickson's alternatives to zoning and Webster & Lai's club goods. Needham distinguishes this from libertarian attacks on planning, keeps the planning goals, and compares instruments by effectiveness ('remediability', Williamson), not by assumed efficiency. Four cases: housing-estate amenity via covenants and a residents' association (US, England; not binding in the Netherlands); industrial estates maintained by one investor-landlord (not possible in NL: no compulsory association, leases not tradable, so estates decay and need public money; fix: make unexpired leases saleable); privately owned public spaces under permit conditions; and regional coherence, where effects are too dispersed for a market, though US conservation agreements buy development rights.",
+  "Conclusions (pp. 34–35): creating markets in property rights is feasible 'only under certain limited circumstances', and feasibility is not desirability. Advantages: less inflexible, no public compensation for 'takings'; risks: exclusive developments such as gated communities and urban fragmentation. Politically neither left nor right: with Blomley, Needham argues poorer people can be empowered by giving them rights in property. Course framing (HC6): rational choice can explain transformation through deliberate redesign of rights, while Taylor shows reproduction by insiders."
+ ],
+ "concepts": [
+  [
+   "Interest in land",
+   "What a person wants regarding how any land is used (own or others'); only some interests are protected, as rights or by planning (pp. 25–28)."
+  ],
+  [
+   "Property right",
+   "'A way of using land (and buildings), where that way is recognized by, and protected by, the courts' (p. 27); created by the state, never absolute."
+  ],
+  [
+   "Private-law protection",
+   "The state makes an interest a property right; the holder takes the violator to court on her own initiative (p. 27)."
+  ],
+  [
+   "Public-law protection",
+   "A public authority uses powers (permits, prohibitions) to protect those who cannot protect their interests otherwise: land-use planning (pp. 27–28)."
+  ],
+  [
+   "Political vs technical allocation",
+   "Whether an interest is protected at all is political; whether as right or by regulation depends on clarity of cause–effect and number of parties (p. 28)."
+  ],
+  [
+   "Property rights as policy variable",
+   "Since rights are created, they can be deliberately changed to steer land use, like land tenure reform (pp. 28–29)."
+  ],
+  [
+   "Market (Hodgson)",
+   "Something wanted; voluntary exchange with free choice of partner; regular exchange among more people (p. 29)."
+  ],
+  [
+   "Coasean reciprocity",
+   "Restricting A to protect B harms A; the question is who may harm whom (p. 30)."
+  ],
+  [
+   "Remediability",
+   "Williamson's approach: compare how effectively alternative instruments reach the same policy goal, not maximum efficiency (p. 30)."
+  ],
+  [
+   "Creating markets in property rights",
+   "Shifting protection from public law to private law, creating exchange structures in which people realise planning goals themselves (pp. 29–31)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: People's interests | in how land is used | State decides | political + technical | Property right | private law: holder | sues in court | right of support | Public-law protection | authority: permits, | prohibitions | clean air (diffuse) | Not protected | interest judged | less important | neighbour's door colour | Shift public law to property right = create a market in property rights (p. 29)]",
+ "cap": "Two state routes for protecting interests in land (p. 27); the allocation is revisable, which is Needham's opening for 'markets in property rights'.",
+ "table": {
+  "head": [
+   "Situation (pp. 31–34)",
+   "Usual public-law route",
+   "Property-rights route",
+   "Verdict in the chapter"
+  ],
+  "rows": [
+   [
+    "Amenity in housing estates",
+    "Plan conditions, permits, monitoring",
+    "Covenants enforced by a residents' association (US 'private community associations', English 'scheme of development')",
+    "Feasible; not legally binding in NL (membership cannot be compulsory)"
+   ],
+   [
+    "Well-maintained industrial estates",
+    "Building/planning plus environmental permits (poor at maintenance)",
+    "One investor-landlord owns and leases the estate, maintaining its value",
+    "Works in England/US; in NL estates decay; fix: make unexpired leases tradable"
+   ],
+   [
+    "Urban public spaces",
+    "Municipality provides and maintains",
+    "Privately owned, publicly accessible spaces (malls, resident-owned spaces) under permit conditions",
+    "Rights deliberately created for a type of urban environment"
+   ],
+   [
+    "Coherent regional development",
+    "Land-use plans and infrastructure",
+    "Market in rights hardly realistic: effects too dispersed",
+    "Only public bodies/trusts using private law, e.g. US conservation agreements buying development rights"
+   ]
+  ]
+ },
+ "example": "Dutch industrial estates (p. 32): firms that own their buildings cannot be obliged to join an association that maintains shared spaces, and tenants avoid long leases because an unexpired lease cannot be sold on. So nobody holds the rights needed to protect the shared interest in quality, estates deteriorate quickly, and only large amounts of public money improve them. In England/US one investor-landlord holds the rights and maintains the estate to protect his investment.",
+ "quotes": [
+  "\"Land-use planning will succeed only if it can influence the private decisions.\" (p. 24)",
+  "\"The authority is acting not so much to uphold some general public interest, as to uphold the identifiable interests of many identifiable private persons.\" (p. 26)",
+  "\"It is the fact that something is protected that makes it a right, rather than that something is protected because it is a right\" (Bromley 1998, quoted p. 27)",
+  "\"creating markets in property rights is a feasible alternative only under certain limited circumstances\" (p. 34)"
+ ],
+ "dims": {
+  "sa": 60,
+  "rt": 75,
+  "de": 15,
+  "us": 45,
+  "mp": 65,
+  "norm": "Protecting the legitimate interests of identifiable citizens; effectiveness (remediability) rather than efficiency; freedom and responsibility of rights holders; empowering the poor through rights; wary of exclusion and fragmentation."
+ },
+ "exam": "Know the two routes (private vs public law), the political vs technical allocation (door colour, right of support, clean air), rights as state-created and changeable, and the modest conclusion (feasible only in limited circumstances; feasibility is not desirability). Traps: Needham does NOT reject planning's goals or legitimacy, does NOT argue for replacing planning with markets, does NOT assume efficiency is the goal, and says the approach is neither left nor right. The lecture's 'veto of landowners' and 'dual role of the state' matrix are course framings. Link to Olson: the clean-air case is a collective action problem (many diffuse victims cannot organise). Critique angles: Marxism/political economy (rights reflect and reproduce class power; Needham himself concedes gated communities and fragmentation), communicative planning (interests are formed in deliberation, not given), historical institutionalism (path dependence makes rights hard to change: 'high ideological content').",
+ "examples": [
+  {
+   "t": "Covenants in US housing estates",
+   "d": "In the US (private community associations) and less often England, buyers sign covenants against changes that harm the estate and a residents' association enforces them; in the Netherlands this is not legally binding because owners cannot be obliged to join such an association. Shows an interest turned into a property right, and how national property law decides whether a market alternative to planning exists.",
+   "src": "text",
+   "p": "pp. 31-32"
+  },
+  {
+   "t": "Foundations versus clean air",
+   "d": "A neighbour damaging my foundations is covered by a property right (the right of support) because cause, culprit and victim are clear and few; clean air is protected by public law (permits, emission limits) because effects are diffuse and hundreds of victims cannot organise a court case. Shows the partly technical, partly political choice between private-law and public-law protection of interests.",
+   "src": "text",
+   "p": "p. 28"
+  },
+  {
+   "t": "Privately owned public spaces",
+   "d": "Shopping malls, and small housing developments where residents own and maintain shared spaces that stay open to all, operate under planning conditions on public access and maintenance. Shows property rights deliberately created to deliver a certain type of urban environment.",
+   "src": "text",
+   "p": "p. 33"
+  },
+  {
+   "t": "US conservation agreements",
+   "d": "A public or private trust buys a farmer's development rights and never uses them, so the land stays open while the farmer keeps ownership. Shows a public planning goal pursued with private-law tools where regional interests are too dispersed for a market in rights.",
+   "src": "text",
+   "p": "p. 34"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Needham's chapter opens a book on planning, law and property rights. It starts by rejecting a familiar way of thinking: that land-use planning opposes the market, restricts property rights, and is justified because a public authority must act 'in the public interest' (p. 23). Instead he looks at the interests that people have in how land is used. Some of these interests are protected by private law as property rights, which their holders can use in the market. Others are recognised by the state but not made into property rights; a public authority protects them on citizens' behalf through public law. That, for Needham, is what land-use planning is.",
+    "The crucial point is that the line between interests protected as rights and interests protected by planning 'is not absolute and is the result of a political decision' (p. 23). So he asks: could some goals of land-use planning be reached by turning interests into rights, so that markets in those rights produce the desired land use? He is careful about the scope. The chapter investigates feasibility only; it 'does not recommend replacing land-use planning by markets in property rights' (p. 23). He also does not question the legitimacy of the state influencing land use, only the methods it uses (pp. 23–24)."
+   ]
+  },
+  {
+   "h": "Planning works by influencing private decisions",
+   "p": [
+    "Needham defines land-use planning as what public authorities do when they try to reach a politically chosen goal by deliberately influencing how land in an area is used: efficient production, safer traffic, affordable housing, protected habitats and so on (p. 23). The usual method is regulation: building and development need a permit, given only if the initiative fits a plan (p. 24). The alternative he explores is creating markets in property rights so that people's own initiatives automatically realise the policy goals. Possible advantages: citizens are freer and more responsible for their surroundings and can use rights to protect themselves against the powerful; the planning agency faces less direct involvement, less financial risk and less risk of freezing an inappropriate land use (p. 24).",
+    "He then makes an observation that the lecture picked up. Achieving planning goals depends on how land is used, not who owns it, and under planning most land-use decisions are still taken voluntarily by owners. Planning is not really 'command and control'. The authority has no right to decide unless it owns the land. Hence: 'Land-use planning will succeed only if it can influence the private decisions' (p. 24). Tools for this influence include development control, subsidies and levies, persuasion, and providing infrastructure; only expropriation takes the decision away from the owner, typically for roads or open space (pp. 24–25)."
+   ]
+  },
+  {
+   "h": "From 'the public interest' to identifiable private interests",
+   "p": [
+    "Why would an authority want to influence land use at all? The standard answer is 'in the public interest', which Needham finds unsatisfactory (p. 25). It implies one use of land is more in the public interest than another, which is very hard to substantiate. Economic arguments about 'distortions' such as external effects and monopoly (the welfare economics behind Rydin's governmental model) no longer convince him either. His main objection is that 'the public interest' suggests you and I must be constrained for the benefit of 'the public', yet 'we too are the public!' (p. 25). Like economists' talk of 'social costs', it depersonalises the people affected into an amorphous 'society'.",
+    "So he looks at real interests. As a landowner I care how my parcel is used, but also how my neighbour uses hers: I do not want her to undermine my foundations; I may not want her door painted bright pink; I care about traffic in my street, the vitality of local shops, an open landscape, clean air (p. 25). His reformulated answer: an authority influences land use because one person's decision about her land can affect another person's interests. It acts 'not so much to uphold some general public interest, as to uphold the identifiable interests of many identifiable private persons' (p. 26)."
+   ]
+  },
+  {
+   "h": "Property rights are created by the state, not natural",
+   "p": [
+    "The state protects interests in land in a second way too: by creating and protecting property rights, and the two ways often clash, which is why planning is politically contested (p. 26). Needham puts ownership in perspective. Property rights give security that helps markets work and stabilises social relations, as landlord and tenant law shows. But ownership is never absolute. The main restriction is that owners may not use land in ways that greatly harm others, although many countries allow harmful use if the benefit exceeds the harm (Coase 1960). A second restriction arises when an owner voluntarily grants a partial right, such as a lease, which courts will protect even against the owner (pp. 26–27).",
+    "These restrictions operate between private persons: the harmed party, not the state, takes the initiative to go to court. Yet the state decides which rights it will enforce, so it must define them. A property right is therefore a way of using land that is 'recognized by, and protected by, the courts' (p. 27). This undermines the idea, found in Locke, that property rights are natural or inalienable. Needham quotes Bromley: 'It is the fact that something is protected that makes it a right, rather than that something is protected because it is a right' (p. 27). Different states can and do create different property rights."
+   ]
+  },
+  {
+   "h": "Two ways of protecting interests, and rights as a policy variable",
+   "p": [
+    "This yields his key distinction (pp. 27–28). The 'private law' way: the state declares an interest a property right, and the holder protects it herself through civil courts. The 'public law' way: the state empowers a public authority, such as a municipality, to influence how others exercise their rights, and the authority enforces rules such as building permits on behalf of those who cannot protect themselves. The two must be consistent; if public law 'takes' someone's property rights, compensation may be needed (p. 28).",
+    "Which interests get which protection? Partly political: my interest in my neighbour's door colour is judged less important than hers, so it gets no protection at all (p. 28). Partly technical: damage to my foundations has a clear cause, a clear culprit and few people involved, so a private 'right of support' works. Air pollution affecting hundreds of people is diffuse, and they would struggle to co-operate in court, so clean air is protected by public measures like permit conditions and emission limits (p. 28). But this allocation can be revised. Since rights are created, not natural, they are a 'policy variable': 'property rights can be deliberately changed in order purposefully to influence land use' (pp. 28–29). He notes rights often carry high ideological content and are constrained by conventions like the ECHR, so they change slowly. An example: future generations' interest in scarce resources could be made a property right held by trustees (p. 29)."
+   ]
+  },
+  {
+   "h": "Planning and markets are always a mix",
+   "p": [
+    "Needham then introduces 'the market' in a broad sense (p. 29). A market exists when one person has something another wants, exchange is voluntary with free choice of partner, and such exchange happens regularly among many people. Since most land-use decisions are voluntary, most come about 'in the market', and Lindblom notes that it is almost impossible to imagine a process like land-use change without voluntary decisions.",
+    "It follows that 'planning or the market?' is not a useful question; the only interesting question is the mix of the two (p. 29). Exercising a property right is itself acting in the market, because rights frame the exchange of interests in land. So deciding whether to protect an interest by private law (rights) or public law (regulation) is deciding on that mix, and shifting protection from public to private law by creating or changing rights amounts to creating markets in property rights (p. 29)."
+   ]
+  },
+  {
+   "h": "Creating markets in property rights: the literature and his approach",
+   "p": [
+    "This choice has been studied before (p. 30). Coase showed the reciprocal nature of harm: restraining A to protect B harms A, so the real question is 'Should A be allowed to harm B or should B be allowed to harm A?' Ellickson examined covenants, nuisance rules and fines as alternatives to zoning, finding private law works in some situations but not all. Webster and Lai asked whether public-domain resources could be managed better as 'club goods' through changed property rights. Needham stresses that these studies should not be confused with libertarian attacks on planning, which deny external effects or deny that public authorities can protect the public (pp. 30–31).",
+    "His own evaluation method is not the economist's assumption that every policy aims at maximum efficiency. He follows Williamson's idea of 'remediability': compare different ways of reaching the same politically set goals by how effectively they reach them, and consider resource use and distributional effects (pp. 30–31). The chapter only reports briefly on four types of situation, drawn from his fuller work (Needham 2005a, 2006)."
+   ]
+  },
+  {
+   "h": "Evidence and cases: four situations",
+   "p": [
+    "Amenity in housing estates (pp. 31–32). Instead of plan plus permit plus monitoring, buyers can enter a covenant restricting harmful actions, with enforcement vested in a residents' association; the residents' interest becomes a property right. This is common in the US ('private community associations') and exists in England. It is not possible in the Netherlands, because Dutch property law cannot oblige owners to join such an association; changing that would create a market solution. Well-maintained industrial estates (p. 32). In England and the US an investor buys the estate, leases buildings to firms and maintains it to protect the value of his investment. In the Netherlands owners cannot be obliged to join a maintenance association, and leases are not tradable, so there is little investment interest; estates deteriorate and need public money. Making unexpired leases saleable would change this.",
+    "Urban public spaces (pp. 32–33). Adjacent owners and users have an interest in parks and squares but no rights; privately owned but publicly accessible spaces, such as shopping malls or resident-owned spaces in small developments, can be created with planning conditions that guarantee access and maintenance. Coherent regional development (pp. 33–34). Here a market in rights is much harder: effects of one decision are dispersed over so many people, each slightly affected, that trading rights is unrealistic. Still, authorities sometimes use private law, as with US conservation agreements where a trust buys farmers' development rights so as not to use them, keeping land open (p. 34)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Needham's conclusions are deliberately 'not very radical': creating markets in property rights is a feasible alternative to regulation only under certain limited circumstances, and feasibility is not desirability, which the chapter did not assess (p. 34). Still, the exercise helps us understand planning better. Where it works, protecting interests through rights might be less inflexible than planning and would avoid the public cost of compensating 'takings'; on the other hand, developments based on new property rights can be exclusive, like gated communities, and fragment the city (p. 34).",
+    "He ends on politics. Using property rights and letting the market work is, he argues, neither more right-wing nor more left-wing than regulation. Property rights seem right-wing when the rich hold most of them, but he supports the 'rather old-fashioned' idea that poorer people can be empowered by giving them rights in land, not necessarily full ownership, quoting Blomley: 'the Left should re-appropriate property rights' (p. 35)."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is a synthesis for the course, not Needham's own framing. In the course the chapter represents institutional economics of property rights, taught under the rational choice lecture: actors respond to incentives set by rights, and rights can be designed. On the dimensions, Needham is agency-oriented (owners decide, planning only influences) but also takes institutions seriously as structures the state creates; he allows for transformation through deliberate redesign of rules, which the lecture used as its example of rational choice explaining change. His rejection of an abstract public interest in favour of 'identifiable interests of many identifiable private persons' is pluralist about interests and sceptical of the governmental model's expert-defined public interest.",
+    "Contrasts: Rydin's governmental model justifies planning by market failure and the public interest; Needham explicitly finds both unconvincing. Coase links him to the lecture's noisy factory and Airbnb solutions (tradable permits, VvE bargaining). His regional case, where effects are too dispersed for markets, is exactly Olson's collective action problem: many small, diffuse interests cannot organise. A critique from other course perspectives: his framework says little about power and unequal ability to use rights, though he acknowledges the gated-community risk and ends by linking rights to empowering the poor."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Ede buys a farm's nitrogen space",
+  "d": "In June 2024 the municipality of Ede bought the nitrogen deposition space of a livestock farm that was ceasing operations. 65% of the farm's emissions disappear for good; the remaining space is used for around 10 municipal projects, including a new swimming pool, housing and a bicycle tunnel. Timing still depends on objections, financing and council approval.",
+  "why": "Read through Needham, nature protection that sits in public law (the Natura 2000 permit) has partly become a tradable asset: a farmer's permitted emission space is bought and sold like a property right, and the municipality acts as a buyer on a market the state created. The 65% retirement shows how the authority shapes that market to serve the protected interest. Limit: the 'right' is still a permit that only transfers with public approval and can be overruled by courts, so it is the public/private mix Needham describes, not a full market in rights.",
+  "src": {
+   "name": "Binnenlands Bestuur",
+   "title": "Ede koopt stikstofruimte voor natuur en bouw",
+   "url": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/bouwen-en-wonen/ede-koopt-stikstofruimte-voor-natuur-en-bouw",
+   "date": "2024-06-19"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "The dual role of the state in planning",
+    "svg": "[SVG figure; labels: Private | property rights | State | Non-owners | Owners | enforces the property rights of | Public | policies | State | End-beneficiaries | Target groups | uses instruments to modify the behaviour of]",
+    "cap": "Lecture framing of Needham: the same state protects owners' private rights and targets owners with public policies meant to benefit others, which is why owners' choices limit what planning can do.",
+    "slide": "HC6 slide 12"
+   }
+  ],
+  "tables": [],
+  "points": []
+ }
+}

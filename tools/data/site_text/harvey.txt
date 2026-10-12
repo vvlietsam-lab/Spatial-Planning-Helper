@@ -1,0 +1,221 @@
+{
+ "id": "harvey",
+ "wk": 6,
+ "title": "Harvey (1989) From managerialism to entrepreneurialism",
+ "cite": "Harvey, D. (1989). From managerialism to entrepreneurialism: the transformation in urban governance in late capitalism. Geografiska Annaler: Series B, Human Geography 71(1), 3–17. DOI 10.1080/04353684.1989.11879583",
+ "theory": "Marxist political economy (historical-geographical materialism, dialectical)",
+ "status": "full",
+ "statusNote": "Built from the full 1989 article (JSTOR copy, pp. 3–17); all page numbers are the journal's. The two-column JSTOR text was interleaved, so quotes were reassembled line by line and checked. One clearly labelled note on Harvey's wider framework (spatial fix, accumulation by dispossession) comes from the encyclopedia entry (Woodward & Jones 2009) and is NOT in the 1989 article.",
+ "one": "Since the early 1970s urban governance in advanced capitalist countries has shifted from managerialism (local provision of services, facilities and benefits) to entrepreneurialism: public-private partnerships, speculative projects in which the local public sector absorbs risk, and a focus on the construction of place rather than on territory. Inter-urban competition, sharpened by mobile capital, acts as an 'external coercive law' after the event: it spreads copied projects, regressive redistribution and instability and helps the transition to flexible accumulation. Yet Harvey sees a potential for a progressive urban corporatism built on alliances across space.",
+ "summary": [
+  "The shift and its drivers (pp. 3–5): the 'managerial' approach typical of the 1960s gave way to initiatory, 'entrepreneurial' forms of action in the 1970s and 1980s; a 1985 colloquium in Orleans (eight large cities, seven countries) showed consensus that cities must be more innovative and entrepreneurial, a consensus that holds 'across national boundaries and even across political parties and ideologies' (p. 4). Examples: British local authorities' economic development activity, Blunkett's Labour Sheffield; in the US, cuts in federal redistribution after 1972 revived boosterism. The shift is incomplete and 'checkered' (New Orleans stayed a ward of federal government). Backdrop: the 1973 recession, deindustrialisation, 'structural' unemployment, fiscal austerity, neoconservatism and appeal to market rationality and privatisation, and the declining power of the nation state over multinational money flows; it may play a role in the transition from Fordist-Keynesian accumulation to 'flexible accumulation' (p. 5). Zero-sum competition would force even municipal socialists to play 'the capitalist game', but under the right circumstances competition 'may open the way to a non zero-sum pattern of development' (p. 5).",
+  "Conceptual issues (pp. 5–7): Harvey warns against reifying cities: 'cities' seem active agents 'when they are mere things'; urbanisation is 'a spatially grounded social process' in which diverse actors interact, with class content hegemonic under capitalism. Its artefacts (built form, institutions) dominate and constrain later action, a dialectic of process and thing. Urban 'governance' means much more than 'government': the power to organise space lies in coalitions and class alliances (chambers of commerce, financiers, developers in 'growth machine' politics, unions, universities, parties, social movements, local state apparatuses); a charismatic mayor or business leader can stamp their mark (Mayor Schaeffer in Baltimore; private entrepreneurs in Halifax or Gateshead).",
+  "Three broad assertions (pp. 7–8), true for Baltimore (the underpinning case) and perhaps more general: (1) the centrepiece is the 'public-private partnership', integrating traditional boosterism with local government powers to attract external funding, investment and jobs; Baltimore's 1978 referendum sanctioned city land for the private development that became Harborplace. (2) The partnership is entrepreneurial because it is speculative in execution and design; often 'the public sector assumes the risk and the private sector takes the benefits' (p. 7), though not always (Gateshead's Metrocenter). Risk-absorption by the local (not national) public sector distinguishes it from earlier civic boosterism. (3) It focuses on the political economy of place rather than of territory: building places (civic centres, industrial parks, cultural and retail centres) whose benefits are indirect and may be wider or narrower than the jurisdiction, and which divert attention from region-wide problems.",
+  "Four basic options (pp. 8–10), not mutually exclusive: (1) competition within the international division of labour: advantages for producing goods and services (resource base, location, infrastructure, subsidies, cheap or skilled labour, agglomeration economies; Bologna/Emilia Romagna); (2) the spatial division of consumption: tourism, retirement, quality of life, gentrification, spectacle, stadia, marinas; the city must appear 'innovative, exciting, creative, and safe'; Baltimore's tourism jobs rose from under one to over fifteen thousand; (3) acquisition of control and command functions in high finance, government, information and media; (4) redistribution of surpluses through central (US: state) governments, e.g. defence contracts (Bristol, Long Beach-San Diego). Synergy between strategies explains uneven growth (Los Angeles). Inter-urban competition, strengthened by falling transport costs and mobile capital, acts as an 'external coercive power' that may force 'serial reproduction' (world trade centres, waterfronts, malls; p. 10). Speculation arises because nobody can predict which package will succeed (p. 11).",
+  "Macro-economic consequences and critique (pp. 11–16): public risk-absorption makes multinational capital more, not less, mobile; localities become sites of labour regulation (local bargaining), facilitating flexible accumulation and linked to postmodern design of 'urban fragments'. PPPs subsidise affluent consumers, corporations and command functions at the expense of collective consumption for the working class and poor; jobs polarise; imitation renders advantage ephemeral; the urban system becomes unstable (Houston, New Orleans' World Fair) and credit-financed malls and stadia feed overaccumulation. Image production brings social control ('bread and circuses'). Theoretically, entrepreneurialism looks like local autonomy, but Marx's 'coercive laws of competition' discipline it after the event (pp. 14–15). Critique should contrast surface vigour with a 'dual city'; yet the city as collective corporation (Paris Commune) offers potential for 'a progressive urban corporatism' with a geopolitical strategy of inter-urban alliances (p. 16). Encyclopedia note (not in the article): Harvey's wider concepts of the spatial fix and accumulation by dispossession (Woodward & Jones 2009, pp. 24, 27)."
+ ],
+ "concepts": [
+  [
+   "Urban managerialism",
+   "Governance focused on 'the local provision of services, facilities and benefits to urban populations' (p. 3); typical of the 1960s (p. 4)."
+  ],
+  [
+   "Urban entrepreneurialism",
+   "Governance preoccupied with fostering local development and employment growth (p. 3); rests on a public-private partnership and the speculative construction of place (p. 8)."
+  ],
+  [
+   "Urban governance vs government",
+   "Governance means much more than government: the power to reorganise urban life lies in a broader coalition of forces and class alliances, in which government has a facilitative, coordinating role (p. 6)."
+  ],
+  [
+   "Public-private partnership",
+   "Centrepiece of the new entrepreneurialism: local boosterism integrated with local government powers to attract external funding, investment and jobs (p. 7)."
+  ],
+  [
+   "Speculation and risk-absorption",
+   "The partnership is speculative in execution and design; often the public sector assumes the risk and the private sector takes the benefits; local risk-absorption distinguishes it from earlier civic boosterism (p. 7)."
+  ],
+  [
+   "Place vs territory",
+   "Territory: projects (housing, education) improving conditions within a jurisdiction; place: constructing or enhancing specific places whose impacts may be smaller or greater than the territory (pp. 7–8)."
+  ],
+  [
+   "Four basic options",
+   "Competition in the international division of labour (production), the spatial division of consumption, for control and command functions, and for redistributions via central government (pp. 8–10)."
+  ],
+  [
+   "Inter-urban competition as coercive law",
+   "An 'external coercive power/law' that disciplines cities into the logic of capitalist development, after the event rather than before (pp. 10, 12, 15)."
+  ],
+  [
+   "Serial reproduction",
+   "Repetitive copying of development forms (world trade centres, waterfronts, cultural centres, malls, science parks) that renders competitive advantage ephemeral (pp. 10–12)."
+  ],
+  [
+   "Progressive urban corporatism",
+   "The city as a collective corporation with democratic decision-making (Paris Commune), armed with a geopolitical strategy of alliances across space to mitigate capitalist accumulation (p. 16)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Managerialism | 1960s: services, | facilities, benefits | (p. 3) | Drivers (p. 5) | 1973 recession, | austerity, mobile | multinational money | to flexible accumulation | Entrepreneurialism | 1 public-private | 2 speculative, public risk | 3 place not territory | (pp. 7–8) | four basic options, not mutually exclusive (pp. 8–10) | 1 Production | division of labour | 2 Consumption | tourism, spectacle | 3 Command | finance, info, gov | 4 Redistribution | via central govt | Inter-urban competition: coercive law, after the event | serial reproduction, polarisation, | instability, image over substance | potential: progressive urban | corporatism, alliances (p. 16)]",
+ "cap": "Harvey's argument as a chain: structural drivers, three features, four options, competition as an after-the-event coercive law, and its outcomes (built from the article).",
+ "table": {
+  "head": [
+   "",
+   "Managerialism",
+   "Entrepreneurialism"
+  ],
+  "rows": [
+   [
+    "Period",
+    "Typical of the 1960s",
+    "1970s and 1980s (p. 4)"
+   ],
+   [
+    "Main task",
+    "Local provision of services, facilities, benefits (p. 3)",
+    "Foster local development and employment growth (p. 3)"
+   ],
+   [
+    "Institutional form",
+    "Local government; federally backed redistribution (US)",
+    "Public-private partnership within a broader governance coalition (pp. 6–7)"
+   ],
+   [
+    "Risk",
+    "Coordinated; national/federal redistribution",
+    "Speculative; local public sector often absorbs risk (p. 7)"
+   ],
+   [
+    "Object",
+    "Territory: conditions within a jurisdiction",
+    "Place: flagship projects, image (pp. 7–8)"
+   ],
+   [
+    "Distribution",
+    "Collective consumption, redistribution towards the poor (1960s US)",
+    "Subsidy to affluent consumers, corporations, command functions; polarisation (p. 12)"
+   ]
+  ]
+ },
+ "example": "Baltimore (the case underpinning the argument, p. 7): a 1978 referendum narrowly sanctioned city land for the private development that became Harborplace, giving public-private partnership a popular mandate. Tourism jobs rose from under one to over fifteen thousand (p. 9); the city was hailed as a 'renaissance city' on the cover of Time, yet local studies found 'rot beneath the glitter', a 1984 Congressional Report called it one of the 'neediest' US cities, and Levine (1987) showed limited benefits and accelerating decline (p. 14). The image consolidated the power of the partnership and gave residents place-bound identity: \"The circus succeeds even if the bread is lacking. The triumph of image over substance is complete.\" (p. 14). Course link: Hyötyläinen & Haila use Harvey's managerial/entrepreneurial pair for Helsinki's sale of Eiranranta (their p. 140).",
+ "quotes": [
+  "\"Put simply, the \"managerial\" approach so typical of the 1960s has steadily given way to initiatory and \"entrepreneurial\" forms of action in the 1970s and 1980s.\" (p. 4)",
+  "\"The new urban entrepreneurialism typically rests, then, on a public-private partnership focussing on investment and economic development with the speculative construction of place rather than amelioration of conditions within a particular territory as its immediate (though by no means exclusive) political and economic goal.\" (p. 8)",
+  "\"... competition seems to operate not as a beneficial hidden hand, but as an external coercive law forcing the lowest common denominator of social responsibility and welfare provision within a competitively organised urban system.\" (p. 12)",
+  "\"Socialism within one city is not, of course, a feasible project even under the best of circumstances. Yet cities are important power bases from which to work.\" (p. 16)"
+ ],
+ "dims": {
+  "sa": 30,
+  "rt": 40,
+  "de": 65,
+  "us": 35,
+  "mp": 20,
+  "norm": "Social justice and anti-capitalist critique: exposes regressive redistribution, the dual city and image over substance; favours collective consumption and democratic, progressive urban corporatism linked by inter-urban alliances rather than competition."
+ },
+ "exam": "Commentary angle: grounded in Marxist political economy (a dialectical historical geography of capital): structural drivers (1973 crisis, mobile capital, fiscal austerity) explain the shift; agency lies in class coalitions, but inter-urban competition is Marx's 'coercive law' and the 'bearer' of capitalist social relations, disciplining choices after the event (pp. 14–15). Note his nuance: local governance is not simply captive of capital (he distances himself from Cockburn's local state theory), the shift is incomplete, competition can be non zero-sum, and progressive corporatism is possible. Best critiques: (1) historical/sociological neo-institutionalism: national land, fiscal and legal regimes produce different varieties (Helsinki's public land; Milan's PII); (2) regime theory/urban politics: coalitions have more room than 'realistic' constraint suggests; (3) governmentality/discourse: entrepreneurialism as a constructed rationality; (4) Hayek/public choice (Tiebout, Peterson's City Limits is cited): competition can discipline wasteful government. Also monism and functionalist risk. MCQ traps: the 'three broad assertions' vs 'four basic options'; place vs territory reversed; risk absorbed by the LOCAL (not national) public sector; entrepreneurialism spans parties; Orleans (France) colloquium, not New Orleans; serial reproduction makes advantage ephemeral; spatial fix is not an 1989 term.",
+ "examples": [
+  {
+   "t": "The 1985 Orleans colloquium",
+   "d": "Academics, business people and policymakers from eight large cities in seven advanced capitalist countries agreed that city governments had to become more innovative and entrepreneurial; they disagreed only on how. Harvey uses it as a symptom of the shift from managerialism to entrepreneurialism, a consensus that holds across national borders, parties and ideologies.",
+   "src": "text",
+   "p": "p. 4"
+  },
+  {
+   "t": "Sheffield's Labour council",
+   "d": "David Blunkett, Labour leader in Sheffield, endorsed a local brand of entrepreneurship: support for small firms, public-private links and promotion to attract business. Harvey warns that inside zero-sum inter-urban competition even 'avantgarde municipal socialists' end up playing the capitalist game and disciplining the processes they try to resist.",
+   "src": "text",
+   "p": "pp. 4–5"
+  },
+  {
+   "t": "New Orleans versus Vancouver fairs",
+   "d": "New Orleans, already dependent on federal redistribution, staged a 'disastrous' World Fair that drove it deeper into the mire, while an already booming Vancouver hosted a very successful World Exposition. Shows the speculative, high-risk character of entrepreneurial projects and the instability that inter-urban competition brings to the urban system.",
+   "src": "text",
+   "p": "p. 13"
+  },
+  {
+   "t": "Festival marketplaces losing money",
+   "d": "A decade after being hailed as an 'Alladin's lamp' for struggling cities, Rouse projects in Richmond, Flint and Toledo were losing millions, and even South Street Seaport (New York) and Riverwalk (New Orleans) hit severe financial trouble. Illustrates serial reproduction: copied harbour places and malls make any competitive advantage ephemeral and risk a 'quagmire of indebtedness'.",
+   "src": "text",
+   "p": "p. 13"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Harvey opens by placing this paper inside his long-running project: understanding how urbanisation shapes social change under capitalism. His starting point is dialectical. Cities are shaped by the logic of capital circulation and accumulation, but what gets built (roads, office districts, institutions) then constrains what capitalists and everyone else can do later. Capitalists, like workers, find themselves dominated and constrained by their own creations (p. 3). He also complains that studies of economic and social change too often treat urbanisation as a side-show. This paper tries to correct that by asking what role the urban process plays in the radical economic restructuring and uneven geographical development of the 1970s and 1980s (pp. 3–4).",
+    "The concrete puzzle is a shift in how cities are governed. The abstract states it plainly: urban governance has become 'increasingly preoccupied with the exploration of new ways in which to foster and encourage local development and employment growth' (p. 3), whereas earlier decades focused on the local provision of services, facilities and benefits. Harvey calls the first stance entrepreneurialism and the second managerialism. He wants to know why this shift happened, how inter-urban competition shapes its outcomes, and what its macro-economic consequences are. His position in the debate is Marxist political economy, but, as the ending shows, not a purely pessimistic one."
+   ]
+  },
+  {
+   "h": "The shift from managerialism to entrepreneurialism",
+   "p": [
+    "Harvey's first piece of evidence is a colloquium in Orleans in 1985, which brought together academics, business people and policymakers from eight large cities in seven advanced capitalist countries (p. 4). There was a strong consensus that urban governments had to become much more innovative and entrepreneurial; the only disagreement was about how. Should cities create or rescue firms themselves, or confine themselves to offering infrastructure, sites, tax baits and cultural attractions? For Harvey this is symptomatic of a wider reorientation: the 'managerial' approach of the 1960s gave way to 'entrepreneurial' forms of action in the 1970s and 1980s, and remarkably the consensus seemed to hold across national boundaries and even across parties and ideologies (p. 4).",
+    "He illustrates this from Britain and the United States. British local authorities became directly involved in economic development from the early 1970s, encouraged by central government; even David Blunkett, Labour leader in Sheffield, endorsed a kind of local entrepreneurship (p. 4). In the US, where boosterism (aggressive local promotion) had a long tradition, the cut in federal redistributions after 1972, when President Nixon declared the urban crisis over, revived boosterism so strongly that state and local governments were described as 'the last entrepreneurs' (p. 4). The shift was not complete: New Orleans remained a 'ward' of the federal government, dependent on redistribution, and the record was full of failures as well as successes (pp. 4–5).",
+    "Why did it happen? Harvey lists a backdrop rather than a single cause: the recession of 1973, deindustrialisation, seemingly 'structural' unemployment, fiscal austerity at national and local levels, and a rising tide of neoconservatism with its appeal to market rationality and privatisation (p. 5). The nation state's declining power to control multinational money flows also meant that investment increasingly took the form of a negotiation between international finance and local powers trying to make their site attractive. He suggests that urban entrepreneurialism may have helped the transition from a Fordist-Keynesian regime of accumulation (mass production backed by the welfare state) to 'flexible accumulation' (more mobile, market-based production). He also warns that if cities are locked in zero-sum competition, even radical 'municipal socialists' will end up playing the capitalist game (p. 5)."
+   ]
+  },
+  {
+   "h": "Conceptual groundwork: process, things and governance",
+   "p": [
+    "Before going further, Harvey clears up two conceptual problems. The first is reification: talking about 'cities' as if they act. That language makes it seem as if cities are active agents when they are really things (p. 5). Urbanisation should rather be seen as 'a spatially grounded social process' in which many actors with different goals interact. Under capitalism the class practices linked to capital circulation and the reproduction of labour are hegemonic, although spatial practices also have gender, racial and bureaucratic contents. The process produces artefacts (built form, institutions, legal and administrative systems) that then dominate later action, so there is a permanent tension between process and thing (pp. 5–6). He adds that the shift must be studied at several scales, from neighbourhood to nation state (p. 6).",
+    "The second point is that urban 'governance' means much more than urban 'government' (p. 6). The real power to reorganise urban life often lies in a broader coalition in which local government only facilitates and coordinates. Harvey lists the usual members: chambers of commerce, financiers, industrialists, property developers (the 'growth machine' in Molotch's term), but also universities, religious institutions, unions, parties, social movements and the many parts of the local state. Building such coalitions is delicate, which opens space for individuals with vision: a charismatic mayor such as Schaeffer in Baltimore, or private entrepreneurs in Halifax or Gateshead (pp. 6–7). So entrepreneurialism is not simply what city hall decides; it depends on class alliance formation."
+   ]
+  },
+  {
+   "h": "Three features of the new entrepreneurialism",
+   "p": [
+    "Using Baltimore as his main case, Harvey makes three broad assertions (p. 7). First, the centrepiece is the 'public-private partnership': traditional local boosterism combined with local government powers to attract external funding, direct investment and jobs. In Baltimore the turning point can be dated exactly: a narrowly passed 1978 referendum allowed city land to be used for the private development that became Harborplace, after which partnership had a popular mandate. Harvey notes that in the 1960s US cities had instead used redistribution (housing, education, health care for the poor) to regain social control after urban unrest, and that the role of the local state as facilitator of capitalist development had then declined (p. 7).",
+    "Second, the partnership is entrepreneurial because it is speculative in design and execution, with all the dangers that brings compared with rationally planned development. Often 'the public sector assumes the risk and the private sector takes the benefits' (p. 7), though not always (the private risk taken in Gateshead's Metrocenter shows the exception). What is new, Harvey suspects, is risk absorption by the local rather than the national public sector. Third, entrepreneurialism focuses on the political economy of place rather than territory (pp. 7–8). Territorial projects such as housing and education improve conditions within a jurisdiction. Place projects (a civic centre, an industrial park, a waterfront) have indirect benefits that may be wider or narrower than the jurisdiction, and they tend to divert attention and resources from the region's broader problems. Baltimore's harbour could benefit the metropolitan region; New York's South Street Seaport mainly served local developers and financiers (p. 8)."
+   ]
+  },
+  {
+   "h": "Four strategies for competing cities",
+   "p": [
+    "Harvey then describes four basic options, which cities combine (pp. 8–10). First, competing in the international division of labour: creating or exploiting advantages for producing goods and services, such as resources, location, infrastructure, subsidies, labour quality and cost, and agglomeration economies (benefits of clustering many activities close together), as in Bologna and Emilia Romagna. Local wage control is easier when local bargaining replaces national bargaining. Second, competing in the spatial division of consumption: tourism, retirement, gentrification, cultural innovation, postmodern design, stadia, convention centres, marinas and spectacles. 'Above all, the city has to appear as an innovative, exciting, creative, and safe place to live or to visit, to play and consume in' (p. 9). Baltimore expanded tourist employment from under one to over fifteen thousand jobs in less than two decades.",
+    "Third, cities compete for control and command functions in finance, government and information processing, which need expensive infrastructure such as airports, teleports and well-linked offices, and where established centres like New York and London have strong monopoly power (pp. 9–10). Fourth, they compete for redistributions from central (or US state) government, for example military contracts that sustained Bristol and Long Beach-San Diego (p. 10). The strategies are not exclusive, and uneven growth comes partly from synergy between them; Los Angeles grew through the interaction of defence spending, command functions and consumption activities (p. 10).",
+    "This competition has a disciplining effect. As inter-urban competition becomes more potent it acts as an 'external coercive power' over individual cities, bringing them into line with the logic of capitalist development and forcing 'serial reproduction' of the same forms: world trade centres, waterfronts, cultural centres, postmodern shopping malls (p. 10). Falling transport costs make small differences between places (labour, infrastructure, taxation, regulation) matter more to mobile capital, so urban governance becomes oriented to a 'good business climate' (p. 11). Speculation follows because no one can predict which package will succeed, producing upward and downward spirals that leave the urban system more, not less, vulnerable (p. 11)."
+   ]
+  },
+  {
+   "h": "Macro-economic and social consequences",
+   "p": [
+    "Section 4 asks what all this means beyond individual cities (pp. 11–14). Paradoxically, public risk absorption and public infrastructure provision lower the cost of relocating for multinational firms, making them more rather than less mobile. Localities become sites for regulating labour relations, supporting flexible management strategies. Harvey therefore argues that urban entrepreneurialism facilitated the move from rigid Fordism to flexible accumulation, and links it to postmodern design: 'urban fragments' rather than comprehensive planning, ephemerality, and 'image over substance' (pp. 12–13).",
+    "The distributive effects are regressive. Much of the US public-private partnership amounts to a subsidy for affluent consumers, corporations and command functions to stay in town, at the expense of collective consumption for the working class and poor (p. 12). Jobs polarise into low-paid and very high-paid positions, and informal work grows. Even progressive councils struggle, because competition works 'not as a beneficial hidden hand, but as an external coercive law forcing the lowest common denominator of social responsibility and welfare provision' (p. 12). Imitation makes any advantage ephemeral: how many convention centres and harbour places can there be? Instability follows: Houston, Dallas and Denver collapsed after 1980, New Orleans' World Fair was a disaster, credit-financed malls and stadia feed overaccumulation, and several 'festival market places' lost millions (p. 13).",
+    "Why do such projects stay attractive? Because selling the city depends on an attractive urban image, and image has internal political uses (pp. 13–14). It counters alienation, creates civic pride and a sense of belonging, and so opens mechanisms of social control: the Roman formula of bread and circuses reinvented. Baltimore is the case in point: the harbour earned it the title of renaissance city while local studies found serious decay behind the glitter and accelerating decline. The image consolidated the power of the public-private partnership that built it. Harvey's verdict: 'The circus succeeds even if the bread is lacking. The triumph of image over substance is complete' (p. 14)."
+   ]
+  },
+  {
+   "h": "Autonomy, competition and the critical perspective",
+   "p": [
+    "In the final section Harvey addresses a theoretical debate on the 'relative autonomy' of the local state (pp. 14–15). Entrepreneurialism looks like considerable local autonomy, and he explicitly does not claim that urban governance is automatically captive to capitalist class interests. The key is timing. Following Marx, competition is the 'bearer' of capitalist social relations: its coercive laws discipline firms, states and cities, but the forcing occurs after the event rather than before (p. 15). Cities, like firms, experiment speculatively, and inter-urban competition then sorts winners from losers. Relative autonomy in this sense is fully consistent with capital accumulation. The managerial era of the welfare state and Keynesian compromise was the exception; the revival of civic boosterism, a tradition going back to the Hanseatic League, moves urban governance closer to the naked requirements of capital accumulation (p. 15).",
+    "A critical perspective should therefore contrast the surface vigour of regeneration projects with underlying trends, notably a 'dual city' of inner-city regeneration surrounded by a sea of impoverishment, and should expose regressive distribution, volatility and ephemeral benefits (p. 16). Yet Harvey sees something positive too: the idea of the city as a collective corporation with democratic decision-making, with the Paris Commune as the paradigm case. The problem is less boosterism itself than the generality of inter-urban competition, which makes 'bad' projects drive out 'good' and forces well-meaning coalitions to be 'realistic' and 'pragmatic' (p. 16)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Harvey concludes that 'Socialism within one city is not, of course, a feasible project even under the best of circumstances' (p. 16), but cities remain important power bases. What he wants is a geopolitical strategy of inter-urban linkage that mitigates competition and shifts political horizons from the locality towards a broader challenge to capitalist uneven development. Working-class movements have commanded the politics of place before, but have been vulnerable to the greater command over space of an internationalised bourgeoisie. Hence his hope for 'a progressive urban corporatism' that builds alliances across space (p. 16).",
+    "Harvey is open about limits. His three assertions are true for Baltimore and only may be more generally applicable (p. 7); the history of outcomes is yet to be properly recorded (p. 5); and a full analysis of the welfare state's role in local autonomy is left for elsewhere (p. 15). The evidence is illustrative (Baltimore, British cities, press reports, secondary studies) rather than systematic, which is typical of a theoretical essay."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not Harvey's claims. The article rests on Marxist political economy, and on the course's dimensions it leans towards structure: agents experiment, but competition disciplines them after the event. It explains mostly reproduction (entrepreneurialism deepens uneven development), with a thin opening for transformation through inter-urban alliances. Change here is largely emergent: nobody designed the global shift; it results from many speculative local moves filtered by competition. Knowledge claims are universal in ambition (laws of capital accumulation), though grounded in Baltimore. Normatively Harvey is explicit: he wants redistribution and a progressive, anti-capitalist urban politics.",
+    "It is the reference point for the week 6 readings. Hyötyläinen and Haila explicitly borrow Harvey's managerial/entrepreneurial pair to describe Helsinki selling public land, and Savini and Aalbers build on Harvey's work on land as a financial asset and 'capital switching'. Compared with regime theory or growth coalitions in Rydin's chapter, which emphasise how local actors assemble 'power to' govern, Harvey places the same coalitions inside a structural competitive logic. Against collaborative planning or pluralist views, he would argue that consensus-building locally cannot escape the coercive laws of inter-urban competition."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Project Beethoven: €2.5 billion to keep ASML",
+  "d": "On 28 March 2024 the Dutch government announced €2.51 billion (€1.73 billion national) for Brainport Eindhoven: €450 million for talent until 2030, €718 million national plus €340 million regional for accessibility, and €425 million for about 20,000 extra homes by 2030. The cabinet 'assumes' ASML will invest further and keep its statutory, fiscal and actual seat in the Netherlands, so the country stays 'an attractive location' for the chip sector.",
+  "why": "Read through Harvey, this is competition as an 'external coercive law': the public sector absorbs the costs of housing, transport and training to keep mobile capital in place, with an expectation rather than a binding commitment in return. It fits his strategy of improving a place's position in the international division of labour for production, not the spectacle strategy. Limit: the state rather than a city leads, and the homes and infrastructure also serve residents, so it is not purely regressive.",
+  "src": {
+   "name": "Rijksoverheid",
+   "title": "Nederland investeert 2,5 miljard euro in sterk ondernemingsklimaat voor microchipsector Brainport Eindhoven",
+   "url": "https://www.rijksoverheid.nl/actueel/nieuws/2024/03/28/nederland-investeert-25-miljard-euro-in-sterk-ondernemingsklimaat-voor-microchipsector-brainport-eindhoven",
+   "date": "2024-03-28"
+  }
+ }
+}

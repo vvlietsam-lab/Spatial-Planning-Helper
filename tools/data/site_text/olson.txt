@@ -1,0 +1,233 @@
+{
+ "id": "olson",
+ "wk": 3,
+ "title": "Hindmoor (2006) Mancur Olson and the logic of collective action",
+ "cite": "Hindmoor, A. (2006). Mancur Olson and the logic of collective action. In Rational Choice (ch. 5, pp. 102–128). Basingstoke: Palgrave Macmillan",
+ "theory": "Rational choice (collective action / public choice)",
+ "status": "full",
+ "statusNote": "Built from the full chapter (OCR of scanned pages 102–128). Pages 124–125 (Box 5.5 on norms and part of the Marwell & Ames discussion) are badly garbled in the OCR; only clearly legible content from them is used. Lecture HC6 (Airbnb as a collective action problem) used for the course application. Note: 'exploitation of the great by the small', 'by-product theory' and a lobby of 'concentrated vs diffuse interests' do NOT appear in this chapter.",
+ "one": "Collective goods are non-excludable, so each rational, self-interested member may free-ride and the good goes under-provided: a collective action problem, best modelled as an (N-person) prisoners' dilemma. Olson does not claim collective action is impossible; groups overcome the problem through coercion, privileged members, selective incentives, process benefits, or conditional cooperation. The self-interest assumption and the lack of a full theory of group formation limit the account.",
+ "summary": [
+  "The problem (pp. 102–105): Olson (1965) challenged the assumption that people with common interests will act on them: 'unless the number of individuals is quite small, or there is coercion or some other special device', self-interested individuals will not act for their group interest. Goods are classed by excludability and rivalness (Box 5.1): public goods (defence), common-pool goods (fisheries), toll goods, private goods. Olson defines public goods only by non-excludability, so the problem covers common goods too. Examples: union dues, Marxist revolution (why risk the barricades?), pluralists such as Truman and Bentley (latent groups like migrant workers may never form), CO2 emissions, the security dilemma.",
+  "Game theory (pp. 105–112; Olson himself used none): the prisoners' dilemma (Jake and Keith) has a dominant strategy of defection and a Pareto-inferior equilibrium; the N-person version (join a protest or stay home) shows free-riding. Not every collective action problem is a PD: in the assurance game (the dam needs both farmers) there is no dominant strategy and cooperation should be easy; in chicken (either farmer can fix the dam) each tries to make the other do it, and 'anything can happen'.",
+  "Solutions (pp. 113–121): Olson 'does not suggest that groups will always fail'. (1) Coercion by the state (taxes; Hardin's leviathan for the tragedy of the commons, against which free-market economists propose property rights and tradeable permits based on Coase) or by gangs (Gambetta's Mafia enforcing exchange). (2) Privileged groups: at least one member values the good enough to pay the whole cost (flatmate who cleans; hegemonic stability); several such members can turn it into chicken. (3) Selective incentives: positive (union legal aid) or negative (ostracism); they raise a second-order collective action problem, possibly solved by entrepreneurs. (4) Process benefits: participation itself is rewarding (Chong on civil rights; kibbutz gossip). (5) Conditional cooperation in intermediate groups, where members notice who contributes: tit-for-tat won Axelrod's tournaments; Ostrom shows communities manage commons without leviathan or market when interaction is long-term, exit is costly, monitoring is cheap and groups are tightly integrated.",
+  "Group size (p. 121): large groups are more likely to be latent, because contributions are easier to see in small groups, but the link is 'at most, an empirical tendency' (a mining community vs strangers in a bed-sit). Limits (pp. 122–128): people also contribute because norms say they ought to; Olson concedes his theory cannot explain 'non-economic' groups like Greenpeace or Amnesty. Experiments (Marwell & Ames) find substantial group contributions that fall, but stay positive, when stakes rise; a few unconditional cooperators may be needed to pass the threshold at which cooperation becomes stable. Assessment: Olson was the first to give a general analysis and inspired many case studies, but he offers no comprehensive theory of how interests and group identities form, how platforms are agreed, how collective action changes policy, or why groups collapse; social psychology and insider-group research are needed too.",
+  "Course application (HC6, not in the chapter): Airbnb regulation lags because hosts/investors organise while neighbours free-ride. Hindmoor's chapter supports the free-riding part, but warns that size is only a tendency and that small groups organise when one member gains enough (privileged) or when members can monitor each other (intermediate). The link with Needham: diffuse harms such as air pollution cannot be protected by individual property rights because victims cannot organise to sue."
+ ],
+ "concepts": [
+  [
+   "Collective action problem",
+   "All members gain if they act together, but no individual gains from contributing to the collective good: free-riding (p. 102)."
+  ],
+  [
+   "Public / common-pool / toll / private goods",
+   "Classified by excludability and rivalness (Box 5.1); Olson's definition uses non-excludability only, so common-pool goods face the problem too."
+  ],
+  [
+   "Prisoners' dilemma",
+   "Game where defection is the dominant strategy and the equilibrium is Pareto-inferior to mutual cooperation (pp. 105–110)."
+  ],
+  [
+   "Assurance and chicken",
+   "Collective action games without a dominant strategy: assurance (both needed, cooperation easy); chicken (one suffices, each waits for the other) (pp. 110–112)."
+  ],
+  [
+   "Latent / privileged / intermediate group",
+   "Latent: nobody bears their share; privileged: at least one member will pay the full cost (Olson 1965: 48–50); intermediate: members notice whether others contribute (Olson 1965: 50)."
+  ],
+  [
+   "Selective incentives",
+   "Excludable rewards for contributors (e.g. free legal representation) or punishments for non-contributors (e.g. ostracism) (Olson 1965: 133–5)."
+  ],
+  [
+   "Second-order collective action problem",
+   "Applying selective incentives (e.g. punishing free-riders) is itself a collective good, risking an infinite regress (pp. 116–117)."
+  ],
+  [
+   "Process benefits",
+   "Instrumental or expressive rewards from participating itself; tied to the collective good, so the problem 'simply dissolves' (pp. 117–118)."
+  ],
+  [
+   "Conditional cooperation / tit-for-tat",
+   "Cooperate as long as others do; in iterated games tit-for-tat wins on average via simplicity, generosity, responsiveness (pp. 118–120)."
+  ],
+  [
+   "Ostrom's self-governed commons",
+   "Communities build rules of allocation, monitoring and sanctioning for common-pool resources without a leviathan or the market (p. 120)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Collective action problem | free-riding on a non- | excludable good (N-person PD) | Coercion | state taxes; | Hardin's leviathan; | Mafia | Privileged | one member pays | the whole cost | (hegemon) | Selective | incentives | + legal aid | - ostracism | Process | benefits | taking part is | itself rewarding | Conditional | cooperation | intermediate groups; | tit-for-tat, Ostrom | Olson: groups face the problem but may overcome it (p. 113); limits: norms, identity (pp. 122–128)]",
+ "cap": "Hindmoor's structure: one problem, five routes out; the chapter stresses that Olson never said collective action is impossible.",
+ "table": {
+  "head": [
+   "Game",
+   "Story in the chapter",
+   "Dominant strategy?",
+   "Outcome"
+  ],
+  "rows": [
+   [
+    "Prisoners' dilemma",
+    "Jake and Keith: confess or stay quiet",
+    "Yes: defect (confess)",
+    "Both confess (3, 3) although both prefer (2, 2)"
+   ],
+   [
+    "N-person prisoners' dilemma",
+    "Join a street protest or stay home",
+    "Yes: stay home",
+    "Everyone defects; cooperation Pareto-superior but individually irrational"
+   ],
+   [
+    "Assurance",
+    "Dam survives only if both farmers work",
+    "No",
+    "Cooperation should be easily achieved if rationality is common knowledge"
+   ],
+   [
+    "Chicken",
+    "One day of work by either farmer saves the dam",
+    "No",
+    "Each tries to pre-commit to defect; in a single play 'anything can happen'"
+   ]
+  ]
+ },
+ "example": "Ostrom's Valencia irrigation system (p. 121): it is designed so that the person whose turn is next has a built-in incentive to check that the current user does not take more than their share, lowering monitoring costs so conditional cooperation can last without state coercion or privatisation. Course application (HC6): short-term rental hosts organise while neighbours free-ride, so regulation lags.",
+ "quotes": [
+  "\"Olson argues that groups face a collective action problem but recognizes that they may be able to overcome it.\" (p. 102)",
+  "\"Though all of the members of a group therefore have a common interest in obtaining this collective benefit, they have no common interest in paying the cost of providing that collective good.\" (Olson 1965: 21, quoted p. 104)",
+  "\"Yet the relationship between size and 'latency' is, at most, an empirical tendency.\" (p. 121)",
+  "\"Successful collective action will not usually depend upon everyone in a group eschewing their self-interest. In its early stages it may however require that a few are prepared to do so.\" (p. 127)"
+ ],
+ "dims": {
+  "sa": 85,
+  "rt": 40,
+  "de": 50,
+  "us": 20,
+  "mp": 20,
+  "norm": "Explanatory rather than normative; implicitly, collective goods are under-provided without coercion, incentives or institutions; Hindmoor stresses the limits of the self-interest assumption."
+ },
+ "exam": "Definitions are MCQ material: privileged (one member bears full cost) vs intermediate (members can notice others' contribution) vs latent; positive vs negative selective incentives; PD vs assurance vs chicken (which have a dominant strategy?). Big trap: 'Olson shows collective action is impossible/irrational': the chapter says this reading is wrong. Second trap: small group size is not the definition of a privileged group, and size predicts latency only as a tendency. Framework: methodological individualism (agency), universal rationality assumptions (monist, universal), change deliberate (incentive design, coercion) or emergent (tit-for-tat norms, Ostrom). Critique angles: sociological institutionalism and norms (people contribute because they ought to), communicative planning (identity and interests formed in interaction), Marxism/power (who can organise reflects structural resources, not only group size).",
+ "examples": [
+  {
+   "t": "Five students sharing a flat",
+   "d": "Keeping the flat clean is a potential collective action problem, but if one student hates squalor enough to clean alone, the others can free-ride and the good is still provided. Shows Olson's 'privileged group'.",
+   "src": "text",
+   "p": "p. 115"
+  },
+  {
+   "t": "Unions and free legal help",
+   "d": "Workers may join a union for free legal representation (positive selective incentive) or to avoid being ostracised, 'sent to Coventry' (negative incentive). Hindmoor adds that this still leaves a second-order problem: who organised the union or does the ostracising in the first place?",
+   "src": "text",
+   "p": "pp. 116-117"
+  },
+  {
+   "t": "Gossip on Israeli kibbutzim",
+   "d": "Members get housing and food regardless of effort, yet work hard because shirkers become targets of vicious gossip, and gossiping is enjoyable in itself. Shows process benefits solving the second-order problem, helped by the fact that leaving a kibbutz is hard.",
+   "src": "text",
+   "p": "pp. 118, 120"
+  },
+  {
+   "t": "Cooperation in First World War trenches",
+   "d": "Soldiers facing each other for long periods evolved norms such as firing only at set times, once even playing football on Christmas day; commanders then rotated troops to erode that trust. Shows conditional cooperation needs stable membership and repeated interaction.",
+   "src": "text",
+   "p": "p. 120"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the chapter asks and why",
+   "p": [
+    "Hindmoor's textbook Rational Choice introduces key authors one chapter at a time; chapter 5 is about Mancur Olson's The Logic of Collective Action (1965). The topic is a basic puzzle of social life: people often need to act together to get something they all want, such as a union, a cleaner neighbourhood or lower emissions. The 'collective action problem', also called the free-riding problem, arises 'when it is better for all the members of a group that they act collectively even though it is in nobody's individual interest to contribute' (p. 102). Olson's famous statement is that 'unless the number of individuals is quite small, or there is coercion or some other special device to make individuals act in their common interest, rational, self-interested, individuals will not act to achieve their common or group interests' (Olson 1965: 2, quoted p. 102).",
+    "Hindmoor's own position is set out at the start and repeated at the end: Olson is often read as saying free-riding makes collective action impossible or irrational. 'This is simply not the case' (p. 102). Olson says groups face a problem but recognises they may overcome it. The chapter therefore has two halves: first the problem, analysed with game theory; then the ways groups solve it, and finally the limits of Olson's self-interest assumption."
+   ]
+  },
+  {
+   "h": "Public goods and the logic of free-riding",
+   "p": [
+    "Olson begins by challenging the common assumption that people with shared interests will automatically work together for them (p. 102). The problem arises with goods whose benefits are non-excludable. Box 5.1 explains the classification economists use (p. 103). A good is excludable if its owner can stop others benefiting, and rivalrous if one person's use reduces what is left for others. This gives four types: public goods (non-excludable, non-rivalrous, like defence or a lighthouse beam), common-pool goods (non-excludable but rivalrous, like fishing grounds, which degrade beyond a certain use), toll goods (excludable, non-rivalrous, like toll roads) and private goods (both, like chocolate bars). Excludability is often a matter of cost. Because Olson defines public goods only by non-excludability, his problem applies to both public and common goods.",
+    "The logic is simple. Each person reasons that their own contribution makes little difference and that they can benefit from others' contributions anyway. In Olson's words, all members share an interest in the benefit but 'have no common interest in paying the cost' (p. 104). If everyone reasons this way, there is no collective action. Hindmoor gives examples (pp. 104–105): workers who get pay rises whether or not they pay union dues; workers who would gain from revolution but let others risk the barricades; 'latent' groups like migrant workers who never organise despite vital shared interests, which undermines pluralists' claim that pressure groups represent the public; countries that all gain from lower CO2 emissions but each prefer growth; and states caught in a security dilemma."
+   ]
+  },
+  {
+   "h": "Game theory: the prisoners' dilemma",
+   "p": [
+    "Olson himself used no game theory, but Hindmoor uses it to clarify the argument (Box 5.2, pp. 106–107). Game theory studies choices whose outcomes depend on what others choose. Its standard assumptions: actors are instrumentally rational; there is common knowledge of rationality; actors choose between strategies such as 'cooperate' and 'defect'; they know the rules and pay-offs; and pay-offs can be ordinal (you know what is preferred, not by how much). Where there is no dominant strategy, players choose their best response to each other, producing a 'Nash equilibrium'; sometimes a shared 'focal point' helps coordination, like always meeting at Grand Central Station.",
+    "In the prisoners' dilemma (pp. 105–109), two suspects, Jake and Keith, are held separately. Confessing while the other stays silent gives 1 year; both silent gives 2 each; both confessing gives 3 each; staying silent while the other confesses gives 4. Whatever Keith does, Jake is better off confessing, and vice versa, so confession is the 'dominant' strategy and both get 3 years, though both would prefer 2. Applied to a group deciding whether to join a protest (Figure 5.2, pp. 109–110): each person prefers to stay home while others protest, then all protesting, then all staying home, and least of all being alone at the barricades. Staying home is dominant, even though everyone cooperating is 'Pareto-superior' (better for everyone) to everyone defecting."
+   ]
+  },
+  {
+   "h": "Other shapes of the problem: assurance and chicken",
+   "p": [
+    "The prisoners' dilemma is not the only form (pp. 110–112). Imagine two farmers whose crops depend on maintaining a dam. If both must work a day for the dam to hold, each prefers mutual cooperation, is indifferent between the two outcomes where the dam fails, and least wants to work while the other stays home. This is the 'assurance' game: there is no dominant strategy, but since both prefer cooperation and know it, collective action should be easily achieved.",
+    "If only one day of work is needed, which either farmer could do alone, the game becomes 'chicken' (p. 112). Each most prefers the other doing all the work, then sharing, then doing it all alone, and worst is nobody working and the dam collapsing. Again there is no dominant strategy. A farmer might try to pre-commit to defecting, for example by claiming a hurt hand, hoping the other gives in. But if both try this they reach the worst outcome, and in a single play 'anything can happen'. The point for planners: collective action problems differ in structure, and so do their solutions."
+   ]
+  },
+  {
+   "h": "Solutions 1: coercion and privileged groups",
+   "p": [
+    "Hindmoor notes that in reality collective action problems are often overcome: unions form, revolutions happen, Europe reduced sulphur dioxide emissions, and democracies do not go to war with each other (p. 113). It is tempting to say Olson was wrong, but that misreads him: 'Olson argues that there is a collective action problem. He does not suggest that groups will always fail to overcome it' (p. 113). The rest of the chapter reviews the solutions.",
+    "The first is coercion. The state solves many problems by making us pay taxes for defence, roads and social security. Environmentalists invoked a coercive 'leviathan' for the 'tragedy of the commons' (Box 5.3, p. 114): Hardin's herders each keep adding animals to a shared pasture until it is ruined. Free-market economists instead blame missing property rights and propose privatisation or, for pollution, tradeable permits, drawing on the Coase theorem. Non-state actors can coerce too: Gambetta argues the Mafia prospered in a weak, mistrusted Southern Italian state by enforcing honest exchange for a cut (pp. 113–115).",
+    "Second, privileged groups (pp. 115–116). In a latent group, nobody is willing to bear their share of the cost. In a privileged group, at least one member values the good so highly that they will pay the whole cost and tolerate others free-riding, like the flatmate who hates squalor and cleans alone. Hegemonic stability theory applies this internationally: a dominant power (Britain, later the US) maintains free trade and a reserve currency because it gains so much from that order. But if several members could each provide the good alone, the situation resembles chicken and the good may not be provided."
+   ]
+  },
+  {
+   "h": "Solutions 2: selective incentives, entrepreneurs and process benefits",
+   "p": [
+    "Third, selective incentives (pp. 116–117): benefits or punishments that go only to those who contribute or fail to. A union may offer free legal representation to members (positive), while workers may fear being ostracised, 'sent to Coventry', if they do not join (negative). But selective incentives cannot explain everything. Someone first had to form the union, and applying informal sanctions like ostracism is itself a collective good, creating a 'second-order' collective action problem and threatening an infinite regress. Leaders or entrepreneurs can break this: revolutions are rarely spontaneous, and entrepreneurs such as Trotsky, Castro or Martin Luther King can offer rewards and threats, perhaps motivated by future positions (p. 117).",
+    "Fourth, process benefits (pp. 117–118). Olson treats contributing as a cost, but sometimes participating is itself rewarding, and then the problem 'simply dissolves'. Chong found that Civil Rights activists were driven partly by the adrenaline rush, the sense of making history, and being in fashion. On Israeli kibbutzim, where everyone is paid regardless of work, shirkers face vicious gossip, and there is no second-order problem because gossiping is enjoyable. Unlike separate incentives such as legal aid, process benefits are tied to the collective good itself: you cannot enjoy the rush of a demonstration without joining one (p. 118)."
+   ]
+  },
+  {
+   "h": "Solutions 3: conditional cooperation and group size",
+   "p": [
+    "Fifth, conditional cooperation in intermediate groups (pp. 118–121). Olson defines an intermediate group as one whose members can 'notice whether any other member is or is not helping to provide the collective good' (p. 118). There, people may cooperate as long as others do. In repeated games this can be rational. In Axelrod's tournaments, the simple strategy 'tit-for-tat' (cooperate first, then copy the other's last move) won twice, thanks to its simplicity, generosity and responsiveness, even though it never beats 'always defect' head to head (pp. 119–120). Ostrom's studies of fisheries, commons and irrigation show communities designing their own rules for allocation, monitoring and sanctions, without a leviathan or the market (p. 120).",
+    "Conditional cooperation is most likely when (pp. 120–121): people expect to interact for a long time (trench soldiers in the First World War developed truces until commanders rotated troops); leaving the group is costly (kibbutzim); cooperation can be monitored cheaply (Valencia's irrigation system gives the next user an incentive to check the previous one); and groups are tightly knit, so ostracism bites. Olson links large groups to latency because it is harder to see who cooperates, but Hindmoor calls this 'at most, an empirical tendency' (p. 121): a mining community can be large and close, residents of a bed-sit small and anonymous. In iterated chicken, norms of sharing or taking turns may emerge, or one farmer may get trapped doing all the work (pp. 121–122). Box 5.4 adds reputation: a used-car dealer with a good name can be trusted not to sell a 'lemon' (pp. 122–123)."
+   ]
+  },
+  {
+   "h": "The limits of self-interest",
+   "p": [
+    "Olson assumes self-interest, yet many people contribute because a social norm tells them they ought to (pp. 122–123). Olson himself admits his analysis cannot explain 'non-economic' groups like Greenpeace or Amnesty International, which promote others' interests (p. 123). Experiments confirm this. Marwell and Ames let volunteers invest tokens in an individual bank (2 dollars each) or a group bank (5 dollars shared by all regardless of contribution), a one-shot prisoners' dilemma in which pure self-interest predicts zero group investment (p. 123). In fact, a substantial share of tokens went into the group bank. (Pages 124–125 of the scan, including Box 5.5 on norms, are largely unreadable, so details there are skipped; one legible finding is that when the individual bank's payoff was raised from two to five dollars, the share invested in the group bank fell from 40 to around 20 per cent, still well above zero.)",
+    "Hindmoor then uses a threshold diagram (Figure 5.5, pp. 126–127). Even in a prisoners'-dilemma structure, once enough people cooperate (a threshold), cooperators may be no worse off than if all defected, so limited cooperation can be stable. But reaching that threshold from zero is hard, which is where a few unconditional cooperators, people acting on norms rather than self-interest, can make a significant difference. His summary: successful collective action does not usually require everyone to give up self-interest, but in its early stages 'it may however require that a few are prepared to do so' (p. 127)."
+   ]
+  },
+  {
+   "h": "Conclusions and what the author wants",
+   "p": [
+    "Hindmoor's assessment (pp. 127–128) is appreciative. The idea that groups must overcome a collective action problem seems obvious now only because Olson made it so; earlier thinkers like Hobbes, Hume and Rousseau had examples, but Olson offered the first general analysis of why and when the problem arises. A lasting legacy is a stream of case studies showing how selective incentives and conditional cooperation work: household division of labour, the Civil Rights movement, peasant uprisings, the Mafia, the firm, the military draft, ethnic conflict and Ostrom's commons.",
+    "He names two limitations. First, the self-interest assumption cannot explain people who contribute because it is the right thing to do. Second, Olson does not, and does not claim to, offer a full theory of collective action: he cannot explain how people come to identify with a group, how groups agree on platforms, when collective action changes policy, or why groups collapse (p. 128). Rational choice theorists could study these, but not only they; a fuller theory would draw on social psychology on group identity and on political science findings that 'insider' groups in policy communities have more influence."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is a synthesis for the course, not Hindmoor's framing. Olson is the rational choice core of the week: individual, self-interested agency explains collective outcomes, and knowledge claims are general and model-based (universal, positivist). Yet the solutions Hindmoor reviews bring in structure and institutions: the state as coercer, property rights, Ostrom's rules, norms. On reproduction versus transformation, collective action problems help explain why unequal arrangements persist (concentrated interests organise, diffuse ones do not), while entrepreneurs, thresholds and institutional design explain change.",
+    "The lecture applied this directly to Airbnb: small, concentrated groups of hosts and investors lobby effectively while large, diffuse groups of neighbours free-ride, so regulation lags. Needham's regional case, where effects are too dispersed for markets in rights, is the same problem, and Hindmoor's Box 5.3 connects to Coase and tradeable permits. Against Rydin's governmental model, Olson suggests the 'public interest' does not organise itself; against communicative planning, he warns that shared interests do not guarantee participation. Hindmoor's closing call for group identity and norms anticipates critiques from sociological and institutionalist perspectives later in the course."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Majority vote to make VvE's insulate",
+  "d": "On 2 July 2026 the Dutch government put a bill out for consultation (until 20 September 2026) to speed up maintenance and sustainability in owners' associations (VvE's). Decisions on maintenance, sustainability and their financing would need a simple majority (50%+1) instead of higher thresholds such as two-thirds or three-quarters, and the multi-year maintenance plan would be extended from 10 to 30 years with mandatory sustainability measures.",
+  "why": "Read through Olson, an insulated, energy-efficient building is a collective good for its owners: each owner gains whether or not they pay, so individuals can block or free-ride and the good stays under-provided. Lowering the voting threshold and mandating long-term plans and contributions is Olson's first solution, coercion, applied inside an intermediate group. Limit: VvE stalemates are also about genuinely different interests (an owner about to sell, a landlord versus an owner-occupier), not only free-riding.",
+  "src": {
+   "name": "Volkshuisvesting Nederland (Rijksoverheid)",
+   "title": "Wetsvoorstel versnelling verduurzaming en onderhoud VvE's in consultatie",
+   "url": "https://www.volkshuisvestingnederland.nl/actueel/nieuws/2026/07/02/wetsvoorstel-versnelling-verduurzaming-en-onderhoud-vves-in-consultatie",
+   "date": "2026-07-02"
+  }
+ },
+ "lect": {
+  "figs": [
+   {
+    "title": "Airbnb: why regulation lags",
+    "svg": "[SVG figure; labels: Small, concentrated | hosts / investors | Large, diffuse | neighbours, residents | organise effectively | = strong lobby | free riding | = weak mobilisation | Regulation lags, | despite collective harm | Olson's insight applied to Airbnb: a collective action problem]",
+    "cap": "How the lecture applied Olson to the lack of Airbnb regulation.",
+    "slide": "HC6 slide 39"
+   }
+  ],
+  "tables": [],
+  "points": []
+ }
+}

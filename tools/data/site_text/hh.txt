@@ -1,0 +1,198 @@
+{
+ "id": "hh",
+ "wk": 6,
+ "title": "Hyötyläinen & Haila (2018) Entrepreneurial public real estate policy: Eiranranta, Helsinki",
+ "cite": "Hyötyläinen, M. & Haila, A. (2018). Entrepreneurial public real estate policy: The case of Eiranranta, Helsinki. Geoforum 89, 137–144. DOI 10.1016/j.geoforum.2017.04.001",
+ "theory": "Political economy of urban land / neoliberal urbanism (Harvey, Brenner & Theodore)",
+ "status": "full",
+ "statusNote": "Built from the full text of the published article (Geoforum 89, pp. 137–144). Page numbers refer to the journal pagination.",
+ "one": "Finnish cities and the Finnish state, which own much land, have shifted from administrative allocation and leasing to an 'entrepreneurial public real estate policy': selling land or charging market rent to maximise revenue. The Eiranranta case in Helsinki shows unintended harmful effects: the City ceded planning power, dropped its social housing requirement, reinforced exclusion via record prices, and allowed a fenced enclave for the wealthy that is new in a Nordic welfare city.",
+ "summary": [
+  "Concept and method: entrepreneurial public real estate policy is a rent-maximising land and real estate policy carried out not by private landlords, developers or REITs but by municipalities and the state; it takes two forms, selling public land or charging market rent when leasing, and can be called neoliberal in the sense of introducing a market logic to public land (p. 137). Helsinki owns 60% of its land area (p. 138, fn 3). Leasing had kept planning power with town planners and helped produce a heterogeneous urban fabric without glaring inequalities (p. 138). Data: agendas and minutes of the City Council and Real Estate Committee (REC), interviews with 5 of the 9 REC members who decided the 2005 sale, and field observations/photographs (pp. 137–138). Contribution: political economy of urban land and neoliberal urban policies.",
+  "Enabling conditions (pp. 138–139): after the early-1990s recession the state closed the National Board of Public Building (1995) and created state real estate companies (Kapiteeli, Senaatti, Sponda); Helsinki began selling land in 1993, calculated 'shadow rents', and in 2005 set up the Premises Centre charging market rent. Three changes 'scaled down' land-use decisions: (1) a new state urban policy making cities compete for state subsidies via 'urban programmes' and public-private partnerships; (2) a redistribution shift under the ideology of 'the necessity to save', turning the welfare state into welfare cities; (3) the Land Use and Building Act (MRL, 1999), which removed state ratification of local plans and legalised 'development areas' and development contracts. The state, now a real estate player itself, lost its impartial mediating role.",
+  "Justification (pp. 139–140): four arguments: put public assets to work (Sipilä); make land use efficient; increase transparency; create diversity. The 'necessity to save' became a Bourdieuian 'strong discourse' that made market rule appear natural; the media and some urban scholars (celebrating diversity of 'luxury' and 'rough' areas) supported it. In Eiranranta (former industrial/depot shore next to prestigious Eira, rezoned residential 2001) the REC decided to sell in March 2004; the highest bid would win. Deputy Mayor Pekka Korpinen, an economist, promoted selling shoreline land to maximise revenue and even renamed the area for marketing. REC members cited the budget's sales targets, inter-city competition with Espoo and Kauniainen for 'good taxpayers', and a 'global city' image vis-à-vis Copenhagen, Stockholm and Tallinn: in Harvey's (1989) terms, managerial strategies were replaced with entrepreneurial ones (p. 140).",
+  "The deal and outcomes (pp. 141–142): bids hit a Finnish record of €2621/m², €54 million in total; the newcomer investment company Apollo outbid household developers (SRV, NCC, Tarkala) by €3 million; the Real Estate Department preferred Skanska despite its lower bid. The authors suggest established developers were used to undervaluing land and capturing the value created by public development rights; only one councillor opposed the sale. Apartments sold at €10,000–16,000/m². Eiranranta has no social housing, contradicting the metropolitan social-mix policy; REC members saw concentrations of social housing (Kontula, Jakomäki) as the problem, not concentrations of wealth. The master plan required 1.2 m fences and gated entrances; ads stressed that 'no common laundries are needed'.",
+  "Conclusion (pp. 142–144): the authors do not call Eiranranta a gated community, since residents pay city taxes, use public services and the fences allow right of passage, but it manifests Harvey's 'neoliberal turn'. Unlike the UK state, the Finnish state itself became a land-rent maximiser, treating land as a financial asset 'according to the rent it yields' (Harvey 1982), and lost the impartiality needed to manage the contradictions of marketisation. Privatising land can mean privatising development rights. Selling to investors like Apollo may break developers' monopoly but risks 'creating liquidity out of spatial fixity' (Gotham 2009). Eiranranta is an experiment at the upper end of the market that contradicts Helsinki's welfare instruments (social housing, tenure mix)."
+ ],
+ "concepts": [
+  [
+   "Entrepreneurial public real estate policy",
+   "Rent-maximising land policy by municipalities and the state: selling public land or charging market rent (p. 137; concept from Haila 2016)."
+  ],
+  [
+   "Planning monopoly / development rights",
+   "In Finland cities have the sole right to assign development rights, so the value increase due to development belongs to them (p. 138)."
+  ],
+  [
+   "'Necessity to save'",
+   "Post-recession ideology that justified spending cuts and market-based use of public assets; a 'strong discourse' (Bourdieu) naturalising market rule (pp. 139–140)."
+  ],
+  [
+   "Four justifications",
+   "Put public assets to work; efficient land use; transparency; diversity (p. 139)."
+  ],
+  [
+   "MRL (Land Use and Building Act 1999)",
+   "Ended state ratification of local plans and legalised development areas/contracts (PPP), enabling disconnected enclaves (p. 139)."
+  ],
+  [
+   "Welfare state to welfare cities",
+   "Shift of responsibility for social services from state to municipalities, creating pressure to save (p. 139)."
+  ],
+  [
+   "Inter-city competition for 'good taxpayers'",
+   "Helsinki sold Eiranranta to attract high-income residents from Espoo and Kauniainen (income tax is municipalities' main revenue) (p. 140)."
+  ],
+  [
+   "State as real estate player",
+   "By corporatising its real estate, the Finnish state lost impartiality and its capacity to mediate conflicts (pp. 139, 143)."
+  ],
+  [
+   "Gated community vs exclusive enclave",
+   "Eiranranta is fenced and exclusive but not a full gated community: residents pay city taxes, use public services, and passage is allowed (p. 143)."
+  ]
+ ],
+ "fig": "[SVG figure; labels: Early-1990s | recession | State shifts | urban programmes | 'necessity to save' | MRL 1999 | state RE companies | Entrepreneurial public | real estate policy | sell land / market rent | Eiranranta sold 2005 to | highest bidders, €54M | motives: revenue, 'good taxpayers', | 'global city' image | Planning power ceded; | no social housing | Record prices exclude | non-market buyers | Fenced enclave for | the wealthy]",
+ "cap": "From national restructuring to entrepreneurial land policy to three unintended outcomes in Eiranranta (pp. 137–143).",
+ "table": {
+  "head": [
+   "Justification claimed",
+   "What Eiranranta showed"
+  ],
+  "rows": [
+   [
+    "Put public assets to work / saves money",
+    "€54M one-off revenue, but developers sold at €10,000–16,000/m² and likely captured value from public development rights"
+   ],
+   [
+    "Efficiency (highest bidder)",
+    "'Efficiency' = highest-paying use; planning power and social-housing requirement ceded"
+   ],
+   [
+    "Transparency",
+    "Bid prices published, but key issue (developer cartel, land rent capture) sidelined in debate"
+   ],
+   [
+    "Diversity",
+    "A homogeneous enclave for high net-worth residents; contradicts social-mix policy"
+   ]
+  ]
+ },
+ "example": "Eiranranta, Helsinki: a former industrial shore and city depot next to prestigious Eira, rezoned residential in 2001; four sites sold in 2005 at a record €2621/m² (€54M); no social housing; blocks bordered by 1.2 m fences with gated entrances; apartments marketed with wine cabinets and home theatres and 'no common laundries'.",
+ "quotes": [
+  "\"by selling the land to private developers who developed the area for homeowners, the City ceded its planning power with no demands that the area should include social housing.\" (p. 137)",
+  "\"A wish to represent Helsinki as a ‘global city’ was, at that time, one of the key drivers for replacing managerial strategies with entrepreneurial ones (to borrow Harvey’s (1989) terms for these two types of urban governance).\" (p. 140)",
+  "REC member: \"Those are the rules of the game today. If you wish to succeed, then city real estate policy must live with the programme. And this isn’t a politically divisive question.\" (p. 141)",
+  "\"by establishing real estate companies and turning into just one player in the real estate market, the state lost its impartiality and therefore possibilities to intervene\" (p. 143)"
+ ],
+ "dims": {
+  "sa": 55,
+  "rt": 70,
+  "de": 45,
+  "us": 80,
+  "mp": 35,
+  "norm": "Nordic welfare-city ideals: public land ownership and leasing, social mix, social housing, public capture of land value, equality; critique of neoliberal marketisation."
+ },
+ "exam": "Commentary angle: grounded in the political economy of urban land (Harvey's land as financial asset, Haila's land rent theory) and neoliberal urbanism (Brenner & Theodore, Peck); Harvey's (1989) managerialism/entrepreneurialism is used explicitly (p. 140). Note it also has a discursive element (Bourdieu's 'strong discourse', Weber's 'discursive practice') and an institutional one (MRL, state urban policy). Best critiques: (1) rational/public choice and Hayek: the 'apologists' argue market prices reveal opportunity costs of land and make subsidies transparent (Pursiainen & Saarimaa); the authors dismiss this without testing welfare effects or counterfactuals (would Eiranranta with leasing have produced social housing?); (2) neo-institutionalism: the story is path-dependent institutional change (MRL, state reform) more than a structural capitalist logic, and Finland's land regime mediates neoliberalism; (3) communicative planning: the REC was a representative forum but there was no real debate and excluded groups had no say, so the problem is also democratic deliberation. Methodological: single case, 5 of 9 interviews, 'unintended' effects partly inferred. MCQ traps: the authors do NOT call Eiranranta a gated community; the Real Estate Department preferred Skanska, not Apollo; it was the state (not only cities) that pioneered entrepreneurial real estate policy.",
+ "examples": [
+  {
+   "t": "State real estate companies, 1995",
+   "d": "Finland closed the National Board of Public Building and founded state real estate companies (Kapiteeli, Senaatti, Sponda) that seek to maximise land rent; one then demanded the price of developed land when selling state land to Helsinki, which defended its planning monopoly. Shows entrepreneurial public real estate policy at state level: the state became one market player among others and lost its impartial, mediating role.",
+   "src": "text",
+   "p": "p. 138"
+  },
+  {
+   "t": "Hunting 'good taxpayers'",
+   "d": "Real Estate Committee members said a main aim of the Eiranranta sale was to lure high-income residents from Espoo and Kauniainen so they would pay income tax to Helsinki, and to compete with Copenhagen, Stockholm and Tallinn for image. The authors read this, with Harvey, as inter-city competition pushing a shift from managerial to entrepreneurial strategies.",
+   "src": "text",
+   "p": "p. 140"
+  },
+  {
+   "t": "Apollo versus the household developers",
+   "d": "Newcomer investment company Apollo bid €3 million more than the established developers, whose bids were suspiciously close; the Real Estate Department preferred Skanska despite its lower bid. The authors suggest established developers routinely undervalue land to extract the value increase that belongs to the city, so the fight was really over who captures land rent from public development rights.",
+   "src": "text",
+   "p": "pp. 141, 143"
+  },
+  {
+   "t": "Dutch land write-offs after 2008",
+   "d": "Many Dutch municipalities ran an active land policy, buying land and selling serviced plots at a profit; when the market collapsed after 2008 they had to write off large sums on their land holdings. Same mechanism as in Helsinki: a municipality that acts as a land entrepreneur takes on market risk and lets revenue logic steer planning.",
+   "src": "similar"
+  }
+ ],
+ "ext": [
+  {
+   "h": "What the article asks and why",
+   "p": [
+    "Finnish cities own a lot of land (Helsinki owns 60% of its land area, p. 138) and traditionally allocated it free of charge for schools, day-care centres and libraries, and leased rather than sold land for development. Since the 1990s they increasingly sell land or charge market rent. Hyötyläinen and Haila call this 'entrepreneurial public real estate policy': a rent-maximising policy carried out not by private landlords, developers or REITs (real estate investment trusts) but by municipalities and the state (p. 137). It is neoliberal in the sense of introducing a market logic into the use of public land.",
+    "The article asks three things (p. 137): how this policy was justified and why cities adopted a business model for public land; what conditions enabled it; and what kind of built environment it produced. The case is Eiranranta, a residential area on Helsinki's prestigious southern shore, where the city sold land to private developers who built a fenced neighbourhood for wealthy owners. The authors position themselves in debates on the political economy of urban land and neoliberal urban policy (Brenner and Theodore, Harvey, Peck), and claim three contributions: analysing land policy by the state and municipalities, analysing property and development rights, and analysing the inequalities neoliberal real estate policy produces in a Nordic welfare city (p. 138)."
+   ]
+  },
+  {
+   "h": "From leasing to selling: the new real estate policy",
+   "p": [
+    "Section 2 sets the background (p. 138). Leasing had given Finnish cities control over land use now and in the future, and keeping planning power with town planners helped create a socially sustainable, heterogeneous urban fabric without glaring concentrations of wealth or poverty. In Helsinki this changed in 1993, when the city began selling land. From 1994 the Real Estate Department managed all city land and started calculating 'shadow rents' for city services, which the authors describe as a way of getting used to the market game. In 2005 the city created the Premises Centre, which charges its own departments market rent.",
+    "The state went first. Until 1995 a National Board of Public Building managed state property, funded from the budget; it was then replaced by state real estate companies (Kapiteeli, Senaatti, Sponda). The early-1990s recession was both an excuse and an opportunity: the state had taken over property from bankrupt banks and firms and adopted a new rationality of using public resources as efficiently as possible (p. 138, citing Haila 2008). The state companies then clashed with cities. One case: the state company demanded the price of developed land for land sold to Helsinki, while the city insisted on raw-land prices, because Finnish cities hold the 'planning monopoly' (sole right to assign development rights), so value increase from development belongs to them (p. 138)."
+   ]
+  },
+  {
+   "h": "Scaling down land use decisions",
+   "p": [
+    "Section 3 explains the enabling conditions: three changes gave cities a new environment for land decisions (pp. 138–139). First, a new state urban policy from the mid-1990s. Instead of financing all municipal services and reducing regional inequality, the Ministry of the Interior asked cities to draw up 'urban programmes' (modelled on British and French urban policy) and funded only some of them. This made cities compete for subsidies, encouraged partnerships with private actors and ceded planning responsibility to ad hoc project organisations and public-private partnerships. In Finland, the authors stress, it was the state that pushed cities towards new public management and competition (p. 139).",
+    "Second, a new redistribution policy after the deep recession. The state cut spending, preached 'the necessity to save' and shifted social service provision to municipalities; the welfare state began turning into welfare cities (p. 139). Third, the Land Use and Building Act (MRL, 1999) gave cities more autonomy: their plans no longer needed state ratification. That removed the state's role as independent mediator between conflicting interests, a role it could no longer play anyway because it had become a real estate player itself. MRL also legalised 'development areas' and development contracts (agreements between a municipality and a private landowner about a plan and its implementation). Critics recalled that such contracts in the 1960s and 1970s produced poor-quality, peripheral housing estates. Selling land, the authors conclude, gave developers more power in planning (p. 139)."
+   ]
+  },
+  {
+   "h": "How the policy was justified",
+   "p": [
+    "Section 4 identifies four justifications (p. 139): put public assets to work, make land use efficient, increase transparency, and create diversity. Politicians repeated 'the necessity to save' and Prime Minister Sipilä's slogan that public assets have to be put to work, meaning they should be assessed by market value. The authors, using Bourdieu, call this a 'strong discourse' that made market rule seem natural. The newspaper Helsingin Sanomat asked why land should be given at discount to developers of rental housing instead of sold at the highest price, and state researchers argued that without market prices the costs of land use are opaque. The Premises Centre claimed rents make costs more transparent and use efficient, without explaining what those words meant.",
+    "The authors also criticise fellow academics. Urban scholars who celebrate residents' free choice and neighbourhood diversity end up accepting privatisation of public land. One Finnish scholar is quoted saying that a good city can have both luxury and rough areas. Such statements, the authors argue, justify a two-sided policy: let some areas become rough and develop owner-occupied housing on privatised land (pp. 139–140). The empirical question then becomes whether selling land really saves money, creates efficiency and transparency, and produces diverse neighbourhoods."
+   ]
+  },
+  {
+   "h": "The Eiranranta deal and its motives",
+   "p": [
+    "Eiranranta was originally a rocky shore next to the old working-class district Punavuori, later used for light industry, waste water and a city depot; it was rezoned as residential in 2001 (p. 140). In 2004 the Real Estate Committee (REC, a politically elected body) decided to sell four sites, with the highest offer winning, provided bidders showed exceptional building expertise. This shows what 'efficiency' meant in practice: land should go to its highest-paying use. REC members explained the motives. The city budget contained massive sales goals for the Premises Centre. Deputy Mayor Pekka Korpinen, an economist, brought an economist's mindset and argued shorelines should be sold to maximise revenue rather than used for social housing. Even the name was strategic: 'Even the name was changed to Eiranranta with marketing in mind', linking it to the prestigious Eira district (p. 140).",
+    "The deeper motive was competition. Land policy became a 'strategic' tool, and 'coordination' now meant competing with neighbouring municipalities rather than balancing development (p. 140). Helsinki feared that Espoo and Kauniainen would attract the 'good taxpayers', since municipal income tax is the main local revenue. The city also wanted to look like a 'global city' against Copenhagen, Stockholm and Tallinn, and here the authors explicitly borrow Harvey's (1989) terms: managerial strategies were being replaced by entrepreneurial ones (p. 140). Developers and firms insisted there was demand for luxury housing and that Anglo-American companies want to own, not lease, land (p. 141)."
+   ]
+  },
+  {
+   "h": "The controversy over Apollo",
+   "p": [
+    "When the bids were opened in 2005 the price hit a Finnish record: €2,621 per square metre, €54 million in total (p. 141). The four winners were three established 'household developers' (SRV, NCC, Tarkala) and Apollo, an investment company new to Helsinki, which bid three million euros more than the others, whose bids were surprisingly close together. The Real Estate Department wanted to reject Apollo and sell to Skanska instead, even though Skanska bid lower, arguing Apollo lacked experience; the Deputy Mayor and City Council backed Apollo. One REC member suspected a kind of cartel among established developers (p. 141). Apartments later sold at €10,000 to €16,000 per square metre.",
+    "The authors read this as more than a dispute about experience. Established developers probably knew they could extract land rent and the value increase created by public development rights from the city; Apollo may simply have bid the market value (pp. 141, 143). Meanwhile nobody questioned selling public land itself: REC members agreed unanimously, and only one councillor opposed the deal. As one member said, land ownership had become secondary and 'Those are the rules of the game today' (p. 141). The new policy had become common sense."
+   ]
+  },
+  {
+   "h": "Not for social housing, and a gated community?",
+   "p": [
+    "Section 7 confronts Eiranranta with Helsinki's official social-mix policy, agreed with neighbouring cities to prevent segregation by building social housing in all neighbourhoods (p. 141). Eiranranta had no social housing and the city's highest prices. REC members did not see this as a problem: 'Not every place needs to be mixed' (p. 142). They opposed concentrations of social housing in stigmatised areas like Jakomäki, but not concentrations of wealth. The authors explain this inability to spot the warning signs of segregation by the members' focus on real estate business; Eiranranta was treated as a disconnected project, something MRL made possible (p. 142).",
+    "Section 8 describes the built result (pp. 142–143). The master plan required that 'the blocks are to be bordered with 1.2 m high fences, which prevent visibility and the entrances are to be gated'. Adverts stressed alarms, camera gate phones, private housekeeping space and the fact that 'no common laundries are needed'. The architecture is inconspicuous; the public street between the eight buildings feels empty and uninviting, in contrast with the busy public beach, park, skate area and needle exchange next door. Brokers pictured residents as highly paid academics, option millionaires and CEOs around 50 without children. Is it a gated community? The authors say no: residents still pay city taxes, use public services, and the fences allow right of passage (p. 143). But it is an exclusive enclave, new for a Nordic welfare city."
+   ]
+  },
+  {
+   "h": "Conclusions and what the authors want",
+   "p": [
+    "The conclusions (pp. 143–144) return to the three contributions. On policy: by corporatising its own real estate, the state gave cities a model, and through urban policy, subsidy rules and planning law it pushed them to treat land as a strategic, revenue-raising tool. Uniquely, the Finnish state thereby lost its impartiality and its ability to manage the contradictions of marketisation. On property rights: selling sites also meant privatising development rights, making it harder for the city to implement future plans there, and even common laundries became private space. Selling to an investment company might break developers' monopoly, but might also start a phase in which Helsinki property becomes a pure financial asset, bought and sold for its rent (Harvey 1982).",
+    "On inequality: Helsinki has avoided the distress of large European and American cities through social policy, social housing and tenure mix; entrepreneurial land policy contradicts these instruments. Eiranranta was 'an experiment by the City to test the upper end of the housing market', and the authors end by hoping it does not lead to more selling off of public land (p. 144). The limits are visible in the method: policy documents, five of nine REC members interviewed (others could not be reached or refused), and field observation (pp. 137–138). Some explanations, such as why Apollo bid more, are explicitly offered only as plausible."
+   ]
+  },
+  {
+   "h": "Connecting it to the course",
+   "p": [
+    "This section is my synthesis, not the authors' claims. The article applies political economy of urban land and neoliberal urbanism, and borrows Harvey's managerial/entrepreneurial distinction directly. On structure versus agency it sits in between: state restructuring and inter-city competition create pressure, but named actors (Korpinen, the REC, developers) make choices and hold ideologies. It describes transformation of Helsinki's institutions but reproduction of class advantage. The change is partly deliberate (state policy pushed cities) and partly emergent (a first deal makes the next easy). Knowledge is situated in a Nordic welfare context, and the normative commitment is clear: public land, social mix and equality.",
+    "Compared with Harvey, the case shows entrepreneurialism working through land ownership rather than flagship spectacle, and in a strong welfare state. Compared with Savini and Aalbers, Helsinki is a strong, land-owning municipality rather than a weak one, yet it still hands over planning power; the closing worry about investment companies and liquidity links directly to their financialisation argument. For a Dutch reader, the story invites comparison with debates on municipal land banking and erfpacht (ground lease) versus sale in Amsterdam and Utrecht."
+   ]
+  }
+ ],
+ "news": {
+  "t": "Dutch municipalities' record land prices",
+  "d": "In May 2023 NOS reported a record building-plot price of €668 per m² in Q1 2023, while plot sales fell to their lowest level since 2013 and projects were being cancelled. Municipalities usually set land prices with the residual method: expected house price minus construction costs and developer profit. Housing economist Peter Boelhouwer said municipalities and landowners are reluctant to accept losses on land; Rotterdam said it makes no profit and uses the revenue for infrastructure and site preparation.",
+  "why": "Read through Hyötyläinen and Haila, residual pricing makes the municipal landowner act like a real-estate player: it captures as much of the expected market value as it can, so land prices follow the market instead of steering affordability, and budgets come to depend on high prices. Limit: unlike Helsinki at Eiranranta, Dutch municipalities mostly use land income to recover the costs of new neighbourhoods (as Rotterdam stresses), not to maximise revenue or attract wealthy taxpayers.",
+  "src": {
+   "name": "NOS",
+   "title": "Dure grond belemmert bouw koophuizen: moet de grondprijs omlaag?",
+   "url": "https://nos.nl/l/2475857",
+   "date": "2023-05-21"
+  }
+ }
+}
