@@ -47,7 +47,7 @@ var course=null;
 (function initHash(){try{const h=location.hash.slice(1);if(!h||h==="home")return;if(h.startsWith("psc")){course="psc";view=h;return;}if(h.startsWith("studio")){course="studio";view=h;return;}if(NAV.flatMap(g=>g[1]).some(t=>t[0]===h)){course="bpt";view=h;}}catch(e){}})();
 function go(v,s){const _pc=course;if(v==="home"){course=null;view="today";}else if(v.startsWith("psc")){course="psc";view=v;}else if(v.startsWith("studio")){course="studio";view=v;}else{course="bpt";view=v;}sub=s??null;if(course!==_pc&&typeof GW!=="undefined")GW=null;render();window.scrollTo(0,0);}
 const dleft=d=>calDays(d);
-const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-games","Games","spark"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
+const PSC_NAV=[["Course",[["psc","Overview","home"],["psc-lectures","Lectures & readings","book"]]],["Practice",[["psc-flash","Flashcards","cards"],["psc-quiz","Quiz","quiz"],["psc-games","Games","spark"],["psc-essay","Essay practice","pen"]]],["About",[["psc-collect","Readings & DOIs","src"]]]];
 const pscStats=()=>{const ids=PSC.map(l=>l.id);return {m:ids.reduce((a,id)=>a+topicStats(id).m,0)/ids.length,mast:ids.filter(id=>topicStats(id).mastered).length,due:dueCards(ids).length};};
 
 function chromeHome(){$("#side").innerHTML="";$("#tabbar").innerHTML="";$("#cdm").textContent="";}
@@ -148,7 +148,7 @@ function render(){try{history.replaceState(null,"","#"+(course===null?"home":vie
   {const tb=[["bpt","BPT","Midterm Prep","#0c0c10"],["psc","PSC","Sustainable Cities","var(--good)"],["studio","STU","Planning Studio","#6d5bd0"]].find(x=>x[0]===course);const lg=document.querySelector(".topbar .logo"),nm=document.querySelector(".topbar b");if(tb&&lg&&nm){lg.textContent=tb[1];nm.textContent=tb[2];lg.style.background=tb[3];lg.style.color=tb[3]?"#fff":"";}}
   if(course===null){chromeHome();$("#app").innerHTML=vHome();return;}
   if(course==="studio"){chromeStudio();$("#app").innerHTML=vStudio();return;}
-  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-games":vGames,"psc-game":vGame,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
+  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-quiz":vQuiz,"psc-games":vGames,"psc-game":vGame,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
   $("#tabbar").style.gridTemplateColumns="";renderBPT();
   const b=document.querySelector(".side .brand");if(b&&!b.querySelector(".allc"))b.insertAdjacentHTML("beforeend",'');
   const side=$("#side");side.insertAdjacentHTML("afterbegin",'<button class="back allc" data-go="home" style="margin:0 8px 8px">'+ic('left')+' All courses</button>');}
