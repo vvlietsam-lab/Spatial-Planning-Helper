@@ -11,7 +11,7 @@ const CARDS=FC.map(([t,f,b])=>({t,f,b,k:"c"+hash(f)}));
 const EASYF=["recall","define","example"],SUPERF=["assertion","mechanism","multi"];
 const QS=MCQ.map(q=>({...q,k:"q"+hash(q.q),lv:q.base?2:(EASYF.includes(q.fmt)?1:2)}));
 const HQS=(typeof HQ!=="undefined"?HQ:[]).map(q=>({...q,k:"h"+hash(q.q),lv:SUPERF.includes(q.fmt)?4:3}));
-const MQS=[...(typeof MG!=="undefined"?MG.QZ:[]),...(typeof EXQ_5!=="undefined"?EXQ_5:[]),...(typeof AUTOQ!=="undefined"?AUTOQ:[]),...(typeof AUTOQ2!=="undefined"?AUTOQ2:[]),...(typeof AUTOQP!=="undefined"?AUTOQP:[]),...(typeof AUTOQP3!=="undefined"?AUTOQP3:[]),...(typeof PSCQ_1!=="undefined"?PSCQ_1:[]),...(typeof PSCQ_2!=="undefined"?PSCQ_2:[]),...(typeof SH_1!=="undefined"?[...SH_1,...SH_2]:[])].map(q=>({...q,k:(q.official?"x":q.auto?"a":"m")+hash(q.q)}));
+const MQS=[...(typeof MG!=="undefined"?MG.QZ:[]),...(typeof EXQ_5!=="undefined"?EXQ_5:[]),...(typeof AUTOQ!=="undefined"?AUTOQ:[]),...(typeof AUTOQ2!=="undefined"?AUTOQ2:[]),...(typeof AUTOQP!=="undefined"?AUTOQP:[]),...(typeof AUTOQP3!=="undefined"?AUTOQP3:[]),...(typeof AUTOQP4!=="undefined"?AUTOQP4:[]),...(typeof AUTOQ4!=="undefined"?AUTOQ4:[]),...(typeof PSCQ_1!=="undefined"?PSCQ_1:[]),...(typeof PSCQ_2!=="undefined"?PSCQ_2:[]),...(typeof SH_1!=="undefined"?[...SH_1,...SH_2]:[])].map(q=>({...q,k:(q.official?"x":q.auto?"a":"m")+hash(q.auto>=4?q.q+"|"+q.o[q.a]:q.q)}));
 const ALLQ=[...QS,...HQS,...MQS];
 const LV={1:{n:"Easy",d:"Warm-up recall: definitions, examples, who said what."},2:{n:"Medium",d:"One step below the exam: recognise a concept in a statement or example, which is NOT, inverse questions."},3:{n:"Hard",d:"Exam level. Matches the official example questions from the 6 Oct Q&A: how would perspective X critique Y, True/False on statements I–IV, mini-cases, precise paraphrases. Includes the two official examples."},4:{n:"Super hard",d:"Above the exam: assertion and reason, causal chains, questions that combine two readings. For mastery."}};
 const FMTL={assertion:"Assertion · reason",combo:"Combination",tf:"True / False I–IV",multi:"Two readings",match:"Match four readings",transfer:"Case + critique",dimension:"Two dimensions",case:"Mini-case",critique:"Critique",nuance:"Precise wording",excerpt:"Excerpt",mechanism:"Causal chain",except:"Spot the error",who:"Who says this?",inverse:"Inverse",not:"Which is NOT",apply:"Apply",contrast:"Contrast",recall:"Recall",define:"Definition",example:"Example"};
@@ -251,9 +251,12 @@ function rate(r){const c=F.deck[F.i];const cur=S.cards[c.k]||{box:0};let box=cur
 /* quiz */
 let Q={list:[],i:0,picked:null,score:0,res:[],sel:""};
 const permQ=q=>{if(q.fmt==="assertion")return {...q};const p=shuffle(q.o.map((_,i)=>i));return {...q,o:p.map(i=>q.o[i]),a:p.indexOf(q.a)};};
-const qLv=()=>S.lvl||3,qPool=(fl,l)=>ALLQ.filter(q=>fl.includes(q.t)&&q.lv===l);
+/* cross-reading items (which lecture / whose idea / matching / attribution True-False) are left out when one reading or lecture is quizzed */
+const XRE=/^(Which PSC lecture|Which lecture |Whose (words|idea)|Match each|Which statements come from|Which of these ideas come from|Which reading|Which author)/;
+const isCross=q=>q.fmt==="match"||(q.auto&&q.fmt==="who")||XRE.test(q.q);
+const qLv=()=>S.lvl||3,qPool=(fl,l)=>ALLQ.filter(q=>fl.includes(q.t)&&q.lv===l&&!(fl.length===1&&isCross(q)));
 function startQuiz(filter,mode,lv,n){const fl=filter||scopeIds();n=n||10;lv=lv||qLv();let list;
-  if(mode==="weak"){list=fresh(ALLQ.filter(q=>fl.includes(q.t)&&S.quiz[q.k]&&!S.quiz[q.k].last),n);}
+  if(mode==="weak"){list=fresh(ALLQ.filter(q=>fl.includes(q.t)&&S.quiz[q.k]&&!S.quiz[q.k].last&&!(fl.length===1&&isCross(q))),n);}
   else{list=fresh(qPool(fl,lv),n);if(list.length<n){for(const d of [1,-1,2,-2,3,-3]){const l2=lv+d;if(l2<1||l2>4)continue;list.push(...fresh(qPool(fl,l2).filter(q=>!list.includes(q)),n-list.length));if(list.length>=n)break;}}}
   Q={list:shuffle(list).map(permQ),i:0,picked:null,score:0,res:[],sel:Q.sel,lv,weak:mode==="weak"};go(course==="psc"?"psc-quiz":"quiz");}
 function lvlSlider(fl){const L=qLv();return `<div class="lvl"><div class="row between"><span class="eyebrow">Difficulty</span><b class="lvn lv${L}">${LV[L].n}${L===3?' · exam level':''}</b></div><input type="range" min="1" max="4" step="1" value="${L}" id="qlvl" aria-label="Difficulty"><div class="lvt">${[1,2,3,4].map(l=>`<span class="${l===L?'on':''}">${LV[l].n}<i>${qPool(fl,l).length}</i></span>`).join('')}</div><p class="small mut" style="margin:6px 0 0">${LV[L].d}</p></div>`;}
