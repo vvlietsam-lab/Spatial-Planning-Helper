@@ -164,7 +164,7 @@ function vPSCLecture(){const l=PSC.find(x=>x.id===sub)||PSC[0],L=PSC_LECTURES[l.
   const bchip=b=>b===B_ABS?'<span class="chip full">Abstract retrieved</span>':b===B_PART?'<span class="chip slides">Partial abstract</span>':'<span class="chip missing">No abstract · from general knowledge</span>';
   const m=l.man;
   return `<div class="fade"><button class="back" data-go="psc-lectures">${ic('left')} All lectures</button>
-  <div class="row"><span class="eyebrow">Theme ${l.theme} · ${esc(PSC_THEMES[l.theme-1])}</span>${l.slides?'<span class="chip full">Slides on file</span>':'<span class="chip plain">No slides yet: reading only</span>'}</div>
+  <div class="row"><span class="eyebrow">Theme ${l.theme} · ${esc(PSC_THEMES[l.theme-1])}</span>${l.slides?'<span class="chip full">Slides on file</span>':'<span class="chip plain">No slides yet: reading only</span>'}</div>${l.man.noexam?`<div class="note" style="margin:10px 0">The mandatory reading of this lecture is <b>not exam material</b> (reported in class on 15 Oct; check Brightspace). The lecture itself is: the quizzes, flashcards and essay questions for this lecture now use the slides only.</div>`:''}
   <h2 style="font-size:1.8rem;margin-top:10px">L${l.n} · ${esc(l.title)}</h2><p class="small mut">${esc(l.who)} · ${new Date(L.d+"T12:00").toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</p>
   <div class="rgrid"><div style="min-width:0">
    <h3>What the lecture said</h3>${l.lecture.map(p=>`<p>${esc(p)}</p>`).join('')}

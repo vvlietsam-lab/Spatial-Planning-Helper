@@ -16,8 +16,8 @@ const sents=t=>clean(t).split(/(?<=[.!?])\s+(?=[A-Z'‘"(])/).map(x=>x.trim()).f
 const ST=[];
 for(const l of PS){const id=l.id;const m=l.man;
   (l.lecture||[]).forEach(b=>sents(b).forEach(s=>ST.push({t:id,s,src:'slides'})));
-  (m.ext||[]).forEach(sec=>(sec.p||[]).forEach(p=>sents(typeof p==='string'?p:JSON.stringify(p)).forEach(s=>ST.push({t:id,s,src:'reading'}))));
-  (l.rec||[]).forEach(r=>{if(r.abs)sents(r.abs).forEach(s=>ST.push({t:id,s,src:'rec'}));});
+  if(!['p4','p5','p6','p7'].includes(id))(m.ext||[]).forEach(sec=>(sec.p||[]).forEach(p=>sents(typeof p==='string'?p:JSON.stringify(p)).forEach(s=>ST.push({t:id,s,src:'reading'}))));
+  if(!['p4','p5','p6','p7'].includes(id))(l.rec||[]).forEach(r=>{if(r.abs)sents(r.abs).forEach(s=>ST.push({t:id,s,src:'rec'}));});
 }
 // mask names of the lecture's own authors and words from its title so the stem does not give the answer away
 const mask=(s,id)=>{let t=s;surn(id).forEach(w=>{t=t.replace(new RegExp('\\b'+w+'\\b','g'),'▇▇▇');});return t;};
@@ -35,11 +35,11 @@ for(const c of C){if(c.term.length<5)continue;const re=new RegExp(c.term.replace
     const d=[...shuf(C.filter(y=>y.t===c.t&&y.term.toLowerCase()!==c.term.toLowerCase())),...shuf(C.filter(y=>theme(y.t)===theme(c.t)&&y.t!==c.t))].map(y=>y.term).filter(y=>!re.test(y)&&!new RegExp(y.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'i').test(c.term));
     mk(c.t,2,'recall',q,c.term,d,`The missing term is "${c.term}": ${cut(h.s)}`);}}
 // C examples
-const EX=[];for(const l of PS)(l.man.examples||[]).forEach(x=>{if(x.t&&x.d)EX.push({t:l.id,ti:clean(x.t),d:clean(x.d)});});
+const EX=[];for(const l of PS.filter(l=>!['p4','p5','p6','p7'].includes(l.id)))(l.man.examples||[]).forEach(x=>{if(x.t&&x.d)EX.push({t:l.id,ti:clean(x.t),d:clean(x.d)});});
 for(const x of EX){mk(x.t,1,'example',`Which lecture uses the example "${x.ti}"?`,lab(x.t),near(x.t).slice(0,3).map(lab),`${x.ti} (${lab(x.t)}): ${cut(x.d)}`);
   const ds=sents(x.d);if(ds[0])mk(x.t,2,'example',`Which example is described here? "${cut(mask(ds[0],x.t).replace(new RegExp(x.ti.split(/\W+/).filter(w=>w.length>4).join('|')||'^$','gi'),'▇▇▇'))}"`,x.ti,shuf(EX.filter(y=>y.ti!==x.ti&&theme(y.t)===theme(x.t))).map(y=>y.ti),`${x.ti} (${lab(x.t)}).`);}
 // D tables: cell lookups
-for(const l of PS){const T=l.table;if(!T||!T.rows||T.rows.length<4)continue;const H=T.head;
+for(const l of PS){if(['p4','p5','p6','p7'].includes(l.id))continue;const T=l.table;if(!T||!T.rows||T.rows.length<4)continue;const H=T.head;
   for(let c=1;c<H.length;c++)for(const r of T.rows){const v=clean(String(r[c]||''));const k=clean(String(r[0]||''));if(v.length<8||k.length<2)continue;
     const others=T.rows.filter(x=>x!==r).map(x=>clean(String(x[0]||''))).filter(x=>x&&x!==k);
     mk(l.id,3,'case',`In the ${lab(l.id)} comparison table, which ${H[0].toLowerCase()} has "${H[c]}: ${cut(v)}"?`,k,shuf(others),`${k}: ${H[c]} = ${v}.`);}}

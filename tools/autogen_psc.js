@@ -1,7 +1,7 @@
 /* Generates extra quiz questions from already-verified site material (concepts, pairs, flashcards, who-statements). No new facts. */
 const fs=require('fs');const L=fs.readFileSync(__dirname+'/all.js','utf8').split('\n');const idx=L.findIndex(l=>l.startsWith('const R=Object.fromEntries'));
 const o=new Function('window','document','localStorage',L.slice(0,idx).join('\n')+';return {READINGS,MG,FC,PSC}')({},{},{});
-o.READINGS=o.PSC.map(l=>({id:l.id,n:l.n,title:'L'+l.n+' '+l.title,wk:l.theme,concepts:l.man.concepts||[]}));
+const NR=['p4','p5','p6','p7'],NRE=/Satg|\bLiu\b|\bZhou\b|Witte|Wiegmans|Louw|claims than land|port-city|puzzling space/i;o.READINGS=o.PSC.map(l=>{const lt=(l.lecture||[]).join(' ').toLowerCase();return {id:l.id,n:l.n,title:'L'+l.n+' '+l.title,wk:l.theme,concepts:(l.man.concepts||[]).filter(c=>!NR.includes(l.id)||(!NRE.test(c[0]+' '+c[1])&&lt.includes(c[0].toLowerCase().split(/[ (/]/)[0])))};});
 let seed=7;const rnd=()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};const shuf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
 const R={};o.READINGS.forEach(r=>R[r.id]=r);
 const lab=id=>{const r=R[id];return 'lecture '+r.n+' ('+r.title.replace(/^L[0-9]+ /,'')+')';};

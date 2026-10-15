@@ -10,7 +10,7 @@ const clean=s=>String(s).replace(/\s+/g,' ').replace(/`/g,"'").replace(/\$\{/g,'
 const sents=t=>clean(t).split(/(?<=[.!?])\s+(?=[A-Z'‘"(])/).map(x=>x.trim()).filter(x=>x.length>=60&&x.length<=230&&!/\b(slides?|this page|text version|garbled|date note|uploaded|on file|the site|lecture page)\b/i.test(x)&&!/^(This|It|They|These|He|She|His|Her|Their|That|But|And|So|Yet|Also|Here|There|For each|Each|In each|Both|Such)\b/.test(x));
 // ---- units
 const U=[];
-if(which==='psc'){for(const l of o.PSC){const st=[];(l.lecture||[]).forEach(b=>st.push(...sents(b)));(l.man.ext||[]).forEach(sec=>(sec.p||[]).forEach(p=>st.push(...sents(typeof p==='string'?p:''))));(l.man.examples||[]).forEach(x=>st.push(...sents(x.d||'')));
+if(which==='psc'){for(const l of o.PSC){const st=[];(l.lecture||[]).forEach(b=>st.push(...sents(b)));if(!['p4','p5','p6','p7'].includes(l.id)){(l.man.ext||[]).forEach(sec=>(sec.p||[]).forEach(p=>st.push(...sents(typeof p==='string'?p:''))));(l.man.examples||[]).forEach(x=>st.push(...sents(x.d||'')));}
   U.push({id:l.id,lab:'lecture '+l.n+' ('+l.title+')',st:[...new Set(st)]});}}
 else{for(const r of o.READINGS){if(r.id==='fw')continue;const st=[];if(r.one)st.push(...sents(r.one));(r.ext||[]).forEach(sec=>(sec.p||[]).forEach(p=>st.push(...sents(typeof p==='string'?p:''))));(r.examples||[]).forEach(x=>st.push(...sents(x.d||'')));if(r.lect)(r.lect.points||[]).forEach(p=>st.push(...sents(p.d||'')));
   const nm=(r.title.match(/^[^()]*\(\d{4}[^)]*\)/)||[r.title.split(':')[0]])[0].trim();U.push({id:r.id,lab:nm,st:[...new Set(st)]});}}
