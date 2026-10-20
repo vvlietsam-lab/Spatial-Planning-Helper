@@ -9,7 +9,7 @@ const NR=id=>{if(!isPSC(id))return R[id];const l=PSC.find(x=>x.id===id);return {
 const lab=id=>{if(isPSC(id)){const l=PSC.find(x=>x.id===id);return "L"+l.n+" · "+(l.man.cite.split(")")[0]+")");}const t=R[id].title.replace(/^Course framework \+ /,"");return t.length>58?t.slice(0,56)+"…":t;};
 const surname=id=>{const t=isPSC(id)?PSC.find(x=>x.id===id).man.cite:R[id].title.replace(/^Course framework \+ /,"");return (t.match(/^[A-ZÀ-Ž][\wÀ-ž'’-]+/)||[""])[0];};
 const mask=(txt,id)=>{const s=surname(id);return s&&s.length>2?txt.replace(new RegExp(s,"g"),"▇▇▇"):txt;};
-function gIds(){if(isP())return PSC.filter(l=>!GW||l.theme===+GW.slice(1)).map(l=>l.id);
+function gIds(){if(isP())return PSC.filter(l=>GW?l.theme===+GW.slice(1):l.theme!==2).map(l=>l.id);
   return (GW?READINGS.filter(r=>r.wk===+GW.slice(1)):BR()).map(r=>r.id);}
 const gTag=()=>isP()?(GW?"Theme "+GW.slice(1):"All lectures"):(GW?"Week "+GW.slice(1):(Date.now()<EXAM?"Midterm (W1–4)":"All weeks"));
 function distract(id,pool,n){const wk=NR(id).wk;const same=shuffle(pool.filter(x=>x!==id&&NR(x).wk===wk)),other=shuffle(pool.filter(x=>x!==id&&NR(x).wk!==wk));

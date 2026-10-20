@@ -26,7 +26,7 @@ const OQ=OPEN.map(q=>({...q,k:"o"+hash(q.q)}));
 const isPSC=t=>/^p\d+$/.test(t);
 const MIDR=()=>READINGS.filter(r=>r.wk<=4);
 const BR=()=>Date.now()<EXAM?MIDR():READINGS;
-const scopeIds=()=>course==="psc"?PSC.map(l=>l.id):BR().map(r=>r.id);
+const scopeIds=()=>course==="psc"?PSC.filter(l=>l.theme!==2).map(l=>l.id):BR().map(r=>r.id);
 const STATUS={full:"Full text",partial:"Partial",slides:"Slides only",missing:"Not on file"};
 const short=r=>r.title.replace(/^Course framework \+ /,'').split(/[:(]/)[0].trim();
 const I={
@@ -231,7 +231,7 @@ function vFramework(){const rows=READINGS.filter(r=>r.dims&&r.dims.sa!=null);con
 let F={deck:[],i:0,flip:false,sel:""};const INT=[0,1,2,3,5,8];
 function sel(v){if(!v)return null;if(v[0]==='w'&&course==='psc')return PSC.filter(l=>l.theme===+v.slice(1)).map(l=>l.id);if(v[0]==='w')return READINGS.filter(r=>r.wk===+v.slice(1)).map(r=>r.id);return [v];}
 function startFlash(filter,all,label){const fl=filter||scopeIds();const base=all?CARDS.filter(c=>fl.includes(c.t)):dueCards(fl);F={deck:shuffle(base),i:0,flip:false,sel:F.sel,done:0};go(course==="psc"?"psc-flash":"flash");}
-function topicSeg(cur,attr){const opts=course==="psc"?[["","All"],["w1","Theme 1"],["w2","Theme 2"],["w3","Theme 3"]]:[["",Date.now()<EXAM?"Midterm":"All"],["w1","W1"],["w2","W2"],["w3","W3"],["w4","W4"],["w6","W6"],["w7","W7"]];return `<div class="seg">${opts.map(([v,l])=>`<button ${attr}="${v}" aria-pressed="${cur===v}">${l}</button>`).join('')}</div>`;}
+function topicSeg(cur,attr){const opts=course==="psc"?[["","Exam (T1+T3)"],["w1","Theme 1"],["w2","Theme 2 · not on exam"],["w3","Theme 3"]]:[["",Date.now()<EXAM?"Midterm":"All"],["w1","W1"],["w2","W2"],["w3","W3"],["w4","W4"],["w6","W6"],["w7","W7"]];return `<div class="seg">${opts.map(([v,l])=>`<button ${attr}="${v}" aria-pressed="${cur===v}">${l}</button>`).join('')}</div>`;}
 function vFlash(){const sc=scopeIds();const counts=[0,1,2,3,4,5].map(b=>CARDS.filter(c=>sc.includes(c.t)&&(S.cards[c.k]?.box||0)===b).length);
   const head=`<p class="eyebrow">Spaced repetition · Leitner</p><h2 class="serif">Flashcards</h2>
   <div class="boxes" style="margin:14px 0">${counts.map((n,b)=>`<div class="${b>=3?'ok':''}"><strong>${n}</strong><span>box ${b}${b>=3?' ✓':''}</span></div>`).join('')}</div>

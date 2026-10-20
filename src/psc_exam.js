@@ -1,10 +1,10 @@
 /* ===== PSC timed exam simulator (13 Oct) =====
    Format from the course manual: 6 essay questions in two parts (a: comprehension, b: essay); answer 2; 3 hours (13:30-16:30); no notes.
    Questions are drawn from the PSC essay bank (only questions with an (a) and (b) part), at most one per lecture, two per theme. */
-const XQ=()=>OQ.filter(q=>isPSC(q.t)&&/\(a\)/.test(q.q)&&/\(b\)/.test(q.q));
+const XQ=()=>OQ.filter(q=>isPSC(q.t)&&PSC.find(l=>l.id===q.t).theme!==2&&/\(a\)/.test(q.q)&&/\(b\)/.test(q.q));
 const xS=()=>{S.pscx=S.pscx||{cur:null,hist:[]};return S.pscx;};
-function xNew(){const pool=shuffle(XQ()),pick=[],used=new Set(),th={1:0,2:0,3:0};
-  for(const q of pool){const t=PSC.find(l=>l.id===q.t).theme;if(used.has(q.t)||th[t]>=2)continue;pick.push(q.k);used.add(q.t);th[t]++;if(pick.length===6)break;}
+function xNew(){const pool=shuffle(XQ()),pick=[],used=new Set(),th={1:0,3:0};
+  for(const q of pool){const t=PSC.find(l=>l.id===q.t).theme;if(used.has(q.t)||!(t in th)||th[t]>=3)continue;pick.push(q.k);used.add(q.t);th[t]++;if(pick.length===6)break;}
   for(const q of pool){if(pick.length>=6)break;if(!pick.includes(q.k)&&!used.has(q.t)){pick.push(q.k);used.add(q.t);}}
   const x=xS();x.cur={qs:pick,chosen:[],ans:{},rub:{},start:Date.now(),dur:180*60000,done:false};persist();render();}
 const xQ=k=>OQ.find(o=>o.k===k);
@@ -16,8 +16,8 @@ let xTimer=null;
 function vPSCExam(){const x=xS(),c=x.cur;clearInterval(xTimer);
   const head=`<p class="eyebrow">Mon 26 Oct · 13:30–16:30 · 70% of the grade</p><h2 class="serif">Exam simulator</h2>`;
   if(!c){const h=x.hist.slice(-5).reverse();
-    return `<div class="fade">${head}<p class="lede">A full mock in the real format: six questions, each with (a) a short comprehension part and (b) an essay part. Choose two and answer them in three hours, closed book. The questions come from the essay bank, one per lecture and spread over the three themes. Afterwards you get the model answers and score yourself with the rubric.</p>
-    <div class="card"><div class="row between"><div><b>Before you start</b><p class="small mut" style="margin:4px 0 0">Put your notes away. Plan about 10 minutes reading and choosing, 75 minutes per question, and 10 minutes checking. The timer keeps running if you leave this page.</p></div><button class="btn primary" id="xstart">Start a 3-hour mock</button></div></div>
+    return `<div class="fade">${head}<p class="lede">A full mock in the real format: six questions, each with (a) a short comprehension part and (b) an essay part. Choose two and answer them in three hours, closed book. The questions come from the essay bank: one per lecture, three from theme 1 and three from theme 3 (theme 2 is not on the exam). In the real exam part (a) is worth 10 points and part (b) 40 points. Afterwards you get the model answers and score yourself with the rubric.</p>
+    <div class="card"><div class="row between"><div><b>Before you start</b><p class="small mut" style="margin:4px 0 0">Put your notes away. Plan about 10 minutes reading and choosing, 75 minutes per question, and 10 minutes checking. The timer keeps running if you leave this page.</p></div><button class="btn primary" id="xstart">Start a 3-hour mock</button></div></div>${typeof PSC_EXAMINFO!=='undefined'?`<div class="card" style="margin-top:12px"><div class="eyebrow">From the lecturer · ${esc(PSC_EXAMINFO.src)}</div><ul class="small" style="margin:8px 0 0 18px">${PSC_EXAMINFO.lines.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><p class="small mut" style="margin-top:8px">${esc(PSC_EXAMINFO.example)}</p></div>`:''}
     ${h.length?`<h3>Earlier mocks</h3><div class="list">${h.map(r=>`<div class="item" style="cursor:default"><div class="lnum">${Math.round(r.score*100)}</div><div><div class="t">${r.titles.map(esc).join(' · ')}</div><div class="s">${new Date(r.at).toLocaleDateString('en-GB',{day:'numeric',month:'short'})} · ${r.words} words · ${r.mins} min</div></div><div class="r"></div></div>`).join('')}</div>`:''}</div>`;}
   const left=xLeft(c);
   if(c.done){const tot=c.chosen.reduce((s,k)=>s+xScore(c,k),0)/Math.max(1,c.chosen.length);
