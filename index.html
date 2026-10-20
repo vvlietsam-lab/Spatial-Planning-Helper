@@ -10896,6 +10896,21 @@ const PSC_NORE=/Satg|\bLiu\b|\bZhou\b|Witte|Wiegmans|Louw|more claims than land|
   PSC.filter(l=>["p4","p6","p7"].includes(l.id)).forEach(l=>{l.man.noexam=true;});
   PSC.find(l=>l.id==="p5").man.noexam=true;})();
 
+/* 20 Oct: more PSC game material, generated at load from checked lecture content (no new facts).
+   Pairs: every PSC concept becomes a term–meaning pair. Odd One Out: three concepts of one lecture + one of another lecture in the same theme.
+   Whose idea: statements from the lecture points (slides) with the lecture's own author names masked. */
+(function(){if(typeof MG==="undefined")return;let sd=31;const rnd=()=>{sd=(sd*16807)%2147483647;return sd/2147483647;};const sh=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+  const NOR=typeof PSC_NORE!=="undefined"?PSC_NORE:/^$/;
+  const C=[];PSC.forEach(l=>(l.man.concepts||[]).forEach(c=>{if(c[0]&&c[1]&&c[1].length>20&&c[0].length<=60&&!(l.man.noexam&&NOR.test(c[0]+" "+c[1])))C.push({t:l.id,th:l.theme,n:l.n,term:c[0],def:c[1]});}));
+  C.forEach(c=>{if(!MG.PAIRS.some(p=>p.t===c.t&&p.term.toLowerCase()===c.term.toLowerCase()))MG.PAIRS.push({t:c.t,term:c.term,def:c.def,auto:1});});
+  const byL={};C.forEach(c=>(byL[c.t]=byL[c.t]||[]).push(c));
+  for(const id in byL){const mine=byL[id];if(mine.length<3)continue;const others=C.filter(c=>c.t!==id&&c.th===mine[0].th);
+    for(let k=0;k<Math.min(4,Math.floor(mine.length/2));k++){const three=sh(mine).slice(0,3),odd=sh(others)[0];if(!odd)continue;const items=sh([...three.map(c=>c.term),odd.term]);
+      ODD.push({w:mine[0].th,psc:1,auto:1,items,odd:items.indexOf(odd.term),e:`${three.map(c=>c.term).join(", ")} are from lecture ${mine[0].n}; ${odd.term} is from lecture ${odd.n} (${odd.def})`});}}
+  const surn=l=>((l.man.cite||"").split("(")[0].match(/[A-ZÀ-Ž][a-zà-žø'’-]{2,}/g)||[]);
+  PSC.forEach(l=>{if(!l.slides)return;const sn=surn(l);(l.lecture||[]).forEach(b=>b.split(/(?<=[.!?])\s+(?=[A-Z])/).filter(s=>s.length>=70&&s.length<=220&&!/\b(slides?|date note|lecture \d)\b/i.test(s)).slice(0,4).forEach(s=>{let t=s;sn.forEach(w=>{t=t.replace(new RegExp("\\b"+w+"\\b","g"),"▇▇▇");});MG.WHO.push({t:l.id,kind:"idea",txt:t,auto:1});}));});
+})();
+
 /* 20 Oct: hand-written questions where two or more WRONG options use absolute wording ("always", "never", "only"…) while the right one does not
    give the answer away. In exactly those questions the wrong options are softened slightly; the claims stay wrong, the stems stay the same. */
 const ABSW=/\b(always|never|all|only|no|none|nothing|every|completely|entirely|automatically|cannot|impossible|irrelevant)\b/i;
@@ -11436,7 +11451,7 @@ function chromePSC(){const got=PSC_LECTURES.filter(l=>l.have&&l.n!==5).length,to
   <button class="kbtn" data-pal="1">${ic('search')} Search or jump to… <span><kbd>⌘K</kbd></span></button>
   <nav class="nav">${PSC_NAV.map(([g,items])=>`<div class="grp">${g}</div>`+items.map(([k,l,i])=>`<button data-go="${k}" ${view===k?'aria-current="page"':''}>${ic(i)}${l}${k==='psc-flash'&&pscStats().due?`<span class="n">${pscStats().due}</span>`:''}</button>`).join('')).join('')}<div class="grp">Other course</div><button data-go="today">${ic('book')}Beyond Planning Theory</button></nav>
   <div class="sidefoot"><div class="lbl">Exam · Mon 26 Oct</div><div class="row between" style="margin-top:6px"><div><span class="big">${dleft(PSC_EXAM)}</span> <span class="mut small">days</span></div></div><div class="small mut" style="margin-top:4px">Mastery ${Math.round(pscStats().m*100)}% · ${pscStats().mast}/13 lectures green</div></div>`;
-  $("#tabbar").innerHTML=[["home","Courses","grid"],["psc","Overview","home"],["psc-lectures","Lectures","book"],["psc-flash","Cards","cards"],["psc-essay","Essays","pen"]].map(([k,l,i])=>`<button data-go="${k}" ${view===k?'aria-current="page"':''}>${ic(i)}${l}</button>`).join('');
+  $("#tabbar").innerHTML=[["psc","Overview","home"],["psc-lectures","Lectures","book"],["psc-quiz","Quiz","quiz"],["psc-games","Games","spark"],["psc-menu","More","grid"]].map(([k,l,i])=>`<button data-go="${k}" ${view===k||(k==='psc-menu'&&!['psc','psc-lectures','psc-quiz','psc-games'].includes(view))?'aria-current="page"':''}>${ic(i)}${l}</button>`).join('');
   $("#tabbar").style.gridTemplateColumns="repeat(5,1fr)";$("#cdm").textContent=`${dleft(PSC_EXAM)} days to exam`;}
 
 
@@ -11528,7 +11543,7 @@ function render(){try{history.replaceState(null,"","#"+(course===null?"home":vie
   {const tb=[["bpt","BPT","Midterm Prep","#0c0c10"],["psc","PSC","Sustainable Cities","var(--good)"],["studio","STU","Planning Studio","#6d5bd0"]].find(x=>x[0]===course);const lg=document.querySelector(".topbar .logo"),nm=document.querySelector(".topbar b");if(tb&&lg&&nm){lg.textContent=tb[1];nm.textContent=tb[2];lg.style.background=tb[3];lg.style.color=tb[3]?"#fff":"";}}
   if(course===null){chromeHome();$("#app").innerHTML=vHome();return;}
   if(course==="studio"){chromeStudio();$("#app").innerHTML=vStudio();return;}
-  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-quiz":vQuiz,"psc-exam":vPSCExam,"psc-slides":vSlides,"psc-games":vGames,"psc-game":vGame,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
+  if(course==="psc"){chromePSC();const V={"psc":vPSC,"psc-lectures":vPSCLectures,"psc-collect":vPSCCollect,"psc-lecture":vPSCLecture,"psc-flash":vFlash,"psc-quiz":vQuiz,"psc-menu":()=>`<div class="fade"><h2 class="serif">More</h2><div class="list" style="margin-top:14px"><div class="item" data-go="home">${ic('grid')}<div class="t">All courses</div><span class="mut">→</span></div>${PSC_NAV.flatMap(g=>g[1]).map(([k,l,i])=>`<div class="item" data-go="${k}">${ic(i)}<div class="t">${l}</div><span class="mut">→</span></div>`).join('')}</div></div>`,"psc-exam":vPSCExam,"psc-slides":vSlides,"psc-games":vGames,"psc-game":vGame,"psc-essay":vOpen};$("#app").innerHTML=(V[view]||vPSC)();return;}
   $("#tabbar").style.gridTemplateColumns="";renderBPT();
   const b=document.querySelector(".side .brand");if(b&&!b.querySelector(".allc"))b.insertAdjacentHTML("beforeend",'');
   const side=$("#side");side.insertAdjacentHTML("afterbegin",'<button class="back allc" data-go="home" style="margin:0 8px 8px">'+ic('left')+' All courses</button>');}
@@ -11691,7 +11706,7 @@ function shufMC(o,a){const perm=shuffle(o.map((_,i)=>i));return {o:perm.map(i=>o
 const GTYPE={misread:"Spot the misreading",contrast:"Compare the authors",apply:"Mini-case",quote:"Read the quote",position:"Framework position",consequence:"What follows?",not:"Which is NOT"};
 /* game-only bank: never the quiz questions; least-seen questions first so repeats are rare */
 /* games: own bank + the hard bank, least-seen across quiz and games, answers reshuffled every time */
-function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3),...(isP()?MQS.filter(q=>q.lv>=3&&!q.auto):[])].filter(q=>ids.includes(q.t));
+function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3),...(isP()?MQS.filter(q=>q.lv>=3&&(!q.auto||q.auto===4)):[])].filter(q=>ids.includes(q.t));
   const out=fresh(pool,n);out.forEach(q=>S.gseen[q.k]=(S.gseen[q.k]||0)+1);
   return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,d:q.lv?DLV[q.lv]:.6,qtype:GTYPE[q.type]||FMTL[q.fmt]||"",link:q.t});});}
 function mcqRounds(ids,n){return fresh(QS.filter(q=>ids.includes(q.t)),n).map(permQ).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}

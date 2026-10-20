@@ -32,7 +32,7 @@ function shufMC(o,a){const perm=shuffle(o.map((_,i)=>i));return {o:perm.map(i=>o
 const GTYPE={misread:"Spot the misreading",contrast:"Compare the authors",apply:"Mini-case",quote:"Read the quote",position:"Framework position",consequence:"What follows?",not:"Which is NOT"};
 /* game-only bank: never the quiz questions; least-seen questions first so repeats are rare */
 /* games: own bank + the hard bank, least-seen across quiz and games, answers reshuffled every time */
-function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3),...(isP()?MQS.filter(q=>q.lv>=3&&!q.auto):[])].filter(q=>ids.includes(q.t));
+function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3),...(isP()?MQS.filter(q=>q.lv>=3&&(!q.auto||q.auto===4)):[])].filter(q=>ids.includes(q.t));
   const out=fresh(pool,n);out.forEach(q=>S.gseen[q.k]=(S.gseen[q.k]||0)+1);
   return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,d:q.lv?DLV[q.lv]:.6,qtype:GTYPE[q.type]||FMTL[q.fmt]||"",link:q.t});});}
 function mcqRounds(ids,n){return fresh(QS.filter(q=>ids.includes(q.t)),n).map(permQ).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}
