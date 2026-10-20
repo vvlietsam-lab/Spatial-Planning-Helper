@@ -14,6 +14,7 @@ Read this first when continuing the project in a new chat.
 - PSC quiz (`psc-quiz`) uses the shared quiz engine; counts are now scoped to the course. 8 of 9 games run on PSC (Compass is BPT-framework only).
 - `tools/qcheck.js FILE VAR [fix]` checks option quality and rebalances answer positions.
 - Optional readings on file (not in repo): Purvis, Rudolf & Schmidt, McPhearson (correct DOI 10.1038/s42949-021-00017-x; the manual's link is wrong), Krähmer, Campbell 2016, Castán Broto, Monstadt, Hölscher, Frantzeskaki 2017/2025, Yigitcanlar. Still missing: Fu & Zhang, Raven, Geertman & Witte, Xue, Savini, Frantzeskaki 2019, Watson 2014. Plan: short cards + 3–5 questions each, tagged optional, only for slide-cited ones.
+- 20 Oct: after rerunning any generator, run `node tools/simdist.js` (re-picks slightly more similar distractors for generated items; needs `tools/units.json`). `src/soften.js` softens absolute wording in wrong options of hand-written items at load time.
 - Next: optional-reading cards; L12 and L9 slides when uploaded (then rerun autogen_psc); more lv4 PSC items; portfolio/presentation builder.
 
 ## Ground rules from Sam
