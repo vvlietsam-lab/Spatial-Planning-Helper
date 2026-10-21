@@ -117,3 +117,9 @@ In `tools/specs/`. `MEGA_SPEC.md` is the most complete; `HARD_SPEC.md` covers fo
    - The 13:15 midterm start time is unsourced; it no longer matters now that the midterm is done.
 
 Still to ask Sam: his BPT tutorial team, and his PSC presentation slot.
+
+## 21 Oct: BPT final, official format
+- Source: "Final instructions BPT 2026-27" on Brightspace (20 Oct) + announcement (Lima 2025 mock, self-study Tue 27 Oct 11:00–12:45, seminar Thu 29 Oct).
+- src/bpt_final2.js: BPT_FINALINFO (rules, the three official questions, mock, what last year's 9+ answers did; summarised, not copied) and a runtime restructure of the six FX practice exams to Q1 40 / Q2 40 / Q3 20 (old Q1+Q2 → Q1, old Q3 + old evaluation → Q2, new Q3 models on research focus and methods).
+- vFinal shows the official info; timer is 3 hours; commentary trainer write-template follows the three questions; week plan updated.
+- Brightspace check 20–21 Oct: nothing new for Studio; PSC only the exam-info announcement (already on the site from L12 slides); BPT week 7 discursive-theories slides not posted yet.

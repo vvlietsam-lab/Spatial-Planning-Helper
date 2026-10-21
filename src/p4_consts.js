@@ -8,8 +8,8 @@ const WEEKS = [
  {n:5,cw:40,dates:"Oct 5–11",title:"Recap & MIDTERM",items:["Mon 5 Oct 16:00: DEADLINE post your questions in the Brightspace forum","Tue 6 Oct: Recap lecture","Thu 8 Oct: MIDTERM (Remindo, 2 h): 25 MCQ (75 pts) + 3 open (~35 pts)"],topics:[]},
  {n:6,cw:41,dates:"Oct 12–18",title:"Political economy",items:["Tue 13 Oct: Political economy (Bossuyt) · Harvey (1989) · Foglesong (2003) · Hyötyläinen & Haila (2018)","Thu 15 Oct: Tutorial 4 · Savini & Aalbers (2016)"],topics:["harvey","fog","hh","savini"]},
  {n:7,cw:42,dates:"Oct 19–25",title:"Urban politics · discourse & power",items:["Tue 20 Oct: Urban politics: conflict and power (Bossuyt) · Rydin (2021) ch. 6 · Bossuyt & D'Ottaviano (2025) · Pruijt (2003)","Thu 22 Oct: Discourses, power, knowledge (Bouwmeester) · Raco & Imrie (2000) · Gurran & Ruming (2016)"],topics:["rydin6","bossuyt","pruijt","raco","gurran"]},
- {n:8,cw:43,dates:"Oct 26–Nov 1",title:"Commentary practice",items:["Tue 27 Oct: Independent study: write a practice commentary (article + instructions on Brightspace)","Thu 29 Oct: Tutorial 5: discuss commentaries, tips for the final"],topics:[]},
- {n:9,cw:44,dates:"Nov 2–8",title:"FINAL EXAM",items:["Thu 5 Nov: Final exam (Remindo): choose 1 of 2 articles, write a theoretical commentary: identify the perspective grounding its argument, critique it from an alternative one"],topics:[]}
+ {n:8,cw:43,dates:"Oct 26–Nov 1",title:"Commentary practice",items:["Tue 27 Oct 11:00–12:45: Self-study: write a mock commentary on Lima (2025), Lisbon as a global real estate market (optional drop-in BBG209)","Thu 29 Oct: Seminar: discuss the Lima (2025) mock commentary, tips for the final"],topics:[]},
+ {n:9,cw:44,dates:"Nov 2–8",title:"FINAL EXAM",items:["Thu 5 Nov: Final exam, 3 hours, handwritten notes allowed: choose 1 of 2 articles; Q1 theoretical perspective (40), Q2 alternative perspective (40), Q3 reflection on implications (20)"],topics:[]}
 ];
 const PLAN = [
  ["2026-09-28","Mon",["Open Framework + Knowledge readings; do the recall box first","Flashcards: all Week 1–2 cards (first pass)","Quiz: Week 1–2 topics, one round"]],
@@ -31,10 +31,10 @@ const PLAN = [
  ["2026-10-20","Tue",["Lecture: Urban politics, conflict and power (Bossuyt)","Quiz W7 (Hard)"]],
  ["2026-10-22","Thu",["Lecture: Discourses, power, knowledge (Bouwmeester): Raco & Imrie, Gurran & Ruming"]],
  ["2026-10-26","Mon",["PSC EXAM: focus on PSC until then"]],
- ["2026-10-27","Tue",["Independent study: write the practice commentary from Brightspace","Then one full practice exam on this site (2-hour timer)"]],
- ["2026-10-29","Thu",["Tutorial 5: commentary discussion + tips for the final exam: add anything new to your notes"]],
+ ["2026-10-27","Tue",["11:00–12:45: Self-study: write the mock commentary on Lima (2025) in the three-question format","Later: one full practice exam on this site (3-hour timer)"]],
+ ["2026-10-29","Thu",["Seminar: discussion of the Lima (2025) mock + tips for the final exam: add anything new to your handwritten notes"]],
  ["2026-11-02","Mon",["Second full practice commentary (2 h)","Hard + Super hard quiz rounds on weak readings"]],
- ["2026-11-05","Thu",["FINAL EXAM (Remindo): choose one of two articles, write the commentary"]]
+ ["2026-11-05","Thu",["FINAL EXAM (3 h, handwritten notes allowed): choose one of two articles, answer Q1 (40), Q2 (40), Q3 (20)"]]
 ];
 const MISSING = [
  {r:"Foglesong, R.E. (2003). Planning the capitalist city. In Campbell & Fainstein (eds) Readings in Planning Theory, pp. 102–107.",doi:"—",note:"Book excerpt, no DOI; Brightspace. The page is built from general knowledge only."},
