@@ -11901,7 +11901,7 @@ function mcView(title,sub){const rd=G.rounds[G.i];const p=G.picked;const bets=G.
     return `<button class="opt ${cls}" data-gp="${j}" ${p!=null||(bets&&!G.stake)?'disabled':''}><span class="k">${String.fromCharCode(65+j)}</span><span>${esc(o)}</span></button>`;}).join('');
   const ok=p===rd.a;
   return `<div class="fade game">${gHead(title,sub)}${hud()}${G.id==="boss"?bossBar():''}
-   <div class="qcard gq">${rd.scen?`<div class="case"><span class="eyebrow">Case file</span><p>${esc(rd.scen)}</p></div>`:''}${rd.quote?`<blockquote class="gquote">${esc(rd.quote)}</blockquote>`:''}
+   <div class="qcard gq">${rd.scen?`<div class="case"><span class="eyebrow">${esc(rd.scenLab||"Case file")}</span><p>${esc(rd.scen)}</p></div>`:''}${rd.quote?`<blockquote class="gquote">${esc(rd.quote)}</blockquote>`:''}
    ${rd.qtype?`<span class="gtag" style="--h:210">${esc(rd.qtype)}</span>`:""}<p class="qq">${esc(rd.prompt)}</p>${stakeRow}${opts}
    ${p!=null?`<div class="expl"><b>${ok?(G.streak>2?'On fire. ':'Correct. '):'Not quite. '}${bets?(ok?`+${G.stake}`:`−${G.stake}`)+' chips. ':''}</b>${esc(rd.e)}${rd.link?` <button class="linkbtn" data-go="${isPSC(rd.link)?'psc-lecture':'readings'}" data-sub="${rd.link}">Open the reading →</button>`:''}</div>
    <div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="gnext">${G.i+1<G.rounds.length&&!(G.id==="boss"&&(G.hearts<=0||G.hp<=0))?'Next':'Finish'} <kbd>Enter</kbd></button></div>`:`<p class="small mut" style="margin-top:8px">${bets&&!G.stake?'Pick your stake first · ':''}<kbd>1</kbd>–<kbd>4</kbd> to answer</p>`}</div></div>`;}
@@ -12036,6 +12036,41 @@ document.addEventListener("keydown",e=>{if(!(view==="game"||view==="psc-game")||
 setInterval(()=>{if(!G)return;
   if(G.id==="blurt"&&G.phase==="write"&&(view==="game"||view==="psc-game")){const l=Math.max(0,G.until-Date.now());const el=$("#btimer");if(el)el.textContent=`${Math.floor(l/60e3)}:${String(Math.floor(l/1e3)%60).padStart(2,'0')}`;if(l===0){G.phase="score";G.hit=null;toast("Time! Let's see what you recalled");render();}}
   if(G.id==="pairs"&&!G.end){const el=$("#ptimer");if(el)el.innerHTML=Math.round((Date.now()-G.started)/1000)+"<small> s</small>";}},500);
+
+/* ===== PSC-specific game modes (25 Oct), built for the PSC exam format: (a) comprehension 10 pts + (b) essay 40 pts with real-world cases.
+   All rounds reuse the site's own exam questions (XQ), model answers and lecture cases; nothing new is claimed. ===== */
+(function(){if(typeof GAMES==="undefined"||typeof XQ==="undefined")return;
+const ab=s=>{const t=String(s||"");const i=t.indexOf("(b)");return {a:(i>=0?t.slice(0,i):t).replace(/^\s*\(a\)\s*(Comprehension:\s*)?/i,"").trim(),b:(i>=0?t.slice(i+3):"").replace(/^\s*(Essay:\s*)?/i,"").trim()};};
+const sn=t=>String(t).split(/(?<=[.!?])\s+(?=[A-Z'‘"(])/).map(x=>x.trim()).filter(x=>x.length>25);
+const cutS=(t,n)=>{let r="";for(const s of sn(t)){if((r+" "+s).length>n&&r)break;r=(r?r+" ":"")+s;}return r.length>n+80?r.slice(0,n).replace(/\s\S*$/,"")+"…":r;};
+const L=id=>PSC.find(l=>l.id===id);
+const cases=id=>((L(id)||{}).man||{}).examples?L(id).man.examples.filter(x=>x.t&&x.d):[];
+const mk=(p,t)=>p+hash(t);
+function caseRounds(ids,n){const X=XQ().filter(q=>ids.includes(q.t)&&cases(q.t).length);const all=PSC.filter(l=>l.theme!==2).flatMap(l=>cases(l.id).map(c=>({t:l.id,c})));
+  const P=[];X.forEach(q=>{cases(q.t).forEach(c=>P.push({k:mk("cb",q.k+c.t),q,c}));});
+  return gpick(P,n).map(x=>{const other=shuffle(all.filter(y=>y.t!==x.q.t)).filter((y,i,a)=>a.findIndex(z=>z.c.t===y.c.t)===i).slice(0,3);
+    const m=shufMC([x.c.t,...other.map(y=>y.c.t)],0);const l=L(x.q.t);
+    return mcRound(x.q.t,"Which course case comes from the lecture this essay question is built on, so you can use it in part (b)?",m.o,m.a,`${x.c.t} (lecture ${l.n}, ${l.title}): ${cutS(x.c.d,260)} The other cases: ${other.map(y=>y.c.t+" (lecture "+L(y.t).n+")").join("; ")}.`,{scen:ab(x.q.q).b.replace(/\s*Relate your argument to at least one real-world case[^]*$/,""),scenLab:"Exam question · part (b)",w:1.1,d:.5,link:x.q.t,qtype:"Pick your case"});});}
+function tenRounds(ids,n){const X=XQ().filter(q=>ids.includes(q.t));const P=X.map(q=>({k:mk("tp",q.k),q}));
+  return gpick(P,n).map(x=>{const me=x.q,src=XQ().filter(o=>o.k!==me.k);const same=shuffle(src.filter(o=>o.t===me.t)),th=shuffle(src.filter(o=>o.t!==me.t&&L(o.t).theme===L(me.t).theme)),rest=shuffle(src.filter(o=>L(o.t).theme!==L(me.t).theme));
+    const d=[...same,...th,...rest].slice(0,3);const txt=o=>cutS(ab(o.model).a,280);const m=shufMC([txt(me),...d.map(txt)],0);
+    return mcRound(me.t,"Part (a), 10 points: which answer actually answers this comprehension question?",m.o,m.a,"Model answer (a): "+cutS(ab(me.model).a,600),{scen:ab(me.q).a,scenLab:"Exam question · part (a)",w:1,d:.6,link:me.t,qtype:"Ten-pointer"});});}
+function archRounds(ids,n){const X=XQ().filter(q=>ids.includes(q.t)&&sn(ab(q.model).b).length>=5);const P=X.map(q=>({k:mk("ea",q.k),q}));
+  return gpick(P,n).map(x=>{const s=sn(ab(x.q.model).b);const k=5,idx=[...new Set(Array.from({length:k},(_,i)=>Math.round(i*(s.length-1)/(k-1))))];const steps=idx.map(i=>s[i].length>240?s[i].slice(0,237).replace(/\s\S*$/,"")+"…":s[i]);
+    return {k:"seq",t:x.q.t,title:"Rebuild the line of argument of this model essay: "+ab(x.q.q).b.replace(/\s*Relate your argument to at least one real-world case[^]*$/,""),steps,e:"Order of the model answer (b): an essay moves from position and concepts, through cases and counter-arguments, to a conclusion. That structure is what the lecturer asks for in part 2.",pool:shuffle(steps.map((_,i)=>i)),order:[],checked:false,link:x.q.t};});}
+GAMES.push(
+ {id:"pcase",name:"Case Builder",tag:"Essay · real-world cases",desc:"An exam essay question lands on your desk. Which course case belongs with it? Part (b) is typically answered with real-world cases.",why:"The lecturer's exam slides ask you to relate part (b) to real-world cases; retrieving the right case for a question is the step that turns a theory essay into a strong one.",hue:150,bpt:0,psc:1},
+ {id:"pten",name:"Ten-Pointer",tag:"Part (a) · comprehension",desc:"A part (a) question and four short answers, all from real model answers. Only one answers the question that was asked.",why:"Part (a) is 10 points for a short, precise answer; telling the precise answer apart from nearby ones trains discrimination between similar concepts.",hue:40,bpt:0,psc:1},
+ {id:"parch",name:"Essay Architect",tag:"Part (b) · structure",desc:"Five sentences from a model essay, shuffled. Rebuild the line of argument from position to conclusion.",why:"The exam slides warn against answers without essay structure ('the kitchen sink'); ordering a model argument makes its structure visible.",hue:280,bpt:0,psc:1});
+const GEN={pcase:[caseRounds,8],pten:[tenRounds,8],parch:[archRounds,4]};
+const _sg=startGame;
+startGame=function(id,opt,noGo){if(GEN[id]){const ids=gIds();if(!ids.length){toast("Nothing in this selection");return;}
+   G={id,ids,i:0,picked:null,res:[],score:0,streak:0,best:0,started:Date.now(),done:false};G.rounds=GEN[id][0](ids,GEN[id][1]);
+   if(!G.rounds.length){toast("No questions for this selection yet");G=null;return;}if(!noGo)go("psc-game",id);return;}
+  const r=_sg(id,opt,true);
+  if(id==="boss"&&isP()&&G&&G.rounds){G.rounds=shuffle([...G.rounds,...caseRounds(G.ids,2),...tenRounds(G.ids,1)]);G.dmg=100/Math.ceil(G.rounds.length*.7);}
+  if(G&&!noGo)go(isP()?"psc-game":"game",id);return r;};
+})();
 
 /* ================= V3 motion layer ================= */
 const RM=matchMedia("(prefers-reduced-motion: reduce)");

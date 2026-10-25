@@ -96,7 +96,7 @@ function mcView(title,sub){const rd=G.rounds[G.i];const p=G.picked;const bets=G.
     return `<button class="opt ${cls}" data-gp="${j}" ${p!=null||(bets&&!G.stake)?'disabled':''}><span class="k">${String.fromCharCode(65+j)}</span><span>${esc(o)}</span></button>`;}).join('');
   const ok=p===rd.a;
   return `<div class="fade game">${gHead(title,sub)}${hud()}${G.id==="boss"?bossBar():''}
-   <div class="qcard gq">${rd.scen?`<div class="case"><span class="eyebrow">Case file</span><p>${esc(rd.scen)}</p></div>`:''}${rd.quote?`<blockquote class="gquote">${esc(rd.quote)}</blockquote>`:''}
+   <div class="qcard gq">${rd.scen?`<div class="case"><span class="eyebrow">${esc(rd.scenLab||"Case file")}</span><p>${esc(rd.scen)}</p></div>`:''}${rd.quote?`<blockquote class="gquote">${esc(rd.quote)}</blockquote>`:''}
    ${rd.qtype?`<span class="gtag" style="--h:210">${esc(rd.qtype)}</span>`:""}<p class="qq">${esc(rd.prompt)}</p>${stakeRow}${opts}
    ${p!=null?`<div class="expl"><b>${ok?(G.streak>2?'On fire. ':'Correct. '):'Not quite. '}${bets?(ok?`+${G.stake}`:`−${G.stake}`)+' chips. ':''}</b>${esc(rd.e)}${rd.link?` <button class="linkbtn" data-go="${isPSC(rd.link)?'psc-lecture':'readings'}" data-sub="${rd.link}">Open the reading →</button>`:''}</div>
    <div class="row" style="justify-content:flex-end;margin-top:12px"><button class="btn primary" id="gnext">${G.i+1<G.rounds.length&&!(G.id==="boss"&&(G.hearts<=0||G.hp<=0))?'Next':'Finish'} <kbd>Enter</kbd></button></div>`:`<p class="small mut" style="margin-top:8px">${bets&&!G.stake?'Pick your stake first · ':''}<kbd>1</kbd>–<kbd>4</kbd> to answer</p>`}</div></div>`;}
