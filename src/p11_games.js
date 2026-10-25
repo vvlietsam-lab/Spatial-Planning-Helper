@@ -9,9 +9,10 @@ const NR=id=>{if(!isPSC(id))return R[id];const l=PSC.find(x=>x.id===id);return {
 const lab=id=>{if(isPSC(id)){const l=PSC.find(x=>x.id===id);return "L"+l.n+" · "+(l.man.cite.split(")")[0]+")");}const t=R[id].title.replace(/^Course framework \+ /,"");return t.length>58?t.slice(0,56)+"…":t;};
 const surname=id=>{const t=isPSC(id)?PSC.find(x=>x.id===id).man.cite:R[id].title.replace(/^Course framework \+ /,"");return (t.match(/^[A-ZÀ-Ž][\wÀ-ž'’-]+/)||[""])[0];};
 const mask=(txt,id)=>{const s=surname(id);return s&&s.length>2?txt.replace(new RegExp(s,"g"),"▇▇▇"):txt;};
-function gIds(){if(isP())return PSC.filter(l=>GW?l.theme===+GW.slice(1):l.theme!==2).map(l=>l.id);
-  return (GW?READINGS.filter(r=>r.wk===+GW.slice(1)):BR()).map(r=>r.id);}
-const gTag=()=>isP()?(GW?"Theme "+GW.slice(1):"All lectures"):(GW?"Week "+GW.slice(1):(Date.now()<EXAM?"Midterm (W1–4)":"All weeks"));
+const gW=()=>/^w\d$/.test(GW)?+GW.slice(1):null;
+function gIds(){if(isP())return PSC.filter(l=>gW()?l.theme===gW():(GW==="all"||l.theme!==2)).map(l=>l.id);
+  return (gW()?READINGS.filter(r=>r.wk===gW()):BR()).map(r=>r.id);}
+const gTag=()=>isP()?(gW()?"Theme "+gW():GW==="all"?"All lectures":"Exam (T1+T3)"):(gW()?"Week "+gW():(Date.now()<EXAM?"Midterm (W1–4)":"All weeks"));
 function distract(id,pool,n){const wk=NR(id).wk;const same=shuffle(pool.filter(x=>x!==id&&NR(x).wk===wk)),other=shuffle(pool.filter(x=>x!==id&&NR(x).wk!==wk));
   let out=same.concat(other).slice(0,n);if(out.length<n){const all=isP()?PSC.map(l=>l.id):READINGS.map(r=>r.id);out=out.concat(shuffle(all.filter(x=>x!==id&&!out.includes(x))).slice(0,n-out.length));}return out;}
 const cleanQ=q=>q.replace(/\s*\((?:[^()]*\d[^()]*)\)\s*$/,"").replace(/^["“'\s]+|["”'\s]+$/g,"");
@@ -32,12 +33,12 @@ function shufMC(o,a){const perm=shuffle(o.map((_,i)=>i));return {o:perm.map(i=>o
 const GTYPE={misread:"Spot the misreading",contrast:"Compare the authors",apply:"Mini-case",quote:"Read the quote",position:"Framework position",consequence:"What follows?",not:"Which is NOT"};
 /* game-only bank: never the quiz questions; least-seen questions first so repeats are rare */
 /* games: own bank + the hard bank, least-seen across quiz and games, answers reshuffled every time */
-function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3),...(isP()?MQS.filter(q=>q.lv>=3&&(!q.auto||q.auto===4)):[])].filter(q=>ids.includes(q.t));
+function gqRounds(ids,n){S.gseen=S.gseen||{};const pool=[...GQ,...HQS.filter(q=>q.lv===3),...(isP()?MQS.filter(q=>q.lv>=3&&(!q.auto||q.auto>=4)):[])].filter(q=>ids.includes(q.t));
   const out=fresh(pool,n);out.forEach(q=>S.gseen[q.k]=(S.gseen[q.k]||0)+1);
   return out.map(q=>{const perm=shuffle([0,1,2,3]);return mcRound(q.t,q.q,perm.map(i=>q.o[i]),perm.indexOf(q.a),q.e,{w:1,d:q.lv?DLV[q.lv]:.6,qtype:GTYPE[q.type]||FMTL[q.fmt]||"",link:q.t});});}
 function mcqRounds(ids,n){return fresh(QS.filter(q=>ids.includes(q.t)),n).map(permQ).map(q=>mcRound(q.t,q.q,q.o,q.a,q.e,{mcq:q}));}
 function lensRounds(ids,n){let p=LENS.filter(x=>ids.includes(x.t));if(p.length<Math.min(n,4))p=LENS.filter(x=>BR().some(r=>r.id===x.t));p.forEach(x=>x.k=x.k||gk("l",x.s+x.q));return gpick(p,n).map(x=>{const m=shufMC(x.o,x.a);return mcRound(x.t,x.q,m.o,m.a,x.e,{scen:x.s,w:1.2,d:.6,link:x.t});});}
-function oddRounds(n){const w=GW?+GW.slice(1):null,P=isP();const B=ODD.filter(x=>!!x.psc===P);let p=B.filter(x=>w?x.w===w:(P||Date.now()>=EXAM?true:x.w<=4));if(p.length<2)p=B.filter(x=>x.w===0||(w?Math.abs(x.w-w)<=1:true));
+function oddRounds(n){const w=gW(),P=isP();const B=ODD.filter(x=>!!x.psc===P);let p=B.filter(x=>w?x.w===w:(P?(GW==="all"||x.w!==2):(Date.now()>=EXAM?true:x.w<=4)));if(p.length<2)p=B.filter(x=>x.w===0||(w?Math.abs(x.w-w)<=1:true));
   p.forEach(x=>x.k=x.k||gk("o",x.items.join("|")));return gpick(p,n).map(x=>{const m=shufMC(x.items,x.odd);return mcRound(null,"Which one doesn't belong?",m.o,m.a,x.e,{odd:1});});}
 function seqRounds(ids,n){let p=SEQ.filter(x=>ids.includes(x.t));if(!p.length)p=SEQ.filter(x=>BR().some(r=>r.id===x.t));p.forEach(x=>x.k=x.k||gk("s",x.title+x.steps.join("|")));return gpick(p,n).map(x=>({k:"seq",t:x.t,title:x.title,steps:x.steps,e:x.e,pool:shuffle(x.steps.map((s,i)=>i)),order:[],checked:false,link:x.t}));}
 
@@ -186,7 +187,7 @@ function compassReveal(){const t=G.list[G.i],d=R[t].dims,v=G.vals[t]||{};const k
   const sc=ks.reduce((a,k)=>a+Math.max(0,1-Math.max(0,Math.abs((v[k]??50)-d[k])-10)/40),0)/ks.length;G.scores.push(sc);G.rev=true;ev(t,sc,.8);logAct();render();}
 
 /* ---------- hub ---------- */
-function vGames(){const P=isP();const segs=P?[["","All"],["w1","Theme 1"],["w2","Theme 2"],["w3","Theme 3"]]:[["",Date.now()<EXAM?"Midterm":"All"],["w1","W1"],["w2","W2"],["w3","W3"],["w4","W4"],["w6","W6"],["w7","W7"]];
+function vGames(){const P=isP();const segs=P?[["","Exam (T1+T3)"],["w1","Theme 1"],["w2","Theme 2 · not on exam"],["w3","Theme 3"],["all","All"]]:[["",Date.now()<EXAM?"Midterm":"All"],["w1","W1"],["w2","W2"],["w3","W3"],["w4","W4"],["w6","W6"],["w7","W7"]];
   const list=GAMES.filter(g=>P?g.psc:g.bpt);
   return `<div class="fade"><p class="eyebrow">Retrieval practice, disguised</p><h2 class="serif">Games</h2>
   <p class="lede">Every game is a form of testing that research shows works, and every answer feeds your knowledge score. Pick the readings, then a game.</p>
