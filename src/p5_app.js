@@ -116,14 +116,14 @@ const daysLeft=()=>calDays(bptNext().d);
 function curWeek(){const w=Math.floor((today0()-COURSE_START)/(7*DAY))+1;return Math.max(1,Math.min(9,w));}
 
 /* ---------- routing ---------- */
-const NAV=[["Study",[["today","Today","home"],["weeks","Weeks & plan","cal"],["readings","Readings","book"],["framework","Framework","grid"],["slides","Slide checklist","src"]]],["Practice",[["flash","Flashcards","cards"],["quiz","Quiz","quiz"],["games","Games","spark"],["open","Open questions","pen"],["final","Final exam practice","pen"],["commentary","Commentary trainer","quiz"],["mock","Mock exam","clock"]]],["About",[["sources","Sources","src"],["method","How this works","info"]]]];
-const TABS=[["today","Today","home"],["readings","Readings","book"],["flash","Cards","cards"],["games","Play","spark"],["menu","More","menu"]];
+const NAV=[["Final exam · 5 Nov",[["final","Final exam practice","pen"],["sheets","Theory sheets","book"],["commentary","Commentary trainer","quiz"]]],["Study",[["today","Today","home"],["weeks","Weeks & plan","cal"],["readings","Readings","book"],["framework","Framework","grid"],["slides","Slide checklist","src"]]],["Practice",[["flash","Flashcards","cards"],["quiz","Quiz","quiz"],["games","Games","spark"],["open","Open questions","pen"],["mock","Mock exam (midterm)","clock"]]],["About",[["sources","Sources","src"],["method","How this works","info"]]]];
+const TABS=[["today","Today","home"],["final","Exam","pen"],["sheets","Sheets","book"],["readings","Readings","book"],["menu","More","menu"]];
 let view="today",sub=null;
 
 function go(v,s){view=v;sub=s??null;render();window.scrollTo(0,0);}
 function chromeBPT(){
   const due=dueCards().length;
-  $("#side").innerHTML=`<div class="brand"><div class="logo">BPT</div><div><b>Midterm Prep</b><small>GEO4-3115 · UU</small></div></div>
+  $("#side").innerHTML=`<div class="brand"><div class="logo">BPT</div><div><b>Final Prep</b><small>GEO4-3115 · UU</small></div></div>
   <button class="kbtn" data-pal="1">${ic('search')} Search or jump to… <span><kbd>⌘K</kbd></span></button>
   <nav class="nav" aria-label="Main">${NAV.map(([g,items])=>`<div class="grp">${g}</div>`+items.map(([k,l,i])=>`<button data-go="${k}" ${view===k?'aria-current="page"':''}>${ic(i)}${l}${k==='flash'&&due?`<span class="n">${due}</span>`:''}${k==='readings'?`<span class="n">${BR().filter(r=>topicStats(r.id).mastered).length}/${BR().length}</span>`:''}</button>`).join('')).join('')}</nav>
   <div class="sidefoot"><div class="lbl">${bptNext().lbl}</div><div class="row between" style="margin-top:6px"><div><span class="big">${daysLeft()}</span> <span class="mut small">${daysLeft()===1?"day":"days"}</span></div>${ring(overall(),'sm')}</div><div class="small mut" style="margin-top:4px">${ic('flame')} ${streak()}-day streak</div></div>`;
@@ -402,7 +402,7 @@ function openPal(){P={open:true,q:"",i:0};renderPal();}
 
 /* render + events */
 function renderBPT(){chromeBPT();
-  const V={today:vToday,weeks:vWeeks,readings:vReadings,framework:vFramework,flash:vFlash,quiz:vQuiz,games:vGames,game:vGame,open:vOpen,slides:vSlides,final:vFinal,commentary:(typeof vCom!=="undefined"?vCom:vFinal),mock:vMock,sources:vSources,method:vMethod,menu:vMenu};
+  const V={today:vToday,weeks:vWeeks,readings:vReadings,framework:vFramework,flash:vFlash,quiz:vQuiz,games:vGames,game:vGame,open:vOpen,slides:vSlides,final:vFinal,sheets:(typeof vSheets!=="undefined"?vSheets:vFinal),commentary:(typeof vCom!=="undefined"?vCom:vFinal),mock:vMock,sources:vSources,method:vMethod,menu:vMenu};
   $("#app").innerHTML=(V[view]||vToday)();}
 document.addEventListener("change",e=>{const t=e.target;if(t.id==="orid"){O.rid=t.value;O.k=null;render();return;}
   if(t.dataset.plan){S.plan[t.dataset.plan]=t.checked;persist();render();if(t.checked)toast("Task done");}

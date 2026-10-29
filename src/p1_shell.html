@@ -631,11 +631,14 @@ select.sel{font:inherit;font-size:.85rem;padding:6px 10px;border-radius:10px;bor
 details.card summary{list-style:none;flex-wrap:wrap;gap:6px}details.card summary::-webkit-details-marker{display:none}
 .fxgrid{display:grid;grid-template-columns:1fr;gap:16px}.fxtext p{line-height:1.65}
 @media(min-width:1100px){.fxgrid{grid-template-columns:1.05fr 1fr}.fxtext{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}}
+.sheet{overflow-x:auto}.sheet h3{font-size:1.25rem;margin:4px 0 8px}.sheet table{width:100%;border-collapse:collapse;margin:10px 0;font-size:.92rem}.sheet td,.sheet th{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}.sheet th{background:var(--panel2,rgba(127,127,127,.08))}.sheet p{margin:4px 0}.sheettabs button{min-width:40px}
+@media (max-width:640px){.sheet table,.sheet tbody,.sheet tr,.sheet td{display:block;width:100%}.sheet td{border-width:0 0 1px}.sheet table{border:1px solid var(--line)}.sheet thead{display:none}}
+@media print{.side,.tabbar,.noprint,header,.topbar{display:none!important}.wrap{max-width:none!important;margin:0!important;padding:0!important}.sheet{border:0!important;box-shadow:none!important;padding:0!important;font-size:9.5pt}.sheet td{padding:3px 5px}body{background:#fff!important;color:#000!important}}
 </style>
 
 <aside class="side" id="side"></aside>
 <div class="main">
-  <div class="topbar"><button class="logo" data-go="home" aria-label="All courses" style="border:0;cursor:pointer">BPT</button><b style="font-size:.92rem">Midterm Prep</b><span class="cd" id="cdm"></span><button id="kbm" aria-label="Search">⌘K</button></div>
+  <div class="topbar"><button class="logo" data-go="home" aria-label="All courses" style="border:0;cursor:pointer">BPT</button><b style="font-size:.92rem">Final Prep</b><span class="cd" id="cdm"></span><button id="kbm" aria-label="Search">⌘K</button></div>
   <main class="wrap" id="app"></main>
 </div>
 <nav class="tabbar" id="tabbar"></nav>

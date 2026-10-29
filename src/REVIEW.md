@@ -80,7 +80,7 @@ Console: no JS errors or page errors in any view. The only error was the Google 
 6. **Wording:**
    - "Midterm in 1 days", "in 1 days", "in 0 days" (home tile, Coming up, Studio list). Should read "tomorrow" / "today 17:00".
    - The Studio lede "There are no exams, plus one individual pass/fail reflection essay" reads awkwardly.
-   - The BPT brand "Midterm Prep" will be wrong for half the course.
+   - The BPT brand "Final Prep" will be wrong for half the course.
 7. **Home layout.** On 1300×900 the course tiles (the main action, "Pick a course") are below the fold, under the hero, skyline and marquee. With a fallback font the "helper" script line is clipped at the bottom (d_home/m_home). On mobile the header wraps into three rows, and the "STU" logo is clipped in the topbar.
 8. **Small figure text on mobile.** SVG figures shrink to about 5px text at 390px (e.g. the PSC L8 reconfiguration diagram). Tap-to-zoom or a horizontal scroll container would help.
 9. **"198 cards due" with 1 day left.** For a fresh state the Today hero pushes 198 due cards plus the plan. A "last day: top-N weakest" cap would be more realistic.
