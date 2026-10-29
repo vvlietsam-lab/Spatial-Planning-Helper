@@ -123,3 +123,10 @@ Still to ask Sam: his BPT tutorial team, and his PSC presentation slot.
 - src/bpt_final2.js: BPT_FINALINFO (rules, the three official questions, mock, what last year's 9+ answers did; summarised, not copied) and a runtime restructure of the six FX practice exams to Q1 40 / Q2 40 / Q3 20 (old Q1+Q2 → Q1, old Q3 + old evaluation → Q2, new Q3 models on research focus and methods).
 - vFinal shows the official info; timer is 3 hours; commentary trainer write-template follows the three questions; week plan updated.
 - Brightspace check 20–21 Oct: nothing new for Studio; PSC only the exam-info announcement (already on the site from L12 slides); BPT week 7 discursive-theories slides not posted yet.
+
+## 30 Oct: BPT final restructure (stages 1–3)
+- bpt_sheets.js (+ tools in scratch: sheets.py from a classmate's docx, 13 corrections listed per sheet) and bpt_sheets_view.js: Theory sheets view (`sheets`), printable.
+- bpt_drills.js: Exam drills (`drills`): per-theory data DTH (sheets + syllabus framework + Rydin Tables 10.2–10.3), generated MCQ for Q1/Q1b/Q2/Q3.
+- bpt_lectures.js: Lectures L1–L9 replace the readings list (`readings` without sub = lectures, `lecture` = lecture page with slide points by deck prefix + per-slide AUD index + midterm Q&A extras); model answers and trainer show official dimension + axis names.
+- Menu: "Final exam · 5 Nov" group first; phone tabs Today/Exam/Sheets/Lectures/More.
+- Official framework (syllabus 4.1): 4 dimensions; realism ↔ relativism is from the 15 Sept knowledge lecture, not a framework dimension.
