@@ -79,7 +79,7 @@ const DRD={marx:"pe",hayek:"ei",cozz:"ei",gov:"rcp",rc:"rc",needham:"rc",olson:"
 const DT=id=>DTH.find(t=>t.id===id);
 const dPick=(a,n)=>shuffle(a.slice()).slice(0,n);
 const dMC=(q,right,wrong,e,mode)=>{const w=[...new Set(wrong)].filter(x=>x&&x!==right).slice(0,3);if(w.length<3)return null;const o=shuffle([right,...w]);return {q,o,a:o.indexOf(right),e,mode};};
-function dGen(mode){const out=[],T=DTH;
+let dGen=function(mode){const out=[],T=DTH;
  const others=(t,f)=>dPick(T.filter(x=>x.id!==t.id),6).map(f);
  if(mode==="rec"||mode==="mix"){
   T.forEach(t=>{out.push(dMC("These signal words are highlighted in an article: "+dPick(t.words,4).join(", ")+". Which perspective do they point to?",t.n,others(t,x=>x.n),"Signal words on sheet "+t.sh+" ("+t.n+"): "+t.words.join(", ")+".","Recognise (Q1)"));
@@ -96,20 +96,20 @@ function dGen(mode){const out=[],T=DTH;
  }
  if(mode==="alt"||mode==="mix"){
   T.forEach(t=>{const good=t.alt.map(DT).filter(Boolean),bad=T.filter(x=>x.id!==t.id&&!t.alt.includes(x.id));if(bad.length<3)return;good.slice(0,2).forEach(g=>{const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);const why=ax?"A clear contrast on "+DAX[ax][0].toLowerCase()+" ("+DAX[ax][1]+" ↔ "+DAX[ax][2]+"): "+t.n+": "+t.pos[ax][1]+"; "+g.n+": "+g.pos[ax][1]+".":"Listed as a strong alternative on the theory sheets.";out.push(dMC("The article works in "+t.n+". Which alternative gives a strong contrast for Q2?",g.n,dPick(bad,3).map(x=>x.n),why+" Sheet 7 and sheet "+t.sh+" list the strong alternatives: "+good.map(x=>x.n).join(", ")+".","Alternative (Q2)"));});});
-  T.forEach(t=>T.forEach(g=>{if(t===g)return;const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);if(!ax||Math.random()>.35)return;const [dim,lo,hi]=DAX[ax];const wrongAx=Object.keys(DAX).filter(a=>a!==ax&&!(t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0)).map(a=>DAX[a][0]+" ("+DAX[a][1]+" ↔ "+DAX[a][2]+")");out.push(dMC("Q2: original "+t.n+", alternative "+g.n+". On which axis do their assumptions clearly differ?",dim+" ("+lo+" ↔ "+hi+")",[...new Set(wrongAx)],t.n+": "+t.pos[ax][1]+". "+g.n+": "+g.pos[ax][1]+".","Alternative (Q2)"));}));
+  T.forEach(t=>T.forEach(g=>{if(t===g)return;const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);if(!ax)return;const [dim,lo,hi]=DAX[ax];const wrongAx=Object.keys(DAX).filter(a=>a!==ax&&!(t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0)).map(a=>DAX[a][0]+" ("+DAX[a][1]+" ↔ "+DAX[a][2]+")");out.push(dMC("Q2: original "+t.n+", alternative "+g.n+". On which axis do their assumptions clearly differ?",dim+" ("+lo+" ↔ "+hi+")",[...new Set(wrongAx)],t.n+": "+t.pos[ax][1]+". "+g.n+": "+g.pos[ax][1]+".","Alternative (Q2)"));}));
  }
  if(mode==="met"||mode==="mix"){
   T.forEach(t=>{t.meth.forEach(m=>out.push(dMC("Q3: which perspective does this method fit best? "+m,t.n,others(t,x=>x.n),"Sheet "+t.sh+", research focus and methods. Link the method to an assumption (e.g. emic because knowledge is situated).","Methods (Q3)")));
    out.push(dMC("Q3: which research question fits "+t.n+"?",t.rq,T.filter(x=>x.id!==t.id).map(x=>x.rq).sort(()=>Math.random()-.5),"Typical research question on sheet "+t.sh+".","Methods (Q3)"));
    out.push(dMC("Q3: you switch to "+t.n+". Which method fits the new perspective?",dPick(t.meth,1)[0],T.filter(x=>x.id!==t.id).map(x=>dPick(x.meth,1)[0]).sort(()=>Math.random()-.5),"Methods for "+t.n+": "+t.meth.join("; ")+".","Methods (Q3)"));});
  }
- return shuffle(out.filter(Boolean));}
+ return shuffle(out.filter(Boolean));};
 let DR=null;
 const DMODES=[["rec","Recognise the theory","Q1: signal words, typical articles, real quotes"],["blk","Building blocks","Q1/Q2: which block belongs to which theory"],["ass","Assumptions","Q1b/Q2a: positions on the framework axes"],["alt","Choose the alternative","Q2: strongest contrast and the axis where they differ"],["met","Research focus and methods","Q3: research questions and methods per theory"],["mix","Mixed","All of the above"]];
 function vDrills(){
  if(!DR||DR.done&&sub!=="run"){const best=(S.drill||{});
   return `<div class="fade"><p class="eyebrow">Final exam · Thu 5 Nov</p><h2 class="serif">Exam drills</h2><p class="lede">Short drills for each step of the commentary. Built from the checked theory sheets, the syllabus framework and Rydin's Tables 10.2–10.3; quotes come from the course readings. 12 questions per round.</p>
-  <div class="list" style="margin-top:12px">${DMODES.map(([k,l,s])=>`<button class="item" data-drill="${k}" style="text-align:left"><div style="min-width:0"><div class="t">${l}</div><div class="s">${s}${best[k]!=null?" · last: "+best[k]+"/12":""}</div></div><span class="mut">→</span></button>`).join('')}</div></div>`;}
+  <div class="list drlist" style="margin-top:12px">${DMODES.map(([k,l,s])=>`<button class="item" data-drill="${k}" style="text-align:left"><div style="min-width:0"><div class="t">${l}</div><div class="s">${s}${best[k]!=null?" · last: "+best[k]+"/12":""}</div></div><span class="mut">→</span></button>`).join('')}</div></div>`;}
  const q=DR.qs[DR.i];
  if(DR.done){S.drill=S.drill||{};if(!DR.sheet)S.drill[DR.mode]=DR.score;persist();return `<div class="fade"><p class="eyebrow">Exam drills · ${esc(DMODES.find(m=>m[0]===DR.mode)[1])}</p><h2 class="serif">${DR.score} / ${DR.qs.length}</h2><div class="row" style="margin-top:12px">${DR.sheet?`<button class="btn primary" data-shquiz="${DR.sheet}">Another round</button><button class="btn" data-go="sheets" data-sub="${DR.sheet}">Back to sheet ${DR.sheet}</button>`:`<button class="btn primary" data-drill="${DR.mode}">Another round</button>`}<button class="btn" id="drback">All drills</button></div></div>`;}
  return `<div class="fade"><div class="row between"><button class="btn sm" id="drback">${ic('left')} Drills</button><span class="small mut">${DR.i+1} / ${DR.qs.length} · ${DR.score} right</span></div>
@@ -135,7 +135,9 @@ function shParse(){if(SHP)return SHP;SHP={};const dp=new DOMParser();
   doc.querySelectorAll("p").forEach(p=>{const st=p.querySelector("strong");if(!st)return;const lab=st.textContent.replace(/^•\s*/,"").replace(/:\s*$/,"").trim();const rest=p.textContent.slice(st.textContent.length).trim();if(!rest)return;
    if(/^Words$/i.test(lab))o.words=rest.replace(/\.$/,"").split(/,\s*/).map(w=>w.replace(/^"|"$/g,"").trim()).filter(w=>w.length>2);
    else if(/^Typical article$/i.test(lab))o.art=rest;else if(/^Tell$/i.test(lab))o.tell=rest;
-   else if(/^(Cite|Do not confuse|Ready sentence|Template|Best against|Use it as|Against|Reveals|Typical RQ|RQ|Methods|Why)/i.test(lab)){if(/^Cite/i.test(lab))o.cites=rest.split(/;\s*(?![^()]*\))/).map(x=>x.trim()).filter(x=>x.length>12&&x.length<200);}
+   else if(/^(Cite|Do not confuse|Ready sentence|Template|Best against|Use it as|Against|Reveals|Typical RQ|RQ|Methods|Why)/i.test(lab)){if(/^Cite/i.test(lab))o.cites=rest.split(/;\s*(?![^()]*\))/).map(x=>x.trim()).filter(x=>x.length>12&&x.length<200);
+     else if(/^Use it as/i.test(lab)||/^Reveals/i.test(lab))o.use=(o.use||[]).concat([rest]);else if(/^Ready sentence|^Template/i.test(lab))o.ready=rest;else if(/RQ$/i.test(lab))o.rq=rest.replace(/^"|"$/g,"");
+     else if(/^Methods/i.test(lab)){const mm=rest.split(/\.\s*Why:/);o.meth=mm[0].split(/[,;]\s*(?![^()]*\))/).map(x=>x.replace(/\.$/,"").trim()).filter(x=>x.length>6);if(mm[1])o.why=mm[1].trim();}else if(/^Why/i.test(lab))o.why=rest;}
    else if(p.textContent.trim().startsWith("•")&&rest.length>15&&lab.length<70)o.blocks.push([lab,rest]);});
   doc.querySelectorAll("tr").forEach(tr=>{const td=[...tr.querySelectorAll("td")].map(x=>x.textContent.trim());if(td.length===3&&td[2].length>15&&!/Framework dimension/i.test(td[0]))o.rows.push(td);});
   SHP[sh.id]=o;});return SHP;}
@@ -150,6 +152,12 @@ function dSheetGen(sid){const P=shParse(),me=P[sid];if(!me)return [];const th=DT
   const dims=[...new Set(Object.values(P).flatMap(o=>o.rows.map(r=>r[0])))].filter(x=>x!==dim);out.push(dMC("Which framework axis does this assumption (from "+nm+") address? “"+s2+"”",dim,dPick(dims,3),dim+": "+pos+". In the exam, name the dimension, the position, how it shows in the article, and a quote.","Assumptions (Q1b/Q2a)"));
   const pos2=[...new Set(oth.flatMap(([,o])=>o.rows.filter(r=>r[0]===dim&&r[1]!==pos).map(r=>r[1])))];if(pos2.length>=3)out.push(dMC(nm+": typical position on "+dim+"?",pos,dPick(pos2,3),"Sheet "+sid+": "+pos+". “"+s2+"”","Assumptions (Q1b/Q2a)"));});
  me.cites.forEach(c=>out.push(dMC("Course example to cite: "+c+". Which perspective does it illustrate?",nm,othN(),"Listed under 'course examples to cite' on sheet "+sid+" ("+nm+").","Recognise (Q1)")));
+ const allM=new Set(oth.flatMap(([,o])=>(o.meth||[]).map(m=>m.toLowerCase())));
+ (me.use||[]).forEach(u=>out.push(dMC("Q2: when would you pick this perspective as the alternative? "+hide(u,nm),nm,othN(),"Sheet "+sid+", 'use it as the alternative': "+u,"Alternative (Q2)")));
+ if(me.ready)out.push(dMC("Q2 ready sentence: "+me.ready.replace(new RegExp(nm.split(" (")[0],"gi"),"____")+" Which perspective fills the gap?",nm,othN(),"Sheet "+sid+": "+me.ready,"Alternative (Q2)"));
+ if(me.rq)out.push(dMC("Q3: which perspective asks this research question? \u201c"+me.rq+"\u201d",nm,othN(),"Typical research question on sheet "+sid+".","Methods (Q3)"));
+ (me.meth||[]).filter(m=>!allM.has(m.toLowerCase())&&!/^(surveys?|interviews?|statistics|document analysis|coding|case stud|policy and document)/i.test(m)).forEach(m=>out.push(dMC("Q3 method: \u201c"+m+"\u201d. Which perspective is it typical for?",nm,othN(),"Sheet "+sid+" methods: "+(me.meth||[]).join(", ")+"."+(me.why?" Why: "+me.why:""),"Methods (Q3)")));
+ if(me.why)out.push(dMC("Q3, explaining the method choice: \u201c"+hide(me.why,nm)+"\u201d Which perspective is this the reason for?",nm,othN(),"Sheet "+sid+": "+me.why,"Methods (Q3)"));
  if(me.art)out.push(dMC("Typical article: "+me.art+" Which perspective?",nm,othN(),"Sheet "+sid+": typical article.","Recognise (Q1)"));
  if(me.tell)out.push(dMC("The tell: "+me.tell+" Which perspective?",nm,othN(),"Sheet "+sid+": the tell.","Recognise (Q1)"));
  return out.filter(Boolean);}
@@ -157,3 +165,23 @@ function dSheetRd(sid){const ids=SHEET_RD[sid]||[];if(typeof ALLQ==="undefined")
 dSheet=function(sid){if(sid==="7")return shuffle([...dGen("alt"),...dGen("met")]);
  const subs=sid==="3"?["3a","3b","3c","3d"]:[sid];const skill=shuffle([...subs.flatMap(dSheetGen),...dSheetOld(sid)]);const rd=shuffle(dSheetRd(sid));
  const out=[];while(out.length<60&&(skill.length||rd.length)){if(skill.length)out.push(skill.shift());if(skill.length)out.push(skill.shift());if(rd.length)out.push(rd.shift());}return out;};
+
+/* real-life examples from the readings (each with its source) */
+const EX_SH=(()=>{const m={};Object.entries(SHEET_RD).forEach(([sid,ids])=>{if(sid==="3")return;ids.forEach(id=>{m[id]=sid;});});return m;})();
+function exList(){const out=[];READINGS.forEach(r=>{const sid=EX_SH[r.id];(r.examples||[]).forEach(x=>{if(x&&x.t&&x.d)out.push({t:x.t,d:x.d,p:x.p||"",r,sid:sid||"F"});});});return out;}
+function exQs(){const L=exList().filter(x=>x.sid!=="F");return L.map(x=>{const th=DT(SHEET_TH[x.sid][0]);const oth=dPick(DTH.filter(t=>t.id!==th.id),3).map(t=>t.n);const d=typeof mask==="function"?mask(x.d,x.r.id):x.d;return dMC("Real-life example: "+x.t+". "+d+" Which perspective is this case used to illustrate in the course?",th.n,oth,"From "+short(x.r)+(x.p?" ("+x.p+")":"")+": a "+th.n+" reading (sheet "+x.sid+"). In the exam, a case like this makes Q2 and Q3 concrete.","Real-life examples");}).filter(Boolean);}
+const _dGen=dGen;
+dGen=function(mode){const base=_dGen(mode);const map={rec:/^Recognise/,blk:/^Building/,ass:/^Assumptions/,alt:/^Alternative/,met:/^Methods/};let extra=[];
+ if(typeof BPT_SHEETS!=="undefined"){const all=Object.keys(shParse()).flatMap(dSheetGen);extra=mode==="mix"?all:all.filter(q=>map[mode]&&map[mode].test(q.mode));}
+ if(mode==="ex"||mode==="mix"||mode==="rec")extra=extra.concat(mode==="rec"?[]:exQs());
+ if(mode==="ex")return shuffle(exQs());
+ const seen=new Set();return shuffle([...base,...extra].filter(q=>{if(!q)return false;const k=q.q+"|"+q.o[q.a];if(seen.has(k))return false;seen.add(k);return true;}));};
+DMODES.splice(5,0,["ex","Real-life examples","Which perspective does this case illustrate? (cases from the readings)"]);
+
+/* sheet 7: "which alternative for which article" table */
+function dTools(){const sh=(typeof BPT_SHEETS!=="undefined")&&BPT_SHEETS.find(x=>x.id==="7");if(!sh)return [];const doc=new DOMParser().parseFromString("<div>"+sh.html+"</div>","text/html");const rows=[...doc.querySelectorAll("tr")].map(tr=>[...tr.querySelectorAll("td")].map(td=>td.textContent.trim())).filter(r=>r.length===4&&r[0]&&!/^Article theory/i.test(r[0]));
+ const out=[];rows.forEach((r,i)=>{const o=rows.filter((_,j)=>j!==i);
+  out.push(dMC("Sheet 7: the article is "+r[0]+". Which alternative does the exam-tools table suggest?",r[1],o.map(x=>x[1]),"Key contrast: "+r[2]+". Method switch: "+r[3]+".","Alternative (Q2)"));
+  out.push(dMC("Sheet 7: article "+r[0]+", alternative "+r[1]+". What is the key contrast to write in Q2?",r[2],o.map(x=>x[2]),"Write it as: whereas the author assumes …, this perspective assumes … ("+r[2]+").","Alternative (Q2)"));
+  out.push(dMC("Sheet 7: article "+r[0]+", alternative "+r[1]+". How do the methods change in Q3?",r[3],o.map(x=>x[3]),"Method switch: "+r[3]+". Link each method to an assumption of the new theory.","Methods (Q3)"));});return out.filter(Boolean);}
+const _dGen2=dGen;dGen=function(mode){const b=_dGen2(mode);if(mode==="alt"||mode==="met"||mode==="mix"){const t=dTools().filter(q=>mode==="mix"||(mode==="alt"?/^Alternative/.test(q.mode):/^Methods/.test(q.mode)));return shuffle(b.concat(t));}return b;};
