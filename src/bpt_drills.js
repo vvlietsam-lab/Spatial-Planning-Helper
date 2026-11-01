@@ -119,7 +119,7 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-drill],[da
  if(t.dataset.drill){const m=t.dataset.drill;DR={mode:m,qs:dGen(m).slice(0,12),i:0,pick:null,score:0,done:false};sub="run";render();window.scrollTo(0,0);return;}
  if(t.id==="drback"){DR=null;sub=null;render();return;}
  if(t.id==="drnext"){DR.i++;DR.pick=null;if(DR.i>=DR.qs.length)DR.done=true;render();window.scrollTo(0,0);return;}
- if(t.dataset.drp!=null&&DR&&DR.pick==null){DR.pick=+t.dataset.drp;if(DR.pick===DR.qs[DR.i].a)DR.score++;render();}});
+ if(t.dataset.drp!=null&&DR&&DR.pick==null){DR.pick=+t.dataset.drp;if(DR.pick===DR.qs[DR.i].a)DR.score++;if(typeof qTick==="function")qTick();render();}});
 
 /* per-sheet quiz: drill questions about one sheet's theory (or theories) */
 let dSheet=null;
@@ -185,3 +185,14 @@ function dTools(){const sh=(typeof BPT_SHEETS!=="undefined")&&BPT_SHEETS.find(x=
   out.push(dMC("Sheet 7: article "+r[0]+", alternative "+r[1]+". What is the key contrast to write in Q2?",r[2],o.map(x=>x[2]),"Write it as: whereas the author assumes …, this perspective assumes … ("+r[2]+").","Alternative (Q2)"));
   out.push(dMC("Sheet 7: article "+r[0]+", alternative "+r[1]+". How do the methods change in Q3?",r[3],o.map(x=>x[3]),"Method switch: "+r[3]+". Link each method to an assumption of the new theory.","Methods (Q3)"));});return out.filter(Boolean);}
 const _dGen2=dGen;dGen=function(mode){const b=_dGen2(mode);if(mode==="alt"||mode==="met"||mode==="mix"){const t=dTools().filter(q=>mode==="mix"||(mode==="alt"?/^Alternative/.test(q.mode):/^Methods/.test(q.mode)));return shuffle(b.concat(t));}return b;};
+
+/* more drills: readings on the framework axes (site positions) and Q2 "whereas" sentences */
+function dExtra(mode){const out=[];
+ if(mode==="ass"||mode==="mix"){const ax={sa:["Sources of planning outcomes","structure","agency"],rt:["Reproduction and change","reproduction","transformation"],de:["Reproduction and change","deliberate","emergent"],us:["Knowledge and expertise","universal","situated"],mp:["Knowledge and expertise","monist","pluralist"]};
+  Object.entries(ax).forEach(([k,[dim,lo,hi]])=>{const rs=READINGS.filter(r=>r.dims&&r.dims[k]!=null);const low=rs.filter(r=>r.dims[k]<=30),high=rs.filter(r=>r.dims[k]>=70);
+   low.forEach(r=>out.push(dMC(dim+" ("+lo+" ↔ "+hi+"): which reading sits closest to "+lo.toUpperCase()+"?",short(r),dPick(high,3).map(short),short(r)+" is placed at "+r.dims[k]+" (0 = "+lo+", 100 = "+hi+") on the site's framework page.","Assumptions (Q1b/Q2a)")));
+   high.forEach(r=>out.push(dMC(dim+" ("+lo+" ↔ "+hi+"): which reading sits closest to "+hi.toUpperCase()+"?",short(r),dPick(low,3).map(short),short(r)+" is placed at "+r.dims[k]+" (0 = "+lo+", 100 = "+hi+") on the site's framework page.","Assumptions (Q1b/Q2a)")));});}
+ if(mode==="alt"||mode==="mix"){DTH.forEach(t=>DTH.forEach(g=>{if(t===g)return;Object.keys(DAX).forEach(a=>{if(!(t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0))return;const [dim,lo,hi]=DAX[a];const right="Whereas "+t.n+" assumes that "+t.pos[a][1]+", "+g.n+" assumes that "+g.pos[a][1]+".";const swap="Whereas "+t.n+" assumes that "+g.pos[a][1]+", "+g.n+" assumes that "+t.pos[a][1]+".";const others=DTH.filter(x=>x!==t&&x!==g&&x.pos[a]).map(x=>"Whereas "+t.n+" assumes that "+x.pos[a][1]+", "+g.n+" assumes that "+t.pos[a][1]+".");
+   out.push(dMC("Q2 on "+dim.toLowerCase()+" ("+lo+" ↔ "+hi+"): original "+t.n+", alternative "+g.n+". Which comparison sentence is correct?",right,[swap,...dPick(others,2)],"Correct contrast: "+t.n+": "+t.pos[a][1]+"; "+g.n+": "+g.pos[a][1]+".","Alternative (Q2)"));});}));}
+ return out.filter(Boolean);}
+const _dGen3=dGen;dGen=function(mode){const b=_dGen3(mode);const x=dExtra(mode);return x.length?shuffle(b.concat(x)):b;};
