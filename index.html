@@ -12041,10 +12041,41 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-drill],[da
  if(t.dataset.drp!=null&&DR&&DR.pick==null){DR.pick=+t.dataset.drp;if(DR.pick===DR.qs[DR.i].a)DR.score++;render();}});
 
 /* per-sheet quiz: drill questions about one sheet's theory (or theories) */
+let dSheet=null;
 const SHEET_TH={"1":["rcp"],"2":["rc"],"3":["rci","si","hi","ei"],"3a":["rci"],"3b":["si"],"3c":["hi"],"3d":["ei"],"4":["pe"],"5":["up"],"6":["disc"]};
-function dSheet(sid){const ths=SHEET_TH[sid];if(!ths)return shuffle([...dGen("alt"),...dGen("met")]);const names=ths.map(id=>DT(id).n);
+function dSheetOld(sid){const ths=SHEET_TH[sid];if(!ths)return [];const names=ths.map(id=>DT(id).n);
  return dGen("mix").filter(q=>{const right=q.o[q.a];return names.some(n=>right===n||q.q.includes(n))||ths.some(id=>DT(id).blocks.includes(right)||DT(id).meth.includes(right)||DT(id).rq===right);});}
 document.addEventListener("click",e=>{const t=e.target.closest("[data-shquiz]");if(!t)return;const sid=t.dataset.shquiz;const qs=dSheet(sid).slice(0,12);if(!qs.length){toast("No questions for this sheet");return;}DR={mode:"mix",qs,i:0,pick:null,score:0,done:false,sheet:sid};go("drills","run");window.scrollTo(0,0);});
+/* ---- more sheet questions (1 Nov): generated from every line of the checked sheets + the reading questions behind each theory ---- */
+const SHEET_RD={"1":["gov","scott","davoudi","alex"],"2":["rc","needham","olson","taylor"],"3":["ni","dembski","moroni","sorensen"],"3a":["ni"],"3b":["dembski"],"3c":["sorensen"],"3d":["moroni","cozz","hayek"],"4":["harvey","fog","hh","savini","marx"],"5":["rydin6","bossuyt","pruijt"],"6":["raco","gurran"]};
+let SHP=null;
+function shParse(){if(SHP)return SHP;SHP={};const dp=new DOMParser();
+ BPT_SHEETS.forEach(sh=>{if(!SHEET_TH[sh.id]||sh.id==="3")return;const doc=dp.parseFromString("<div>"+sh.html+"</div>","text/html");const o={words:[],blocks:[],rows:[],cites:[],tell:"",art:""};
+  doc.querySelectorAll("p").forEach(p=>{const st=p.querySelector("strong");if(!st)return;const lab=st.textContent.replace(/^•\s*/,"").replace(/:\s*$/,"").trim();const rest=p.textContent.slice(st.textContent.length).trim();if(!rest)return;
+   if(/^Words$/i.test(lab))o.words=rest.replace(/\.$/,"").split(/,\s*/).map(w=>w.replace(/^"|"$/g,"").trim()).filter(w=>w.length>2);
+   else if(/^Typical article$/i.test(lab))o.art=rest;else if(/^Tell$/i.test(lab))o.tell=rest;
+   else if(/^(Cite|Do not confuse|Ready sentence|Template|Best against|Use it as|Against|Reveals|Typical RQ|RQ|Methods|Why)/i.test(lab)){if(/^Cite/i.test(lab))o.cites=rest.split(/;\s*(?![^()]*\))/).map(x=>x.trim()).filter(x=>x.length>12&&x.length<200);}
+   else if(p.textContent.trim().startsWith("•")&&rest.length>15&&lab.length<70)o.blocks.push([lab,rest]);});
+  doc.querySelectorAll("tr").forEach(tr=>{const td=[...tr.querySelectorAll("td")].map(x=>x.textContent.trim());if(td.length===3&&td[2].length>15&&!/Framework dimension/i.test(td[0]))o.rows.push(td);});
+  SHP[sh.id]=o;});return SHP;}
+function dSheetGen(sid){const P=shParse(),me=P[sid];if(!me)return [];const th=DT(SHEET_TH[sid][0]),nm=th.n,out=[];
+ const oth=Object.entries(P).filter(([k])=>k!==sid&&SHEET_TH[k][0]!==SHEET_TH[sid][0]);const othN=()=>dPick(oth.map(([k])=>DT(SHEET_TH[k][0]).n),3);
+ const allW=new Set(oth.flatMap(([,o])=>o.words.map(w=>w.toLowerCase())));
+ me.words.filter(w=>!allW.has(w.toLowerCase())).forEach(w=>out.push(dMC("Signal word in an exam article: “"+w+"”. Which perspective does it point to?",nm,othN(),"“"+w+"” is a signal word on sheet "+sid+" ("+nm+"). Check it with a second signal and the article's explanation before you decide.","Recognise (Q1)")));
+ const hide=(t,lab)=>{let x=t;lab.split(/[\s/(),;&]+/).filter(w=>w.length>4&&/^[A-Z]/.test(w)).forEach(w=>{x=x.split(w).join("____");});return x;};
+ me.blocks.forEach(([lab,txt])=>{out.push(dMC("Which perspective has this building block? "+hide(txt,lab),nm,othN(),lab+": "+txt+" (sheet "+sid+").","Building blocks (Q1/Q2)"));
+  const dis=dPick(oth.flatMap(([,o])=>o.blocks.map(b=>b[1])),3);out.push(dMC(nm+": what does the building block “"+lab+"” say?",txt,dis,lab+": "+txt,"Building blocks (Q1/Q2)"));});
+ me.rows.forEach(([dim,pos,sent])=>{const s2=sent.replace(/^"|"$/g,"");out.push(dMC("Which perspective makes this assumption? “"+s2+"”",nm,othN(),"Sheet "+sid+", "+dim+": "+pos+".","Assumptions (Q1b/Q2a)"));
+  const dims=[...new Set(Object.values(P).flatMap(o=>o.rows.map(r=>r[0])))].filter(x=>x!==dim);out.push(dMC("Which framework axis does this assumption (from "+nm+") address? “"+s2+"”",dim,dPick(dims,3),dim+": "+pos+". In the exam, name the dimension, the position, how it shows in the article, and a quote.","Assumptions (Q1b/Q2a)"));
+  const pos2=[...new Set(oth.flatMap(([,o])=>o.rows.filter(r=>r[0]===dim&&r[1]!==pos).map(r=>r[1])))];if(pos2.length>=3)out.push(dMC(nm+": typical position on "+dim+"?",pos,dPick(pos2,3),"Sheet "+sid+": "+pos+". “"+s2+"”","Assumptions (Q1b/Q2a)"));});
+ me.cites.forEach(c=>out.push(dMC("Course example to cite: "+c+". Which perspective does it illustrate?",nm,othN(),"Listed under 'course examples to cite' on sheet "+sid+" ("+nm+").","Recognise (Q1)")));
+ if(me.art)out.push(dMC("Typical article: "+me.art+" Which perspective?",nm,othN(),"Sheet "+sid+": typical article.","Recognise (Q1)"));
+ if(me.tell)out.push(dMC("The tell: "+me.tell+" Which perspective?",nm,othN(),"Sheet "+sid+": the tell.","Recognise (Q1)"));
+ return out.filter(Boolean);}
+function dSheetRd(sid){const ids=SHEET_RD[sid]||[];if(typeof ALLQ==="undefined")return [];return ALLQ.filter(q=>ids.includes(q.t)&&(q.lv||2)>=2&&!(typeof isCross==="function"&&isCross(q))).map(q=>{const p=shuffle([0,1,2,3].slice(0,q.o.length));return {q:q.q,o:p.map(i=>q.o[i]),a:p.indexOf(q.a),e:q.e||"",mode:"Reading: "+short(R[q.t])};});}
+dSheet=function(sid){if(sid==="7")return shuffle([...dGen("alt"),...dGen("met")]);
+ const subs=sid==="3"?["3a","3b","3c","3d"]:[sid];const skill=shuffle([...subs.flatMap(dSheetGen),...dSheetOld(sid)]);const rd=shuffle(dSheetRd(sid));
+ const out=[];while(out.length<60&&(skill.length||rd.length)){if(skill.length)out.push(skill.shift());if(skill.length)out.push(skill.shift());if(rd.length)out.push(rd.shift());}return out;};
 
 /* ===== BPT stage 3 (30 Oct): lectures L1–L9 as the main layout. Each lecture page collects every slide-sourced point already checked
    on the reading pages (ordered by slide number), adds an exam box, and folds out its articles. Numbering follows the theory sheets. ===== */
