@@ -59,3 +59,8 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-lfold]");i
  if(typeof CDL!=="undefined"){const lab={sa:"sources of planning outcomes (structure ↔ agency)",rt:"reproduction and change (reproduction ↔ transformation)",de:"reproduction and change (deliberate ↔ emergent)",us:"knowledge and expertise (universal ↔ situated)",mp:"knowledge and expertise (monist ↔ pluralist)"};CDL.forEach(c=>{if(lab[c[0]])c[3]=lab[c[0]];});}})();
 
 document.addEventListener("click",e=>{const t=e.target.closest("[data-lquiz]");if(!t)return;const l=BPT_LEC.find(x=>x.id===t.dataset.lquiz);if(l)startQuiz(l.rd,null,null,12);});
+/* per-article quiz bar on every BPT reading page */
+function rdQuizBar(id){if(typeof ALLQ==="undefined")return "";const qs=ALLQ.filter(q=>q.t===id&&!(typeof isCross==="function"&&isCross(q)));if(!qs.length)return "";const lv=[1,2,3,4].map(v=>qs.filter(q=>(q.lv||2)===v).length);
+ return `<div class="card" style="margin:10px 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center"><b style="margin-right:6px">Quiz this article</b><span class="small mut">${qs.length} questions</span><span style="flex:1"></span><button class="btn sm primary" data-rq="${id}|0">Mixed</button>${["Basic","Core","Hard","Expert"].map((l,i)=>lv[i]?`<button class="btn sm" data-rq="${id}|${i+1}">${l} (${lv[i]})</button>`:"").join("")}</div>`;}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-rq]");if(!t)return;const [id,v]=t.dataset.rq.split("|");startQuiz([id],null,+v||null,12);});
+(function(){if(typeof vReadings!=="function")return;const _v=vReadings;vReadings=function(){const h=_v();if(!sub||!R[sub]||isPSC(sub))return h;const bar=rdQuizBar(sub);const i=h.indexOf('<h2');return i>0?h.slice(0,i)+bar+h.slice(i):bar+h;};})();
