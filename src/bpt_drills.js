@@ -196,3 +196,33 @@ function dExtra(mode){const out=[];
    out.push(dMC("Q2 on "+dim.toLowerCase()+" ("+lo+" ↔ "+hi+"): original "+t.n+", alternative "+g.n+". Which comparison sentence is correct?",right,[swap,...dPick(others,2)],"Correct contrast: "+t.n+": "+t.pos[a][1]+"; "+g.n+": "+g.pos[a][1]+".","Alternative (Q2)"));});}));}
  return out.filter(Boolean);}
 const _dGen3=dGen;dGen=function(mode){const b=_dGen3(mode);const x=dExtra(mode);return x.length?shuffle(b.concat(x)):b;};
+/* ===== drills batch 3 (2 Nov): a lot more questions, all generated from site content that was already checked ===== */
+function dMore(mode){const out=[],T=DTH;const nm=id=>DT(id).n;const othN=(id,n)=>dPick(T.filter(t=>t.id!==id).map(t=>t.n),n||3);
+ const sents=t=>String(t||"").replace(/\s+/g," ").split(/(?<=[.!?])\s+(?=[A-Z'‘"(])/).map(x=>x.trim()).filter(x=>x.length>=70&&x.length<=260&&!/\b(slides?|this page|this site|general knowledge|verify|on file|Brightspace)\b/i.test(x)&&!/^(This|It|They|These|He|She|His|Her|Their|That|But|And|So|Also|Here|There|Both|Such)\b/.test(x));
+ const mk=(id,t)=>typeof mask==="function"?mask(t,id):t;
+ const rds=Object.keys(DRD).filter(id=>R[id]);
+ if(mode==="rec"||mode==="mix"){
+  rds.forEach(id=>{const r=R[id],th=DRD[id];const S=new Set();sents(r.one).forEach(x=>S.add(x));(Array.isArray(r.summary)?r.summary:[r.summary]).forEach(p=>sents(p).forEach(x=>S.add(x)));(r.ext||[]).forEach(sec=>(sec.p||[]).forEach(p=>sents(typeof p==="string"?p:"").forEach(x=>S.add(x))));
+   [...S].forEach(x=>out.push(dMC("Passage from a course reading: “"+mk(id,x)+"” Which perspective is the author working in?",nm(th),othN(th),"From "+short(r)+" ("+r.theory+"). Sheet "+DT(th).sh+".","Recognise (Q1)")));
+   (r.concepts||[]).filter(c=>Array.isArray(c)&&c[1]).forEach(c=>{out.push(dMC("Concept from a course reading: “"+c[0]+"” ("+mk(id,c[1])+"). Which perspective does it belong to?",nm(th),othN(th),c[0]+" is from "+short(r)+" ("+r.theory+").","Building blocks (Q1/Q2)"));});
+   ((r.lect||{}).points||[]).forEach(p=>sents(p.d).slice(0,2).forEach(x=>out.push(dMC("From the lecture slides: “"+mk(id,x)+"” Which perspective is being explained?",nm(th),othN(th),(p.slide||"Lecture slides")+", on the "+short(r)+" page ("+nm(th)+").","Recognise (Q1)"))));});
+ }
+ if(mode==="blk"||mode==="mix"){
+  T.forEach(t=>{const oth=T.filter(x=>x!==t);for(let k=0;k<12;k++){const three=dPick(t.blocks,3);if(three.length<3)break;const odd=dPick(dPick(oth,1)[0].blocks,1)[0];out.push(dMC("Three of these are building blocks of "+t.n+". Which one is NOT?",odd,three,"Not "+t.n+": “"+odd+"” belongs to "+T.find(x=>x.blocks.includes(odd)).n+".","Building blocks (Q1/Q2)"));}});
+ }
+ if(mode==="rec"||mode==="mix"){
+  T.forEach(t=>{const oth=T.filter(x=>x!==t);for(let k=0;k<12;k++){const three=dPick(t.words,3);const o2=dPick(oth,1)[0];const odd=dPick(o2.words.filter(w=>!t.words.includes(w)),1)[0];if(!odd)continue;out.push(dMC("Three of these signal words point to "+t.n+". Which one points elsewhere?",odd,three,"“"+odd+"” is a signal word of "+o2.n+".","Recognise (Q1)"));}});
+ }
+ if(mode==="alt"||mode==="mix"){
+  rds.forEach(id=>{const r=R[id],t=DT(DRD[id]);const good=t.alt.map(DT).filter(Boolean),bad=T.filter(x=>x!==t&&!t.alt.includes(x.id));good.forEach(g=>{if(bad.length>=3)out.push(dMC("The exam article is in the style of "+short(r)+" ("+t.n+"). Which perspective gives a strong alternative for Q2?",g.n,dPick(bad,3).map(x=>x.n),"Strong alternatives for "+t.n+": "+good.map(x=>x.n).join(", ")+" (sheets "+t.sh+" and 7).","Alternative (Q2)"));
+   const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);if(ax){const [dim,lo,hi]=DAX[ax];out.push(dMC("Q2 on "+short(r)+": you choose "+g.n+" as the alternative. Which sentence states the contrast correctly?","Whereas the author assumes that "+t.pos[ax][1]+", "+g.n+" assumes that "+g.pos[ax][1]+".",[ "Whereas the author assumes that "+g.pos[ax][1]+", "+g.n+" assumes that "+t.pos[ax][1]+".","Both perspectives assume that "+t.pos[ax][1]+", so they differ only in their normative commitments.","Whereas the author assumes that "+t.pos[ax][1]+", "+g.n+" agrees but adds more empirical data."],dim+" ("+lo+" ↔ "+hi+"): "+t.n+": "+t.pos[ax][1]+"; "+g.n+": "+g.pos[ax][1]+".","Alternative (Q2)"));}});});
+ }
+ if(mode==="met"||mode==="mix"){
+  rds.forEach(id=>{const r=R[id],t=DT(DRD[id]);t.alt.map(DT).filter(Boolean).forEach(g=>{g.meth.forEach(m=>{const wrong=T.filter(x=>x!==g).map(x=>dPick(x.meth,1)[0]);out.push(dMC("Q3: you critique "+short(r)+" from "+g.n+". Which method fits the reformulated research?",m,dPick(wrong,3),"Methods for "+g.n+": "+g.meth.join("; ")+". Link the method to an assumption of "+g.n+".","Methods (Q3)"));});
+   out.push(dMC("Q3: you critique "+short(r)+" from "+g.n+". Which reformulated research question fits?",g.rq,dPick(T.filter(x=>x!==g).map(x=>x.rq),3),"Typical research question for "+g.n+" (sheet "+g.sh+").","Methods (Q3)"));});});
+ }
+ if(mode==="ass"||mode==="mix"){
+  rds.forEach(id=>{const r=R[id],t=DT(DRD[id]);Object.entries(t.pos).forEach(([a,[v,txt]])=>{if(!v)return;const [dim,lo,hi]=DAX[a];const right=v<0?lo:hi,wrong=v<0?hi:lo;out.push(dMC("Q1b for an article like "+short(r)+" ("+t.n+"): which assumption sentence fits on "+dim.toLowerCase()+"?","On "+lo+" ↔ "+hi+", the author leans to "+right+": "+txt+".",["On "+lo+" ↔ "+hi+", the author leans to "+wrong+": "+txt+".","On "+lo+" ↔ "+hi+", the author leans to "+wrong+", because outcomes depend on "+(v<0?"individual choices":"structural forces")+".","This axis cannot be used for this perspective, because it only applies to normative theories."],"Typical position of "+t.n+": "+txt+". Always add how it shows in the article and a quote with a page number.","Assumptions (Q1b/Q2a)"));});});
+ }
+ return out.filter(Boolean);}
+const _dGen4=dGen;dGen=function(mode){const b=_dGen4(mode);if(mode==="ex")return b;const x=dMore(mode);const seen=new Set(b.map(q=>q.q+"|"+q.o[q.a]));return shuffle(b.concat(x.filter(q=>{const k=q.q+"|"+q.o[q.a];if(seen.has(k))return false;seen.add(k);return true;})));};
