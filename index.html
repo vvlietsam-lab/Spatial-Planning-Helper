@@ -12152,7 +12152,10 @@ dSheet=function(sid){if(sid==="7")return shuffle([...dGen("alt"),...dGen("met")]
 /* real-life examples from the readings (each with its source) */
 const EX_SH=(()=>{const m={};Object.entries(SHEET_RD).forEach(([sid,ids])=>{if(sid==="3")return;ids.forEach(id=>{m[id]=sid;});});return m;})();
 function exList(){const out=[];READINGS.forEach(r=>{const sid=EX_SH[r.id];(r.examples||[]).forEach(x=>{if(x&&x.t&&x.d)out.push({t:x.t,d:x.d,p:x.p||"",r,sid:sid||"F"});});});return out;}
-function exQs(){const L=exList().filter(x=>x.sid!=="F");return L.map(x=>{const th=DT(SHEET_TH[x.sid][0]);const oth=dPick(DTH.filter(t=>t.id!==th.id),3).map(t=>t.n);const d=typeof mask==="function"?mask(x.d,x.r.id):x.d;return dMC("Real-life example: "+x.t+". "+d+" Which perspective is this case used to illustrate in the course?",th.n,oth,"From "+short(x.r)+(x.p?" ("+x.p+")":"")+": a "+th.n+" reading (sheet "+x.sid+"). In the exam, a case like this makes Q2 and Q3 concrete.","Real-life examples");}).filter(Boolean);}
+/* a case text that names its own perspective: that perspective is the answer, and the name is hidden */
+const EX_NM=[["rci",/rational choice institutionalis[mt]s?/gi],["si",/sociological institutionalis[mt]s?/gi],["hi",/historical institutionalis[mt]s?/gi],["ei",/evolutionary institutionalis[mt]s?/gi],["rc",/rational choice( theory| scholars?| theorists?)?/gi],["pe",/political econom(y|ists?)/gi],["up",/urban politics/gi],["disc",/foucauldian|discourse (theory|analysis)/gi],["rcp",/rational comprehensive planning|governmental model/gi]];
+function exTh(txt){let t=txt;const hit=[];EX_NM.forEach(([id,re])=>{if(re.test(t)){hit.push(id);t=t.replace(re,"▇▇▇");}re.lastIndex=0;});return {hit,t};}
+function exQs(){const L=exList().filter(x=>x.sid!=="F");return L.map(x=>{const nm=exTh(x.d),nt=exTh(x.t);if(new Set(nm.hit.concat(nt.hit)).size>1)return null;nm.hit=nm.hit.concat(nt.hit);x={...x,t:nt.t};const th=DT(nm.hit[0]||SHEET_TH[x.sid][0]);const oth=dPick(DTH.filter(t=>t.id!==th.id),3).map(t=>t.n);const d=typeof mask==="function"?mask(nm.t,x.r.id):nm.t;return dMC("Real-life example: "+x.t+". "+d+" Which perspective is this case used to illustrate in the course?",th.n,oth,"From "+short(x.r)+(x.p?" ("+x.p+")":"")+": the case illustrates "+th.n+" (sheet "+(th.sh||x.sid)+"). In the exam, a case like this makes Q2 and Q3 concrete.","Real-life examples");}).filter(Boolean);}
 const _dGen=dGen;
 dGen=function(mode){const base=_dGen(mode);const map={rec:/^Recognise/,blk:/^Building/,ass:/^Assumptions/,alt:/^Alternative/,met:/^Methods/};let extra=[];
  if(typeof BPT_SHEETS!=="undefined"){const all=Object.keys(shParse()).flatMap(dSheetGen);extra=mode==="mix"?all:all.filter(q=>map[mode]&&map[mode].test(q.mode));}
@@ -12211,6 +12214,8 @@ function dMore(mode){const out=[],T=DTH;const nm=id=>DT(id).n;const othN=(id,n)=
  }
  return out.filter(Boolean);}
 const _dGen4=dGen;dGen=function(mode){const b=_dGen4(mode);if(mode==="ex")return b;const x=dMore(mode);const seen=new Set(b.map(q=>q.q+"|"+q.o[q.a]));return shuffle(b.concat(x.filter(q=>{const k=q.q+"|"+q.o[q.a];if(seen.has(k))return false;seen.add(k);return true;})));};
+/* no answer leaks: when the right answer is a perspective and the question names it, hide the name; drop the question if it names a different one */
+const _dGenL=dGen;dGen=function(mode){return _dGenL(mode).map(q=>{if(!q)return q;const th=DTH.find(t=>t.n===q.o[q.a]);if(!th||!/^(Recognise|Real-life|Building)/.test(q.mode||""))return q;const x=exTh(q.q);if(!x.hit.length)return q;if(x.hit.some(h=>h!==th.id))return null;return Object.assign({},q,{q:x.t});}).filter(Boolean);};
 
 /* ===== BPT stage 3 (30 Oct): lectures L1–L9 as the main layout. Each lecture page collects every slide-sourced point already checked
    on the reading pages (ordered by slide number), adds an exam box, and folds out its articles. Numbering follows the theory sheets. ===== */
