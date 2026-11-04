@@ -12252,6 +12252,18 @@ function dSig(){const out=[],T=DTH,{W,uniq,shared}=sigWords();const nm=id=>DT(id
  return out.filter(Boolean);}
 DMODES.splice(1,0,["sig","Signal words (hard)","Q1: clusters, combinations, trap words and highlighting real passages"]);
 const _dGenSig=dGen;dGen=function(mode){if(mode==="sig")return shuffle(dSig());const b=_dGenSig(mode);return mode==="mix"?shuffle(b.concat(dSig())):b;};
+/* sheet quizzes with decoys (4 Nov): about a third of the "which perspective" questions come from a confusable neighbouring sheet,
+   always with this sheet's perspective among the options, so the answer is not automatically the sheet you are quizzing. */
+const SH_NEAR={rcp:["rc","disc","rci"],rc:["rci","rcp","ei"],rci:["rc","si","hi"],si:["rci","hi","disc"],hi:["rci","si","ei","pe"],ei:["hi","rc","rci"],pe:["up","hi","disc"],up:["pe","disc","rci"],disc:["up","si","pe"]};
+const TH_SH={rcp:"1",rc:"2",rci:"3a",si:"3b",hi:"3c",ei:"3d",pe:"4",up:"5",disc:"6"};
+const _dSheetD=dSheet;dSheet=function(sid){const base=_dSheetD(sid);if(sid==="7"||!SHEET_TH[sid])return base;
+ const mine=SHEET_TH[sid],myN=mine.map(id=>DT(id).n);const near=[...new Set(mine.flatMap(id=>SH_NEAR[id]||[]))].filter(id=>!mine.includes(id));
+ const thN=new Set(DTH.map(t=>t.n));
+ let dec=shuffle(near.flatMap(id=>dSheetGen(TH_SH[id])).filter(q=>q&&thN.has(q.o[q.a])&&!myN.includes(q.o[q.a])));
+ dec=dec.map(q=>{let o=q.o.slice();const right=o[q.a];if(!myN.some(n=>o.includes(n))){const wi=o.map((x,i)=>i).filter(i=>i!==q.a);o[dPick(wi,1)[0]]=dPick(myN,1)[0];}o=shuffle(o);
+  return Object.assign({},q,{o,a:o.indexOf(right),e:"Trap: this one is not from sheet "+sid+". "+q.e});});
+ const out=[];let i=0;base.forEach(q=>{const persp=q&&thN.has(q.o[q.a]);if(persp&&dec.length&&Math.random()<0.6)out.push(dec.shift());out.push(q);});
+ return out;};
 
 /* ===== BPT stage 3 (30 Oct): lectures L1–L9 as the main layout. Each lecture page collects every slide-sourced point already checked
    on the reading pages (ordered by slide number), adds an exam box, and folds out its articles. Numbering follows the theory sheets. ===== */
