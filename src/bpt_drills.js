@@ -49,7 +49,7 @@ const DTH=[
   blocks:["Hayek: dispersed knowledge no planner can hold; spontaneous order","Moroni: kosmos vs taxis; most institutions are the unintended outcome of slow evolution","Cozzolino: proscriptive (forbid harm) vs prescriptive rules; anti-adaptive neighbourhoods","Planners should set general, abstract rules and be modest"],
   rq:"How did this area change through many small actions, and which rules enabled or blocked adaptation?",
   meth:["Long-term historical and morphological analysis","Comparing designed and grown areas","Analysing rule types (proscriptive vs prescriptive)"],
-  pos:{rt:[0,"gradual change through variation and selection"],de:[1,"order emerges without a designer"],mp:[1,"knowledge is dispersed and tacit"]},
+  pos:{sa:[1,"agency of many individuals acting within general rules; no single designer (Hayek's individualism)"],rt:[0,"gradual change through variation and selection"],de:[1,"order emerges without a designer"],mp:[1,"knowledge is dispersed and tacit"]},
   norm:"liberty, modesty",alt:["rcp","rci","pe"]},
  {id:"pe",n:"Political economy",sh:"4",
   words:["capital accumulation","overaccumulation","capital switching","spatial fix","commodification","rent gap","financialisation","entrepreneurial city","exchange value vs use value","neoliberalisation"],
