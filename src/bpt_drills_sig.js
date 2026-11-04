@@ -35,7 +35,7 @@ DMODES.splice(1,0,["sig","Signal words (hard)","Q1: clusters, combinations, trap
 const _dGenSig=dGen;dGen=function(mode){if(mode==="sig")return shuffle(dSig());const b=_dGenSig(mode);return mode==="mix"?shuffle(b.concat(dSig())):b;};
 /* sheet quizzes with decoys (4 Nov): about a third of the "which perspective" questions come from a confusable neighbouring sheet,
    always with this sheet's perspective among the options, so the answer is not automatically the sheet you are quizzing. */
-const SH_NEAR={rcp:["rc","disc","rci"],rc:["rci","rcp","ei"],rci:["rc","si","hi"],si:["rci","hi","disc"],hi:["rci","si","ei","pe"],ei:["hi","rc","rci"],pe:["up","hi","disc"],up:["pe","disc","rci"],disc:["up","si","pe"]};
+const SH_NEAR={rcp:["rc","disc","rci"],rc:["rci","rcp","ei"],rci:["rc","si","hi"],si:["rci","hi","disc"],hi:["rci","si","ei","pe"],ei:["hi","rc","rci","rcp"],pe:["up","hi","disc"],up:["pe","disc","rci"],disc:["up","si","pe","rcp"]};
 const TH_SH={rcp:"1",rc:"2",rci:"3a",si:"3b",hi:"3c",ei:"3d",pe:"4",up:"5",disc:"6"};
 const _dSheetD=dSheet;dSheet=function(sid){const base=_dSheetD(sid);if(sid==="7"||!SHEET_TH[sid])return base;
  const mine=SHEET_TH[sid],myN=mine.map(id=>DT(id).n);const near=[...new Set(mine.flatMap(id=>SH_NEAR[id]||[]))].filter(id=>!mine.includes(id));
