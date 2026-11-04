@@ -2,13 +2,14 @@
    assumptions, building blocks, cases), each to be linked to the right perspective. Pool = every checked drill item whose answer is a perspective. ===== */
 let LKP=null,LK=null;
 function lkPool(){if(LKP)return LKP;const thN={};DTH.forEach(t=>{thN[t.n]=t.id;});const seen=new Set();LKP=[];
- const strip=s=>String(s).replace(/\s*The exam allows[^?]*\?/i,"").replace(/\s*(Which|What)\b[^?“”]*\b(perspective|theory)\b[^?]*\?/g,"").replace(/^\s*(Which|What)\b[^?]*\?\s*/i,"").replace(/\s+/g," ").trim();
+ const strip=s=>String(s).replace(/\s*The exam allows[^?]*\?/i,"").replace(/\s*(In which|Which|What)\b[^?“”]*\b(perspective|theory)\b[^?]*\?/g,"").replace(/^\s*(Which|What)\b[^?]*\?\s*/i,"").replace(/\s+/g," ").trim();
  let all=[];try{all=dGen("mix");}catch(e){}
  all.forEach(q=>{if(!q||!q.o)return;const id=thN[q.o[q.a]];if(!id)return;if(/^(Highlighting an article|Three of these)/.test(q.q))return;const txt=strip(q.q);if(txt.length<12||txt.length>520)return;
   add(txt,id,q.q,q.e);});
  function add(txt,id,src,e){const m=exTh(txt);if(m.hit.some(h=>h!==id))return;txt=m.t.replace(/^(Passage from a course reading|Quote from a course reading|From the lecture slides|Course example to cite|Signal word in an exam article|You highlight three terms in an exam article|These signal words are highlighted in an article|Real-life example|Typical article|The tell):\s*/i,"").replace(/^Q2: when would you pick this perspective as the alternative\?\s*/i,"Use it as the alternative when: ").replace(/^Concept from a course reading:\s*/i,"").trim();
   txt=txt.replace(/^Highlight practice\.\s*(Passage from a course reading:\s*)?/i,"").replace(/\s+\d\.[”"]?$/,m=>m.includes("”")?"”":"").replace(/\s*Which perspective[^?]*\?\s*$/,"").trim();
   if(/\b(this lecture|same week|this page|this site|this week)\b/i.test(txt))return;
+  if(/\?\s*$/.test(txt)&&!/research question|Q3|RQ/i.test(src))return;
   if(txt.length<4||(txt.length<28&&!/Signal|signal|method/i.test(src)))return;const k=txt.toLowerCase().replace(/[^a-z0-9]+/g,"");if(seen.has(k))return;seen.add(k);
   const kind=/^Concept|Concept from/i.test(src)?"Concept":/Signal word|signal words|highlight three/i.test(src)?"Signal words":/alternative/i.test(src)?"Q2 alternative":/research question|Q3/i.test(src)?"Research focus / method":/assumption|assumes|^Assumption/i.test(src)?"Assumption":/building block/i.test(src)?"Building block":/Real-life|Course example|^Case/i.test(src)?"Case":/Typical article|The tell/i.test(src)?"Typical article":/Quote|Passage|lecture slides|“.{60,}/.test(src)?"Quote or passage":"Item";
   LKP.push({t:txt,id,kind,e:e||""});}

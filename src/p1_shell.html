@@ -132,7 +132,7 @@ textarea{width:100%;min-height:140px;resize:vertical;line-height:1.55}
 /* reading page */
 .rgrid{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:28px;align-items:start}
 .rside{position:sticky;top:24px;display:flex;flex-direction:column;gap:12px}
-@media (max-width:1100px){.rgrid{grid-template-columns:1fr}.rside{position:static}}
+@media (max-width:1100px){.rgrid{grid-template-columns:minmax(0,1fr)}.rside{position:static}}
 .back{display:inline-flex;align-items:center;gap:6px;font:500 .82rem var(--ui);color:var(--muted);background:none;border:0;cursor:pointer;padding:0;margin-bottom:14px}
 .oneliner{font:400 1.45rem/1.3 var(--serif);border-left:2px solid var(--accent);padding:2px 0 2px 16px;margin:18px 0;color:var(--ink);max-width:62ch}
 .fig{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:16px 0}
@@ -632,6 +632,7 @@ details.card summary{list-style:none;flex-wrap:wrap;gap:6px}details.card summary
 .fxgrid{display:grid;grid-template-columns:1fr;gap:16px}.fxtext p{line-height:1.65}
 @media(min-width:1100px){.fxgrid{grid-template-columns:1.05fr 1fr}.fxtext{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}}
 .sheet{overflow-x:auto}.sheet h3{font-size:1.25rem;margin:4px 0 8px}.sheet table{width:100%;border-collapse:collapse;margin:10px 0;font-size:.92rem}.sheet td,.sheet th{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}.sheet th{background:var(--panel2,rgba(127,127,127,.08))}.sheet p{margin:4px 0}.sheettabs button{min-width:40px}
+@media (max-width:640px){#app p,#app li,#app td,#app a,#app .note{overflow-wrap:anywhere}#app svg{max-width:100%;height:auto;overflow:hidden}.chip.plain{white-space:normal;max-width:100%}#app table:not(.sheet table){display:block;overflow-x:auto;max-width:100%}}
 @media (max-width:640px){.sheet table,.sheet tbody,.sheet tr,.sheet td{display:block;width:100%}.sheet td{border-width:0 0 1px}.sheet table{border:1px solid var(--line)}.sheet thead{display:none}}
 @media print{.side,.tabbar,.noprint,header,.topbar{display:none!important}.wrap{max-width:none!important;margin:0!important;padding:0!important}.sheet{border:0!important;box-shadow:none!important;padding:0!important;font-size:9.5pt}.sheet td{padding:3px 5px}body{background:#fff!important;color:#000!important}}
 .drlist .item{width:100%;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center}

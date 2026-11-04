@@ -134,7 +134,7 @@ textarea{width:100%;min-height:140px;resize:vertical;line-height:1.55}
 /* reading page */
 .rgrid{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:28px;align-items:start}
 .rside{position:sticky;top:24px;display:flex;flex-direction:column;gap:12px}
-@media (max-width:1100px){.rgrid{grid-template-columns:1fr}.rside{position:static}}
+@media (max-width:1100px){.rgrid{grid-template-columns:minmax(0,1fr)}.rside{position:static}}
 .back{display:inline-flex;align-items:center;gap:6px;font:500 .82rem var(--ui);color:var(--muted);background:none;border:0;cursor:pointer;padding:0;margin-bottom:14px}
 .oneliner{font:400 1.45rem/1.3 var(--serif);border-left:2px solid var(--accent);padding:2px 0 2px 16px;margin:18px 0;color:var(--ink);max-width:62ch}
 .fig{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:16px 0}
@@ -634,6 +634,7 @@ details.card summary{list-style:none;flex-wrap:wrap;gap:6px}details.card summary
 .fxgrid{display:grid;grid-template-columns:1fr;gap:16px}.fxtext p{line-height:1.65}
 @media(min-width:1100px){.fxgrid{grid-template-columns:1.05fr 1fr}.fxtext{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}}
 .sheet{overflow-x:auto}.sheet h3{font-size:1.25rem;margin:4px 0 8px}.sheet table{width:100%;border-collapse:collapse;margin:10px 0;font-size:.92rem}.sheet td,.sheet th{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}.sheet th{background:var(--panel2,rgba(127,127,127,.08))}.sheet p{margin:4px 0}.sheettabs button{min-width:40px}
+@media (max-width:640px){#app p,#app li,#app td,#app a,#app .note{overflow-wrap:anywhere}#app svg{max-width:100%;height:auto;overflow:hidden}.chip.plain{white-space:normal;max-width:100%}#app table:not(.sheet table){display:block;overflow-x:auto;max-width:100%}}
 @media (max-width:640px){.sheet table,.sheet tbody,.sheet tr,.sheet td{display:block;width:100%}.sheet td{border-width:0 0 1px}.sheet table{border:1px solid var(--line)}.sheet thead{display:none}}
 @media print{.side,.tabbar,.noprint,header,.topbar{display:none!important}.wrap{max-width:none!important;margin:0!important;padding:0!important}.sheet{border:0!important;box-shadow:none!important;padding:0!important;font-size:9.5pt}.sheet td{padding:3px 5px}body{background:#fff!important;color:#000!important}}
 .drlist .item{width:100%;box-sizing:border-box;display:flex;justify-content:space-between;align-items:center}
@@ -12060,6 +12061,10 @@ const DTH=[
   norm:"critical, often implicit: unmasks what looks neutral",alt:["pe","up","rc"]}];
 const DRD={marx:"pe",hayek:"ei",cozz:"ei",gov:"rcp",rc:"rc",needham:"rc",olson:"rc",taylor:"rc",dembski:"si",moroni:"ei",sorensen:"hi",harvey:"pe",fog:"pe",hh:"pe",savini:"pe",rydin6:"up",pruijt:"up",raco:"disc",gurran:"disc"};
 const DT=id=>DTH.find(t=>t.id===id);
+if(!DT("rcp").alt.includes("ei"))DT("rcp").alt.push("ei");
+/* weak alternatives: perspectives that share most framework positions with t (fewest opposite poles), so the distractors are clearly weaker contrasts */
+const dOpp=(t,x)=>Object.keys(t.pos||{}).filter(a=>x.pos&&x.pos[a]&&t.pos[a][0]*x.pos[a][0]<0).length;
+function dWeak(t){return dPick(DTH.filter(x=>x!==t&&!t.alt.includes(x.id)&&dOpp(t,x)<=1),3).map(x=>x.n);}
 const dPick=(a,n)=>shuffle(a.slice()).slice(0,n);
 const dMC=(q,right,wrong,e,mode)=>{const w=[...new Set(wrong)].filter(x=>x&&x!==right).slice(0,3);if(w.length<3)return null;const o=shuffle([right,...w]);return {q,o,a:o.indexOf(right),e,mode};};
 let dGen=function(mode){const out=[],T=DTH;
@@ -12078,7 +12083,7 @@ let dGen=function(mode){const out=[],T=DTH;
   T.forEach(t=>Object.entries(t.pos).forEach(([ax,[v,txt]])=>{if(!v)return;const [dim,lo,hi]=DAX[ax];const right=v<0?"Closer to "+lo:"Closer to "+hi;out.push(dMC("Write the assumption: on "+dim.toLowerCase()+" ("+lo+" ↔ "+hi+"), where does "+t.n+" typically sit?",right,[v<0?"Closer to "+hi:"Closer to "+lo,"Exactly in the middle: the theory takes no position","This axis does not apply to any course theory"],"Typical position: "+txt+". Always add a reason and a quote from the article.","Assumptions (Q1b/Q2a)"));}));
  }
  if(mode==="alt"||mode==="mix"){
-  T.forEach(t=>{const good=t.alt.map(DT).filter(Boolean),bad=T.filter(x=>x.id!==t.id&&!t.alt.includes(x.id));if(bad.length<3)return;good.slice(0,2).forEach(g=>{const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);const why=ax?"A clear contrast on "+DAX[ax][0].toLowerCase()+" ("+DAX[ax][1]+" ↔ "+DAX[ax][2]+"): "+t.n+": "+t.pos[ax][1]+"; "+g.n+": "+g.pos[ax][1]+".":"Listed as a strong alternative on the theory sheets.";out.push(dMC("The article works in "+t.n+". Which alternative gives a strong contrast for Q2?",g.n,dPick(bad,3).map(x=>x.n),why+" Sheet 7 and sheet "+t.sh+" list the strong alternatives: "+good.map(x=>x.n).join(", ")+".","Alternative (Q2)"));});});
+  T.forEach(t=>{const good=t.alt.map(DT).filter(Boolean),bad=T.filter(x=>x.id!==t.id&&!t.alt.includes(x.id));if(bad.length<3)return;good.slice(0,2).forEach(g=>{const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);const why=ax?"A clear contrast on "+DAX[ax][0].toLowerCase()+" ("+DAX[ax][1]+" ↔ "+DAX[ax][2]+"): "+t.n+": "+t.pos[ax][1]+"; "+g.n+": "+g.pos[ax][1]+".":"Listed as a strong alternative on the theory sheets.";out.push(dMC("The article works in "+t.n+". Which alternative gives a strong contrast for Q2?",g.n,dWeak(t),why+" Sheet 7 and sheet "+t.sh+" list the strong alternatives: "+good.map(x=>x.n).join(", ")+".","Alternative (Q2)"));});});
   T.forEach(t=>T.forEach(g=>{if(t===g)return;const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);if(!ax)return;const [dim,lo,hi]=DAX[ax];const wrongAx=Object.keys(DAX).filter(a=>a!==ax&&!(t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0)).map(a=>DAX[a][0]+" ("+DAX[a][1]+" ↔ "+DAX[a][2]+")");out.push(dMC("Q2: original "+t.n+", alternative "+g.n+". On which axis do their assumptions clearly differ?",dim+" ("+lo+" ↔ "+hi+")",[...new Set(wrongAx)],t.n+": "+t.pos[ax][1]+". "+g.n+": "+g.pos[ax][1]+".","Alternative (Q2)"));}));
  }
  if(mode==="met"||mode==="mix"){
@@ -12204,7 +12209,7 @@ function dMore(mode){const out=[],T=DTH;const nm=id=>DT(id).n;const othN=(id,n)=
   T.forEach(t=>{const oth=T.filter(x=>x!==t);for(let k=0;k<12;k++){const three=dPick(t.words,3);const o2=dPick(oth,1)[0];const odd=dPick(o2.words.filter(w=>!t.words.includes(w)),1)[0];if(!odd)continue;out.push(dMC("Three of these signal words point to "+t.n+". Which one points elsewhere?",odd,three,"“"+odd+"” is a signal word of "+o2.n+".","Recognise (Q1)"));}});
  }
  if(mode==="alt"||mode==="mix"){
-  rds.forEach(id=>{const r=R[id],t=DT(DRD[id]);const good=t.alt.map(DT).filter(Boolean),bad=T.filter(x=>x!==t&&!t.alt.includes(x.id));good.forEach(g=>{if(bad.length>=3)out.push(dMC("The exam article is in the style of "+short(r)+" ("+t.n+"). Which perspective gives a strong alternative for Q2?",g.n,dPick(bad,3).map(x=>x.n),"Strong alternatives for "+t.n+": "+good.map(x=>x.n).join(", ")+" (sheets "+t.sh+" and 7).","Alternative (Q2)"));
+  rds.forEach(id=>{const r=R[id],t=DT(DRD[id]);const good=t.alt.map(DT).filter(Boolean),bad=T.filter(x=>x!==t&&!t.alt.includes(x.id));good.forEach(g=>{if(bad.length>=3)out.push(dMC("The exam article is in the style of "+short(r)+" ("+t.n+"). Which perspective gives a strong alternative for Q2?",g.n,dWeak(t),"Strong alternatives for "+t.n+": "+good.map(x=>x.n).join(", ")+" (sheets "+t.sh+" and 7).","Alternative (Q2)"));
    const ax=Object.keys(DAX).find(a=>t.pos[a]&&g.pos[a]&&t.pos[a][0]*g.pos[a][0]<0);if(ax){const [dim,lo,hi]=DAX[ax];out.push(dMC("Q2 on "+short(r)+": you choose "+g.n+" as the alternative. Which sentence states the contrast correctly?","Whereas the author assumes that "+t.pos[ax][1]+", "+g.n+" assumes that "+g.pos[ax][1]+".",[ "Whereas the author assumes that "+g.pos[ax][1]+", "+g.n+" assumes that "+t.pos[ax][1]+".","Both perspectives assume that "+t.pos[ax][1]+", so they differ only in their normative commitments.","Whereas the author assumes that "+t.pos[ax][1]+", "+g.n+" agrees but adds more empirical data."],dim+" ("+lo+" ↔ "+hi+"): "+t.n+": "+t.pos[ax][1]+"; "+g.n+": "+g.pos[ax][1]+".","Alternative (Q2)"));}});});
  }
  if(mode==="met"||mode==="mix"){
@@ -12271,13 +12276,14 @@ const _dSheetD=dSheet;dSheet=function(sid){const base=_dSheetD(sid);if(sid==="7"
    assumptions, building blocks, cases), each to be linked to the right perspective. Pool = every checked drill item whose answer is a perspective. ===== */
 let LKP=null,LK=null;
 function lkPool(){if(LKP)return LKP;const thN={};DTH.forEach(t=>{thN[t.n]=t.id;});const seen=new Set();LKP=[];
- const strip=s=>String(s).replace(/\s*The exam allows[^?]*\?/i,"").replace(/\s*(Which|What)\b[^?“”]*\b(perspective|theory)\b[^?]*\?/g,"").replace(/^\s*(Which|What)\b[^?]*\?\s*/i,"").replace(/\s+/g," ").trim();
+ const strip=s=>String(s).replace(/\s*The exam allows[^?]*\?/i,"").replace(/\s*(In which|Which|What)\b[^?“”]*\b(perspective|theory)\b[^?]*\?/g,"").replace(/^\s*(Which|What)\b[^?]*\?\s*/i,"").replace(/\s+/g," ").trim();
  let all=[];try{all=dGen("mix");}catch(e){}
  all.forEach(q=>{if(!q||!q.o)return;const id=thN[q.o[q.a]];if(!id)return;if(/^(Highlighting an article|Three of these)/.test(q.q))return;const txt=strip(q.q);if(txt.length<12||txt.length>520)return;
   add(txt,id,q.q,q.e);});
  function add(txt,id,src,e){const m=exTh(txt);if(m.hit.some(h=>h!==id))return;txt=m.t.replace(/^(Passage from a course reading|Quote from a course reading|From the lecture slides|Course example to cite|Signal word in an exam article|You highlight three terms in an exam article|These signal words are highlighted in an article|Real-life example|Typical article|The tell):\s*/i,"").replace(/^Q2: when would you pick this perspective as the alternative\?\s*/i,"Use it as the alternative when: ").replace(/^Concept from a course reading:\s*/i,"").trim();
   txt=txt.replace(/^Highlight practice\.\s*(Passage from a course reading:\s*)?/i,"").replace(/\s+\d\.[”"]?$/,m=>m.includes("”")?"”":"").replace(/\s*Which perspective[^?]*\?\s*$/,"").trim();
   if(/\b(this lecture|same week|this page|this site|this week)\b/i.test(txt))return;
+  if(/\?\s*$/.test(txt)&&!/research question|Q3|RQ/i.test(src))return;
   if(txt.length<4||(txt.length<28&&!/Signal|signal|method/i.test(src)))return;const k=txt.toLowerCase().replace(/[^a-z0-9]+/g,"");if(seen.has(k))return;seen.add(k);
   const kind=/^Concept|Concept from/i.test(src)?"Concept":/Signal word|signal words|highlight three/i.test(src)?"Signal words":/alternative/i.test(src)?"Q2 alternative":/research question|Q3/i.test(src)?"Research focus / method":/assumption|assumes|^Assumption/i.test(src)?"Assumption":/building block/i.test(src)?"Building block":/Real-life|Course example|^Case/i.test(src)?"Case":/Typical article|The tell/i.test(src)?"Typical article":/Quote|Passage|lecture slides|“.{60,}/.test(src)?"Quote or passage":"Item";
   LKP.push({t:txt,id,kind,e:e||""});}
@@ -12369,7 +12375,7 @@ function dFw(){const out=[];const D=BPT_FDIMS||[];const dimN=D.map(d=>d.n.replac
  out.push(dMC("Is realism ↔ relativism one of the four official framework dimensions?","No: it comes from the knowledge lecture (15 Sept)",["Yes: it is dimension 3b","Yes: it replaces monist ↔ pluralist","Yes: it is part of normative commitments"],"The framework has four dimensions (syllabus 4.1). Realism ↔ relativism was added in the knowledge lecture; Rydin argues for soft relativism in which claims can still be tested.","Framework (F)"));
  DTH.forEach(t=>Object.entries(t.pos||{}).forEach(([a,[v,txt]])=>{if(AX[a]==null)return;const right=v<0?POLE[a][0]:v>0?POLE[a][1]:null;
   out.push(dMC("Framework: which dimension is this assumption about? “"+txt+"”",dimN[AX[a]],dimN.filter((_,j)=>j!==AX[a]),"“"+txt+"” is about "+D[AX[a]].n+" ("+t.n+").","Framework (F)"));
-  if(right)out.push(dMC("Framework: which pole does this assumption express? “"+txt+"”",right,[POLE[a][v<0?1:0],...dPick(allP.filter(x=>!POLE[a].includes(x)),2)],"“"+txt+"”: "+right+" ("+t.n+", "+D[AX[a]].n+").","Framework (F)"));}));
+  const txtM=txt.replace(new RegExp("\\b("+POLE[a].join("|")+")\\w*","gi"),"▇▇▇");if(right)out.push(dMC("Framework: which pole does this assumption express? “"+txtM+"”",right,[POLE[a][v<0?1:0],...dPick(allP.filter(x=>!POLE[a].includes(x)),2)],"“"+txt+"”: "+right+" ("+t.n+", "+D[AX[a]].n+").","Framework (F)"));}));
  DTH.forEach(t=>{if(!t.norm)return;out.push(dMC("Normative commitments: which perspective fits these values? “"+t.norm+"”",t.n,dPick(DTH.filter(x=>x!==t).map(x=>x.n),3),"Values of "+t.n+": "+t.norm+".","Framework (F)"));});
  [["Happy City","utilitarian: maximum collective utility (e.g. cost benefit analysis)"],["Equal City","egalitarian: everyone the same in relative terms (e.g. social mixing, redistribution)"],["Supportive City","sufficientarian: everyone enough in absolute terms (e.g. affordable housing as a spatial primary good)"],["Free City","liberal: equal rights and freedom, refrain from intervening (e.g. Oosterwold)"]].forEach(([c,d],i,arr)=>{out.push(dMC("Buitelaar (2026): which city is this? "+d,c,arr.filter(x=>x[0]!==c).map(x=>x[0]),c+": "+d+".","Framework (F)"));});
  try{const P=shParse();const dims=[...new Set(Object.values(P).flatMap(o=>o.rows.map(r=>r[0])))];Object.values(P).forEach(o=>o.rows.forEach(([dim,pos,sent])=>{const s2=sent.replace(/^"|"$/g,"");out.push(dMC("Ready sentence from a theory sheet: “"+s2+"” Which axis is it written on?",dim,dims.filter(x=>x!==dim),dim+": "+pos+".","Framework (F)"));}));}catch(e){}
