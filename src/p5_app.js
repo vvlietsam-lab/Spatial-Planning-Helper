@@ -116,7 +116,7 @@ const daysLeft=()=>calDays(bptNext().d);
 function curWeek(){const w=Math.floor((today0()-COURSE_START)/(7*DAY))+1;return Math.max(1,Math.min(9,w));}
 
 /* ---------- routing ---------- */
-const NAV=[["Final exam · 5 Nov",[["final","Final exam practice","pen"],["sheets","Theory sheets","book"],["drills","Exam drills","spark"],["examples","Real-life examples","grid"],["commentary","Commentary trainer","quiz"]]],["Study",[["today","Today","home"],["weeks","Weeks & plan","cal"],["readings","Lectures","book"],["framework","Framework","grid"],["slides","Slide checklist","src"]]],["Practice",[["flash","Flashcards","cards"],["quiz","Quiz","quiz"],["games","Games","spark"],["open","Open questions","pen"],["mock","Mock exam (midterm)","clock"]]],["About",[["sources","Sources","src"],["method","How this works","info"]]]];
+const NAV=[["Final exam · 5 Nov",[["final","Final exam practice","pen"],["sheets","Theory sheets","book"],["drills","Exam drills","spark"],["link","Link it (4 in 1)","spark"],["examples","Real-life examples","grid"],["commentary","Commentary trainer","quiz"]]],["Study",[["today","Today","home"],["weeks","Weeks & plan","cal"],["readings","Lectures","book"],["framework","Framework","grid"],["slides","Slide checklist","src"]]],["Practice",[["flash","Flashcards","cards"],["quiz","Quiz","quiz"],["games","Games","spark"],["open","Open questions","pen"],["mock","Mock exam (midterm)","clock"]]],["About",[["sources","Sources","src"],["method","How this works","info"]]]];
 const TABS=[["today","Today","home"],["final","Exam","pen"],["sheets","Sheets","book"],["readings","Lectures","book"],["menu","More","menu"]];
 let view="today",sub=null;
 
@@ -402,7 +402,7 @@ function openPal(){P={open:true,q:"",i:0};renderPal();}
 
 /* render + events */
 function renderBPT(){chromeBPT();
-  const V={today:vToday,weeks:vWeeks,readings:(()=>(!sub&&typeof vLectures!=="undefined")?vLectures():vReadings()),lecture:(typeof vLecture!=="undefined"?vLecture:vReadings),framework:vFramework,flash:vFlash,quiz:vQuiz,games:vGames,game:vGame,open:vOpen,slides:vSlides,final:vFinal,sheets:(typeof vSheets!=="undefined"?vSheets:vFinal),drills:(typeof vDrills!=="undefined"?vDrills:vFinal),examples:(typeof vExamples!=="undefined"?vExamples:vFinal),commentary:(typeof vCom!=="undefined"?vCom:vFinal),mock:vMock,sources:vSources,method:vMethod,menu:vMenu};
+  const V={link:(()=>typeof vLink!=="undefined"?vLink():vToday()),today:vToday,weeks:vWeeks,readings:(()=>(!sub&&typeof vLectures!=="undefined")?vLectures():vReadings()),lecture:(typeof vLecture!=="undefined"?vLecture:vReadings),framework:vFramework,flash:vFlash,quiz:vQuiz,games:vGames,game:vGame,open:vOpen,slides:vSlides,final:vFinal,sheets:(typeof vSheets!=="undefined"?vSheets:vFinal),drills:(typeof vDrills!=="undefined"?vDrills:vFinal),examples:(typeof vExamples!=="undefined"?vExamples:vFinal),commentary:(typeof vCom!=="undefined"?vCom:vFinal),mock:vMock,sources:vSources,method:vMethod,menu:vMenu};
   $("#app").innerHTML=(V[view]||vToday)();}
 document.addEventListener("change",e=>{const t=e.target;if(t.id==="orid"){O.rid=t.value;O.k=null;render();return;}
   if(t.dataset.plan){S.plan[t.dataset.plan]=t.checked;persist();render();if(t.checked)toast("Task done");}
