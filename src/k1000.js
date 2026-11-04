@@ -14,3 +14,5 @@ function k1Draw(pop){let el=document.getElementById("k1000");if(!el){el=document
  if(typeof record==="function"){const _r=record;record=function(rd,x){_r(rd,x);qTick();};}
  document.addEventListener("click",e=>{if(e.target.closest("#msubmit")&&typeof M!=="undefined"&&M&&!M.done)qTick(M.qs.length);},true);
  const draw=()=>k1Draw(false);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",draw);else setTimeout(draw,0);})();
+/* audit 4 Nov: drop fill-the-gap items whose answer also appears elsewhere in the sentence */
+(function(){if(typeof ALLQ==="undefined")return;for(let i=ALLQ.length-1;i>=0;i--){const q=ALLQ[i];if(!q||!q.o)continue;const r=String(q.o[q.a]||"").toLowerCase();if(r.length>3&&/____/.test(q.q)&&q.q.toLowerCase().includes(r))ALLQ.splice(i,1);}})();

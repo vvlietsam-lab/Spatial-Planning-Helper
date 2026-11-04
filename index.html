@@ -12134,9 +12134,9 @@ function dSheetGen(sid){const P=shParse(),me=P[sid];if(!me)return [];const th=DT
  me.rows.forEach(([dim,pos,sent])=>{const s2=sent.replace(/^"|"$/g,"");out.push(dMC("Which perspective makes this assumption? “"+s2+"”",nm,othN(),"Sheet "+sid+", "+dim+": "+pos+".","Assumptions (Q1b/Q2a)"));
   const dims=[...new Set(Object.values(P).flatMap(o=>o.rows.map(r=>r[0])))].filter(x=>x!==dim);out.push(dMC("Which framework axis does this assumption (from "+nm+") address? “"+s2+"”",dim,dPick(dims,3),dim+": "+pos+". In the exam, name the dimension, the position, how it shows in the article, and a quote.","Assumptions (Q1b/Q2a)"));
   const pos2=[...new Set(oth.flatMap(([,o])=>o.rows.filter(r=>r[0]===dim&&r[1]!==pos).map(r=>r[1])))];if(pos2.length>=3)out.push(dMC(nm+": typical position on "+dim+"?",pos,dPick(pos2,3),"Sheet "+sid+": "+pos+". “"+s2+"”","Assumptions (Q1b/Q2a)"));});
- me.cites.forEach(c=>out.push(dMC("Course example to cite: "+c+". Which perspective does it illustrate?",nm,othN(),"Listed under 'course examples to cite' on sheet "+sid+" ("+nm+").","Recognise (Q1)")));
+ me.cites.forEach(c0=>{const x=typeof exTh==="function"?exTh(c0):{hit:[],t:c0};if(x.hit.some(h=>h!==th.id))return;const c=x.t;out.push(dMC("Course example to cite: "+c+". Which perspective does it illustrate?",nm,othN(),"Listed under 'course examples to cite' on sheet "+sid+" ("+nm+").","Recognise (Q1)"));});
  const allM=new Set(oth.flatMap(([,o])=>(o.meth||[]).map(m=>m.toLowerCase())));
- (me.use||[]).forEach(u=>out.push(dMC("Q2: when would you pick this perspective as the alternative? "+hide(u,nm),nm,othN(),"Sheet "+sid+", 'use it as the alternative': "+u,"Alternative (Q2)")));
+ (me.use||[]).forEach(u=>out.push(dMC("Q2: when would you pick this perspective as the alternative? "+(typeof exTh==="function"?exTh(hide(u,nm)).t:hide(u,nm)),nm,othN(),"Sheet "+sid+", 'use it as the alternative': "+u,"Alternative (Q2)")));
  if(me.ready)out.push(dMC("Q2 ready sentence: "+me.ready.replace(new RegExp(nm.split(" (")[0],"gi"),"____")+" Which perspective fills the gap?",nm,othN(),"Sheet "+sid+": "+me.ready,"Alternative (Q2)"));
  if(me.rq)out.push(dMC("Q3: which perspective asks this research question? \u201c"+me.rq+"\u201d",nm,othN(),"Typical research question on sheet "+sid+".","Methods (Q3)"));
  (me.meth||[]).filter(m=>!allM.has(m.toLowerCase())&&!/^(surveys?|interviews?|statistics|document analysis|coding|case stud|policy and document)/i.test(m)).forEach(m=>out.push(dMC("Q3 method: \u201c"+m+"\u201d. Which perspective is it typical for?",nm,othN(),"Sheet "+sid+" methods: "+(me.meth||[]).join(", ")+"."+(me.why?" Why: "+me.why:""),"Methods (Q3)")));
@@ -12151,11 +12151,13 @@ dSheet=function(sid){if(sid==="7")return shuffle([...dGen("alt"),...dGen("met")]
 
 /* real-life examples from the readings (each with its source) */
 const EX_SH=(()=>{const m={};Object.entries(SHEET_RD).forEach(([sid,ids])=>{if(sid==="3")return;ids.forEach(id=>{m[id]=sid;});});return m;})();
-function exList(){const out=[];READINGS.forEach(r=>{const sid=EX_SH[r.id];(r.examples||[]).forEach(x=>{if(x&&x.t&&x.d)out.push({t:x.t,d:x.d,p:x.p||"",r,sid:sid||"F"});});});return out;}
+function exListD(){const out=[];READINGS.forEach(r=>{const sid=EX_SH[r.id];(r.examples||[]).forEach(x=>{if(x&&x.t&&x.d)out.push({t:x.t,d:x.d,p:x.p||"",r,sid:sid||"F"});});});return out;}
 /* a case text that names its own perspective: that perspective is the answer, and the name is hidden */
 const EX_NM=[["rci",/rational choice institutionalis[mt]s?/gi],["si",/sociological institutionalis[mt]s?/gi],["hi",/historical institutionalis[mt]s?/gi],["ei",/evolutionary institutionalis[mt]s?/gi],["rc",/rational choice( theory| scholars?| theorists?)?/gi],["pe",/political econom(y|ists?)/gi],["up",/urban politics/gi],["disc",/foucauldian|discourse (theory|analysis)/gi],["rcp",/rational comprehensive planning|governmental model/gi]];
 function exTh(txt){let t=txt;const hit=[];EX_NM.forEach(([id,re])=>{if(re.test(t)){hit.push(id);t=t.replace(re,"▇▇▇");}re.lastIndex=0;});return {hit,t};}
-function exQs(){const L=exList().filter(x=>x.sid!=="F");return L.map(x=>{const nm=exTh(x.d),nt=exTh(x.t);if(new Set(nm.hit.concat(nt.hit)).size>1)return null;nm.hit=nm.hit.concat(nt.hit);x={...x,t:nt.t};const th=DT(nm.hit[0]||SHEET_TH[x.sid][0]);const oth=dPick(DTH.filter(t=>t.id!==th.id),3).map(t=>t.n);const d=typeof mask==="function"?mask(nm.t,x.r.id):nm.t;return dMC("Real-life example: "+x.t+". "+d+" Which perspective is this case used to illustrate in the course?",th.n,oth,"From "+short(x.r)+(x.p?" ("+x.p+")":"")+": the case illustrates "+th.n+" (sheet "+(th.sh||x.sid)+"). In the exam, a case like this makes Q2 and Q3 concrete.","Real-life examples");}).filter(Boolean);}
+/* cases on the general neo-institutionalism page that do not belong to one branch */
+const EX_SKIP=/^(Eurovision|Housing morphology)/;
+function exQs(){const L=exListD().filter(x=>x.sid!=="F"&&!(x.r.id==="ni"&&EX_SKIP.test(x.t)));return L.map(x=>{const nm=exTh(x.d),nt=exTh(x.t);if(new Set(nm.hit.concat(nt.hit)).size>1)return null;nm.hit=nm.hit.concat(nt.hit);x={...x,t:nt.t};const th=DT(nm.hit[0]||SHEET_TH[x.sid][0]);const oth=dPick(DTH.filter(t=>t.id!==th.id),3).map(t=>t.n);const d=typeof mask==="function"?mask(nm.t,x.r.id):nm.t;return dMC("Real-life example: "+x.t+". "+d+" Which perspective is this case used to illustrate in the course?",th.n,oth,"From "+short(x.r)+(x.p?" ("+x.p+")":"")+": the case illustrates "+th.n+" (sheet "+(th.sh||x.sid)+"). In the exam, a case like this makes Q2 and Q3 concrete.","Real-life examples");}).filter(Boolean);}
 const _dGen=dGen;
 dGen=function(mode){const base=_dGen(mode);const map={rec:/^Recognise/,blk:/^Building/,ass:/^Assumptions/,alt:/^Alternative/,met:/^Methods/};let extra=[];
  if(typeof BPT_SHEETS!=="undefined"){const all=Object.keys(shParse()).flatMap(dSheetGen);extra=mode==="mix"?all:all.filter(q=>map[mode]&&map[mode].test(q.mode));}
@@ -12269,12 +12271,14 @@ const _dSheetD=dSheet;dSheet=function(sid){const base=_dSheetD(sid);if(sid==="7"
    assumptions, building blocks, cases), each to be linked to the right perspective. Pool = every checked drill item whose answer is a perspective. ===== */
 let LKP=null,LK=null;
 function lkPool(){if(LKP)return LKP;const thN={};DTH.forEach(t=>{thN[t.n]=t.id;});const seen=new Set();LKP=[];
- const strip=s=>String(s).replace(/\s*The exam allows[^?]*\?/i,"").replace(/\s*(Which|What)\b[^?“”]*\b(perspective|theory)\b[^?]*\?/gi,"").replace(/^\s*(Which|What)\b[^?]*\?\s*/i,"").replace(/\s+/g," ").trim();
+ const strip=s=>String(s).replace(/\s*The exam allows[^?]*\?/i,"").replace(/\s*(Which|What)\b[^?“”]*\b(perspective|theory)\b[^?]*\?/g,"").replace(/^\s*(Which|What)\b[^?]*\?\s*/i,"").replace(/\s+/g," ").trim();
  let all=[];try{all=dGen("mix");}catch(e){}
  all.forEach(q=>{if(!q||!q.o)return;const id=thN[q.o[q.a]];if(!id)return;if(/^(Highlighting an article|Three of these)/.test(q.q))return;const txt=strip(q.q);if(txt.length<12||txt.length>520)return;
   add(txt,id,q.q,q.e);});
  function add(txt,id,src,e){const m=exTh(txt);if(m.hit.some(h=>h!==id))return;txt=m.t.replace(/^(Passage from a course reading|Quote from a course reading|From the lecture slides|Course example to cite|Signal word in an exam article|You highlight three terms in an exam article|These signal words are highlighted in an article|Real-life example|Typical article|The tell):\s*/i,"").replace(/^Q2: when would you pick this perspective as the alternative\?\s*/i,"Use it as the alternative when: ").replace(/^Concept from a course reading:\s*/i,"").trim();
-  if(txt.length<4)return;const k=txt.toLowerCase();if(seen.has(k))return;seen.add(k);
+  txt=txt.replace(/^Highlight practice\.\s*(Passage from a course reading:\s*)?/i,"").replace(/\s+\d\.[”"]?$/,m=>m.includes("”")?"”":"").replace(/\s*Which perspective[^?]*\?\s*$/,"").trim();
+  if(/\b(this lecture|same week|this page|this site|this week)\b/i.test(txt))return;
+  if(txt.length<4||(txt.length<28&&!/Signal|signal|method/i.test(src)))return;const k=txt.toLowerCase().replace(/[^a-z0-9]+/g,"");if(seen.has(k))return;seen.add(k);
   const kind=/^Concept|Concept from/i.test(src)?"Concept":/Signal word|signal words|highlight three/i.test(src)?"Signal words":/alternative/i.test(src)?"Q2 alternative":/research question|Q3/i.test(src)?"Research focus / method":/assumption|assumes|^Assumption/i.test(src)?"Assumption":/building block/i.test(src)?"Building block":/Real-life|Course example|^Case/i.test(src)?"Case":/Typical article|The tell/i.test(src)?"Typical article":/Quote|Passage|lecture slides|“.{60,}/.test(src)?"Quote or passage":"Item";
   LKP.push({t:txt,id,kind,e:e||""});}
  /* extra sources straight from the readings and theory cards */
@@ -12383,7 +12387,7 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-rq]");if(!
 /* BPT: Real-life examples menu: every case from the readings (with page), grouped by theory sheet. */
 let EXF={sh:"all",nl:false,q:""};
 const NLRE=/Dutch|Netherlands|Amsterdam|Rotterdam|Utrecht|Hague|Haag|Bijlmer|Escamp|Rijnenburg|Green Heart|Randstad|Groningen|Eindhoven|Almere|Oosterwold|Kop van Zuid|planschade|Wet betaalbare|participation society|Voorschriften/i;
-function vExamples(){if(typeof exList!=="function")return vFinal();const all=exList();
+function vExamples(){if(typeof exListD!=="function")return vFinal();const all=exListD();
  const groups=[["all","All"],["F","Foundations (L1–L3)"],["1","1 Rational planning"],["2","2 Rational choice"],["3a","3a RCI"],["3b","3b Sociological"],["3c","3c Historical"],["3d","3d Evolutionary"],["4","4 Political economy"],["5","5 Urban politics"],["6","6 Discourse"]];
  const q=EXF.q.toLowerCase();const L=all.filter(x=>(EXF.sh==="all"||x.sid===EXF.sh)&&(!EXF.nl||NLRE.test(x.t+" "+x.d))&&(!q||(x.t+" "+x.d+" "+x.r.title).toLowerCase().includes(q)));
  const tag=x=>x.sid==="F"?"Foundations":(DT(SHEET_TH[x.sid][0])||{}).n;
@@ -12809,6 +12813,8 @@ function k1Draw(pop){let el=document.getElementById("k1000");if(!el){el=document
  if(typeof record==="function"){const _r=record;record=function(rd,x){_r(rd,x);qTick();};}
  document.addEventListener("click",e=>{if(e.target.closest("#msubmit")&&typeof M!=="undefined"&&M&&!M.done)qTick(M.qs.length);},true);
  const draw=()=>k1Draw(false);if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",draw);else setTimeout(draw,0);})();
+/* audit 4 Nov: drop fill-the-gap items whose answer also appears elsewhere in the sentence */
+(function(){if(typeof ALLQ==="undefined")return;for(let i=ALLQ.length-1;i>=0;i--){const q=ALLQ[i];if(!q||!q.o)continue;const r=String(q.o[q.a]||"").toLowerCase();if(r.length>3&&/____/.test(q.q)&&q.q.toLowerCase().includes(r))ALLQ.splice(i,1);}})();
 
 </script>
 </body></html>

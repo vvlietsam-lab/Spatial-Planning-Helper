@@ -1,7 +1,7 @@
 /* BPT: Real-life examples menu: every case from the readings (with page), grouped by theory sheet. */
 let EXF={sh:"all",nl:false,q:""};
 const NLRE=/Dutch|Netherlands|Amsterdam|Rotterdam|Utrecht|Hague|Haag|Bijlmer|Escamp|Rijnenburg|Green Heart|Randstad|Groningen|Eindhoven|Almere|Oosterwold|Kop van Zuid|planschade|Wet betaalbare|participation society|Voorschriften/i;
-function vExamples(){if(typeof exList!=="function")return vFinal();const all=exList();
+function vExamples(){if(typeof exListD!=="function")return vFinal();const all=exListD();
  const groups=[["all","All"],["F","Foundations (L1–L3)"],["1","1 Rational planning"],["2","2 Rational choice"],["3a","3a RCI"],["3b","3b Sociological"],["3c","3c Historical"],["3d","3d Evolutionary"],["4","4 Political economy"],["5","5 Urban politics"],["6","6 Discourse"]];
  const q=EXF.q.toLowerCase();const L=all.filter(x=>(EXF.sh==="all"||x.sid===EXF.sh)&&(!EXF.nl||NLRE.test(x.t+" "+x.d))&&(!q||(x.t+" "+x.d+" "+x.r.title).toLowerCase().includes(q)));
  const tag=x=>x.sid==="F"?"Foundations":(DT(SHEET_TH[x.sid][0])||{}).n;

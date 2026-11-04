@@ -130,3 +130,10 @@ Still to ask Sam: his BPT tutorial team, and his PSC presentation slot.
 - bpt_lectures.js: Lectures L1–L9 replace the readings list (`readings` without sub = lectures, `lecture` = lecture page with slide points by deck prefix + per-slide AUD index + midterm Q&A extras); model answers and trainer show official dimension + axis names.
 - Menu: "Final exam · 5 Nov" group first; phone tabs Today/Exam/Sheets/Lectures/More.
 - Official framework (syllabus 4.1): 4 dimensions; realism ↔ relativism is from the 15 Sept knowledge lecture, not a framework dimension.
+
+## 4 Nov audit
+- exList name clash fixed (drills defined exList(), which broke the Examples list on every reading page and PSC page: "[object Object]"); drill helper is now exListD.
+- Link it pool: case-sensitive strip of "Which perspective" tails, junk/meta filter, alnum dedupe.
+- Cloze items whose answer appears elsewhere in the sentence are dropped (k1000.js). Sheet cites naming another theory dropped; "use it as alternative" masked.
+- Neo-institutionalism page cases Eurovision and Housing morphology skipped in real-life drills (no single branch).
+- Audit scripts: scratchpad audit.js (bank checks) and render.js (every view, drill, lecture quiz, PSC page).
