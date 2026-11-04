@@ -33,7 +33,7 @@ const DTH=[
   blocks:["March & Olsen: logic of appropriateness vs logic of consequences","Institutions as frames of meaning: symbol systems, cognitive scripts, moral templates (Hall & Taylor)","Goodness of fit (DiMaggio & Powell): arrangements reproduced because they fit established templates","Dembski & Salet: symbolic markers can institute new social meaning"],
   rq:"Which shared norms and symbols make actors support this concept, and how do they change in practice?",
   meth:["Organisational mapping with discourse analysis or interpretive policy analysis (Rydin Table 10.2, new institutionalism)","Interviews and participant observation in organisations","Analysis of plans, images and symbols"],
-  pos:{sa:[0,"norms are internalised but changed in daily action"],rt:[-1,"mostly reproduction, gradual change"],us:[1,"meaning depends on context; interpretive"]},
+  pos:{sa:[0,"norms are internalised but changed in daily action"],rt:[-1,"mostly reproduction, gradual change"],de:[0,"change can be deliberate but not voluntaristic: new symbols must fit existing norms and be validated in action (Dembski and Salet 2010, p. 617)"],us:[1,"meaning depends on context; interpretive"]},
   norm:"social meaning and legitimacy",alt:["rc","rci","pe","disc"]},
  {id:"hi",n:"Historical institutionalism",sh:"3c",
   words:["path dependence","lock in","critical juncture","increasing returns","sequence and timing","layering","conjunctural analysis"],
