@@ -137,3 +137,11 @@ Still to ask Sam: his BPT tutorial team, and his PSC presentation slot.
 - Cloze items whose answer appears elsewhere in the sentence are dropped (k1000.js). Sheet cites naming another theory dropped; "use it as alternative" masked.
 - Neo-institutionalism page cases Eurovision and Housing morphology skipped in real-life drills (no single branch).
 - Audit scripts: scratchpad audit.js (bank checks) and render.js (every view, drill, lecture quiz, PSC page).
+
+## Planned extras (9 Nov, not built yet)
+Period 1 is over (BPT, PSC). Build these only for the period 2 courses, as optional extra modes, once the course material arrives (or for period 1 only if there is a resit):
+1. Lesson / teacher mode per lecture (inspired by OpenMAIC, MIT): step-through scenes = key point, then step-by-step whiteboard SVG, then check question.
+2. Scripted classmates who voice common misconceptions; student answers first, then the teacher explains (source: trap/neighbour data and questions asked).
+3. Interactive framework board: drag theories onto axes, feedback per placement.
+4. Project mode: guided case analysis with checklists and model answers (e.g. a Studio case).
+Optional live version via the artifact ask-Claude capability (uses the user own usage; artifact only, not GitHub Pages).
