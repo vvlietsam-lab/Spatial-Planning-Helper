@@ -1,14 +1,16 @@
 # Spatial Planner helper
 
-A single-page study site for the **MSc Spatial Planning at Utrecht University** (period 1, 2026–27):
+A single-page study site for the **MSc Spatial Planning at Utrecht University** (2026–27).
 
-| Course | Code | What's in it |
+| Course | Code | Status |
 |---|---|---|
-| Beyond Planning Theory | GEO4-3115 | 29 readings (weeks 1–7): summary, key concepts, figure, table, example, quotes, framework position, exam angle · flashcards · MCQ quiz · open questions · timed mock midterm |
-| Planning for Sustainable Cities | GEO4-3124 | 13 lectures: what the slides said, the mandatory reading, every recommended reading (abstract + what the slides say about it) · flashcards · essay practice |
-| Graduate Planning Studio | GEO4-3127 | Phases, deliverables and deadlines |
+| Real Estate | GEO4-3917 | Period 2 · readings, quiz at five exam levels, open questions, flashcards, exam simulation, teacher mode |
+| Advanced Research Methods | GEO4-3120 | Period 2 · proposal checklist, oral exam practice, learning labs, reading list |
+| Beyond Planning Theory | GEO4-3115 | Period 1 · finished, archived |
+| Planning for Sustainable Cities | GEO4-3124 | Period 1 · finished, archived |
+| Graduate Planning Studio | GEO4-3127 | Runs until end of January |
 
-Study features: Leitner spaced repetition (a reading turns green at 80% mastery), interleaved retrieval quizzes, exam-style open questions with rubrics, a day plan and deadline overview, ⌘K search. Progress is stored in your own browser (`localStorage`), so everyone who opens it has their own progress.
+Progress is stored in your own browser (`localStorage`), so everyone who opens it has their own progress.
 
 ## Use it
 Open `index.html` in a browser, or enable **GitHub Pages** (Settings → Pages → Deploy from branch → `main` / root) and share the link.
@@ -18,6 +20,7 @@ All content and code live in `src/` (plain JS data files + app code). After edit
 
 ```bash
 python3 build.py   # writes index.html
+NODE_PATH=$(npm root -g) node tools/test_site.js   # smoke test: every page, quiz and question bank
 ```
 
 - `src/p2_readings.js`, `p2b_updates.js`, `p9*.js`: BPT readings; `p3_bank.js`: flashcards (`FC`), MCQs (`MCQ`), open questions (`OPEN`)
@@ -29,3 +32,6 @@ python3 build.py   # writes index.html
 Continuing development in a new chat: see `HANDOVER.md`.
 
 Each reading page says what it is built from (full text, slides only, or general knowledge). Check anything marked partial against the original text. Not affiliated with Utrecht University.
+
+## Adding a course (period 2 onwards)
+New courses are data files on the course template in `src/ct_core.js`: call `CT.add({...})` with lectures, readings, questions, open questions and optional teacher-mode scenes (see `src/re_data.js`). Views, routing, progress and the home tile come for free.

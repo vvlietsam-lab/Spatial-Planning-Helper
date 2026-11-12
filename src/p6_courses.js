@@ -69,13 +69,13 @@ function skyline(){let sd=11;const rnd=()=>(sd=(sd*16807)%2147483647)/2147483647
   // zoning blocks on the ground
   let z="";const zc=["var(--lime)","var(--good)","var(--uured)","var(--info)"];for(let i=0;i<9;i++){const x=rnd()*W,w=60+rnd()*140;z+=`<polygon class="zone" points="${x},${B+4} ${x+w},${B+4} ${x+w*1.25},${B+40} ${x-w*.25},${B+40}" fill="${zc[i%4]}"/>`;}
   // back layer
-  let bk="";for(let x=-20;x<W;){const w=34+rnd()*60,h=50+rnd()*120;bk+=`<rect class="bk rise" style="--d:${d++}" x="${x}" y="${B-h}" width="${w-4}" height="${h}"/>`;x+=w;}
+  let bk="";for(let x=-20;x<W;){const w=34+rnd()*60,h=50+rnd()*120;bk+=`<rect class="bk rise" style="--d:${d++}" x="${x}" y="${B-h}" width="${w-4}" height="${h}"/><rect class="cap bkcap" x="${x}" y="${B-h-2}" width="${w-4}" height="4" rx="2"/>`;x+=w;}
   // front layer with windows, leave room for the Dom at 930
   let fr="",lit=0;for(let x=-10;x<W;){const w=26+rnd()*44,h=24+rnd()*92;if(x>885&&x<985){x=990;continue;}
     let wins="";for(let yy=B-h+8;yy<B-10;yy+=14)for(let xx=x+6;xx<x+w-12;xx+=11){const on=rnd()<.06;wins+=`<rect class="${on?'lit':'win'}" ${on?`style="animation-delay:${(rnd()*4).toFixed(2)}s"`:''} x="${xx.toFixed(1)}" y="${yy.toFixed(1)}" width="4" height="6" opacity="${on?1:.55}"/>`;}
-    fr+=`<g class="rise" style="--d:${d++}"><rect class="fr" x="${x.toFixed(1)}" y="${(B-h).toFixed(1)}" width="${(w-3).toFixed(1)}" height="${h.toFixed(1)}"/>${wins}</g>`;x+=w;}
+    fr+=`<g class="rise" style="--d:${d++}"><rect class="fr" x="${x.toFixed(1)}" y="${(B-h).toFixed(1)}" width="${(w-3).toFixed(1)}" height="${h.toFixed(1)}"/>${wins}<rect class="cap" x="${(x-1).toFixed(1)}" y="${(B-h-3).toFixed(1)}" width="${(w-1).toFixed(1)}" height="5" rx="2.5"/>${rnd()<.35?Array.from({length:Math.max(2,Math.floor(w/9))},(_,k)=>`<circle class="xl x${k%4}" style="animation-delay:${(k*.37).toFixed(2)}s" cx="${(x+4+k*9).toFixed(1)}" cy="${(B-h+6+Math.sin(k)*2).toFixed(1)}" r="1.6"/>`).join(""):""}</g>`;x+=w;}
   // trees (parks)
-  let tr="";[[120,9],[146,12],[170,8],[610,10],[634,13],[1180,11],[1206,8],[1330,12]].forEach(([x,r])=>tr+=`<circle class="tree rise" style="--d:${d++}" cx="${x}" cy="${B-r}" r="${r}"/>`);
+  let tr="";[[120,9],[146,12],[170,8],[610,10],[634,13],[1180,11],[1206,8],[1330,12]].forEach(([x,r])=>tr+=`<circle class="tree rise" style="--d:${d++}" cx="${x}" cy="${B-r}" r="${r}"/><path class="cap" d="M${x-r*.8},${B-r-r*.45} Q${x},${B-r*2.15} ${x+r*.8},${B-r-r*.45} Q${x},${B-r*1.55} ${x-r*.8},${B-r-r*.45}z"/>`);
   // the Dom tower (abstract)
   const dx=935;const dom=`<g class="rise" style="--d:${d++}"><rect class="dom" x="${dx-24}" y="${B-112}" width="48" height="112"/><rect class="dom" x="${dx-18}" y="${B-150}" width="36" height="40"/><rect class="dom" x="${dx-12}" y="${B-178}" width="24" height="30"/><polygon class="dom" points="${dx-12},${B-178} ${dx},${B-196} ${dx+12},${B-178}"/><rect class="domw" x="${dx-6}" y="${B-100}" width="12" height="22" rx="6"/><rect class="domw" x="${dx-5}" y="${B-142}" width="10" height="18" rx="5"/><rect class="domw" x="${dx-12}" y="${B-14}" width="24" height="14" rx="7"/></g>`;
   // masterplan line connecting nodes + a train along it
@@ -88,37 +88,39 @@ function skyline(){let sd=11;const rnd=()=>(sd=(sd*16807)%2147483647)/2147483647
    <g class="lyr" data-depth="12">${bk}</g>
    <g class="lyr" data-depth="20">${tr}${fr}${dom}</g>
    <g class="lyr" data-depth="28">${plan}</g></svg></div>`;}
+function isWinter(){const d=new Date(),m=d.getMonth();return m===10&&d.getDate()>=10||m===11||m===0;}
 function vHome(){const ov=overall(),due=dueCards().length,mast=BR().filter(r=>topicStats(r.id).mastered).length;
-  const up=DEADLINES.filter(d=>new Date(d[0])>Date.now()).slice(0,5);
-  return `<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div><div class="home fade">
+  const up=DEADLINES.concat(typeof CT!=="undefined"?CT.list().flatMap(c=>(c.deadlines||[]).map(d=>[d[0],c.short,d[1]])):[]).filter(d=>new Date(d[0])>Date.now()).sort((a,b)=>new Date(a[0])-new Date(b[0])).slice(0,5);
+  return `<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>${isWinter()?'<div class="snow" aria-hidden="true"><i></i><i></i><i></i></div>':""}<div class="home fade ${isWinter()?"winter":""}">
   <header class="hhead"><div class="row" style="gap:10px"><div class="logo">SP</div><b>Spatial Planner helper</b></div><div class="row"><span class="small mut hide-sm">${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</span><button class="btn sm" data-go="method" data-sub="xfer" title="Move progress between devices">Sync devices</button><button class="kbtn" style="width:auto;margin:0" data-pal="1">${ic('search')}<kbd>⌘K</kbd></button></div></header>
-  <section class="hhero"><p class="eyebrow">MSc Spatial Planning · Period 1 · Utrecht University</p>
+  <section class="hhero"><p class="eyebrow">MSc Spatial Planning · ${isWinter()?"Block 2 · Winter edition":"Period 2"} · Utrecht University</p>
    <h1 class="mega"><span class="ln" style="--i:0"><span>Spatial Planner</span></span><span class="ln" style="--i:1"><span class="hscript">helper<svg class="scrib" viewBox="0 0 300 40" preserveAspectRatio="none" aria-hidden="true"><path d="M4 28 C 60 10, 120 36, 180 18 S 270 8, 296 22"/></svg></span></span></h1>
    <p class="hsub">Summaries, figures, flashcards, quizzes and exam practice for the MSc Spatial Planning at Utrecht University. Pick a course.</p>
-   <div class="hcount">${[[daysLeft(),"days to the BPT midterm"],[due,"cards due today"],[dleft(PSC_EXAM),"days to the PSC exam"]].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')}</div></section>
+   <div class="hcount">${[[Math.max(0,dleft(new Date("2026-12-16T10:40:00+01:00"))),"days to the Real Estate exam"],[Math.max(0,dleft(new Date("2026-12-18T23:59:00+01:00"))),"days to the ARM proposal"],[Math.max(0,dleft(new Date("2026-12-25T00:00:00+01:00"))),"days to Christmas"]].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('')}</div></section>
   ${skyline()}
-  ${(()=>{const it=["BPT midterm · Thu 8 Oct","Retrieval beats rereading","PSC exam · Mon 26 Oct","Structure ↔ agency","Spaced repetition","Studio plan · Wed 7 Oct","Theory is a heuristic aid","Interleave your practice"];const row=c=>`<div class="mtrack ${c}">${[...it,...it].map(x=>`<span>${x}</span><i>✦</i>`).join('')}</div>`;return `<div class="marquee" aria-hidden="true">${row('')}${row('rev')}</div>`;})()}
+  ${(()=>{const it=isWinter()?["Real Estate exam · Wed 16 Dec","❄ Retrieval beats rereading","ARM proposal · Fri 18 Dec","Space market ↔ asset market","❄ Spaced repetition","Oral exams · 12–21 Jan","Kinked supply","Interleave your practice"]:["Real Estate exam · Wed 16 Dec","Retrieval beats rereading","ARM proposal · Fri 18 Dec","Space market ↔ asset market","Spaced repetition","Oral exams · 12–21 Jan","Kinked supply","Interleave your practice"];const row=c=>`<div class="mtrack ${c}">${[...it,...it].map(x=>`<span>${x}</span><i>✦</i>`).join('')}</div>`;return `<div class="marquee" aria-hidden="true">${row('')}${row('rev')}</div>`;})()}
   <section class="tiles">
-   <button class="tile t-bpt" data-go="today"><div class="tglow"></div><span class="tidx">01</span>
-    <div class="row between"><span class="tcode">GEO4-3115</span><span class="tpill">${bptNext().n==="midterm"?"Midterm":"Final"} ${cdTxt(bptNext().d)}</span></div>
+   ${(typeof CT!=="undefined"?CT.list():[]).map((c,i)=>{const m=CT.mastery(c);const rs=Object.values(c.readings),have=rs.filter(r=>r.status==="full").length;const ex=c.exam;return `<button class="tile t-${c.id}" data-go="${c.id}"><div class="tglow"></div><span class="tidx">${String(i+1).padStart(2,"0")}</span><div class="row between"><span class="tcode">${c.code}</span><span class="tpill">${ex?esc(ex.short==="the exam"?"Exam":"Proposal")+" "+cdTxt(new Date(ex.date)):""}</span></div><div class="tname">${c.title.replace(" ","<br>")}</div><div class="tmeta">${esc(c.tile||"")}</div><div class="tstats"><div>${ring(m.p,"lg")}</div><div class="tnums"><div><b>${have}<small>/${rs.filter(r=>!r.optional).length}</small></b><span>readings on file</span></div><div><b>${c.lectures.filter(l=>l.readings&&l.readings.length||l.n<=10).length}</b><span>sessions</span></div><div><b>${CT.bank(c,{}).length}</b><span>questions</span></div></div></div><span class="tcta">${i?"Open course →":"Start studying →"}</span></button>`;}).join("")}
+   <button class="tile t-bpt" data-go="today"><div class="tglow"></div><span class="tidx">${String((typeof CT!=="undefined"?CT.list().length:0)+1).padStart(2,"0")}</span>
+    <div class="row between"><span class="tcode">GEO4-3115</span><span class="tpill">${Date.now()>new Date("2026-11-05T18:00:00+01:00")?"Finished · archived":(bptNext().n==="midterm"?"Midterm":"Final")+" "+cdTxt(bptNext().d)}</span></div>
     <div class="tname">Beyond<br>Planning Theory</div>
     <div class="tmeta">Rational planning · rational choice · neo-institutionalism · knowledge</div>
     <div class="tstats"><div>${ring(ov,'lg')}</div><div class="tnums"><div><b>${mast}<small>/${BR().length}</small></b><span>readings mastered</span></div><div><b>${due}</b><span>cards due</span></div><div><b>${streak()}</b><span>day streak</span></div></div></div>
     <span class="tcta">Continue studying →</span></button>
-   <button class="tile t-psc" data-go="psc"><div class="tglow"></div><span class="tidx">02</span>
-    <div class="row between"><span class="tcode">GEO4-3124</span><span class="tpill">Exam ${cdTxt(PSC_EXAM)}</span></div>
+   <button class="tile t-psc" data-go="psc"><div class="tglow"></div><span class="tidx">${String((typeof CT!=="undefined"?CT.list().length:0)+2).padStart(2,"0")}</span>
+    <div class="row between"><span class="tcode">GEO4-3124</span><span class="tpill">${Date.now()>new Date("2026-11-07T00:00:00+01:00")?"Finished · archived":"Exam "+cdTxt(PSC_EXAM)}</span></div>
     <div class="tname">Planning for<br>Sustainable Cities</div>
     <div class="tmeta">Planning dilemmas · global planning systems · transitions · post-growth · nature</div>
     <div class="tstats"><div>${ring(pscStats().m,'lg')}</div><div class="tnums"><div><b>${pscStats().mast}<small>/13</small></b><span>lectures mastered</span></div><div><b>${pscStats().due}</b><span>cards due</span></div><div><b>${PSC_ESSAY.length}</b><span>essay drills</span></div></div></div>
     <span class="tcta">Continue studying →</span></button>
-   <button class="tile t-std" data-go="studio"><div class="tglow"></div><span class="tidx">03</span>
+   <button class="tile t-std" data-go="studio"><div class="tglow"></div><span class="tidx">${String((typeof CT!=="undefined"?CT.list().length:0)+3).padStart(2,"0")}</span>
     <div class="row between"><span class="tcode">GEO4-3127</span><span class="tpill">${rawDays(new Date("2026-10-07T17:00:00+02:00"))<0?"Plan deadline passed":"Plan due "+cdTxt(new Date("2026-10-07T17:00:00+02:00"))}</span></div>
     <div class="tname">Graduate<br>Planning Studio</div>
     <div class="tmeta">Just Cities · research plan → report → product → symposium</div>
     <div class="tstats"><div class="tbig">4</div><div class="tnums"><div><b>15%</b><span>research plan</span></div><div><b>30%</b><span>report</span></div><div><b>55%</b><span>product + talk</span></div></div></div>
     <span class="tcta">Open studio →</span></button>
   </section>
-  <section class="hsec"><h3>Coming up</h3><div class="upc">${up.map(([d,c,t])=>{const dt=new Date(d);return `<div class="upi"><span class="dot ${c==='BPT'?'b':c==='PSC'?'p':'s'}"></span><div class="upd">${dt.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</div><div class="upt">${esc(t)}</div><div class="small mut">${c} · in ${dleft(dt)} days</div></div>`}).join('')}</div></section>
+  <section class="hsec"><h3>Coming up</h3><div class="upc">${up.map(([d,c,t])=>{const dt=new Date(d);return `<div class="upi"><span class="dot ${c==='BPT'?'b':c==='PSC'?'p':c==='RE'?'re':c==='ARM'?'arm':'s'}"></span><div class="upd">${dt.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</div><div class="upt">${esc(t)}</div><div class="small mut">${c} · in ${dleft(dt)} days</div></div>`}).join('')}</div></section>
   <section class="hsec"><div class="card"><div class="row between"><div class="eyebrow">Study activity</div><span class="small mut">${ic('flame')} ${streak()}-day streak</span></div>${heatmap()}</div></section>
   </div>`;}
 

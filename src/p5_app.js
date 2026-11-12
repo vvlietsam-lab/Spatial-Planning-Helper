@@ -143,7 +143,7 @@ function vToday(){
   const weak=BR().map(r=>({r,s:topicStats(r.id)})).filter(x=>!x.s.mastered).sort((a,b)=>a.s.m-b.s.m).slice(0,4);
   const done=plan[2].filter((_,i)=>S.plan[plan[0]+"#"+i]).length;
   return `<div class="fade"><p class="eyebrow">Week ${curWeek()} of 9 · ${new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})}</p>
-  <h1 class="hero">${greet()}. ${daysLeft()===0?`<em>${bptNext().n==='midterm'?'Midterm':'Final exam'} today.</em> Good luck!`:`<em>${daysLeft()===1?'1 day':daysLeft()+' days'}</em> to the ${bptNext().n}.`}</h1>
+  <h1 class="hero">${greet()}. ${Date.now()>new Date("2026-11-05T18:00:00+01:00")?`<em>Course finished.</em> Archived for revision.`:daysLeft()===0?`<em>${bptNext().n==='midterm'?'Midterm':'Final exam'} today.</em> Good luck!`:`<em>${daysLeft()===1?'1 day':daysLeft()+' days'}</em> to the ${bptNext().n}.`}</h1>
   <p class="lede">Today: ${due} flashcards due, and ${plan[2].length-done} plan task${plan[2].length-done===1?'':'s'} left.</p>
   <div class="row" style="margin:16px 0 24px"><button class="btn primary" data-startdue="1">Review ${due} due cards <kbd>R</kbd></button><button class="btn" data-quizmix="1">Interleaved quiz <kbd>Q</kbd></button><button class="btn" data-boss="w${(w=>w<=4?w:w===5?4:Math.min(7,Math.max(6,w)))(curWeek())}">${ic("spark")} Week ${Math.min(4,curWeek())} boss</button><button class="btn" data-go="games">All games</button></div>
   <div class="grid g3">
