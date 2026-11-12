@@ -683,6 +683,20 @@ body.is-home:has(.home.winter) .aurora i:nth-child(3){background:#ef4444;opacity
 @media (prefers-reduced-motion:reduce){.snow{display:none}.wbanim .wb,.wbanim .wb path{animation:none;opacity:1;stroke-dashoffset:0}}
 /* phone: keep the 1000-question counter clear of page content */
 @media (max-width:640px){#app{padding-bottom:110px}}
+
+/* ===== winter accents inside the courses (light touch) ===== */
+body.winter:not(.is-home) #app>.fade::before{background:linear-gradient(90deg,#7dd3fc,var(--course,#0e7490) 55%,#b91c1c)}
+body.winter .side{background:linear-gradient(180deg,color-mix(in srgb,#bae6fd 30%,var(--bg)) 0,var(--bg) 260px)}
+body.winter .side::after{content:"";position:absolute;left:0;right:0;top:0;height:260px;pointer-events:none;opacity:.55;background-image:radial-gradient(1.6px 1.6px at 30px 40px,#fff,transparent),radial-gradient(2px 2px at 140px 90px,#fff,transparent),radial-gradient(1.4px 1.4px at 210px 30px,#fff,transparent),radial-gradient(1.8px 1.8px at 90px 160px,#fff,transparent),radial-gradient(1.5px 1.5px at 190px 200px,#fff,transparent);background-size:248px 260px;filter:drop-shadow(0 0 1px rgba(14,116,144,.5));animation:sidesnow 14s linear infinite;-webkit-mask-image:linear-gradient(180deg,#000 40%,transparent);mask-image:linear-gradient(180deg,#000 40%,transparent)}
+@keyframes sidesnow{from{background-position:0 0}to{background-position:20px 260px}}
+body.winter .side>*{position:relative;z-index:1}
+body.winter .topbar{border-bottom:2px solid transparent;border-image:linear-gradient(90deg,#b91c1c,#16a34a,#facc15,#0ea5e9,#b91c1c) 1}
+body.winter .sidefoot .lbl::before{content:"❄ ";color:#0ea5e9}
+body.winter .nav button[aria-current="page"]{box-shadow:inset 2px 0 0 #7dd3fc}
+body.winter .tabbar button[aria-current="page"] .ico{color:#0e7490}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.winter .side{background:linear-gradient(180deg,#0b1724 0,var(--bg) 260px)}}
+:root[data-theme="dark"] body.winter .side{background:linear-gradient(180deg,#0b1724 0,var(--bg) 260px)}
+@media (prefers-reduced-motion:reduce){body.winter .side::after{animation:none}}
 </style>
 
 <aside class="side" id="side"></aside>

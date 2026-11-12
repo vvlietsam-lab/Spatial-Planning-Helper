@@ -20,6 +20,8 @@ function add(c){c.questions=(c.questions||[]).map((q,i)=>Object.assign({k:c.id+"
   c.open=c.open||[];c.readings=c.readings||{};c.lectures=c.lectures||[];c.gens=c.gens||[];
   Object.entries(c.readings).forEach(([id,r])=>{r.id=id;});C[c.id]=c;}
 const get=id=>C[id];
+/* add readings, questions or open questions to a registered course (one data file per batch of readings) */
+function extend(id,x){const c=C[id];if(!c)return;Object.entries(x.readings||{}).forEach(([k,r])=>{r.id=k;c.readings[k]=Object.assign(c.readings[k]||{},r);});(x.questions||[]).forEach(q=>c.questions.push(Object.assign({k:id+"-"+(q.id||hash(q.q))},q)));(x.open||[]).forEach(o=>c.open.push(o));Object.assign(c.teach=c.teach||{},x.teach||{});if(x.banner)c.banner=x.banner;}
 const isCourseView=v=>!!C[String(v).split("-")[0]];
 const courseOf=v=>String(v).split("-")[0];
 
@@ -224,13 +226,13 @@ document.addEventListener("input",e=>{const t=e.target;if(!cur)return;const s=st
  if(t.dataset.ctnote){s.notes[t.dataset.ctnote]=t.value;clearTimeout(t._t);t._t=setTimeout(save,500);}
  if(t.dataset.ctxt&&X)X.txt[t.dataset.ctxt]=t.value;});
 
-return {add,get,C,render,isCourseView,courseOf,bank,generated,concepts,st,dleft,fmt,LV,SV,mastery,list:()=>Object.values(C)};
+return {add,extend,get,C,render,isCourseView,courseOf,bank,generated,concepts,st,dleft,fmt,LV,SV,mastery,list:()=>Object.values(C)};
 })();
 
 /* ---------- routing: hook the template courses into the existing router ---------- */
 (function(){const _go=go,_render=render;
   go=function(v,s){if(v&&String(v).includes("~")){[v,s]=String(v).split("~");}if(v&&CT.isCourseView(v)){course=CT.courseOf(v);view=v;sub=s??null;render();window.scrollTo(0,0);return;}return _go(v,s);};
-  render=function(){if(course&&CT.get(course)){try{history.replaceState(null,"","#"+view)}catch(e){}document.body.classList.remove("is-home");CT.render(view,sub);return;}return _render();};
+  render=function(){try{document.body.classList.toggle("winter",typeof isWinter==="function"&&isWinter());}catch(e){}if(course&&CT.get(course)){try{history.replaceState(null,"","#"+view)}catch(e){}document.body.classList.remove("is-home");CT.render(view,sub);return;}return _render();};
   try{const h=location.hash.slice(1);if(h&&CT.isCourseView(h)){course=CT.courseOf(h);view=h;}}catch(e){}
   const _pal=palItems;palItems=function(){const g=_pal();const q=(typeof P!=="undefined"&&P.q)?P.q.toLowerCase():"";const items=CT.list().flatMap(c=>[[c.title+" · overview","go",c.id,""],[c.title+" · lectures","go",c.id+"-lectures",""],[c.title+" · quiz","go",c.id+"-quiz",""],...Object.values(c.readings).filter(r=>r.status==="full").map(r=>[c.short+" · "+(r.short||r.ref),"go",c.id+"-reading~"+r.id,"reading"])]).filter(a=>!q||a[0].toLowerCase().includes(q));if(items.length)g.unshift(["Period 2",items]);return g;};
 })();
