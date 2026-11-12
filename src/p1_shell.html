@@ -697,6 +697,41 @@ body.winter .tabbar button[aria-current="page"] .ico{color:#0e7490}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.winter .side{background:linear-gradient(180deg,#0b1724 0,var(--bg) 260px)}}
 :root[data-theme="dark"] body.winter .side{background:linear-gradient(180deg,#0b1724 0,var(--bg) 260px)}
 @media (prefers-reduced-motion:reduce){body.winter .side::after{animation:none}}
+
+/* ===== colour inside the template courses (Real Estate, ARM) ===== */
+body.c-re{--course:#0e7490;--course2:#f59e0b;--ctint:#ecfeff}
+body.c-arm{--course:#7c3aed;--course2:#f472b6;--ctint:#f5f3ff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.c-re{--ctint:#06222a}:root:not([data-theme="light"]) body.c-arm{--ctint:#1b1230}}
+:root[data-theme="dark"] body.c-re{--ctint:#06222a}:root[data-theme="dark"] body.c-arm{--ctint:#1b1230}
+body.ct{background:radial-gradient(900px 420px at 85% -10%,color-mix(in srgb,var(--course) 12%,transparent),transparent 70%),radial-gradient(700px 380px at 10% 110%,color-mix(in srgb,var(--course2) 10%,transparent),transparent 70%),var(--bg);background-attachment:fixed}
+body.ct h1.hero em,body.ct h2.serif em{color:var(--course)}
+body.ct .btn.primary{background:var(--course);border-color:var(--course);color:#fff}
+body.ct .nav button[aria-current="page"]{background:color-mix(in srgb,var(--course) 12%,transparent);color:var(--course)}
+body.ct .nav button[aria-current="page"] .ico{color:var(--course)}
+body.ct .brand .logo{box-shadow:0 4px 14px -4px var(--course)}
+body.ct .oneliner{border-left-color:var(--course);background:linear-gradient(90deg,color-mix(in srgb,var(--course) 7%,transparent),transparent 70%);border-radius:0 12px 12px 0;padding:10px 16px}
+body.ct #app h3{color:var(--course)}
+body.ct .card,body.ct .qcard{border-top:3px solid color-mix(in srgb,var(--course) 55%,var(--line))}
+body.ct .ccards .card:nth-child(1){border-top-color:#ef4444;background:linear-gradient(180deg,color-mix(in srgb,#ef4444 6%,var(--panel)),var(--panel) 60%)}
+body.ct .ccards .card:nth-child(2){border-top-color:#8b5cf6;background:linear-gradient(180deg,color-mix(in srgb,#8b5cf6 6%,var(--panel)),var(--panel) 60%)}
+body.ct .ccards .card:nth-child(3){border-top-color:#0ea5e9;background:linear-gradient(180deg,color-mix(in srgb,#0ea5e9 6%,var(--panel)),var(--panel) 60%)}
+body.ct .ccards .card:nth-child(4){border-top-color:#10b981;background:linear-gradient(180deg,color-mix(in srgb,#10b981 6%,var(--panel)),var(--panel) 60%)}
+body.ct .ccards .stat{color:var(--course)}
+body.ct .item.lc{border-left:3px solid var(--wk)}
+body.ct .item.lc .lnum{background:color-mix(in srgb,var(--wk) 14%,var(--panel));border-color:color-mix(in srgb,var(--wk) 45%,transparent);color:var(--wk)}
+body.ct .item.lc:hover{background:color-mix(in srgb,var(--wk) 6%,var(--panel))}
+body.ct .tbl td:first-child b{color:var(--course)}
+body.ct blockquote.flat{border-left:3px solid var(--course2);background:color-mix(in srgb,var(--course2) 7%,var(--panel))}
+body.ct .chip.ok{background:#dcfce7;color:#15803d}
+.lv1{--lvc:#0ea5e9}.lv2{--lvc:#14b8a6}.lv3{--lvc:#f59e0b}.lv4{--lvc:#8b5cf6}.lv5{--lvc:#ef4444}
+body.ct .btn.lvb{border-color:color-mix(in srgb,var(--lvc) 50%,var(--line2));color:color-mix(in srgb,var(--lvc) 80%,var(--ink));background:color-mix(in srgb,var(--lvc) 8%,var(--panel))}
+body.ct .btn.lvb:hover{background:color-mix(in srgb,var(--lvc) 16%,var(--panel))}
+body.ct .qcard.lvq{border-top-color:var(--lvc)}
+body.ct .qcard.lvq .lvt{color:var(--lvc)}
+body.ct .expl{border-left:3px solid var(--course)}
+body.ct .pbar i.on{background:var(--course)}
+body.ct .note.ok{background:color-mix(in srgb,var(--course) 10%,var(--panel));border-color:color-mix(in srgb,var(--course) 25%,transparent)}
+body.ct .wbwrap{background:linear-gradient(180deg,var(--ctint),var(--panel));border:1px solid color-mix(in srgb,var(--course) 18%,var(--line))}
 </style>
 
 <aside class="side" id="side"></aside>
