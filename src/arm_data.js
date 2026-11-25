@@ -88,7 +88,7 @@ CT.add({id:"arm",code:"GEO4-3120",title:"Advanced Research Methods",short:"ARM",
   {n:12,d:"2027-01-26",title:"Open feedback session",who:"Niki Frantzeskaki",readings:[]}],
  readings:{
   agee:R("Agee 2009",1,"Agee, J. (2009). Developing qualitative research questions: a reflective process. International Journal of Qualitative Studies in Education, 22(4), 431–447.","10.1080/09518390902736512"),
-  miles:R("Miles 2017",1,"Miles, A. D. (2017). A taxonomy of research gaps: Identifying and defining the seven research gaps. Journal of Research Methods and Strategies.","",{where:"Brightspace"}),
+  miles:R("Miles 2017",1,"Miles, D. A. (2017). A taxonomy of research gaps: Identifying and defining the seven research gaps. Doctoral Student Workshop: Finding Research Gaps – Research Methods and Strategies, Dallas, Texas.","",{where:"Brightspace"}),
   raven:R("Ravensbergen & El-Geneidy 2023",1,"Ravensbergen, L., & El-Geneidy, A. (2023). Toward evidence-based urban planning. Journal of the American Planning Association, 89(3), 389–398.","10.1080/01944363.2022.2074872",{optional:true}),
   meyr:R("Meyrick 2006",1,"Meyrick, J. (2006). What is good qualitative research? Journal of Health Psychology.","10.1177/1359105306066643",{optional:true}),
   lepaw:R("Lepawsky et al. 2019",1,"Lepawsky, J., Davis, J.-M., Akese, G., & Persaud, D. (2019). Cooking with controversies: How geographers might use controversy mapping as a research tool. The Professional Geographer, 71(3), 437–448.","10.1080/00330124.2018.1531243",{optional:true}),
