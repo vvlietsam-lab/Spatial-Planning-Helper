@@ -29,7 +29,7 @@ const courseOf=v=>String(v).split("-")[0];
 /* ---------- question banks ---------- */
 function concepts(c){return Object.values(c.readings).flatMap(r=>(r.concepts||[]).map(x=>({t:x[0],d:x[1],p:x[2],r:r.id})));}
 function generated(c){const out=[];const cs=concepts(c);
-  cs.forEach((x,i)=>{const others=cs.filter(y=>y.t!==x.t);if(others.length<3)return;
+  cs.forEach((x,i)=>{const seen=new Set([x.t.toLowerCase()]);const others=cs.filter(y=>{const k=y.t.toLowerCase();if(seen.has(k))return false;seen.add(k);return true;});if(others.length<3)return;
     out.push({k:c.id+"-gd-"+hash(x.t),gen:true,r:x.r,lv:1,q:"Which term matches this definition? “"+x.d+"”",o:[x.t,...pick(others,3).map(y=>y.t)],a:0,e:x.t+": "+x.d,src:x.p});});
   (c.gens||[]).forEach(g=>{for(let i=0;i<(g.n||6);i++){const q=g.make(i);if(q)out.push(Object.assign({gen:true,k:c.id+"-g"+g.id+"-"+i},q));}});
   return out;}
